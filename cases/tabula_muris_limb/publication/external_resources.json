@@ -1,0 +1,156 @@
+{
+  "data_and_intermediate_artifacts": [
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/ca.rds",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/ca.rds",
+      "bytes": 5761828,
+      "sha256": "e769376f42f5fc0eada10cc194c4b00101816bd80b7e6d23a01d0d44a472992f"
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/cadir.rds",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/cadir.rds",
+      "bytes": 27611097,
+      "sha256": "421abea47f76739873625b79076f867ab251ec5859a93c865b702eae154631d2"
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/cadir_annotated.rds",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/cadir_annotated.rds",
+      "bytes": 27611399,
+      "sha256": "d01c804283c0d407a26eafa9a5f949adfdbbccf5e07e3101f467effa2bfee484"
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/cadir_unranked.rds",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/cadir_unranked.rds",
+      "bytes": 27590021,
+      "sha256": "75f24260d7360655c5cb42ec99b0210efcbb1d62cb04d95baac24a03ac922c4a"
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/ca.rds",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/ca.rds",
+      "bytes": 5761828,
+      "sha256": "e769376f42f5fc0eada10cc194c4b00101816bd80b7e6d23a01d0d44a472992f"
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/cadir.rds",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/cadir.rds",
+      "bytes": 21844811,
+      "sha256": "126a197ba5b47dae676f18a2398833d80d5f459cba97b53554cd1ec07cf67a33"
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/cadir_annotated.rds",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/cadir_annotated.rds",
+      "bytes": 21845082,
+      "sha256": "0803c2b9dae0f72be8d16aae3fc62dbcd7bedc8498b40777f5e8a15547caa244"
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/cadir_unranked.rds",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/cadir_unranked.rds",
+      "bytes": 21823635,
+      "sha256": "a65d07a24970dd2cbd7c47539cfea119ba438a9f8c04c91192260ec574d79b1d"
+    },
+    {
+      "path": "/workspace/cadir-research-training/data/tabula_muris_limb_preproc.rds",
+      "relative_to_repo": "data/tabula_muris_limb_preproc.rds",
+      "bytes": 43383527,
+      "sha256": "af643523ccdf49e4931b5a0f8c53e67ba7fb24fbabb2fed7edfecf3b55c51f8b"
+    }
+  ],
+  "upstream_sources_not_committed_as_full_text": [
+    {
+      "original_path": "/workspace/cadir-env/sources/CAdir_results/results/figure2.qmd",
+      "snapshot": "figure2.qmd",
+      "sha256": "a617f10f6d20bdfd32b9f5702186f7269ecb66d68e31124d79ac0d668a47a215",
+      "repository": "https://github.com/VingronLab/CAdir_results",
+      "commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "fixed_url": "https://github.com/VingronLab/CAdir_results/blob/c15b49578bde38b42fd5db2c9830c10dd441ee4c/results/figure2.qmd",
+      "raw_url": "https://raw.githubusercontent.com/VingronLab/CAdir_results/c15b49578bde38b42fd5db2c9830c10dd441ee4c/results/figure2.qmd",
+      "local_snapshot_path": "/workspace/cadir-research-training/cases/tabula_muris_limb/acceptance/2026-10-25/source_check/figure2.qmd",
+      "retained_locally": true,
+      "bytes": 23483
+    },
+    {
+      "original_path": "/workspace/cadir-env/sources/CAdir_results/preprocessing/data_preprocessing.R",
+      "snapshot": "data_preprocessing.R",
+      "sha256": "7442212dc8a47214c8047bf5e1500d525f797013558953d985815f92b4edc13c",
+      "repository": "https://github.com/VingronLab/CAdir_results",
+      "commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "fixed_url": "https://github.com/VingronLab/CAdir_results/blob/c15b49578bde38b42fd5db2c9830c10dd441ee4c/preprocessing/data_preprocessing.R",
+      "raw_url": "https://raw.githubusercontent.com/VingronLab/CAdir_results/c15b49578bde38b42fd5db2c9830c10dd441ee4c/preprocessing/data_preprocessing.R",
+      "local_snapshot_path": "/workspace/cadir-research-training/cases/tabula_muris_limb/acceptance/2026-10-25/source_check/data_preprocessing.R",
+      "retained_locally": true,
+      "bytes": 8446
+    },
+    {
+      "original_path": "/workspace/cadir-env/sources/CAdir_results/download_raw_data/tabula_muris/tabula_muris_limb_save_RAW_data.R",
+      "snapshot": "tabula_muris_limb_save_RAW_data.R",
+      "sha256": "3c53a8707180df4b5fb2c92c60130aa06a064943c3f4fa03f5e082c05e4b3558",
+      "repository": "https://github.com/VingronLab/CAdir_results",
+      "commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "fixed_url": "https://github.com/VingronLab/CAdir_results/blob/c15b49578bde38b42fd5db2c9830c10dd441ee4c/download_raw_data/tabula_muris/tabula_muris_limb_save_RAW_data.R",
+      "raw_url": "https://raw.githubusercontent.com/VingronLab/CAdir_results/c15b49578bde38b42fd5db2c9830c10dd441ee4c/download_raw_data/tabula_muris/tabula_muris_limb_save_RAW_data.R",
+      "local_snapshot_path": "/workspace/cadir-research-training/cases/tabula_muris_limb/acceptance/2026-10-25/source_check/tabula_muris_limb_save_RAW_data.R",
+      "retained_locally": true,
+      "bytes": 314
+    },
+    {
+      "original_path": "/workspace/cadir-env/sources/CAdir/R/celltype_anno.R",
+      "snapshot": "celltype_anno.R",
+      "sha256": "d47dce474ededc54e9d39930375a7a778e90fbed483b79ad3bbbdb3beb88785a",
+      "repository": "https://github.com/VingronLab/CAdir",
+      "commit": "de74a008dfcd0d4fa4f7f93c57aa346892a8d935",
+      "fixed_url": "https://github.com/VingronLab/CAdir/blob/de74a008dfcd0d4fa4f7f93c57aa346892a8d935/R/celltype_anno.R",
+      "raw_url": "https://raw.githubusercontent.com/VingronLab/CAdir/de74a008dfcd0d4fa4f7f93c57aa346892a8d935/R/celltype_anno.R",
+      "local_snapshot_path": "/workspace/cadir-research-training/cases/tabula_muris_limb/acceptance/2026-10-25/source_check/celltype_anno.R",
+      "retained_locally": true,
+      "bytes": 19707
+    },
+    {
+      "original_path": "/workspace/cadir-env/sources/CAdir/LICENSE.md",
+      "snapshot": "CAdir_LICENSE.md",
+      "sha256": "585e25ef8f5946a52bf2aed68d5becfc38be94a8663aa01c1b31d88aa57f1de3",
+      "repository": "https://github.com/VingronLab/CAdir",
+      "commit": "de74a008dfcd0d4fa4f7f93c57aa346892a8d935",
+      "fixed_url": "https://github.com/VingronLab/CAdir/blob/de74a008dfcd0d4fa4f7f93c57aa346892a8d935/LICENSE.md",
+      "raw_url": "https://raw.githubusercontent.com/VingronLab/CAdir/de74a008dfcd0d4fa4f7f93c57aa346892a8d935/LICENSE.md",
+      "local_snapshot_path": "/workspace/cadir-research-training/cases/tabula_muris_limb/acceptance/2026-10-25/source_check/CAdir_LICENSE.md",
+      "retained_locally": true,
+      "bytes": 34904
+    },
+    {
+      "original_path": "/workspace/cadir-env/sources/CAdir/R/data.R",
+      "snapshot": "resource_documentation.R",
+      "sha256": "5718c462bf8c3f696cb7800bb823dddefe9e31d44b1096e5f32154582b915622",
+      "repository": "https://github.com/VingronLab/CAdir",
+      "commit": "de74a008dfcd0d4fa4f7f93c57aa346892a8d935",
+      "fixed_url": "https://github.com/VingronLab/CAdir/blob/de74a008dfcd0d4fa4f7f93c57aa346892a8d935/R/data.R",
+      "raw_url": "https://raw.githubusercontent.com/VingronLab/CAdir/de74a008dfcd0d4fa4f7f93c57aa346892a8d935/R/data.R",
+      "local_snapshot_path": "/workspace/cadir-research-training/cases/tabula_muris_limb/acceptance/2026-10-25/source_check/resource_documentation.R",
+      "retained_locally": true,
+      "bytes": 1429
+    },
+    {
+      "original_path": "/workspace/cadir-research-training/cases/tabula_muris_limb/evidence/author-preprocessing-limb.sh",
+      "retained_locally": true,
+      "bytes": 723,
+      "sha256": "61fe0b1950fd967763b90663782e5d5686df154bdbeb13fd5618f1e1faf0d6f3",
+      "fixed_url": "https://github.com/VingronLab/CAdir_results/blob/c15b49578bde38b42fd5db2c9830c10dd441ee4c/preprocessing/.old/run_preprocessing_tabula_muris.sh"
+    },
+    {
+      "original_path": "/workspace/cadir-env/sources/CAdir/data/cellmarker_v2.rda",
+      "bytes": 1871068,
+      "sha256": "8da2f9daa533ef13731ac415839adefd728c86619a9b00d507280baff3aad09d",
+      "fixed_url": "https://github.com/VingronLab/CAdir/blob/de74a008dfcd0d4fa4f7f93c57aa346892a8d935/data/cellmarker_v2.rda",
+      "role": "Installed annotation resource source; not uploaded here"
+    }
+  ],
+  "runtime_root": "/workspace/cadir-env",
+  "runtime_metadata_in_git": "acceptance/2026-10-25/freeze/",
+  "original_backup": {
+    "path": "/workspace/cadir-deliverables/tabula_muris_limb_acceptance_20261025.zip",
+    "bytes": 4570357,
+    "sha256": "6a0bbd76176bba85e9d5242bb032498f8a3ab87f4f2b32490b519130fef9798f",
+    "in_git": false,
+    "unchanged_original_backup": true
+  },
+  "acquisition_note": "Same-hash RDS must be supplied by the data custodian; no verified public URL. Pinned source URLs and dependency artifact URLs are provided; zero-machine environment restoration is not claimed."
+}

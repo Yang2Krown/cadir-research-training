@@ -1,0 +1,10 @@
+{
+  "reference_column": "cell_ontology_class",
+  "n_total": 1882,
+  "n_evaluated": 1882,
+  "n_excluded_missing_reference": 0,
+  "status": "COMPUTED_ON_ORIGINAL_REFERENCE_LABELS",
+  "ARI": 0.6695,
+  "NMI": 0.7419,
+  "definition": "aricode::clustComp ARI and NMI; package 1.0.3 ; original reference labels only"
+}

@@ -1,0 +1,35 @@
+Warning message:
+package ‘aricode’ was built under R version 4.4.3 
+$status
+[1] "PASS"
+
+$cells
+[1] 1882
+
+$selected_genes
+[1] 6000
+
+$assigned_genes
+[1] 1200
+
+$clusters
+[1] 7
+
+$ARI
+[1] 0.6695187
+
+$NMI
+[1] 0.7418854
+
+$annotation_changes_partition
+[1] FALSE
+
+$previous_run
+[1] "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s"
+
+$repeat_cell_assignments_identical
+[1] TRUE
+
+$repeat_gene_assignments_identical
+[1] TRUE
+

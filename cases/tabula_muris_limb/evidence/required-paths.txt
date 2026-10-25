@@ -1,0 +1,9 @@
+ls: cannot access '/workspace/.cadir-setup': No such file or directory
+ls: cannot access '/workspace/.cadir-setup/START_SKILL.md': No such file or directory
+ls: cannot access '/workspace/.cadir-setup/SOFTWARE.md': No such file or directory
+ls: cannot access '/workspace/.cadir-setup/run-r.sh': No such file or directory
+ls: cannot access '/setup': No such file or directory
+ls: cannot access '/Users/yang2krown/Desktop/科研基础训练/共享任务梳理/首轮复现准备': No such file or directory
+ls: cannot access '/Volumes': No such file or directory
+
+EXIT_CODE=2

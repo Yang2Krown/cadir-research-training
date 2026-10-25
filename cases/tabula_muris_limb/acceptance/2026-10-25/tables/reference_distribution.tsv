@@ -1,0 +1,9 @@
+reference	cells	observed_clusters	dominant_cluster	dominant_count	dominant_fraction	allocation
+B cell	63	1	cluster_3	63	1.0	cluster_3: 63 (100.00%)
+T cell	33	1	cluster_4	33	1.0	cluster_4: 33 (100.00%)
+endothelial cell	206	2	cluster_7	187	0.9077669902912622	cluster_7: 187 (90.78%); cluster_2: 19 (9.22%)
+lymphocyte	59	3	cluster_3	49	0.8305084745762712	cluster_3: 49 (83.05%); cluster_4: 9 (15.25%); cluster_5: 1 (1.69%)
+macrophage	73	1	cluster_5	73	1.0	cluster_5: 73 (100.00%)
+mesenchymal stem cell	495	3	cluster_6	488	0.9858585858585859	cluster_6: 488 (98.59%); cluster_2: 4 (0.81%); cluster_4: 3 (0.61%)
+skeletal muscle satellite cell	534	6	cluster_1	526	0.9850187265917603	cluster_1: 526 (98.50%); cluster_2: 2 (0.37%); cluster_6: 2 (0.37%); cluster_5: 2 (0.37%); cluster_4: 1 (0.19%); cluster_3: 1 (0.19%)
+skeletal muscle satellite stem cell	419	3	cluster_1	414	0.9880668257756563	cluster_1: 414 (98.81%); cluster_2: 3 (0.72%); cluster_4: 2 (0.48%)

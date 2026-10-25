@@ -1,0 +1,58 @@
+[
+  {
+    "repository": "https://github.com/VingronLab/CAdir",
+    "commit": "de74a008dfcd0d4fa4f7f93c57aa346892a8d935",
+    "script": "DESCRIPTION",
+    "sha256": "691753c8a6ee8d100f45ac9d6bc9331ea76f9df1db6fd372cce1e3d195cf0c05",
+    "url": "https://github.com/VingronLab/CAdir/blob/de74a008dfcd0d4fa4f7f93c57aa346892a8d935/DESCRIPTION"
+  },
+  {
+    "repository": "https://github.com/VingronLab/CAdir",
+    "commit": "de74a008dfcd0d4fa4f7f93c57aa346892a8d935",
+    "script": "README.md",
+    "sha256": "61f007e7e9f2506f994c8af0a473cf76c3996c1e67c8c3a65fee2673d00ce3fb",
+    "url": "https://github.com/VingronLab/CAdir/blob/de74a008dfcd0d4fa4f7f93c57aa346892a8d935/README.md"
+  },
+  {
+    "repository": "https://github.com/VingronLab/CAdir",
+    "commit": "de74a008dfcd0d4fa4f7f93c57aa346892a8d935",
+    "script": "R/splitmerge.R",
+    "sha256": "f7e3cc1cf0d045f0e9efa9c0942eea05f624a24c3967c6cf713e72e28dddfea4",
+    "url": "https://github.com/VingronLab/CAdir/blob/de74a008dfcd0d4fa4f7f93c57aa346892a8d935/R/splitmerge.R"
+  },
+  {
+    "repository": "https://github.com/VingronLab/CAdir",
+    "commit": "de74a008dfcd0d4fa4f7f93c57aa346892a8d935",
+    "script": "R/genes.R",
+    "sha256": "cfbfec1e52263c87e9797a4e83c5658aae72098471e72b37a8b208f9cb40e415",
+    "url": "https://github.com/VingronLab/CAdir/blob/de74a008dfcd0d4fa4f7f93c57aa346892a8d935/R/genes.R"
+  },
+  {
+    "repository": "https://github.com/VingronLab/CAdir",
+    "commit": "de74a008dfcd0d4fa4f7f93c57aa346892a8d935",
+    "script": "R/celltype_anno.R",
+    "sha256": "d47dce474ededc54e9d39930375a7a778e90fbed483b79ad3bbbdb3beb88785a",
+    "url": "https://github.com/VingronLab/CAdir/blob/de74a008dfcd0d4fa4f7f93c57aa346892a8d935/R/celltype_anno.R"
+  },
+  {
+    "repository": "https://github.com/VingronLab/CAdir_results",
+    "commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+    "script": "results/figure2.qmd",
+    "sha256": "a617f10f6d20bdfd32b9f5702186f7269ecb66d68e31124d79ac0d668a47a215",
+    "url": "https://github.com/VingronLab/CAdir_results/blob/c15b49578bde38b42fd5db2c9830c10dd441ee4c/results/figure2.qmd"
+  },
+  {
+    "repository": "https://github.com/VingronLab/CAdir_results",
+    "commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+    "script": "preprocessing/data_preprocessing.R",
+    "sha256": "7442212dc8a47214c8047bf5e1500d525f797013558953d985815f92b4edc13c",
+    "url": "https://github.com/VingronLab/CAdir_results/blob/c15b49578bde38b42fd5db2c9830c10dd441ee4c/preprocessing/data_preprocessing.R"
+  },
+  {
+    "repository": "https://github.com/VingronLab/CAdir_results",
+    "commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+    "script": "download_raw_data/tabula_muris/tabula_muris_limb_save_RAW_data.R",
+    "sha256": "3c53a8707180df4b5fb2c92c60130aa06a064943c3f4fa03f5e082c05e4b3558",
+    "url": "https://github.com/VingronLab/CAdir_results/blob/c15b49578bde38b42fd5db2c9830c10dd441ee4c/download_raw_data/tabula_muris/tabula_muris_limb_save_RAW_data.R"
+  }
+]

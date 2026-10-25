@@ -1,0 +1,57 @@
+cluster	reference	count	fraction_within_cluster	fraction_within_reference
+cluster_1	B cell	0	0.0	0.0
+cluster_1	T cell	0	0.0	0.0
+cluster_1	endothelial cell	0	0.0	0.0
+cluster_1	lymphocyte	0	0.0	0.0
+cluster_1	macrophage	0	0.0	0.0
+cluster_1	mesenchymal stem cell	0	0.0	0.0
+cluster_1	skeletal muscle satellite cell	526	0.5595744680851064	0.9850187265917603
+cluster_1	skeletal muscle satellite stem cell	414	0.44042553191489364	0.9880668257756563
+cluster_2	B cell	0	0.0	0.0
+cluster_2	T cell	0	0.0	0.0
+cluster_2	endothelial cell	19	0.6785714285714286	0.09223300970873786
+cluster_2	lymphocyte	0	0.0	0.0
+cluster_2	macrophage	0	0.0	0.0
+cluster_2	mesenchymal stem cell	4	0.14285714285714285	0.00808080808080808
+cluster_2	skeletal muscle satellite cell	2	0.07142857142857142	0.003745318352059925
+cluster_2	skeletal muscle satellite stem cell	3	0.10714285714285714	0.007159904534606206
+cluster_3	B cell	63	0.5575221238938053	1.0
+cluster_3	T cell	0	0.0	0.0
+cluster_3	endothelial cell	0	0.0	0.0
+cluster_3	lymphocyte	49	0.4336283185840708	0.8305084745762712
+cluster_3	macrophage	0	0.0	0.0
+cluster_3	mesenchymal stem cell	0	0.0	0.0
+cluster_3	skeletal muscle satellite cell	1	0.008849557522123894	0.0018726591760299626
+cluster_3	skeletal muscle satellite stem cell	0	0.0	0.0
+cluster_4	B cell	0	0.0	0.0
+cluster_4	T cell	33	0.6875	1.0
+cluster_4	endothelial cell	0	0.0	0.0
+cluster_4	lymphocyte	9	0.1875	0.15254237288135594
+cluster_4	macrophage	0	0.0	0.0
+cluster_4	mesenchymal stem cell	3	0.0625	0.006060606060606061
+cluster_4	skeletal muscle satellite cell	1	0.020833333333333332	0.0018726591760299626
+cluster_4	skeletal muscle satellite stem cell	2	0.041666666666666664	0.00477326968973747
+cluster_5	B cell	0	0.0	0.0
+cluster_5	T cell	0	0.0	0.0
+cluster_5	endothelial cell	0	0.0	0.0
+cluster_5	lymphocyte	1	0.013157894736842105	0.01694915254237288
+cluster_5	macrophage	73	0.9605263157894737	1.0
+cluster_5	mesenchymal stem cell	0	0.0	0.0
+cluster_5	skeletal muscle satellite cell	2	0.02631578947368421	0.003745318352059925
+cluster_5	skeletal muscle satellite stem cell	0	0.0	0.0
+cluster_6	B cell	0	0.0	0.0
+cluster_6	T cell	0	0.0	0.0
+cluster_6	endothelial cell	0	0.0	0.0
+cluster_6	lymphocyte	0	0.0	0.0
+cluster_6	macrophage	0	0.0	0.0
+cluster_6	mesenchymal stem cell	488	0.9959183673469387	0.9858585858585859
+cluster_6	skeletal muscle satellite cell	2	0.004081632653061225	0.003745318352059925
+cluster_6	skeletal muscle satellite stem cell	0	0.0	0.0
+cluster_7	B cell	0	0.0	0.0
+cluster_7	T cell	0	0.0	0.0
+cluster_7	endothelial cell	187	1.0	0.9077669902912622
+cluster_7	lymphocyte	0	0.0	0.0
+cluster_7	macrophage	0	0.0	0.0
+cluster_7	mesenchymal stem cell	0	0.0	0.0
+cluster_7	skeletal muscle satellite cell	0	0.0	0.0
+cluster_7	skeletal muscle satellite stem cell	0	0.0	0.0

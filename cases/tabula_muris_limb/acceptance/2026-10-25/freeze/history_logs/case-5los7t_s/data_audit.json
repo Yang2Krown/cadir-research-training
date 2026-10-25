@@ -1,0 +1,61 @@
+{
+  "class": "SingleCellExperiment",
+  "dimensions": [13204, 1882],
+  "assays": [
+    {
+      "name": "counts",
+      "class": "dgCMatrix",
+      "dimensions": [13204, 1882],
+      "finite": true,
+      "min": 0,
+      "max": 1242300,
+      "nonzero": 4312220,
+      "zero_fraction": 0.8265
+    },
+    {
+      "name": "logcounts",
+      "class": "dgCMatrix",
+      "dimensions": [13204, 1882],
+      "finite": true,
+      "min": 0,
+      "max": 23.039,
+      "nonzero": 4312220,
+      "zero_fraction": 0.8265
+    }
+  ],
+  "colData_columns": ["cell", "plate_barcode", "mouse_id", "tissue", "subtissue", "FACS_selection", "mouse_sex", "method", "cell_ontology_class", "cell_ontology_id", "free_annotation", "sum", "detected", "subsets_Mito_sum", "subsets_Mito_detected", "subsets_Mito_percent", "total", "discard", "sizeFactor", "scDblFinder.cluster", "scDblFinder.class", "scDblFinder.score", "scDblFinder.weighted", "scDblFinder.difficulty", "scDblFinder.cxds_score", "scDblFinder.mostLikelyOrigin", "scDblFinder.originAmbiguous"],
+  "rowData_columns": ["ID", "Symbol", "SYMBOL", "scDblFinder.selected"],
+  "reduced_dimensions": ["PCA", "UMAP"],
+  "size_factor_summary": {
+    "Min.": 0.0075,
+    "1st Qu.": 0.4699,
+    "Median": 0.9133,
+    "Mean": 1,
+    "3rd Qu.": 1.3679,
+    "Max.": 6.8339
+  },
+  "gene_ids_unique": true,
+  "cell_ids_unique": true,
+  "normalization_action": "None. Existing logcounts are used unchanged. Presence is not proof of exact original preprocessing provenance.",
+  "preprocessing_evidence": {
+    "logcounts_consistency": {
+      "checked_entries": 10000,
+      "formula": "log2(counts / existing sizeFactor + 1)",
+      "max_absolute_error": 1.7764e-15,
+      "scope": "Diagnostic calculation on a deterministic grid only; existing assays were not changed."
+    },
+    "discard": {
+      "FALSE": 1882
+    },
+    "scDblFinder.class": {
+      "doublet": 55,
+      "singlet": 1827
+    }
+  },
+  "reference_source": "Only the original cell_ontology_class column is eligible; clusters and predicted annotation are never reference labels.",
+  "reference_nonmissing": 1882,
+  "reference_classes": 8,
+  "tissue_counts": {
+    "Limb_Muscle": 1882
+  }
+}

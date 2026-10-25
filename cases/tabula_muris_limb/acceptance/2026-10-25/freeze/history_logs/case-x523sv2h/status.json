@@ -1,0 +1,20 @@
+{
+  "started_utc": "2026-10-25T09:22:25.808373+00:00",
+  "run_directory": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-x523sv2h",
+  "mode": "real_case",
+  "data_audit": "not_started",
+  "single_case": "not_started",
+  "paper_reproduction": "not_established",
+  "required_runtime": {
+    "START_SKILL.md": false,
+    "SOFTWARE.md": false,
+    "run-r.sh": false
+  },
+  "status": "BLOCKED_INPUT_MISSING",
+  "error": "Required input unavailable: /workspace/cadir-research-training/data/tabula_muris_limb_preproc.rds",
+  "exit_code": 1,
+  "elapsed_seconds": 0.00014492500008600473,
+  "launcher_children_max_rss_KiB_linux": null,
+  "launcher_started": false,
+  "resource_scope": "Launcher child usage excludes the inner Docker R process. True R peak is r_peak_rss_KiB_linux from /proc/self/status inside R; stage peaks are sampled RSS, not algorithm benchmarks."
+}

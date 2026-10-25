@@ -1,0 +1,39 @@
+{
+  "assemble_input.py": "Python syntax PASS",
+  "check_environment.py": "Python syntax PASS",
+  "collect_outputs.py": "Python syntax PASS",
+  "rerun.sh": "Shell syntax PASS",
+  "run-r.sh": "Shell syntax PASS",
+  "run_case.py": "Python syntax PASS",
+  "sample_rss.sh": "Shell syntax PASS",
+  "config": "JSON parse PASS",
+  "R_pipeline": {
+    "execution": "PASS",
+    "run": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s",
+    "verification": {
+      "status": "PASS",
+      "cells": 1882,
+      "selected_genes": 6000,
+      "assigned_genes": 1200,
+      "clusters": 7,
+      "ARI": 0.669518704486352,
+      "NMI": 0.741885423115482,
+      "annotation_changes_partition": false,
+      "previous_run": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s",
+      "repeat_cell_assignments_identical": true,
+      "repeat_gene_assignments_identical": true
+    }
+  },
+  "script_sha256": {
+    "assemble_input.py": "d11f96eee688e445d1c47c64647eab595c97ce06a5e1a00a4ef1193e8106cca7",
+    "check_environment.py": "49d0439b40ac4e38565471bfd99ce4ce7c59ec2ea6e3ed42c84f80d7d5160950",
+    "collect_outputs.py": "918879104941ce2c864909a7899b9c3bdfd52cf5baaff151178326204aa6f2a8",
+    "pipeline.R": "9cd80aae7e616deb5659e5bddb0e2c568136e67baf9085ffa14489b07c380fb8",
+    "rerun.sh": "cad687b065b564dccb4fa2d14bd2308a12b799e6212a70dad467103b79054efd",
+    "run-r.sh": "bc5d9d59f405049bb9a78ade74d6921d905b2ea44dcdbc7fcded035e2e6e8669",
+    "run_case.py": "2743e614a50a75735b1a943ec5520bc0f84b4e25a1dbe0e4a4bb5d2669c9aafa",
+    "sample_rss.sh": "468d7e51957fccc077c8ebe04be44b4b614258491a48a669a10449ab65946194",
+    "verify_results.R": "5cfd1302e8999306e08e9de6dba947718bf099deb20d7f7e5650ecabe8e5f7d5",
+    "versions.R": "7bf4e4853f0fa84f33cfb3492635b457b8521d0818ac91b59b889199c78d3ef4"
+  }
+}

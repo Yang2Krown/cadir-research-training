@@ -1,0 +1,9 @@
+# Keep these immutable local references and the original backup archive.
+# Git publication includes fixed URLs and hashes, not complete upstream source.
+/figure2.qmd
+/data_preprocessing.R
+/tabula_muris_limb_save_RAW_data.R
+/celltype_anno.R
+/resource_documentation.R
+# This GitHub commit response contains upstream diff bodies.
+/results_main_commit.json

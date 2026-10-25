@@ -1,0 +1,20 @@
+{
+  "parts": [
+    {
+      "path": "/workspace/attachments/b0be9f86-be6d-466c-a665-f4f267a2b180/tabula_muris_limb_preproc.rds.part01.bin",
+      "bytes": 25165824,
+      "sha256": "410503d2dcbf11b3a1d01a3971cbd64e33e244d5f659e0c8dfd53a18ba739fde"
+    },
+    {
+      "path": "/workspace/attachments/c9cd077c-cbf1-4f52-ba16-4dbd14714163/tabula_muris_limb_preproc.rds.part02.bin",
+      "bytes": 18217703,
+      "sha256": "6523a4aadfb9e11c877eff817f46410e1c8d474bca1d3160673e622a2ed9c53e"
+    }
+  ],
+  "expected_bytes": 43383527,
+  "expected_sha256": "af643523ccdf49e4931b5a0f8c53e67ba7fb24fbabb2fed7edfecf3b55c51f8b",
+  "actual_bytes": 43383527,
+  "actual_sha256": "af643523ccdf49e4931b5a0f8c53e67ba7fb24fbabb2fed7edfecf3b55c51f8b",
+  "verified": true,
+  "output_path": "/workspace/cadir-research-training/data/tabula_muris_limb_preproc.rds"
+}

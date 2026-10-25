@@ -1,0 +1,29 @@
+{
+  "assemble_input.py": "Python syntax PASS",
+  "check_environment.py": "Python syntax PASS",
+  "run_case.py": "Python syntax PASS",
+  "run-r.sh": {
+    "shell_syntax_exit": 0,
+    "error": ""
+  },
+  "sample_rss.sh": {
+    "shell_syntax_exit": 0,
+    "error": ""
+  },
+  "config.json": "JSON parse PASS",
+  "rss_sampler": {
+    "exit_code": 0,
+    "positive_samples": 4,
+    "scope": "Python process used to test sampler termination; not R or method memory"
+  },
+  "script_sha256": {
+    "assemble_input.py": "d11f96eee688e445d1c47c64647eab595c97ce06a5e1a00a4ef1193e8106cca7",
+    "run-r.sh": "7bbbc8debb3b4dc73e258c2b650495474835e512c896dae676fb00ad75ba4bdd",
+    "pipeline.R": "edb5eb6bcc448c8f07fcc70efcf8cc5b02d7bb708290bfbd1231bdf538ed6429",
+    "check_environment.py": "f7c082ff2c8bd0c87d7518774609ca5e48ce5382326a22e87877a8f6dfe0b4d4",
+    "sample_rss.sh": "468d7e51957fccc077c8ebe04be44b4b614258491a48a669a10449ab65946194",
+    "versions.R": "50dface2833b4970f65010ca2f20a3ae0b05a46a5d51220ed43c80e95bb50558",
+    "run_case.py": "3bd468dbe1c8f6eeabe86647e930595cf638b03780b1f9ea900198f42ea14a28"
+  },
+  "R_pipeline": "NOT_EXECUTED: required Docker runtime missing"
+}

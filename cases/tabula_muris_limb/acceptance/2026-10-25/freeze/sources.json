@@ -1,0 +1,26 @@
+[
+  {
+    "package": "CAdir",
+    "url": "https://github.com/VingronLab/CAdir",
+    "commit": "de74a008dfcd0d4fa4f7f93c57aa346892a8d935",
+    "DESCRIPTION_sha256": "691753c8a6ee8d100f45ac9d6bc9331ea76f9df1db6fd372cce1e3d195cf0c05"
+  },
+  {
+    "package": "APL",
+    "url": "https://github.com/VingronLab/APL",
+    "commit": "d4d1f40d9ea9f1d9a95b224d45de843334cd617d",
+    "DESCRIPTION_sha256": "50cf874492266b150987d4f67a87529e868d0dfb4b897336226837f589c80a18"
+  },
+  {
+    "package": "CAbiNet",
+    "url": "https://github.com/VingronLab/CAbiNet",
+    "commit": "329c03298c5afc31a2b1fe3fa19b0fdd9f816d0b",
+    "DESCRIPTION_sha256": "ee480c6fd01a6f53dc3990f25e12baa0e2a11ed2ed8f16e9886221e29b9e0695"
+  },
+  {
+    "package": "ggsankey",
+    "url": "https://github.com/davidsjoberg/ggsankey",
+    "commit": "b675d0d5144b1b5758d3b2b41e86ceee66a1e071",
+    "DESCRIPTION_sha256": "b86fa4c247115d0646fcafefcd32dc073ee25579f151a3411aca0b05dfcd0b2a"
+  }
+]

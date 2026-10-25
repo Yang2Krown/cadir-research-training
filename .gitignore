@@ -48,3 +48,22 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Research inputs, serialized results, runtimes and caches are never committed.
+/data/
+*.rds
+*.RDS
+*.rda
+*.RData
+*.h5
+*.h5ad
+*.loom
+*.tar.gz
+*.zip
+/cadir-env/
+/.cadir-setup/
+/attachments/
+
+# Preserve raw runs locally; publish only curated small tables, logs and figures.
+/cases/tabula_muris_limb/runs/
+__pycache__/

@@ -1,0 +1,8 @@
+cluster	cells	dominant_reference	dominant_count	dominant_fraction	observed_reference_classes	composition
+cluster_1	940	skeletal muscle satellite cell	526	0.5595744680851064	2	skeletal muscle satellite cell: 526 (55.96%); skeletal muscle satellite stem cell: 414 (44.04%)
+cluster_2	28	endothelial cell	19	0.6785714285714286	4	endothelial cell: 19 (67.86%); mesenchymal stem cell: 4 (14.29%); skeletal muscle satellite stem cell: 3 (10.71%); skeletal muscle satellite cell: 2 (7.14%)
+cluster_3	113	B cell	63	0.5575221238938053	3	B cell: 63 (55.75%); lymphocyte: 49 (43.36%); skeletal muscle satellite cell: 1 (0.88%)
+cluster_4	48	T cell	33	0.6875	5	T cell: 33 (68.75%); lymphocyte: 9 (18.75%); mesenchymal stem cell: 3 (6.25%); skeletal muscle satellite stem cell: 2 (4.17%); skeletal muscle satellite cell: 1 (2.08%)
+cluster_5	76	macrophage	73	0.9605263157894737	3	macrophage: 73 (96.05%); skeletal muscle satellite cell: 2 (2.63%); lymphocyte: 1 (1.32%)
+cluster_6	490	mesenchymal stem cell	488	0.9959183673469387	2	mesenchymal stem cell: 488 (99.59%); skeletal muscle satellite cell: 2 (0.41%)
+cluster_7	187	endothelial cell	187	1.0	1	endothelial cell: 187 (100.00%)

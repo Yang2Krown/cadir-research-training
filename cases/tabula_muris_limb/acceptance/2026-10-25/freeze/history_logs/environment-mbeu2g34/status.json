@@ -1,0 +1,21 @@
+{
+  "started_utc": "2026-10-25T09:18:07.342153+00:00",
+  "run_directory": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/environment-mbeu2g34",
+  "target_environment": "not_verified",
+  "legacy_runtime_substituted": false,
+  "resources": {
+    "exit_code": 0,
+    "elapsed_seconds": 0.009167176000005384,
+    "command": [
+      "bash",
+      "-c",
+      "lscpu; free -b; df -B1 /workspace /tmp; cat /sys/fs/cgroup/cpu.max /sys/fs/cgroup/memory.max"
+    ]
+  },
+  "missing_required_files": [
+    "/workspace/.cadir-setup/START_SKILL.md",
+    "/workspace/.cadir-setup/SOFTWARE.md",
+    "/workspace/.cadir-setup/run-r.sh"
+  ],
+  "status": "BLOCKED_SETUP_MISSING"
+}

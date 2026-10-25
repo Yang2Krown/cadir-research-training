@@ -1,0 +1,9 @@
+来源：共享原文 PDF 第23页，DOI 10.1371/journal.pcbi.1014418
+
+Discussed data. The Tabula Muris Limb Muscle and PBMC3k data sets discussed in the results were processed as 
+following: We downloaded the Smartseq2 Tabula Muris data with the Bioconductor package TabulaMurisData [28] and 
+subsetted it to the Limb Muscle tissue. It was processed as described above and then subset to the 6000 most highly 
+variable genes using the R package scran, resulting in a data set with 1882 cells and 6000 genes. We performed CA using 
+the package APL and kept the first 30 dimensions. Subsequently, the data was clustered using CAdir with k = 8 and the angle 
+cutoff set to 55 degrees. Cells were annotated by gene set overrepresentation analysis using the CellMarker 2.0 gene set.
+

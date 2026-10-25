@@ -1,0 +1,8 @@
+cluster	predicted_annotation	source
+cluster_1	cluster_1	CAdir::cellmarker_v2; GOA; predicted only
+cluster_2	Vascular_endothelial_cell	CAdir::cellmarker_v2; GOA; predicted only
+cluster_3	B_cell	CAdir::cellmarker_v2; GOA; predicted only
+cluster_4	T_cell	CAdir::cellmarker_v2; GOA; predicted only
+cluster_5	Macrophage	CAdir::cellmarker_v2; GOA; predicted only
+cluster_6	Schwalie_et_al.Nature.P1	CAdir::cellmarker_v2; GOA; predicted only
+cluster_7	Endothelial_cell	CAdir::cellmarker_v2; GOA; predicted only

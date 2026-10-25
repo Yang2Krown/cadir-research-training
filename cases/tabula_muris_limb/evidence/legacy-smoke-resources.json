@@ -1,0 +1,8 @@
+{
+  "run_directory": "/workspace/cadir-env/runs/smoke-6w7818zg",
+  "exit_code": 0,
+  "elapsed_seconds": 12.683554033000007,
+  "max_rss_KiB_linux": 1186356,
+  "scope": "Whole Rscript including package loading; engineering diagnostic only, not a paper reproduction or algorithm benchmark.",
+  "png_sha256": "431ebfd6f4c55f78297bc1507afc0447ea2f3345938652ee3cea3c82214d4415"
+}

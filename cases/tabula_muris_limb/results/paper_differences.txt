@@ -1,0 +1,3 @@
+CPU R CA (python=FALSE); author Figure 2 uses python=TRUE.
+Input name differs from Figure 2; exact preprocessing equivalence requires source documentation.
+Author tabula_muris_marker_genes.csv unavailable: HVGs only; marker augmentation not reproduced.

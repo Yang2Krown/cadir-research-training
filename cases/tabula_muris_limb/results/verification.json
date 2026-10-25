@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "cells": 1882,
+  "selected_genes": 6000,
+  "assigned_genes": 1200,
+  "clusters": 7,
+  "ARI": 0.669518704486352,
+  "NMI": 0.741885423115482,
+  "annotation_changes_partition": false,
+  "previous_run": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s",
+  "repeat_cell_assignments_identical": true,
+  "repeat_gene_assignments_identical": true
+}

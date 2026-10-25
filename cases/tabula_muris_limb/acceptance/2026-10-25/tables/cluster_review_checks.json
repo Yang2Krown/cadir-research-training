@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "counts_shape": [
+    7,
+    8
+  ],
+  "total_cells": 1882,
+  "rows_sum_to_one": true,
+  "columns_sum_to_one": true,
+  "reference_use": "Post hoc description only; no reclustering or prediction renaming.",
+  "baseline_cells_sha256_source": "freeze/baseline_manifest.json"
+}

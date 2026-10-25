@@ -1,0 +1,15 @@
+{
+  "author_commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+  "exact_marker_csv_in_author_tree": [],
+  "csv_paths_in_author_tree": [
+    "benchmarking/algorithms/scDBic/demo_dataset.csv"
+  ],
+  "course_materials_checked": [
+    "/workspace/attachments",
+    "/workspace/shared",
+    "/workspace/library-files",
+    "/workspace/scratch"
+  ],
+  "local_marker_csv_matches": [],
+  "status": "MISSING_AUTHOR_FIGURE2_MARKER_CSV; HVG-only case will record the omission"
+}

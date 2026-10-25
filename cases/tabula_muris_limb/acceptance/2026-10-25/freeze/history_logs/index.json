@@ -1,0 +1,132 @@
+[
+  {
+    "run": "case-5los7t_s",
+    "original_path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s",
+    "copied_key_logs": [
+      "CA_rss_samples_KiB.txt",
+      "CA_sampler.log",
+      "CAdir_rss_samples_KiB.txt",
+      "CAdir_sampler.log",
+      "annotation_resources.json",
+      "annotation_rss_samples_KiB.txt",
+      "annotation_sampler.log",
+      "audit_rss_samples_KiB.txt",
+      "audit_sampler.log",
+      "config.json",
+      "console.log",
+      "data_audit.json",
+      "exports_ranking_plots_rss_samples_KiB.txt",
+      "exports_ranking_plots_sampler.log",
+      "input_integrity.json",
+      "installed_packages.tsv",
+      "metrics.json",
+      "modelGeneVar_rss_samples_KiB.txt",
+      "modelGeneVar_sampler.log",
+      "r_status.json",
+      "readRDS_rss_samples_KiB.txt",
+      "readRDS_sampler.log",
+      "required_version_check.tsv",
+      "runtime_config.json",
+      "selection.json",
+      "sessionInfo.txt",
+      "stage_times_seconds.json",
+      "status.json"
+    ]
+  },
+  {
+    "run": "case-hrj6sx0g",
+    "original_path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-hrj6sx0g",
+    "copied_key_logs": [
+      "audit_rss_samples_KiB.txt",
+      "audit_sampler.log",
+      "config.json",
+      "console.log",
+      "data_audit.json",
+      "input_integrity.json",
+      "installed_packages.tsv",
+      "r_status.json",
+      "readRDS_rss_samples_KiB.txt",
+      "readRDS_sampler.log",
+      "required_version_check.tsv",
+      "runtime_config.json",
+      "sessionInfo.txt",
+      "stage_times_seconds.json",
+      "status.json"
+    ]
+  },
+  {
+    "run": "case-ppkaow9s",
+    "original_path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s",
+    "copied_key_logs": [
+      "CA_rss_samples_KiB.txt",
+      "CA_sampler.log",
+      "CAdir_rss_samples_KiB.txt",
+      "CAdir_sampler.log",
+      "annotation_resources.json",
+      "annotation_rss_samples_KiB.txt",
+      "annotation_sampler.log",
+      "audit_rss_samples_KiB.txt",
+      "audit_sampler.log",
+      "config.json",
+      "console.log",
+      "data_audit.json",
+      "exports_ranking_plots_rss_samples_KiB.txt",
+      "exports_ranking_plots_sampler.log",
+      "input_integrity.json",
+      "installed_packages.tsv",
+      "metrics.json",
+      "modelGeneVar_rss_samples_KiB.txt",
+      "modelGeneVar_sampler.log",
+      "r_status.json",
+      "readRDS_rss_samples_KiB.txt",
+      "readRDS_sampler.log",
+      "required_version_check.tsv",
+      "runtime_config.json",
+      "selection.json",
+      "sessionInfo.txt",
+      "stage_times_seconds.json",
+      "status.json",
+      "verification.json",
+      "verification.log"
+    ]
+  },
+  {
+    "run": "case-qgx9q1ac",
+    "original_path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-qgx9q1ac",
+    "copied_key_logs": [
+      "config.json",
+      "console.log",
+      "status.json"
+    ]
+  },
+  {
+    "run": "case-x523sv2h",
+    "original_path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-x523sv2h",
+    "copied_key_logs": [
+      "config.json",
+      "console.log",
+      "status.json"
+    ]
+  },
+  {
+    "run": "environment-lvscv1j4",
+    "original_path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/environment-lvscv1j4",
+    "copied_key_logs": [
+      "resources.log",
+      "sources.json",
+      "status.json",
+      "synthetic-console.log",
+      "synthetic-resources.json",
+      "synthetic_smoke.log",
+      "versions.log"
+    ]
+  },
+  {
+    "run": "environment-mbeu2g34",
+    "original_path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/environment-mbeu2g34",
+    "copied_key_logs": [
+      "resources.log",
+      "status.json"
+    ]
+  }
+]

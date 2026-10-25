@@ -1,0 +1,52 @@
+{
+  "case": "Tabula Muris Limb Muscle",
+  "data_path": "/workspace/cadir-research-training/data/tabula_muris_limb_preproc.rds",
+  "expected_bytes": 43383527,
+  "expected_sha256": "af643523ccdf49e4931b5a0f8c53e67ba7fb24fbabb2fed7edfecf3b55c51f8b",
+  "expected_cells_context_only": 1882,
+  "seed": 2358,
+  "hvg_n": 6000,
+  "marker_csv": null,
+  "reference_column": "cell_ontology_class",
+  "assay": "logcounts",
+  "required_versions": {
+    "APL": "1.2.0",
+    "CAbiNet": "0.99.2",
+    "CAdir": "0.0.99",
+    "SingleCellExperiment": "1.26.0",
+    "scran": "1.32.0",
+    "scater": "1.32.1",
+    "scuttle": "1.14.0",
+    "aricode": "1.1.0"
+  },
+  "ca": {
+    "princ_coords": 3,
+    "dims": 30,
+    "residuals": "pearson",
+    "python": false
+  },
+  "cadir": {
+    "k": 8,
+    "cutoff": 55,
+    "method": "random",
+    "apl_quant": 0.99,
+    "counts": null,
+    "min_cells": 20,
+    "epochs": null,
+    "reps": null,
+    "make_plots": true,
+    "qcutoff": 0.8,
+    "convergence_thr": 0.001,
+    "max_iter": 50,
+    "init": "kmeanspp",
+    "keep_log": true,
+    "apl_cutoff_reps": 100
+  },
+  "annotation": {
+    "enabled": true,
+    "organism": "mm",
+    "set": "CellMarker"
+  },
+  "audit_only": false,
+  "mode": "real_case"
+}

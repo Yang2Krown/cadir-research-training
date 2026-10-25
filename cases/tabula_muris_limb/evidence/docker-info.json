@@ -1,0 +1,11 @@
+{
+  "ServerVersion": "28.4.0",
+  "OperatingSystem": "Debian GNU/Linux 13 (trixie) (containerized)",
+  "Architecture": "x86_64",
+  "NCPU": 3,
+  "MemTotal": 10452471808,
+  "Images": 0,
+  "Containers": 0,
+  "DockerRootDir": "/var/lib/docker",
+  "Driver": "vfs"
+}

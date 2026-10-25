@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "saved_annotations_reproduced": true,
+  "clustering_repeated": false,
+  "resource_records": 35197,
+  "supplied_universe": 6000,
+  "resource_union_in_universe": 3366,
+  "alpha": 0.05,
+  "min_size": 10,
+  "max_size": 500,
+  "filter_literature": false,
+  "cost": "logpval",
+  "top_candidates_per_cluster": 7,
+  "significance_scope": "Upstream compute_goa: BH within each cluster over eligible gene sets with positive overlap; background is union of all resource genes intersected with the supplied universe before size filtering.",
+  "hungarian_scope": "Missing cluster/set entries in the joint candidate matrix have cost 0; assignment is followed by alpha=0.05 gating."
+}

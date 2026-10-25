@@ -1,0 +1,1104 @@
+{
+  "input_and_large_intermediates_are_not_packaged": true,
+  "artifacts": [
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/CA_rss_samples_KiB.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/CA_rss_samples_KiB.txt",
+      "bytes": 888,
+      "sha256": "b6362821cbd6a5d701eaae94e1fa030f57cc9d3482785ec802bcb048d186c453",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/CA_sampler.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/CA_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/CAdir_rss_samples_KiB.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/CAdir_rss_samples_KiB.txt",
+      "bytes": 488,
+      "sha256": "911e889aadb8d6fe062e63fae021382c208235e2c892c2894df73599eac9fbe9",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/CAdir_sampler.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/CAdir_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/annotation_resources.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/annotation_resources.json",
+      "bytes": 104,
+      "sha256": "2d4947b1dc5d2d98a16f681ea7ebb57ac0336f8c88446ae4cc36aecefcd847af",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/annotation_rss_samples_KiB.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/annotation_rss_samples_KiB.txt",
+      "bytes": 168,
+      "sha256": "1a3c04896fc5a62b14f5c76d3f5cf20cd72dd278702cdf1bccb50ca318770ec0",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/annotation_sampler.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/annotation_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/association_plots.pdf",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/association_plots.pdf",
+      "bytes": 2318493,
+      "sha256": "a605777bee720e3e1932ee66419ea883afa87180bc30acba6c059794d24eff9a",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/association_plots.png",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/association_plots.png",
+      "bytes": 697231,
+      "sha256": "b92f59fbe4edc8c69d99cf799258225c28e91ebc5eac6c036768e5d5515dba6a",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/audit_rss_samples_KiB.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/audit_rss_samples_KiB.txt",
+      "bytes": 368,
+      "sha256": "c074204154be758273de1d944acde77c8361d9ade7af53c15eb0df6d3499c440",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/audit_sampler.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/audit_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/ca.rds",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/ca.rds",
+      "bytes": 5761828,
+      "sha256": "e769376f42f5fc0eada10cc194c4b00101816bd80b7e6d23a01d0d44a472992f",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/ca_cell_coordinates.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/ca_cell_coordinates.tsv",
+      "bytes": 1130848,
+      "sha256": "3864b5e0ccc8fda1ad4680e6d80937531543f92f20c5114fac55326cf3a9efd7",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/ca_clusters.png",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/ca_clusters.png",
+      "bytes": 94760,
+      "sha256": "8892f9e211232857fbfd3dda04f53080d0abef25eaa4d2bffa2c5f6379e8346b",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/ca_gene_coordinates.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/ca_gene_coordinates.tsv",
+      "bytes": 3473226,
+      "sha256": "151e1d267cadc2885c74bd68ee0fd19f551bd19870ea5198d177625253b8ad47",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/cadir.rds",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/cadir.rds",
+      "bytes": 27611097,
+      "sha256": "421abea47f76739873625b79076f867ab251ec5859a93c865b702eae154631d2",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/cadir_annotated.rds",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/cadir_annotated.rds",
+      "bytes": 27611399,
+      "sha256": "d01c804283c0d407a26eafa9a5f949adfdbbccf5e07e3101f467effa2bfee484",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/cadir_unranked.rds",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/cadir_unranked.rds",
+      "bytes": 27590021,
+      "sha256": "75f24260d7360655c5cb42ec99b0210efcbb1d62cb04d95baac24a03ac922c4a",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/cell_clusters.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/cell_clusters.tsv",
+      "bytes": 120547,
+      "sha256": "a1d28de354ebcf2d89d488e83872688afd2234985cb3577f234d6bb4fe5eb030",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/cell_metadata.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/cell_metadata.tsv",
+      "bytes": 614792,
+      "sha256": "0a0f5cbbcaeb5c35ce409f61d9446c8ee9c6d594bfe8f59962d05579d1ce6a3d",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/cluster_reference_contingency.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/cluster_reference_contingency.tsv",
+      "bytes": 1932,
+      "sha256": "338895a43ffd4b838eac6b09976bb44c29f0015dc19e962c72e355c1b26137c0",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/cluster_sizes.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/cluster_sizes.tsv",
+      "bytes": 164,
+      "sha256": "e2dc11c9b91ce0154459e141241597595f1d793e575d4df7e663da49009904f7",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/coclustered_gene_ranks.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/coclustered_gene_ranks.tsv",
+      "bytes": 54539,
+      "sha256": "e38264e1523e3b49398d02ba8f3131cbdedd8f647043b40eeac3d2fa6a4aced6",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/config.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/config.json",
+      "bytes": 1252,
+      "sha256": "a2c63a4e17d3292d5fc65c5d9e02fcb2dbdb25b299be825c5bdd1193c99f4428",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/console.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/console.log",
+      "bytes": 329,
+      "sha256": "62af15fd0e2588ffb4d3e4011d861206494019842810611683a8ad7e9f67a222",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/data_audit.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/data_audit.json",
+      "bytes": 2176,
+      "sha256": "8da2d1fccfcb9471d7c7a980bc49f0fede4ad09d84e11d20be0f0fa211fd741a",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/effective_cadir_parameters.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/effective_cadir_parameters.txt",
+      "bytes": 15049725,
+      "sha256": "9b05c3ba25e4fa539099d7f0bdcbf89270025aff9550ca7c5266c3bf7f61c7be",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/exports_ranking_plots_rss_samples_KiB.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/exports_ranking_plots_rss_samples_KiB.txt",
+      "bytes": 936,
+      "sha256": "6f3d254d6354d84f74f1ab0fb2da77980c6cad95b1b768ac73e33a4a0b4dd313",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/exports_ranking_plots_sampler.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/exports_ranking_plots_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/gene_clusters.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/gene_clusters.tsv",
+      "bytes": 81174,
+      "sha256": "b5f433723a2035c15fde1913c245546887199dae455f80196d9660235db71a21",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/gene_metadata.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/gene_metadata.tsv",
+      "bytes": 545928,
+      "sha256": "5b8730a3359d69af09a339ddd19f06e2c9c9baecbb0f614c6ed1affe8954fb50",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/gene_variance.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/gene_variance.tsv",
+      "bytes": 1523966,
+      "sha256": "4ed0021dcf434fc7f03829d0a30e89483c5b6f718a619aee975d8dd0e8675d89",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/hvg_genes.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/hvg_genes.tsv",
+      "bytes": 52364,
+      "sha256": "a9ac1b09f77e24dda2c20d65251f8fde27ce8bde579327498fdac3106b8815f3",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/input_integrity.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/input_integrity.json",
+      "bytes": 187,
+      "sha256": "39a21943c3a7fa67744ad6088fff86f25e373d9a93663afed3dc5eed5189f5f7",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/installed_packages.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/installed_packages.tsv",
+      "bytes": 9202,
+      "sha256": "a87be7e7a7e94b27b9eceaef49b99e635a72790dc1569cb4dffef3ab97845b76",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/metadata.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/metadata.txt",
+      "bytes": 3166,
+      "sha256": "1cf5fd800b927ed4f4445b093a31333fba3f13482a9448ecb176241600fb421c",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/metrics.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/metrics.json",
+      "bytes": 312,
+      "sha256": "d67d22ca1841f966580998e2e8550dd5ca180de9f22cc6b4c13ba772c20b2ae7",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/modelGeneVar_rss_samples_KiB.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/modelGeneVar_rss_samples_KiB.txt",
+      "bytes": 40,
+      "sha256": "b2ffc89480c2a2a0a8555cbdcdfc7f84b21ae130becd7d56f1195dee155342ec",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/modelGeneVar_sampler.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/modelGeneVar_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/object_structure.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/object_structure.txt",
+      "bytes": 798,
+      "sha256": "e00d9718506e0dd1f4969756f88f521b4c6e0a693b83388d8b2f6d76304bcf91",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/paper_differences.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/paper_differences.txt",
+      "bytes": 253,
+      "sha256": "f2925a850ed96e5e13266350f2547f930f1b1d2c1aee3f986a36b03fbb08611e",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/predicted_annotations.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/predicted_annotations.tsv",
+      "bytes": 99924,
+      "sha256": "9109eba83b1321108d7b7676c1f98fdef716996d80200027bd3c39aa74587e8b",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/r_status.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/r_status.json",
+      "bytes": 237,
+      "sha256": "0aedd53c560218e7957c8a3c1ba9c8b64484e8abf5a0eae1d68d730c178cc6aa",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/readRDS_rss_samples_KiB.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/readRDS_rss_samples_KiB.txt",
+      "bytes": 198,
+      "sha256": "23384580cac9a5f3822f5ffb1549236a27ff395b7f199c81a557289d1e241151",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/readRDS_sampler.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/readRDS_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/reference_label_counts.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/reference_label_counts.tsv",
+      "bytes": 201,
+      "sha256": "1a3c8bbe65a1d607572681ca2b53950e50d7eab10662664af13b784151b3b28d",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/required_version_check.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/required_version_check.tsv",
+      "bytes": 254,
+      "sha256": "51e100ba02cbedf1200045954199b4f4b1a7ee16cc05fce192bfba65ccbe4ba5",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/runtime_config.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/runtime_config.json",
+      "bytes": 1252,
+      "sha256": "a2c63a4e17d3292d5fc65c5d9e02fcb2dbdb25b299be825c5bdd1193c99f4428",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/selected_genes.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/selected_genes.tsv",
+      "bytes": 52364,
+      "sha256": "a9ac1b09f77e24dda2c20d65251f8fde27ce8bde579327498fdac3106b8815f3",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/selection.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/selection.json",
+      "bytes": 151,
+      "sha256": "14d7e529e0dadc1b5c868df197f08c2c32132258e414adb13135f515ace22538",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/sessionInfo.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/sessionInfo.txt",
+      "bytes": 5759,
+      "sha256": "4ba38a5b40d5f921675735ad5f1cbbac00731d09506e1ad704455557e91543de",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/split_merge_cluster_history.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/split_merge_cluster_history.tsv",
+      "bytes": 320154,
+      "sha256": "bd3270411b4d3038fc03440dc196020bf4cd9533752e9e790819d6e3d97549dc",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/stage_times_seconds.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/stage_times_seconds.json",
+      "bytes": 2201,
+      "sha256": "775cd8182bf04e0fb3c099f24026177b3b8ddb227d5f7eb8ecdffb38c13bbdab",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-5los7t_s/status.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-5los7t_s/status.json",
+      "bytes": 1325,
+      "sha256": "d5f867a9e97d15172dee7d4f4d00082ec17b24acd535a63fb873510a3d8f7564",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-hrj6sx0g/audit_rss_samples_KiB.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-hrj6sx0g/audit_rss_samples_KiB.txt",
+      "bytes": 360,
+      "sha256": "9afb3e030d370ce12a0e5ed4a1d21375e17dd897bbc9ca1c4ce8d32889e83780",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-hrj6sx0g/audit_sampler.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-hrj6sx0g/audit_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-hrj6sx0g/cell_metadata.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-hrj6sx0g/cell_metadata.tsv",
+      "bytes": 614792,
+      "sha256": "0a0f5cbbcaeb5c35ce409f61d9446c8ee9c6d594bfe8f59962d05579d1ce6a3d",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-hrj6sx0g/config.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-hrj6sx0g/config.json",
+      "bytes": 1251,
+      "sha256": "cd8c96f369eea43f8d33911949e7c94be1ce9baaba550e785bc1896eea75d31d",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-hrj6sx0g/console.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-hrj6sx0g/console.log",
+      "bytes": 196,
+      "sha256": "ea049dc903fe636a69eeb4716de90b9a5b966dd783bfa5117dad64a68b33c276",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-hrj6sx0g/data_audit.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-hrj6sx0g/data_audit.json",
+      "bytes": 1748,
+      "sha256": "c1c75922dadcd3e5a44367e3292f414730ed5e209015083fb4be0cd6fe108eb7",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-hrj6sx0g/gene_metadata.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-hrj6sx0g/gene_metadata.tsv",
+      "bytes": 545928,
+      "sha256": "5b8730a3359d69af09a339ddd19f06e2c9c9baecbb0f614c6ed1affe8954fb50",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-hrj6sx0g/input_integrity.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-hrj6sx0g/input_integrity.json",
+      "bytes": 187,
+      "sha256": "39a21943c3a7fa67744ad6088fff86f25e373d9a93663afed3dc5eed5189f5f7",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-hrj6sx0g/installed_packages.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-hrj6sx0g/installed_packages.tsv",
+      "bytes": 9202,
+      "sha256": "a87be7e7a7e94b27b9eceaef49b99e635a72790dc1569cb4dffef3ab97845b76",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-hrj6sx0g/metadata.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-hrj6sx0g/metadata.txt",
+      "bytes": 3166,
+      "sha256": "1cf5fd800b927ed4f4445b093a31333fba3f13482a9448ecb176241600fb421c",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-hrj6sx0g/object_structure.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-hrj6sx0g/object_structure.txt",
+      "bytes": 798,
+      "sha256": "e00d9718506e0dd1f4969756f88f521b4c6e0a693b83388d8b2f6d76304bcf91",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-hrj6sx0g/r_status.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-hrj6sx0g/r_status.json",
+      "bytes": 172,
+      "sha256": "caed403548eedfc6a38eff1fd12c8380b363e5babcfa9ae97d856697f87c4357",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-hrj6sx0g/readRDS_rss_samples_KiB.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-hrj6sx0g/readRDS_rss_samples_KiB.txt",
+      "bytes": 198,
+      "sha256": "eaf0721885d1f813c61ffc3b4015705a45bfce7c77c18a8ddf868b7694144a8a",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-hrj6sx0g/readRDS_sampler.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-hrj6sx0g/readRDS_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-hrj6sx0g/reference_label_counts.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-hrj6sx0g/reference_label_counts.tsv",
+      "bytes": 201,
+      "sha256": "1a3c8bbe65a1d607572681ca2b53950e50d7eab10662664af13b784151b3b28d",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-hrj6sx0g/required_version_check.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-hrj6sx0g/required_version_check.tsv",
+      "bytes": 254,
+      "sha256": "51e100ba02cbedf1200045954199b4f4b1a7ee16cc05fce192bfba65ccbe4ba5",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-hrj6sx0g/runtime_config.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-hrj6sx0g/runtime_config.json",
+      "bytes": 1251,
+      "sha256": "cd8c96f369eea43f8d33911949e7c94be1ce9baaba550e785bc1896eea75d31d",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-hrj6sx0g/sessionInfo.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-hrj6sx0g/sessionInfo.txt",
+      "bytes": 5379,
+      "sha256": "ac51ef6feb6f62ed7b64e710ac19d52b574e332034b556ca768cbb72176d096c",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-hrj6sx0g/stage_times_seconds.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-hrj6sx0g/stage_times_seconds.json",
+      "bytes": 624,
+      "sha256": "e7d03788952b702aad7fa63f190d24961c7257b2469576d214d7be2c6f24d309",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-hrj6sx0g/status.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-hrj6sx0g/status.json",
+      "bytes": 1260,
+      "sha256": "fad5e74134231c082280f1147b2ce2041770f2aff2dc0f6cc754ad269ffeb5aa",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/CA_rss_samples_KiB.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/CA_rss_samples_KiB.txt",
+      "bytes": 880,
+      "sha256": "482d3da688fbfe62327e14400fa2a071ba8d080a2823bace646c95ff2fc1792f",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/CA_sampler.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/CA_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/CAdir_rss_samples_KiB.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/CAdir_rss_samples_KiB.txt",
+      "bytes": 472,
+      "sha256": "e56527c07356ab183ccb77f6fb25728d97d878cac009fcd2c4565c2d345925c9",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/CAdir_sampler.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/CAdir_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/annotation_cellmarker_mouse.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/annotation_cellmarker_mouse.tsv",
+      "bytes": 1003010,
+      "sha256": "2d458c7de4df20b02efb3e81f390d34985aff6b17cf7879ddd5e6228c8158333",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/annotation_resources.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/annotation_resources.json",
+      "bytes": 178,
+      "sha256": "0a5ec7e84201d8a8b0b4813eaaf28a3fec50908914fa9038bdfda6af44692474",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/annotation_rss_samples_KiB.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/annotation_rss_samples_KiB.txt",
+      "bytes": 168,
+      "sha256": "f2ca981ab98d01f1aad091286a6a271816ed940da44e3f527213be3fe824af53",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/annotation_sampler.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/annotation_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/association_plots.pdf",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/association_plots.pdf",
+      "bytes": 2318514,
+      "sha256": "a1eb09151d66856df9952240acb31f71e1341230467ebac41baa81268fc1b85d",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/association_plots.png",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/association_plots.png",
+      "bytes": 626290,
+      "sha256": "02fd90048d4d349887707877b1541566bc9b6ab66958cfe3085908b64df3bb80",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/audit_rss_samples_KiB.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/audit_rss_samples_KiB.txt",
+      "bytes": 368,
+      "sha256": "1422d074351c3efdb11493cbb8ad2dc640be3a5a1f0e6948704b1298d1fd28da",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/audit_sampler.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/audit_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/ca.rds",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/ca.rds",
+      "bytes": 5761828,
+      "sha256": "e769376f42f5fc0eada10cc194c4b00101816bd80b7e6d23a01d0d44a472992f",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/ca_cell_coordinates.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/ca_cell_coordinates.tsv",
+      "bytes": 1130848,
+      "sha256": "3864b5e0ccc8fda1ad4680e6d80937531543f92f20c5114fac55326cf3a9efd7",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/ca_clusters.png",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/ca_clusters.png",
+      "bytes": 94760,
+      "sha256": "8892f9e211232857fbfd3dda04f53080d0abef25eaa4d2bffa2c5f6379e8346b",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/ca_gene_coordinates.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/ca_gene_coordinates.tsv",
+      "bytes": 3473226,
+      "sha256": "151e1d267cadc2885c74bd68ee0fd19f551bd19870ea5198d177625253b8ad47",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/cadir.rds",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/cadir.rds",
+      "bytes": 21844811,
+      "sha256": "126a197ba5b47dae676f18a2398833d80d5f459cba97b53554cd1ec07cf67a33",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/cadir_annotated.rds",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/cadir_annotated.rds",
+      "bytes": 21845082,
+      "sha256": "0803c2b9dae0f72be8d16aae3fc62dbcd7bedc8498b40777f5e8a15547caa244",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/cadir_unranked.rds",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/cadir_unranked.rds",
+      "bytes": 21823635,
+      "sha256": "a65d07a24970dd2cbd7c47539cfea119ba438a9f8c04c91192260ec574d79b1d",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/cell_clusters.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/cell_clusters.tsv",
+      "bytes": 120547,
+      "sha256": "a1d28de354ebcf2d89d488e83872688afd2234985cb3577f234d6bb4fe5eb030",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/cell_metadata.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/cell_metadata.tsv",
+      "bytes": 614792,
+      "sha256": "0a0f5cbbcaeb5c35ce409f61d9446c8ee9c6d594bfe8f59962d05579d1ce6a3d",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/cluster_annotations.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/cluster_annotations.tsv",
+      "bytes": 504,
+      "sha256": "d51ed1344736d36b125b22ae4468cf04dab64a6e399dc36e16f071926eaf6652",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/cluster_reference_contingency.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/cluster_reference_contingency.tsv",
+      "bytes": 1932,
+      "sha256": "338895a43ffd4b838eac6b09976bb44c29f0015dc19e962c72e355c1b26137c0",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/cluster_sizes.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/cluster_sizes.tsv",
+      "bytes": 164,
+      "sha256": "e2dc11c9b91ce0154459e141241597595f1d793e575d4df7e663da49009904f7",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/coclustered_gene_ranks.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/coclustered_gene_ranks.tsv",
+      "bytes": 54539,
+      "sha256": "e38264e1523e3b49398d02ba8f3131cbdedd8f647043b40eeac3d2fa6a4aced6",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/config.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/config.json",
+      "bytes": 1252,
+      "sha256": "a2c63a4e17d3292d5fc65c5d9e02fcb2dbdb25b299be825c5bdd1193c99f4428",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/console.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/console.log",
+      "bytes": 329,
+      "sha256": "62af15fd0e2588ffb4d3e4011d861206494019842810611683a8ad7e9f67a222",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/data_audit.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/data_audit.json",
+      "bytes": 2273,
+      "sha256": "0574fc7abfb4ea1adf1647f8ca46c0be9aeac44c06f0aba8c1e92a40dccb19bb",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/effective_cadir_parameters.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/effective_cadir_parameters.txt",
+      "bytes": 640,
+      "sha256": "664fd32282d10535887758efb92aa445a0c3774a64920af8f08bf1ed5b898933",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/exports_ranking_plots_rss_samples_KiB.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/exports_ranking_plots_rss_samples_KiB.txt",
+      "bytes": 736,
+      "sha256": "30a1ff55475611141f27e462f575425d4feb21ffcb10514d1788f43f97e7b961",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/exports_ranking_plots_sampler.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/exports_ranking_plots_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/gene_clusters.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/gene_clusters.tsv",
+      "bytes": 81174,
+      "sha256": "b5f433723a2035c15fde1913c245546887199dae455f80196d9660235db71a21",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/gene_metadata.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/gene_metadata.tsv",
+      "bytes": 545928,
+      "sha256": "5b8730a3359d69af09a339ddd19f06e2c9c9baecbb0f614c6ed1affe8954fb50",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/gene_variance.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/gene_variance.tsv",
+      "bytes": 1523966,
+      "sha256": "4ed0021dcf434fc7f03829d0a30e89483c5b6f718a619aee975d8dd0e8675d89",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/hvg_genes.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/hvg_genes.tsv",
+      "bytes": 52364,
+      "sha256": "a9ac1b09f77e24dda2c20d65251f8fde27ce8bde579327498fdac3106b8815f3",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/input_integrity.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/input_integrity.json",
+      "bytes": 187,
+      "sha256": "39a21943c3a7fa67744ad6088fff86f25e373d9a93663afed3dc5eed5189f5f7",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/installed_packages.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/installed_packages.tsv",
+      "bytes": 9202,
+      "sha256": "a87be7e7a7e94b27b9eceaef49b99e635a72790dc1569cb4dffef3ab97845b76",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/metadata.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/metadata.txt",
+      "bytes": 3166,
+      "sha256": "1cf5fd800b927ed4f4445b093a31333fba3f13482a9448ecb176241600fb421c",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/metrics.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/metrics.json",
+      "bytes": 334,
+      "sha256": "b1624836f37038fe399fa78bda33abaa415fdb37565f04dbbad72dcff202b5a8",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/modelGeneVar_rss_samples_KiB.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/modelGeneVar_rss_samples_KiB.txt",
+      "bytes": 40,
+      "sha256": "5619c340dcc8a700c39399762e37fe041e2d74ad2fd63b5ecd849fe42ac50059",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/modelGeneVar_sampler.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/modelGeneVar_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/object_structure.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/object_structure.txt",
+      "bytes": 798,
+      "sha256": "e00d9718506e0dd1f4969756f88f521b4c6e0a693b83388d8b2f6d76304bcf91",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/paper_differences.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/paper_differences.txt",
+      "bytes": 253,
+      "sha256": "f2925a850ed96e5e13266350f2547f930f1b1d2c1aee3f986a36b03fbb08611e",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/predicted_annotations.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/predicted_annotations.tsv",
+      "bytes": 99924,
+      "sha256": "9109eba83b1321108d7b7676c1f98fdef716996d80200027bd3c39aa74587e8b",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/r_status.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/r_status.json",
+      "bytes": 237,
+      "sha256": "65097f573ab497b8aec689d797217f75778e62e1105d2573c46bbd6fb83323ec",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/readRDS_rss_samples_KiB.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/readRDS_rss_samples_KiB.txt",
+      "bytes": 198,
+      "sha256": "ed8f6663a5cca1b3d804a3eff6f74ea58c5c0be859e2fbbf3c682af2b81c5844",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/readRDS_sampler.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/readRDS_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/reference_label_counts.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/reference_label_counts.tsv",
+      "bytes": 201,
+      "sha256": "1a3c8bbe65a1d607572681ca2b53950e50d7eab10662664af13b784151b3b28d",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/required_version_check.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/required_version_check.tsv",
+      "bytes": 254,
+      "sha256": "51e100ba02cbedf1200045954199b4f4b1a7ee16cc05fce192bfba65ccbe4ba5",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/runtime_config.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/runtime_config.json",
+      "bytes": 1252,
+      "sha256": "a2c63a4e17d3292d5fc65c5d9e02fcb2dbdb25b299be825c5bdd1193c99f4428",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/selected_genes.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/selected_genes.tsv",
+      "bytes": 52364,
+      "sha256": "a9ac1b09f77e24dda2c20d65251f8fde27ce8bde579327498fdac3106b8815f3",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/selection.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/selection.json",
+      "bytes": 151,
+      "sha256": "14d7e529e0dadc1b5c868df197f08c2c32132258e414adb13135f515ace22538",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/sessionInfo.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/sessionInfo.txt",
+      "bytes": 5759,
+      "sha256": "4ba38a5b40d5f921675735ad5f1cbbac00731d09506e1ad704455557e91543de",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/split_merge_cluster_history.tsv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/split_merge_cluster_history.tsv",
+      "bytes": 320154,
+      "sha256": "bd3270411b4d3038fc03440dc196020bf4cd9533752e9e790819d6e3d97549dc",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/stage_times_seconds.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/stage_times_seconds.json",
+      "bytes": 2199,
+      "sha256": "c0a1f1bbafefb74f79d0280a2babe0a28dfe53607df76d57e49ad8b306d97eb8",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/status.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/status.json",
+      "bytes": 1325,
+      "sha256": "d159346a1bc5cb087fead9989ca546438082a4149c54fe941aa37a3ec1bc3a26",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/verification.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/verification.json",
+      "bytes": 395,
+      "sha256": "6c937fbdf13a100a93e7c576a234cf118a8d7e73df9a62dc52c4b40b04eda427",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-ppkaow9s/verification.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-ppkaow9s/verification.log",
+      "bytes": 448,
+      "sha256": "fbc8188e2128139f9b2432aa1e3db8006ca6d6b4f197daba7e189bd728df5c1a",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-qgx9q1ac/config.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-qgx9q1ac/config.json",
+      "bytes": 990,
+      "sha256": "d54a4a1f5ea92bb3769f760f41c3182c006bd49acf0185d2083d808d17c12a70",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-qgx9q1ac/console.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-qgx9q1ac/console.log",
+      "bytes": 98,
+      "sha256": "412348ca7346abcfad2a7a8c287385c22266df4d3f8a3a1dee871c949e8eddad",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-qgx9q1ac/status.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-qgx9q1ac/status.json",
+      "bytes": 752,
+      "sha256": "01314f4e1b682b9466ae27b83c496fdb410ed6effbae329c94acbdcd789cf362",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-x523sv2h/config.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-x523sv2h/config.json",
+      "bytes": 1221,
+      "sha256": "43d5175ed9e37a311a50480233109b7ab9e9970f544559c41c64bbd758223bdf",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-x523sv2h/console.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-x523sv2h/console.log",
+      "bytes": 98,
+      "sha256": "412348ca7346abcfad2a7a8c287385c22266df4d3f8a3a1dee871c949e8eddad",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/case-x523sv2h/status.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/case-x523sv2h/status.json",
+      "bytes": 884,
+      "sha256": "60bc848b8405332c5223bd8ae333d976cf2c54fc0bd61ae0543f4a9307f898ed",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/environment-lvscv1j4/activate.sh",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/environment-lvscv1j4/activate.sh",
+      "bytes": 573,
+      "sha256": "8e29eb4ae38526c4c20ebf25664695d7b85f2204b623c8e7766112710ce4c27a",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/environment-lvscv1j4/provenance.md",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/environment-lvscv1j4/provenance.md",
+      "bytes": 3252,
+      "sha256": "a3c2c553095d4199ca15dc441cc5b87ab29347e915100353387eb2fe23ca61f6",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/environment-lvscv1j4/resources.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/environment-lvscv1j4/resources.log",
+      "bytes": 3658,
+      "sha256": "69a793194de73d23a1f207dd313de27c9e8c8c7365fe647411894bcee1b43bdc",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/environment-lvscv1j4/run-smoke.py",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/environment-lvscv1j4/run-smoke.py",
+      "bytes": 1764,
+      "sha256": "f7b2d53354b6ec909eeb9dcd0e68d11e10770f4e4e693b180a32dfb91a165eaa",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/environment-lvscv1j4/smoke.R",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/environment-lvscv1j4/smoke.R",
+      "bytes": 2965,
+      "sha256": "cbee1d49e454add9d3101111cb507065322e8eea9f9a03b2fdbc95fcd5047a29",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/environment-lvscv1j4/sources.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/environment-lvscv1j4/sources.json",
+      "bytes": 947,
+      "sha256": "5d75212102e7fdff973a50d125d79311e14e2ba7c346566cff31f89a71e73a16",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/environment-lvscv1j4/status.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/environment-lvscv1j4/status.json",
+      "bytes": 2120,
+      "sha256": "1cbab24f2fb9dffad4dc4e6169385f9ca347fb9d883d2b42afd47dd17aa05760",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/environment-lvscv1j4/synthetic-ca-cadir-smoke.png",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/environment-lvscv1j4/synthetic-ca-cadir-smoke.png",
+      "bytes": 18424,
+      "sha256": "431ebfd6f4c55f78297bc1507afc0447ea2f3345938652ee3cea3c82214d4415",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/environment-lvscv1j4/synthetic-console.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/environment-lvscv1j4/synthetic-console.log",
+      "bytes": 478,
+      "sha256": "b89f2bf13fefb69662b795362201c81915de31355f134e83b50c6659d56a7017",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/environment-lvscv1j4/synthetic-installed-packages.csv",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/environment-lvscv1j4/synthetic-installed-packages.csv",
+      "bytes": 14765,
+      "sha256": "c870f0aaa5776f8d1ce19b75e4574cf188cbfc73da966c0046c55baec50a3ddb",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/environment-lvscv1j4/synthetic-resources.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/environment-lvscv1j4/synthetic-resources.json",
+      "bytes": 374,
+      "sha256": "97ed27a85c8964f56e36ffd747f606214ddb47b6a1dbc45af4c43ec8859e60cc",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/environment-lvscv1j4/synthetic-sessionInfo.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/environment-lvscv1j4/synthetic-sessionInfo.txt",
+      "bytes": 5788,
+      "sha256": "c725baf89274d3e83e8f1a35b20741b7406b97be1746db5d78a807eedce99b34",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/environment-lvscv1j4/synthetic-status.txt",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/environment-lvscv1j4/synthetic-status.txt",
+      "bytes": 69,
+      "sha256": "6a97d2731837f37338425a10b0165fc7bb95b5cb14ab619552a3ab4fc804922f",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/environment-lvscv1j4/synthetic_smoke.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/environment-lvscv1j4/synthetic_smoke.log",
+      "bytes": 374,
+      "sha256": "97ed27a85c8964f56e36ffd747f606214ddb47b6a1dbc45af4c43ec8859e60cc",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/environment-lvscv1j4/upstream-renv.lock",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/environment-lvscv1j4/upstream-renv.lock",
+      "bytes": 169895,
+      "sha256": "b8dbf9e526885496c1b28af91c1bec36aa6b103c87da0a966ce4869d06f3a129",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/environment-lvscv1j4/versions.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/environment-lvscv1j4/versions.log",
+      "bytes": 6737,
+      "sha256": "9c45917857ece59a0a13619502cb1e38cb7cf9ff895669f8d7adfd33f0cb3564",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/environment-mbeu2g34/resources.log",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/environment-mbeu2g34/resources.log",
+      "bytes": 3655,
+      "sha256": "2eb788f2236dd53524ce17ef8b5dcfbccaaaba4729ee91097a2b582a2a09ac9e",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/cases/tabula_muris_limb/runs/environment-mbeu2g34/status.json",
+      "relative_to_repo": "cases/tabula_muris_limb/runs/environment-mbeu2g34/status.json",
+      "bytes": 679,
+      "sha256": "84586252ce7d3a6f5b5519ebbe956268a9b5614afe7a8598b8316d3b0635a8fb",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    },
+    {
+      "path": "/workspace/cadir-research-training/data/tabula_muris_limb_preproc.rds",
+      "relative_to_repo": "data/tabula_muris_limb_preproc.rds",
+      "bytes": 43383527,
+      "sha256": "af643523ccdf49e4931b5a0f8c53e67ba7fb24fbabb2fed7edfecf3b55c51f8b",
+      "reason": "Raw expression input or raw run artifact retained at its original path; selected small logs are separately copied into the bundle."
+    }
+  ]
+}

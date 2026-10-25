@@ -1,0 +1,49 @@
+{
+  "checked_utc": "2026-10-25T12:18:13.815460+00:00",
+  "target": "tabula_muris_marker_genes.csv",
+  "scope": "Two pinned author trees; provided local materials; at most 3 GitHub metadata requests, each <=2 MiB, no retries; no archives or full datasets.",
+  "trees": [
+    {
+      "repository": "CAdir",
+      "commit": "de74a008dfcd0d4fa4f7f93c57aa346892a8d935",
+      "tree_list_sha256": "7099565f2994707e4c80c4c003949f4089043e5fed2e8a5b8b871c89b2306447",
+      "exact_matches": [],
+      "tabula_marker_filename_candidates": []
+    },
+    {
+      "repository": "CAdir_results",
+      "commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "tree_list_sha256": "e1fafc6b87f4ed6a61c9cb7a840d28eb962d0c031d96fc0ad2dbec99e3224cb1",
+      "exact_matches": [],
+      "tabula_marker_filename_candidates": []
+    }
+  ],
+  "local_candidates": [],
+  "http_requests": [
+    {
+      "label": "results_main_commit",
+      "url": "https://api.github.com/repos/VingronLab/CAdir_results/commits/main",
+      "status": 200,
+      "bytes": 735787,
+      "sha256": "99f042575b102e82bb623945e8f82e8442d87c1ee6d52dd7eab31dd1a0568aed"
+    },
+    {
+      "label": "results_releases_first20",
+      "url": "https://api.github.com/repos/VingronLab/CAdir_results/releases?per_page=20",
+      "status": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  ],
+  "local_roots_checked": [
+    "/workspace/attachments",
+    "/workspace/shared",
+    "/workspace/library-files",
+    "/workspace/scratch",
+    "/workspace/cadir-research-training/data"
+  ],
+  "remote_main_sha": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+  "release_asset_names": [],
+  "conclusion": "No exact CSV in the checked pinned trees or provided materials; release metadata and current-main coverage are reported separately. Absence is scoped, not proof that the file never existed.",
+  "substitution": "No reference-derived markers and no substitute CSV were produced. CellMarker annotation resource is distinct from the missing Figure 2 feature-augmentation CSV."
+}

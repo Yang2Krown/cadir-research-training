@@ -1,0 +1,32 @@
+[
+  {
+    "original_path": "/workspace/cadir-env/sources/CAdir_results/results/figure2.qmd",
+    "snapshot": "figure2.qmd",
+    "sha256": "a617f10f6d20bdfd32b9f5702186f7269ecb66d68e31124d79ac0d668a47a215"
+  },
+  {
+    "original_path": "/workspace/cadir-env/sources/CAdir_results/preprocessing/data_preprocessing.R",
+    "snapshot": "data_preprocessing.R",
+    "sha256": "7442212dc8a47214c8047bf5e1500d525f797013558953d985815f92b4edc13c"
+  },
+  {
+    "original_path": "/workspace/cadir-env/sources/CAdir_results/download_raw_data/tabula_muris/tabula_muris_limb_save_RAW_data.R",
+    "snapshot": "tabula_muris_limb_save_RAW_data.R",
+    "sha256": "3c53a8707180df4b5fb2c92c60130aa06a064943c3f4fa03f5e082c05e4b3558"
+  },
+  {
+    "original_path": "/workspace/cadir-env/sources/CAdir/R/celltype_anno.R",
+    "snapshot": "celltype_anno.R",
+    "sha256": "d47dce474ededc54e9d39930375a7a778e90fbed483b79ad3bbbdb3beb88785a"
+  },
+  {
+    "original_path": "/workspace/cadir-env/sources/CAdir/LICENSE.md",
+    "snapshot": "CAdir_LICENSE.md",
+    "sha256": "585e25ef8f5946a52bf2aed68d5becfc38be94a8663aa01c1b31d88aa57f1de3"
+  },
+  {
+    "original_path": "/workspace/cadir-env/sources/CAdir/R/data.R",
+    "snapshot": "resource_documentation.R",
+    "sha256": "5718c462bf8c3f696cb7800bb823dddefe9e31d44b1096e5f32154582b915622"
+  }
+]

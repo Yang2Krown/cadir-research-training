@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "verified_utc": "2026-10-25T12:30:41.960726+00:00",
+  "baseline_files_checked": 240,
+  "baseline_files_changed": [],
+  "count_table_matches_both_cell_assignments_and_original_contingency": true,
+  "both_normalization_axes_sum_to_one": true,
+  "all_goa_overlap_counts_match_saved_support_lists": true,
+  "predictions_preserved": true,
+  "full_clustering_repeated": false,
+  "same_seed_repeatability_is_not_multiseed_robustness": true
+}

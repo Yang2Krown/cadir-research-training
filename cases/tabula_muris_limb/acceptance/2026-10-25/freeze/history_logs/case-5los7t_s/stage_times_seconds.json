@@ -1,0 +1,51 @@
+{
+  "readRDS": {
+    "elapsed_seconds": 1.307,
+    "sampled_peak_rss_KiB": 1084544,
+    "rss_samples": 25,
+    "process_memory_status": ["VmHWM:\t 1095780 kB", "VmRSS:\t 1095780 kB"],
+    "memory_scope": "Stage RSS sampled every 50 ms; short spikes can be missed. VmHWM is cumulative process high-water RSS."
+  },
+  "audit": {
+    "elapsed_seconds": 2.369,
+    "sampled_peak_rss_KiB": 1277244,
+    "rss_samples": 46,
+    "process_memory_status": ["VmHWM:\t 1277304 kB", "VmRSS:\t 1277304 kB"],
+    "memory_scope": "Stage RSS sampled every 50 ms; short spikes can be missed. VmHWM is cumulative process high-water RSS."
+  },
+  "modelGeneVar": {
+    "elapsed_seconds": 0.241,
+    "sampled_peak_rss_KiB": 1358856,
+    "rss_samples": 5,
+    "process_memory_status": ["VmHWM:\t 1358664 kB", "VmRSS:\t 1261856 kB"],
+    "memory_scope": "Stage RSS sampled every 50 ms; short spikes can be missed. VmHWM is cumulative process high-water RSS."
+  },
+  "CA": {
+    "elapsed_seconds": 5.746,
+    "sampled_peak_rss_KiB": 1856196,
+    "rss_samples": 111,
+    "process_memory_status": ["VmHWM:\t 1855900 kB", "VmRSS:\t 1783532 kB"],
+    "memory_scope": "Stage RSS sampled every 50 ms; short spikes can be missed. VmHWM is cumulative process high-water RSS."
+  },
+  "CAdir": {
+    "elapsed_seconds": 3.167,
+    "sampled_peak_rss_KiB": 2100680,
+    "rss_samples": 61,
+    "process_memory_status": ["VmHWM:\t 2100680 kB", "VmRSS:\t 2100680 kB"],
+    "memory_scope": "Stage RSS sampled every 50 ms; short spikes can be missed. VmHWM is cumulative process high-water RSS."
+  },
+  "exports_ranking_plots": {
+    "elapsed_seconds": 6.067,
+    "sampled_peak_rss_KiB": 2144100,
+    "rss_samples": 117,
+    "process_memory_status": ["VmHWM:\t 2144104 kB", "VmRSS:\t 2144104 kB"],
+    "memory_scope": "Stage RSS sampled every 50 ms; short spikes can be missed. VmHWM is cumulative process high-water RSS."
+  },
+  "annotation": {
+    "elapsed_seconds": 1.062,
+    "sampled_peak_rss_KiB": 2271644,
+    "rss_samples": 21,
+    "process_memory_status": ["VmHWM:\t 2271716 kB", "VmRSS:\t 2271716 kB"],
+    "memory_scope": "Stage RSS sampled every 50 ms; short spikes can be missed. VmHWM is cumulative process high-water RSS."
+  }
+}

@@ -1,0 +1,36 @@
+diff --git a/.gitignore b/.gitignore
+index 0589791..1f13259 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -48,3 +48,22 @@ po/*~
+ 
+ # RStudio Connect folder
+ rsconnect/
++
++# Research inputs, serialized results, runtimes and caches are never committed.
++/data/
++*.rds
++*.RDS
++*.rda
++*.RData
++*.h5
++*.h5ad
++*.loom
++*.tar.gz
++*.zip
++/cadir-env/
++/.cadir-setup/
++/attachments/
++
++# Preserve raw runs locally; publish only curated small tables, logs and figures.
++/cases/tabula_muris_limb/runs/
++__pycache__/
+diff --git a/README.md b/README.md
+index fc89231..5388fb6 100644
+--- a/README.md
++++ b/README.md
+@@ -1,2 +1,4 @@
+ # cadir-research-training
+ 科研基础训练两人小组：CAdir 论文复现、新数据实验与课程材料。
++
++首轮案例：[Tabula Muris Limb Muscle](cases/tabula_muris_limb/README.md)。环境复验与真实单案例运行已成功，结果表、图表、日志和复跑入口均在该目录；与严格论文复现的差异已单独记录。
