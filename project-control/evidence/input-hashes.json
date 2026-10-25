@@ -1,0 +1,17 @@
+[
+  {
+    "file": "/workspace/attachments/20f0471b-d2c3-4174-8ce6-5c1a9e946b77/tabula_muris_limb_preproc.rds.part01.bin",
+    "bytes": 25165824,
+    "sha256": "410503d2dcbf11b3a1d01a3971cbd64e33e244d5f659e0c8dfd53a18ba739fde"
+  },
+  {
+    "file": "/workspace/attachments/fc68a6e4-02f7-4930-b02c-c972f68fd20a/tabula_muris_limb_preproc.rds.part02.bin",
+    "bytes": 18217703,
+    "sha256": "6523a4aadfb9e11c877eff817f46410e1c8d474bca1d3160673e622a2ed9c53e"
+  },
+  {
+    "file": "/workspace/cadir-handover/input/tabula_muris_limb_preproc.rds",
+    "bytes": 43383527,
+    "sha256": "af643523ccdf49e4931b5a0f8c53e67ba7fb24fbabb2fed7edfecf3b55c51f8b"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-25",
+  "timezone": "Asia/Shanghai",
+  "control_thread": "01a17385-6fd3-71dd-ae1a-a9fa2b77203d",
+  "available_thread_tools": [
+    "codex_app__list_archived_threads",
+    "codex_app__list_threads",
+    "codex_app__move_thread_to_sidebar_section",
+    "codex_app__read_thread",
+    "codex_app__read_thread_terminal",
+    "codex_app__set_thread_archived",
+    "codex_app__set_thread_read_state",
+    "codex_app__set_thread_title",
+    "codex_app__share_thread",
+    "codex_app__wait_threads",
+    "mcp__codex_apps__github_list_pull_request_review_threads",
+    "mcp__codex_apps__github_resolve_review_thread",
+    "mcp__codex_apps__github_unresolve_review_thread"
+  ],
+  "unavailable_required_tools": [
+    "create_thread",
+    "send_message_to_thread"
+  ],
+  "existing_review": {
+    "thread_id": "01a17354-6169-70a8-810e-d49d4d605029",
+    "host_id": "durable",
+    "turn_id": "01a17354-69d0-7705-b71d-de57180f078a",
+    "started_at": 1792936274,
+    "completed_at": 1792937263,
+    "actual_model": "not_exposed_by_available_read_tool",
+    "review_status": "completed_with_R1_R2_R3_conditions",
+    "stage_gate": "blocked_pending_fixes_and_independent_retest"
+  },
+  "recovery": {
+    "method": "Full fileChange addition plus all subsequent updates read via codex_app.read_thread; original evidence entities not copied",
+    "source_files": [
+      "项目组织者交接Prompt.md",
+      "独立质量评审报告.md"
+    ],
+    "local_mac_file_read": false,
+    "review_archive_copied": false
+  },
+  "remote_verified": {
+    "repository": "Yang2Krown/cadir-research-training",
+    "case_branch": "case/tabula-muris-limb-first-run",
+    "case_sha": "756c8d16ae22fe671f7b715a696c8272523e08ed",
+    "file_count": 247,
+    "main_sha": "35a05eb54d73a38a56a8427b8544e97ae78a70c4"
+  },
+  "dispatches": [
+    {
+      "task": "/root/stage1_repair",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "kind": "internal_subagent",
+      "worktree": "/workspace/cadir-stage1-fix",
+      "branch": "fix/stage1-review-20261025",
+      "scope": "R1-R6 fixes and evidence; no main merge, no baseline overwrite",
+      "state": "running"
+    }
+  ]
+}

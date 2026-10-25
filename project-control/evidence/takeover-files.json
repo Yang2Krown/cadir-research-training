@@ -1,0 +1,37 @@
+[
+  {
+    "path": "project-control/README.md",
+    "bytes": 7866,
+    "sha256": "46be6aa22dc7d9e8093c7099034799e9d59fc320af641482eb40e72463ef2689"
+  },
+  {
+    "path": "project-control/evidence/input-hashes.json",
+    "bytes": 650,
+    "sha256": "1db8b561d82226c1b88d86605fd3834b5a8a179ec22310e8582f41553065938f"
+  },
+  {
+    "path": "project-control/evidence/takeover-snapshot.json",
+    "bytes": 2175,
+    "sha256": "6815a4552c5222d006897648db90f0bb2fcc1c9843f35551c847f95755cd24ca"
+  },
+  {
+    "path": "project-control/reviews/756c8d16/原始评审任务.md",
+    "bytes": 5857,
+    "sha256": "8e99b616f7a277b7497630946b84e8d5a57d6efadf704454391ed03b4d541420"
+  },
+  {
+    "path": "project-control/reviews/756c8d16/独立质量评审报告-会话记录恢复.md",
+    "bytes": 23273,
+    "sha256": "c37a198990c28ecedc889a9e862beff2a9c51de7bca70a268cd3d0e6811f8a03"
+  },
+  {
+    "path": "project-control/推进方案-历史创建命令恢复.txt",
+    "bytes": 7733,
+    "sha256": "26c0dce60377513c9d277ac2224dc80afd782afc0a4575e432972b6f6283ff45"
+  },
+  {
+    "path": "project-control/项目组织者交接Prompt-会话记录恢复.md",
+    "bytes": 13240,
+    "sha256": "7837ed6aad2e819352f70f7d67c608a1f6d8b65028de326643f66fc1a07fd3ca"
+  }
+]
