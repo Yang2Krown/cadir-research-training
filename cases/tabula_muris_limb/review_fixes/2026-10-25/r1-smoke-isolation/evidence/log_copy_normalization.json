@@ -1,0 +1,7 @@
+{
+  "operation": "Strip trailing whitespace and extra EOF blank lines in Git copies only; original bytes remain external.",
+  "files": [
+    "smoke-sessionInfo.txt",
+    "smoke-console.log"
+  ]
+}

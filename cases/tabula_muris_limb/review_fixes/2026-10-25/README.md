@@ -6,6 +6,8 @@
 
 ## R1：新检出与输出隔离
 
+**后续修正：** 独立复验针对 `8561914bc67c511ec76374996fb12d713f23f171` 指出，首版环境检查仍调用共享 runtime 的 `run-smoke.py`，会写入 runtime/runs 并读取、更新共享 latest-smoke，存在并发竞态。因此首版只隔离了案例与收集物，不能声称合成烟雾也完整隔离。当前后续提交直接通过 `run-r.sh` 调用原 `smoke.R` 到每次环境检查专属目录，不改 runtime 原文件。先前两次运行及原始证据保持不变，最新修复与单次完整入口保全验证见 [R1 烟雾输出隔离追加记录](r1-smoke-isolation/README.md)。
+
 `check_environment.py`、`run_case.py` 在创建临时运行目录前递归创建输出根；新增共同 `--output-root`，默认案例 `runs/`。环境/案例状态指针和收集物均在该根内，收集到 `deliverables/results/` 与 `deliverables/figures/`，不再覆盖案例根目录的历史 latest、results 或原图。`rerun.sh` 转发数据、配置与输出根，`--audit-only` 完成审计即停止。
 
 真实验证从冻结 SHA 创建全新 detached worktree `/workspace/cadir-stage1-fix-evidence/fresh-checkout`，应用修复差异及新增辅助模块；启动前确认案例 `runs/` 不存在。两次运行使用这份相同的新检出源码，分别从空 `fresh-run-1`、`fresh-run-2` 输出根启动，没有借用旧 runs、latest 状态或结果对象。输入为 43,383,527 字节，SHA256 `af643523ccdf49e4931b5a0f8c53e67ba7fb24fbabb2fed7edfecf3b55c51f8b`；保留 `/workspace/cadir-env`，未要求 Docker 或重新安装。

@@ -1,0 +1,265 @@
+{
+  "files": {
+    "latest-smoke.json": {
+      "bytes": 374,
+      "sha256": "2f537880d1e55d4d8ae5f8596167fd5ab819bab4b5236bf6dc65a6b87217555a",
+      "mtime_ns": 1792940488275905082
+    },
+    "runs/smoke-65jbnubp/ca-cadir-smoke.png": {
+      "bytes": 18424,
+      "sha256": "431ebfd6f4c55f78297bc1507afc0447ea2f3345938652ee3cea3c82214d4415",
+      "mtime_ns": 1792939857224738321
+    },
+    "runs/smoke-65jbnubp/console.log": {
+      "bytes": 478,
+      "sha256": "b89f2bf13fefb69662b795362201c81915de31355f134e83b50c6659d56a7017",
+      "mtime_ns": 1792939857327530254
+    },
+    "runs/smoke-65jbnubp/installed-packages.csv": {
+      "bytes": 14765,
+      "sha256": "c870f0aaa5776f8d1ce19b75e4574cf188cbfc73da966c0046c55baec50a3ddb",
+      "mtime_ns": 1792939857327530254
+    },
+    "runs/smoke-65jbnubp/resources.json": {
+      "bytes": 374,
+      "sha256": "5980e56b14e2ce8e4b8fca88b352fa79c8c6f652b6d101074ad4c8a6053ed06d",
+      "mtime_ns": 1792939857359424898
+    },
+    "runs/smoke-65jbnubp/sessionInfo.txt": {
+      "bytes": 5788,
+      "sha256": "c725baf89274d3e83e8f1a35b20741b7406b97be1746db5d78a807eedce99b34",
+      "mtime_ns": 1792939857252737924
+    },
+    "runs/smoke-65jbnubp/smoke-results.rds": {
+      "bytes": 26038,
+      "sha256": "69ee0c35b5035a409d0480a475b0be3041d30787a2c06ab8a36da87438a987ce",
+      "mtime_ns": 1792939857228738264
+    },
+    "runs/smoke-65jbnubp/status.txt": {
+      "bytes": 69,
+      "sha256": "6a97d2731837f37338425a10b0165fc7bb95b5cb14ab619552a3ab4fc804922f",
+      "mtime_ns": 1792939857231281861
+    },
+    "runs/smoke-65jbnubp/synthetic-sce.rds": {
+      "bytes": 22713,
+      "sha256": "dc383425b7bea4b885c0cebb2deffdcf408aba6603de3da91b8ea4225da63a39",
+      "mtime_ns": 1792939857068740532
+    },
+    "runs/smoke-c1clen_m/ca-cadir-smoke.png": {
+      "bytes": 18424,
+      "sha256": "431ebfd6f4c55f78297bc1507afc0447ea2f3345938652ee3cea3c82214d4415",
+      "mtime_ns": 1792940488123168682
+    },
+    "runs/smoke-c1clen_m/console.log": {
+      "bytes": 478,
+      "sha256": "b89f2bf13fefb69662b795362201c81915de31355f134e83b50c6659d56a7017",
+      "mtime_ns": 1792940488239459846
+    },
+    "runs/smoke-c1clen_m/installed-packages.csv": {
+      "bytes": 14765,
+      "sha256": "c870f0aaa5776f8d1ce19b75e4574cf188cbfc73da966c0046c55baec50a3ddb",
+      "mtime_ns": 1792940488239459846
+    },
+    "runs/smoke-c1clen_m/resources.json": {
+      "bytes": 374,
+      "sha256": "2f537880d1e55d4d8ae5f8596167fd5ab819bab4b5236bf6dc65a6b87217555a",
+      "mtime_ns": 1792940488275832515
+    },
+    "runs/smoke-c1clen_m/sessionInfo.txt": {
+      "bytes": 5788,
+      "sha256": "c725baf89274d3e83e8f1a35b20741b7406b97be1746db5d78a807eedce99b34",
+      "mtime_ns": 1792940488175167922
+    },
+    "runs/smoke-c1clen_m/smoke-results.rds": {
+      "bytes": 26038,
+      "sha256": "69ee0c35b5035a409d0480a475b0be3041d30787a2c06ab8a36da87438a987ce",
+      "mtime_ns": 1792940488128361490
+    },
+    "runs/smoke-c1clen_m/status.txt": {
+      "bytes": 69,
+      "sha256": "6a97d2731837f37338425a10b0165fc7bb95b5cb14ab619552a3ab4fc804922f",
+      "mtime_ns": 1792940488130221436
+    },
+    "runs/smoke-c1clen_m/synthetic-sce.rds": {
+      "bytes": 22713,
+      "sha256": "dc383425b7bea4b885c0cebb2deffdcf408aba6603de3da91b8ea4225da63a39",
+      "mtime_ns": 1792940487951171194
+    },
+    "runs/smoke-fmpq2m42/ca-cadir-smoke.png": {
+      "bytes": 18424,
+      "sha256": "431ebfd6f4c55f78297bc1507afc0447ea2f3345938652ee3cea3c82214d4415",
+      "mtime_ns": 1792939945831498354
+    },
+    "runs/smoke-fmpq2m42/console.log": {
+      "bytes": 529,
+      "sha256": "2f1eecb76f30663ba1f479e7a2966238530d6da5038d34c2d3f71a621b811d17",
+      "mtime_ns": 1792939945907339501
+    },
+    "runs/smoke-fmpq2m42/installed-packages.csv": {
+      "bytes": 14765,
+      "sha256": "c870f0aaa5776f8d1ce19b75e4574cf188cbfc73da966c0046c55baec50a3ddb",
+      "mtime_ns": 1792939945907339501
+    },
+    "runs/smoke-fmpq2m42/resources.json": {
+      "bytes": 374,
+      "sha256": "e4c40b716dc813d5e9edc1d58e2250d6e26e2b318984d23fc224bb45c1831de0",
+      "mtime_ns": 1792939945940195680
+    },
+    "runs/smoke-fmpq2m42/sessionInfo.txt": {
+      "bytes": 5788,
+      "sha256": "c725baf89274d3e83e8f1a35b20741b7406b97be1746db5d78a807eedce99b34",
+      "mtime_ns": 1792939945855498014
+    },
+    "runs/smoke-fmpq2m42/smoke-results.rds": {
+      "bytes": 26038,
+      "sha256": "69ee0c35b5035a409d0480a475b0be3041d30787a2c06ab8a36da87438a987ce",
+      "mtime_ns": 1792939945836965621
+    },
+    "runs/smoke-fmpq2m42/status.txt": {
+      "bytes": 69,
+      "sha256": "6a97d2731837f37338425a10b0165fc7bb95b5cb14ab619552a3ab4fc804922f",
+      "mtime_ns": 1792939945837147159
+    },
+    "runs/smoke-fmpq2m42/synthetic-sce.rds": {
+      "bytes": 22713,
+      "sha256": "dc383425b7bea4b885c0cebb2deffdcf408aba6603de3da91b8ea4225da63a39",
+      "mtime_ns": 1792939945719499938
+    },
+    "runs/smoke-mdzqwezz/ca-cadir-smoke.png": {
+      "bytes": 18424,
+      "sha256": "431ebfd6f4c55f78297bc1507afc0447ea2f3345938652ee3cea3c82214d4415",
+      "mtime_ns": 1792909323585772064
+    },
+    "runs/smoke-mdzqwezz/console.log": {
+      "bytes": 478,
+      "sha256": "b89f2bf13fefb69662b795362201c81915de31355f134e83b50c6659d56a7017",
+      "mtime_ns": 1792909323900503894
+    },
+    "runs/smoke-mdzqwezz/installed-packages.csv": {
+      "bytes": 14765,
+      "sha256": "c870f0aaa5776f8d1ce19b75e4574cf188cbfc73da966c0046c55baec50a3ddb",
+      "mtime_ns": 1792909323900503894
+    },
+    "runs/smoke-mdzqwezz/resources.json": {
+      "bytes": 373,
+      "sha256": "8bc7470708fb812876ecbacdef5c0135b209e191aefcfce98219b5c83aa32bfe",
+      "mtime_ns": 1792909324035609400
+    },
+    "runs/smoke-mdzqwezz/sessionInfo.txt": {
+      "bytes": 5788,
+      "sha256": "c725baf89274d3e83e8f1a35b20741b7406b97be1746db5d78a807eedce99b34",
+      "mtime_ns": 1792909323685771108
+    },
+    "runs/smoke-mdzqwezz/smoke-results.rds": {
+      "bytes": 26038,
+      "sha256": "69ee0c35b5035a409d0480a475b0be3041d30787a2c06ab8a36da87438a987ce",
+      "mtime_ns": 1792909323594032980
+    },
+    "runs/smoke-mdzqwezz/status.txt": {
+      "bytes": 69,
+      "sha256": "6a97d2731837f37338425a10b0165fc7bb95b5cb14ab619552a3ab4fc804922f",
+      "mtime_ns": 1792909323594746271
+    },
+    "runs/smoke-mdzqwezz/synthetic-sce.rds": {
+      "bytes": 22713,
+      "sha256": "dc383425b7bea4b885c0cebb2deffdcf408aba6603de3da91b8ea4225da63a39",
+      "mtime_ns": 1792909323149776237
+    },
+    "runs/smoke-r5p5yjg8/ca-cadir-smoke.png": {
+      "bytes": 18424,
+      "sha256": "431ebfd6f4c55f78297bc1507afc0447ea2f3345938652ee3cea3c82214d4415",
+      "mtime_ns": 1792909604334893861
+    },
+    "runs/smoke-r5p5yjg8/console.log": {
+      "bytes": 478,
+      "sha256": "b89f2bf13fefb69662b795362201c81915de31355f134e83b50c6659d56a7017",
+      "mtime_ns": 1792909604542233158
+    },
+    "runs/smoke-r5p5yjg8/installed-packages.csv": {
+      "bytes": 14765,
+      "sha256": "c870f0aaa5776f8d1ce19b75e4574cf188cbfc73da966c0046c55baec50a3ddb",
+      "mtime_ns": 1792909604542233158
+    },
+    "runs/smoke-r5p5yjg8/resources.json": {
+      "bytes": 373,
+      "sha256": "18848dac2be438c7c65afdff149226142700d838eb1d1d270d6a8bb7d5438b25",
+      "mtime_ns": 1792909604628582939
+    },
+    "runs/smoke-r5p5yjg8/sessionInfo.txt": {
+      "bytes": 5788,
+      "sha256": "c725baf89274d3e83e8f1a35b20741b7406b97be1746db5d78a807eedce99b34",
+      "mtime_ns": 1792909604406893137
+    },
+    "runs/smoke-r5p5yjg8/smoke-results.rds": {
+      "bytes": 26038,
+      "sha256": "69ee0c35b5035a409d0480a475b0be3041d30787a2c06ab8a36da87438a987ce",
+      "mtime_ns": 1792909604338938151
+    },
+    "runs/smoke-r5p5yjg8/status.txt": {
+      "bytes": 69,
+      "sha256": "6a97d2731837f37338425a10b0165fc7bb95b5cb14ab619552a3ab4fc804922f",
+      "mtime_ns": 1792909604339586767
+    },
+    "runs/smoke-r5p5yjg8/synthetic-sce.rds": {
+      "bytes": 22713,
+      "sha256": "dc383425b7bea4b885c0cebb2deffdcf408aba6603de3da91b8ea4225da63a39",
+      "mtime_ns": 1792909604022897000
+    },
+    "runs/smoke-zpwflglt/ca-cadir-smoke.png": {
+      "bytes": 18424,
+      "sha256": "431ebfd6f4c55f78297bc1507afc0447ea2f3345938652ee3cea3c82214d4415",
+      "mtime_ns": 1792909209174866376
+    },
+    "runs/smoke-zpwflglt/console.log": {
+      "bytes": 478,
+      "sha256": "b89f2bf13fefb69662b795362201c81915de31355f134e83b50c6659d56a7017",
+      "mtime_ns": 1792909209365781217
+    },
+    "runs/smoke-zpwflglt/installed-packages.csv": {
+      "bytes": 14718,
+      "sha256": "3f7fb74e40581d6d8fd73d05c25c273517010d4e37dc0e1109dc8d8531230aa8",
+      "mtime_ns": 1792909209365781217
+    },
+    "runs/smoke-zpwflglt/resources.json": {
+      "bytes": 373,
+      "sha256": "905899ea87bb7b157a0e7d509e334d8b6f1dddee8bd29718e56a57e762801a4a",
+      "mtime_ns": 1792909209592993575
+    },
+    "runs/smoke-zpwflglt/sessionInfo.txt": {
+      "bytes": 5788,
+      "sha256": "c725baf89274d3e83e8f1a35b20741b7406b97be1746db5d78a807eedce99b34",
+      "mtime_ns": 1792909209238865763
+    },
+    "runs/smoke-zpwflglt/smoke-results.rds": {
+      "bytes": 26038,
+      "sha256": "69ee0c35b5035a409d0480a475b0be3041d30787a2c06ab8a36da87438a987ce",
+      "mtime_ns": 1792909209178866338
+    },
+    "runs/smoke-zpwflglt/status.txt": {
+      "bytes": 69,
+      "sha256": "6a97d2731837f37338425a10b0165fc7bb95b5cb14ab619552a3ab4fc804922f",
+      "mtime_ns": 1792909209180454848
+    },
+    "runs/smoke-zpwflglt/synthetic-sce.rds": {
+      "bytes": 22713,
+      "sha256": "dc383425b7bea4b885c0cebb2deffdcf408aba6603de3da91b8ea4225da63a39",
+      "mtime_ns": 1792909207278884538
+    }
+  },
+  "directories": [
+    "runs/smoke-65jbnubp",
+    "runs/smoke-c1clen_m",
+    "runs/smoke-fmpq2m42",
+    "runs/smoke-mdzqwezz",
+    "runs/smoke-r5p5yjg8",
+    "runs/smoke-zpwflglt"
+  ],
+  "runtime_source_sha256": {
+    "activate.sh": "8e29eb4ae38526c4c20ebf25664695d7b85f2204b623c8e7766112710ce4c27a",
+    "provenance.md": "a3c2c553095d4199ca15dc441cc5b87ab29347e915100353387eb2fe23ca61f6",
+    "upstream-renv.lock": "b8dbf9e526885496c1b28af91c1bec36aa6b103c87da0a966ce4869d06f3a129",
+    "sources.json": "5d75212102e7fdff973a50d125d79311e14e2ba7c346566cff31f89a71e73a16",
+    "smoke.R": "cbee1d49e454add9d3101111cb507065322e8eea9f9a03b2fdbc95fcd5047a29",
+    "run-smoke.py": "f7b2d53354b6ec909eeb9dcd0e68d11e10770f4e4e693b180a32dfb91a165eaa"
+  }
+}

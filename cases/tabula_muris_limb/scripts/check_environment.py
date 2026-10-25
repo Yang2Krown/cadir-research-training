@@ -4,6 +4,7 @@ from datetime import datetime, timezone
 import argparse
 import hashlib
 import json
+import os
 from pathlib import Path
 import shutil
 import subprocess
@@ -29,6 +30,44 @@ def run(name, command):
     state[name] = {'exit_code': proc.returncode, 'elapsed_seconds': time.monotonic() - start, 'command': command}
     return proc.returncode == 0
 
+
+def run_smoke():
+    # smoke.R honors its output argument. The historical runtime launcher does
+    # not, so invoke R directly and never consult the shared latest-smoke file.
+    source = out / 'synthetic-smoke'
+    source.mkdir()
+    command = ['bash', str(base / 'scripts/run-r.sh'),
+               str(runtime / 'smoke.R'), str(source)]
+    start = time.monotonic()
+    evidence = {'run_directory': str(source), 'command': command,
+                'scope': 'Whole Rscript including package loading; engineering diagnostic only, not a paper reproduction or algorithm benchmark.'}
+    with (source / 'console.log').open('w') as log:
+        with subprocess.Popen(command, cwd=out, stdout=log, stderr=subprocess.STDOUT) as proc:
+            # Per-child usage, excluding the preceding version check.
+            _, wait_status, usage = os.wait4(proc.pid, 0)
+            proc.returncode = os.waitstatus_to_exitcode(wait_status)
+        evidence.update(exit_code=proc.returncode,
+                        elapsed_seconds=time.monotonic() - start,
+                        max_rss_KiB_linux=usage.ru_maxrss)
+    artifacts = ['status.txt', 'sessionInfo.txt', 'installed-packages.csv',
+                 'synthetic-sce.rds', 'smoke-results.rds', 'ca-cadir-smoke.png']
+    if evidence['exit_code'] == 0:
+        missing_artifacts = [name for name in artifacts
+                             if not (source / name).is_file() or (source / name).stat().st_size == 0]
+        if missing_artifacts or not (source / 'status.txt').read_text().startswith('PASS:'):
+            evidence['artifact_failure'] = missing_artifacts or ['PASS status missing']
+            evidence['exit_code'] = 1
+        else:
+            evidence['png_sha256'] = hashlib.sha256((source / 'ca-cadir-smoke.png').read_bytes()).hexdigest()
+    (source / 'resources.json').write_text(json.dumps(evidence, indent=2) + '\n')
+    state['synthetic_smoke'] = evidence
+    state['synthetic_smoke_evidence'] = evidence
+    for name in ['status.txt', 'sessionInfo.txt', 'installed-packages.csv',
+                 'console.log', 'resources.json', 'ca-cadir-smoke.png']:
+        if (source / name).is_file():
+            shutil.copy2(source / name, out / ('synthetic-' + name))
+    return evidence['exit_code'] == 0
+
 run('resources', ['bash', '-c', 'lscpu; free -b; df -B1 /workspace /tmp; cat /sys/fs/cgroup/cpu.max /sys/fs/cgroup/memory.max'])
 required = ['activate.sh', 'provenance.md', 'upstream-renv.lock', 'sources.json', 'smoke.R', 'run-smoke.py']
 missing = [str(runtime / name) for name in required if not (runtime / name).is_file()]
@@ -42,13 +81,7 @@ else:
         state['source_document_sha256'][name] = hashlib.sha256((runtime / name).read_bytes()).hexdigest()
     cfg = args.config.resolve()
     version_ok = run('versions', ['bash', str(base / 'scripts/run-r.sh'), str(base / 'scripts/versions.R'), str(cfg)])
-    smoke_ok = run('synthetic_smoke', ['bash', '-c', 'source /workspace/cadir-env/activate.sh; exec python /workspace/cadir-env/run-smoke.py']) if version_ok else False
-    if smoke_ok:
-        smoke = json.loads((runtime / 'latest-smoke.json').read_text())
-        state['synthetic_smoke_evidence'] = smoke
-        source = Path(smoke['run_directory'])
-        for name in ['status.txt','sessionInfo.txt','installed-packages.csv','console.log','resources.json','ca-cadir-smoke.png']:
-            shutil.copy2(source / name, out / ('synthetic-' + name))
+    smoke_ok = run_smoke() if version_ok else False
     state['status'] = 'PASS' if version_ok and smoke_ok else 'FAILED_CONDA_ENVIRONMENT_CHECK'
     if version_ok and smoke_ok:
         state['environment_check'] = 'verified_this_run'
