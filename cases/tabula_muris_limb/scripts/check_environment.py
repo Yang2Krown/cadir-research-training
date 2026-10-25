@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Verify the Conda runtime authorized by continuation-task.md; no installation."""
 from datetime import datetime, timezone
+import argparse
 import hashlib
 import json
 from pathlib import Path
@@ -8,9 +9,15 @@ import shutil
 import subprocess
 import tempfile
 import time
+from output_paths import output_root, prepare_root
 
 base = Path(__file__).resolve().parents[1]
-out = Path(tempfile.mkdtemp(prefix='environment-', dir=base / 'runs'))
+parser = argparse.ArgumentParser(description=__doc__)
+output_root(parser, base)
+parser.add_argument('--config', type=Path, default=base / 'config/case.json')
+args = parser.parse_args()
+root = prepare_root(args.output_root)
+out = Path(tempfile.mkdtemp(prefix='environment-', dir=root))
 runtime = Path('/workspace/cadir-env')
 state = {'started_utc': datetime.now(timezone.utc).isoformat(), 'run_directory': str(out),
          'runtime': 'verified_conda', 'environment_check': 'not_verified'}
@@ -33,7 +40,7 @@ else:
     for name in required:
         shutil.copy2(runtime / name, out / name)
         state['source_document_sha256'][name] = hashlib.sha256((runtime / name).read_bytes()).hexdigest()
-    cfg = base / 'config/case.json'
+    cfg = args.config.resolve()
     version_ok = run('versions', ['bash', str(base / 'scripts/run-r.sh'), str(base / 'scripts/versions.R'), str(cfg)])
     smoke_ok = run('synthetic_smoke', ['bash', '-c', 'source /workspace/cadir-env/activate.sh; exec python /workspace/cadir-env/run-smoke.py']) if version_ok else False
     if smoke_ok:
@@ -46,6 +53,6 @@ else:
     if version_ok and smoke_ok:
         state['environment_check'] = 'verified_this_run'
 (out / 'status.json').write_text(json.dumps(state, indent=2) + '\n')
-(base / 'latest-environment.json').write_text(json.dumps(state, indent=2) + '\n')
+(root / 'latest-environment.json').write_text(json.dumps(state, indent=2) + '\n')
 print(json.dumps(state, indent=2))
 raise SystemExit(0 if state['status'] == 'PASS' else 1)

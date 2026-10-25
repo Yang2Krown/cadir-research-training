@@ -6,6 +6,20 @@ write_table <- function(x, path) {
   utils::write.table(x, path, sep = "\t", quote = TRUE, row.names = FALSE, na = "NA")
 }
 
+record_rng <- function(out, stage) {
+  path <- file.path(out, "rng_stages.json")
+  states <- if (file.exists(path)) jsonlite::read_json(path, simplifyVector = FALSE) else list()
+  states[[stage]] <- list(kind = RNGkind(), state = as.integer(.Random.seed))
+  write_json(states, path)
+}
+
+function_md5 <- function(fun) {
+  path <- tempfile()
+  on.exit(unlink(path))
+  writeLines(capture.output(dput(list(formals = formals(fun), body = body(fun)))), path)
+  unname(tools::md5sum(path))
+}
+
 audit_object <- function(sce, out) {
   writeLines(capture.output(str(sce, max.level = 2)), file.path(out, "object_structure.txt"))
   audit <- list(class = class(sce), dimensions = dim(sce))
@@ -84,7 +98,22 @@ export_results <- function(ca, cadir, sce, cfg, out) {
   write_table(cbind(cell_id = ids, as.data.frame(ca@prin_coords_cols)), file.path(out, "ca_cell_coordinates.tsv"))
   write_table(cbind(gene_id = rownames(ca@prin_coords_rows), as.data.frame(ca@prin_coords_rows)), file.path(out, "ca_gene_coordinates.tsv"))
   set.seed(cfg$seed)
+  record_rng(out, "before_ranking")
   ranked <- CAdir::rank_genes(cadir = cadir, caobj = ca)
+  record_rng(out, "after_ranking")
+  tracked_functions <- c("rank_genes", "get_apl_cutoff", "random_direction_cutoff", "apl_model")
+  function_hashes <- setNames(lapply(tracked_functions, function(name) {
+    function_md5(get(name, envir = asNamespace("CAdir")))
+  }), tracked_functions)
+  pivots <- apply(abs(ca@prin_coords_cols), 2, which.max)
+  write_json(list(seed = cfg$seed, RNGkind = RNGkind(),
+                  alpha_genes = unname(ranked@parameters$alpha_genes),
+                  installed_CAdir_function_md5 = function_hashes,
+                  ca_cell_pivot_ids = rownames(ca@prin_coords_cols)[pivots],
+                  ca_cell_pivot_signs = sign(ca@prin_coords_cols[cbind(pivots, seq_along(pivots))]),
+                  tie_rule = "Upstream decreasing Score order; exact ties retain CA row order (R stable order).",
+                  historical_ranking_equivalence = "not_established; original CA/unranked objects unavailable"),
+             file.path(out, "ranking_provenance.json"))
   ranks <- Filter(is.data.frame, ranked@gene_ranks)
   if (length(ranks)) {
     write_table(do.call(rbind, ranks), file.path(out, "coclustered_gene_ranks.tsv"))
@@ -178,8 +207,9 @@ main <- function() {
     }
     expr <- assay(sce, cfg$assay)
     stopifnot(all(is.finite(expr)), min(expr) >= 0, all(rowSums(expr) > 0), all(colSums(expr) > 0))
-    differences <- c("CPU R CA (python=FALSE); author Figure 2 uses python=TRUE.",
-                     "Input name differs from Figure 2; exact preprocessing equivalence requires source documentation.")
+    differences <- c("Author figure2.qmd corresponds to the formal paper Fig 3 Limb Muscle case (Fig 2 is the method overview).",
+                     "python=FALSE here versus TRUE in author figure2.qmd; fixed APL at dims=30 uses R/irlba for both parameter values.",
+                     "Input name differs from author figure2.qmd; exact preprocessing equivalence requires source documentation.")
     if (ncol(sce) != cfg$expected_cells_context_only) differences <- c(differences, paste("Observed cells", ncol(sce), "versus paper target", cfg$expected_cells_context_only, "; no cell filtering or padding performed."))
     stage <- "select_features"
     gv <- timed("modelGeneVar", scran::modelGeneVar(sce, assay.type = cfg$assay))
@@ -201,11 +231,14 @@ main <- function() {
     sce_sub <- sce[chosen, ]
     stage <- "CA"
     set.seed(cfg$seed)
+    record_rng(out, "before_CA")
     ca <- timed("CA", do.call(APL::cacomp, c(list(obj = assay(sce_sub, cfg$assay), top = nrow(sce_sub)), cfg$ca)))
+    record_rng(out, "after_CA")
     stopifnot(nrow(ca@prin_coords_cols) == ncol(sce), ncol(ca@prin_coords_cols) == cfg$ca$dims, all(is.finite(ca@prin_coords_cols)))
     saveRDS(ca, file.path(out, "ca.rds"))
     stage <- "CAdir"
     set.seed(cfg$seed)
+    record_rng(out, "before_CAdir")
     # Keep a symbolic caobj in match.call(), avoiding serialization/printing of
     # the whole CA object inside CAdir's call metadata when using do.call().
     cadir <- timed("CAdir", CAdir::dirclust_splitmerge(
@@ -217,6 +250,7 @@ main <- function() {
       convergence_thr = cfg$cadir$convergence_thr, max_iter = cfg$cadir$max_iter,
       init = cfg$cadir$init, keep_log = cfg$cadir$keep_log,
       apl_cutoff_reps = cfg$cadir$apl_cutoff_reps))
+    record_rng(out, "after_CAdir")
     saveRDS(cadir, file.path(out, "cadir_unranked.rds"))
     stage <- "export_results"
     ranked <- timed("exports_ranking_plots", export_results(ca, cadir, sce_sub, cfg, out))

@@ -1,0 +1,30 @@
+{
+  "started_utc": "2026-10-25T14:52:25.979563+00:00",
+  "run_directory": "/workspace/cadir-stage1-fix-evidence/fresh-run-2/case-llhgd_58",
+  "mode": "real_case",
+  "data_audit": "PASS",
+  "single_case": "PASS",
+  "paper_reproduction": "not_established",
+  "runtime": "verified_conda",
+  "required_runtime": {
+    "activate.sh": true,
+    "provenance.md": true,
+    "upstream-renv.lock": true
+  },
+  "integrity": "PASS",
+  "command": [
+    "bash",
+    "/workspace/cadir-stage1-fix-evidence/fresh-checkout/cases/tabula_muris_limb/scripts/run-r.sh",
+    "/workspace/cadir-stage1-fix-evidence/fresh-checkout/cases/tabula_muris_limb/scripts/pipeline.R",
+    "/workspace/cadir-stage1-fix-evidence/fresh-run-2/case-llhgd_58/runtime_config.json",
+    "/workspace/cadir-stage1-fix-evidence/fresh-run-2/case-llhgd_58"
+  ],
+  "status": "SINGLE_CASE_COMPLETE_WITH_DOCUMENTED_DIFFERENCES",
+  "annotation": "COMPLETE_PREDICTED_ONLY",
+  "r_peak_rss_KiB_linux": 2278472,
+  "exit_code": 0,
+  "elapsed_seconds": 40.568157041000006,
+  "launcher_children_max_rss_KiB_linux": 2278472,
+  "launcher_started": true,
+  "resource_scope": "Conda R process peak is r_peak_rss_KiB_linux from /proc/self/status; child getrusage includes the launcher. Stage peaks are sampled RSS; these are single-run diagnostics, not algorithm benchmarks."
+}

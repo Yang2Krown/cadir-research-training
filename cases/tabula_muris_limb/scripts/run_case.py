@@ -10,9 +10,11 @@ import subprocess
 import tempfile
 import time
 from datetime import datetime, timezone
+from output_paths import output_root, prepare_root
 
 base = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser()
+output_root(parser, base)
 parser.add_argument('--config', type=Path, default=base / 'config/case.json')
 parser.add_argument('--data', type=Path)
 parser.add_argument('--marker-csv', type=Path)
@@ -25,7 +27,8 @@ if args.marker_csv:
     cfg['marker_csv'] = str(args.marker_csv.resolve())
 cfg['audit_only'] = args.audit_only
 cfg['mode'] = 'real_case'
-out = Path(tempfile.mkdtemp(prefix='case-', dir=base / 'runs'))
+root = prepare_root(args.output_root)
+out = Path(tempfile.mkdtemp(prefix='case-', dir=root))
 (out / 'config.json').write_text(json.dumps(cfg, ensure_ascii=False, indent=2) + '\n')
 start = time.monotonic()
 status = {'started_utc': datetime.now(timezone.utc).isoformat(),
@@ -61,7 +64,7 @@ try:
     if not all(status['required_runtime'].values()):
         status['status'] = 'BLOCKED_CONDA_RUNTIME_MISSING'
         raise RuntimeError('Required preserved Conda runtime or source documents are missing.')
-    env_status = json.loads((base / 'latest-environment.json').read_text())
+    env_status = json.loads((root / 'latest-environment.json').read_text())
     if env_status.get('status') != 'PASS' or env_status.get('runtime') != cfg['runtime']:
         raise RuntimeError('Run check_environment.py successfully for the authorized runtime first.')
     runtime_cfg = dict(cfg)
@@ -91,6 +94,6 @@ finally:
                   launcher_started=r_started,
                   resource_scope='Conda R process peak is r_peak_rss_KiB_linux from /proc/self/status; child getrusage includes the launcher. Stage peaks are sampled RSS; these are single-run diagnostics, not algorithm benchmarks.')
     (out / 'status.json').write_text(json.dumps(status, ensure_ascii=False, indent=2) + '\n')
-    (base / 'latest-case.json').write_text(json.dumps(status, ensure_ascii=False, indent=2) + '\n')
+    (root / 'latest-case.json').write_text(json.dumps(status, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps(status, ensure_ascii=False, indent=2))
 raise SystemExit(code)

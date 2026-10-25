@@ -1,0 +1,38 @@
+Warning message:
+package ‘aricode’ was built under R version 4.4.3 
+$status
+[1] "PASS"
+
+$cells
+[1] 1882
+
+$selected_genes
+[1] 6000
+
+$assigned_genes
+[1] 1200
+
+$clusters
+[1] 7
+
+$ARI
+[1] 0.6695187
+
+$NMI
+[1] 0.7418854
+
+$annotation_changes_partition
+[1] FALSE
+
+$per_gene_cluster_including_NA
+[1] TRUE
+
+$per_cluster_counts
+[1] TRUE
+
+$ranking_gene_cluster_score_rank_row_num
+[1] TRUE
+
+$score_absolute_tolerance
+[1] 1e-10
+
