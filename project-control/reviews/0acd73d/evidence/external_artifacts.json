@@ -1,0 +1,651 @@
+{
+  "root": "/workspace/cadir-stage1-retest",
+  "input_not_copied": "/workspace/cadir-handover/input/tabula_muris_limb_preproc.rds",
+  "raw_run_artifacts": [
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/CA_rss_samples_KiB.txt",
+      "bytes": 968,
+      "sha256": "e691b740ddfd7bd4f441a4b13d74e721c742a1961796e3f7a0431c65350c7adf"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/CA_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/CAdir_rss_samples_KiB.txt",
+      "bytes": 528,
+      "sha256": "f967a63243f3f8c026a93a6407941941706dbcfc409db4841d40e93b5913f8d1"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/CAdir_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/annotation_cellmarker_mouse.tsv",
+      "bytes": 1003010,
+      "sha256": "2d458c7de4df20b02efb3e81f390d34985aff6b17cf7879ddd5e6228c8158333"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/annotation_resources.json",
+      "bytes": 178,
+      "sha256": "0a5ec7e84201d8a8b0b4813eaaf28a3fec50908914fa9038bdfda6af44692474"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/annotation_rss_samples_KiB.txt",
+      "bytes": 192,
+      "sha256": "f31fd9a20ecd2be0073b881d8ef9acc43bc7cad5aa91e705b761aa167121c39f"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/annotation_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/association_plots.pdf",
+      "bytes": 2318514,
+      "sha256": "9fe0baba841e318d51d9df071fe3552e1d58118e4470160374f33e20ed666f3a"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/association_plots.png",
+      "bytes": 626290,
+      "sha256": "02fd90048d4d349887707877b1541566bc9b6ab66958cfe3085908b64df3bb80"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/audit_rss_samples_KiB.txt",
+      "bytes": 432,
+      "sha256": "a9f5853cab6478be2cba1955f0ad6ba973af059f67a620342e7fe4d020049d6e"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/audit_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/ca.rds",
+      "bytes": 5761828,
+      "sha256": "e769376f42f5fc0eada10cc194c4b00101816bd80b7e6d23a01d0d44a472992f"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/ca_cell_coordinates.tsv",
+      "bytes": 1130848,
+      "sha256": "3864b5e0ccc8fda1ad4680e6d80937531543f92f20c5114fac55326cf3a9efd7"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/ca_clusters.png",
+      "bytes": 94760,
+      "sha256": "8892f9e211232857fbfd3dda04f53080d0abef25eaa4d2bffa2c5f6379e8346b"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/ca_gene_coordinates.tsv",
+      "bytes": 3473226,
+      "sha256": "151e1d267cadc2885c74bd68ee0fd19f551bd19870ea5198d177625253b8ad47"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/cadir.rds",
+      "bytes": 21844811,
+      "sha256": "126a197ba5b47dae676f18a2398833d80d5f459cba97b53554cd1ec07cf67a33"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/cadir_annotated.rds",
+      "bytes": 21845082,
+      "sha256": "0803c2b9dae0f72be8d16aae3fc62dbcd7bedc8498b40777f5e8a15547caa244"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/cadir_unranked.rds",
+      "bytes": 21823635,
+      "sha256": "a65d07a24970dd2cbd7c47539cfea119ba438a9f8c04c91192260ec574d79b1d"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/cell_clusters.tsv",
+      "bytes": 120547,
+      "sha256": "a1d28de354ebcf2d89d488e83872688afd2234985cb3577f234d6bb4fe5eb030"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/cell_metadata.tsv",
+      "bytes": 614792,
+      "sha256": "0a0f5cbbcaeb5c35ce409f61d9446c8ee9c6d594bfe8f59962d05579d1ce6a3d"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/cluster_reference_contingency.tsv",
+      "bytes": 1932,
+      "sha256": "338895a43ffd4b838eac6b09976bb44c29f0015dc19e962c72e355c1b26137c0"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/cluster_sizes.tsv",
+      "bytes": 164,
+      "sha256": "e2dc11c9b91ce0154459e141241597595f1d793e575d4df7e663da49009904f7"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/coclustered_gene_ranks.tsv",
+      "bytes": 54539,
+      "sha256": "e38264e1523e3b49398d02ba8f3131cbdedd8f647043b40eeac3d2fa6a4aced6"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/config.json",
+      "bytes": 1244,
+      "sha256": "6d998fff56efcde1ef02df1778ecf437de19b6ad50fe1516b5672f881648822f"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/console.log",
+      "bytes": 329,
+      "sha256": "62af15fd0e2588ffb4d3e4011d861206494019842810611683a8ad7e9f67a222"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/data_audit.json",
+      "bytes": 2273,
+      "sha256": "0574fc7abfb4ea1adf1647f8ca46c0be9aeac44c06f0aba8c1e92a40dccb19bb"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/effective_cadir_parameters.txt",
+      "bytes": 640,
+      "sha256": "664fd32282d10535887758efb92aa445a0c3774a64920af8f08bf1ed5b898933"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/exports_ranking_plots_rss_samples_KiB.txt",
+      "bytes": 848,
+      "sha256": "429efc3698ab40ee48c4a9ad39910dac1ff601495444a26b2e15994eb246b33a"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/exports_ranking_plots_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/gene_clusters.tsv",
+      "bytes": 81174,
+      "sha256": "b5f433723a2035c15fde1913c245546887199dae455f80196d9660235db71a21"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/gene_metadata.tsv",
+      "bytes": 545928,
+      "sha256": "5b8730a3359d69af09a339ddd19f06e2c9c9baecbb0f614c6ed1affe8954fb50"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/gene_variance.tsv",
+      "bytes": 1523966,
+      "sha256": "4ed0021dcf434fc7f03829d0a30e89483c5b6f718a619aee975d8dd0e8675d89"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/hvg_genes.tsv",
+      "bytes": 52364,
+      "sha256": "a9ac1b09f77e24dda2c20d65251f8fde27ce8bde579327498fdac3106b8815f3"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/input_integrity.json",
+      "bytes": 179,
+      "sha256": "3999ab885eb6b24e6208b3936426b1564e80d583af08b8516bac21b83b70c4f1"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/installed_packages.tsv",
+      "bytes": 9202,
+      "sha256": "a87be7e7a7e94b27b9eceaef49b99e635a72790dc1569cb4dffef3ab97845b76"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/metadata.txt",
+      "bytes": 3166,
+      "sha256": "1cf5fd800b927ed4f4445b093a31333fba3f13482a9448ecb176241600fb421c"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/metrics.json",
+      "bytes": 334,
+      "sha256": "b1624836f37038fe399fa78bda33abaa415fdb37565f04dbbad72dcff202b5a8"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/modelGeneVar_rss_samples_KiB.txt",
+      "bytes": 48,
+      "sha256": "5c5aefd41ec2ac30aec247e101c5fb8bb94dc572c1c08ddf40a78542fe02fce2"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/modelGeneVar_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/object_structure.txt",
+      "bytes": 798,
+      "sha256": "e00d9718506e0dd1f4969756f88f521b4c6e0a693b83388d8b2f6d76304bcf91"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/paper_differences.txt",
+      "bytes": 424,
+      "sha256": "e4af5b37322922500179cd8b16a5a4f5dc0a1c349cd90bde4b44347010b6dec3"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/predicted_annotations.tsv",
+      "bytes": 99924,
+      "sha256": "9109eba83b1321108d7b7676c1f98fdef716996d80200027bd3c39aa74587e8b"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/r_status.json",
+      "bytes": 237,
+      "sha256": "c7ad326b7e09bfe05784d7767745ac9d3f1d0bb924335ab3e61bb8b32580384c"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/ranking_provenance.json",
+      "bytes": 1510,
+      "sha256": "8ee650ba1d25afa30be39e9d7677dc2ce682570debd5e99489731c87aedbe68a"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/readRDS_rss_samples_KiB.txt",
+      "bytes": 214,
+      "sha256": "f2dcfcd703391c09fd9c660a9569773db2cc357d524428a9335b55127f96d96a"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/readRDS_sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/reference_label_counts.tsv",
+      "bytes": 201,
+      "sha256": "1a3c8bbe65a1d607572681ca2b53950e50d7eab10662664af13b784151b3b28d"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/required_version_check.tsv",
+      "bytes": 254,
+      "sha256": "51e100ba02cbedf1200045954199b4f4b1a7ee16cc05fce192bfba65ccbe4ba5"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/rng_stages.json",
+      "bytes": 64426,
+      "sha256": "187afc9a428511bd8e2585869fa861ad554ef20068241c7194c0a6a3f89cb8c1"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/runtime_config.json",
+      "bytes": 1244,
+      "sha256": "6d998fff56efcde1ef02df1778ecf437de19b6ad50fe1516b5672f881648822f"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/selected_genes.tsv",
+      "bytes": 52364,
+      "sha256": "a9ac1b09f77e24dda2c20d65251f8fde27ce8bde579327498fdac3106b8815f3"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/selection.json",
+      "bytes": 151,
+      "sha256": "14d7e529e0dadc1b5c868df197f08c2c32132258e414adb13135f515ace22538"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/sessionInfo.txt",
+      "bytes": 5759,
+      "sha256": "4ba38a5b40d5f921675735ad5f1cbbac00731d09506e1ad704455557e91543de"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/split_merge_cluster_history.tsv",
+      "bytes": 320154,
+      "sha256": "bd3270411b4d3038fc03440dc196020bf4cd9533752e9e790819d6e3d97549dc"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/stage_times_seconds.json",
+      "bytes": 2201,
+      "sha256": "f89661b8a1fa152930e660c94a241195de5522f7b9d9797f61562c1fa30fc1ad"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/status.json",
+      "bytes": 1276,
+      "sha256": "6979e1923bc6d041192f182dc977df2246103e997de46d9d6f448af427462c62"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/verification.json",
+      "bytes": 365,
+      "sha256": "4b1c43984b94f9566268a234ed02dc64453f197841df67c202b3fd4d12f2e057"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/verification.log",
+      "bytes": 418,
+      "sha256": "16a6f4245d0202b4356c943371c13ea52b33c8870decf60deab06a6256df3bd5"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/figures/association_plots.pdf",
+      "bytes": 2318514,
+      "sha256": "9fe0baba841e318d51d9df071fe3552e1d58118e4470160374f33e20ed666f3a"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/figures/association_plots.png",
+      "bytes": 626290,
+      "sha256": "02fd90048d4d349887707877b1541566bc9b6ab66958cfe3085908b64df3bb80"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/figures/ca_clusters.png",
+      "bytes": 94760,
+      "sha256": "8892f9e211232857fbfd3dda04f53080d0abef25eaa4d2bffa2c5f6379e8346b"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/annotation_resources.json",
+      "bytes": 178,
+      "sha256": "0a5ec7e84201d8a8b0b4813eaaf28a3fec50908914fa9038bdfda6af44692474"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/cell_clusters.tsv",
+      "bytes": 120547,
+      "sha256": "a1d28de354ebcf2d89d488e83872688afd2234985cb3577f234d6bb4fe5eb030"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/cluster_annotations.tsv",
+      "bytes": 503,
+      "sha256": "d3b0758911537c4cd59572348a7ae25bff6a558bd45c969c7e5df2abc9438258"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/cluster_reference_contingency.tsv",
+      "bytes": 1932,
+      "sha256": "338895a43ffd4b838eac6b09976bb44c29f0015dc19e962c72e355c1b26137c0"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/cluster_sizes.tsv",
+      "bytes": 164,
+      "sha256": "e2dc11c9b91ce0154459e141241597595f1d793e575d4df7e663da49009904f7"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/coclustered_gene_ranks.tsv",
+      "bytes": 54539,
+      "sha256": "e38264e1523e3b49398d02ba8f3131cbdedd8f647043b40eeac3d2fa6a4aced6"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/config.json",
+      "bytes": 1244,
+      "sha256": "6d998fff56efcde1ef02df1778ecf437de19b6ad50fe1516b5672f881648822f"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/console.log",
+      "bytes": 329,
+      "sha256": "62af15fd0e2588ffb4d3e4011d861206494019842810611683a8ad7e9f67a222"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/data_audit.json",
+      "bytes": 2273,
+      "sha256": "0574fc7abfb4ea1adf1647f8ca46c0be9aeac44c06f0aba8c1e92a40dccb19bb"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/effective_cadir_parameters.txt",
+      "bytes": 640,
+      "sha256": "664fd32282d10535887758efb92aa445a0c3774a64920af8f08bf1ed5b898933"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/gene_clusters.tsv",
+      "bytes": 81174,
+      "sha256": "b5f433723a2035c15fde1913c245546887199dae455f80196d9660235db71a21"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/input_integrity.json",
+      "bytes": 179,
+      "sha256": "3999ab885eb6b24e6208b3936426b1564e80d583af08b8516bac21b83b70c4f1"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/metrics.json",
+      "bytes": 334,
+      "sha256": "b1624836f37038fe399fa78bda33abaa415fdb37565f04dbbad72dcff202b5a8"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/paper_differences.txt",
+      "bytes": 424,
+      "sha256": "e4af5b37322922500179cd8b16a5a4f5dc0a1c349cd90bde4b44347010b6dec3"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/predicted_annotations.tsv",
+      "bytes": 99924,
+      "sha256": "9109eba83b1321108d7b7676c1f98fdef716996d80200027bd3c39aa74587e8b"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/ranking_provenance.json",
+      "bytes": 1510,
+      "sha256": "8ee650ba1d25afa30be39e9d7677dc2ce682570debd5e99489731c87aedbe68a"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/reference_label_counts.tsv",
+      "bytes": 201,
+      "sha256": "1a3c8bbe65a1d607572681ca2b53950e50d7eab10662664af13b784151b3b28d"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/required_version_check.tsv",
+      "bytes": 254,
+      "sha256": "51e100ba02cbedf1200045954199b4f4b1a7ee16cc05fce192bfba65ccbe4ba5"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/result_index.json",
+      "bytes": 9376,
+      "sha256": "9667bc53195c90dc0835a2c956ecf31b50099caffe1b611fdadb833e620589b8"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/selection.json",
+      "bytes": 151,
+      "sha256": "14d7e529e0dadc1b5c868df197f08c2c32132258e414adb13135f515ace22538"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/sessionInfo.txt",
+      "bytes": 5759,
+      "sha256": "4ba38a5b40d5f921675735ad5f1cbbac00731d09506e1ad704455557e91543de"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/stage_times_seconds.json",
+      "bytes": 2201,
+      "sha256": "f89661b8a1fa152930e660c94a241195de5522f7b9d9797f61562c1fa30fc1ad"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/status.json",
+      "bytes": 1276,
+      "sha256": "6979e1923bc6d041192f182dc977df2246103e997de46d9d6f448af427462c62"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/verification.json",
+      "bytes": 365,
+      "sha256": "4b1c43984b94f9566268a234ed02dc64453f197841df67c202b3fd4d12f2e057"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/deliverables/results/verification.log",
+      "bytes": 418,
+      "sha256": "16a6f4245d0202b4356c943371c13ea52b33c8870decf60deab06a6256df3bd5"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/environment-kol75v3n/activate.sh",
+      "bytes": 573,
+      "sha256": "8e29eb4ae38526c4c20ebf25664695d7b85f2204b623c8e7766112710ce4c27a"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/environment-kol75v3n/provenance.md",
+      "bytes": 3252,
+      "sha256": "a3c2c553095d4199ca15dc441cc5b87ab29347e915100353387eb2fe23ca61f6"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/environment-kol75v3n/resources.log",
+      "bytes": 3661,
+      "sha256": "f7463c3555bdd93d936dfdbcf667bd746d7d2154091c295471758565f87b0599"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/environment-kol75v3n/run-smoke.py",
+      "bytes": 1764,
+      "sha256": "f7b2d53354b6ec909eeb9dcd0e68d11e10770f4e4e693b180a32dfb91a165eaa"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/environment-kol75v3n/smoke.R",
+      "bytes": 2965,
+      "sha256": "cbee1d49e454add9d3101111cb507065322e8eea9f9a03b2fdbc95fcd5047a29"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/environment-kol75v3n/sources.json",
+      "bytes": 947,
+      "sha256": "5d75212102e7fdff973a50d125d79311e14e2ba7c346566cff31f89a71e73a16"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/environment-kol75v3n/status.json",
+      "bytes": 2112,
+      "sha256": "443123ed823c2fb9bce1f2bf835972bd66796836b1f7dcaa9fc365d2611adb6e"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/environment-kol75v3n/synthetic-ca-cadir-smoke.png",
+      "bytes": 18424,
+      "sha256": "431ebfd6f4c55f78297bc1507afc0447ea2f3345938652ee3cea3c82214d4415"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/environment-kol75v3n/synthetic-console.log",
+      "bytes": 478,
+      "sha256": "b89f2bf13fefb69662b795362201c81915de31355f134e83b50c6659d56a7017"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/environment-kol75v3n/synthetic-installed-packages.csv",
+      "bytes": 14765,
+      "sha256": "c870f0aaa5776f8d1ce19b75e4574cf188cbfc73da966c0046c55baec50a3ddb"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/environment-kol75v3n/synthetic-resources.json",
+      "bytes": 374,
+      "sha256": "2f537880d1e55d4d8ae5f8596167fd5ab819bab4b5236bf6dc65a6b87217555a"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/environment-kol75v3n/synthetic-sessionInfo.txt",
+      "bytes": 5788,
+      "sha256": "c725baf89274d3e83e8f1a35b20741b7406b97be1746db5d78a807eedce99b34"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/environment-kol75v3n/synthetic-status.txt",
+      "bytes": 69,
+      "sha256": "6a97d2731837f37338425a10b0165fc7bb95b5cb14ab619552a3ab4fc804922f"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/environment-kol75v3n/synthetic_smoke.log",
+      "bytes": 374,
+      "sha256": "2f537880d1e55d4d8ae5f8596167fd5ab819bab4b5236bf6dc65a6b87217555a"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/environment-kol75v3n/upstream-renv.lock",
+      "bytes": 169895,
+      "sha256": "b8dbf9e526885496c1b28af91c1bec36aa6b103c87da0a966ce4869d06f3a129"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/environment-kol75v3n/versions.log",
+      "bytes": 6737,
+      "sha256": "9c45917857ece59a0a13619502cb1e38cb7cf9ff895669f8d7adfd33f0cb3564"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/latest-case.json",
+      "bytes": 1276,
+      "sha256": "6979e1923bc6d041192f182dc977df2246103e997de46d9d6f448af427462c62"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/complete-entry/latest-environment.json",
+      "bytes": 2112,
+      "sha256": "443123ed823c2fb9bce1f2bf835972bd66796836b1f7dcaa9fc365d2611adb6e"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/activate.sh",
+      "bytes": 573,
+      "sha256": "8e29eb4ae38526c4c20ebf25664695d7b85f2204b623c8e7766112710ce4c27a"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/provenance.md",
+      "bytes": 3252,
+      "sha256": "a3c2c553095d4199ca15dc441cc5b87ab29347e915100353387eb2fe23ca61f6"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/resources.log",
+      "bytes": 3661,
+      "sha256": "f63f1595d19a7cea77fedc1726b4272d35a9acd21591c6f3e086fc8722075c53"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/run-smoke.py",
+      "bytes": 1764,
+      "sha256": "f7b2d53354b6ec909eeb9dcd0e68d11e10770f4e4e693b180a32dfb91a165eaa"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/smoke.R",
+      "bytes": 2965,
+      "sha256": "cbee1d49e454add9d3101111cb507065322e8eea9f9a03b2fdbc95fcd5047a29"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/sources.json",
+      "bytes": 947,
+      "sha256": "5d75212102e7fdff973a50d125d79311e14e2ba7c346566cff31f89a71e73a16"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/status.json",
+      "bytes": 2926,
+      "sha256": "de7dbc135566b3db11b64a886ce6ed19cc7bf7fcc771bd295d7a62cedec8ddd1"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/synthetic-ca-cadir-smoke.png",
+      "bytes": 18424,
+      "sha256": "431ebfd6f4c55f78297bc1507afc0447ea2f3345938652ee3cea3c82214d4415"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/synthetic-console.log",
+      "bytes": 478,
+      "sha256": "b89f2bf13fefb69662b795362201c81915de31355f134e83b50c6659d56a7017"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/synthetic-installed-packages.csv",
+      "bytes": 14765,
+      "sha256": "c870f0aaa5776f8d1ce19b75e4574cf188cbfc73da966c0046c55baec50a3ddb"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/synthetic-resources.json",
+      "bytes": 671,
+      "sha256": "555c9b85a130b21dec35147d7eccff076b5083a0185db61a482d443999028e7a"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/synthetic-sessionInfo.txt",
+      "bytes": 5788,
+      "sha256": "c725baf89274d3e83e8f1a35b20741b7406b97be1746db5d78a807eedce99b34"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/synthetic-smoke/ca-cadir-smoke.png",
+      "bytes": 18424,
+      "sha256": "431ebfd6f4c55f78297bc1507afc0447ea2f3345938652ee3cea3c82214d4415"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/synthetic-smoke/console.log",
+      "bytes": 478,
+      "sha256": "b89f2bf13fefb69662b795362201c81915de31355f134e83b50c6659d56a7017"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/synthetic-smoke/installed-packages.csv",
+      "bytes": 14765,
+      "sha256": "c870f0aaa5776f8d1ce19b75e4574cf188cbfc73da966c0046c55baec50a3ddb"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/synthetic-smoke/resources.json",
+      "bytes": 671,
+      "sha256": "555c9b85a130b21dec35147d7eccff076b5083a0185db61a482d443999028e7a"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/synthetic-smoke/sessionInfo.txt",
+      "bytes": 5788,
+      "sha256": "c725baf89274d3e83e8f1a35b20741b7406b97be1746db5d78a807eedce99b34"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/synthetic-smoke/smoke-results.rds",
+      "bytes": 26038,
+      "sha256": "69ee0c35b5035a409d0480a475b0be3041d30787a2c06ab8a36da87438a987ce"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/synthetic-smoke/status.txt",
+      "bytes": 69,
+      "sha256": "6a97d2731837f37338425a10b0165fc7bb95b5cb14ab619552a3ab4fc804922f"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/synthetic-smoke/synthetic-sce.rds",
+      "bytes": 22713,
+      "sha256": "dc383425b7bea4b885c0cebb2deffdcf408aba6603de3da91b8ea4225da63a39"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/synthetic-status.txt",
+      "bytes": 69,
+      "sha256": "6a97d2731837f37338425a10b0165fc7bb95b5cb14ab619552a3ab4fc804922f"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/upstream-renv.lock",
+      "bytes": 169895,
+      "sha256": "b8dbf9e526885496c1b28af91c1bec36aa6b103c87da0a966ce4869d06f3a129"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/versions.log",
+      "bytes": 6737,
+      "sha256": "9c45917857ece59a0a13619502cb1e38cb7cf9ff895669f8d7adfd33f0cb3564"
+    },
+    {
+      "path": "/workspace/cadir-stage1-retest/final-smoke-entry/latest-environment.json",
+      "bytes": 2926,
+      "sha256": "de7dbc135566b3db11b64a886ce6ed19cc7bf7fcc771bd295d7a62cedec8ddd1"
+    }
+  ]
+}

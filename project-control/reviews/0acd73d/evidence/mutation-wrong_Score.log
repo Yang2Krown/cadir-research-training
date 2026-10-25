@@ -1,0 +1,8 @@
+Warning message:
+package ‘aricode’ was built under R version 4.4.3 
+$status
+[1] "FAIL"
+
+$error
+[1] "Ranking Score mismatch against cadir.rds (absolute tolerance 1e-10)"
+

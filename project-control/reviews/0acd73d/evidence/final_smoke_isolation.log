@@ -1,0 +1,54 @@
+{
+  "source_sha": "0acd73d23b46f7bf84ab2571dc9722b3d2f10d0b",
+  "command": [
+    "python",
+    "/workspace/cadir-stage1-final-review-source/cases/tabula_muris_limb/scripts/check_environment.py",
+    "--output-root",
+    "/workspace/cadir-stage1-retest/final-smoke-entry"
+  ],
+  "output_root_absent_before": true,
+  "exit_code": 0,
+  "environment_status": "PASS",
+  "smoke_run_directory": "/workspace/cadir-stage1-retest/final-smoke-entry/environment-gfxol0a4/synthetic-smoke",
+  "smoke_status": "PASS: synthetic smoke only; no scientific or performance conclusion.\n",
+  "shared_entry_count": 56,
+  "shared_file_count": 49,
+  "shared_entries_bytes_hash_and_mtime_identical": true,
+  "source_tracked_files": 316,
+  "source_changed": [],
+  "git_status_after": "",
+  "required_artifacts": {
+    "status.txt": {
+      "bytes": 69,
+      "sha256": "6a97d2731837f37338425a10b0165fc7bb95b5cb14ab619552a3ab4fc804922f"
+    },
+    "sessionInfo.txt": {
+      "bytes": 5788,
+      "sha256": "c725baf89274d3e83e8f1a35b20741b7406b97be1746db5d78a807eedce99b34"
+    },
+    "installed-packages.csv": {
+      "bytes": 14765,
+      "sha256": "c870f0aaa5776f8d1ce19b75e4574cf188cbfc73da966c0046c55baec50a3ddb"
+    },
+    "synthetic-sce.rds": {
+      "bytes": 22713,
+      "sha256": "dc383425b7bea4b885c0cebb2deffdcf408aba6603de3da91b8ea4225da63a39"
+    },
+    "smoke-results.rds": {
+      "bytes": 26038,
+      "sha256": "69ee0c35b5035a409d0480a475b0be3041d30787a2c06ab8a36da87438a987ce"
+    },
+    "ca-cadir-smoke.png": {
+      "bytes": 18424,
+      "sha256": "431ebfd6f4c55f78297bc1507afc0447ea2f3345938652ee3cea3c82214d4415"
+    },
+    "console.log": {
+      "bytes": 478,
+      "sha256": "b89f2bf13fefb69662b795362201c81915de31355f134e83b50c6659d56a7017"
+    },
+    "resources.json": {
+      "bytes": 671,
+      "sha256": "555c9b85a130b21dec35147d7eccff076b5083a0185db61a482d443999028e7a"
+    }
+  }
+}

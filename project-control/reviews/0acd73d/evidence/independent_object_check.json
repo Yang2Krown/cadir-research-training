@@ -1,0 +1,35 @@
+{
+  "alpha_genes": 1.07506446203775,
+  "all_6000_gene_cluster_NA_identical": true,
+  "gene_rows": 6000,
+  "assigned": 1200,
+  "unassigned": 4800,
+  "ranking_rows": 1200,
+  "ranking_clusters_identical": true,
+  "ranking_score_max_abs": 5.32907051820075e-15,
+  "ranking_rank_identical": true,
+  "ranking_row_num_identical": true,
+  "ca_dimensions": [1882, 30],
+  "installed_functions_vs_fixed_source": [
+    {
+      "name": "rank_genes",
+      "formals_identical": true,
+      "body_identical": true
+    },
+    {
+      "name": "get_apl_cutoff",
+      "formals_identical": true,
+      "body_identical": true
+    },
+    {
+      "name": "random_direction_cutoff",
+      "formals_identical": true,
+      "body_identical": true
+    },
+    {
+      "name": "apl_model",
+      "formals_identical": true,
+      "body_identical": true
+    }
+  ]
+}
