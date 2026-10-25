@@ -1,5 +1,5 @@
 Warning message:
-package ‘aricode’ was built under R version 4.4.3 
+package ‘aricode’ was built under R version 4.4.3
 $status
 [1] "PASS"
 
@@ -35,4 +35,3 @@ $ranking_gene_cluster_score_rank_row_num
 
 $score_absolute_tolerance
 [1] 1e-10
-

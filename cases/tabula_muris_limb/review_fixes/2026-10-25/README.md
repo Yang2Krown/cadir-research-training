@@ -49,11 +49,11 @@ R3 处置：`UNRESOLVED / 待独立评审归因与判断`。不为凑放行预�
 - R5：作者固定 [figure2.qmd](https://github.com/VingronLab/CAdir_results/blob/c15b49578bde38b42fd5db2c9830c10dd441ee4c/results/figure2.qmd) 是仓库文件名，对应[正式论文](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014418) Fig 3 Limb Muscle 案例；正式 Fig 2 是方法概览。现行 README 与新生成说明已修正。
 - R6：实际打开冻结 PNG，逐项对照固定绘图源码；增加[相邻完整图注](../../figures/association_plots.caption.md)，注明七个方向、投影/正交距离、细胞 standard / 基因 principal、四类颜色及排名解释。原 PNG/PDF 字节未变。
 
-历史 `results/`、`acceptance/`、报告及已有图不重写，原文中的“Figure 2”“python 后端不同”和笼统完整复跑主张应结合本勘误阅读。[保全检查](evidence/preservation.json) 对 214 个原有非脚本、非现行 README 案例文件确认 SHA256 不变，包含历史脚本快照、结果及验收基线。ARI/NMI 保留单案例定义（NMI 为 MI/max(Hcluster,Hreference)）；自动注释仍为预测，未显著簇与文献资源名称均不人工改为真值。
+历史 `results/`、`acceptance/`、报告及已有图不重写，原文中的“Figure 2”“python 后端不同”和笼统完整复跑主张应结合本勘误阅读。[保全检查](evidence/preservation.json) 对 239 个原有且未列为当前修复修改的文件确认 SHA256 不变，包含历史脚本快照、结果及验收基线。ARI/NMI 保留单案例定义（NMI 为 MI/max(Hcluster,Hreference)）；自动注释仍为预测，未显著簇与文献资源名称均不人工改为真值。
 
 ## 复验入口与证据位置
 
-完整大对象、坐标、真实输入和完整上游源码不入 Git；大输出位于 `/workspace/cadir-stage1-fix-evidence/`，逐文件大小及 SHA256 见 [外部清单](evidence/external_evidence_manifest.json)。Git 中仅保留轻量状态、RNG、日志、哈希与脚本。失败注入日志全部保留。
+完整大对象、坐标、真实输入和完整上游源码不入 Git；大输出位于 `/workspace/cadir-stage1-fix-evidence/`，逐文件大小及 SHA256 见 [外部清单](evidence/external_evidence_manifest.json)。Git 中仅保留轻量状态、RNG、日志、哈希与脚本。失败注入原日志全部保留在外部目录并记录哈希；Git 中的日志副本仅删除行末空白及文件末尾多余空行，以通过 diff 空白检查，正文不改。
 
 ```bash
 case_dir=/workspace/cadir-stage1-fix/cases/tabula_muris_limb
