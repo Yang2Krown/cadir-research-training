@@ -232,13 +232,13 @@
   "required_versions": {
     "R": "4.4.1",
     "Bioconductor": "3.19",
-    "APL": "1.9.1",
+    "APL": "1.2.0",
     "CAdir": "0.0.99",
     "scran": "1.32.0",
     "scater": "1.32.1",
     "scuttle": "1.14.0",
     "SingleCellExperiment": "1.26.0",
-    "igraph": "2.3.3",
+    "igraph": "2.3.4",
     "BiocNeighbors": "1.22.0",
     "BiocSingular": "1.20.0"
   },
@@ -246,5 +246,19 @@
   "formal_runner_implemented": true,
   "freeze_requirement": "Only independent reviewer-authored admission binding exact commit and all manifest hashes can unlock formal runner. This file is not admission.",
   "authority_commit": "574c71e357f4b3bb714a3d4ddceb28593b0afd27",
-  "accepted_input_review": "da802216238bc66a60eff514b1ccebf213e77351"
+  "accepted_input_review": "da802216238bc66a60eff514b1ccebf213e77351",
+  "actual_environment_differences": [
+    {
+      "package": "APL",
+      "draft_version": "1.9.1",
+      "actual_version": "1.2.0",
+      "reason": "Use inspected existing installation; no claim of binary or original-case equivalence; independent review required"
+    },
+    {
+      "package": "igraph",
+      "draft_version": "2.3.3",
+      "actual_version": "2.3.4",
+      "reason": "Use inspected existing installation; no claim of binary or original-case equivalence; independent review required"
+    }
+  ]
 }

@@ -11,7 +11,8 @@ environment_signature <- function() {
     for(n in nms) {v <- get(n,envir=ns,inherits=FALSE);if(is.function(v)) hashes[[n]] <- function_signature(v)}
     list(version=as.character(packageVersion(p)),namespace_function_hash=sha_text(capture.output(dput(hashes))),functions=hashes)
   }),tracked_packages)
-  list(R=as.character(getRversion()),platform=R.version$platform,
+  dispatch <- setNames(lapply(c("cacomp","runPCA","calculatePCA","runSVD","normalizeCounts","logNormCounts","modelGeneVar","buildSNNGraph"),function(n) sha_text(capture.output(showMethods(n,includeDefs=TRUE)))),c("cacomp","runPCA","calculatePCA","runSVD","normalizeCounts","logNormCounts","modelGeneVar","buildSNNGraph"))
+  list(R=as.character(getRversion()),platform=R.version$platform,dispatch=dispatch,
        BLAS=unname(extSoftVersion()["BLAS"]),LAPACK=La_version(),packages=namespaces,
        thread_env=as.list(Sys.getenv(c("OPENBLAS_NUM_THREADS","OMP_NUM_THREADS","MKL_NUM_THREADS","VECLIB_MAXIMUM_THREADS"))))
 }
