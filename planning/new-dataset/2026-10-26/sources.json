@@ -1,0 +1,310 @@
+{
+  "audit_title": "CAdir 下一阶段新数据候选来源审计",
+  "audit_date": "2026-10-26",
+  "timezone": "Asia/Shanghai",
+  "task_scope": "来源核查；未下载候选表达矩阵、未执行实验、未安装包、未调参。",
+  "base_commit": "9d473b441058c45b2563c2ebe94ae99dda1f5209",
+  "fixed_refs": {
+    "CAdir_results": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+    "CAdir_algorithm": "de74a008dfcd0d4fa4f7f93c57aa346892a8d935"
+  },
+  "evidence_time_note": "逐来源访问的精确分钟未由浏览工具保留；本次来源核查发生于 2026-10-26 09:05–09:10 Asia/Shanghai。以下 viewed_at 如实记录该时间窗。",
+  "evidence": [
+    {
+      "id": "paper_main",
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014418",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "Methods: Experimental data; preprocessing; Table 2; Tabula Muris cluster-number recovery analysis",
+      "summary": "正文列出 12 个真实数据名称、模拟数据构造、表中分析规模和 Tabula Muris recovery 配置；LM 是 Tabula Muris 的 Limb Muscle 组织子集。",
+      "status": "readable_primary_source",
+      "ref": "DOI 10.1371/journal.pcbi.1014418"
+    },
+    {
+      "id": "paper_supplement_plos",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014418.s001",
+      "attempted_urls": [
+        "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1014418.s001&type=printable",
+        "https://journals.plos.org/ploscompbiol/article/asset?id=10.1371/journal.pcbi.1014418.s001.PDF"
+      ],
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "Official S1 Appendix DOI and PLOS direct PDF paths",
+      "summary": "浏览器首次点击官方附件返回 HTTP 500；PLOS printable/asset 路径尝试也未能读到文件。补充 PDF 全文未核实。",
+      "status": "access_failed_http_500_or_unavailable"
+    },
+    {
+      "id": "paper_supplement_pmc",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13349309/bin/pcbi.1014418.s001.pdf",
+      "attempted_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13349309/"
+      ],
+      "viewed_at": "2026-10-26 09:09–09:10 Asia/Shanghai",
+      "locator": "Last attempt to open PMC official mirror and supplementary PDF",
+      "summary": "PMC article page displayed a reCAPTCHA interstitial; find for Supplementary material/S1 Appendix returned no matching text. PDF was not accessed.",
+      "status": "access_blocked_recaptcha"
+    },
+    {
+      "id": "author_results_fixed_ref",
+      "url": "https://github.com/VingronLab/CAdir_results/tree/c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "Pinned author results repository tree",
+      "summary": "固定作者结果仓库；对下载、预处理、基准、图表和补充分析源码/QMD 共 67 个文件检查候选 accession/别名。未见 Nestorowa 或 Haber 的调用；同时核实胰腺整合对象被使用。",
+      "status": "readable_primary_source",
+      "git_commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c"
+    },
+    {
+      "id": "author_processing_mapping",
+      "url": "https://github.com/VingronLab/CAdir_results/blob/c15b49578bde38b42fd5db2c9830c10dd441ee4c/download_raw_data/benchmarking/data_processing.qmd",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "download_raw_data/benchmarking/data_processing.qmd",
+      "summary": "核对论文数据处理/下载映射与作者使用别名的代码位置。",
+      "status": "readable_primary_source",
+      "git_commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "git_blob_sha": "7d86cfbdcdf2fcde0c028bbed074451e6a193b65"
+    },
+    {
+      "id": "author_download_mapping",
+      "url": "https://github.com/VingronLab/CAdir_results/blob/c15b49578bde38b42fd5db2c9830c10dd441ee4c/download_raw_data/benchmarking/download_data.sh",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "download_raw_data/benchmarking/download_data.sh",
+      "summary": "核对作者对基准数据的下载入口和文件名/数据集映射。",
+      "status": "readable_primary_source",
+      "git_commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "git_blob_sha": "425a5676a5daed50a35c2338b19c924967da8fff"
+    },
+    {
+      "id": "author_benchmark_aliases",
+      "url": "https://github.com/VingronLab/CAdir_results/blob/c15b49578bde38b42fd5db2c9830c10dd441ee4c/benchmarking/cell_clustering_real.sh",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "benchmarking/cell_clustering_real.sh",
+      "summary": "作者真实数据基准别名包括 Darmanis、FreytagGold、PBMC_10X、Tirosh_nonmaglignant、BaronPancreas、ZeiselBrain、brain_organoids、dmel_E14-16h 与 tabula_sapiens_tissue。",
+      "status": "readable_primary_source",
+      "git_commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "git_blob_sha": "e53c11f77fd66c9bd0727455185e4fffab859a3d"
+    },
+    {
+      "id": "author_preprocessing_aliases",
+      "url": "https://github.com/VingronLab/CAdir_results/blob/c15b49578bde38b42fd5db2c9830c10dd441ee4c/preprocessing/submit_to_cluster_preprocessing.sh",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "preprocessing/submit_to_cluster_preprocessing.sh",
+      "summary": "固定提交下预处理作业映射；与下载和真实聚类脚本交叉核对。",
+      "status": "readable_primary_source",
+      "git_commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "git_blob_sha": "68ba103e0c03afdb3966fbb4ebc6be744484db9c"
+    },
+    {
+      "id": "author_splatter_mapping",
+      "url": "https://github.com/VingronLab/CAdir_results/blob/c15b49578bde38b42fd5db2c9830c10dd441ee4c/preprocessing/sim_data_generation/make_splatter_data.R",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "preprocessing/sim_data_generation/make_splatter_data.R",
+      "summary": "作者模拟数据生成源码，核对论文所述以 Zeisel Brain/PBMC3K 参数为基础的 Splatter 模拟。",
+      "status": "readable_primary_source",
+      "git_commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "git_blob_sha": "ffa05fbf683d883ab022d0ca9c09634941b643f3"
+    },
+    {
+      "id": "author_tabula_muris_full",
+      "url": "https://github.com/VingronLab/CAdir_results/blob/c15b49578bde38b42fd5db2c9830c10dd441ee4c/download_raw_data/tabula_muris/download_full_tabula_muris.R",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "download_raw_data/tabula_muris/download_full_tabula_muris.R",
+      "summary": "作者 full Tabula Muris 下载脚本，区分 full atlas 与 LM 子集及不同分析规模。",
+      "status": "readable_primary_source",
+      "git_commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "git_blob_sha": "1c6d040c9f29171b43ecbacbb0b477b627f09bff"
+    },
+    {
+      "id": "author_tabula_muris_lm",
+      "url": "https://github.com/VingronLab/CAdir_results/blob/c15b49578bde38b42fd5db2c9830c10dd441ee4c/download_raw_data/tabula_muris/tabula_muris_limb_save_RAW_data.R",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "download_raw_data/tabula_muris/tabula_muris_limb_save_RAW_data.R",
+      "summary": "作者 Limb Muscle 原始数据处理脚本，确认 Tabula Muris LM 是组织子集，非独立数据研究。",
+      "status": "readable_primary_source",
+      "git_commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "git_blob_sha": "c54eab2b84eee9dbafc8cd88df97422ae297b15b"
+    },
+    {
+      "id": "author_figure2",
+      "url": "https://github.com/VingronLab/CAdir_results/blob/c15b49578bde38b42fd5db2c9830c10dd441ee4c/results/figure2.qmd",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "results/figure2.qmd",
+      "summary": "正文/图表分析 QMD，纳入固定代码映射与候选别名覆盖核对。",
+      "status": "readable_primary_source",
+      "git_commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "git_blob_sha": "654de2d4178d79ec87524b3fcf4edef66ef234a8"
+    },
+    {
+      "id": "author_figure3",
+      "url": "https://github.com/VingronLab/CAdir_results/blob/c15b49578bde38b42fd5db2c9830c10dd441ee4c/results/figure3.qmd",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "results/figure3.qmd",
+      "summary": "正文/图表分析 QMD，纳入固定代码映射与候选别名覆盖核对。",
+      "status": "readable_primary_source",
+      "git_commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "git_blob_sha": "63d075ce9065835d5237c58845006cb48e5cdd2c"
+    },
+    {
+      "id": "author_supp_batch",
+      "url": "https://github.com/VingronLab/CAdir_results/blob/c15b49578bde38b42fd5db2c9830c10dd441ee4c/results/suppl_mat/batch.qmd",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "results/suppl_mat/batch.qmd",
+      "summary": "补充批次分析 QMD 明确读取 human_pancreas_norm_complexBatch.rds，证明作者补充材料使用额外人胰腺整合对象。",
+      "status": "readable_primary_source",
+      "git_commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "git_blob_sha": "9bfae6760bba1a533ab8b8a3c5650847a6768ab2"
+    },
+    {
+      "id": "author_pancreas_download",
+      "url": "https://github.com/VingronLab/CAdir_results/blob/c15b49578bde38b42fd5db2c9830c10dd441ee4c/download_raw_data/human_pancreas/download_data.sh",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "download_raw_data/human_pancreas/download_data.sh",
+      "summary": "作者代码从 Figshare 24539828 下载人胰腺整合对象并供补充分析使用，因此该对象不是新数据候选。",
+      "status": "readable_primary_source",
+      "git_commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "git_blob_sha": "344241d8f9609820f47a7fe2e00077e9d5031a65"
+    },
+    {
+      "id": "luecken_pancreas_figshare",
+      "url": "https://doi.org/10.6084/m9.figshare.12420968",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "Figshare item 24539828 / DOI 10.6084/m9.figshare.12420968 referenced by author downloader",
+      "summary": "作者下载脚本引用的人胰腺整合对象归档入口；本审计不下载该矩阵，Figshare 页面未独立打开。",
+      "status": "author_code_reference_identified_archive_page_not_independently_audited",
+      "accession": "Figshare 24539828",
+      "related_paper_doi": "10.1038/s41592-021-01336-8"
+    },
+    {
+      "id": "algorithm_fixed_ref",
+      "url": "https://github.com/VingronLab/CAdir/tree/de74a008dfcd0d4fa4f7f93c57aa346892a8d935",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "Pinned algorithm repository ref",
+      "summary": "按任务指派记录算法仓库固定版本；本项不是算法评估或复现。",
+      "status": "pinned_reference_recorded",
+      "git_commit": "de74a008dfcd0d4fa4f7f93c57aa346892a8d935"
+    },
+    {
+      "id": "nestorowa_geo",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81682",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "GEO Series GSE81682; series metadata and supplementary file listing",
+      "summary": "GEO 标记 public、Mus musculus，报告 1,656 single-cell transcriptomes；列出 GSE81682_HTSeq_counts.txt.gz，页面大小 28.8 MB。未下载或 HEAD。",
+      "status": "readable_primary_archive_metadata",
+      "accession": "GSE81682",
+      "bioproject": "PRJNA322317",
+      "supplementary_file": "GSE81682_HTSeq_counts.txt.gz",
+      "direct_download_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE81nnn/GSE81682/suppl/GSE81682_HTSeq_counts.txt.gz",
+      "listed_size": "28.8 MB",
+      "downloaded": false
+    },
+    {
+      "id": "nestorowa_paper",
+      "url": "https://doi.org/10.1182/blood-2016-05-716480",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "Nestorowa et al., Blood 2016, study and assay context",
+      "summary": "研究题为 A single-cell resolution map of mouse hematopoietic stem and progenitor cell differentiation；用于研究识别与 Smart-seq2/造血分化背景。",
+      "status": "primary_publication_metadata",
+      "doi": "10.1182/blood-2016-05-716480"
+    },
+    {
+      "id": "nestorowa_osca_v319",
+      "url": "https://www.bioconductor.org/books/3.19/OSCA.workflows/nestorowa-mouse-hsc-smart-seq2.html",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "OSCA workflows Nestorowa Mouse HSC Smart-seq2 chapter",
+      "summary": "新版教程文档报告 NestorowaHSCData() 为 46,078 genes × 1,920 cells，counts assay 和 cell.type 元数据。",
+      "status": "readable_primary_documentation",
+      "version": "OSCA workflows 3.19"
+    },
+    {
+      "id": "nestorowa_osca_v314",
+      "url": "https://www.bioconductor.org/books/3.14/OSCA.workflows/nestorowa-mouse-hsc-smart-seq2.html",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "OSCA workflows 3.14 Nestorowa chapter",
+      "summary": "旧版教程对象规模 46,078 genes × 1,656 cells；与 GEO series 数一致，但与新版文档 1,920 细胞不同。差异来源未解决。",
+      "status": "readable_primary_documentation_version_discrepancy"
+    },
+    {
+      "id": "nestorowa_bioc_manual",
+      "url": "https://www.bioconductor.org/packages/release/data/experiment/manuals/scRNAseq/man/scRNAseq.pdf",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "NestorowaHSCData manual entry and colData description",
+      "summary": "包手册说明 NestorowaHSCData 提供 count 矩阵、作者网站所述 cell-type mapping 及 FACS marker 表达；实际对象未获取。",
+      "status": "readable_primary_documentation"
+    },
+    {
+      "id": "haber_geo",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE92332",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "GEO Series GSE92332; study design, sample records and supplementary file listing",
+      "summary": "GEO 标记 public、Mus musculus；列出 FAE_UMIcounts 文件约 9.6 MB，并记录其更新日期。研究包括多 cohort/条件，GSM 数不等同细胞或动物数。",
+      "status": "readable_primary_archive_metadata",
+      "accession": "GSE92332",
+      "bioproject": "PRJNA357261",
+      "supplementary_file": "GSE92332_FAE_UMIcounts.txt.gz",
+      "direct_download_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE92nnn/GSE92332/suppl/GSE92332_FAE_UMIcounts.txt.gz",
+      "listed_size": "9.6 MB",
+      "downloaded": false
+    },
+    {
+      "id": "haber_paper",
+      "url": "https://www.nature.com/articles/nature24489",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "Haber et al., Nature 2017; study design, FAE region, total scale, protocol and cluster annotation",
+      "summary": "研究为小肠上皮单细胞调查；论文报告总体约 53,193 个细胞/类器官对象和约 4,700 个 FAE epithelial cells；FAE 标签来自作者聚类与 marker 解释。动物数口径需再核。",
+      "status": "readable_primary_publication"
+    },
+    {
+      "id": "haber_pmc",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6022292/",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "PMC full-text mirror; methods, FAE cluster interpretation and figure legend",
+      "summary": "用于交叉读取论文方法与 FAE cell type 的作者 marker 注释；不同段落对样本/鼠数报告不完全一致。",
+      "status": "readable_primary_publication_archive",
+      "pmc": "PMC6022292"
+    },
+    {
+      "id": "haber_geo_sample",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2425871",
+      "viewed_at": "2026-10-26 09:05–09:10 Asia/Shanghai",
+      "locator": "GEO sample record description of UMI expression values",
+      "summary": "样本记录注明 UMI count expression values；FAE aggregate file 本体未打开，基因×细胞方向与 cell ID header 仍待实际文件验证。",
+      "status": "readable_primary_archive_metadata"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Nestorowa mouse HSC/HSPC",
+      "accession": "GSE81682",
+      "study_doi": "10.1182/blood-2016-05-716480",
+      "preliminary_rank": 1,
+      "scope": "GEO series / OSCA object version to be fixed; 1656 vs 1920 cell discrepancy unresolved",
+      "matrix_format_metadata": "GEO lists HTSeq counts text; Bioconductor SCE documentation names a counts assay",
+      "matrix_orientation": "SCE documentation is genes by cells; GEO text file direction and IDs not inspected",
+      "counts_logcounts_normalization_status": "unverified for selected object; do not infer logcounts or normalization from filename",
+      "license_status": "No dataset-specific license found in consulted pages; public access only was observed.",
+      "direct_download_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE81nnn/GSE81682/suppl/GSE81682_HTSeq_counts.txt.gz",
+      "bioconductor_function": "scRNAseq::NestorowaHSCData()",
+      "experimenthub_accession": null,
+      "experimenthub_accession_note": "No exact EH accession found in consulted documentation; not inferred.",
+      "object_downloaded": false,
+      "matrix_shape_hash_qc": "not_verified"
+    },
+    {
+      "name": "Haber FAE subset",
+      "accession": "GSE92332",
+      "study_doi": "10.1038/nature24489",
+      "preliminary_rank": 2,
+      "scope": "author-defined FAE region subset (~4700 cells) within 53193-cell broader study; not a full independent study object",
+      "matrix_format_metadata": "GEO lists FAE UMI counts text; actual FAE file was not opened",
+      "matrix_orientation": "GEO sample metadata describes UMI expression values; aggregate FAE file direction and IDs unverified",
+      "counts_logcounts_normalization_status": "unverified; do not infer logcounts or normalization from filename",
+      "license_status": "No dataset-specific license found in consulted pages; public access only was observed.",
+      "direct_download_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE92nnn/GSE92332/suppl/GSE92332_FAE_UMIcounts.txt.gz",
+      "object_downloaded": false,
+      "matrix_shape_hash_qc": "not_verified"
+    }
+  ],
+  "model_record": {
+    "requested_configuration": "gpt-6-luna / max",
+    "actual_spawn_configuration": "gpt-6-luna / max (parent reports successful spawn with model=gpt-6-luna and reasoning_effort=max)",
+    "independently_queryable_in_child_runtime": false,
+    "note": "子任务执行环境未向 agent 暴露实际 model/thinking 配置查询字段；实际配置依据主控 spawn 调用回传登记。"
+  }
+}
