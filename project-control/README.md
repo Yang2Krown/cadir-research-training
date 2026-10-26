@@ -65,3 +65,7 @@
 最终状态见[2026-10-26首阶段结论](首阶段结论-2026-10-26.md)及[新独立复验报告](reviews/9d473b4/独立复验报告.md)；补件已全部收到，无需用户继续传文件。原[补件清单](R3补件清单.md)保留接收历史。
 
 新来源审计内部子任务`/root/new_dataset_source_audit`实际使用`model=gpt-6-luna, reasoning_effort=max`，隔离worktree `/workspace/cadir-next-data-plan`，分支`plan/new-dataset-audit-20261026`。目前只核查来源，未运行新数据或基线实验；新阶段验收规则已在评价前[固定](下一阶段启动与验收规则.md)。
+
+## 下一阶段最新状态（2026-10-26）
+
+Luna Max来源审计已完成7bf4a46；不同Sol High完成核心准备122fdbf和独立复核。准备成果自洽、脚本/门槛有效；真实HSC counts/metadata仍因官方host Tunnel403未取得，版本/QC/唯一标签及S1覆盖未关闭，正式实验BLOCKED。已有具体公平五种子草案，不冒称正式设计或数据审计通过。[PR #3](https://github.com/Yang2Krown/cadir-research-training/pull/3)包含准备成果；[主控结论及最小两个host动作](新数据准备阶段结论-2026-10-26.md)与[独立准备报告](reviews/122fdbf/独立准备复核报告.md)已归档。当前只需通过环境配置流程允许mghp.osn.xsede.org和ftp.ncbi.nlm.nih.gov，无需用户再传矩阵。现有工具没有网络配置写接口。

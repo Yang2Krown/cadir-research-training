@@ -1,0 +1,12 @@
+{
+  "observations_current": true,
+  "observed_phase": "running",
+  "network_policy_state": "enforced",
+  "network_mode": "restricted",
+  "required_hosts": [
+    "mghp.osn.xsede.org",
+    "ftp.ncbi.nlm.nih.gov"
+  ],
+  "required_hosts_in_effective_allowlist": [],
+  "configuration_write_tool_available": false
+}

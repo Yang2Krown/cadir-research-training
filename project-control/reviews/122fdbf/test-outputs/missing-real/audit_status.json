@@ -1,0 +1,6 @@
+{
+  "status": "BLOCKED_INPUTS_NOT_ACQUIRED",
+  "missing_inputs": ["/workspace/cadir-newdata-prep-independent-20261026/not-acquired-counts.rds", "/workspace/cadir-newdata-prep-independent-20261026/not-acquired-coldata.rds"],
+  "matrix_version_shape_QC_labels": "NOT_VERIFIED",
+  "clustering_or_evaluation_run": false
+}

@@ -1,8 +1,8 @@
 [
   {
     "path": "project-control/AI使用与调度记录.md",
-    "bytes": 4963,
-    "sha256": "4d935a00e55d4f0b38ccb836d6adb31c2e13e1e983b082e4e57907ff73d1de6f"
+    "bytes": 5998,
+    "sha256": "2390b4980f0124bd3549ed6c968ec7bb08235d4ee4f445103c500a1c117afa31"
   },
   {
     "path": "project-control/R3补件清单.md",
@@ -11,8 +11,8 @@
   },
   {
     "path": "project-control/README.md",
-    "bytes": 10053,
-    "sha256": "4710723fbb81382696d56c69a09a85a2d492eff5e8b13ec85a35ae6f5c917967"
+    "bytes": 10857,
+    "sha256": "569d8a6532c3843895e97e6431b1cc876ce743fad80ad2dd2383d843054798fa"
   },
   {
     "path": "project-control/evidence/R3-2026-10-26/intake.json",
@@ -31,8 +31,8 @@
   },
   {
     "path": "project-control/evidence/takeover-snapshot.json",
-    "bytes": 3854,
-    "sha256": "2bdf55207c373c976ad51209d29f9357d037343a68b7943c321263438ca1023d"
+    "bytes": 5487,
+    "sha256": "9b8f0257c6588ee496b750b34a8ec4f496e3a3899a085cea2e359a986981cadc"
   },
   {
     "path": "project-control/reviews/0acd73d/.gitattributes",
@@ -365,6 +365,201 @@
     "sha256": "7568f9355d93db71948de733753088a16e5abef48bf53354f04c0fb774d5f60a"
   },
   {
+    "path": "project-control/reviews/122fdbf/.gitattributes",
+    "bytes": 79,
+    "sha256": "877b371676dc6f83ec8be2aa717c2a0281ca778dd09a2260ae9e823a30c91140"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/evidence/checks.log",
+    "bytes": 1475,
+    "sha256": "76fe569fbfab5b030831ebf846ba16fab717a9ce8ba3314d8473bbb0258e6bb7"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/evidence/current_network_state.json",
+    "bytes": 310,
+    "sha256": "c0e17dfcf1f0cc83ba81696f1311ae33f31cd680343029a1d488a45f95bb0dcd"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/evidence/executions.json",
+    "bytes": 3054,
+    "sha256": "9d534a1ad74b0e00a420eefca57765b5e7ff9e0fd0b5ee484b43bf8a87cf2d16"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/evidence/formal_gate.log",
+    "bytes": 803,
+    "sha256": "563e2f230ffb737e4d8cc8541d8dde7d7e1954bcf2041f829f86a1adfe08d77a"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/evidence/increment_scope.json",
+    "bytes": 1885,
+    "sha256": "46fb849292d767bbfce151c7400be86d84f557aebd205ba4c2001448577120a5"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/evidence/independent_catalog_network.json",
+    "bytes": 14046,
+    "sha256": "73050933a42da818f3bf98cf442cd64b332e60fe5c1807a69df0a7b6d1f2b8b2"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/evidence/independent_preparation_checks.json",
+    "bytes": 1474,
+    "sha256": "7ba893a596bfd5fb3be71a2513edc4eef0bdcceb3cab0655207d0167937bb7f3"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/evidence/intake.log",
+    "bytes": 1187,
+    "sha256": "6ac76526fb0f73b4b8945db97317904f61a10768b2f98a4eea011f2d10cbcd92"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/evidence/intake_path_encoding_failure.log",
+    "bytes": 683,
+    "sha256": "568ce5cb9733a8d292230cb0357c36a53d530269557bef19830a4a84210542e4"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/evidence/make_own_toy.log",
+    "bytes": 71,
+    "sha256": "9e23d5388bbb409474217961d14901486202896aa061bca2d448ef2b80002db3"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/evidence/missing_real_inputs.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/evidence/offline_acquisition_plan.log",
+    "bytes": 1339,
+    "sha256": "721ecd5f945d3167b95e6c5bd34758e44ef591027b9ef328d8d179eb5384bce9"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/evidence/own_duplicate_ID.log",
+    "bytes": 137,
+    "sha256": "b12396da202bf28c56a2d031d9ff8e4ab4a885573495b909970c49bffc8b5861"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/evidence/own_positive.log",
+    "bytes": 137,
+    "sha256": "b12396da202bf28c56a2d031d9ff8e4ab4a885573495b909970c49bffc8b5861"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/evidence/preservation_after.json",
+    "bytes": 97952,
+    "sha256": "bf27169ba715ea4f820503959e27b3cf90221e559e8bcac81ed3125154efc74a"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/evidence/preservation_before.json",
+    "bytes": 97952,
+    "sha256": "bf27169ba715ea4f820503959e27b3cf90221e559e8bcac81ed3125154efc74a"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/evidence/preservation_summary.json",
+    "bytes": 297,
+    "sha256": "e273b032f352e4f0b680a19e96014c0f4df4082ce8d390a0a03b07ee89fc9e35"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/evidence/protocol_structure.log",
+    "bytes": 803,
+    "sha256": "563e2f230ffb737e4d8cc8541d8dde7d7e1954bcf2041f829f86a1adfe08d77a"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/evidence_index.json",
+    "bytes": 6658,
+    "sha256": "c8017397aac6b8c00870798be521b9b6ce7d18f1666cf0503d8605b4673e2603"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/raw-receipts/correct-mghp-head.json",
+    "bytes": 316,
+    "sha256": "508bab5cf82f9d9c737c571d567e37a6b0be4e9a6e9fc9286a36568716c7b46d"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/raw-receipts/geo-network-attempt.txt.gz.json",
+    "bytes": 274,
+    "sha256": "48e0a411a5e4651e17c7516947a3f23192efec7437e7729abfa674614ed094c9"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/raw-receipts/hub-correct-redirect.json",
+    "bytes": 738,
+    "sha256": "6de5df2193870c863387c1521e264c36330634192785e2c2400586543aab0ec1"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/raw-receipts/hub-redirect-probe.json",
+    "bytes": 691,
+    "sha256": "0dd9ee17e3243cd1043583ae0c263b095f2486cdd70b757221a5e372c7828ecc"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/scripts/make_independent_toy.R",
+    "bytes": 664,
+    "sha256": "85ada84e2196c8b34838204f7e083270972e6e70ef3d4cfd11eb81cd435ab376"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/scripts/package_evidence.py",
+    "bytes": 2045,
+    "sha256": "b6ae9c183d699aeb19baa37690f2b9c0f9bf47e3cc6d42e83b5c4ea78f4bf3f4"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/scripts/review_inputs.py",
+    "bytes": 5436,
+    "sha256": "7aa1c4241ecf4f3461ab89cb1b9d2d95bafd42d908706934805e2e3ebc9606fd"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/scripts/run_preparation_checks.py",
+    "bytes": 3106,
+    "sha256": "a8701d9f67e0d1942423b561e5f8ce210bb55e47d3bcbddf665bb95d4334acd9"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/test-outputs/missing-real/audit_status.json",
+    "bytes": 318,
+    "sha256": "f0580db3ab018910d2caa168fd7189716f3769cc8517e9a342584227b34897ac"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/test-outputs/offline-plan/acquisition_plan.json",
+    "bytes": 1339,
+    "sha256": "721ecd5f945d3167b95e6c5bd34758e44ef591027b9ef328d8d179eb5384bce9"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/test-outputs/toy-duplicate/audit_status.json",
+    "bytes": 139,
+    "sha256": "10ea78e8ba2e3c80957f497aa7152466723b1f567957141b6a703db8de0f12ef"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/test-outputs/toy-positive/audit_status.json",
+    "bytes": 282,
+    "sha256": "4585dffc5e9fa395af09393845e655a19b0e62a63fd93127d0119ceaa3d45d7c"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/test-outputs/toy-positive/cell_id_alignment.tsv",
+    "bytes": 47,
+    "sha256": "e20ca5a2dd75d0cdacf045d27bc14b3e8033a208ccd5cd90bbdfb0d34399a28b"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/test-outputs/toy-positive/flat_cell_metadata.tsv",
+    "bytes": 56,
+    "sha256": "dd4085f38b5741ad2535494583e464b7ce4c18444bc56b3062dc465b1a06ad1b"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/test-outputs/toy-positive/gene_ids.tsv",
+    "bytes": 53,
+    "sha256": "8523ef0551ac6f027273f109d0edc65f8a4390c100fd5b72406da815f7928acd"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/test-outputs/toy-positive/matrix_audit.json",
+    "bytes": 452,
+    "sha256": "fa6491e40ae5793209be761aff7bbbfbaddca22c2f07e18bc01d467f361bab10"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/test-outputs/toy-positive/metadata_audit.json",
+    "bytes": 587,
+    "sha256": "56f0e38ea3a3c72e03c479b2c679389b4c4cd9332685358d691dc89ed259d18f"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/保全说明.md",
+    "bytes": 552,
+    "sha256": "868d459ad8059f4bc80c09796b52a21e52110f1c760686081ff5d19aef57d6e9"
+  },
+  {
+    "path": "project-control/reviews/122fdbf/独立准备复核报告.md",
+    "bytes": 13631,
+    "sha256": "adf8e37cf20b04e3ac3003e7eb37ae958120c120b5c18ea871c6461698ddf83f"
+  },
+  {
     "path": "project-control/reviews/756c8d16/原始评审任务.md",
     "bytes": 5857,
     "sha256": "8e99b616f7a277b7497630946b84e8d5a57d6efadf704454391ed03b4d541420"
@@ -513,6 +708,11 @@
     "path": "project-control/推进方案-历史创建命令恢复.txt",
     "bytes": 7733,
     "sha256": "26c0dce60377513c9d277ac2224dc80afd782afc0a4575e432972b6f6283ff45"
+  },
+  {
+    "path": "project-control/新数据准备阶段结论-2026-10-26.md",
+    "bytes": 4350,
+    "sha256": "9ea2f7e18d50f9efe1a4f95e35b3f485c20676a1c0f210b80e1f8b17847f25ad"
   },
   {
     "path": "project-control/项目组织者交接Prompt-会话记录恢复.md",

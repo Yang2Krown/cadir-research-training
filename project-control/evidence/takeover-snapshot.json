@@ -70,10 +70,29 @@
       "model": "gpt-6-luna",
       "reasoning_effort": "max",
       "kind": "internal_subagent",
-      "state": "running_source_audit_only",
+      "state": "completed_source_audit",
       "branch": "plan/new-dataset-audit-20261026",
       "worktree": "/workspace/cadir-next-data-plan",
-      "base_sha": "9d473b441058c45b2563c2ebe94ae99dda1f5209"
+      "base_sha": "9d473b441058c45b2563c2ebe94ae99dda1f5209",
+      "commit": "7bf4a460e1c59b53f9dc71faa53bca562129b765"
+    },
+    {
+      "task": "stage2_core_preparation",
+      "agent_path": "/root/stage1_repair",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "kind": "internal_subagent_followup",
+      "state": "completed_preparation_blocked_network",
+      "commit": "122fdbf2986f3791917197385f8d07ba0a75fce6"
+    },
+    {
+      "task": "stage2_independent_preparation_review",
+      "agent_path": "/root/stage1_independent_retest",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "kind": "internal_subagent_followup",
+      "state": "completed_preparation_self_consistent_formal_stage_blocked",
+      "commit": "122fdbf2986f3791917197385f8d07ba0a75fce6"
     }
   ],
   "final_stage": {
@@ -100,5 +119,26 @@
     "scope": "6000-HVG single case, fixed or independently verified aligned CA basis; no arbitrary-basis invariance, strict paper replication, biological validation or robustness claim",
     "supplementary_uploads_complete": true
   },
-  "last_updated": "2026-10-26 Asia/Shanghai"
+  "last_updated": "2026-10-26 Asia/Shanghai",
+  "next_stage": {
+    "state": "PREPARATION_ACCEPTED_FORMAL_DATA_AND_DESIGN_BLOCKED",
+    "source_audit_commit": "7bf4a460e1c59b53f9dc71faa53bca562129b765",
+    "prepared_commit": "122fdbf2986f3791917197385f8d07ba0a75fce6",
+    "draft_pr": "https://github.com/Yang2Krown/cadir-research-training/pull/3",
+    "independent_report_sha256": "adf8e37cf20b04e3ac3003e7eb37ae958120c120b5c18ea871c6461698ddf83f",
+    "real_data_acquired": false,
+    "formal_experiments_run": false,
+    "formal_experiment_released": false,
+    "minimum_extra_hosts": [
+      "mghp.osn.xsede.org",
+      "ftp.ncbi.nlm.nih.gov"
+    ],
+    "network_configuration_write_tool_available": false,
+    "other_gates": [
+      "real input and version/QC/ID lock",
+      "exclusive reference-label mapping",
+      "official S1 or independent coverage ruling",
+      "formal runner and independent design release"
+    ]
+  }
 }

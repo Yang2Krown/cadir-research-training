@@ -1,0 +1,6 @@
+{
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE81nnn/GSE81682/suppl/GSE81682_HTSeq_counts.txt.gz",
+  "started_utc": "2026-10-26T01:18:47.061914+00:00",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+  "elapsed_seconds": 0.014494425995508209
+}

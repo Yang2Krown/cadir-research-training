@@ -1,0 +1,8 @@
+{
+  "status": "STRUCTURAL_AUDIT_COMPLETE_REVIEW_REQUIRED",
+  "genes": 3,
+  "cells": 2,
+  "matrix_version_shape_QC_labels": "RAW_STRUCTURE_INSPECTED; QC/version/unique-label review still required",
+  "scientific_input_lock_complete": false,
+  "clustering_or_evaluation_run": false
+}

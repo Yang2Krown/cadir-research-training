@@ -1,0 +1,7 @@
+suppressPackageStartupMessages({library(Matrix);library(S4Vectors)})
+out<-'/workspace/cadir-newdata-prep-independent-20261026/toy';dir.create(out,recursive=TRUE)
+m<-Matrix(matrix(c(0,2,4,7,1,5),3,2,dimnames=list(c('ENSMUSG_test','ERCC-00001','__no_feature'),c('cell_B','cell_A'))),sparse=TRUE)
+meta<-DataFrame(donor=c('donor_A','donor_B'),row.names=c('cell_A','cell_B'))
+meta$FACS<-I(matrix(c(TRUE,TRUE,FALSE,TRUE),nrow=2,dimnames=list(c('cell_A','cell_B'),c('broad_HSPC','narrow_HSC'))))
+saveRDS(m,file.path(out,'counts.rds'));saveRDS(meta,file.path(out,'coldata.rds'))
+dup<-m;colnames(dup)<-c('cell_A','cell_A');saveRDS(dup,file.path(out,'duplicate_cells.rds'))

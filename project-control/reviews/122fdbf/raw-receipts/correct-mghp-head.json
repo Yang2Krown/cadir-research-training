@@ -1,0 +1,6 @@
+{
+  "url": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/counts.rds",
+  "method": "HEAD",
+  "purpose": "Single confirmation of correct official Hub target policy denial; no alternate route or proxy.",
+  "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+}

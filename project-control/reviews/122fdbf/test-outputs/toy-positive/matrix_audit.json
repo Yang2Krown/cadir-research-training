@@ -1,0 +1,19 @@
+{
+  "class": "dgCMatrix",
+  "dimensions": [3, 2],
+  "orientation": "genes_by_cells",
+  "statistics": {
+    "nonfinite": 0,
+    "negative": 0,
+    "noninteger": 0,
+    "nonzero": 5,
+    "minimum": 0,
+    "maximum": 7,
+    "zero_fraction": 0.166666666666667
+  },
+  "htseq_rows": 1,
+  "ercc_rows": 1,
+  "raw_count_assay_only": true,
+  "logcounts_received": false,
+  "prior_QC_normalization_history": "NOT_VERIFIED; counts label alone is not provenance"
+}
