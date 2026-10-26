@@ -1,0 +1,42 @@
+{
+  "recorded_at": "2026-10-26T14:59:05.502541+08:00",
+  "timezone": "Asia/Shanghai",
+  "record_type": "human-readable tool observations, assembled after calls; not HTTP download receipts",
+  "observations": [
+    {
+      "id": "E01",
+      "url": "https://blood.stemcells.cam.ac.uk/single_cell_atlas.html",
+      "access": "web search/open succeeded",
+      "locator": "Data lines 24–27; Gating strategy lines 47–51 in rendered tool view",
+      "finding": "作者说明宽/窄门及父子类型允许重叠；组合表含归一化表达、3个DC、9个表面标记和FSC-H；2017-10-26以前28细胞计数错误，后已修正。",
+      "limits": "未取得原始类型表；不能证明当前GEO/Hub包含修正；本轮不读取组合表表达。"
+    },
+    {
+      "id": "E02",
+      "url": "https://raw.githubusercontent.com/drisso/scRNAseq/adb9cd957e3a0a8f7f504ebe514e653cfe4b52ef/inst/scripts/2.0.0/make-nestorowa-hsc-data.Rmd",
+      "access": "HTTP 200; real receipt saved separately",
+      "repository_commit": "adb9cd957e3a0a8f7f504ebe514e653cfe4b52ef",
+      "locator": "Downloading the per-cell metadata; DataFrame construction",
+      "finding": "legacy构建先match；celltype有ID断言，flowcyt无unmatched断言且随后覆盖行名；脚本静态读取，未执行。",
+      "limits": "代码镜像及布局吻合，不等于Hub对象可复现构建证明。"
+    },
+    {
+      "id": "E03a",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5305050/",
+      "access": "web tool rendered reCAPTCHA",
+      "finding": "未取得方法全文。"
+    },
+    {
+      "id": "E03b",
+      "url": "https://ashpublications.org/blood/article/128/8/e20/35749/A-single-cell-resolution-map-of-mouse",
+      "access": "web tool reports HTTP 403",
+      "finding": "未取得方法全文。"
+    },
+    {
+      "id": "E03c",
+      "url": "https://europepmc.org/articles/PMC5305050",
+      "access": "web tool reports URL not accessible",
+      "finding": "未取得方法全文。"
+    }
+  ]
+}
