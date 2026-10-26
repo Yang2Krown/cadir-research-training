@@ -1,0 +1,39 @@
+[
+  {
+    "name": "offline-mapping",
+    "command": [
+      "python3",
+      "cases/nestorowa_hsc/scripts/acquire_hub.py",
+      "--catalog",
+      "/workspace/cadir-validation-20261026/data/experimenthub.sqlite3",
+      "--output-root",
+      "/workspace/cadir-validation-20261026/data/offline-mapping"
+    ],
+    "exit_code": 0,
+    "time_utc": "2026-10-26T02:42:55.189707+00:00"
+  },
+  {
+    "name": "protocol-gate",
+    "command": [
+      "python3",
+      "cases/nestorowa_hsc/scripts/check_protocol.py",
+      "planning/new-dataset/2026-10-26/pre-registration.json",
+      "--require-ready"
+    ],
+    "exit_code": 2,
+    "time_utc": "2026-10-26T02:42:55.212633+00:00"
+  },
+  {
+    "name": "missing-real-inputs",
+    "command": [
+      "bash",
+      "cases/nestorowa_hsc/scripts/run-r.sh",
+      "cases/nestorowa_hsc/scripts/audit_inputs.R",
+      "/workspace/cadir-validation-20261026/data/hub-attempt/counts.rds",
+      "/workspace/cadir-validation-20261026/data/hub-attempt/coldata.rds",
+      "/workspace/cadir-validation-20261026/data/raw-audit"
+    ],
+    "exit_code": 2,
+    "time_utc": "2026-10-26T02:42:55.534886+00:00"
+  }
+]

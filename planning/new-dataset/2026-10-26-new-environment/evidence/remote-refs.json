@@ -1,0 +1,10 @@
+{
+  "checked_utc": "2026-10-26T02:44:48.111608+00:00",
+  "remote": "https://github.com/Yang2Krown/cadir-research-training.git",
+  "refs": {
+    "control/stage1-quality-20261025": "9db89e675fa13fdc1d08b97b7f4782f9a2dad337",
+    "fix/stage1-review-20261025": "9d473b441058c45b2563c2ebe94ae99dda1f5209",
+    "plan/new-dataset-audit-20261026": "122fdbf2986f3791917197385f8d07ba0a75fce6",
+    "main": "35a05eb54d73a38a56a8427b8544e97ae78a70c4"
+  }
+}
