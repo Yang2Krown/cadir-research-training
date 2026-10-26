@@ -2,6 +2,7 @@
 a <- commandArgs(TRUE);source(a[[1]]);load_packages()
 source("cases/nestorowa_hsc/fair-experiment/scripts/admission_guard.R")
 guard <- admission_guard(a[[2]],a[[3]],a[[4]],a[[5]])
+source("cases/nestorowa_hsc/fair-experiment/scripts/gene_partition.R")
 cfg <- guard$config;lock <- guard$lock;method <- a[[6]];seed <- as.integer(a[[7]]);out <- a[[8]]
 stopifnot(method%in%c("cadir","pca_snn_louvain"),seed%in%cfg$seeds,!file.exists(file.path(out,"run-status.json")))
 status <- list(status="RUNNING",method=method,seed=seed,stage="shared_input_load")
@@ -50,8 +51,8 @@ tryCatch({
  write_tsv(as.data.frame(table(cluster=as.character(pred))),file.path(out,"cluster-sizes.tsv"))
  if(method=="cadir") {
   saveRDS(ca,file.path(out,"ca.rds"));saveRDS(cadir,file.path(out,"cadir_unranked.rds"))
-  stopifnot(identical(names(cadir@gene_clusters),genes))
-  write_tsv(data.frame(gene_id=genes,cluster=as.character(cadir@gene_clusters)),file.path(out,"gene-partition.tsv"))
+  gene_partition <- map_gene_partition(cadir@gene_clusters,genes,rownames(cadir@directions))
+  write_gene_partition(gene_partition,out,cfg$CAdir$dirclust_splitmerge$qcutoff)
   pivots <- apply(abs(ca@prin_coords_cols),2,which.max)
   write_json(list(axis_names=colnames(ca@prin_coords_cols),cell_pivot_ids=cells[pivots],cell_pivot_signs=sign(ca@prin_coords_cols[cbind(pivots,seq_along(pivots))]),singular_values=ca@D,CA_basis_sha256=sha_file(file.path(out,"ca.rds")),ranking_scope="Reuse this exact CA object; no independent CA recomputation or sign/rotation claims"),file.path(out,"ca-basis.json"))
   write_tsv(cadir@log$clusters,file.path(out,"splitmerge-history.tsv"));capture.output(cadir@parameters,file=file.path(out,"effective-cadir-parameters.txt"))

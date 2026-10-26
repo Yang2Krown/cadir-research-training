@@ -1,0 +1,19 @@
+{
+  "status": "PASS_PURE_BOOKKEEPING_NO_ALGORITHMS",
+  "actual_exit_code": 0,
+  "actual_stdout": "PURE_GENE_PARTITION_MAPPING_CHECKS_PASS_NO_ALGORITHMS",
+  "execution_role": "Coordinator relayed exact SHA-fixed R script; implementer authored and interpreted; independent re-review still required",
+  "helper_sha256": "96c36c179c672d235d0ccc6f4e577a9493da1120ddd49d81828c7896f66d6a0c",
+  "test_sha256": "6d0ba4f9afc0cf03a44209b832e1a4fcb6109ea32e8498ce37835f10d404e205",
+  "checks": [
+    "6000-row universe in fixed order",
+    "unordered named-factor subset",
+    "original factor preserved",
+    "NA export and explicit exclusion reasons",
+    "unassigned=6000-assigned",
+    "empty subset",
+    "reject duplicate/foreign/blank/NA/absent IDs",
+    "reject unknown direction"
+  ],
+  "algorithms_or_metrics_called": false
+}

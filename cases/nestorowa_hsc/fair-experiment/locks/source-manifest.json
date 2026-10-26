@@ -234,13 +234,18 @@
     },
     {
       "path": "cases/nestorowa_hsc/fair-experiment/scripts/formal_run.R",
-      "bytes": 6934,
-      "sha256": "2a20b043013f69ec0e54c123ee180119afde6a123ec29df9acf21531155872c6"
+      "bytes": 7005,
+      "sha256": "45a58f2965c0df16ca177b7b5051cb9b559a8664363841f950ca964353e3525c"
     },
     {
       "path": "cases/nestorowa_hsc/fair-experiment/scripts/freeze_stage1.py",
       "bytes": 3517,
       "sha256": "22de7d366d39f76caa1ca0ae7eba79c3d9ef0540e8170b1d9fdcdb31df75d483"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/scripts/gene_partition.R",
+      "bytes": 1917,
+      "sha256": "96c36c179c672d235d0ccc6f4e577a9493da1120ddd49d81828c7896f66d6a0c"
     },
     {
       "path": "cases/nestorowa_hsc/fair-experiment/scripts/lock_runtime_library.py",
@@ -259,8 +264,8 @@
     },
     {
       "path": "cases/nestorowa_hsc/fair-experiment/scripts/rank_diagnostics.R",
-      "bytes": 4159,
-      "sha256": "dc0a7141b8f5fe6277f65f0a715b7e14bc1b2d4c8761c72f2b6f7c1861f2e0c6"
+      "bytes": 4959,
+      "sha256": "ecf36bffdf15950fe52a1eecca2324532e2b41f3fe722c4681831b66653ac94a"
     },
     {
       "path": "cases/nestorowa_hsc/fair-experiment/scripts/run_experiment.py",
@@ -281,6 +286,11 @@
       "path": "cases/nestorowa_hsc/fair-experiment/scripts/summarize_results.py",
       "bytes": 1774,
       "sha256": "1138de0e6b375e7a8cabdf5bff3fa4596bfe019d6cc2ca9bad82793a016b054e"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/scripts/test_gene_partition_mapping.R",
+      "bytes": 1434,
+      "sha256": "6d0ba4f9afc0cf03a44209b832e1a4fcb6109ea32e8498ce37835f10d404e205"
     },
     {
       "path": "cases/nestorowa_hsc/scripts/metadata_identity.R",
