@@ -1,0 +1,232 @@
+[
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/EH2694-counts.rds.json",
+    "bytes": 229,
+    "sha256": "96242f2279d673c6da5aa7f76bd91e13f88ebc28f70792f9d93b4d93bf1e8009"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/EH2695-coldata.rds.json",
+    "bytes": 229,
+    "sha256": "5887a9b8b37fadb5f34bd2765d9f9b6b94c5620c303134ba186c46afd45031f8"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/NestorowaHSCData.R",
+    "bytes": 2811,
+    "sha256": "2c84052f4d2a9a09e0e77d2d1aa9aa89d6532f1d81386fbeab3816373fc878c9"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/NestorowaHSCData.R.json",
+    "bytes": 1586,
+    "sha256": "7467169ba5eb869a0193acd1d57276e99d7e6edd43e91ff7c388916c7c51880d"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/author-tabula-muris-full.R",
+    "bytes": 297,
+    "sha256": "3b2427af9908dc288bdfe82d75f07d5c2b16d8f46fc9ede6b4f953f121b9a2e0"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/author-tabula-muris-full.R.json",
+    "bytes": 1752,
+    "sha256": "dc6ad54064a8cfc51ba632faf93c7a22f33a5b608e1269f73ec7c914f5daf50b"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/baseline-api-check.log",
+    "bytes": 213,
+    "sha256": "6ed4f4880adde02ada58050201e3ecd92d1c36f814dc8b7686d085a3997740d2"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/correct-mghp-head.json",
+    "bytes": 316,
+    "sha256": "508bab5cf82f9d9c737c571d567e37a6b0be4e9a6e9fc9286a36568716c7b46d"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/create_sce-fixed.R",
+    "bytes": 1688,
+    "sha256": "f5b9e09fdbc87bae9c0c1422d1872eff182515ab040c7fc3e25c1534d265d6c0"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/create_sce-fixed.R.json",
+    "bytes": 1644,
+    "sha256": "2247fc8c6f3bd0f3dd651ac60818f834b49e4291f46f304ec2465ed46957d2b9"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/experimenthub.sqlite3",
+    "bytes": 10378240,
+    "sha256": "1c0786502f29cf67b892d7452dc03d29af6c1dda82ddd89118a4d79d10a83c4e"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/experimenthub.sqlite3.json",
+    "bytes": 792,
+    "sha256": "3e66dae0d3f10a80833a01ee0a929034048e10b41306e2f84266cd20b9d25279"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/first-access.json",
+    "bytes": 512,
+    "sha256": "dd2e4549e3175544b86b34d192e1e7bdca1c245f8a10521d0faccf7b37759fe3"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/geo-network-attempt.txt.gz.json",
+    "bytes": 274,
+    "sha256": "48e0a411a5e4651e17c7516947a3f23192efec7437e7729abfa674614ed094c9"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/hub-correct-redirect.json",
+    "bytes": 738,
+    "sha256": "6de5df2193870c863387c1521e264c36330634192785e2c2400586543aab0ec1"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/hub-redirect-probe.json",
+    "bytes": 691,
+    "sha256": "0dd9ee17e3243cd1043583ae0c263b095f2486cdd70b757221a5e372c7828ecc"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/nestorowa-preparation-2024.Rmd",
+    "bytes": 2220,
+    "sha256": "dca99174854bdddccfabbb720bfcb1ccb62782d4224b442f9ad08761a2d16770"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/nestorowa-preparation-2024.Rmd.json",
+    "bytes": 1696,
+    "sha256": "517d008e8ac91e5ad637ca215662464ca8e607fc038923e609f9710b1eae6b14"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/nestorowa_hub_metadata.json",
+    "bytes": 1556,
+    "sha256": "9dd9d4d7bc9fc2401f32f08a109fb6bb9ca17db2a998ff059010b8310cdb9c32"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/scRNAseq-source.tar.gz.error",
+    "bytes": 17,
+    "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/scRNAseq-source.tar.gz.json",
+    "bytes": 1250,
+    "sha256": "c6944e85e2bc82d72d5a23d5c4ee468dcccf60c810e61a6ffd1ef1fc19085a02"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/scrnaseq-master-commit.json",
+    "bytes": 9491,
+    "sha256": "21095b750ef114deda6098ea3e6baf112e2a0d93baaa6b296aff3bcaf22fb860"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/scrnaseq-master-commit.json.json",
+    "bytes": 2208,
+    "sha256": "b8ec44be9cbce86e5e944875e8da79a52e1366706d872dcf803966fbd2d4dd8a"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/scrnaseq-source-tree.json",
+    "bytes": 78370,
+    "sha256": "9489c9fe66aaa40c9d1e14088fd5cce7c8731dd32c70d3258f33d47001bba33f"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/acquisition/scrnaseq-source-tree.json.json",
+    "bytes": 2312,
+    "sha256": "6ba1c438b849c83f606e08daa2455ef2cb4111db7ce123071e99f5b2b84c9509"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/formal-gate-check.json",
+    "bytes": 803,
+    "sha256": "563e2f230ffb737e4d8cc8541d8dde7d7e1954bcf2041f829f86a1adfe08d77a"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/hub-plan/acquisition_plan.json",
+    "bytes": 1339,
+    "sha256": "721ecd5f945d3167b95e6c5bd34758e44ef591027b9ef328d8d179eb5384bce9"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/hub-plan.log",
+    "bytes": 1339,
+    "sha256": "721ecd5f945d3167b95e6c5bd34758e44ef591027b9ef328d8d179eb5384bce9"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/missing-input-audit/audit_status.json",
+    "bytes": 284,
+    "sha256": "8f81d455feecc3f16983e1045fc43b23905f0ea342612412f18c49aea3353a0a"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/missing-input-audit.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/protocol-check.json",
+    "bytes": 803,
+    "sha256": "563e2f230ffb737e4d8cc8541d8dde7d7e1954bcf2041f829f86a1adfe08d77a"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/script-tests/coldata.rds",
+    "bytes": 270,
+    "sha256": "3ac7024d34da58c9205634aaedbf6a472ff4557ecf087563f413434872bc272c"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/script-tests/counts.rds",
+    "bytes": 206,
+    "sha256": "eb21c876c75f8eb077a4b3efe7f01dad777325e7879c64f7607194c23a289b75"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/script-tests/duplicate-counts.rds",
+    "bytes": 205,
+    "sha256": "729b3c07bb7634d4d3d4fcd8377040dfabea0fb948e9e0d1a4659e6a4a0dc630"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/script-tests/duplicate_ids/audit_status.json",
+    "bytes": 139,
+    "sha256": "10ea78e8ba2e3c80957f497aa7152466723b1f567957141b6a703db8de0f12ef"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/script-tests/duplicate_ids.log",
+    "bytes": 137,
+    "sha256": "b12396da202bf28c56a2d031d9ff8e4ab4a885573495b909970c49bffc8b5861"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/script-tests/make_toy.R",
+    "bytes": 603,
+    "sha256": "598e60dc1a6557cb18a77b3a8e21163c680bae3f5e897a1a27e8965ca3589c11"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/script-tests/make_toy.log",
+    "bytes": 71,
+    "sha256": "9e23d5388bbb409474217961d14901486202896aa061bca2d448ef2b80002db3"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/script-tests/positive/audit_status.json",
+    "bytes": 282,
+    "sha256": "4585dffc5e9fa395af09393845e655a19b0e62a63fd93127d0119ceaa3d45d7c"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/script-tests/positive/cell_id_alignment.tsv",
+    "bytes": 39,
+    "sha256": "3680474ebe97d5fd9ffd033a0d1626083d2a49d8edee1a6f74a048a39ace7139"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/script-tests/positive/flat_cell_metadata.tsv",
+    "bytes": 39,
+    "sha256": "54396b9ab0b5291533981f81eeaa699a00cf19102b4fb26af3da7f212213711d"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/script-tests/positive/gene_ids.tsv",
+    "bytes": 25,
+    "sha256": "5a649b90afdec06663befbe88480842bd1eaf3229e1146d70a71e1683900c8ba"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/script-tests/positive/matrix_audit.json",
+    "bytes": 452,
+    "sha256": "f043fcce1f770d72395cba4edcfa637e8f3a899f532efd90ed3ceba99e2e5233"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/script-tests/positive/metadata_audit.json",
+    "bytes": 591,
+    "sha256": "feb9c945e57b78ada9d399d8108c8fdbd5afa94ea958326020a124793ad2cd51"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/script-tests/positive.log",
+    "bytes": 137,
+    "sha256": "b12396da202bf28c56a2d031d9ff8e4ab4a885573495b909970c49bffc8b5861"
+  },
+  {
+    "path": "/workspace/cadir-newdata-20261026/script-tests/summary.json",
+    "bytes": 705,
+    "sha256": "b3f105d7538ee64de253daef7888923301a229fa59ac4b804fb6f528e62e1d89"
+  }
+]

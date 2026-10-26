@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "prepared_date": "2026-10-26",
+  "timezone": "Asia/Shanghai",
+  "status": "DRAFT_COMMITTED_FORMAL_EXPERIMENT_BLOCKED",
+  "formal_execution_permitted": false,
+  "question": "On one genuinely new HSC study, compare CAdir cell clustering with a standard PCA+SNN/Louvain workflow and describe CAdir geometry/gene outputs, without assuming superiority.",
+  "source_audit_commit": "7bf4a460e1c59b53f9dc71faa53bca562129b765",
+  "algorithm_base_commit": "9d473b441058c45b2563c2ebe94ae99dda1f5209",
+  "dataset": {
+    "study": "Nestorowa et al. 2016 mouse HSC/HSPC",
+    "accession": "GSE81682",
+    "doi": "10.1182/blood-2016-05-716480",
+    "preferred_entry": "scRNAseq legacy ExperimentHub resource path nestorowa-hsc/2.0.0",
+    "hub_resources": {
+      "counts": "EH2694",
+      "coldata": "EH2695"
+    },
+    "hub_fetch_ids": {
+      "counts": 2710,
+      "coldata": 2711
+    },
+    "newer_gypsum_default_not_selected": "nestorowa-hsc-2016/2024-04-18; no silent replacement",
+    "raw_counts_received": false,
+    "raw_counts_sha256": null,
+    "raw_counts_bytes": null,
+    "raw_metadata_received": false,
+    "raw_metadata_sha256": null,
+    "raw_metadata_bytes": null,
+    "matrix_shape_status": "NOT_VERIFIED",
+    "cell_IDs_and_version_1656_1920_status": "NOT_VERIFIED",
+    "counts_logcounts_QC_status": "NOT_VERIFIED",
+    "donor_sample_condition_status": "NOT_VERIFIED",
+    "supplementary_original_paper_coverage": "BLOCKED_OFFICIAL_S1_NOT_READ",
+    "full_study_or_subset": "Legacy resource scope NOT_VERIFIED; do not enforce 1656 or 1920, sample or pad to a target count."
+  },
+  "blocking_conditions": [
+    "Acquire counts and metadata via authorized official hosts; hash and inspect actual bytes",
+    "Resolve raw/author-filtered 1656 vs 1920 cohorts using actual IDs and documented filtering; do not infer solely from document dimensions",
+    "Audit sample/donor/condition metadata and original QC/normalization provenance",
+    "Freeze one author-supported exclusive reference-label hierarchy, ID mapping, conflicts and exclusions before any clustering",
+    "Close or explicitly adjudicate official S1 coverage of original-paper data novelty",
+    "Freeze data-input-lock.json with real SHA/size/ID/QC/label mappings and obtain independent Sol High approval of source/data/design"
+  ],
+  "seeds": [
+    2358,
+    101,
+    202,
+    303,
+    404
+  ],
+  "shared_preprocess_seed": 20261026,
+  "RNGkind": [
+    "Mersenne-Twister",
+    "Inversion",
+    "Rejection"
+  ],
+  "shared_input": {
+    "matrix_orientation": "genes_by_cells",
+    "counts_requirement": "finite nonnegative integer read counts; explicit unique gene/cell IDs",
+    "metadata_alignment": "exact gene/cell IDs, never positional or inferred ID prefixes",
+    "feature_classes": {
+      "remove_alignment_statistics_regex": "^__",
+      "separate_ERCC_regex": "^ERCC-[0-9]+",
+      "endogenous": "remaining explicit gene IDs; no symbol deduplication or marker augmentation"
+    },
+    "QC": {
+      "status": "RULES_DRAFT_INPUT_PROVENANCE_NOT_VERIFIED",
+      "source": "source count matrix; do not apply library normalization or thresholding until source audit has verified the selected resource",
+      "metrics": [
+        "endogenous_total",
+        "endogenous_detected_genes",
+        "ERCC_percent_of_endogenous_plus_ERCC"
+      ],
+      "zero_endogenous_counts": "exclude with explicit technical reason; never use label availability",
+      "rule": "On positive endogenous libraries, pooled lower outlier log2(total) and log2(detected), or higher outlier unlogged ERCC percent, using median +/- 3 * stats::mad(constant=1.4826). Strict inequality; zero MAD keeps exact-median values.",
+      "missing_ERCC": "BLOCK and amend before any clustering; no silent substitute for a frozen metric",
+      "batching": "pooled rule, no donor-specific cutoffs or integration unless separately pre-amended and reviewed",
+      "cell_label_not_used": true,
+      "force_target_cell_count": false,
+      "doublets": "no automatic new doublet detector; report any source flags without label-driven deletion",
+      "mitochondrial_QC": "not applied without pinned gene annotation; ERCC/read-depth rules are the proposed QC, not claimed author QC"
+    },
+    "gene_filter": {
+      "detected_in_at_least_cells": 3,
+      "after_QC": true
+    },
+    "normalization": {
+      "function": "scuttle::logNormCounts",
+      "size_factors": "endogenous library size / mean(endogenous library size)",
+      "center_size_factors": true,
+      "log_base": 2,
+      "pseudocount": 1,
+      "run_once": true,
+      "if_preexisting_logcounts": "Verify source formula/provenance; STOP for amendment instead of silently normalizing twice"
+    },
+    "HVG": {
+      "function": "scran::modelGeneVar -> scran::getTopHVGs",
+      "assay": "logcounts",
+      "n": 6000,
+      "var.threshold": null,
+      "blocks": null,
+      "extra_markers": false,
+      "tie_rule": "original raw gene-row order for exact variance ties"
+    },
+    "cohort_identical_for_methods_and_seeds": true,
+    "shared_HVG_once_for_all_seeds": true,
+    "minimum_conditions": "Stop if <6000 eligible genes, <100 retained cells, selected-HVG zero row/column sum, or inability to supply 30 dimensions; no silent method-specific filtering."
+  },
+  "CAdir": {
+    "CA": {
+      "dims": 30,
+      "princ_coords": 3,
+      "python": false,
+      "residuals": "pearson",
+      "top": 6000,
+      "coords": true,
+      "clip": false,
+      "cutoff": null,
+      "rm_zeros": true,
+      "inertia": true
+    },
+    "dirclust_splitmerge": {
+      "k": 8,
+      "cutoff": 55,
+      "method": "random",
+      "apl_quant": 0.99,
+      "counts": null,
+      "min_cells": 20,
+      "epochs": null,
+      "reps": null,
+      "make_plots": false,
+      "qcutoff": 0.8,
+      "convergence_thr": 0.001,
+      "max_iter": 50,
+      "init": "kmeanspp",
+      "keep_log": true,
+      "apl_cutoff_reps": 100
+    },
+    "rationale": "Predeclared transfer of the first-case k=8, 55 degrees, 30 dimensions and 6000 HVG. k is only initialization and is not selected from FACS classes; no HSC-specific optimization or superiority claim.",
+    "ranking": "Separate diagnostic process; reset each run seed, CAdir::rank_genes unchanged; record complete per-run results.",
+    "annotation": "not in primary experiment; no CellMarker/SingleR predictions used as reference"
+  },
+  "baseline": {
+    "name": "PCA + SNN + Louvain",
+    "PCA": {
+      "function": "scater::runPCA",
+      "assay": "same logcounts/HVG as CAdir",
+      "ncomponents": 30,
+      "center": true,
+      "scale": false,
+      "BSPARAM": "BiocSingular::IrlbaParam(deferred=FALSE, fold=Inf, extra.work=7, tol=1e-5, maxit=1000)"
+    },
+    "SNN": {
+      "function": "scran::buildSNNGraph",
+      "input": "cells x 30 PCA matrix",
+      "transposed": true,
+      "d": "NA (already PCA; do not reduce twice)",
+      "k": 15,
+      "type": "rank",
+      "BNPARAM": "BiocNeighbors::KmknnParam()",
+      "BPPARAM": "BiocParallel::SerialParam()"
+    },
+    "Louvain": {
+      "function": "igraph::cluster_louvain",
+      "resolution": 1,
+      "weights": "SNN edge weight",
+      "merge_or_drop_small_clusters": false
+    },
+    "rationale": "Standard logcount/HVG/PCA neighborhood workflow, infers cluster number without reference labels; no grid search, true-K input, label-informed resolution selection, UMAP or t-SNE clustering."
+  },
+  "evaluation": {
+    "reference_status": "NOT_VERIFIED_NOT_FROZEN",
+    "candidate_source": "author index-sort/FACS metadata; broad/narrow memberships can overlap",
+    "exclusive_label_mapping": "BLOCKED: frozen author-supported hierarchy + conflict/missing rules require actual metadata; never argmax overlapping memberships or derive labels from expression clusters",
+    "missing_or_conflicting_reference": "remain in clustering if QC passes; excluded only from external metrics using a fixed mapping and explicit counts; no algorithm-dependent cohort",
+    "metrics": [
+      "ARI",
+      "NMI_max_entropy",
+      "inferred_cluster_count",
+      "cluster_sizes",
+      "success_count_out_of_5",
+      "runtime_and_RSS_with_scope"
+    ],
+    "ARI": "(sum_ij choose(nij,2)-A*B/choose(n,2))/(0.5*(A+B)-A*B/choose(n,2)); A=sum_i choose(ai,2), B=sum_j choose(bj,2)",
+    "NMI": "MI / max(H_cluster,H_reference), natural-log entropies; one predicted cluster with multi-class reference -> 0",
+    "insufficient_reference": "If n_evaluated<2 or fewer than two reference classes, SKIPPED_INSUFFICIENT_REFERENCE; do not synthesize labels",
+    "ARI_degenerate_denominator": "record degeneracy; identical degenerate partitions=1, otherwise=0; primary multi-class reference condition usually avoids this",
+    "summaries": "All five predeclared seeds per method, individual values plus median/IQR/min/max among successes and explicit success denominator=5; no best-seed headline or significance claim from five seeds.",
+    "compare_genes": "CAdir geometry/assigned genes/ranks are descriptive; baseline does not supply a matched biclustering truth and no biological-validation metric is invented"
+  },
+  "R3": {
+    "alter_upstream_sign_or_sampling": false,
+    "per_run_artifacts": [
+      "ca.rds",
+      "cadir_unranked.rds",
+      "all gene/cell IDs and assignments",
+      "CA axis order and pivot signs",
+      "RNG before/after CA/CAdir/ranking",
+      "alpha_genes",
+      "installed function/formals hashes and source commits",
+      "full gene scores and ranks"
+    ],
+    "ranking_equivalence": "only fixed CA basis or explicitly verified alignment and replay; same seed alone does not guarantee basis-invariant ranking"
+  },
+  "resources": {
+    "CPU_threads": 2,
+    "memory_quota_GiB": 8,
+    "parallel_method_runs": false,
+    "core_timeout_seconds": 600,
+    "core_measurement": "Fresh per-method/per-seed R process; wall time starts after package/shared-input load and spans CA+splitmerge (including built-in gene assignment) or PCA+SNN+Louvain; save outputs separately and report actual stage scopes.",
+    "memory": "sample /proc/PID RSS every 50ms during core; report stage peak plus process VmHWM sampled at core end (includes startup/input). No RAM performance claim from unmatched scopes.",
+    "shared_preprocessing": "one common preprocessing process, separately timed; exclude downloading/installing/common preprocessing from per-method core time",
+    "diagnostics": "CAdir ranking/plots in a separate untimed diagnostic process with its own resources; not hidden inside headline core comparison",
+    "include_method_specific_steps": true,
+    "system_scope": "record /sys/fs/cgroup cpu.max,memory.max; BLAS threads; R/package/function source signatures"
+  },
+  "failure_policy": {
+    "preserve_all_attempts": true,
+    "retry": "same frozen config and seed only for documented technical retry; never overwrite old attempt or replace a failed seed",
+    "parameter_changes": "requires reason, new commit, independent review before evaluation; not tuning after metric inspection",
+    "timeouts_or_OOM": "retain failure and denominator, no paid resource or memory escalation assumed"
+  },
+  "required_versions": {
+    "R": "4.4.1",
+    "Bioconductor": "3.19",
+    "APL": "1.9.1",
+    "CAdir": "0.0.99",
+    "scran": "1.32.0",
+    "scater": "1.32.1",
+    "scuttle": "1.14.0",
+    "SingleCellExperiment": "1.26.0",
+    "igraph": "2.3.3",
+    "BiocNeighbors": "1.22.0",
+    "BiocSingular": "1.20.0"
+  },
+  "current_task_has_run_new_clustering_or_ARI_NMI": false,
+  "formal_runner_implemented": false,
+  "freeze_requirement": "Preparation commit is a draft, not experiment permission. Real data/labels/QC lock and independent source/data/design approval must be committed before implementing/releasing the formal run entry."
+}
