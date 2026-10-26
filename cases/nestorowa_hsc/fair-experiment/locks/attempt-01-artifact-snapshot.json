@@ -1,0 +1,121 @@
+{
+  "prior_attempt": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01",
+  "status": "FAILED_SUMMARY_SERIALIZATION_SCIENTIFIC_OUTPUTS_SAVED",
+  "files": [
+    {
+      "path": "cell-qc.tsv",
+      "bytes": 174904,
+      "sha256": "483cab65f32571a30553edff8ce9fe8677fd8f4de4e520d7e32749b744e6f157"
+    },
+    {
+      "path": "coordinator-console.log",
+      "bytes": 33,
+      "sha256": "db54f1eeaf92993e61d6f01152ff1e41ba8efa4307134edc7c0328f5646a091b"
+    },
+    {
+      "path": "coordinator-execution.json",
+      "bytes": 1666,
+      "sha256": "0b163307f78024bf54f53b19cad2d1c7e60aaf72b7deb0cb6649729af2579d34"
+    },
+    {
+      "path": "eligible-gene-ids.txt",
+      "bytes": 773699,
+      "sha256": "d8b7119c2d6a77f5ad4d1d7e66b802a5df89a2745355851414a7018b084ae258"
+    },
+    {
+      "path": "eligible-normalized-sce.rds",
+      "bytes": 172083640,
+      "sha256": "fcacff65379b8ca90e38fa91ddd9ddd434ca2b7ef664898e1845fd9d03c95604"
+    },
+    {
+      "path": "evaluation-cell-ids.txt",
+      "bytes": 15107,
+      "sha256": "24fbab9cac6800f0e37c998b54aa13229b03a4200dca074988d5618fa6bcd655"
+    },
+    {
+      "path": "final-cell-ids.txt",
+      "bytes": 15244,
+      "sha256": "3ffd272761ac0b68ae493c004427ac51c0c35e12a0dd38bb8067043159645278"
+    },
+    {
+      "path": "frozen-broad-memberships.tsv",
+      "bytes": 88973,
+      "sha256": "1d44788dbaf30f2044a400be5b57394f2b6347af6c5b2d14ea794230737e09da"
+    },
+    {
+      "path": "frozen-reference.tsv",
+      "bytes": 120608,
+      "sha256": "f2156454ee3f283cc69b241c8e8dc4c1bf8f9cb730a59602350dea31fe1ec928"
+    },
+    {
+      "path": "gene-filter.tsv",
+      "bytes": 3594044,
+      "sha256": "58618597638b8634d7a46a57a511bf1402347076673d984e1b571461fa5b51c2"
+    },
+    {
+      "path": "gene-variance.rds",
+      "bytes": 10286093,
+      "sha256": "8ea8ce1932421b6b83ac19f95d7d78b59b804743104fb74a520b23b58f1fdd1c"
+    },
+    {
+      "path": "gene-variance.tsv",
+      "bytes": 5296658,
+      "sha256": "d53a5bc2470d15a4249004b2648cdffb64623a80a34571f724bae2fb34434943"
+    },
+    {
+      "path": "hvg-gene-ids.txt",
+      "bytes": 114000,
+      "sha256": "cc75bf454cd3f5531a86ab8e01d18e93c6ad615a8a0e36b17ebadba59907baa6"
+    },
+    {
+      "path": "label-counts.tsv",
+      "bytes": 132,
+      "sha256": "8223975acf2963f57e600378b53d08aca56e30276b9d58ee65b6907369c0c6b2"
+    },
+    {
+      "path": "qc-thresholds.json",
+      "bytes": 139,
+      "sha256": "abe8ac43041f9034d30a059497f60adce0d7e9ca460316dab09c2aecc89980fa"
+    },
+    {
+      "path": "raw-cell-ids.txt",
+      "bytes": 17712,
+      "sha256": "90b30cfb92cd0ad5c97d9a99c12976af4d4bd25623aea9f86b661c4d9e478876"
+    },
+    {
+      "path": "raw-gene-ids.txt",
+      "bytes": 876572,
+      "sha256": "068ee7ddeb59302d50ae29028d0389771adcd9bbba6a89c118e01230bd82bbaa"
+    },
+    {
+      "path": "raw-protection-before.json",
+      "bytes": 274,
+      "sha256": "9624a761765f24829f630790acfe6a1e128f5ec736398a65103faece80d75a9e"
+    },
+    {
+      "path": "rng.rds",
+      "bytes": 2778,
+      "sha256": "a19f28a4bd21dc7cf8ae6a42372496d9f6a1c4c4c5e780dde47561b31199ba96"
+    },
+    {
+      "path": "sessionInfo.txt",
+      "bytes": 5646,
+      "sha256": "a527174a51aed227304e57df7ad3da629c9ada42b1e36cfbad573f0f4c88a55f"
+    },
+    {
+      "path": "shared-hvg-sce.rds",
+      "bytes": 37570598,
+      "sha256": "e6545f0d01da8db5120b194ad3bcea48519b1ece8c7158f943c84c66a4bae8ed"
+    },
+    {
+      "path": "size-factors.tsv",
+      "bytes": 47681,
+      "sha256": "bc28da37b248bbb0ea5253328a257f7095a9a7d5eccc40b7d024f00aac704806"
+    },
+    {
+      "path": "stage1-status.json",
+      "bytes": 447,
+      "sha256": "9c7449a77a36f20a2e8cda0f2b9e4db1da4a30863a3d79db37a8c415df98935f"
+    }
+  ]
+}
