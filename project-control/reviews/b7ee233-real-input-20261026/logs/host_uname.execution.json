@@ -1,0 +1,12 @@
+{
+  "started_utc": "2026-10-26T11:13:54.632840+00:00",
+  "ended_utc": "2026-10-26T11:13:54.636399+00:00",
+  "argv": [
+    "uname",
+    "-a"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.003561243000149261,
+  "stdout_bytes": 80,
+  "stderr_bytes": 0
+}

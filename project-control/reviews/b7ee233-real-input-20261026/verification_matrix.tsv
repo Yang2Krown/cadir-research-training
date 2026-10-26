@@ -1,0 +1,21 @@
+requirement	classification	evidence	conclusion
+scope_and_fixed_target	INDEPENDENTLY_OBSERVED	fixed_refs.json;scope/read_materials.json	Exact detached target, baseline and control; task and all three materials read
+source_before_after	INDEPENDENTLY_OBSERVED	source_before.json;source_after.json;source_preservation.json	Same four source hashes and clean detached HEAD
+local_real_file_availability	INDEPENDENTLY_OBSERVED	real_file_search_no_follow.json;real_file_availability.before.json	No filename matches; priority directories absent; symlink scan has retained broken-link errors
+official_downloads	INDEPENDENTLY_OBSERVED	acquisition_attempts.json;logs/	One request per exact official URL; CONNECT403, curl22, zero downloads and redirects
+runtime_versions	INDEPENDENTLY_OBSERVED	logs/R_actual_packages.stdout.log;runtime_difference.tsv	Existing R works; no installation or equivalence claim
+docker_and_reference_image	INDEPENDENTLY_OBSERVED	logs/docker_info_permission_enabled.stdout.log;logs/docker_image_permission_enabled.stderr.log	Docker local socket works with executor network permission; image absent
+metadata_only_wrapper_startup	INDEPENDENTLY_OBSERVED	entry_startup_probes.json;logs/wrapper_metadata-only_startup.stderr.log	Exit1 before audit at image inspect; not real-input run
+full_wrapper_startup	INDEPENDENTLY_OBSERVED	entry_startup_probes.json;logs/wrapper_full_startup.stderr.log	Exit1 before audit at image inspect; not real-input run
+real_input_file_size_sha256	NOT_VERIFIED	difference_table.tsv	All three raw files unavailable; expected manifest values not actual hashes
+real_coldata_raw_and_semantic_NULL	NOT_VERIFIED		No coldata.rds
+real_three_nested_explicit_ID_NA_members_candidates	NOT_VERIFIED		No coldata.rds; never treat default row numbers as explicit IDs
+counts_structure_explicit_gene_cell_ID	NOT_VERIFIED		No counts.rds
+all_counts_finite_nonnegative_integer	NOT_VERIFIED		No counts.rds; no simulated matrix
+GEO_all_explicit_ID_and_each_value_vs_RDS	NOT_VERIFIED		No GEO or counts.rds
+real_metadata_only_byte_isolation	NOT_VERIFIED	entry_startup_probes.json	No counts/GEO argv in startup probe; audit never reached; no successful isolation claim
+real_full_audit_and_raw_hash_preservation	NOT_VERIFIED	entry_startup_probes.json;real_file_availability.after.json	Wrapper prerequisites failed and raw files unavailable
+real_metadata_memory_reorder_duplicate_missing_conflict	NOT_VERIFIED		No real metadata; no synthetic substitute used
+prior_A03_acceptance_and_implementation_full03	RECORD_ONLY	scope/独立复核报告.md;record-only/	Historical evidence read; not independent raw verification
+A01_closure	BLOCKED	review_result.json	A01 remains open
+QC_data_lock_formal_design_experiment_release	OUT_OF_SCOPE		No scientific processing or release

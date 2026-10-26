@@ -1,0 +1,71 @@
+{
+  "subject": "independent availability/startup receipts only",
+  "checks": [
+    {
+      "check": "fixed_HEAD_clean_unchanged",
+      "passed": true
+    },
+    {
+      "check": "four_source_hashes_unchanged",
+      "passed": true
+    },
+    {
+      "check": "preserved_source_audit_inputs.R",
+      "passed": true
+    },
+    {
+      "check": "preserved_source_metadata_identity.R",
+      "passed": true
+    },
+    {
+      "check": "preserved_source_run_input_audit.py",
+      "passed": true
+    },
+    {
+      "check": "preserved_source_test_metadata_identity.R",
+      "passed": true
+    },
+    {
+      "check": "normal_search_no_match_no_error",
+      "passed": true
+    },
+    {
+      "check": "three_unique_URL_attempts",
+      "passed": true
+    },
+    {
+      "check": "exact_blocked_receipt_counts.rds",
+      "passed": true
+    },
+    {
+      "check": "exact_blocked_receipt_coldata.rds",
+      "passed": true
+    },
+    {
+      "check": "exact_blocked_receipt_GSE81682_HTSeq_counts.txt.gz",
+      "passed": true
+    },
+    {
+      "check": "two_fixed_entry_startup_failures",
+      "passed": true
+    },
+    {
+      "check": "real_original_wrapper_image_exception_metadata-only",
+      "passed": true
+    },
+    {
+      "check": "real_original_wrapper_image_exception_full",
+      "passed": true
+    },
+    {
+      "check": "no_false_A01_PASS_or_release",
+      "passed": true
+    },
+    {
+      "check": "no_large_raw_payloads_in_review",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "not_a_real_input_PASS": true
+}

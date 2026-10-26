@@ -1,0 +1,38 @@
+[
+  {
+    "control_commit": "2d97dc8bd3cd70f2cedfa413c8b0446722aef843",
+    "path": "project-control/独立真实输入复跑任务-b7ee233.md",
+    "preserved_path": "scope/独立真实输入复跑任务-b7ee233.md",
+    "git_blob": "692d59f5946a6f28f5ed69150646a348da5a44be",
+    "bytes": 3517,
+    "sha256": "3f6fee3a0bc228ada5668826a31d213d97aaf7386e68c68f209d7b02570b55cd",
+    "read_completely": true
+  },
+  {
+    "control_commit": "2d97dc8bd3cd70f2cedfa413c8b0446722aef843",
+    "path": "project-control/A03代码复核与真实输入待复跑-2026-10-26.md",
+    "preserved_path": "scope/A03代码复核与真实输入待复跑-2026-10-26.md",
+    "git_blob": "974ae9cc92f33d598cbe3c61c5d1b362e37e363a",
+    "bytes": 1689,
+    "sha256": "d23026f06458401ab375c9aa4b5479911034b102e28b1b2168051815ca874438",
+    "read_completely": true
+  },
+  {
+    "control_commit": "2d97dc8bd3cd70f2cedfa413c8b0446722aef843",
+    "path": "project-control/HSC扩展范围裁定-2026-10-26.md",
+    "preserved_path": "scope/HSC扩展范围裁定-2026-10-26.md",
+    "git_blob": "351fec13876f8dbaa01b54a9d34a939ccc01fc0f",
+    "bytes": 3532,
+    "sha256": "81062e7da29b1c3d79e9786525580b65a168f2323db923bd3c688b856000c3d9",
+    "read_completely": true
+  },
+  {
+    "control_commit": "2d97dc8bd3cd70f2cedfa413c8b0446722aef843",
+    "path": "project-control/reviews/b7ee233/独立复核报告.md",
+    "preserved_path": "scope/独立复核报告.md",
+    "git_blob": "d92aaac85f7b369fa979e5dcd7df8c6330e4ad00",
+    "bytes": 5967,
+    "sha256": "b100994f0c4e3828214803efd683c904777982dbc6f398687214e3128eb56879",
+    "read_completely": true
+  }
+]

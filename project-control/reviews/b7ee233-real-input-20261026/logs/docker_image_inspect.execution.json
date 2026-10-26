@@ -1,0 +1,17 @@
+{
+  "started_utc": "2026-10-26T11:13:54.699960+00:00",
+  "ended_utc": "2026-10-26T11:13:54.713118+00:00",
+  "argv": [
+    "docker",
+    "--host=unix:///var/run/docker.sock",
+    "image",
+    "inspect",
+    "--format",
+    "{{json .Id}}",
+    "cadir-r-ver:4.4.1-bioc3.19"
+  ],
+  "exit_code": 1,
+  "elapsed_seconds": 0.01316456199856475,
+  "stdout_bytes": 1,
+  "stderr_bytes": 253
+}

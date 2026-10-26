@@ -1,0 +1,13 @@
+{
+  "observed_utc": "2026-10-26T11:18:09.799093+00:00",
+  "original_worktree": "/workspace/cadir-validation-20261026/repo",
+  "original_worktree_status": "",
+  "original_refs": {
+    "HEAD": "3b7e30487db5b3bebed981be9ba882988a417996",
+    "refs/heads/main": "35a05eb54d73a38a56a8427b8544e97ae78a70c4",
+    "refs/heads/audit/new-env-network-20261026": "3b7e30487db5b3bebed981be9ba882988a417996",
+    "refs/remotes/origin/control/stage1-quality-20261025": "2d97dc8bd3cd70f2cedfa413c8b0446722aef843",
+    "refs/remotes/origin/fix/nestorowa-input-audit-a03-20261026": "b7ee2335dc25ffab3a60d1feab44272d6d5a45cb",
+    "refs/remotes/origin/prep/nestorowa-metadata-20261026": "d853986e2e3a1cabc9f3f728f616e402432257ec"
+  }
+}
