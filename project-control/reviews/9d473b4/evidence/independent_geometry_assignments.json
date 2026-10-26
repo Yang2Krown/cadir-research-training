@@ -1,0 +1,28 @@
+{
+  "actual_pair_gene_IDs_identical": true,
+  "actual_pair_cluster_identical": true,
+  "actual_pair_x_max_abs": 7.32747196252603e-14,
+  "actual_pair_y_max_abs": 9.28146448586631e-14,
+  "interventions": {
+    "baseline_to_review": {
+      "name": "baseline_to_review",
+      "cell_and_gene_assignments_unchanged": true,
+      "independently_recomputed_gene_assignments_unchanged": true,
+      "independently_recomputed_gene_assignments_match_saved": true,
+      "max_projection_change": 0,
+      "max_orthogonal_distance_change": 0,
+      "max_gene_squared_norm_change": 0,
+      "max_cell_squared_norm_change": 0
+    },
+    "review_to_baseline": {
+      "name": "review_to_baseline",
+      "cell_and_gene_assignments_unchanged": true,
+      "independently_recomputed_gene_assignments_unchanged": true,
+      "independently_recomputed_gene_assignments_match_saved": true,
+      "max_projection_change": 0,
+      "max_orthogonal_distance_change": 0,
+      "max_gene_squared_norm_change": 0,
+      "max_cell_squared_norm_change": 0
+    }
+  }
+}

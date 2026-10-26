@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/cadir-r3-independent-20261026/scripts/intake_preservation.py", line 33, in <module>
+    assert all(p.startswith('cases/tabula_muris_limb/review_fixes/2026-10-26-r3/') or p=='cases/tabula_muris_limb/scripts/pipeline.R' for p in changed)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

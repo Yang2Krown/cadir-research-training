@@ -2,7 +2,7 @@
 
 接手日期：2026-10-25（Asia/Shanghai）。主控会话：`01a17385-6fd3-71dd-ae1a-a9fa2b77203d`，host=`durable`。两人小组，CAdir选题已定，时间由用户安排。用户授权本项目会话协调、隔离目录、分支、commit/push和草稿PR；不含合并main、正式课程提交或付费资源采购。
 
-**阶段状态：首个HVG-only真实案例已完成首轮独立审查、实施修复和新提交独立复验；R1、R2、R4—R6关闭，R3仍待补证，暂不放行新数据集或公平基线正式实验。** 原评审措辞为“附条件通过”，其R1—R3均属于重要问题；主控依据用户门槛登记为“未放行”。本页不以原实施PASS或评审标题代替验收证据。
+**当前状态（2026-10-26）：R3补件、实施诊断和不同Sol High独立复验均已完成，R1—R6及N1/N2全部关闭。首阶段在6000-HVG单案例、固定或实际验证对齐CA基底的范围内通过；已启动下一阶段数据来源核查。** 原评审措辞为“附条件通过”，其R1—R3均属于重要问题；主控当时依据用户门槛登记为“未放行”；收到实际旧对象并完成新独立复验后，状态按[2026-10-26最终结论](首阶段结论-2026-10-26.md)更新。本页不以原实施PASS或评审标题代替验收证据。
 
 ## 已固定的对象和证据
 
@@ -21,12 +21,12 @@
 | --- | --- | --- | --- |
 | R1 新检出启动失败 | `runs/`被忽略，环境/案例入口mkdtemp直接报错 | 创建父目录；全新检出使用文档入口和真实输入成功；隔离输出不覆盖旧成果 | 独立复验关闭 |
 | R2 验证器漏检 | 交换两个基因的簇且保持计数后仍PASS | 按ID核对所有gene→cluster及NA、逐簇规模、排名与RDS；正常样例通过，错簇/错NA/错Score明确失败 | 独立复验关闭 |
-| R3 完整排名不一致 | alpha约1.075064→1.101413，541名次变化；细胞/基因分配与前五集合未变 | 调查源码、RNG、CA基底；保留旧基线；新运行alpha/全部Score/Rank复验；缺原对象时不编造历史归因 | 实施两次新鲜运行与基线完全一致；旧独立评审差异仍待归因 |
+| R3 完整排名不一致 | alpha约1.075064→1.101413，541名次变化；细胞/基因分配与前五集合未变 | 调查源码、RNG、CA基底；保留旧基线；新运行alpha/全部Score/Rank复验；缺原对象时不编造历史归因 | 收到两端实际对象，双向八轴干预独立复验关闭 |
 | R4 后端说明 | 当前30维实际走R/irlba，python参数差异不等于后端差异 | 更新现行说明并指固定源码，保留历史勘误 | 独立复验关闭 |
 | R5 图号混用 | 作者figure2.qmd对应正式论文Fig3 | 更新现行说明；历史报告附勘误 | 独立复验关闭 |
 | R6 图自足性 | Association Plot缺轴名和图例 | 添加相邻完整图注或新图，不改冻结点数据 | 独立复验关闭 |
 
-每阶段必须遵循：固定成果及提交 → 独立评审 → 实施修复 → 对新提交独立复验 → 主控阶段结论。R1—R3未收口前不放行依赖实验；文档偏好不独自构成阻塞。
+每阶段必须遵循：固定成果及提交 → 独立评审 → 实施修复 → 对新提交独立复验 → 主控阶段结论。R1—R3已逐项收口后，后续正式实验仍需先冻结其独立设计和验收条件；文档偏好不独自构成阻塞。
 
 ## 会话、工作目录与实际模型
 
@@ -38,14 +38,14 @@
 | 环境设置 | `01a171f4-b92d-731d-8982-4dbcc7974029` / durable | 独立Docker设置会话，与当前Conda环境不混同 | 本轮未重新执行其安装 |
 | 主控管理 | 当前chat | `/workspace/cadir-control`，`control/stage1-quality-20261025` | 本管理分支只写主控文档，不修改实验结果 |
 | 本轮修复实施 | 内部子任务`/root/stage1_repair` | `/workspace/cadir-stage1-fix`，`fix/stage1-review-20261025`；大输出另存外部证据目录 | 实际spawn参数`model=gpt-6.1-sol, reasoning_effort=high`；已完成实施及后续隔离修复 |
-| 本轮独立复验 | 内部子任务`/root/stage1_independent_retest` | `/workspace/cadir-stage1-review-source`精确检出`8561914bc67c511ec76374996fb12d713f23f171`；新证据在`/workspace/cadir-stage1-retest` | 实际spawn参数`model=gpt-6.1-sol, reasoning_effort=high`；已完成主体与0acd73d增量独立复验，R3保持待补证 |
+| 本轮独立复验 | 内部子任务`/root/stage1_independent_retest` | `/workspace/cadir-stage1-review-source`精确检出`8561914bc67c511ec76374996fb12d713f23f171`；新证据在`/workspace/cadir-stage1-retest` | 实际spawn参数`model=gpt-6.1-sol, reasoning_effort=high`；已完成主体与0acd73d增量独立复验，R3在9d473b4独立实际对象重放及双向符号干预后关闭 |
 
 当前工具有list/read/wait会话能力，工具发现未提供create_thread或send_message_to_thread，不能向原会话发消息或创建用户可见任务。已使用用户授权的内部子任务能力实际派发Sol High修复；此临时实现不等同于用户可见会话。未要求用户逐条传话。若关键历史对象必须从原实施会话取回且无可用接口，将集中报告最小人工动作。
 
 ## 本轮固定提交与草稿PR
 
 - 管理提交`32460156f90992add4a03bd0e23fd4062a2d5664`，已push并核对远端；[草稿PR #1](https://github.com/Yang2Krown/cadir-research-training/pull/1)。
-- 最终修复提交`0acd73d23b46f7bf84ab2571dc9722b3d2f10d0b`（主体8561914后另增量修复），已push；[草稿PR #2](https://github.com/Yang2Krown/cadir-research-training/pull/2)。原实施分支及main均未移动。
+- 最终修复提交`9d473b441058c45b2563c2ebe94ae99dda1f5209`（主体8561914、隔离0acd73d后追加R3诊断及元数据修正），已push；[草稿PR #2](https://github.com/Yang2Krown/cadir-research-training/pull/2)。原实施分支及main均未移动。
 - 实施证据显示两次新鲜运行全部1200个Score/Rank与历史基线相同，4类RDS哈希匹配原索引；五类错误样例均被拒绝。新独立复验已自行确认这些结果，详见[最终报告](reviews/0acd73d/独立复验报告.md)。
 - 复验已发现环境检查调用原run-smoke.py仍写共享runtime/runs和latest-smoke.json，存在并发读取竞态。已交回原修复员作新增提交0acd73d，并由不同评审员在第二个独立检出增量复验关闭，旧快照保持不变。
 
@@ -62,4 +62,6 @@
 
 课程原文、模板、GUIDANCE现文件和共享盘尚未直接访问。本轮从旧组织者的推进方案创建命令读到课程权重10/40/30/20、15—30分钟演讲、AVI/H.264、RAR命名等记录；均作为已有梳理依据，正式交付前须与原始课程材料再核验。时间由用户安排，不沿用旧截止日期。未运行检测、未购买资源、未向项目之外发消息。
 
-最终状态和唯一必要人工补件见[首阶段结论](首阶段结论.md)及[R3补件清单](R3补件清单.md)。
+最终状态见[2026-10-26首阶段结论](首阶段结论-2026-10-26.md)及[新独立复验报告](reviews/9d473b4/独立复验报告.md)；补件已全部收到，无需用户继续传文件。原[补件清单](R3补件清单.md)保留接收历史。
+
+新来源审计内部子任务`/root/new_dataset_source_audit`实际使用`model=gpt-6-luna, reasoning_effort=max`，隔离worktree `/workspace/cadir-next-data-plan`，分支`plan/new-dataset-audit-20261026`。目前只核查来源，未运行新数据或基线实验；新阶段验收规则已在评价前[固定](下一阶段启动与验收规则.md)。

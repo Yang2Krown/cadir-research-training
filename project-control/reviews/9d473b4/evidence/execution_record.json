@@ -1,0 +1,17 @@
+{
+  "actual_diagnostic_command": [
+    "bash",
+    "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/scripts/run-r.sh",
+    "/workspace/cadir-r3-independent-20261026/scripts/independent_r3.R"
+  ],
+  "diagnostic_exit_code": 0,
+  "original_log": "evidence/independent_r3.log",
+  "original_RNG_not_received": true,
+  "new_RNG_snapshots_labelled_diagnostic": true,
+  "full_pipeline_rerun": false,
+  "implementation_diagnostic_scripts_executed": false,
+  "upstream_heads": {
+    "APL": "d4d1f40d9ea9f1d9a95b224d45de843334cd617d",
+    "CAdir": "de74a008dfcd0d4fa4f7f93c57aa346892a8d935"
+  }
+}

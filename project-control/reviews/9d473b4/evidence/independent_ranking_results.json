@@ -1,0 +1,73 @@
+{
+  "baseline_actual": {
+    "gene_count": 1200,
+    "gene_cluster_identical": true,
+    "max_score_abs_error": 5.32907051820075e-15,
+    "rank_differences": 0,
+    "row_num_differences": 0,
+    "alpha_genes": 1.07506446203775,
+    "independent_geometric_score_max_abs": 3.5527136788005e-15,
+    "score_absolute_tolerance": 1e-10
+  },
+  "review_actual": {
+    "gene_count": 1200,
+    "gene_cluster_identical": true,
+    "max_score_abs_error": 5.10702591327572e-15,
+    "rank_differences": 0,
+    "row_num_differences": 0,
+    "alpha_genes": 1.10141280187352,
+    "independent_geometric_score_max_abs": 6.21724893790088e-15,
+    "score_absolute_tolerance": 1e-10
+  },
+  "baseline_signs_to_review": {
+    "gene_count": 1200,
+    "gene_cluster_identical": true,
+    "max_score_abs_error": 5.71986902286881e-13,
+    "rank_differences": 0,
+    "row_num_differences": 0,
+    "alpha_genes": 1.10141280187356,
+    "independent_geometric_score_max_abs": 3.99680288865056e-15,
+    "score_absolute_tolerance": 1e-10
+  },
+  "review_signs_to_baseline": {
+    "gene_count": 1200,
+    "gene_cluster_identical": true,
+    "max_score_abs_error": 1.21014309684142e-13,
+    "rank_differences": 0,
+    "row_num_differences": 0,
+    "alpha_genes": 1.07506446203776,
+    "independent_geometric_score_max_abs": 6.21724893790088e-15,
+    "score_absolute_tolerance": 1e-10
+  },
+  "actual_pair_difference": {
+    "gene_count": 1200,
+    "gene_cluster_identical": true,
+    "max_score_abs_error": 0.346546986154587,
+    "rank_differences": 541,
+    "row_num_differences": 0
+  },
+  "all_new_diagnostic_pre_RNG_identical": true,
+  "all_new_diagnostic_post_RNG_identical": true,
+  "fixed_source_function_comparison": [
+    {
+      "name": "rank_genes",
+      "formals_identical": true,
+      "body_identical": true
+    },
+    {
+      "name": "get_apl_cutoff",
+      "formals_identical": true,
+      "body_identical": true
+    },
+    {
+      "name": "random_direction_cutoff",
+      "formals_identical": true,
+      "body_identical": true
+    },
+    {
+      "name": "apl_model",
+      "formals_identical": true,
+      "body_identical": true
+    }
+  ]
+}

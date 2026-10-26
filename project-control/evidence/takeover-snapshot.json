@@ -56,38 +56,49 @@
       "worktree": "/workspace/cadir-stage1-fix",
       "branch": "fix/stage1-review-20261025",
       "scope": "R1-R6 fixes and evidence; no main merge, no baseline overwrite",
-      "state": "completed_fix_and_followup"
+      "state": "completed_R3_actual_object_diagnosis_and_N2_metadata_fix"
     },
     {
       "task": "/root/stage1_independent_retest",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
       "kind": "internal_subagent",
-      "state": "completed_independent_retest_pending_R3"
+      "state": "completed_R3_independent_retest_with_scope_release"
+    },
+    {
+      "task": "/root/new_dataset_source_audit",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "max",
+      "kind": "internal_subagent",
+      "state": "running_source_audit_only",
+      "branch": "plan/new-dataset-audit-20261026",
+      "worktree": "/workspace/cadir-next-data-plan",
+      "base_sha": "9d473b441058c45b2563c2ebe94ae99dda1f5209"
     }
   ],
   "final_stage": {
-    "status": "BLOCKED_PENDING_R3_EVIDENCE",
-    "fixed_sha": "0acd73d23b46f7bf84ab2571dc9722b3d2f10d0b",
+    "status": "PASS_WITH_EXPLICIT_SCOPE",
+    "fixed_sha": "9d473b441058c45b2563c2ebe94ae99dda1f5209",
     "independent_retest_base_sha": "8561914bc67c511ec76374996fb12d713f23f171",
-    "independent_retest_delta_sha": "0acd73d23b46f7bf84ab2571dc9722b3d2f10d0b",
+    "independent_retest_delta_sha": "9d473b441058c45b2563c2ebe94ae99dda1f5209",
     "closed": [
       "R1",
       "R2",
+      "R3",
       "R4",
       "R5",
       "R6",
-      "N1"
-    ],
-    "open_important": [
-      "R3"
-    ],
-    "open_nonblocking": [
+      "N1",
       "N2"
     ],
+    "open_important": [],
+    "open_nonblocking": [],
     "management_pr": "https://github.com/Yang2Krown/cadir-research-training/pull/1",
     "fix_pr": "https://github.com/Yang2Krown/cadir-research-training/pull/2",
-    "report_sha256": "7568f9355d93db71948de733753088a16e5abef48bf53354f04c0fb774d5f60a",
-    "automatic_continuation_configured": false
-  }
+    "report_sha256": "67aacd8c03d322d563afb281a9d3e19986254629db233d32c984470648c753c8",
+    "automatic_continuation_configured": false,
+    "scope": "6000-HVG single case, fixed or independently verified aligned CA basis; no arbitrary-basis invariance, strict paper replication, biological validation or robustness claim",
+    "supplementary_uploads_complete": true
+  },
+  "last_updated": "2026-10-26 Asia/Shanghai"
 }
