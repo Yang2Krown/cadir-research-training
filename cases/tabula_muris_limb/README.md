@@ -1,6 +1,6 @@
 # Tabula Muris Limb Muscle：真实数据案例
 
-**当前为 HVG-only 单案例；修复提交待独立复验，R3 历史排序差异仍待归因。** 原始输入、细胞指标及基因分配已有独立审查支持；新检出入口和验证器已按审查意见修复。当前环境两次新鲜运行的完整排序与冻结基线一致，不代表旧独立评审运行的差异根因已经解决。见[修复记录与勘误](review_fixes/2026-10-25/README.md)。作者 `figure2.qmd` 对应正式论文 **Fig 3 Limb Muscle 案例**；严格论文复现尚未建立。
+**当前为 HVG-only 单案例；R3 已补齐两端实际对象及因果诊断，待独立复验。** 原始输入、细胞指标及基因分配已有独立审查支持；新检出入口和验证器已按审查意见修复。当前环境两次新鲜运行的完整排序与冻结基线一致；补件后已用两端实际 CA/未排序对象重现旧评审差异，并由八个 CA 轴的符号双向反事实复现全部排名变化。见[最新 R3 诊断](review_fixes/2026-10-26-r3/README.md)与[历史修复勘误](review_fixes/2026-10-25/README.md)。完整排名等价仅在固定 CA 基底或已验证对齐条件内成立，不能只凭相同 seed 推论跨任意基底等价。作者 `figure2.qmd` 对应正式论文 **Fig 3 Limb Muscle 案例**；严格论文复现尚未建立。
 
 历史分支 `case/tabula-muris-limb-first-run` 保留；本轮在独立修复 worktree 和分支执行。[继续执行说明](evidence/continuation-task.md) 授权使用已恢复 Conda，修正此前 Docker 限制。前轮报告、脚本副本、失败目录均保留，见 [首轮记录](reports/first-run.md) 与 `evidence/pre-continuation-scripts/`。当前详细结论见 [继续执行报告](reports/continuation.md)。
 

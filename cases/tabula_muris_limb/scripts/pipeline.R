@@ -112,7 +112,7 @@ export_results <- function(ca, cadir, sce, cfg, out) {
                   ca_cell_pivot_ids = rownames(ca@prin_coords_cols)[pivots],
                   ca_cell_pivot_signs = sign(ca@prin_coords_cols[cbind(pivots, seq_along(pivots))]),
                   tie_rule = "Upstream decreasing Score order; exact ties retain CA row order (R stable order).",
-                  historical_ranking_equivalence = "not_established; original CA/unranked objects unavailable"),
+                  ranking_scope = "Scores and ranks use this run's stored CA basis, RNG state, alpha and installed functions."),
              file.path(out, "ranking_provenance.json"))
   ranks <- Filter(is.data.frame, ranked@gene_ranks)
   if (length(ranks)) {

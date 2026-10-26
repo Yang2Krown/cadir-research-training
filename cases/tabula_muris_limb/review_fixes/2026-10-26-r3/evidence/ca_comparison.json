@@ -1,0 +1,157 @@
+{
+  "baseline_path": "/workspace/cadir-stage1-fix-evidence/fresh-run-1/case-wq48i9bp/ca.rds",
+  "reviewed_path": "/workspace/cadir-r3-evidence-20261026/ca.rds",
+  "gene_ids_order_identical": true,
+  "cell_ids_order_identical": true,
+  "dimensions": [1882, 30],
+  "singular_value_max_error": 6.66133814775094e-16,
+  "sign_vector": [1, 1, 1, 1, 1, 1, -1, 1, 1, -1, -1, 1, 1, 1, -1, 1, -1, -1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1],
+  "flipped_axes": [7, 10, 11, 15, 17, 18, 21, 22],
+  "max_cell_error_after_sign_alignment": 9.04887276220734e-13,
+  "max_gene_error_after_sign_alignment": 2.91011659214746e-12,
+  "maximum_rotation_off_diagonal": 6.21867961982581e-13,
+  "maximum_rotation_difference_from_sign_matrix": 6.21867961982581e-13,
+  "rotation_cell_max_error": 2.49245069028348e-13,
+  "slot_comparison": [
+    {
+      "slot": "U",
+      "class": ["matrix", "array"],
+      "dimensions": [6000, 30],
+      "length": 180000,
+      "identical": false
+    },
+    {
+      "slot": "V",
+      "class": ["matrix", "array"],
+      "dimensions": [1882, 30],
+      "length": 56460,
+      "identical": false
+    },
+    {
+      "slot": "D",
+      "class": "numeric",
+      "dimensions": {},
+      "length": 30,
+      "identical": false
+    },
+    {
+      "slot": "std_coords_rows",
+      "class": ["matrix", "array"],
+      "dimensions": [6000, 30],
+      "length": 180000,
+      "identical": false
+    },
+    {
+      "slot": "std_coords_cols",
+      "class": ["matrix", "array"],
+      "dimensions": [1882, 30],
+      "length": 56460,
+      "identical": false
+    },
+    {
+      "slot": "prin_coords_rows",
+      "class": ["matrix", "array"],
+      "dimensions": [6000, 30],
+      "length": 180000,
+      "identical": false
+    },
+    {
+      "slot": "prin_coords_cols",
+      "class": ["matrix", "array"],
+      "dimensions": [1882, 30],
+      "length": 56460,
+      "identical": false
+    },
+    {
+      "slot": "apl_rows",
+      "class": ["matrix", "array"],
+      "dimensions": [0, 0],
+      "length": 0,
+      "identical": true
+    },
+    {
+      "slot": "apl_cols",
+      "class": ["matrix", "array"],
+      "dimensions": [0, 0],
+      "length": 0,
+      "identical": true
+    },
+    {
+      "slot": "APL_score",
+      "class": "data.frame",
+      "dimensions": [0, 0],
+      "length": 0,
+      "identical": true
+    },
+    {
+      "slot": "params",
+      "class": "list",
+      "dimensions": {},
+      "length": 4,
+      "identical": true
+    },
+    {
+      "slot": "dims",
+      "class": "integer",
+      "dimensions": {},
+      "length": 1,
+      "identical": true
+    },
+    {
+      "slot": "group",
+      "class": "numeric",
+      "dimensions": {},
+      "length": 0,
+      "identical": true
+    },
+    {
+      "slot": "row_masses",
+      "class": "numeric",
+      "dimensions": {},
+      "length": 6000,
+      "identical": true
+    },
+    {
+      "slot": "col_masses",
+      "class": "numeric",
+      "dimensions": {},
+      "length": 1882,
+      "identical": true
+    },
+    {
+      "slot": "top_rows",
+      "class": "integer",
+      "dimensions": {},
+      "length": 1,
+      "identical": true
+    },
+    {
+      "slot": "tot_inertia",
+      "class": "numeric",
+      "dimensions": {},
+      "length": 1,
+      "identical": false
+    },
+    {
+      "slot": "row_inertia",
+      "class": "numeric",
+      "dimensions": {},
+      "length": 6000,
+      "identical": true
+    },
+    {
+      "slot": "col_inertia",
+      "class": "numeric",
+      "dimensions": {},
+      "length": 1882,
+      "identical": true
+    },
+    {
+      "slot": "permuted_data",
+      "class": "list",
+      "dimensions": {},
+      "length": 0,
+      "identical": true
+    }
+  ]
+}

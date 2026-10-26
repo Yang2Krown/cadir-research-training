@@ -1,0 +1,7 @@
+{
+  "operation": "Strip trailing whitespace and extra EOF blank lines in Git log copies only; full original bytes remain external.",
+  "files": [
+    "ca_comparison.log",
+    "ranking_replays.log"
+  ]
+}
