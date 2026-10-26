@@ -16,8 +16,8 @@
   },
   {
     "path": "project-control/README.md",
-    "bytes": 12072,
-    "sha256": "48573268a6748d8a16bfe3fe2b1c1e4ddc41f88613f8fc090c2e985107c4896f"
+    "bytes": 12357,
+    "sha256": "c1b74d0cf92fd2047ca26cc4bb53dd0647d18e796465a5c2ee8196e6bb8d5acc"
   },
   {
     "path": "project-control/evidence/R3-2026-10-26/intake.json",
@@ -36,8 +36,8 @@
   },
   {
     "path": "project-control/evidence/takeover-snapshot.json",
-    "bytes": 6703,
-    "sha256": "1cb4d7ffdc496cbe497d582f46f2ad7284b61aabb17af76482e92bce1b31fa50"
+    "bytes": 6902,
+    "sha256": "90fba6d4d94704e567b8513ec857f6c98c82e8c7e7bc155d321158891c5cb4fc"
   },
   {
     "path": "project-control/preparations/d853986/decision_register.tsv",
@@ -730,6 +730,21 @@
     "sha256": "47ea317d53146ac16ef76c4a47f81fc62cde346393c0fd4e4af967a35be71e17"
   },
   {
+    "path": "project-control/reviews/d853986/controller-scope-recheck/recheck_evidence.json",
+    "bytes": 4646,
+    "sha256": "997f552542ffa424381f157cc3302336f2aae852826165ba5cab85c09d1f1733"
+  },
+  {
+    "path": "project-control/reviews/d853986/controller-scope-recheck/sha256.tsv",
+    "bytes": 202,
+    "sha256": "af3d1b974df0345ff451cbe80b5cd72dd928facdba323ef932411062c64b0037"
+  },
+  {
+    "path": "project-control/reviews/d853986/controller-scope-recheck/增量复验结论.md",
+    "bytes": 1843,
+    "sha256": "b3ba8ffb93de72de1969f8f78bb1ac7d620f6e36ae0a8c77607d249a72c54ddd"
+  },
+  {
     "path": "project-control/reviews/d853986/decisions.tsv",
     "bytes": 2360,
     "sha256": "fbe20bb32d086e1f0f571f03d26fe0d0bc9debc1ecd2ff893efae4b036b5d731"
@@ -801,8 +816,8 @@
   },
   {
     "path": "project-control/复现主线与新数据扩展说明.md",
-    "bytes": 3181,
-    "sha256": "dd89a84917996df6b181ed96d66124cef00f5c0ea2e4b4862ebdec96732fcc17"
+    "bytes": 3202,
+    "sha256": "36dfe9d59e3b38ecdd7a085100bad900b886318eab9b9ae30bb48849af00b0bd"
   },
   {
     "path": "project-control/推进方案-历史创建命令恢复.txt",

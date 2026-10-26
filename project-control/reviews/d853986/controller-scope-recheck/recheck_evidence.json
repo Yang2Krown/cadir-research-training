@@ -1,0 +1,125 @@
+{
+  "reviewed_controller_commit": "a100d34e634bed298fdfdc9fd316132290518595",
+  "scope": "Incremental controller scope adoption and byte archive consistency only",
+  "checked_at_utc": "2026-10-26T07:36:41.277414+00:00",
+  "result": "ACCEPT_SCOPE_ADOPTION_CONSISTENCY",
+  "formal_execution_permitted": false,
+  "scope_document_sha256": "81062e7da29b1c3d79e9786525580b65a168f2323db923bd3c688b856000c3d9",
+  "scope_findings": {
+    "legacy1920_is_candidate_not_final_cohort": true,
+    "published_broad6_still_DRAFT": true,
+    "A01_A03_C04_C05_not_waived": true,
+    "webpage2017_risk_not_claimed_current_GEO_error_or_correction": true,
+    "no_original1656_or_flow_reconstruction_claim": true,
+    "original_case_PASS_not_expanded": true,
+    "Partner_application_not_signed_off": true,
+    "README_and_snapshot_preserve_formal_block": true
+  },
+  "review_archive": [
+    {
+      "path": "decisions.tsv",
+      "bytes": 2360,
+      "sha256": "fbe20bb32d086e1f0f571f03d26fe0d0bc9debc1ecd2ff893efae4b036b5d731",
+      "committed_archive_byte_identical": true
+    },
+    {
+      "path": "geo_recalculation.json",
+      "bytes": 149503,
+      "sha256": "be102da18248b79756870d992dff969f9dde48d0d4b837a528d8e3236899db3a",
+      "committed_archive_byte_identical": true
+    },
+    {
+      "path": "independent_builder_receipt.json",
+      "bytes": 558,
+      "sha256": "6c22188f77463e7b7a4e68c3c34d7b8702d2fbc4de3c4aeb4716f93b49e89e9f",
+      "committed_archive_byte_identical": true
+    },
+    {
+      "path": "independent_checks.py",
+      "bytes": 12975,
+      "sha256": "7dac234a9d0e60980871813128e27b391c7ba10e21351c9aa3337cbe90a392ef",
+      "committed_archive_byte_identical": true
+    },
+    {
+      "path": "independently_fetched_legacy_builder.Rmd",
+      "bytes": 2801,
+      "sha256": "d695cdc7c214abbd461207b6698bd493a8ce687ef13b5f3565b73e91e233d352",
+      "committed_archive_byte_identical": true
+    },
+    {
+      "path": "integrity.json",
+      "bytes": 13869,
+      "sha256": "22006fca2b30e7d4b8f43ec055a09eade81a230238a2108c13716f743e1a3294",
+      "committed_archive_byte_identical": true
+    },
+    {
+      "path": "metadata_recalculation.json",
+      "bytes": 2447,
+      "sha256": "75153316215ce0df3a83972d1548cf30cad16746358f6a2a8ad657ebd56bff0d",
+      "committed_archive_byte_identical": true
+    },
+    {
+      "path": "review_run.json",
+      "bytes": 425,
+      "sha256": "918959b4c2e968a2bb8f474bdceb808584898c2fabf0b897fb9bdd87d7eae737",
+      "committed_archive_byte_identical": true
+    },
+    {
+      "path": "static_review.json",
+      "bytes": 3270,
+      "sha256": "8a06d8348c2a70c7233bdb96fc6377a35ffc682c39ab533c1e1e038a797095de",
+      "committed_archive_byte_identical": true
+    },
+    {
+      "path": "独立审查报告.md",
+      "bytes": 10315,
+      "sha256": "a64199b6e0e47fe3cb21bebac28a96b71ce1677ec08c6a38eef78dd5d6d9d3a7",
+      "committed_archive_byte_identical": true
+    },
+    {
+      "path": "review_sha256.tsv",
+      "bytes": 954,
+      "sha256": "08f51c2f0e87f65ad8d65c52681de22688fce486b26b8a4ae1bd3af5aac56128",
+      "committed_archive_byte_identical": true
+    },
+    {
+      "path": "evidence_index.json",
+      "bytes": 2941,
+      "sha256": "759183bad43b3dead79f31e201452f370354ed27c3ca35ca42b947a542e930ae",
+      "committed_archive_byte_identical": true
+    }
+  ],
+  "preparation_archive": [
+    {
+      "path": "decision_register.tsv",
+      "bytes": 2360,
+      "sha256": "b0149a5eefecde956ea381ad0b26819b8efbec0cfc0e969456b437113e6c9063",
+      "matches_d853986_git_object": true
+    },
+    {
+      "path": "input_label_plan.draft.json",
+      "bytes": 5555,
+      "sha256": "c10504b572a015e99cdb41dd4898967cf0a4c2eb598fd8780944fbab0a4ee2a9",
+      "matches_d853986_git_object": true
+    },
+    {
+      "path": "后续来源与待审决策.md",
+      "bytes": 10624,
+      "sha256": "7b852a212ae3816505f6e4df36f0a269cf351d0408e6c5984e1dc6a978ee2ee5",
+      "matches_d853986_git_object": true
+    }
+  ],
+  "changed_inventory_entries_verified": 23,
+  "review_original_index_sha256_unchanged": "759183bad43b3dead79f31e201452f370354ed27c3ca35ca42b947a542e930ae",
+  "source_repo_clean": true,
+  "metadata_or_source_recalculation_repeated": false,
+  "raw_data_accessed": false,
+  "experiments_run": false,
+  "nonblocking_notes": [
+    {
+      "severity": "P3_EDITORIAL",
+      "path": "project-control/复现主线与新数据扩展说明.md",
+      "text": "Table still says 进入独立准备审查 although this controller commit records it completed. May update to 已完成独立准备审查、接受准备范围；正式阶段未放行. No scientific scope conflict."
+    }
+  ]
+}

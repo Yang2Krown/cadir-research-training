@@ -156,7 +156,9 @@
       "mghp.osn.xsede.org",
       "ftp.ncbi.nlm.nih.gov"
     ],
-    "minimum_extra_hosts": []
+    "minimum_extra_hosts": [],
+    "controller_scope_rechecked_commit": "a100d34e634bed298fdfdc9fd316132290518595",
+    "controller_scope_recheck": "project-control/reviews/d853986/controller-scope-recheck/增量复验结论.md"
   },
   "last_updated_at": "2026-10-26 15:35（Asia/Shanghai）"
 }
