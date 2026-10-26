@@ -1,0 +1,22 @@
+{
+  "source_commit": "b7ee2335dc25ffab3a60d1feab44272d6d5a45cb",
+  "source": "project-control/reviews/b7ee233/独立复核报告.md",
+  "automatic_local_sync": false,
+  "updates": [
+    {
+      "taskId": "Q-HSC-ID-ENTRY",
+      "status": "已完成",
+      "boundary": "仅代码修复层；真实legacy RDS路径独立复验仍待完成"
+    },
+    {
+      "taskId": "Q-HSC-DATA",
+      "status": "待评审",
+      "boundary": "实施全量审计已运行、代码与记录已复核；A01真实独立复跑未完成"
+    },
+    {
+      "taskId": "Q-HSC-EXECUTION",
+      "status": "受阻",
+      "boundary": "QC/输入锁/C04/正式设计和独立输入复跑门槛保持"
+    }
+  ]
+}

@@ -1,0 +1,432 @@
+{
+  "status": "PASS",
+  "checks": {
+    "target_HEAD_exact": true,
+    "target_parent_exact": true,
+    "detached_clean_worktree": true,
+    "preparation_history_unchanged_from_base": true,
+    "a03_evidence_index_has_90_entries": true,
+    "a03_indexes_agree": true,
+    "a03_all_indexed_bytes_match": true,
+    "metadata-only-03.execution.json_exit_zero": true,
+    "metadata-only-03.execution.json_source_hashes_match_clean_HEAD": true,
+    "full-03.execution.json_exit_zero": true,
+    "full-03.execution.json_source_hashes_match_clean_HEAD": true,
+    "regression_exit_zero": true,
+    "regression_source_hashes_match_clean_HEAD": true,
+    "metadata_only_has_no_count_or_geo_file_mount": true,
+    "metadata_only_manifest_contains_expected_metadata_only_mode": true,
+    "full_mode_has_both_readonly_count_geo_mounts": true,
+    "metadata-only_formal_work_boundary_false": true,
+    "metadata-only_read_counts_state_matches_mode": true,
+    "metadata-only_audit_status_is_review_required": true,
+    "full_formal_work_boundary_false": true,
+    "full_read_counts_state_matches_mode": true,
+    "full_audit_status_is_review_required": true,
+    "recorded_full_counts_statistics_strictly_legal": true,
+    "recorded_geo_streaming_comparison_complete": true,
+    "nine_identity_regressions_recorded_pass": true,
+    "implementation_readback_is_explicitly_not_independent": true,
+    "metadata-only-02_failure_is_retained_nonzero": true,
+    "full-02_failure_is_retained_nonzero": true,
+    "historical_preparation_bundle_has_61_entries": true,
+    "historical_preparation_bundle_hashes_match": true,
+    "recovered_historical_files_hashes_match": true,
+    "specified_real_raw_directory_unavailable_here": true,
+    "manifest_records_three_expected_raw_inputs": true
+  },
+  "counts": {
+    "A03_indexed_evidence_objects": 90,
+    "historical_preparation_bundle_objects": 61,
+    "recovered_historical_file_entries": 22,
+    "identity_regression_checks": 9,
+    "implementation_readback_checks_not_independent": 25
+  },
+  "source_HEAD": "b7ee2335dc25ffab3a60d1feab44272d6d5a45cb",
+  "source_sha256": {
+    "audit_inputs.R": "63d5c3d419b34645227178bc1daaf8da04a113f13ec11c04427f709c1fef9f92",
+    "metadata_identity.R": "aada661c76bd5d9fd5084c53572b958055d48b8e1466b6610f2de3c35cee58f5",
+    "run_input_audit.py": "5c8e15aa5257acdf60dc1c5625af0aab99a29d16631f007e6930855846d53a3b"
+  },
+  "raw_expected_sha256_from_committed_manifest": {
+    "GSE81682_HTSeq_counts.txt.gz": {
+      "bytes": 30236635,
+      "sha256": "e12745e4087823ae868c6fe82a38510c15730e82ee74e1983def85ed3b7df68a"
+    },
+    "coldata.rds": {
+      "bytes": 182319,
+      "sha256": "16d9e3ee62d27aac74591ccddd064eb2be9b86836591c8ec99d39e1af0bf35bc"
+    },
+    "counts.rds": {
+      "bytes": 90044893,
+      "sha256": "6bf8a84f4db185eb6021ceb53b7d6d33083410e02a6ee7a6df2191f0bbb90563"
+    }
+  },
+  "raw_data_read_or_hashed_by_this_review": false,
+  "limitations": [
+    "No real reacquired RDS/GEO files are mounted or present in this workspace, so recorded raw hashes and numerical claims were not independently reproduced.",
+    "This script only reads committed evidence and preparation bundle files; it does not deserialize RDS, read GEO numeric rows, or run a scientific pipeline."
+  ],
+  "indexed_evidence_item_results": [
+    {
+      "path": "cases/nestorowa_hsc/README.md",
+      "ok": true
+    },
+    {
+      "path": "cases/nestorowa_hsc/scripts/audit_inputs.R",
+      "ok": true
+    },
+    {
+      "path": "cases/nestorowa_hsc/scripts/inspect_legacy_rownames.R",
+      "ok": true
+    },
+    {
+      "path": "cases/nestorowa_hsc/scripts/metadata_identity.R",
+      "ok": true
+    },
+    {
+      "path": "cases/nestorowa_hsc/scripts/run_input_audit.py",
+      "ok": true
+    },
+    {
+      "path": "cases/nestorowa_hsc/scripts/test_metadata_identity.R",
+      "ok": true
+    },
+    {
+      "path": "cases/nestorowa_hsc/scripts/verify_a03_evidence.py",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/.gitattributes",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/.gitignore",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/README.md",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/attempt_notes.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/control-inputs/HSC\u6269\u5c55\u8303\u56f4\u88c1\u5b9a-2026-10-26.md",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/control-inputs/\u72ec\u7acb\u5ba1\u67e5\u62a5\u544a.md",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/control_provenance.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/audit_status.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/count_metadata_alignment.tsv",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/counts_legality.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/file_integrity.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/gene_ids.tsv",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/geo_correspondence.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/metadata_alignment.tsv",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/metadata_candidate.tsv",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/metadata_flags.tsv",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/metadata_identity.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/metadata_memberships.tsv",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/runtime.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01.console.log",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01.execution.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-02/audit_status.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-02/file_integrity.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-02/runtime.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-02.console.log",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-02.execution.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/audit_status.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/count_metadata_alignment.tsv",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/counts_legality.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/file_integrity.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/gene_ids.tsv",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/geo_correspondence.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/metadata_alignment.tsv",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/metadata_candidate.tsv",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/metadata_flags.tsv",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/metadata_identity.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/metadata_memberships.tsv",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/runtime.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03.console.log",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03.execution.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/implementation_readback.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/legacy_rownames_diagnostic.log",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-01/audit_status.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-01/file_integrity.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-01/metadata_alignment.tsv",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-01/metadata_candidate.tsv",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-01/metadata_flags.tsv",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-01/metadata_identity.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-01/metadata_memberships.tsv",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-01/runtime.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-01.console.log",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-01.execution.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-02/audit_status.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-02/file_integrity.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-02/runtime.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-02.console.log",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-02.execution.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-03/audit_status.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-03/file_integrity.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-03/metadata_alignment.tsv",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-03/metadata_candidate.tsv",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-03/metadata_flags.tsv",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-03/metadata_identity.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-03/metadata_memberships.tsv",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-03/runtime.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-03.console.log",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-03.execution.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata_identity_regression.console.log",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata_identity_regression.execution.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata_identity_regression_02.console.log",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata_identity_regression_02.execution.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata_identity_regression_03.console.log",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata_identity_regression_03.execution.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata_identity_regression_03.json",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/executed-sources/attempt-01/audit_inputs.R",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/executed-sources/attempt-01/metadata_identity.R",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/executed-sources/attempt-01/run_input_audit.py",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/executed-sources/attempt-01/test_metadata_identity.R",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/executed-sources/attempt-02/audit_inputs.R",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/executed-sources/attempt-02/metadata_identity.R",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/executed-sources/attempt-02/run_input_audit.py",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/executed-sources/attempt-02/test_metadata_identity.R",
+      "ok": true
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/preparation_status.json",
+      "ok": true
+    }
+  ]
+}

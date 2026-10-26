@@ -101,6 +101,19 @@
       "kind": "internal_subagent",
       "state": "completed_preparation_acceptance_formal_admission_rejected",
       "reviewed_commit": "d853986e2e3a1cabc9f3f728f616e402432257ec"
+    },
+    {
+      "task": "/root/hsc_a03_independent_retest",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "state": "failed_before_work_model_capacity"
+    },
+    {
+      "task": "/root/hsc_a03_review_luna",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "max",
+      "state": "completed_code_and_records_acceptance_raw_retest_pending",
+      "reviewed_commit": "b7ee2335dc25ffab3a60d1feab44272d6d5a45cb"
     }
   ],
   "final_stage": {
@@ -129,7 +142,7 @@
   },
   "last_updated": "2026-10-26 Asia/Shanghai",
   "next_stage": {
-    "state": "METADATA_PREPARATION_ACCEPTED_FORMAL_INPUT_AND_DESIGN_BLOCKED",
+    "state": "A03_CODE_ACCEPTED_REAL_INPUT_RETEST_AND_FORMAL_GATES_PENDING",
     "source_audit_commit": "7bf4a460e1c59b53f9dc71faa53bca562129b765",
     "prepared_commit": "122fdbf2986f3791917197385f8d07ba0a75fce6",
     "draft_pr": "https://github.com/Yang2Krown/cadir-research-training/pull/3",
@@ -151,14 +164,20 @@
     "metadata_independent_report_sha256": "a64199b6e0e47fe3cb21bebac28a96b71ce1677ec08c6a38eef78dd5d6d9d3a7",
     "real_count_values_audited": false,
     "scope_decision": "project-control/HSC扩展范围裁定-2026-10-26.md",
-    "next_action": "A03 explicit nested-ID audit repair and actual-input legality/QC/lock; C04 novelty evidence; independent design release before experiments",
+    "next_action": "Independent real-input re-run in data-accessible non-implementation cloud session; no clustering",
     "historical_extra_hosts_required_before_acquisition": [
       "mghp.osn.xsede.org",
       "ftp.ncbi.nlm.nih.gov"
     ],
     "minimum_extra_hosts": [],
     "controller_scope_rechecked_commit": "a100d34e634bed298fdfdc9fd316132290518595",
-    "controller_scope_recheck": "project-control/reviews/d853986/controller-scope-recheck/增量复验结论.md"
+    "controller_scope_recheck": "project-control/reviews/d853986/controller-scope-recheck/增量复验结论.md",
+    "input_audit_fix_commit": "b7ee2335dc25ffab3a60d1feab44272d6d5a45cb",
+    "input_audit_fix_branch": "fix/nestorowa-input-audit-a03-20261026",
+    "A03_code_review": "ACCEPTED_CODE_ONLY",
+    "A01_independent_real_input_audit": "PENDING_RAW_INDEPENDENT_RETEST",
+    "a03_review_model": "gpt-6-luna/max after SolHigh capacity failure",
+    "a03_review": "project-control/reviews/b7ee233/独立复核报告.md"
   },
   "last_updated_at": "2026-10-26 15:35（Asia/Shanghai）"
 }
