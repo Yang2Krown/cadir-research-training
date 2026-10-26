@@ -1,0 +1,12 @@
+{
+  "status": "DRAFT_STRUCTURE_VALID_BLOCKED",
+  "formal_execution_permitted": false,
+  "blocking_conditions": [
+    "Acquire counts and metadata via authorized official hosts; hash and inspect actual bytes",
+    "Resolve raw/author-filtered 1656 vs 1920 cohorts using actual IDs and documented filtering; do not infer solely from document dimensions",
+    "Audit sample/donor/condition metadata and original QC/normalization provenance",
+    "Freeze one author-supported exclusive reference-label hierarchy, ID mapping, conflicts and exclusions before any clustering",
+    "Close or explicitly adjudicate official S1 coverage of original-paper data novelty",
+    "Freeze data-input-lock.json with real SHA/size/ID/QC/label mappings and obtain independent Sol High approval of source/data/design"
+  ]
+}

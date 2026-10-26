@@ -1,0 +1,27 @@
+[
+  {
+    "test": "positive",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "status": {
+      "status": "STRUCTURAL_AUDIT_COMPLETE_REVIEW_REQUIRED",
+      "genes": 3,
+      "cells": 2,
+      "matrix_version_shape_QC_labels": "RAW_STRUCTURE_INSPECTED; QC/version/unique-label review still required",
+      "scientific_input_lock_complete": false,
+      "clustering_or_evaluation_run": false
+    },
+    "passed": true
+  },
+  {
+    "test": "duplicate_ids",
+    "exit_code": 1,
+    "expected_exit_code": 1,
+    "status": {
+      "status": "FAILED_STRUCTURE",
+      "error": "Unique, nonempty explicit gene/cell IDs required",
+      "clustering_or_evaluation_run": false
+    },
+    "passed": true
+  }
+]

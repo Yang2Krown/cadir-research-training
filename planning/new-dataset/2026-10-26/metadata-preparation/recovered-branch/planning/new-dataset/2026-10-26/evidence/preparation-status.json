@@ -1,0 +1,12 @@
+{
+  "raw_dataset_counts": "NOT_RECEIVED",
+  "raw_dataset_metadata": "NOT_RECEIVED",
+  "all_content_shape_ID_QC_labels": "NOT_VERIFIED",
+  "clustering_or_ARI_NMI_run": false,
+  "scRNAseq_package_installed": false,
+  "ExperimentHub_package_installed": false,
+  "AnnotationHub_package_installed": false,
+  "BiocFileCache_package_installed": false,
+  "old_runtime_modified_by_installation": false,
+  "actual_coldata_label_hierarchy": "NOT_FROZEN"
+}

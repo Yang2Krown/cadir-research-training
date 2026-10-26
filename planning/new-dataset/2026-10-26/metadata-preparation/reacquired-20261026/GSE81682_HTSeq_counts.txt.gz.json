@@ -1,0 +1,26 @@
+{
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE81nnn/GSE81682/suppl/GSE81682_HTSeq_counts.txt.gz",
+  "started_utc": "2026-10-26T06:28:36.824057+00:00",
+  "status": 200,
+  "final_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE81nnn/GSE81682/suppl/GSE81682_HTSeq_counts.txt.gz",
+  "bytes": 30236635,
+  "sha256": "e12745e4087823ae868c6fe82a38510c15730e82ee74e1983def85ed3b7df68a",
+  "headers": {
+    "date": "Mon, 26 Oct 2026 06:28:37 GMT",
+    "server": "envoy",
+    "last-modified": "Fri, 20 May 2016 15:56:28 GMT",
+    "accept-ranges": "bytes",
+    "content-length": "30236635",
+    "cache-control": "public, max-age=86400",
+    "expires": "Mon, 02 Nov 2026 06:28:37 GMT",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,POST,PUT,OPTIONS",
+    "access-control-allow-headers": "RANGE, Cache-control, If-None-Match, Content-Type",
+    "access-control-expose-headers": "Content-Length, Content-Range, Content-Type",
+    "content-type": "application/x-gzip",
+    "x-envoy-upstream-service-time": "104",
+    "connection": "close"
+  },
+  "elapsed_seconds": 0.7811786590000338
+}

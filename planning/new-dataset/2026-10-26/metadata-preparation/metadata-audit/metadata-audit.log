@@ -1,0 +1,273 @@
+{
+  "scope": "metadata only; counts.rds never deserialized; GEO first line only",
+  "metadata_top_level_rownames": "\u0001NULL\u0001",
+  "metadata_rows": 1920,
+  "header_cells": 1920,
+  "header_unique": 1920,
+  "header_identical_to_nested_ids": {
+    "cell.type": true,
+    "diffusion": true,
+    "FACS": true
+  },
+  "fields": {
+    "cell.type": {
+      "shape": [
+        1920,
+        23
+      ],
+      "columns": [
+        "LTHSC_broad",
+        "LMPP_broad",
+        "MPP_broad",
+        "CMP_broad",
+        "MEP_broad",
+        "GMP_broad",
+        "MPP1_broad",
+        "MPP2_broad",
+        "MPP3_broad",
+        "STHSC_broad",
+        "LTHSC",
+        "LMPP",
+        "MPP",
+        "CMP",
+        "MEP",
+        "GMP",
+        "MPP1",
+        "MPP2",
+        "MPP3",
+        "STHSC",
+        "ESLAM",
+        "HSC1",
+        "Projected"
+      ],
+      "unique_ids": 1920,
+      "missing_by_column": {
+        "LTHSC_broad": 0,
+        "LMPP_broad": 0,
+        "MPP_broad": 0,
+        "CMP_broad": 0,
+        "MEP_broad": 0,
+        "GMP_broad": 0,
+        "MPP1_broad": 0,
+        "MPP2_broad": 0,
+        "MPP3_broad": 0,
+        "STHSC_broad": 0,
+        "LTHSC": 0,
+        "LMPP": 0,
+        "MPP": 0,
+        "CMP": 0,
+        "MEP": 0,
+        "GMP": 0,
+        "MPP1": 0,
+        "MPP2": 0,
+        "MPP3": 0,
+        "STHSC": 0,
+        "ESLAM": 0,
+        "HSC1": 0,
+        "Projected": 0
+      },
+      "all_fields_missing_rows": 0,
+      "partial_missing_rows": 0,
+      "infinite_by_column": {
+        "LTHSC_broad": 0,
+        "LMPP_broad": 0,
+        "MPP_broad": 0,
+        "CMP_broad": 0,
+        "MEP_broad": 0,
+        "GMP_broad": 0,
+        "MPP1_broad": 0,
+        "MPP2_broad": 0,
+        "MPP3_broad": 0,
+        "STHSC_broad": 0,
+        "LTHSC": 0,
+        "LMPP": 0,
+        "MPP": 0,
+        "CMP": 0,
+        "MEP": 0,
+        "GMP": 0,
+        "MPP1": 0,
+        "MPP2": 0,
+        "MPP3": 0,
+        "STHSC": 0,
+        "ESLAM": 0,
+        "HSC1": 0,
+        "Projected": 0
+      }
+    },
+    "diffusion": {
+      "shape": [
+        1920,
+        3
+      ],
+      "columns": [
+        "DC1",
+        "DC2",
+        "DC3"
+      ],
+      "unique_ids": 1920,
+      "missing_by_column": {
+        "DC1": 421,
+        "DC2": 421,
+        "DC3": 421
+      },
+      "all_fields_missing_rows": 421,
+      "partial_missing_rows": 0,
+      "infinite_by_column": {
+        "DC1": 0,
+        "DC2": 0,
+        "DC3": 0
+      }
+    },
+    "FACS": {
+      "shape": [
+        1920,
+        10
+      ],
+      "columns": [
+        "FSC.H",
+        "CD34",
+        "CD16",
+        "c.Kit",
+        "EPCR",
+        "Flk2",
+        "CD150",
+        "CD48",
+        "Lin",
+        "Sca1"
+      ],
+      "unique_ids": 1920,
+      "missing_by_column": {
+        "FSC.H": 430,
+        "CD34": 430,
+        "CD16": 430,
+        "c.Kit": 430,
+        "EPCR": 430,
+        "Flk2": 430,
+        "CD150": 430,
+        "CD48": 430,
+        "Lin": 430,
+        "Sca1": 430
+      },
+      "all_fields_missing_rows": 430,
+      "partial_missing_rows": 0,
+      "infinite_by_column": {
+        "FSC.H": 0,
+        "CD34": 0,
+        "CD16": 0,
+        "c.Kit": 0,
+        "EPCR": 0,
+        "Flk2": 0,
+        "CD150": 0,
+        "CD48": 0,
+        "Lin": 0,
+        "Sca1": 0
+      }
+    }
+  },
+  "cell_type_values": [
+    0.0,
+    1.0
+  ],
+  "cell_type_all_zero_rows": 136,
+  "reference_levels": {
+    "broad": {
+      "zero_memberships": 136,
+      "one_membership": 1784,
+      "multiple_memberships": 0,
+      "positive_by_label": {
+        "LTHSC_broad": 323,
+        "LMPP_broad": 280,
+        "MPP_broad": 368,
+        "CMP_broad": 328,
+        "MEP_broad": 362,
+        "GMP_broad": 123
+      }
+    },
+    "fine": {
+      "zero_memberships": 612,
+      "one_membership": 1308,
+      "multiple_memberships": 0,
+      "positive_by_label": {
+        "LTHSC": 323,
+        "LMPP": 211,
+        "MPP": 259,
+        "CMP": 227,
+        "MEP": 232,
+        "GMP": 56
+      }
+    },
+    "broad_mpp": {
+      "zero_memberships": 1552,
+      "one_membership": 368,
+      "multiple_memberships": 0,
+      "positive_by_label": {
+        "MPP1_broad": 68,
+        "MPP2_broad": 28,
+        "MPP3_broad": 162,
+        "STHSC_broad": 110
+      }
+    },
+    "fine_mpp": {
+      "zero_memberships": 1773,
+      "one_membership": 147,
+      "multiple_memberships": 0,
+      "positive_by_label": {
+        "MPP1": 29,
+        "MPP2": 12,
+        "MPP3": 66,
+        "STHSC": 40
+      }
+    }
+  },
+  "hierarchy_checks": {
+    "LTHSC_outside_broad": 0,
+    "LMPP_outside_broad": 0,
+    "MPP_outside_broad": 0,
+    "CMP_outside_broad": 0,
+    "MEP_outside_broad": 0,
+    "GMP_outside_broad": 0,
+    "MPP1_outside_broad": 0,
+    "MPP2_outside_broad": 0,
+    "MPP3_outside_broad": 0,
+    "STHSC_outside_broad": 0,
+    "broad_mpp_outside_parent": 0,
+    "fine_mpp_outside_parent": 0
+  },
+  "projected_crosscheck": {
+    "cell.type": {
+      "missing_rows": 0,
+      "missing_projected": 0,
+      "missing_nonprojected": 0
+    },
+    "diffusion": {
+      "missing_rows": 421,
+      "missing_projected": 91,
+      "missing_nonprojected": 330
+    },
+    "FACS": {
+      "missing_rows": 430,
+      "missing_projected": 91,
+      "missing_nonprojected": 339
+    }
+  },
+  "geo": {
+    "sample_records": 3840,
+    "source_names_unique": 3840,
+    "rep_named_records": 1920,
+    "canonical_candidate_ids": 1920,
+    "canonical_ids_match_metadata_set": true,
+    "direct_name_matches": 1920,
+    "candidate_records_per_id": {
+      "2": 1920
+    },
+    "direct_gate_counts": {
+      "HSPC": 852,
+      "LT-HSC": 216,
+      "Prog": 852
+    },
+    "replicate_relationship": "UNRESOLVED: naming is not evidence of biological replication",
+    "publication_analyzed_cells": 1656,
+    "difference_from_metadata": 264,
+    "difference_resolution": "NOT_RESOLVED; do not infer exclusion from Projected or missing diffusion alone"
+  }
+}

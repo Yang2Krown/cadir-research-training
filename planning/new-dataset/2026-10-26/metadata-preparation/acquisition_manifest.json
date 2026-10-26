@@ -1,0 +1,93 @@
+{
+  "created_utc": "2026-10-26T06:34:14.059309+00:00",
+  "restored_branch": "plan/new-dataset-audit-20261026",
+  "restored_commit": "122fdbf2986f3791917197385f8d07ba0a75fce6",
+  "original_directory_missing": true,
+  "not_historical_recovery": true,
+  "formal_execution_permitted": false,
+  "artifacts": [
+    {
+      "path": "reacquired-20261026/GSE81682_HTSeq_counts.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE81nnn/GSE81682/suppl/GSE81682_HTSeq_counts.txt.gz",
+      "bytes": 30236635,
+      "sha256": "e12745e4087823ae868c6fe82a38510c15730e82ee74e1983def85ed3b7df68a",
+      "receipt": "reacquired-20261026/GSE81682_HTSeq_counts.txt.gz.json",
+      "provenance": "REACQUIRED_THIS_SESSION; not the missing prior original",
+      "content_access": "first sample-ID header line only; gene/count rows not parsed"
+    },
+    {
+      "path": "reacquired-20261026/coldata.rds",
+      "url": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/coldata.rds",
+      "bytes": 182319,
+      "sha256": "16d9e3ee62d27aac74591ccddd064eb2be9b86836591c8ec99d39e1af0bf35bc",
+      "receipt": "reacquired-20261026/coldata.rds.json",
+      "provenance": "REACQUIRED_THIS_SESSION; not the missing prior original",
+      "content_access": "metadata parsed with rdata 1.1.0"
+    },
+    {
+      "path": "reacquired-20261026/counts.rds",
+      "url": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/counts.rds",
+      "bytes": 90044893,
+      "sha256": "6bf8a84f4db185eb6021ceb53b7d6d33083410e02a6ee7a6df2191f0bbb90563",
+      "receipt": "reacquired-20261026/counts.rds.json",
+      "provenance": "REACQUIRED_THIS_SESSION; not the missing prior original",
+      "content_access": "download/hash only; not deserialized"
+    },
+    {
+      "path": "sources/GSE81682_family.soft.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE81nnn/GSE81682/soft/GSE81682_family.soft.gz",
+      "bytes": 139702,
+      "sha256": "470a0695852b13467091b5f97d4349236b9698ae145b7c31f2c378050ebe9c6a",
+      "provenance": "retrieved_this_session; manifest assembled after retrieval, not a historical receipt"
+    },
+    {
+      "path": "sources/NestorowaHSCData.R",
+      "url": "https://raw.githubusercontent.com/LTLA/scRNAseq/master/R/NestorowaHSCData.R",
+      "bytes": 2811,
+      "sha256": "2c84052f4d2a9a09e0e77d2d1aa9aa89d6532f1d81386fbeab3816373fc878c9",
+      "provenance": "retrieved_this_session; manifest assembled after retrieval, not a historical receipt"
+    },
+    {
+      "path": "sources/fixed-2023-12-19.Rmd",
+      "url": "https://raw.githubusercontent.com/LTLA/scRNAseq/c47ea394f4bbfe35f58909a91cffa617c072b552/scripts/nestorowa-hsc-2016/2023-12-19.Rmd",
+      "bytes": 7061,
+      "sha256": "1fd6ad50dcdac85fd7519712bc5d4b90a56f9ace74fdd8284821e0b5d69284f3",
+      "provenance": "retrieved_this_session; manifest assembled after retrieval, not a historical receipt"
+    },
+    {
+      "path": "sources/scRNAseq-master__R__NestorowaHSCData.R",
+      "url": "https://codeload.github.com/LTLA/scRNAseq/tar.gz/refs/heads/master (member scRNAseq-master/R/NestorowaHSCData.R)",
+      "bytes": 2811,
+      "sha256": "2c84052f4d2a9a09e0e77d2d1aa9aa89d6532f1d81386fbeab3816373fc878c9",
+      "provenance": "retrieved_this_session; manifest assembled after retrieval, not a historical receipt"
+    },
+    {
+      "path": "sources/scRNAseq-master__inst__extdata__2.0.0__metadata-nestorowa-hsc.csv",
+      "url": "https://codeload.github.com/LTLA/scRNAseq/tar.gz/refs/heads/master (member scRNAseq-master/inst/extdata/2.0.0/metadata-nestorowa-hsc.csv)",
+      "bytes": 973,
+      "sha256": "815c679e7d61414f2704ced246265d473c09cf763b81d7141bb0e28a480303e2",
+      "provenance": "retrieved_this_session; manifest assembled after retrieval, not a historical receipt"
+    },
+    {
+      "path": "sources/scRNAseq-master__man__NestorowaHSCData.Rd",
+      "url": "https://codeload.github.com/LTLA/scRNAseq/tar.gz/refs/heads/master (member scRNAseq-master/man/NestorowaHSCData.Rd)",
+      "bytes": 2122,
+      "sha256": "45e6c1ba03ab6c8cf68a68652128fefbfddc144e3db44f11d48a6d209d3d43f9",
+      "provenance": "retrieved_this_session; manifest assembled after retrieval, not a historical receipt"
+    },
+    {
+      "path": "sources/scRNAseq-master__scripts__nestorowa-hsc-2016__2023-12-19.Rmd",
+      "url": "https://codeload.github.com/LTLA/scRNAseq/tar.gz/refs/heads/master (member scRNAseq-master/scripts/nestorowa-hsc-2016/2023-12-19.Rmd)",
+      "bytes": 7061,
+      "sha256": "1fd6ad50dcdac85fd7519712bc5d4b90a56f9ace74fdd8284821e0b5d69284f3",
+      "provenance": "retrieved_this_session; manifest assembled after retrieval, not a historical receipt"
+    },
+    {
+      "path": "sources/scRNAseq-master__scripts__nestorowa-hsc-2016__2024-04-18.Rmd",
+      "url": "https://codeload.github.com/LTLA/scRNAseq/tar.gz/refs/heads/master (member scRNAseq-master/scripts/nestorowa-hsc-2016/2024-04-18.Rmd)",
+      "bytes": 2220,
+      "sha256": "dca99174854bdddccfabbb720bfcb1ccb62782d4224b442f9ad08761a2d16770",
+      "provenance": "retrieved_this_session; manifest assembled after retrieval, not a historical receipt"
+    }
+  ]
+}

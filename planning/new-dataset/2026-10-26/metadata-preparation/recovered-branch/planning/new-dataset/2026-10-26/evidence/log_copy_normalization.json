@@ -1,0 +1,6 @@
+{
+  "operation": "Only trailing whitespace and extra EOF blank lines stripped in Git log copies. Raw external files and their SHA remain preserved.",
+  "files": [
+    "baseline-api-check.log"
+  ]
+}
