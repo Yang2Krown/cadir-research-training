@@ -6,8 +6,8 @@
   },
   {
     "path": "project-control/AI使用与调度记录.md",
-    "bytes": 7228,
-    "sha256": "1d52e2f472edc7983cc1ebd7bbbb81915b8acb3b4356c72938cce0e0bfb83e23"
+    "bytes": 7752,
+    "sha256": "f58e24a138cc31b8e470ddc49d01bdc3aa092db755ed1eafb4c4ee82593144df"
   },
   {
     "path": "project-control/HSC扩展范围裁定-2026-10-26.md",
@@ -21,8 +21,8 @@
   },
   {
     "path": "project-control/README.md",
-    "bytes": 13223,
-    "sha256": "df19d420d2837376928c53a8b7d665ece6f849ed3651c6d3a45e2ba84c7fee99"
+    "bytes": 13643,
+    "sha256": "9e68d29fc26b9f1cf6545441e4c2890fb5ec5a962291254357a158b3879550c6"
   },
   {
     "path": "project-control/board-sync/b7ee233-状态变更.json",
@@ -51,8 +51,8 @@
   },
   {
     "path": "project-control/evidence/takeover-snapshot.json",
-    "bytes": 8054,
-    "sha256": "21d7c2f4af7276b157c032cf5f6fb81e5acf8f58d0b2f70e4541b6c424fc7a3e"
+    "bytes": 8675,
+    "sha256": "29a5fc530643fb8a671d7288759d0c258a3d32c38ba75381c5b6b1da8fd2a957"
   },
   {
     "path": "project-control/preparations/d853986/decision_register.tsv",
@@ -1330,9 +1330,19 @@
     "sha256": "64bfbfd9527c1a2cb15460d190e4ce8cf24097da40c7de533e33927ab1f9b6f7"
   },
   {
+    "path": "project-control/原环境独立复验启动Prompt-2026-10-26.txt",
+    "bytes": 2528,
+    "sha256": "bca410d7611d6ba8688403222ccd7e6c36084d15ebbcbb6a4497692443bb12c5"
+  },
+  {
     "path": "project-control/复现主线与新数据扩展说明.md",
     "bytes": 3202,
     "sha256": "36dfe9d59e3b38ecdd7a085100bad900b886318eab9b9ae30bb48849af00b0bd"
+  },
+  {
+    "path": "project-control/实验报告首案例初稿-2026-10-26.md",
+    "bytes": 8050,
+    "sha256": "82a23c679959ffb6f14a6690930d30636874a91f43883ac4cf5505efc2e42bdc"
   },
   {
     "path": "project-control/推进方案-历史创建命令恢复.txt",
@@ -1353,6 +1363,11 @@
     "path": "project-control/真实输入复跑阻塞结论-2026-10-26.md",
     "bytes": 2482,
     "sha256": "e54e1e7ba39856be9c42eb96a6de4963fe9f273f7a0c3908c7b74886cf0edfd1"
+  },
+  {
+    "path": "project-control/课程完成路线-2026-10-26.md",
+    "bytes": 6961,
+    "sha256": "55e55dd42ce2577ee6ae9c23baf79382c16c2b9eb90b807b6936c7ed138a5844"
   },
   {
     "path": "project-control/项目组织者交接Prompt-会话记录恢复.md",

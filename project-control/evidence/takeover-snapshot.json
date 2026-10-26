@@ -182,5 +182,17 @@
     "latest_raw_review_thread": "01a17613-eecc-7235-8766-4a67624c3027",
     "latest_raw_review": "project-control/reviews/b7ee233-real-input-20261026/独立复跑报告.md"
   },
-  "last_updated_at": "2026-10-26T19:30:36.347058+08:00"
+  "last_updated_at": "2026-10-26T19:43:30.759276+08:00",
+  "user_confirmed_execution_boundary": {
+    "reported_at": "2026-10-26 Asia/Shanghai",
+    "last_user_executed_result": "User says last result sent around 19:30; subsequent suggested prompts not executed",
+    "later_suggested_tasks_executed": false,
+    "switching_sessions_allowed": true,
+    "goal": "Complete the course with verified experiments and usable submission materials"
+  },
+  "course_completion_materials": [
+    "project-control/课程完成路线-2026-10-26.md",
+    "project-control/实验报告首案例初稿-2026-10-26.md",
+    "project-control/原环境独立复验启动Prompt-2026-10-26.txt"
+  ]
 }
