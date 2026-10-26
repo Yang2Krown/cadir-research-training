@@ -1,8 +1,13 @@
 [
   {
     "path": "project-control/AI使用与调度记录.md",
-    "bytes": 5998,
-    "sha256": "2390b4980f0124bd3549ed6c968ec7bb08235d4ee4f445103c500a1c117afa31"
+    "bytes": 6679,
+    "sha256": "773022b4e8d0fbeab9518092427389827d59cdc7ae632c58d547c8a5ca191180"
+  },
+  {
+    "path": "project-control/HSC扩展范围裁定-2026-10-26.md",
+    "bytes": 3532,
+    "sha256": "81062e7da29b1c3d79e9786525580b65a168f2323db923bd3c688b856000c3d9"
   },
   {
     "path": "project-control/R3补件清单.md",
@@ -11,8 +16,8 @@
   },
   {
     "path": "project-control/README.md",
-    "bytes": 10857,
-    "sha256": "569d8a6532c3843895e97e6431b1cc876ce743fad80ad2dd2383d843054798fa"
+    "bytes": 12072,
+    "sha256": "48573268a6748d8a16bfe3fe2b1c1e4ddc41f88613f8fc090c2e985107c4896f"
   },
   {
     "path": "project-control/evidence/R3-2026-10-26/intake.json",
@@ -31,8 +36,28 @@
   },
   {
     "path": "project-control/evidence/takeover-snapshot.json",
-    "bytes": 5487,
-    "sha256": "9b8f0257c6588ee496b750b34a8ec4f496e3a3899a085cea2e359a986981cadc"
+    "bytes": 6703,
+    "sha256": "1cb4d7ffdc496cbe497d582f46f2ad7284b61aabb17af76482e92bce1b31fa50"
+  },
+  {
+    "path": "project-control/preparations/d853986/decision_register.tsv",
+    "bytes": 2360,
+    "sha256": "b0149a5eefecde956ea381ad0b26819b8efbec0cfc0e969456b437113e6c9063"
+  },
+  {
+    "path": "project-control/preparations/d853986/input_label_plan.draft.json",
+    "bytes": 5555,
+    "sha256": "c10504b572a015e99cdb41dd4898967cf0a4c2eb598fd8780944fbab0a4ee2a9"
+  },
+  {
+    "path": "project-control/preparations/d853986/保全说明.md",
+    "bytes": 431,
+    "sha256": "8207fd3b7b223a7fddd35ae34b3c8790da70963852212caf5c23047fb1cefc61"
+  },
+  {
+    "path": "project-control/preparations/d853986/后续来源与待审决策.md",
+    "bytes": 10624,
+    "sha256": "7b852a212ae3816505f6e4df36f0a269cf351d0408e6c5984e1dc6a978ee2ee5"
   },
   {
     "path": "project-control/reviews/0acd73d/.gitattributes",
@@ -700,9 +725,84 @@
     "sha256": "67aacd8c03d322d563afb281a9d3e19986254629db233d32c984470648c753c8"
   },
   {
+    "path": "project-control/reviews/d853986/.gitattributes",
+    "bytes": 59,
+    "sha256": "47ea317d53146ac16ef76c4a47f81fc62cde346393c0fd4e4af967a35be71e17"
+  },
+  {
+    "path": "project-control/reviews/d853986/decisions.tsv",
+    "bytes": 2360,
+    "sha256": "fbe20bb32d086e1f0f571f03d26fe0d0bc9debc1ecd2ff893efae4b036b5d731"
+  },
+  {
+    "path": "project-control/reviews/d853986/evidence_index.json",
+    "bytes": 2941,
+    "sha256": "759183bad43b3dead79f31e201452f370354ed27c3ca35ca42b947a542e930ae"
+  },
+  {
+    "path": "project-control/reviews/d853986/geo_recalculation.json",
+    "bytes": 149503,
+    "sha256": "be102da18248b79756870d992dff969f9dde48d0d4b837a528d8e3236899db3a"
+  },
+  {
+    "path": "project-control/reviews/d853986/independent_builder_receipt.json",
+    "bytes": 558,
+    "sha256": "6c22188f77463e7b7a4e68c3c34d7b8702d2fbc4de3c4aeb4716f93b49e89e9f"
+  },
+  {
+    "path": "project-control/reviews/d853986/independent_checks.py",
+    "bytes": 12975,
+    "sha256": "7dac234a9d0e60980871813128e27b391c7ba10e21351c9aa3337cbe90a392ef"
+  },
+  {
+    "path": "project-control/reviews/d853986/independently_fetched_legacy_builder.Rmd",
+    "bytes": 2801,
+    "sha256": "d695cdc7c214abbd461207b6698bd493a8ce687ef13b5f3565b73e91e233d352"
+  },
+  {
+    "path": "project-control/reviews/d853986/integrity.json",
+    "bytes": 13869,
+    "sha256": "22006fca2b30e7d4b8f43ec055a09eade81a230238a2108c13716f743e1a3294"
+  },
+  {
+    "path": "project-control/reviews/d853986/metadata_recalculation.json",
+    "bytes": 2447,
+    "sha256": "75153316215ce0df3a83972d1548cf30cad16746358f6a2a8ad657ebd56bff0d"
+  },
+  {
+    "path": "project-control/reviews/d853986/review_run.json",
+    "bytes": 425,
+    "sha256": "918959b4c2e968a2bb8f474bdceb808584898c2fabf0b897fb9bdd87d7eae737"
+  },
+  {
+    "path": "project-control/reviews/d853986/review_sha256.tsv",
+    "bytes": 954,
+    "sha256": "08f51c2f0e87f65ad8d65c52681de22688fce486b26b8a4ae1bd3af5aac56128"
+  },
+  {
+    "path": "project-control/reviews/d853986/static_review.json",
+    "bytes": 3270,
+    "sha256": "8a06d8348c2a70c7233bdb96fc6377a35ffc682c39ab533c1e1e038a797095de"
+  },
+  {
+    "path": "project-control/reviews/d853986/保全说明.md",
+    "bytes": 355,
+    "sha256": "f8bf752985750a85ad2b2f6971ee1a58022592a67318ea75b951a89b85078110"
+  },
+  {
+    "path": "project-control/reviews/d853986/独立审查报告.md",
+    "bytes": 10315,
+    "sha256": "a64199b6e0e47fe3cb21bebac28a96b71ce1677ec08c6a38eef78dd5d6d9d3a7"
+  },
+  {
     "path": "project-control/下一阶段启动与验收规则.md",
     "bytes": 4188,
     "sha256": "64bfbfd9527c1a2cb15460d190e4ce8cf24097da40c7de533e33927ab1f9b6f7"
+  },
+  {
+    "path": "project-control/复现主线与新数据扩展说明.md",
+    "bytes": 3181,
+    "sha256": "dd89a84917996df6b181ed96d66124cef00f5c0ea2e4b4862ebdec96732fcc17"
   },
   {
     "path": "project-control/推进方案-历史创建命令恢复.txt",

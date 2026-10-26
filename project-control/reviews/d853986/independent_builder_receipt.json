@@ -1,0 +1,10 @@
+{
+  "url": "https://raw.githubusercontent.com/drisso/scRNAseq/adb9cd957e3a0a8f7f504ebe514e653cfe4b52ef/inst/scripts/2.0.0/make-nestorowa-hsc-data.Rmd",
+  "started_utc": "2026-10-26T07:27:26.813740+00:00",
+  "inherited_proxy_and_TLS_preserved": true,
+  "status": 200,
+  "final_url": "https://raw.githubusercontent.com/drisso/scRNAseq/adb9cd957e3a0a8f7f504ebe514e653cfe4b52ef/inst/scripts/2.0.0/make-nestorowa-hsc-data.Rmd",
+  "bytes": 2801,
+  "sha256": "d695cdc7c214abbd461207b6698bd493a8ce687ef13b5f3565b73e91e233d352",
+  "matches_committed_builder": true
+}

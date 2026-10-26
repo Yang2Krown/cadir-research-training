@@ -1,0 +1,12 @@
+id	classification	status	issue	closure_or_decision_needed	current_constraint
+A01	MUST_RESOLVE	OPEN	Real count/gene-ID/QC provenance and legality	Later separately authorized input audit; real lock; no inferred numeric result	No count access now
+A02	MUST_RESOLVE_AND_REVIEW	OPEN	1656/1920 IDs and 28-cell correction/version	Author ID exclusions plus revision chain; otherwise explicit scope amendment and independent decision	E01,E02 do not close it
+A03	MUST_RESOLVE	TODO_STATIC_FINDING	audit_inputs.R NULL top-level rownames incompatibility	Identity extraction from nested explicit IDs; stop on missing/duplicate/conflict; no positional filling	No patch or R execution this turn
+A04	MUST_RESOLVE_AND_REVIEW	OPEN	Original FACS/DC source coverage and NA provenance	Original source ID matching or explicit adjudication of published-label-only scope	E02 overwrites matched flow row names
+C01	INDEPENDENT_REVIEW	PENDING	Six broad reference classes, conflicts and missing policy	Written choice before any clustering; approve DRAFT mapping or require evidence	1784 assigned/136 missing; no final QC cohort
+C02	INDEPENDENT_REVIEW_WITH_POSSIBLE_LIMITATION	PENDING	Rep and donor/batch/condition relationships	Evidence if needed for inference; otherwise explicitly approve descriptive single-study-only scope	No biological replicate claims
+C03	INDEPENDENT_REVIEW_WITH_POSSIBLE_LIMITATION	PENDING	Exact gate/antibody/transformation definitions	Required for re-gating; for published labels require explicit evidence-sufficiency decision	No re-gating or intensity analysis
+C04	INDEPENDENT_REVIEW	PENDING	CAdir S1 novelty coverage	Official S1 read or original-process explicit adjudication	Code search negative is insufficient
+B01	DISCLOSE_LIMITATION	TO_DISCLOSE_IF_SCOPE_APPROVED	Phenotype vs functional truth and reference coverage bias	Report total/evaluated/excluded denominators and reasons without functional validation claim	Does not waive A/C gates
+B02	DISCLOSE_LIMITATION	TO_DISCLOSE_IF_SCOPE_APPROVED	Sorting/single-study scope and Python reader limits	Disclose provenance and recommend independent metadata validation	No cross-donor generalization
+C05	INDEPENDENT_REVIEW	PENDING	Formal implementation and execution admission	Original input/label/code/environment locks plus required independent approval and execution authorization	formal_execution_permitted=false

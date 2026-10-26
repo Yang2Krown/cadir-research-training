@@ -93,6 +93,14 @@
       "kind": "internal_subagent_followup",
       "state": "completed_preparation_self_consistent_formal_stage_blocked",
       "commit": "122fdbf2986f3791917197385f8d07ba0a75fce6"
+    },
+    {
+      "task": "/root/hsc_preparation_review",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "kind": "internal_subagent",
+      "state": "completed_preparation_acceptance_formal_admission_rejected",
+      "reviewed_commit": "d853986e2e3a1cabc9f3f728f616e402432257ec"
     }
   ],
   "final_stage": {
@@ -121,24 +129,34 @@
   },
   "last_updated": "2026-10-26 Asia/Shanghai",
   "next_stage": {
-    "state": "PREPARATION_ACCEPTED_FORMAL_DATA_AND_DESIGN_BLOCKED",
+    "state": "METADATA_PREPARATION_ACCEPTED_FORMAL_INPUT_AND_DESIGN_BLOCKED",
     "source_audit_commit": "7bf4a460e1c59b53f9dc71faa53bca562129b765",
     "prepared_commit": "122fdbf2986f3791917197385f8d07ba0a75fce6",
     "draft_pr": "https://github.com/Yang2Krown/cadir-research-training/pull/3",
     "independent_report_sha256": "adf8e37cf20b04e3ac3003e7eb37ae958120c120b5c18ea871c6461698ddf83f",
-    "real_data_acquired": false,
+    "real_data_acquired": true,
     "formal_experiments_run": false,
     "formal_experiment_released": false,
-    "minimum_extra_hosts": [
-      "mghp.osn.xsede.org",
-      "ftp.ncbi.nlm.nih.gov"
-    ],
     "network_configuration_write_tool_available": false,
     "other_gates": [
       "real input and version/QC/ID lock",
       "exclusive reference-label mapping",
       "official S1 or independent coverage ruling",
       "formal runner and independent design release"
-    ]
-  }
+    ],
+    "real_data_location_scope": "Reported actual HTTP200 downloads in data sessions; raw objects not independently accessed by this controller review",
+    "metadata_preparation_branch": "prep/nestorowa-metadata-20261026",
+    "metadata_preparation_commit": "d853986e2e3a1cabc9f3f728f616e402432257ec",
+    "metadata_independent_review": "project-control/reviews/d853986/独立审查报告.md",
+    "metadata_independent_report_sha256": "a64199b6e0e47fe3cb21bebac28a96b71ce1677ec08c6a38eef78dd5d6d9d3a7",
+    "real_count_values_audited": false,
+    "scope_decision": "project-control/HSC扩展范围裁定-2026-10-26.md",
+    "next_action": "A03 explicit nested-ID audit repair and actual-input legality/QC/lock; C04 novelty evidence; independent design release before experiments",
+    "historical_extra_hosts_required_before_acquisition": [
+      "mghp.osn.xsede.org",
+      "ftp.ncbi.nlm.nih.gov"
+    ],
+    "minimum_extra_hosts": []
+  },
+  "last_updated_at": "2026-10-26 15:35（Asia/Shanghai）"
 }
