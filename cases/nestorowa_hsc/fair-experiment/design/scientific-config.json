@@ -156,7 +156,10 @@
       "ncomponents": 30,
       "center": true,
       "scale": false,
-      "BSPARAM": "BiocSingular::IrlbaParam(deferred=FALSE, fold=Inf, extra.work=7, tol=1e-5, maxit=1000)"
+      "BSPARAM": "BiocSingular::IrlbaParam(deferred=FALSE, fold=Inf, extra.work=7, tol=1e-5, maxit=1000)",
+      "ntop": "Inf",
+      "subset_row": "seq_len(nrow(shared_HVG_input))",
+      "API_note": "scater::calculatePCA defaults ntop=500. Explicit ntop=Inf and all input rows prevent second feature selection. center=TRUE is BiocSingular default; scater calculatePCA does not accept an explicit center argument."
     },
     "SNN": {
       "function": "scran::buildSNNGraph",
