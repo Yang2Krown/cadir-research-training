@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-10-26T19:47:20.140183+08:00",
+  "control_commit": "7419c31d0a5cd56900a166a682e74572389ef57e",
+  "review_target": "b7ee2335dc25ffab3a60d1feab44272d6d5a45cb",
+  "documents": [
+    {
+      "git_path": "project-control/原环境独立复验启动Prompt-2026-10-26.txt",
+      "copy": "/workspace/hsc-independent-preflight-20261026/原环境独立复验启动Prompt-2026-10-26.txt",
+      "sha256": "bca410d7611d6ba8688403222ccd7e6c36084d15ebbcbb6a4497692443bb12c5"
+    },
+    {
+      "git_path": "project-control/课程完成路线-2026-10-26.md",
+      "copy": "/workspace/hsc-independent-preflight-20261026/课程完成路线-2026-10-26.md",
+      "sha256": "55e55dd42ce2577ee6ae9c23baf79382c16c2b9eb90b807b6936c7ed138a5844"
+    },
+    {
+      "git_path": "project-control/独立真实输入复跑任务-b7ee233.md",
+      "copy": "/workspace/hsc-independent-preflight-20261026/独立真实输入复跑任务-b7ee233.md",
+      "sha256": "3f6fee3a0bc228ada5668826a31d213d97aaf7386e68c68f209d7b02570b55cd"
+    }
+  ],
+  "files": [
+    {
+      "path": "/workspace/nestorowa-metadata-preparation/reacquired-20261026/GSE81682_HTSeq_counts.txt.gz",
+      "resolved_path": "/workspace/nestorowa-metadata-preparation/reacquired-20261026/GSE81682_HTSeq_counts.txt.gz",
+      "bytes": 30236635,
+      "sha256": "e12745e4087823ae868c6fe82a38510c15730e82ee74e1983def85ed3b7df68a",
+      "receipt_match": true
+    },
+    {
+      "path": "/workspace/nestorowa-metadata-preparation/reacquired-20261026/coldata.rds",
+      "resolved_path": "/workspace/nestorowa-metadata-preparation/reacquired-20261026/coldata.rds",
+      "bytes": 182319,
+      "sha256": "16d9e3ee62d27aac74591ccddd064eb2be9b86836591c8ec99d39e1af0bf35bc",
+      "receipt_match": true
+    },
+    {
+      "path": "/workspace/nestorowa-metadata-preparation/reacquired-20261026/counts.rds",
+      "resolved_path": "/workspace/nestorowa-metadata-preparation/reacquired-20261026/counts.rds",
+      "bytes": 90044893,
+      "sha256": "6bf8a84f4db185eb6021ceb53b7d6d33083410e02a6ee7a6df2191f0bbb90563",
+      "receipt_match": true
+    }
+  ],
+  "R_library_exists": true,
+  "formal_execution_permitted": false,
+  "coordinator_check_only_not_independent_verdict": true
+}

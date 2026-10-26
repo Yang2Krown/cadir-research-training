@@ -1,0 +1,4 @@
+Error in checkSlotAssignment(object, name, value) : 
+  ‘listData’ is not a slot in class “DataFrame”
+Calls: record ... mutate -> setfield -> slot<- -> checkSlotAssignment
+Execution halted

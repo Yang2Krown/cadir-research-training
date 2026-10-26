@@ -1,0 +1,26 @@
+{
+  "attempt_01": {
+    "independent_oracle": {
+      "exit_code": 0,
+      "result": "real RDS and entire GEO compared successfully; do not repeat"
+    },
+    "real_metadata_negatives": {
+      "exit_code": 1,
+      "classification": "review harness mutation API error",
+      "error": "listData is not a slot in class DataFrame on slot<-",
+      "minimum_fix": "assign serialized listData raw attribute in memory clone, preserving original class and sentinel"
+    },
+    "original_metadata_only_and_full": {
+      "exit_codes": [
+        2,
+        2
+      ],
+      "classification": "review runner log filename collision before original execution",
+      "error": "Attempt path exists; use a fresh path",
+      "minimum_fix": "separate outer launcher log names from original wrapper output names"
+    }
+  },
+  "attempt_02": "new followup runner and v2 negative script; old outputs and old scripts retained unchanged; only three incomplete stages repeated",
+  "reviewed_source_changed": false,
+  "failures_hidden_or_overwritten": false
+}

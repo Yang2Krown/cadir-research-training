@@ -1,0 +1,24 @@
+{
+  "class": "dgCMatrix",
+  "dimensions": [46175, 1920],
+  "direction": "genes_by_cells",
+  "direction_evidence": "all GEO gene IDs match rows; all GEO cell IDs match columns and explicit metadata identities",
+  "stored_values": 22595902,
+  "logical_values": 88656000,
+  "invalid": {
+    "nonfinite": 0,
+    "negative": 0,
+    "fractional": 0
+  },
+  "implicit_zeros": 66060098,
+  "ensembl": 46078,
+  "ERCC": 92,
+  "htseq": 5,
+  "metadata_order_same": true,
+  "GEO_gene_order_same": true,
+  "GEO_cell_order_same": true,
+  "GEO_stream_blocks": 722,
+  "values_compared": 88656000,
+  "numeric_differences": 0,
+  "GEO_invalid_values": 0
+}

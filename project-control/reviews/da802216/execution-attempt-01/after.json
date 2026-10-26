@@ -1,0 +1,33 @@
+{
+  "inputs": {
+    "counts.rds": {
+      "bytes": 90044893,
+      "sha256": "6bf8a84f4db185eb6021ceb53b7d6d33083410e02a6ee7a6df2191f0bbb90563"
+    },
+    "coldata.rds": {
+      "bytes": 182319,
+      "sha256": "16d9e3ee62d27aac74591ccddd064eb2be9b86836591c8ec99d39e1af0bf35bc"
+    },
+    "GSE81682_HTSeq_counts.txt.gz": {
+      "bytes": 30236635,
+      "sha256": "e12745e4087823ae868c6fe82a38510c15730e82ee74e1983def85ed3b7df68a"
+    }
+  },
+  "sources": {
+    "cases/nestorowa_hsc/scripts/verify_a03_evidence.py": "863ff1e16d52e40fc35fb013890b917f629d4d6761a6bbdc0890819109dd488e",
+    "cases/nestorowa_hsc/scripts/run-r.sh": "9cb09db9ac23dad426160a4e4ac5f27188bbbcd533ef960eef93392d9e34d671",
+    "cases/nestorowa_hsc/scripts/run_input_audit.py": "5c8e15aa5257acdf60dc1c5625af0aab99a29d16631f007e6930855846d53a3b",
+    "cases/nestorowa_hsc/scripts/inspect_legacy_rownames.R": "9d99b92ad38d2962d2c7aeaff131091a7e2fa883713c8dba12adaec4251e6704",
+    "cases/nestorowa_hsc/scripts/acquire_hub.py": "b6845acfae2510cb87161ec9e19cef566b103545f2d1c4b9070b731f7fa404fa",
+    "cases/nestorowa_hsc/scripts/test_metadata_identity.R": "5ff1aca1e931dbbe3dbecc647cd71723d07fb6383fad20aaea1033bf670deb32",
+    "cases/nestorowa_hsc/scripts/check_protocol.py": "892bcf8ff009262616029af0266cc5b5ffb8a26c85a40d3e7ec95535113dad2c",
+    "cases/nestorowa_hsc/scripts/metadata_identity.R": "aada661c76bd5d9fd5084c53572b958055d48b8e1466b6610f2de3c35cee58f5",
+    "cases/nestorowa_hsc/scripts/fetch_public.py": "465aa81885fe3eb0967c21a01ff6fbd85ecd48db03e8d7f0656c6cb72efb2cf1",
+    "cases/nestorowa_hsc/scripts/audit_inputs.R": "63d5c3d419b34645227178bc1daaf8da04a113f13ec11c04427f709c1fef9f92",
+    "project-control/reviews/b7ee233-real-input-20261026/scripts/independent_real_input.R": "1b966684db10f1bbe0d76c760e44d290fb667eaf8e93c7edacd8bc417dff1720",
+    "project-control/reviews/b7ee233-real-input-20261026/scripts/compare_evidence.py": "edf9cb96419d73a89394b5887870549517093b560ad546bc0103a873f1738286",
+    "project-control/reviews/b7ee233-real-input-20261026/scripts/real_metadata_negatives.R": "45b6d3be8f194dcbc9e30f7117d751b0958ec465476a844d1215375a79085fb7",
+    "project-control/reviews/b7ee233-real-input-20261026/scripts/run_review.py": "6ade54ad6ae96243b0f766143285a02fc39e2ecfcc4c4d1e480a03a41a25ebe6",
+    "project-control/reviews/b7ee233-real-input-20261026/scripts/direct_geo_lexical_check.py": "8378737dd1cce18b9593e021e7917aa8a276008b01a3f117b1493257ac233cf7"
+  }
+}
