@@ -1,0 +1,70 @@
+{
+  "source": "publication/external_resources.json at frozen 756c8d16ae22fe671f7b715a696c8272523e08ed",
+  "original_objects_read": false,
+  "freshly_generated_objects_compared_to_committed_hashes": [
+    {
+      "run": 1,
+      "file": "ca.rds",
+      "committed_sha256": "e769376f42f5fc0eada10cc194c4b00101816bd80b7e6d23a01d0d44a472992f",
+      "fresh_sha256": "e769376f42f5fc0eada10cc194c4b00101816bd80b7e6d23a01d0d44a472992f",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "run": 1,
+      "file": "cadir.rds",
+      "committed_sha256": "126a197ba5b47dae676f18a2398833d80d5f459cba97b53554cd1ec07cf67a33",
+      "fresh_sha256": "126a197ba5b47dae676f18a2398833d80d5f459cba97b53554cd1ec07cf67a33",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "run": 1,
+      "file": "cadir_annotated.rds",
+      "committed_sha256": "0803c2b9dae0f72be8d16aae3fc62dbcd7bedc8498b40777f5e8a15547caa244",
+      "fresh_sha256": "0803c2b9dae0f72be8d16aae3fc62dbcd7bedc8498b40777f5e8a15547caa244",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "run": 1,
+      "file": "cadir_unranked.rds",
+      "committed_sha256": "a65d07a24970dd2cbd7c47539cfea119ba438a9f8c04c91192260ec574d79b1d",
+      "fresh_sha256": "a65d07a24970dd2cbd7c47539cfea119ba438a9f8c04c91192260ec574d79b1d",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "run": 2,
+      "file": "ca.rds",
+      "committed_sha256": "e769376f42f5fc0eada10cc194c4b00101816bd80b7e6d23a01d0d44a472992f",
+      "fresh_sha256": "e769376f42f5fc0eada10cc194c4b00101816bd80b7e6d23a01d0d44a472992f",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "run": 2,
+      "file": "cadir.rds",
+      "committed_sha256": "126a197ba5b47dae676f18a2398833d80d5f459cba97b53554cd1ec07cf67a33",
+      "fresh_sha256": "126a197ba5b47dae676f18a2398833d80d5f459cba97b53554cd1ec07cf67a33",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "run": 2,
+      "file": "cadir_annotated.rds",
+      "committed_sha256": "0803c2b9dae0f72be8d16aae3fc62dbcd7bedc8498b40777f5e8a15547caa244",
+      "fresh_sha256": "0803c2b9dae0f72be8d16aae3fc62dbcd7bedc8498b40777f5e8a15547caa244",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "run": 2,
+      "file": "cadir_unranked.rds",
+      "committed_sha256": "a65d07a24970dd2cbd7c47539cfea119ba438a9f8c04c91192260ec574d79b1d",
+      "fresh_sha256": "a65d07a24970dd2cbd7c47539cfea119ba438a9f8c04c91192260ec574d79b1d",
+      "bytes_match": true,
+      "sha256_match": true
+    }
+  ]
+}

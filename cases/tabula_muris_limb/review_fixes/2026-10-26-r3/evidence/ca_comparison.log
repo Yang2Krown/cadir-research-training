@@ -1,0 +1,41 @@
+$baseline_path
+[1] "/workspace/cadir-stage1-fix-evidence/fresh-run-1/case-wq48i9bp/ca.rds"
+
+$reviewed_path
+[1] "/workspace/cadir-r3-evidence-20261026/ca.rds"
+
+$gene_ids_order_identical
+[1] TRUE
+
+$cell_ids_order_identical
+[1] TRUE
+
+$dimensions
+[1] 1882   30
+
+$singular_value_max_error
+[1] 6.661338e-16
+
+$sign_vector
+ Dim1  Dim2  Dim3  Dim4  Dim5  Dim6  Dim7  Dim8  Dim9 Dim10 Dim11 Dim12 Dim13
+    1     1     1     1     1     1    -1     1     1    -1    -1     1     1
+Dim14 Dim15 Dim16 Dim17 Dim18 Dim19 Dim20 Dim21 Dim22 Dim23 Dim24 Dim25 Dim26
+    1    -1     1    -1    -1     1     1    -1    -1     1     1     1     1
+Dim27 Dim28 Dim29 Dim30
+    1     1     1     1
+
+$flipped_axes
+ Dim7 Dim10 Dim11 Dim15 Dim17 Dim18 Dim21 Dim22
+    7    10    11    15    17    18    21    22
+
+$max_cell_error_after_sign_alignment
+[1] 9.048873e-13
+
+$max_gene_error_after_sign_alignment
+[1] 2.910117e-12
+
+$maximum_rotation_off_diagonal
+[1] 6.21868e-13
+
+$maximum_rotation_difference_from_sign_matrix
+[1] 6.21868e-13

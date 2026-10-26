@@ -1,0 +1,15 @@
+{
+  "run_a": "/workspace/cadir-stage1-fix-evidence/fresh-run-1/case-wq48i9bp",
+  "run_b": "/workspace/cadir-stage1-fix-evidence/fresh-run-2/case-llhgd_58",
+  "alpha_a": 1.07506446203775,
+  "alpha_b": 1.07506446203775,
+  "alpha_absolute_difference": 0,
+  "all_1200_gene_cluster_pairs_identical": true,
+  "maximum_score_absolute_difference": 0,
+  "all_scores_within_1e_10": true,
+  "all_ranks_identical": true,
+  "rank_changes": 0,
+  "cell_principal_coordinates_maximum_difference": 0,
+  "gene_principal_coordinates_maximum_difference": 0,
+  "scope": "Two fresh runs in the preserved current runtime; historical alpha discrepancy is unresolved."
+}

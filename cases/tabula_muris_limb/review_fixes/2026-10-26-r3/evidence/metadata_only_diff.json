@@ -1,0 +1,9 @@
+{
+  "parent_commit": "0acd73d23b46f7bf84ab2571dc9722b3d2f10d0b",
+  "file": "cases/tabula_muris_limb/scripts/pipeline.R",
+  "only_change_is_exact_metadata_replacement": true,
+  "old": "historical_ranking_equivalence = \"not_established; original CA/unranked objects unavailable\"",
+  "new": "ranking_scope = \"Scores and ranks use this run's stored CA basis, RNG state, alpha and installed functions.\"",
+  "parent_sha256": "b5eb8879cc9dd662070ee39f311bf0ffee0f8145f13f4ff423fdc8f557769f5f",
+  "current_sha256": "454806f404dad3d20686713ae9a371bcc5e1871910c09a74b02103b06cf8936d"
+}

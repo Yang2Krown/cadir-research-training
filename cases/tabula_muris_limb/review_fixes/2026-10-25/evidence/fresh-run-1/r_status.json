@@ -1,0 +1,8 @@
+{
+  "status": "SINGLE_CASE_COMPLETE_WITH_DOCUMENTED_DIFFERENCES",
+  "data_audit": "PASS",
+  "single_case": "PASS",
+  "paper_reproduction": "not_established",
+  "annotation": "COMPLETE_PREDICTED_ONLY",
+  "r_peak_rss_KiB_linux": 2278624
+}

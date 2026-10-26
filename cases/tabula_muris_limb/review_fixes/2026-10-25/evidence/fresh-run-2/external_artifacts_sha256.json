@@ -1,0 +1,241 @@
+{
+  "directory": "/workspace/cadir-stage1-fix-evidence/fresh-run-2/case-llhgd_58",
+  "files": {
+    "metrics.json": {
+      "bytes": 334,
+      "sha256": "b1624836f37038fe399fa78bda33abaa415fdb37565f04dbbad72dcff202b5a8"
+    },
+    "cluster_sizes.tsv": {
+      "bytes": 164,
+      "sha256": "e2dc11c9b91ce0154459e141241597595f1d793e575d4df7e663da49009904f7"
+    },
+    "sessionInfo.txt": {
+      "bytes": 5759,
+      "sha256": "4ba38a5b40d5f921675735ad5f1cbbac00731d09506e1ad704455557e91543de"
+    },
+    "gene_clusters.tsv": {
+      "bytes": 81174,
+      "sha256": "b5f433723a2035c15fde1913c245546887199dae455f80196d9660235db71a21"
+    },
+    "metadata.txt": {
+      "bytes": 3166,
+      "sha256": "1cf5fd800b927ed4f4445b093a31333fba3f13482a9448ecb176241600fb421c"
+    },
+    "required_version_check.tsv": {
+      "bytes": 254,
+      "sha256": "51e100ba02cbedf1200045954199b4f4b1a7ee16cc05fce192bfba65ccbe4ba5"
+    },
+    "data_audit.json": {
+      "bytes": 2273,
+      "sha256": "0574fc7abfb4ea1adf1647f8ca46c0be9aeac44c06f0aba8c1e92a40dccb19bb"
+    },
+    "paper_differences.txt": {
+      "bytes": 424,
+      "sha256": "e4af5b37322922500179cd8b16a5a4f5dc0a1c349cd90bde4b44347010b6dec3"
+    },
+    "audit_rss_samples_KiB.txt": {
+      "bytes": 480,
+      "sha256": "3adecc3d65358501c4a15c3f382c79aa1ac9d00ed33c05b247924b023d73b795"
+    },
+    "cadir_annotated.rds": {
+      "bytes": 21845082,
+      "sha256": "0803c2b9dae0f72be8d16aae3fc62dbcd7bedc8498b40777f5e8a15547caa244"
+    },
+    "ca_gene_coordinates.tsv": {
+      "bytes": 3473226,
+      "sha256": "151e1d267cadc2885c74bd68ee0fd19f551bd19870ea5198d177625253b8ad47"
+    },
+    "console.log": {
+      "bytes": 329,
+      "sha256": "62af15fd0e2588ffb4d3e4011d861206494019842810611683a8ad7e9f67a222"
+    },
+    "input_integrity.json": {
+      "bytes": 179,
+      "sha256": "3999ab885eb6b24e6208b3936426b1564e80d583af08b8516bac21b83b70c4f1"
+    },
+    "r_status.json": {
+      "bytes": 237,
+      "sha256": "6c7de521f0247c4445f4eac805e6e0399ee1327a67baeb1d816a32fc3729a02d"
+    },
+    "exports_ranking_plots_sampler.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "CA_rss_samples_KiB.txt": {
+      "bytes": 1056,
+      "sha256": "554706ba08474e7ac4830ca09b564a88be5c884d80cac5c9b1f74f78b9db1b24"
+    },
+    "cadir.rds": {
+      "bytes": 21844811,
+      "sha256": "126a197ba5b47dae676f18a2398833d80d5f459cba97b53554cd1ec07cf67a33"
+    },
+    "verification.log": {
+      "bytes": 418,
+      "sha256": "16a6f4245d0202b4356c943371c13ea52b33c8870decf60deab06a6256df3bd5"
+    },
+    "annotation_sampler.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "audit_sampler.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "annotation_cellmarker_mouse.tsv": {
+      "bytes": 1003010,
+      "sha256": "2d458c7de4df20b02efb3e81f390d34985aff6b17cf7879ddd5e6228c8158333"
+    },
+    "modelGeneVar_sampler.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "hvg_genes.tsv": {
+      "bytes": 52364,
+      "sha256": "a9ac1b09f77e24dda2c20d65251f8fde27ce8bde579327498fdac3106b8815f3"
+    },
+    "object_structure.txt": {
+      "bytes": 798,
+      "sha256": "e00d9718506e0dd1f4969756f88f521b4c6e0a693b83388d8b2f6d76304bcf91"
+    },
+    "cluster_reference_contingency.tsv": {
+      "bytes": 1932,
+      "sha256": "338895a43ffd4b838eac6b09976bb44c29f0015dc19e962c72e355c1b26137c0"
+    },
+    "installed_packages.tsv": {
+      "bytes": 9202,
+      "sha256": "a87be7e7a7e94b27b9eceaef49b99e635a72790dc1569cb4dffef3ab97845b76"
+    },
+    "ranking_provenance.json": {
+      "bytes": 1510,
+      "sha256": "8ee650ba1d25afa30be39e9d7677dc2ce682570debd5e99489731c87aedbe68a"
+    },
+    "cell_metadata.tsv": {
+      "bytes": 614792,
+      "sha256": "0a0f5cbbcaeb5c35ce409f61d9446c8ee9c6d594bfe8f59962d05579d1ce6a3d"
+    },
+    "selected_genes.tsv": {
+      "bytes": 52364,
+      "sha256": "a9ac1b09f77e24dda2c20d65251f8fde27ce8bde579327498fdac3106b8815f3"
+    },
+    "readRDS_rss_samples_KiB.txt": {
+      "bytes": 246,
+      "sha256": "0a1e677b480b50b6c89517ee7a33bdd0d6ade691d92251d8dbb9e13083e3b4eb"
+    },
+    "exports_ranking_plots_rss_samples_KiB.txt": {
+      "bytes": 968,
+      "sha256": "e69fe7c76b0688b23162a2f1abecbb179708873bb453b99d3cea3a9d96b37fef"
+    },
+    "readRDS_sampler.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "gene_variance.tsv": {
+      "bytes": 1523966,
+      "sha256": "4ed0021dcf434fc7f03829d0a30e89483c5b6f718a619aee975d8dd0e8675d89"
+    },
+    "association_plots.pdf": {
+      "bytes": 2318514,
+      "sha256": "f5c986ef28ec72f293fa171f713761e756091495305dad41715e1389d18bdda4"
+    },
+    "CAdir_rss_samples_KiB.txt": {
+      "bytes": 648,
+      "sha256": "128c3b95534c106734d9a461a252bb981f02cfe4fe60f00a65af9e8ed0d296d7"
+    },
+    "CA_sampler.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "CAdir_sampler.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "association_plots.png": {
+      "bytes": 626290,
+      "sha256": "02fd90048d4d349887707877b1541566bc9b6ab66958cfe3085908b64df3bb80"
+    },
+    "rng_stages.json": {
+      "bytes": 64426,
+      "sha256": "187afc9a428511bd8e2585869fa861ad554ef20068241c7194c0a6a3f89cb8c1"
+    },
+    "annotation_rss_samples_KiB.txt": {
+      "bytes": 208,
+      "sha256": "bb320cc8fcf6a17c06f02200fe85211be7d0a55245b3fceaedf9967a81aae842"
+    },
+    "split_merge_cluster_history.tsv": {
+      "bytes": 320154,
+      "sha256": "bd3270411b4d3038fc03440dc196020bf4cd9533752e9e790819d6e3d97549dc"
+    },
+    "ca_clusters.png": {
+      "bytes": 94760,
+      "sha256": "8892f9e211232857fbfd3dda04f53080d0abef25eaa4d2bffa2c5f6379e8346b"
+    },
+    "gene_metadata.tsv": {
+      "bytes": 545928,
+      "sha256": "5b8730a3359d69af09a339ddd19f06e2c9c9baecbb0f614c6ed1affe8954fb50"
+    },
+    "modelGeneVar_rss_samples_KiB.txt": {
+      "bytes": 56,
+      "sha256": "7497b7d8f14ea1d2c69dc4bfe9615c25cb48f8cf0a0188d0d27a7e9f5089575d"
+    },
+    "runtime_config.json": {
+      "bytes": 1244,
+      "sha256": "6d998fff56efcde1ef02df1778ecf437de19b6ad50fe1516b5672f881648822f"
+    },
+    "effective_cadir_parameters.txt": {
+      "bytes": 640,
+      "sha256": "664fd32282d10535887758efb92aa445a0c3774a64920af8f08bf1ed5b898933"
+    },
+    "status.json": {
+      "bytes": 1314,
+      "sha256": "ef95869de1f8f5a56cf368eaadf276caf918f161d8392546a3c89fb9b6269ca2"
+    },
+    "annotation_resources.json": {
+      "bytes": 178,
+      "sha256": "0a5ec7e84201d8a8b0b4813eaaf28a3fec50908914fa9038bdfda6af44692474"
+    },
+    "reference_label_counts.tsv": {
+      "bytes": 201,
+      "sha256": "1a3c8bbe65a1d607572681ca2b53950e50d7eab10662664af13b784151b3b28d"
+    },
+    "stage_times_seconds.json": {
+      "bytes": 2213,
+      "sha256": "e8f02a98da5dd3404c35aa9c232547b5cfd36e2cecbe55f9f583a3d74ca3b626"
+    },
+    "selection.json": {
+      "bytes": 151,
+      "sha256": "14d7e529e0dadc1b5c868df197f08c2c32132258e414adb13135f515ace22538"
+    },
+    "verification.json": {
+      "bytes": 365,
+      "sha256": "4b1c43984b94f9566268a234ed02dc64453f197841df67c202b3fd4d12f2e057"
+    },
+    "config.json": {
+      "bytes": 1244,
+      "sha256": "6d998fff56efcde1ef02df1778ecf437de19b6ad50fe1516b5672f881648822f"
+    },
+    "cell_clusters.tsv": {
+      "bytes": 120547,
+      "sha256": "a1d28de354ebcf2d89d488e83872688afd2234985cb3577f234d6bb4fe5eb030"
+    },
+    "ca_cell_coordinates.tsv": {
+      "bytes": 1130848,
+      "sha256": "3864b5e0ccc8fda1ad4680e6d80937531543f92f20c5114fac55326cf3a9efd7"
+    },
+    "cadir_unranked.rds": {
+      "bytes": 21823635,
+      "sha256": "a65d07a24970dd2cbd7c47539cfea119ba438a9f8c04c91192260ec574d79b1d"
+    },
+    "ca.rds": {
+      "bytes": 5761828,
+      "sha256": "e769376f42f5fc0eada10cc194c4b00101816bd80b7e6d23a01d0d44a472992f"
+    },
+    "predicted_annotations.tsv": {
+      "bytes": 99924,
+      "sha256": "9109eba83b1321108d7b7676c1f98fdef716996d80200027bd3c39aa74587e8b"
+    },
+    "coclustered_gene_ranks.tsv": {
+      "bytes": 54539,
+      "sha256": "e38264e1523e3b49398d02ba8f3131cbdedd8f647043b40eeac3d2fa6a4aced6"
+    }
+  }
+}

@@ -1,20 +1,26 @@
 #!/usr/bin/env python3
 """Collect small verified deliverables; preserve every full raw run locally."""
 import csv
+import argparse
 import hashlib
 import json
 from pathlib import Path
 import shutil
+from output_paths import output_root, prepare_root
 
 base = Path(__file__).resolve().parents[1]
-status = json.loads((base / 'latest-case.json').read_text())
+parser = argparse.ArgumentParser(description=__doc__)
+output_root(parser, base)
+args = parser.parse_args()
+root = prepare_root(args.output_root)
+status = json.loads((root / 'latest-case.json').read_text())
 source = Path(status['run_directory'])
 assert status['exit_code'] == 0 and status['single_case'] == 'PASS'
 assert json.loads((source / 'verification.json').read_text())['status'] == 'PASS'
-results = base / 'results'
-figures = base / 'figures'
-results.mkdir(exist_ok=True)
-figures.mkdir(exist_ok=True)
+results = root / 'deliverables/results'
+figures = root / 'deliverables/figures'
+results.mkdir(parents=True, exist_ok=True)
+figures.mkdir(parents=True, exist_ok=True)
 names = [
     'status.json', 'metrics.json', 'data_audit.json', 'selection.json',
     'cluster_sizes.tsv', 'cell_clusters.tsv', 'gene_clusters.tsv',
@@ -24,6 +30,7 @@ names = [
     'paper_differences.txt', 'stage_times_seconds.json', 'verification.json',
     'sessionInfo.txt', 'config.json', 'console.log', 'input_integrity.json',
     'required_version_check.tsv', 'verification.log',
+    'ranking_provenance.json',
 ]
 for name in names:
     shutil.copy2(source / name, results / name)

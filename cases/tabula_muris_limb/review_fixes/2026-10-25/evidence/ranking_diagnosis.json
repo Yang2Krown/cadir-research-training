@@ -1,0 +1,48 @@
+{
+  "source_comparison": {
+    "rank_genes": {
+      "formals_identical": true,
+      "body_identical": true
+    },
+    "get_apl_cutoff": {
+      "formals_identical": true,
+      "body_identical": true
+    },
+    "random_direction_cutoff": {
+      "formals_identical": true,
+      "body_identical": true
+    },
+    "apl_model": {
+      "formals_identical": true,
+      "body_identical": true
+    }
+  },
+  "fresh_vs_frozen": {
+    "all_gene_cluster_pairs_identical": true,
+    "maximum_score_absolute_difference": 0,
+    "all_scores_within_1e_10": true,
+    "rank_changes": 0
+  },
+  "orthogonal_reflection_experiment": [
+    {
+      "variant": "unchanged",
+      "alpha": 1.07506446203775,
+      "max_score_difference_from_fresh": 5.32907051820075e-15,
+      "rank_changes_from_fresh": 0
+    },
+    {
+      "variant": "first_axis_reflected",
+      "alpha": 1.10049740439402,
+      "max_score_difference_from_fresh": 0.334507205294415,
+      "rank_changes_from_fresh": 528
+    },
+    {
+      "variant": "all_axes_reflected",
+      "alpha": 1.20205172532586,
+      "max_score_difference_from_fresh": 1.67020213215774,
+      "rank_changes_from_fresh": 938
+    }
+  ],
+  "upstream_mechanism": "random_direction_cutoff samples runif(0,q99) in each CA dimension; random directions occupy one orthant and are not invariant to CA axis sign changes.",
+  "historical_cause": "UNRESOLVED: neither original historical CA/unranked object nor independent-review CA/RNG objects were supplied; synthetic reflections do not prove the observed review discrepancy's cause."
+}

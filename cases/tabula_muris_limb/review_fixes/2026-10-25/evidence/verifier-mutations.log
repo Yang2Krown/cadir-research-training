@@ -1,0 +1,72 @@
+[
+  {
+    "case": "normal",
+    "exit_code": 0,
+    "status": {
+      "status": "PASS",
+      "cells": 1882,
+      "selected_genes": 6000,
+      "assigned_genes": 1200,
+      "clusters": 7,
+      "ARI": 0.669518704486352,
+      "NMI": 0.741885423115482,
+      "annotation_changes_partition": false,
+      "per_gene_cluster_including_NA": true,
+      "per_cluster_counts": true,
+      "ranking_gene_cluster_score_rank_row_num": true,
+      "score_absolute_tolerance": 1e-10
+    },
+    "expected": "PASS",
+    "matched": true
+  },
+  {
+    "case": "swap_clusters",
+    "exit_code": 1,
+    "status": {
+      "status": "FAIL",
+      "error": "Per-gene cluster/NA mismatch against cadir.rds"
+    },
+    "expected": "FAIL",
+    "matched": true
+  },
+  {
+    "case": "wrong_NA",
+    "exit_code": 1,
+    "status": {
+      "status": "FAIL",
+      "error": "setequal(genes$gene_id[!is.na(genes$cluster)], names(cadir@gene_clusters)) is not TRUE"
+    },
+    "expected": "FAIL",
+    "matched": true
+  },
+  {
+    "case": "wrong_Score",
+    "exit_code": 1,
+    "status": {
+      "status": "FAIL",
+      "error": "Ranking Score mismatch against cadir.rds (absolute tolerance 1e-10)"
+    },
+    "expected": "FAIL",
+    "matched": true
+  },
+  {
+    "case": "wrong_Rank",
+    "exit_code": 1,
+    "status": {
+      "status": "FAIL",
+      "error": "Ranking Rank mismatch against cadir.rds"
+    },
+    "expected": "FAIL",
+    "matched": true
+  },
+  {
+    "case": "wrong_cluster_count",
+    "exit_code": 1,
+    "status": {
+      "status": "FAIL",
+      "error": "Per-cluster gene counts mismatch"
+    },
+    "expected": "FAIL",
+    "matched": true
+  }
+]
