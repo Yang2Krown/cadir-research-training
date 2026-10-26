@@ -73,3 +73,5 @@
 本轮工具发现支持 read/list/wait chat，但没有 `send_message_to_thread`、`handoff_thread` 或 `create_thread`，不能直接向原主控发消息；没有尝试用其他消息接口代传。授权范围内将轻量收据、评审和阶段结论 push 到独立分支及草稿 PR，供原主控直接读取。此次调用的工具范围不支持后台自动等待配置更新后续跑。
 
 原始 SQLite 和外部记录的实际大小/SHA在 [external-artifacts.json](evidence/external-artifacts.json)。本目录轻量证据索引见 [evidence_index.json](evidence_index.json)。后续成功取得原件后仍须先冻结标签层级、冲突/缺失与评价 ID，再经独立数据/设计审查；首阶段通过边界和正式实验门槛不变。
+
+首次 diff 空白检查提示 HTTP 原始 headers 中 CRLF/末尾空行。保留收据原字节，以本目录 `.gitattributes` 将这些 wire headers 标为不作文本转换/文本 diff，再检查；没有清洗或改写响应证据。

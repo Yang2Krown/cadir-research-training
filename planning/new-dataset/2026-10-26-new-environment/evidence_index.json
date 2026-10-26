@@ -1,8 +1,13 @@
 [
   {
+    "path": ".gitattributes",
+    "bytes": 115,
+    "sha256": "cd1f255a33c22e246205322c04affef80d9996e85d57c79c5c101e9f22b48902"
+  },
+  {
     "path": "README.md",
-    "bytes": 9096,
-    "sha256": "cfe37a3c183d9063f615f7ca6053860873f41b986d6d3722e59dbf75e2e08a30"
+    "bytes": 9337,
+    "sha256": "be0326f1534400aa115a742554f78c07483fd255f5a9666faa00db8e03b043dd"
   },
   {
     "path": "evidence/acquisition/acquisition_plan.json",
