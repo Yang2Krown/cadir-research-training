@@ -1,0 +1,6 @@
+{
+  "status": "BLOCKED_INPUTS_NOT_ACQUIRED",
+  "missing_inputs": ["/workspace/cadir-validation-20261026/data/hub-attempt/counts.rds", "/workspace/cadir-validation-20261026/data/hub-attempt/coldata.rds"],
+  "matrix_version_shape_QC_labels": "NOT_VERIFIED",
+  "clustering_or_evaluation_run": false
+}

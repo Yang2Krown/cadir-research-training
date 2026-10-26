@@ -1,0 +1,32 @@
+{
+  "dataset": "Nestorowa HSC, legacy scRNAseq resource version 2.0.0",
+  "catalog_sha256": "1c0786502f29cf67b892d7452dc03d29af6c1dda82ddd89118a4d79d10a83c4e",
+  "resources": [
+    {
+      "ah_id": "EH2694",
+      "fetch_id": 2710,
+      "rdatapath": "scRNAseq/nestorowa-hsc/2.0.0/counts.rds",
+      "rdataclass": "dgCMatrix",
+      "dataprovider": "GEO",
+      "rdatadateadded": "2019-07-10",
+      "location_prefix": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/",
+      "kind": "counts",
+      "url": "https://experimenthub.bioconductor.org/fetch/2710",
+      "official_storage_url": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/counts.rds"
+    },
+    {
+      "ah_id": "EH2695",
+      "fetch_id": 2711,
+      "rdatapath": "scRNAseq/nestorowa-hsc/2.0.0/coldata.rds",
+      "rdataclass": "DataFrame",
+      "dataprovider": "Bertie Gottgens",
+      "rdatadateadded": "2019-07-10",
+      "location_prefix": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/",
+      "kind": "coldata",
+      "url": "https://experimenthub.bioconductor.org/fetch/2711",
+      "official_storage_url": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/coldata.rds"
+    }
+  ],
+  "download_requested": false,
+  "data_content_status": "NOT_VERIFIED"
+}
