@@ -1,0 +1,19 @@
+{
+  "reviewer": "GPT-6.1 Sol / High",
+  "independent_author_and_signer": true,
+  "privileged_executor": "coordinator only; technical execution relay",
+  "reviewer_direct_actions": [
+    "full task and management-file reading",
+    "file size/SHA256 recalculation",
+    "fixed-source worktree creation",
+    "independent oracle/negative/runner authoring",
+    "evidence interpretation and report signing"
+  ],
+  "reviewer_cannot_claim": [
+    "successful direct Docker daemon access",
+    "direct successful environment_status observation"
+  ],
+  "tool_failure": "network-permission exec_command calls did not return before interruption; no session ID or process status returned",
+  "coordinator_preflight": "archived with explicit provenance; prerequisite only, not independent scientific evidence",
+  "formal_execution_permitted": false
+}

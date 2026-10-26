@@ -1,0 +1,14 @@
+{
+  "recorded_after_dispatch_at": "2026-10-26T19:50:09.293504+08:00",
+  "authorization_control_commit": "7419c31d0a5cd56900a166a682e74572389ef57e",
+  "review_target": "b7ee2335dc25ffab3a60d1feab44272d6d5a45cb",
+  "agent_task": "/root/independent_real_input_review",
+  "explicit_spawn_parameters": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high",
+    "fork_turns": "none"
+  },
+  "coordinator_role": "preconditions and delivery only; not independent reviewer or verdict signer",
+  "new_cloud_environment_created": false,
+  "formal_execution_permitted": false
+}

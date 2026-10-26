@@ -1,0 +1,32 @@
+{
+  "started_at": "2026-10-26T19:48:05.036610+08:00",
+  "image": "cadir-r-ver:4.4.1-bioc3.19",
+  "image_id": "sha256:baf71525f92cb9813846199dce68c6190c23d4774b025a7baec85e9688b642c7",
+  "command": [
+    "docker",
+    "--host=unix:///var/run/docker.sock",
+    "run",
+    "--rm",
+    "--network",
+    "none",
+    "--read-only",
+    "--tmpfs",
+    "/tmp",
+    "--user",
+    "1000:1000",
+    "--mount",
+    "type=bind,src=/workspace/.cadir-r-lib/4.4,dst=/library,readonly",
+    "-e",
+    "R_LIBS_USER=/library",
+    "sha256:baf71525f92cb9813846199dce68c6190c23d4774b025a7baec85e9688b642c7",
+    "Rscript",
+    "--vanilla",
+    "-e",
+    "suppressPackageStartupMessages({library(Matrix);library(S4Vectors);library(jsonlite);library(digest)}); cat(R.version.string,\"\\n\"); for (p in c(\"Matrix\",\"S4Vectors\",\"jsonlite\",\"digest\")) cat(p,as.character(packageVersion(p)),\"\\n\")"
+  ],
+  "audit_dependencies_only": true,
+  "smoke_or_experiment_run": false,
+  "formal_execution_permitted": false,
+  "exit_code": 0,
+  "elapsed_seconds": 10.967562435998843
+}
