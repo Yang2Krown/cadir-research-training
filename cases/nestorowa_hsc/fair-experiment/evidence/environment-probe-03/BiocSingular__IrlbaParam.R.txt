@@ -1,0 +1,5 @@
+list(formals = as.pairlist(alist(deferred = FALSE, fold = Inf, extra.work = 7, ... = )), 
+    body = {
+        new("IrlbaParam", deferred = as.logical(deferred), fold = as.numeric(fold), 
+            extra.work = as.integer(extra.work), args = list(...))
+    })

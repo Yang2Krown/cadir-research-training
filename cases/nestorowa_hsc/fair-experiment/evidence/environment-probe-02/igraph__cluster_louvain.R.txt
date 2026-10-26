@@ -1,0 +1,25 @@
+list(formals = as.pairlist(alist(graph = , weights = NULL, resolution = 1)), 
+    body = {
+        ensure_igraph(graph)
+        if (is.null(weights) && "weight" %in% edge_attr_names(graph)) {
+            weights <- E(graph)$weight
+        }
+        if (!is.null(weights) && any(!is.na(weights))) {
+            weights <- as.numeric(weights)
+        }
+        else {
+            weights <- NULL
+        }
+        resolution <- as.numeric(resolution)
+        res <- community_multilevel_impl(graph = graph, weights = weights, 
+            resolution = resolution)
+        if (igraph_opt("add.vertex.names") && is_named(graph)) {
+            res$names <- V(graph)$name
+        }
+        res$vcount <- vcount(graph)
+        res$algorithm <- "multi level"
+        res$membership <- res$membership + 1
+        res$memberships <- res$memberships + 1
+        class(res) <- "communities"
+        res
+    })

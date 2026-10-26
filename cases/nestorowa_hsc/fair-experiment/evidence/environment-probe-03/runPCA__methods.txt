@@ -1,0 +1,45 @@
+Function: runPCA (package BiocSingular)
+x="ANY"
+function (x, ...) 
+{
+    .local <- function (x, rank, center = TRUE, scale = FALSE, 
+        get.rotation = TRUE, get.pcs = TRUE, ...) 
+    {
+        svd.out <- runSVD(x, k = rank, nu = ifelse(get.pcs, rank, 
+            0), nv = ifelse(get.rotation, rank, 0), center = center, 
+            scale = scale, ...)
+        out <- list(sdev = svd.out$d/sqrt(nrow(x) - 1))
+        NAMEFUN <- function(n) sprintf("PC%i", seq_len(n))
+        if (get.rotation) {
+            out$rotation <- svd.out$v
+            colnames(out$rotation) <- NAMEFUN(ncol(out$rotation))
+        }
+        if (get.pcs) {
+            out$x <- sweep(svd.out$u, 2, svd.out$d, "*")
+            colnames(out$x) <- NAMEFUN(ncol(out$x))
+        }
+        out
+    }
+    .local(x, ...)
+}
+
+
+x="SingleCellExperiment"
+function (x, ...) 
+{
+    .local <- function (x, ..., altexp = NULL, name = "PCA") 
+    {
+        if (!is.null(altexp)) {
+            y <- altExp(x, altexp)
+        }
+        else {
+            y <- x
+        }
+        reducedDim(x, name) <- calculatePCA(y, ...)
+        x
+    }
+    .local(x, ...)
+}
+
+
+

@@ -1,0 +1,15 @@
+{
+  "formal_execution_permitted": false,
+  "decision": "PENDING_INDEPENDENT_SCIENTIFIC_REVIEW",
+  "reviewer_participated_in_implementation": null,
+  "reviewer_model": "gpt-6.1-sol",
+  "reviewer_reasoning_effort": "high",
+  "reviewer_agent_id": "INDEPENDENT_REVIEWER_MUST_FILL",
+  "review_report": "INDEPENDENT_REVIEWER_MUST_FILL",
+  "C04_decision": "PENDING",
+  "source_commit": "INDEPENDENT_REVIEWER_MUST_BIND_EXACT_PREPARATION_COMMIT",
+  "source_manifest_sha256": "INDEPENDENT_REVIEWER_MUST_FILL",
+  "data_lock_sha256": "INDEPENDENT_REVIEWER_MUST_FILL",
+  "scientific_config_sha256": "INDEPENDENT_REVIEWER_MUST_FILL",
+  "environment_signature_sha256": "INDEPENDENT_REVIEWER_MUST_FILL"
+}

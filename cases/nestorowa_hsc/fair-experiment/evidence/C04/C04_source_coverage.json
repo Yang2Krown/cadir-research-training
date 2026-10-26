@@ -1,0 +1,134 @@
+{
+  "case_id": "C04",
+  "generated_at_utc": "2026-10-26T12:44Z",
+  "candidate": {
+    "name": "Nestorowa mouse HSC/HSPC",
+    "accession": "GSE81682",
+    "publication_doi": "10.1182/blood-2016-05-716480"
+  },
+  "question": "是否已用于 CAdir 原文所报告的分析；不得把代码搜索阴性表述为绝未使用。",
+  "scope": "来源证据整理；没有重新审查候选数据科学适格性、没有运行聚类/指标、没有签署准入。",
+  "assessment_status": "PARTIAL_EVIDENCE_INDEPENDENT_REVIEW_REQUIRED",
+  "evidence": [
+    {
+      "id": "E01",
+      "source": "PLOS 官方论文正文 HTML",
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014418",
+      "status": "READABLE_PRIMARY_SOURCE",
+      "checked_scope": "Methods: Experimental data; Table 2 caption; Cluster-number recovery; Supporting information listing.",
+      "locator": "PLOS HTML lines 438-449, 478-493; article title/publication at lines 65-95.",
+      "finding": "Experimental data 方法逐项列明论文报告的数据集；另述 Tabula Muris cluster-number recovery。主文检索 Nestorowa 与 GSE81682 均无匹配。所列分析名中没有明确的 Nestorowa/HSC 名称。",
+      "interpretation_limit": "这只说明当前可读主文未将 Nestorowa/GSE81682 列为所述分析数据。正文指向一个含额外比较、分析和 benchmark 的 S1 Appendix；附件正文未核，故不能据此声称整篇文章绝未用该数据。",
+      "reported_dataset_names_visible_in_methods": [
+        "Freytag Gold",
+        "Tabula Muris",
+        "Tirosh",
+        "PBMC10x",
+        "Dmel Spatial",
+        "Tabula Sapiens",
+        "Brain Organoids",
+        "Zeisel Brain",
+        "Darmanis",
+        "Baron Pancreas",
+        "Tabula Muris LM",
+        "PBMC3K"
+      ],
+      "additional_main_text_analysis": "Tabula Muris cluster-number recovery: 15,771 genes x 39,207 cells; 38 cell types from 18 tissues; subsequent sampled/equalized analyses described at lines 478-481."
+    },
+    {
+      "id": "E02",
+      "source": "PLOS 官方支持信息目录及 S1 DOI",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014418.s001",
+      "status": "S1_LISTED_BUT_PDF_NOT_RETRIEVED",
+      "checked_scope": "官方正文支持信息标题、说明及 DOI；点击 S1 DOI 的返回状态。",
+      "locator": "PLOS HTML lines 485-493; attempted DOI click result turn286240view1.",
+      "finding": "官方正文确认 S1 Appendix 名称为 Supplementary Materials and Results，并说明其含额外比较、分析和基准。点击 S1 DOI 返回工具错误：HTTP 500，重定向至 dx.plos.org，目标不可由该浏览工具访问。",
+      "interpretation_limit": "未读到 S1 PDF 正文；不能确定其表格、补充分析或数据来源是否另提 Nestorowa/GSE81682。",
+      "prior_direct_file_attempt": {
+        "url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1014418.s001&type=printable",
+        "source_record": "/workspace/hsc-fair-experiment/planning/new-dataset/2026-10-26/sources.json, evidence id paper_supplement_plos",
+        "status": "PREVIOUSLY_ATTEMPTED_AND_REPORTED_UNAVAILABLE",
+        "decision": "不重复请求；既有来源记录含该精确 URL，且总结 printable/asset 路径未能读到文件。"
+      }
+    },
+    {
+      "id": "E03",
+      "source": "PMC 官方镜像的搜索索引结果",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13349309/bin/pcbi.1014418.s001.pdf",
+      "status": "INDEXED_SNIPPET_ONLY",
+      "checked_scope": "搜索工具返回的索引摘要，不是实际 PDF 文件。",
+      "locator": "turn427101search0.",
+      "finding": "索引摘要列出 S1 Appendix PDF 文件名、标示大小 140.6 KB，并展示开头的 S1 Fig 描述（Tabula Muris Limb Muscle）。",
+      "interpretation_limit": "索引摘要不代表下载或全文访问，不能用来证明附件没有其他数据集。未保存 PDF 字节，无 PDF SHA256。"
+    },
+    {
+      "id": "E04",
+      "source": "PMC 官方镜像 HTML 页面",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13349309/",
+      "status": "ACCESS_BLOCKED_RECAPTCHA",
+      "checked_scope": "打开官方 PMC article page。",
+      "locator": "turn768652view0.",
+      "finding": "页面返回 checking-your-browser / reCAPTCHA interstitial，未访问附件内容。",
+      "interpretation_limit": "没有全文或附件下载收据。"
+    },
+    {
+      "id": "E05",
+      "source": "PLOS 官方 Table 2 图像资产",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014418.t002",
+      "status": "TABLE_CAPTION_READABLE_IMAGE_NOT_RETRIEVED",
+      "checked_scope": "正文的表题、说明及表格图像获取尝试。",
+      "locator": "PLOS HTML lines 447-449; image click result turn286240view0.",
+      "finding": "正文可读表题与范围说明；点击图像后请求重定向到签名 Google Storage URL，浏览工具报 500/目标不可访问。",
+      "interpretation_limit": "Table 2 行内容没有由本轮实际取得的图像核对；本记录不声称看到了表格行。"
+    },
+    {
+      "id": "E06",
+      "source": "固定作者结果仓库的先前逐源审计（复用，不重跑）",
+      "url": "https://github.com/VingronLab/CAdir_results/tree/c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "status": "PRIOR_PINNED_REPOSITORY_AUDIT_REUSED",
+      "checked_scope": "先前审计记录称在固定 commit 下检查下载、预处理、benchmark、主图和补充分析源码/QMD 共 67 个文件。",
+      "locator": "/workspace/hsc-fair-experiment/planning/new-dataset/2026-10-26/来源审计报告.md lines 40, 69-71; sources.json record author_results_fixed_ref.",
+      "finding": "先前固定仓库审计未发现 GSE81682/Nestorowa 的调用、下载或引用，同时核实了其他数据对象的实际补充代码调用。",
+      "interpretation_limit": "这是有限代码/QMD 覆盖的阴性结果；不排除未纳入该仓库范围、手工处理或仅见于官方 S1 的用途。本轮未重新扫描这 67 个文件。"
+    },
+    {
+      "id": "E07",
+      "source": "论文 Data Availability 指向的 Zenodo 复现归档",
+      "url": "https://zenodo.org/records/14900874",
+      "status": "IDENTIFIED_NOT_INSPECTED",
+      "checked_scope": "正文可见归档 DOI；尝试打开记录页面。",
+      "locator": "PLOS HTML line 136; web open result turn244364view0.",
+      "finding": "官方正文称论文结果所用代码和数据集可在 Zenodo DOI 10.5281/zenodo.14900874 获取；记录页面通过当前浏览工具不可访问。 本轮后续尝试的 Europe PMC 元数据入口也不可访问，见 E08。",
+      "interpretation_limit": "未核对 Zenodo 文件清单或内容；不能将链接的存在当作已审归档。"
+    },
+    {
+      "id": "E08",
+      "source": "Europe PMC fullTextXML API 元数据入口",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13349309/fullTextXML",
+      "status": "ENDPOINT_NOT_ACCESSIBLE_VIA_WEB_TOOL",
+      "checked_scope": "仅尝试元数据/XML入口以查附件路径；未访问FTP，不下载文件。",
+      "locator": "web open result turn751530view0.",
+      "finding": "浏览工具返回 URL 不可访问；未获得 OA package FTP 路径。",
+      "interpretation_limit": "没有新的镜像、路径或附件内容证据。"
+    }
+  ],
+  "bounded_conclusion": "可支持的有限判断是：在本次可读 PLOS 主文报告的数据清单和先前固定代码仓库审计中，未发现 Nestorowa/GSE81682 被列为所报告的评测数据或被仓库源码/QMD 调用。官方 S1 全文和 Table 2 图像未取得；由于 S1 明确包含额外比较、分析与基准，是否可在限定范围内接受 GSE81682 为新扩展数据仍需独立科学评审裁定。不能记录 C04 已完全关闭或断言原文绝未使用。",
+  "unknowns": [
+    "S1 Appendix PDF 全文、表格及其潜在数据来源。",
+    "Table 2 图像行内容在本轮没有直接核对。",
+    "Zenodo 复现归档内实际文件清单与数据内容。",
+    "作者仓库未覆盖的人工或外部处理路径。"
+  ],
+  "reviewer_decision_required": "独立评审者判断当前证据是否足以支持课程的限定性新数据范围；若接受，需明确把结论限制在已核来源内；若不足，保持 C04 阻塞并要求通过合规可访问入口取得 S1 或其它足以补足覆盖的一手证据。",
+  "non_actions": [
+    "未下载或读取真实 HSC counts。",
+    "未重复扫描固定作者仓库的 67 文件。",
+    "未改用其他数据集。",
+    "未执行 QC、聚类、ARI/NMI 或任何科学实验。",
+    "未签署正式设计/算法执行准入。"
+  ],
+  "model_record": {
+    "delegated_configuration": "gpt-6-luna / max",
+    "configuration_source": "父端任务委派说明；子代理执行环境不提供独立查询当前模型参数的字段。"
+  }
+}

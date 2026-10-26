@@ -1,0 +1,29 @@
+{
+  "started_at": "2026-10-26T20:55:19.358431+08:00",
+  "command": [
+    "cases/nestorowa_hsc/fair-experiment/scripts/container.sh",
+    "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01-finalization-01",
+    "Rscript",
+    "cases/nestorowa_hsc/fair-experiment/scripts/finalize_stage1.R",
+    "cases/nestorowa_hsc/fair-experiment/scripts/common.R",
+    "cases/nestorowa_hsc/fair-experiment/design/scientific-config.json",
+    "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/environment-signature.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01",
+    "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01-finalization-01",
+    "cases/nestorowa_hsc/fair-experiment/locks/attempt-01-artifact-snapshot.json"
+  ],
+  "source_commit": "cb6aef53fa0c819bebd1fe050dc7f8444808bd2b",
+  "before_source_sha256": {
+    "cases/nestorowa_hsc/fair-experiment/scripts/container.sh": "1140514d16ccc370cec73d260b92ce9fc052d052c3db65f21f23f49c20336736",
+    "cases/nestorowa_hsc/fair-experiment/scripts/finalize_stage1.R": "94ec002a08c7cb86cad0bdf5e95d58dedf33b53301d7d37154d52ce704b2ccf6",
+    "cases/nestorowa_hsc/fair-experiment/scripts/common.R": "f928b3abdefffcd241d0869524501bfe348443f620904b2fbc625d4eacf9ad55",
+    "cases/nestorowa_hsc/fair-experiment/design/scientific-config.json": "b1e30c8d292b289095bcc1b5159f82b4568f16ca4b07207e039795e15219a969",
+    "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/environment-signature.rds": "e2e6b0b03a1952068eaa8c4ccec469671d947bb4553926b326d4f1086b0b2fc5",
+    "cases/nestorowa_hsc/fair-experiment/locks/attempt-01-artifact-snapshot.json": "1bc8de4037bd78f378fcaeddc0e274dc0e62d11fed9ed34bf26e9a9acd1192cc"
+  },
+  "scope": "read-only finalization of already computed shared preprocessing; no algorithm or metrics",
+  "formal_execution_permitted": false,
+  "exit_code": 0,
+  "elapsed_seconds": 71.02830656900187,
+  "source_unchanged_after": true
+}

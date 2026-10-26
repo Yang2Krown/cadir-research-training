@@ -1,0 +1,1 @@
+list(formals = as.pairlist(alist(x = , ... = )), body = standardGeneric("calculatePCA"))

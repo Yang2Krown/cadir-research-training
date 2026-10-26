@@ -1,0 +1,66 @@
+Function: calculatePCA (package scater)
+x="ANY"
+function (x, ...) 
+{
+    .local <- function (x, ncomponents = 50, ntop = 500, subset_row = NULL, 
+        scale = FALSE, transposed = FALSE, BSPARAM = bsparam(), 
+        BPPARAM = SerialParam()) 
+    {
+        oldbp <- getAutoBPPARAM()
+        setAutoBPPARAM(BPPARAM)
+        on.exit(setAutoBPPARAM(oldbp))
+        if (.bpNotSharedOrUp(BPPARAM)) {
+            bpstart(BPPARAM)
+            on.exit(bpstop(BPPARAM), add = TRUE)
+        }
+        if (!transposed) {
+            out <- .get_mat_for_reddim(x, subset_row = subset_row, 
+                ntop = ntop, scale = scale, get.var = TRUE)
+            x <- out$x
+            cv <- out$v
+        }
+        else {
+            cv <- colVars(DelayedArray(x), useNames = TRUE)
+        }
+        pca <- runPCA(x, rank = ncomponents, BSPARAM = BSPARAM, 
+            BPPARAM = BPPARAM)
+        varExplained <- pca$sdev^2
+        percentVar <- varExplained/sum(cv) * 100
+        pcs <- pca$x
+        rownames(pcs) <- rownames(x)
+        attr(pcs, "varExplained") <- varExplained
+        attr(pcs, "percentVar") <- percentVar
+        rownames(pca$rotation) <- colnames(x)
+        attr(pcs, "rotation") <- pca$rotation
+        pcs
+    }
+    .local(x, ...)
+}
+
+
+x="SingleCellExperiment"
+function (x, ...) 
+{
+    .local <- function (x, ..., exprs_values = "logcounts", dimred = NULL, 
+        n_dimred = NULL, assay.type = exprs_values) 
+    {
+        mat <- .get_mat_from_sce(x, assay.type = assay.type, 
+            dimred = dimred, n_dimred = n_dimred)
+        .calculate_pca(mat, transposed = !is.null(dimred), ...)
+    }
+    .local(x, ...)
+}
+
+
+x="SummarizedExperiment"
+function (x, ...) 
+{
+    .local <- function (x, ..., exprs_values = "logcounts", assay.type = exprs_values) 
+    {
+        .calculate_pca(assay(x, assay.type), ...)
+    }
+    .local(x, ...)
+}
+
+
+

@@ -1,0 +1,7 @@
+list(formals = as.pairlist(alist(x = , k = 10, type = c("rank", 
+    "number", "jaccard"), BNPARAM = KmknnParam(), BPPARAM = SerialParam())), 
+    body = {
+        nn.out <- findKNN(x, k = k, BNPARAM = BNPARAM, BPPARAM = BPPARAM, 
+            get.distance = FALSE)
+        neighborsToSNNGraph(nn.out$index, type = match.arg(type))
+    })

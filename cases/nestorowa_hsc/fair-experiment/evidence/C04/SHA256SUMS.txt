@@ -1,0 +1,7 @@
+1b241d3a2732b59e9d00c65d78c819486bc799fe15f0a341bea207e0bcdd446e  /workspace/hsc-c04-evidence-20261026/C04_source_coverage.json
+da6c4b8e4e67cff2ba892ccd6c01035341da498da69377d8a6ebaa31a34f4d6f  /workspace/hsc-c04-evidence-20261026/C04_source_coverage.tsv
+a780cb186cb8a6aa30c9a2578dab6326e93259c43856d715ccb92c84e6c56836  /workspace/hsc-c04-evidence-20261026/说明.md
+77ebcb2b586262e8a5f9c8c4bfc1744667e2dc31afe4390672f6ee639de772ee  /workspace/hsc-c04-evidence-20261026/access_log.md
+6aae99bfa967463317124fb1e29a3d151ea75026b71691a95fc0bd31f32101a3  /workspace/hsc-fair-experiment/planning/new-dataset/2026-10-26/sources.json
+57bcab5f58def80131bde19e502141a3d81eaf6840ed32ed412763294e5e4f29  /workspace/hsc-fair-experiment/planning/new-dataset/2026-10-26/来源审计报告.md
+335725e5a72c3be51fbd9ab8b909685810e5154c4b3f3aa22235fc9339841961  /workspace/hsc-fair-experiment/planning/new-dataset/2026-10-26/pre-registration.md

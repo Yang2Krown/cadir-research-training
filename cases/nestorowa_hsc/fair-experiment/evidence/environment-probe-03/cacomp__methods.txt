@@ -1,0 +1,115 @@
+Function: cacomp (package APL)
+obj="dgCMatrix"
+function (obj, coords = TRUE, princ_coords = 3, python = FALSE, 
+    dims = NULL, top = 5000, inertia = TRUE, rm_zeros = TRUE, 
+    residuals = "pearson", cutoff = NULL, clip = FALSE, ...) 
+{
+    caobj <- run_cacomp(obj = obj, coords = coords, princ_coords = princ_coords, 
+        python = python, dims = dims, top = top, inertia = inertia, 
+        rm_zeros = rm_zeros, residuals = residuals, cutoff = cutoff, 
+        clip = clip, ...)
+    return(caobj)
+}
+
+
+obj="matrix"
+function (obj, coords = TRUE, princ_coords = 3, python = FALSE, 
+    dims = NULL, top = 5000, inertia = TRUE, rm_zeros = TRUE, 
+    residuals = "pearson", cutoff = NULL, clip = FALSE, ...) 
+{
+    caobj <- run_cacomp(obj = obj, coords = coords, princ_coords = princ_coords, 
+        python = python, dims = dims, top = top, inertia = inertia, 
+        rm_zeros = rm_zeros, residuals = residuals, cutoff = cutoff, 
+        clip = clip, ...)
+    return(caobj)
+}
+
+
+obj="Seurat"
+function (obj, coords = TRUE, princ_coords = 3, python = FALSE, 
+    dims = NULL, top = 5000, inertia = TRUE, rm_zeros = TRUE, 
+    residuals = "pearson", cutoff = NULL, clip = FALSE, ...) 
+{
+    .local <- function (obj, coords = TRUE, princ_coords = 3, 
+        python = FALSE, dims = NULL, top = 5000, inertia = TRUE, 
+        rm_zeros = TRUE, residuals = "pearson", cutoff = NULL, 
+        clip = FALSE, ..., assay = Seurat::DefaultAssay(obj), 
+        slot = "counts", return_input = FALSE) 
+    {
+        stopifnot(`obj doesnt belong to class 'Seurat'` = is(obj, 
+            "Seurat"))
+        stopifnot(`Set coords = TRUE when inputting a Seurat object and return_input = TRUE.` = coords == 
+            TRUE)
+        seu <- Seurat::GetAssayData(object = obj, assay = assay, 
+            slot = slot)
+        if (!(is(seu, "matrix") | is(seu, "dgCMatrix") | is(seu, 
+            "dgeMatrix"))) {
+            seu <- as.matrix(seu)
+        }
+        caobj <- run_cacomp(obj = seu, coords = coords, top = top, 
+            princ_coords = princ_coords, dims = dims, python = python, 
+            rm_zeros = rm_zeros, inertia = inertia, residuals = residuals, 
+            cutoff = cutoff, clip = clip, ...)
+        if (return_input == TRUE) {
+            colnames(caobj@V) <- paste0("DIM_", seq(ncol(caobj@V)))
+            colnames(caobj@U) <- paste0("DIM_", seq(ncol(caobj@U)))
+            obj[["CA"]] <- Seurat::CreateDimReducObject(embeddings = caobj@std_coords_cols, 
+                loadings = caobj@prin_coords_rows, stdev = caobj@D, 
+                key = "Dim_", assay = assay, misc = caobj@params)
+            return(obj)
+        }
+        else {
+            return(caobj)
+        }
+    }
+    .local(obj, coords, princ_coords, python, dims, top, inertia, 
+        rm_zeros, residuals, cutoff, clip, ...)
+}
+
+
+obj="SingleCellExperiment"
+function (obj, coords = TRUE, princ_coords = 3, python = FALSE, 
+    dims = NULL, top = 5000, inertia = TRUE, rm_zeros = TRUE, 
+    residuals = "pearson", cutoff = NULL, clip = FALSE, ...) 
+{
+    .local <- function (obj, coords = TRUE, princ_coords = 3, 
+        python = FALSE, dims = NULL, top = 5000, inertia = TRUE, 
+        rm_zeros = TRUE, residuals = "pearson", cutoff = NULL, 
+        clip = FALSE, ..., assay = "counts", return_input = FALSE) 
+    {
+        stopifnot(`obj doesnt belong to class 'SingleCellExperiment'` = is(obj, 
+            "SingleCellExperiment"))
+        stopifnot(`Set coords = TRUE when inputting a SingleCellExperiment object and return_input = TRUE.` = coords == 
+            TRUE)
+        mat <- SummarizedExperiment::assay(obj, assay)
+        if (!(is(mat, "matrix") | is(mat, "dgCMatrix") | is(mat, 
+            "dgeMatrix"))) {
+            mat <- as.matrix(mat)
+        }
+        top <- min(nrow(mat), top)
+        caobj <- run_cacomp(obj = mat, coords = coords, top = top, 
+            princ_coords = princ_coords, dims = dims, python = python, 
+            rm_zeros = rm_zeros, inertia = inertia, residuals = residuals, 
+            cutoff = cutoff, clip = clip, ...)
+        if (return_input == TRUE) {
+            prinInertia <- caobj@D^2
+            percentInertia <- prinInertia/sum(prinInertia) * 
+                100
+            ca <- caobj@std_coords_cols
+            attr(ca, "prin_coords_rows") <- caobj@prin_coords_rows
+            attr(ca, "singval") <- caobj@D
+            attr(ca, "percInertia") <- percentInertia
+            attr(ca, "params") <- caobj@params
+            SingleCellExperiment::reducedDim(obj, "CA") <- ca
+            return(obj)
+        }
+        else {
+            return(caobj)
+        }
+    }
+    .local(obj, coords, princ_coords, python, dims, top, inertia, 
+        rm_zeros, residuals, cutoff, clip, ...)
+}
+
+
+

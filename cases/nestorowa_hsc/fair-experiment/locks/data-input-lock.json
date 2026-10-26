@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "stage": "COMMON_PREPARATION_FINALIZED_NO_ALGORITHMS",
+  "accepted_input_review": "da802216238bc66a60eff514b1ccebf213e77351",
+  "formal_execution_permitted": false,
+  "C04_status": "FIRST_SOURCE_PARTIAL_REQUIRES_INDEPENDENT_ADJUDICATION",
+  "environment_signature_path": "/workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/environment-signature.rds",
+  "shared_input_path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/shared-hvg-sce.rds",
+  "final_cell_ids_path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/final-cell-ids.txt",
+  "HVG_ids_path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/hvg-gene-ids.txt",
+  "reference_path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/frozen-reference.tsv",
+  "evaluation_ids_path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/evaluation-cell-ids.txt",
+  "scientific_config_sha256": "b1e30c8d292b289095bcc1b5159f82b4568f16ca4b07207e039795e15219a969",
+  "files": [
+    {
+      "path": "/workspace/nestorowa-metadata-preparation/reacquired-20261026/GSE81682_HTSeq_counts.txt.gz",
+      "bytes": 30236635,
+      "sha256": "e12745e4087823ae868c6fe82a38510c15730e82ee74e1983def85ed3b7df68a"
+    },
+    {
+      "path": "/workspace/nestorowa-metadata-preparation/reacquired-20261026/GSE81682_HTSeq_counts.txt.gz.json",
+      "bytes": 1197,
+      "sha256": "9abb321546a8a9e90d383b6d338d9562488f956dca4e1ce14b59f796b1e5a1bf"
+    },
+    {
+      "path": "/workspace/nestorowa-metadata-preparation/reacquired-20261026/coldata.rds",
+      "bytes": 182319,
+      "sha256": "16d9e3ee62d27aac74591ccddd064eb2be9b86836591c8ec99d39e1af0bf35bc"
+    },
+    {
+      "path": "/workspace/nestorowa-metadata-preparation/reacquired-20261026/coldata.rds.json",
+      "bytes": 965,
+      "sha256": "3ade689489eafb109ccc5b399c3dc21cff09bf9c6c1c9ffe29b23ac9ef42b19d"
+    },
+    {
+      "path": "/workspace/nestorowa-metadata-preparation/reacquired-20261026/counts.rds",
+      "bytes": 90044893,
+      "sha256": "6bf8a84f4db185eb6021ceb53b7d6d33083410e02a6ee7a6df2191f0bbb90563"
+    },
+    {
+      "path": "/workspace/nestorowa-metadata-preparation/reacquired-20261026/counts.rds.json",
+      "bytes": 967,
+      "sha256": "c6f3bd61db683f36b650ed6034edc57479127a4972a520756f6f29cfb8513414"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/cell-qc.tsv",
+      "bytes": 174904,
+      "sha256": "483cab65f32571a30553edff8ce9fe8677fd8f4de4e520d7e32749b744e6f157"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/coordinator-console.log",
+      "bytes": 33,
+      "sha256": "db54f1eeaf92993e61d6f01152ff1e41ba8efa4307134edc7c0328f5646a091b"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/coordinator-execution.json",
+      "bytes": 1666,
+      "sha256": "0b163307f78024bf54f53b19cad2d1c7e60aaf72b7deb0cb6649729af2579d34"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/eligible-gene-ids.txt",
+      "bytes": 773699,
+      "sha256": "d8b7119c2d6a77f5ad4d1d7e66b802a5df89a2745355851414a7018b084ae258"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/eligible-normalized-sce.rds",
+      "bytes": 172083640,
+      "sha256": "fcacff65379b8ca90e38fa91ddd9ddd434ca2b7ef664898e1845fd9d03c95604"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/evaluation-cell-ids.txt",
+      "bytes": 15107,
+      "sha256": "24fbab9cac6800f0e37c998b54aa13229b03a4200dca074988d5618fa6bcd655"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/final-cell-ids.txt",
+      "bytes": 15244,
+      "sha256": "3ffd272761ac0b68ae493c004427ac51c0c35e12a0dd38bb8067043159645278"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/frozen-broad-memberships.tsv",
+      "bytes": 88973,
+      "sha256": "1d44788dbaf30f2044a400be5b57394f2b6347af6c5b2d14ea794230737e09da"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/frozen-reference.tsv",
+      "bytes": 120608,
+      "sha256": "f2156454ee3f283cc69b241c8e8dc4c1bf8f9cb730a59602350dea31fe1ec928"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/gene-filter.tsv",
+      "bytes": 3594044,
+      "sha256": "58618597638b8634d7a46a57a511bf1402347076673d984e1b571461fa5b51c2"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/gene-variance.rds",
+      "bytes": 10286093,
+      "sha256": "8ea8ce1932421b6b83ac19f95d7d78b59b804743104fb74a520b23b58f1fdd1c"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/gene-variance.tsv",
+      "bytes": 5296658,
+      "sha256": "d53a5bc2470d15a4249004b2648cdffb64623a80a34571f724bae2fb34434943"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/hvg-gene-ids.txt",
+      "bytes": 114000,
+      "sha256": "cc75bf454cd3f5531a86ab8e01d18e93c6ad615a8a0e36b17ebadba59907baa6"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/label-counts.tsv",
+      "bytes": 132,
+      "sha256": "8223975acf2963f57e600378b53d08aca56e30276b9d58ee65b6907369c0c6b2"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/qc-thresholds.json",
+      "bytes": 139,
+      "sha256": "abe8ac43041f9034d30a059497f60adce0d7e9ca460316dab09c2aecc89980fa"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/raw-cell-ids.txt",
+      "bytes": 17712,
+      "sha256": "90b30cfb92cd0ad5c97d9a99c12976af4d4bd25623aea9f86b661c4d9e478876"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/raw-gene-ids.txt",
+      "bytes": 876572,
+      "sha256": "068ee7ddeb59302d50ae29028d0389771adcd9bbba6a89c118e01230bd82bbaa"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/raw-protection-before.json",
+      "bytes": 274,
+      "sha256": "9624a761765f24829f630790acfe6a1e128f5ec736398a65103faece80d75a9e"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/rng.rds",
+      "bytes": 2778,
+      "sha256": "a19f28a4bd21dc7cf8ae6a42372496d9f6a1c4c4c5e780dde47561b31199ba96"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/sessionInfo.txt",
+      "bytes": 5646,
+      "sha256": "a527174a51aed227304e57df7ad3da629c9ada42b1e36cfbad573f0f4c88a55f"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/shared-hvg-sce.rds",
+      "bytes": 37570598,
+      "sha256": "e6545f0d01da8db5120b194ad3bcea48519b1ece8c7158f943c84c66a4bae8ed"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/size-factors.tsv",
+      "bytes": 47681,
+      "sha256": "bc28da37b248bbb0ea5253328a257f7095a9a7d5eccc40b7d024f00aac704806"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/stage1-status.json",
+      "bytes": 447,
+      "sha256": "9c7449a77a36f20a2e8cda0f2b9e4db1da4a30863a3d79db37a8c415df98935f"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01-finalization-01/coordinator-console.log",
+      "bytes": 43,
+      "sha256": "8caf7d6d5cb52000d8a949a55b11ebe5b720a520dd07644441a4fbdade905b89"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01-finalization-01/coordinator-execution.json",
+      "bytes": 1964,
+      "sha256": "8a7278f35e18744f303049cac3a1265a4aa1ddbcefc1851e8852bee0b6a28d52"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01-finalization-01/preparation-summary.json",
+      "bytes": 2275,
+      "sha256": "dc5a51d1c891ebf723deed903545e285a12b0701608ede12bf132a02b411bc66"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01-finalization-01/raw-protection-after.json",
+      "bytes": 274,
+      "sha256": "9624a761765f24829f630790acfe6a1e128f5ec736398a65103faece80d75a9e"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01-finalization-01/sessionInfo.txt",
+      "bytes": 5646,
+      "sha256": "a527174a51aed227304e57df7ad3da629c9ada42b1e36cfbad573f0f4c88a55f"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01-finalization-01/stage1-finalization-status.json",
+      "bytes": 538,
+      "sha256": "c9b711d1bfbeb9e30424734ef5f11ddcc3f593bfa4692a40ca682b797d2dcce4"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/environment-signature.rds",
+      "bytes": 232042,
+      "sha256": "e2e6b0b03a1952068eaa8c4ccec469671d947bb4553926b326d4f1086b0b2fc5"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/evidence/C04/C04_source_coverage.json",
+      "bytes": 8991,
+      "sha256": "1b241d3a2732b59e9d00c65d78c819486bc799fe15f0a341bea207e0bcdd446e"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/evidence/C04/C04_source_coverage.tsv",
+      "bytes": 2500,
+      "sha256": "da6c4b8e4e67cff2ba892ccd6c01035341da498da69377d8a6ebaa31a34f4d6f"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/evidence/C04/SHA256SUMS.txt",
+      "bytes": 927,
+      "sha256": "b99f5b30bb94dfd0a8bace8c152d36fbdb056b2b0d538b70e8e8758bb47217b2"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/evidence/C04/access_log.md",
+      "bytes": 3130,
+      "sha256": "77ebcb2b586262e8a5f9c8c4bfc1744667e2dc31afe4390672f6ee639de772ee"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/evidence/C04/说明.md",
+      "bytes": 2596,
+      "sha256": "a780cb186cb8a6aa30c9a2578dab6326e93259c43856d715ccb92c84e6c56836"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/locks/runtime-library-lock.json",
+      "bytes": 293789,
+      "sha256": "37bd6195b8605db9572addc842431a723b1980deb4a6cc96c8e23fee5aac5d52"
+    }
+  ],
+  "large_external_artifacts": [
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/eligible-normalized-sce.rds",
+      "bytes": 172083640,
+      "sha256": "fcacff65379b8ca90e38fa91ddd9ddd434ca2b7ef664898e1845fd9d03c95604"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/gene-variance.rds",
+      "bytes": 10286093,
+      "sha256": "8ea8ce1932421b6b83ac19f95d7d78b59b804743104fb74a520b23b58f1fdd1c"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/rng.rds",
+      "bytes": 2778,
+      "sha256": "a19f28a4bd21dc7cf8ae6a42372496d9f6a1c4c4c5e780dde47561b31199ba96"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/shared-hvg-sce.rds",
+      "bytes": 37570598,
+      "sha256": "e6545f0d01da8db5120b194ad3bcea48519b1ece8c7158f943c84c66a4bae8ed"
+    }
+  ],
+  "backup_status": "External workspace only; local export/hash verification still required. Git small evidence is not a complete raw/object backup.",
+  "runtime_library_lock_path": "/workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/locks/runtime-library-lock.json"
+}

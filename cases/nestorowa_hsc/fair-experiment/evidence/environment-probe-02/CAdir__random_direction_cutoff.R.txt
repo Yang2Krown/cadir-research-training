@@ -1,0 +1,35 @@
+list(formals = as.pairlist(alist(caobj = , dims = caobj@dims, apl_cutoff_reps = 300, axis = "cols")), 
+    body = {
+        if (axis == "cols") {
+            cols <- caobj@prin_coords_cols
+            ca_coords <- caobj@prin_coords_cols
+        }
+        else if (axis == "rows") {
+            cols <- caobj@std_coords_cols
+            ca_coords <- caobj@prin_coords_rows
+        }
+        row_num <- nrow(ca_coords)
+        if (caobj@dims == 1 && !is.empty(caobj@dims)) {
+            row_num <- 1
+        }
+        if (dims < caobj@dims) {
+            caobj <- APL::subset_dims(caobj = caobj, dims = dims)
+        }
+        cols <- caobj@prin_coords_cols
+        length_vector_coords <- sqrt(rowSums(ca_coords^2))
+        apl_cotan <- numeric(row_num * apl_cutoff_reps)
+        for (k in seq(apl_cutoff_reps)) {
+            avg_group_coords <- stats::runif(n = dims, min = 0, 
+                max = stats::quantile(cols, 0.99))
+            length_vector_group <- sqrt(drop(avg_group_coords %*% 
+                avg_group_coords))
+            coord_x <- drop(ca_coords %*% avg_group_coords)/length_vector_group
+            coord_y <- sqrt(pmax(length_vector_coords^2 - coord_x^2, 
+                0))
+            cotan <- coord_x/coord_y
+            cotan[is.na(cotan)] <- 0
+            idx <- ((1:row_num) + ((k - 1) * row_num))
+            apl_cotan[idx] <- cotan
+        }
+        return(apl_cotan)
+    })

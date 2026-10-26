@@ -1,0 +1,46 @@
+Function: buildSNNGraph (package scran)
+x="ANY"
+function (x, ...) 
+{
+    .local <- function (x, ..., d = 50, transposed = FALSE, subset.row = NULL, 
+        BSPARAM = bsparam(), BPPARAM = SerialParam()) 
+    {
+        input <- .setup_knn_data(x = x, subset.row = subset.row, 
+            d = d, transposed = transposed, BSPARAM = BSPARAM, 
+            BPPARAM = BPPARAM)
+        makeSNNGraph(input, ..., BPPARAM = BPPARAM)
+    }
+    .local(x, ...)
+}
+
+
+x="SingleCellExperiment"
+function (x, ...) 
+{
+    .local <- function (x, ..., use.dimred = NULL) 
+    {
+        if (!is.null(use.dimred)) {
+            .buildSNNGraph(reducedDim(x, use.dimred), d = NA, 
+                transposed = TRUE, ...)
+        }
+        else {
+            callNextMethod(x = x, ...)
+        }
+    }
+    .local(x, ...)
+}
+
+
+x="SummarizedExperiment"
+function (x, ...) 
+{
+    .local <- function (x, ..., assay.type = "logcounts") 
+    {
+        .buildSNNGraph(assay(x, i = assay.type), transposed = FALSE, 
+            ...)
+    }
+    .local(x, ...)
+}
+
+
+

@@ -1,0 +1,6 @@
+{
+  "cpu_max": "200000 100000",
+  "memory_max": "8589934592",
+  "threads": 2,
+  "forbidden_algorithms_called": false
+}
