@@ -1,0 +1,17 @@
+{
+  "class": "dgCMatrix",
+  "dimensions": [46175, 1920],
+  "sparse_structure_valid": true,
+  "statistics": {
+    "nonfinite": 0,
+    "negative": 0,
+    "noninteger": 0,
+    "stored_values": 22595902
+  },
+  "implicit_sparse_zeros": "finite nonnegative integers; included logically",
+  "htseq_rows": 5,
+  "ERCC_rows": 92,
+  "ensembl_rows": 46078,
+  "metadata_cell_sets_equal": true,
+  "metadata_cell_order_identical": true
+}

@@ -1,0 +1,9 @@
+Error in h(simpleError(msg, call)) : 
+  error in evaluating the argument 'x' in selecting a method for function 'unique': duplicated() applies only to vectors
+Calls: extract_metadata_identity -> check_ids -> id_issue
+In addition: Warning messages:
+1: In is.na(ids) :
+  is.na() applied to non-(list or vector) of type 'symbol'
+2: In is.na(ids) :
+  is.na() applied to non-(list or vector) of type 'symbol'
+Execution halted

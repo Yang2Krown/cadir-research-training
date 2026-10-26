@@ -1,0 +1,13 @@
+{
+  "direction": "genes_by_cells",
+  "direction_evidence": "GEO gene IDs are matrix rows; GEO sample IDs match columns and metadata",
+  "GEO_rows": 46175,
+  "GEO_cells": 1920,
+  "gene_sets_equal": true,
+  "cell_sets_equal": true,
+  "gene_order_identical": true,
+  "cell_order_identical": true,
+  "values_compared": 88656000,
+  "numeric_mismatches": 0,
+  "source_flow_table_coverage_verified": false
+}

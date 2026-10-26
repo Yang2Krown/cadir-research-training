@@ -1,0 +1,22 @@
+{
+  "R": "R version 4.4.1 (2024-06-14)",
+  "packages": [
+    {
+      "name": "Matrix",
+      "version": "1.7.0"
+    },
+    {
+      "name": "S4Vectors",
+      "version": "0.42.1"
+    },
+    {
+      "name": "jsonlite",
+      "version": "2.0.0"
+    },
+    {
+      "name": "digest",
+      "version": "0.6.39"
+    }
+  ],
+  "loaded_namespaces": ["compiler", "Matrix", "graphics", "utils", "grDevices", "stats", "datasets", "S4Vectors", "grid", "methods", "digest", "jsonlite", "BiocGenerics", "stats4", "base", "lattice"]
+}

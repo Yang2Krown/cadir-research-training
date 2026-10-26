@@ -1,0 +1,10 @@
+{
+  "status": "FAILED_INPUT_AUDIT",
+  "mode": "full",
+  "error": "error in evaluating the argument 'x' in selecting a method for function 'unique': duplicated() applies only to vectors",
+  "counts_rds_read": false,
+  "formal_execution_permitted": false,
+  "QC_filtering_performed": false,
+  "normalization_performed": false,
+  "clustering_or_metrics_run": false
+}

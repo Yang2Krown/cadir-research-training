@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "checks": {
+    "metadata_modes_identical": true,
+    "NULL_sentinel_and_semantic_NULL_preserved": true,
+    "input_metadata_unchanged": true,
+    "NA_and_unassigned_preserved": true,
+    "all_44160_memberships_equal_prior": true,
+    "all_1920_candidate_labels_equal_prior": true,
+    "all_missing_and_projected_flags_equal_prior": true,
+    "explicit_cell_gene_IDs_unique": true,
+    "count_metadata_by_ID": true,
+    "full_count_legality_report": true,
+    "GEO_all_values_equal": true,
+    "metadata-only_boundary": true,
+    "metadata-only_count_access": true,
+    "metadata-only_executed_source_hashes": true,
+    "metadata-only_no_algorithm_namespace": true,
+    "full_boundary": true,
+    "full_count_access": true,
+    "full_executed_source_hashes": true,
+    "full_no_algorithm_namespace": true,
+    "metadata_only_has_no_counts_GEO_mount": true,
+    "nine_real_metadata_regressions_pass": true,
+    "regression_source_hashes_match": true,
+    "source_unchanged_coldata.rds": true,
+    "source_unchanged_counts.rds": true,
+    "source_unchanged_GSE81682_HTSeq_counts.txt.gz": true
+  },
+  "post_audit_source_integrity": [
+    {
+      "name": "coldata.rds",
+      "bytes": 182319,
+      "sha256": "16d9e3ee62d27aac74591ccddd064eb2be9b86836591c8ec99d39e1af0bf35bc",
+      "matches_pre_audit_and_receipt": true
+    },
+    {
+      "name": "counts.rds",
+      "bytes": 90044893,
+      "sha256": "6bf8a84f4db185eb6021ceb53b7d6d33083410e02a6ee7a6df2191f0bbb90563",
+      "matches_pre_audit_and_receipt": true
+    },
+    {
+      "name": "GSE81682_HTSeq_counts.txt.gz",
+      "bytes": 30236635,
+      "sha256": "e12745e4087823ae868c6fe82a38510c15730e82ee74e1983def85ed3b7df68a",
+      "matches_pre_audit_and_receipt": true
+    }
+  ],
+  "independent_review": false,
+  "formal_execution_permitted": false
+}

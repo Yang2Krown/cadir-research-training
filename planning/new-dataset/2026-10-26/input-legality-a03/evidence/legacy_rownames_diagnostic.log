@@ -1,0 +1,23 @@
+$class
+[1] "DataFrame"
+attr(,"package")
+[1] "S4Vectors"
+
+$declared_slots
+[1] "elementType"     "elementMetadata" "metadata"       
+
+$raw_type
+[1] "symbol"
+
+$raw_symbol
+[1] "\001NULL\001"
+
+$resolved_type
+[1] "NULL"
+
+$resolved_is_null
+[1] TRUE
+
+$accessor_is_null
+[1] TRUE
+

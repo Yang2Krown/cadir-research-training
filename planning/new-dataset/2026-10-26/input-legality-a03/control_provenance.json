@@ -1,0 +1,21 @@
+{
+  "base_commit": "d853986e2e3a1cabc9f3f728f616e402432257ec",
+  "control_commit": "1d99adbae456ad2b6df4898519a64ca826d878a5",
+  "formal_execution_permitted": false,
+  "documents": [
+    {
+      "control_commit": "1d99adbae456ad2b6df4898519a64ca826d878a5",
+      "source_path": "project-control/HSC扩展范围裁定-2026-10-26.md",
+      "copy": "control-inputs/HSC扩展范围裁定-2026-10-26.md",
+      "bytes": 3532,
+      "sha256": "81062e7da29b1c3d79e9786525580b65a168f2323db923bd3c688b856000c3d9"
+    },
+    {
+      "control_commit": "1d99adbae456ad2b6df4898519a64ca826d878a5",
+      "source_path": "project-control/reviews/d853986/独立审查报告.md",
+      "copy": "control-inputs/独立审查报告.md",
+      "bytes": 10315,
+      "sha256": "a64199b6e0e47fe3cb21bebac28a96b71ce1677ec08c6a38eef78dd5d6d9d3a7"
+    }
+  ]
+}

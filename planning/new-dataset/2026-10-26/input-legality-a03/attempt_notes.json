@@ -1,0 +1,11 @@
+{
+  "attempts": {
+    "metadata-only-01/full-01": "Initial implementation passed actual metadata and full count/GEO audit; source copies retained under executed-sources/attempt-01. Top NULL check used declared slotNames and was tightened later. Superseded by final attempt 03.",
+    "metadata_identity_regression": "Failed in test setup assigning legacy DataFrame listData slot; no count or experiment. Execution receipt started_at was assembled AFTER this first regression run, not a true captured start timestamp; use elapsed_seconds/log only. Original record preserved.",
+    "metadata-only-02/full-02/metadata_identity_regression_02": "Failed before count reading: raw S4 NULL sentinel was treated as a non-string ID. This fail-closed attempt prompted explicit slot resolution and raw-encoding preservation; source copies retained under executed-sources/attempt-02.",
+    "metadata-only-03/full-03/metadata_identity_regression_03": "Final source records the raw sentinel and resolves its semantic NULL through R slot(); final evidence used for conclusions."
+  },
+  "source_snapshots_note": "attempt-01/02 source copies were assembled after their respective runs, before editing those sources, not fabricated historical Git commits. Final attempt execution receipts include source hashes captured before launch.",
+  "all_failures_retained": true,
+  "formal_execution_permitted": false
+}

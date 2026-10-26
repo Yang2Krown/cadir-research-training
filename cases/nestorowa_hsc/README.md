@@ -1,30 +1,46 @@
-# Nestorowa HSC：准备阶段，正式实验阻塞
+# Nestorowa HSC：输入准备，正式执行仍禁止
 
-本目录只有公开获取、原始结构审计和协议检查脚本。**真实counts/metadata未获得，未运行任何新数据聚类或ARI/NMI；版本、QC和唯一参考标签NOT_VERIFIED。** 已取得官方ExperimentHub目录，确认EH2694/EH2695、legacy路径`scRNAseq/nestorowa-hsc/2.0.0`；下载被官方存储host的网络策略403阻塞。
+最新交付见 [A03 修复与真实输入审计](../../planning/new-dataset/2026-10-26/input-legality-a03/README.md)。
+历史准备及收据在 `planning/new-dataset/2026-10-26/metadata-preparation/`。
+已有真实文件，不再将原始下载失败记录当作当前状态。
 
-[准备与阻塞报告](../../planning/new-dataset/2026-10-26/数据准备与阻塞报告.md)、[预注册中文草案](../../planning/new-dataset/2026-10-26/pre-registration.md)、[JSON](../../planning/new-dataset/2026-10-26/pre-registration.json)、[最小网络建议](../../planning/new-dataset/2026-10-26/最小网络配置建议.md)。
+`audit_inputs.R` 分为两个明确入口，旧的三参数调用已移除：
 
-解除官方host网络阻塞后，可用现存同哈希catalog解析明确资源并下载到新外部目录：
-
-```bash
-case_dir=/workspace/cadir-next-data-plan/cases/nestorowa_hsc
-python "$case_dir/scripts/acquire_hub.py" \
-  --catalog /workspace/cadir-newdata-20261026/acquisition/experimenthub.sqlite3 \
-  --output-root /workspace/cadir-newdata-20261026/new-authorized-acquisition --download
-bash "$case_dir/scripts/run-r.sh" "$case_dir/scripts/audit_inputs.R" \
-  /workspace/cadir-newdata-20261026/new-authorized-acquisition/counts.rds \
-  /workspace/cadir-newdata-20261026/new-authorized-acquisition/coldata.rds \
-  /workspace/cadir-newdata-20261026/new-raw-audit
+```text
+Rscript --vanilla audit_inputs.R metadata-only COL_RDS MANIFEST NEW_OUT
+Rscript --vanilla audit_inputs.R full COUNTS_RDS COL_RDS GEO_GZ MANIFEST NEW_OUT
 ```
 
-所有输出目录须新建，不复用旧尝试。每次下载记录官方URL/重定向、字节/SHA、错误及原始响应，保留继承代理/TLS，单文件上限128MiB。不改路由/代理、不在错误后换镜像。Hub的fetch ID取自SQLite `rdatapaths.id`，**不能直接把EH2694当/fetch/2694**；目录结构不符则停止。
+metadata-only 不接受 count/GEO 路径。共享 `metadata_identity.R` 从嵌套
+`cell.type` 提取显式主键，核验每个字段并按 ID 对齐；保留原始顶层
+NULL、其 R 序列化表示及所有 NA，不复制 count 列名或按行数补 ID。
+缺失、重复、空 ID 或集合冲突均拒绝，并保存可用的身份差分。
 
-结构审计只检查矩阵、ID、计数、嵌套metadata并导出ID对齐和原字段；不归一化、不做QC筛选、降维、聚类或评价。嵌套FACS矩阵不被当成一个唯一类别列。原始文件及大型对象均放Git之外；当前可核验的是访问阻塞和小型合成结构测试，不是实际HSC内容审计通过。
+full 额外校验获取清单中的大小/SHA256、真实矩阵结构和唯一基因/细胞
+ID、有限非负整数，并以完整 GEO 表逐 ID 核验方向、顺序及全部数值。
+仅生成审计摘要和 ID/标签表；不筛选、归一化或生成处理后的表达矩阵。
+
+使用当前已有离线容器的例子（metadata-only 只挂载 coldata 文件）：
 
 ```bash
-python "$case_dir/scripts/check_protocol.py" \
-  /workspace/cadir-next-data-plan/planning/new-dataset/2026-10-26/pre-registration.json --require-ready
-# 当前预期退出2：数据、标签与独立审查门槛未关闭。
+python cases/nestorowa_hsc/scripts/run_input_audit.py metadata-only \
+  --metadata /workspace/nestorowa-metadata-preparation/reacquired-20261026/coldata.rds \
+  --manifest planning/new-dataset/2026-10-26/metadata-preparation/acquisition_manifest.json \
+  --output /workspace/new-hsc-metadata-audit
+
+python cases/nestorowa_hsc/scripts/run_input_audit.py full \
+  --counts /workspace/nestorowa-metadata-preparation/reacquired-20261026/counts.rds \
+  --metadata /workspace/nestorowa-metadata-preparation/reacquired-20261026/coldata.rds \
+  --geo /workspace/nestorowa-metadata-preparation/reacquired-20261026/GSE81682_HTSeq_counts.txt.gz \
+  --manifest planning/new-dataset/2026-10-26/metadata-preparation/acquisition_manifest.json \
+  --output /workspace/new-hsc-full-input-audit
 ```
 
-这里没有正式run_experiment入口；未来接口和五种子/公平基线配置已写入草案，须先完成数据/来源/标签锁及独立设计复核，再实施和冻结正式代码。保留旧case不变，不把首阶段放行当作新数据实验放行。
+输出目录及同名执行收据/日志必须不存在；失败尝试保留。容器禁网、输入与
+R 库只读，使用现有镜像，不安装包。`test_metadata_identity.R` 只对真实
+元数据的内存副本作身份验证器回归检查，不生成模拟表达矩阵或运行科研算法。
+旧 `run-r.sh` 依赖当前不存在的环境路径；本次实际执行使用新离线容器包装器，
+没有声称它可用，也没有改动历史冻结副本。
+
+完整输入合法性通过不等于 QC、data-input-lock、环境锁、正式设计或执行批准。
+`formal_execution_permitted=false`。未实现正式运行入口，不创建 PR 或组织审查。

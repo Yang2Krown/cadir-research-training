@@ -1,0 +1,10 @@
+{
+  "status": "METADATA_IDENTITY_VERIFIED_REVIEW_REQUIRED",
+  "mode": "metadata-only",
+  "counts_rds_read": false,
+  "formal_execution_permitted": false,
+  "QC_filtering_performed": false,
+  "normalization_performed": false,
+  "clustering_or_metrics_run": false,
+  "scientific_input_lock_complete": false
+}
