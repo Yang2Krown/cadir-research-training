@@ -1,0 +1,32 @@
+{
+  "started_utc": "2026-10-26T11:14:05.102750+00:00",
+  "ended_utc": "2026-10-26T11:14:05.113849+00:00",
+  "argv": [
+    "curl",
+    "--location",
+    "--fail",
+    "--silent",
+    "--show-error",
+    "--retry",
+    "0",
+    "--connect-timeout",
+    "20",
+    "--max-time",
+    "60",
+    "--proto",
+    "=https",
+    "--proto-redir",
+    "=https",
+    "--dump-header",
+    "/workspace/cadir-b7ee233-raw-independent-review-20261026/project-control/reviews/b7ee233-real-input-20261026/logs/GSE81682_HTSeq_counts.txt.gz.headers.log",
+    "--output",
+    "/workspace/cadir-b7ee233-raw-independent-data-20261026/GSE81682_HTSeq_counts.txt.gz.download.part",
+    "--write-out",
+    "%{json}",
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE81nnn/GSE81682/suppl/GSE81682_HTSeq_counts.txt.gz"
+  ],
+  "exit_code": 22,
+  "elapsed_seconds": 0.011100976000307128,
+  "stdout_bytes": 1900,
+  "stderr_bytes": 49
+}

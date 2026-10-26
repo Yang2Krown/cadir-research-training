@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-10-26T11:14:59.945111+00:00",
+  "ended_utc": "2026-10-26T11:14:59.991612+00:00",
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/cadir-b7ee233-raw-independent-source-20261026/cases/nestorowa_hsc/scripts/run_input_audit.py",
+    "metadata-only",
+    "--metadata",
+    "/workspace/cadir-b7ee233-raw-independent-data-20261026/coldata.rds",
+    "--manifest",
+    "/workspace/cadir-b7ee233-raw-independent-source-20261026/planning/new-dataset/2026-10-26/metadata-preparation/acquisition_manifest.json",
+    "--output",
+    "/workspace/cadir-b7ee233-raw-independent-review-20261026/project-control/reviews/b7ee233-real-input-20261026/entry-output/metadata-only"
+  ],
+  "exit_code": 1,
+  "elapsed_seconds": 0.046507187998940935,
+  "stdout_bytes": 0,
+  "stderr_bytes": 1129
+}

@@ -1,0 +1,9 @@
+{
+  "HTTP_PROXY": true,
+  "HTTPS_PROXY": true,
+  "NO_PROXY": true,
+  "SSL_CERT_FILE": true,
+  "CURL_CA_BUNDLE": false,
+  "REQUESTS_CA_BUNDLE": true,
+  "CODEX_PROXY_CERT": true
+}

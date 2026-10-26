@@ -1,0 +1,23 @@
+{
+  "observed_utc": "2026-10-26T11:13:54.427601+00:00",
+  "HEAD": "b7ee2335dc25ffab3a60d1feab44272d6d5a45cb",
+  "status_porcelain": "",
+  "files": {
+    "audit_inputs.R": {
+      "bytes": 7686,
+      "sha256": "63d5c3d419b34645227178bc1daaf8da04a113f13ec11c04427f709c1fef9f92"
+    },
+    "metadata_identity.R": {
+      "bytes": 5918,
+      "sha256": "aada661c76bd5d9fd5084c53572b958055d48b8e1466b6610f2de3c35cee58f5"
+    },
+    "run_input_audit.py": {
+      "bytes": 3334,
+      "sha256": "5c8e15aa5257acdf60dc1c5625af0aab99a29d16631f007e6930855846d53a3b"
+    },
+    "test_metadata_identity.R": {
+      "bytes": 3531,
+      "sha256": "5ff1aca1e931dbbe3dbecc647cd71723d07fb6383fad20aaea1033bf670deb32"
+    }
+  }
+}

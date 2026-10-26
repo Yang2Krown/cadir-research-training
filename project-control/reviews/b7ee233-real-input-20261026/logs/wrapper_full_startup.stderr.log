@@ -1,0 +1,11 @@
+Error response from daemon: No such image: cadir-r-ver:4.4.1-bioc3.19
+Traceback (most recent call last):
+  File "/workspace/cadir-b7ee233-raw-independent-source-20261026/cases/nestorowa_hsc/scripts/run_input_audit.py", line 22, in <module>
+    image_info=json.loads(subprocess.check_output(base+['image','inspect','--format','{{json .Id}}',image],env=env,text=True))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['docker', '--host=unix:///var/run/docker.sock', 'image', 'inspect', '--format', '{{json .Id}}', 'cadir-r-ver:4.4.1-bioc3.19']' returned non-zero exit status 1.

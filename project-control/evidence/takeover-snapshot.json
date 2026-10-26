@@ -164,7 +164,7 @@
     "metadata_independent_report_sha256": "a64199b6e0e47fe3cb21bebac28a96b71ce1677ec08c6a38eef78dd5d6d9d3a7",
     "real_count_values_audited": false,
     "scope_decision": "project-control/HSC扩展范围裁定-2026-10-26.md",
-    "next_action": "Independent real-input re-run in data-accessible non-implementation cloud session; no clustering",
+    "next_action": "Use historical data-success independent thread 01a17628-7dd7-75e6-a8af-ac100e658026; verify raw data and restore audit runtime prerequisites before one actual rerun; no clustering",
     "historical_extra_hosts_required_before_acquisition": [
       "mghp.osn.xsede.org",
       "ftp.ncbi.nlm.nih.gov"
@@ -175,9 +175,12 @@
     "input_audit_fix_commit": "b7ee2335dc25ffab3a60d1feab44272d6d5a45cb",
     "input_audit_fix_branch": "fix/nestorowa-input-audit-a03-20261026",
     "A03_code_review": "ACCEPTED_CODE_ONLY",
-    "A01_independent_real_input_audit": "PENDING_RAW_INDEPENDENT_RETEST",
+    "A01_independent_real_input_audit": "BLOCKED_RAW_INDEPENDENT_RETEST_NOT_EXECUTED",
     "a03_review_model": "gpt-6-luna/max after SolHigh capacity failure",
-    "a03_review": "project-control/reviews/b7ee233/独立复核报告.md"
+    "a03_review": "project-control/reviews/b7ee233/独立复核报告.md",
+    "latest_raw_review_commit": "f49a2e5d0a4676ef181cc2742f1ddcc5db8be6e2",
+    "latest_raw_review_thread": "01a17613-eecc-7235-8766-4a67624c3027",
+    "latest_raw_review": "project-control/reviews/b7ee233-real-input-20261026/独立复跑报告.md"
   },
-  "last_updated_at": "2026-10-26 15:35（Asia/Shanghai）"
+  "last_updated_at": "2026-10-26T19:30:36.347058+08:00"
 }

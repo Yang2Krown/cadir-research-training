@@ -1,0 +1,162 @@
+[
+  {
+    "mode": "metadata-only",
+    "classification": "WRAPPER_PRECONDITION_FAILED_NOT_REAL_INPUT_RERUN",
+    "execution": {
+      "started_utc": "2026-10-26T11:14:59.945111+00:00",
+      "ended_utc": "2026-10-26T11:14:59.991612+00:00",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/cadir-b7ee233-raw-independent-source-20261026/cases/nestorowa_hsc/scripts/run_input_audit.py",
+        "metadata-only",
+        "--metadata",
+        "/workspace/cadir-b7ee233-raw-independent-data-20261026/coldata.rds",
+        "--manifest",
+        "/workspace/cadir-b7ee233-raw-independent-source-20261026/planning/new-dataset/2026-10-26/metadata-preparation/acquisition_manifest.json",
+        "--output",
+        "/workspace/cadir-b7ee233-raw-independent-review-20261026/project-control/reviews/b7ee233-real-input-20261026/entry-output/metadata-only"
+      ],
+      "exit_code": 1,
+      "elapsed_seconds": 0.046507187998940935,
+      "stdout_bytes": 0,
+      "stderr_bytes": 1129
+    },
+    "source_before": {
+      "observed_utc": "2026-10-26T11:14:59.936220+00:00",
+      "HEAD": "b7ee2335dc25ffab3a60d1feab44272d6d5a45cb",
+      "status_porcelain": "",
+      "files": {
+        "audit_inputs.R": {
+          "bytes": 7686,
+          "sha256": "63d5c3d419b34645227178bc1daaf8da04a113f13ec11c04427f709c1fef9f92"
+        },
+        "metadata_identity.R": {
+          "bytes": 5918,
+          "sha256": "aada661c76bd5d9fd5084c53572b958055d48b8e1466b6610f2de3c35cee58f5"
+        },
+        "run_input_audit.py": {
+          "bytes": 3334,
+          "sha256": "5c8e15aa5257acdf60dc1c5625af0aab99a29d16631f007e6930855846d53a3b"
+        },
+        "test_metadata_identity.R": {
+          "bytes": 3531,
+          "sha256": "5ff1aca1e931dbbe3dbecc647cd71723d07fb6383fad20aaea1033bf670deb32"
+        }
+      }
+    },
+    "source_after": {
+      "observed_utc": "2026-10-26T11:14:59.991788+00:00",
+      "HEAD": "b7ee2335dc25ffab3a60d1feab44272d6d5a45cb",
+      "status_porcelain": "",
+      "files": {
+        "audit_inputs.R": {
+          "bytes": 7686,
+          "sha256": "63d5c3d419b34645227178bc1daaf8da04a113f13ec11c04427f709c1fef9f92"
+        },
+        "metadata_identity.R": {
+          "bytes": 5918,
+          "sha256": "aada661c76bd5d9fd5084c53572b958055d48b8e1466b6610f2de3c35cee58f5"
+        },
+        "run_input_audit.py": {
+          "bytes": 3334,
+          "sha256": "5c8e15aa5257acdf60dc1c5625af0aab99a29d16631f007e6930855846d53a3b"
+        },
+        "test_metadata_identity.R": {
+          "bytes": 3531,
+          "sha256": "5ff1aca1e931dbbe3dbecc647cd71723d07fb6383fad20aaea1033bf670deb32"
+        }
+      }
+    },
+    "intended_raw_input_paths_exist": {
+      "/workspace/cadir-b7ee233-raw-independent-data-20261026/coldata.rds": false
+    },
+    "output_directory_exists": false,
+    "target_execution_receipt_exists": false,
+    "target_console_log_exists": false,
+    "raw_content_inspected": false,
+    "audit_completed": false
+  },
+  {
+    "mode": "full",
+    "classification": "WRAPPER_PRECONDITION_FAILED_NOT_REAL_INPUT_RERUN",
+    "execution": {
+      "started_utc": "2026-10-26T11:15:00.003794+00:00",
+      "ended_utc": "2026-10-26T11:15:00.048758+00:00",
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/cadir-b7ee233-raw-independent-source-20261026/cases/nestorowa_hsc/scripts/run_input_audit.py",
+        "full",
+        "--metadata",
+        "/workspace/cadir-b7ee233-raw-independent-data-20261026/coldata.rds",
+        "--manifest",
+        "/workspace/cadir-b7ee233-raw-independent-source-20261026/planning/new-dataset/2026-10-26/metadata-preparation/acquisition_manifest.json",
+        "--output",
+        "/workspace/cadir-b7ee233-raw-independent-review-20261026/project-control/reviews/b7ee233-real-input-20261026/entry-output/full",
+        "--counts",
+        "/workspace/cadir-b7ee233-raw-independent-data-20261026/counts.rds",
+        "--geo",
+        "/workspace/cadir-b7ee233-raw-independent-data-20261026/GSE81682_HTSeq_counts.txt.gz"
+      ],
+      "exit_code": 1,
+      "elapsed_seconds": 0.044969881000724854,
+      "stdout_bytes": 0,
+      "stderr_bytes": 1129
+    },
+    "source_before": {
+      "observed_utc": "2026-10-26T11:14:59.997872+00:00",
+      "HEAD": "b7ee2335dc25ffab3a60d1feab44272d6d5a45cb",
+      "status_porcelain": "",
+      "files": {
+        "audit_inputs.R": {
+          "bytes": 7686,
+          "sha256": "63d5c3d419b34645227178bc1daaf8da04a113f13ec11c04427f709c1fef9f92"
+        },
+        "metadata_identity.R": {
+          "bytes": 5918,
+          "sha256": "aada661c76bd5d9fd5084c53572b958055d48b8e1466b6610f2de3c35cee58f5"
+        },
+        "run_input_audit.py": {
+          "bytes": 3334,
+          "sha256": "5c8e15aa5257acdf60dc1c5625af0aab99a29d16631f007e6930855846d53a3b"
+        },
+        "test_metadata_identity.R": {
+          "bytes": 3531,
+          "sha256": "5ff1aca1e931dbbe3dbecc647cd71723d07fb6383fad20aaea1033bf670deb32"
+        }
+      }
+    },
+    "source_after": {
+      "observed_utc": "2026-10-26T11:15:00.048878+00:00",
+      "HEAD": "b7ee2335dc25ffab3a60d1feab44272d6d5a45cb",
+      "status_porcelain": "",
+      "files": {
+        "audit_inputs.R": {
+          "bytes": 7686,
+          "sha256": "63d5c3d419b34645227178bc1daaf8da04a113f13ec11c04427f709c1fef9f92"
+        },
+        "metadata_identity.R": {
+          "bytes": 5918,
+          "sha256": "aada661c76bd5d9fd5084c53572b958055d48b8e1466b6610f2de3c35cee58f5"
+        },
+        "run_input_audit.py": {
+          "bytes": 3334,
+          "sha256": "5c8e15aa5257acdf60dc1c5625af0aab99a29d16631f007e6930855846d53a3b"
+        },
+        "test_metadata_identity.R": {
+          "bytes": 3531,
+          "sha256": "5ff1aca1e931dbbe3dbecc647cd71723d07fb6383fad20aaea1033bf670deb32"
+        }
+      }
+    },
+    "intended_raw_input_paths_exist": {
+      "/workspace/cadir-b7ee233-raw-independent-data-20261026/counts.rds": false,
+      "/workspace/cadir-b7ee233-raw-independent-data-20261026/coldata.rds": false,
+      "/workspace/cadir-b7ee233-raw-independent-data-20261026/GSE81682_HTSeq_counts.txt.gz": false
+    },
+    "output_directory_exists": false,
+    "target_execution_receipt_exists": false,
+    "target_console_log_exists": false,
+    "raw_content_inspected": false,
+    "audit_completed": false
+  }
+]

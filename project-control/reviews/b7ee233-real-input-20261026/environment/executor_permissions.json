@@ -1,0 +1,26 @@
+{
+  "network_acquisition_exec": {
+    "sandbox_permissions": "with_additional_permissions",
+    "additional_permissions": {
+      "network": {
+        "enabled": true
+      }
+    },
+    "command": "python /workspace/cadir-b7ee233-raw-independent-review-20261026/project-control/reviews/b7ee233-real-input-20261026/scripts/independent_receipts.py acquire"
+  },
+  "docker_permission_enabled_probe": true,
+  "fixed_wrapper_startup_probes": {
+    "sandbox_permissions": "with_additional_permissions",
+    "additional_permissions": {
+      "network": {
+        "enabled": true
+      }
+    },
+    "command": "python /workspace/cadir-b7ee233-raw-independent-review-20261026/project-control/reviews/b7ee233-real-input-20261026/scripts/entry_startup_probes.py"
+  },
+  "inherit_proxy": true,
+  "inherit_tls_trust": true,
+  "tls_verification_disabled": false,
+  "retry": 0,
+  "alternate_host_attempts": 0
+}

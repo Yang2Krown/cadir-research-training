@@ -1,0 +1,16 @@
+{
+  "observed_utc": "2026-10-26T11:15:00.387817+00:00",
+  "files": {
+    "/workspace/cadir-b7ee233-raw-independent-data-20261026/counts.rds": {
+      "exists": false
+    },
+    "/workspace/cadir-b7ee233-raw-independent-data-20261026/coldata.rds": {
+      "exists": false
+    },
+    "/workspace/cadir-b7ee233-raw-independent-data-20261026/GSE81682_HTSeq_counts.txt.gz": {
+      "exists": false
+    }
+  },
+  "raw_sha_recomputed": false,
+  "unavailable_hashes_are_not_claimed": true
+}

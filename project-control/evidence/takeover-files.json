@@ -6,8 +6,8 @@
   },
   {
     "path": "project-control/AI使用与调度记录.md",
-    "bytes": 6679,
-    "sha256": "773022b4e8d0fbeab9518092427389827d59cdc7ae632c58d547c8a5ca191180"
+    "bytes": 7228,
+    "sha256": "1d52e2f472edc7983cc1ebd7bbbb81915b8acb3b4356c72938cce0e0bfb83e23"
   },
   {
     "path": "project-control/HSC扩展范围裁定-2026-10-26.md",
@@ -21,13 +21,18 @@
   },
   {
     "path": "project-control/README.md",
-    "bytes": 12846,
-    "sha256": "feadf644bb4937934182eb337552a06092b1341fad5bf7f1893f3fed4d079a70"
+    "bytes": 13223,
+    "sha256": "df19d420d2837376928c53a8b7d665ece6f849ed3651c6d3a45e2ba84c7fee99"
   },
   {
     "path": "project-control/board-sync/b7ee233-状态变更.json",
     "bytes": 688,
     "sha256": "bcb44110ad665cf9d8f76ab6388e4cf9a4493fdeb04feec12a46d07d2cfaa9fe"
+  },
+  {
+    "path": "project-control/board-sync/f49a2e5-状态变更.json",
+    "bytes": 562,
+    "sha256": "af37ae816b1bfb311db1fac795c3018435e5f313e5981fbb29db24710d578d75"
   },
   {
     "path": "project-control/evidence/R3-2026-10-26/intake.json",
@@ -46,8 +51,8 @@
   },
   {
     "path": "project-control/evidence/takeover-snapshot.json",
-    "bytes": 7711,
-    "sha256": "3f6cafa7353a11ce6b33d77ff8465a5d54df08490923ea91d1fe0a667bcafc0f"
+    "bytes": 8054,
+    "sha256": "21d7c2f4af7276b157c032cf5f6fb81e5acf8f58d0b2f70e4541b6c424fc7a3e"
   },
   {
     "path": "project-control/preparations/d853986/decision_register.tsv",
@@ -790,6 +795,451 @@
     "sha256": "b100994f0c4e3828214803efd683c904777982dbc6f398687214e3128eb56879"
   },
   {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/README.md",
+    "bytes": 1820,
+    "sha256": "d6a1609f2f9b4b9fad8eef4db9ec55eb379d687ffef2ea4adf7effeed534515b"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/acquisition_attempts.json",
+    "bytes": 9135,
+    "sha256": "3eab030beb749caceed00d270cb4baadf2affd5c06cf6fee6e0373ce7d231172"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/acquisition_manifest.target.json",
+    "bytes": 5203,
+    "sha256": "6ca3abcfdc7662814d054870cb3d3c7d24db91a9d5ecfe0884464ba980650d20"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/difference_table.tsv",
+    "bytes": 633,
+    "sha256": "69e3159bdd0795d7d4b756b5f40ff33bab315a6a236b4ba35d9eb506029c4404"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/entry_startup_probes.json",
+    "bytes": 6403,
+    "sha256": "4a85ecde99cbe6fc069b15ca0010bb8e01b572e3e34f171bee3c4f79a1cd6dad"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/environment/environment_status.json",
+    "bytes": 8375,
+    "sha256": "c580dd3339428626c39bd3f7e9d4c0fe4720114905d38f044c4e984d8ffb707b"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/environment/executor_permissions.json",
+    "bytes": 896,
+    "sha256": "298657f15a27071b4616ebe5a8db81b25236eaf3f951337908cb5dd4bb61db97"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/environment/network-policy.json",
+    "bytes": 8404,
+    "sha256": "50b6f43d2360aa5abcc712f7e06ac60f72c593f511072d5e26674d43d90c91dc"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/environment/runtime_variables_presence.json",
+    "bytes": 178,
+    "sha256": "b3b8552eaa5eb61dc982e211673bbca66e8bc8be4b37583d2e35a7b1f1522e6d"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/fixed_refs.json",
+    "bytes": 501,
+    "sha256": "41728b440bdc6b4c18eff9e661f34911eb077c194e9dee44dadbdb24887ed766"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/GSE81682_HTSeq_counts.txt.execution.json",
+    "bytes": 900,
+    "sha256": "9f3e7d19f42a7785f9bd01e2e4e203a87c409ac5c57cd0000ac012274e668eff"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/GSE81682_HTSeq_counts.txt.gz.headers.log",
+    "bytes": 143,
+    "sha256": "0bcb206b95ef83144586878212ad157e0f0778f53f6a0c6cfc202205c49cbf2d"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/GSE81682_HTSeq_counts.txt.stderr.log",
+    "bytes": 49,
+    "sha256": "e85a8cbf6458f846675a9fd218c04399e808ed1f6629e19c4dd964125cd967c9"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/GSE81682_HTSeq_counts.txt.stdout.log",
+    "bytes": 1900,
+    "sha256": "09fc5539464121298bafbaf9d01daed66f3ccbcae083863066c5bedb2a61b334"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/R_actual_packages.execution.json",
+    "bytes": 635,
+    "sha256": "7832b8023de32134fba90280bc9ef8709b57255309743a11253d638cb000f3e7"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/R_actual_packages.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/R_actual_packages.stdout.log",
+    "bytes": 1245,
+    "sha256": "f8108bd3629dfd5175f414db1c594b78a5ced25d3f43559ee2e7f983127ec404"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/R_version.execution.json",
+    "bytes": 301,
+    "sha256": "0357956b4ba7c8fc58d2dfa4bee18ba6861e4f2f7e12372aa9f475d8cf2ec076"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/R_version.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/R_version.stdout.log",
+    "bytes": 39,
+    "sha256": "0dcbe61ae0f6a6010582100033f3540f7e6c9dee0499236137d4a44e5bf19100"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/coldata.execution.json",
+    "bytes": 873,
+    "sha256": "017ee35490fa2d2e42c693e35f06aea23dd272c5e910f23c493e77f3913b42fb"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/coldata.rds.headers.log",
+    "bytes": 143,
+    "sha256": "0bcb206b95ef83144586878212ad157e0f0778f53f6a0c6cfc202205c49cbf2d"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/coldata.stderr.log",
+    "bytes": 49,
+    "sha256": "e85a8cbf6458f846675a9fd218c04399e808ed1f6629e19c4dd964125cd967c9"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/coldata.stdout.log",
+    "bytes": 1915,
+    "sha256": "b0e2ea78c3ba0645ab20298878013f5bf562fbc62787711c3583b995c1a99a3f"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/counts.execution.json",
+    "bytes": 871,
+    "sha256": "444d04fcf998991512b345705df68ca3462477004a8a18b96e1fc2ac6ee95cf5"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/counts.rds.headers.log",
+    "bytes": 143,
+    "sha256": "0bcb206b95ef83144586878212ad157e0f0778f53f6a0c6cfc202205c49cbf2d"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/counts.stderr.log",
+    "bytes": 49,
+    "sha256": "e85a8cbf6458f846675a9fd218c04399e808ed1f6629e19c4dd964125cd967c9"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/counts.stdout.log",
+    "bytes": 1910,
+    "sha256": "2f921df24e599e54775c4fe46074186aa6554d0f8309912f57fec548c60bb31f"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/curl_version.execution.json",
+    "bytes": 257,
+    "sha256": "fed3f87ba59fc8f84a33deb3f73c821e1d1a542f2a75bc569bc136cf9dc97ca8"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/curl_version.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/curl_version.stdout.log",
+    "bytes": 582,
+    "sha256": "340e8d38bf1c862292a3e712514855ea3cb962de7abceb713a7eb37973a91ed6"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/docker_image_inspect.execution.json",
+    "bytes": 381,
+    "sha256": "d9d1bd985e23747111d4a91ec078c6d2a93bff17e0597e9d3ed53aa0d253969d"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/docker_image_inspect.stderr.log",
+    "bytes": 253,
+    "sha256": "a919531294f660a1476bf713a0898001c650569d1492950e6182093cfc46de88"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/docker_image_inspect.stdout.log",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/docker_image_permission_enabled.execution.json",
+    "bytes": 380,
+    "sha256": "47a73e5681bd89c6980f30a695f5e50097f243f4472eb0219aa5310698a59c8c"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/docker_image_permission_enabled.stderr.log",
+    "bytes": 70,
+    "sha256": "4b184a9a3174f364b16b7aba4897c8538907c3d9975a176c87e0714718edc466"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/docker_image_permission_enabled.stdout.log",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/docker_info.execution.json",
+    "bytes": 297,
+    "sha256": "2d6c8d834846b8591ccbf89d852c5d3f261f7da2d9552f9423610c2f4b420fc2"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/docker_info.stderr.log",
+    "bytes": 219,
+    "sha256": "cd9156c1cfa0ca25ebe27f3ac9816926cd7e8ec7685975b31c4bce1e4cfb3bdd"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/docker_info.stdout.log",
+    "bytes": 330,
+    "sha256": "b275ad89bd1814775b11cff96c674f846f4e76eb31fa7ac4df6014f28b0c652a"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/docker_info_permission_enabled.execution.json",
+    "bytes": 296,
+    "sha256": "333d606e2e20ea78fd6583cb977fe2d01f79cbde3034b98ffcc7b7f09df8e5fd"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/docker_info_permission_enabled.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/docker_info_permission_enabled.stdout.log",
+    "bytes": 1503,
+    "sha256": "57a0d970a9d8420bd7d2e0e18693c7c62d87e1c982ec0fa1bbc8cfe392b217bb"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/host_identity.execution.json",
+    "bytes": 238,
+    "sha256": "e133aa26a0728aa2fee933f6ed315d48519374a83b234cae8c7a0f29e36813f3"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/host_identity.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/host_identity.stdout.log",
+    "bytes": 51,
+    "sha256": "924734f21bac5059b74fc00d7bc690dd998347a52bfab79cba2ea0ff0ff08864"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/host_uname.execution.json",
+    "bytes": 250,
+    "sha256": "ba62f206f0c643b2663b2e52791456b6cc8a37b9f9aeafeb3bda5f6005116e7e"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/host_uname.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/host_uname.stdout.log",
+    "bytes": 80,
+    "sha256": "654994f076ce289c7b3dcd4882f33e5bf72d2287d396431f7ae859c1670f139f"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/real_file_search.execution.json",
+    "bytes": 418,
+    "sha256": "23fd13c1e07cb23f6a33f012fe84e91b48a813380f0fa5785331d6f4fe002a96"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/real_file_search.stderr.log",
+    "bytes": 9385,
+    "sha256": "e3b78aa118a22644145823fdcf1c6b74d78d8652968bdcd3cd8dff3004f5fc25"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/real_file_search.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/real_file_search_no_follow.execution.json",
+    "bytes": 406,
+    "sha256": "c9ebbebc3edc599aed13915d13a7a570392b9575810e69c44dff0640eda05edd"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/real_file_search_no_follow.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/real_file_search_no_follow.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/review_verification.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/review_verification.stdout.log",
+    "bytes": 1535,
+    "sha256": "25a19d23a557f517d432b38956d25f276205381acdb686bc4228ceb22605440f"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/wrapper_full_startup.execution.json",
+    "bytes": 1028,
+    "sha256": "7e15a23dff2a3169708c7f69e9eb25b05452de7d33e06e4d0385578e0b4df010"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/wrapper_full_startup.stderr.log",
+    "bytes": 1129,
+    "sha256": "9f9b4b9924f14e266f2a9bcc7a97a8a7ba290b02ee9837416d044276e6190efe"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/wrapper_full_startup.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/wrapper_metadata-only_startup.execution.json",
+    "bytes": 853,
+    "sha256": "8d57abf2df71a5daa38f9a445f6e03346d1dea9f17ddf67fbbda86ca58d5b913"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/wrapper_metadata-only_startup.stderr.log",
+    "bytes": 1129,
+    "sha256": "9f9b4b9924f14e266f2a9bcc7a97a8a7ba290b02ee9837416d044276e6190efe"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/logs/wrapper_metadata-only_startup.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/original_worktree_protection.json",
+    "bytes": 717,
+    "sha256": "7b7abaa0efab903de3d0e274ab0a7780ecc004a04a67165d1f79c91e821f0ba6"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/preserved-target-source/audit_inputs.R",
+    "bytes": 7686,
+    "sha256": "63d5c3d419b34645227178bc1daaf8da04a113f13ec11c04427f709c1fef9f92"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/preserved-target-source/metadata_identity.R",
+    "bytes": 5918,
+    "sha256": "aada661c76bd5d9fd5084c53572b958055d48b8e1466b6610f2de3c35cee58f5"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/preserved-target-source/run_input_audit.py",
+    "bytes": 3334,
+    "sha256": "5c8e15aa5257acdf60dc1c5625af0aab99a29d16631f007e6930855846d53a3b"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/preserved-target-source/test_metadata_identity.R",
+    "bytes": 3531,
+    "sha256": "5ff1aca1e931dbbe3dbecc647cd71723d07fb6383fad20aaea1033bf670deb32"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/real_file_availability.after.json",
+    "bytes": 482,
+    "sha256": "2e98710dab2d491c6b4e00868cc89259992d8d9ad33a672d87353779feca6a16"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/real_file_availability.before.json",
+    "bytes": 9936,
+    "sha256": "5a5b83ca9c8e3f2257fa7c8f1e8ecff6ee15040612bb6d8b0dfb0e1bd2e0047c"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/real_file_search_no_follow.json",
+    "bytes": 501,
+    "sha256": "ed8ca52cdc6c894d302dbcf4cd290964cb44aa3264c4c651f920323aaa2aae4c"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/record-only/implementation.full-03.execution.json",
+    "bytes": 2251,
+    "sha256": "ad092c03839e46a99bdc8ae6583d4e30af88c562834eb44544bd38812b624c9c"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/record-only/implementation.full-03.runtime.json",
+    "bytes": 518,
+    "sha256": "3b23ddafa8110d97ac2fcf377b1abe8b05929a1f0963e812bcc6a297f91328a6"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/review_hashes.tsv",
+    "bytes": 9123,
+    "sha256": "877566b5aea59a5010a8bf343b417c58f8565b9a8ed9b412c2b67a5323940530"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/review_result.json",
+    "bytes": 1842,
+    "sha256": "e3f1eebc84b86fc35df9727e1ccb70fdc633d77dcfc08e531aaad1b2b669f655"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/runtime_difference.tsv",
+    "bytes": 430,
+    "sha256": "88f5e21c6d2944e4e6349b6a62eb1ff1d20d60f81f233ceb8a5e6c93d7ab4a0c"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/scope/A03代码复核与真实输入待复跑-2026-10-26.md",
+    "bytes": 1689,
+    "sha256": "d23026f06458401ab375c9aa4b5479911034b102e28b1b2168051815ca874438"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/scope/HSC扩展范围裁定-2026-10-26.md",
+    "bytes": 3532,
+    "sha256": "81062e7da29b1c3d79e9786525580b65a168f2323db923bd3c688b856000c3d9"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/scope/read_materials.json",
+    "bytes": 1631,
+    "sha256": "213960cbdf149859069180829b1a77ab104c107653f8b88d144dbda2a7737961"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/scope/独立复核报告.md",
+    "bytes": 5967,
+    "sha256": "b100994f0c4e3828214803efd683c904777982dbc6f398687214e3128eb56879"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/scope/独立真实输入复跑任务-b7ee233.md",
+    "bytes": 3517,
+    "sha256": "3f6fee3a0bc228ada5668826a31d213d97aaf7386e68c68f209d7b02570b55cd"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/scripts/entry_startup_probes.py",
+    "bytes": 1959,
+    "sha256": "2bf7a65fda26d26887f0c485f524a88e018cd8cdc3845a3dd222282dffb53638"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/scripts/independent_receipts.py",
+    "bytes": 10003,
+    "sha256": "f800ce56e2e4cc8575eb9cb4779841f2ba5efda914f3f968e35a09f2cd17a6fa"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/scripts/verify_review.py",
+    "bytes": 3450,
+    "sha256": "5f93196f7b9953dfe89994eb3b27e4f07ce5b334c3911e1926ab08ead6fd5017"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/source_after.json",
+    "bytes": 713,
+    "sha256": "382013255e74f8e5422b0f5e9b71d8ce9e03261db45b8a6a8e5d0d1f2f35edee"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/source_before.json",
+    "bytes": 713,
+    "sha256": "9ca6311be46ad137924cf47afbcc961e6b665d47a7fda314a265b50f12be2472"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/source_preservation.json",
+    "bytes": 106,
+    "sha256": "782f2a8303558e2831fef3858f025664c204bb883fd5ade638ac4f623a9e5303"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/verification_matrix.tsv",
+    "bytes": 2776,
+    "sha256": "94c69e5efa39948df9bafa96b321deb7ab15d7d8b421379024ec318091af9118"
+  },
+  {
+    "path": "project-control/reviews/b7ee233-real-input-20261026/独立复跑报告.md",
+    "bytes": 6025,
+    "sha256": "6147839e4c02ab585e541623e28cb6d486e934b3953d61dd6b3835a2ddedf49e"
+  },
+  {
     "path": "project-control/reviews/d853986/.gitattributes",
     "bytes": 59,
     "sha256": "47ea317d53146ac16ef76c4a47f81fc62cde346393c0fd4e4af967a35be71e17"
@@ -898,6 +1348,11 @@
     "path": "project-control/独立真实输入复跑任务-b7ee233.md",
     "bytes": 3517,
     "sha256": "3f6fee3a0bc228ada5668826a31d213d97aaf7386e68c68f209d7b02570b55cd"
+  },
+  {
+    "path": "project-control/真实输入复跑阻塞结论-2026-10-26.md",
+    "bytes": 2482,
+    "sha256": "e54e1e7ba39856be9c42eb96a6de4963fe9f273f7a0c3908c7b74886cf0edfd1"
   },
   {
     "path": "project-control/项目组织者交接Prompt-会话记录恢复.md",

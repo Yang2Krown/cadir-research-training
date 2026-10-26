@@ -1,0 +1,22 @@
+{
+  "started_utc": "2026-10-26T11:13:54.469374+00:00",
+  "ended_utc": "2026-10-26T11:13:54.630211+00:00",
+  "argv": [
+    "rg",
+    "--files",
+    "--hidden",
+    "--no-ignore",
+    "-L",
+    "/workspace",
+    "-g",
+    "counts.rds",
+    "-g",
+    "coldata.rds",
+    "-g",
+    "GSE81682_HTSeq_counts.txt.gz"
+  ],
+  "exit_code": 2,
+  "elapsed_seconds": 0.1608430460000818,
+  "stdout_bytes": 0,
+  "stderr_bytes": 9385
+}

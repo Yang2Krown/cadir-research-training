@@ -1,0 +1,49 @@
+{
+  "target_commit": "b7ee2335dc25ffab3a60d1feab44272d6d5a45cb",
+  "baseline_commit": "d853986e2e3a1cabc9f3f728f616e402432257ec",
+  "control_base_commit": "2d97dc8bd3cd70f2cedfa413c8b0446722aef843",
+  "review_branch": "review/raw-input-b7ee233-20261026",
+  "overall": "BLOCKED",
+  "stage": "CODE_REVIEW_ACCEPTED_RAW_INDEPENDENT_RETEST_PENDING",
+  "A01_can_close": false,
+  "A03_new_raw_independent_verification": false,
+  "real_raw_files_available": false,
+  "official_url_attempts": 3,
+  "proxy_connect_statuses": [
+    403,
+    403,
+    403
+  ],
+  "downloaded_raw_bytes": 0,
+  "wrapper_startup_exit_codes": {
+    "metadata-only": 1,
+    "full": 1
+  },
+  "real_input_audits_completed": 0,
+  "real_metadata_negative_tests_completed": 0,
+  "counts_simulation_used": false,
+  "synthetic_metadata_used": false,
+  "implementation_verifier_invoked": false,
+  "formal_execution_permitted": false,
+  "QC_filtering_performed": false,
+  "normalization_performed": false,
+  "CAdir_APL_CA_PCA_clustering_metrics_performed": false,
+  "smoke_performed": false,
+  "scientific_input_lock_complete": false,
+  "unverified_real_input_requirements": [
+    "real_input_file_size_sha256",
+    "real_coldata_raw_and_semantic_NULL",
+    "real_three_nested_explicit_ID_NA_members_candidates",
+    "counts_structure_explicit_gene_cell_ID",
+    "all_counts_finite_nonnegative_integer",
+    "GEO_all_explicit_ID_and_each_value_vs_RDS",
+    "real_metadata_only_byte_isolation",
+    "real_full_audit_and_raw_hash_preservation",
+    "real_metadata_memory_reorder_duplicate_missing_conflict"
+  ],
+  "blocking_causes": [
+    "No matching raw objects in accessible workspace",
+    "All three exact official URLs denied by proxy CONNECT403 with executor network permission enabled",
+    "Fixed wrapper Docker image absent; wrapper fails before creating its own receipt"
+  ]
+}

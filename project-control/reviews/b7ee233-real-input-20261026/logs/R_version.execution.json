@@ -1,0 +1,12 @@
+{
+  "started_utc": "2026-10-26T11:13:54.713310+00:00",
+  "ended_utc": "2026-10-26T11:13:54.715011+00:00",
+  "argv": [
+    "/workspace/cadir-env/skeleton_runtime/bin/Rscript",
+    "--version"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.001703264999378007,
+  "stdout_bytes": 39,
+  "stderr_bytes": 0
+}
