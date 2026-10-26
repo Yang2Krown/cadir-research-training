@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1014418.s001&type=supplementary",
+    "status": "WEB_TOOL_INACCESSIBLE",
+    "official_S1_full_text_read": false
+  },
+  {
+    "url": "https://blood.stemcells.cam.ac.uk/single_cell_atlas.html#data",
+    "status": "READ_PRIMARY_AUTHOR_WEBSITE",
+    "findings": "Index-sort broad/narrow gate memberships can overlap; author website notes corrected earlier expression records; exact downloaded matrix/label mapping not verified."
+  },
+  {
+    "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014418",
+    "status": "READ_RECOVERY_PARAGRAPH",
+    "findings": "Recovery: 15771 genes x 39207 cells. Table2 numeric cells not extracted by this followup; preserve orientation/scope doubt in prior 15771x44104 report."
+  }
+]

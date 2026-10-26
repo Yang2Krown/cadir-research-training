@@ -1,0 +1,41 @@
+$deferred
+[1] FALSE
+
+$fold
+[1] Inf
+
+$extra.work
+[1] 7
+
+$...
+
+
+$graph
+
+
+$weights
+NULL
+
+$resolution
+[1] 1
+
+$x
+
+
+$...
+
+
+$d
+[1] 50
+
+$transposed
+[1] FALSE
+
+$subset.row
+NULL
+
+$BSPARAM
+bsparam()
+
+$BPPARAM
+SerialParam()

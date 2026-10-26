@@ -306,5 +306,24 @@
     "actual_spawn_configuration": "gpt-6-luna / max (parent reports successful spawn with model=gpt-6-luna and reasoning_effort=max)",
     "independently_queryable_in_child_runtime": false,
     "note": "子任务执行环境未向 agent 暴露实际 model/thinking 配置查询字段；实际配置依据主控 spawn 调用回传登记。"
+  },
+  "preparation_followup": {
+    "status": "REAL_DATA_NOT_RECEIVED_FORMAL_EXPERIMENT_BLOCKED",
+    "report": "数据准备与阻塞报告.md",
+    "protocol": "pre-registration.json",
+    "official_catalog_downloaded": true,
+    "hub_catalog_sha256": "1c0786502f29cf67b892d7452dc03d29af6c1dda82ddd89118a4d79d10a83c4e",
+    "logical_resources": [
+      "EH2694",
+      "EH2695"
+    ],
+    "correct_fetch_ids": [
+      2710,
+      2711
+    ],
+    "raw_shape_QC_labels": "NOT_VERIFIED",
+    "official_supplement_full_text_read": false,
+    "tabula_muris_full_table2_direction_and_scope": "UNRESOLVED; original table entry retained as prior report, not newly verified; recovery paragraph is genes x cells 15771 x 39207",
+    "clustering_or_evaluation_run": false
   }
 }
