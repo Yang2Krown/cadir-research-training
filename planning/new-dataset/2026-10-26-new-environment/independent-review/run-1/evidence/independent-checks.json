@@ -1,0 +1,300 @@
+{
+  "reviewed_sha": "e987d4c10c65e54977d44790a13c3be5da2518f8",
+  "baseline_sha": "122fdbf2986f3791917197385f8d07ba0a75fce6",
+  "completed_utc": "2026-10-26T02:49:14.818710+00:00",
+  "checks": [
+    {
+      "check": "exact_detached_target",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "initial_worktree_clean",
+      "pass": true,
+      "details": ""
+    },
+    {
+      "check": "only_additions_under_new_directory",
+      "pass": true,
+      "details": [
+        "A\tplanning/new-dataset/2026-10-26-new-environment/.gitattributes",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/README.md",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/acquisition/acquisition_plan.json",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/acquisition/audit_status.json",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/acquisition/catalog-receipt.json",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/acquisition/coldata-receipt.json",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/acquisition/geo-receipt.json",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/acquisition/hub-counts-receipt.json",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/checks/executions.json",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/checks/missing-real-inputs.stderr.txt",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/checks/missing-real-inputs.stdout.txt",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/checks/offline-mapping.stderr.txt",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/checks/offline-mapping.stdout.txt",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/checks/protocol-gate.stderr.txt",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/checks/protocol-gate.stdout.txt",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/external-artifacts.json",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/coldata-network-enabled.headers.txt",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/coldata-network-enabled.request.json",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/coldata-network-enabled.stderr.txt",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/coldata.headers.txt",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/coldata.request.json",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/coldata.stderr.txt",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/counts-network-enabled.headers.txt",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/counts-network-enabled.request.json",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/counts-network-enabled.stderr.txt",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/counts.headers.txt",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/counts.request.json",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/counts.stderr.txt",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/environment-status-recheck.json",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/environment-status.json",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/fetch-2710.headers.txt",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/fetch-2710.request.json",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/fetch-2710.stderr.txt",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/fetch-2711.headers.txt",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/fetch-2711.request.json",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/fetch-2711.stderr.txt",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/geo-network-enabled.headers.txt",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/geo-network-enabled.request.json",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/geo-network-enabled.stderr.txt",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/geo.headers.txt",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/geo.request.json",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/geo.stderr.txt",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/network/network-policy.json",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/protected-files.json",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence/remote-refs.json",
+        "A\tplanning/new-dataset/2026-10-26-new-environment/evidence_index.json"
+      ]
+    },
+    {
+      "check": "expected_46_additions",
+      "pass": true,
+      "details": 46
+    },
+    {
+      "check": "baseline_365_files",
+      "pass": true,
+      "details": 365
+    },
+    {
+      "check": "protection_manifest_covers_entire_baseline",
+      "pass": true,
+      "details": 365
+    },
+    {
+      "check": "all_365_baseline_files_byte_preserved",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "implementation_index_complete_except_self",
+      "pass": true,
+      "details": {
+        "indexed": 45,
+        "actual": 46
+      }
+    },
+    {
+      "check": "all_lightweight_index_hashes",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "all_8_external_artifacts",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "catalog_bytes_and_hash",
+      "pass": true,
+      "details": {
+        "path": "/workspace/cadir-validation-20261026/data/experimenthub.sqlite3",
+        "bytes": 10378240,
+        "sha256": "1c0786502f29cf67b892d7452dc03d29af6c1dda82ddd89118a4d79d10a83c4e"
+      }
+    },
+    {
+      "check": "sqlite_exact_mapping",
+      "pass": true,
+      "details": [
+        {
+          "resource_id": 2694,
+          "ah_id": "EH2694",
+          "title": "Nestorowa HSC counts",
+          "rdatadateadded": "2019-07-10",
+          "fetch_id": 2710,
+          "rdatapath_resource_id": 2694,
+          "rdatapath": "scRNAseq/nestorowa-hsc/2.0.0/counts.rds",
+          "rdataclass": "dgCMatrix",
+          "location_prefix": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/",
+          "official_storage_url": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/counts.rds",
+          "fetch_url": "https://experimenthub.bioconductor.org/fetch/2710"
+        },
+        {
+          "resource_id": 2695,
+          "ah_id": "EH2695",
+          "title": "Nestorowa HSC colData",
+          "rdatadateadded": "2019-07-10",
+          "fetch_id": 2711,
+          "rdatapath_resource_id": 2695,
+          "rdatapath": "scRNAseq/nestorowa-hsc/2.0.0/coldata.rds",
+          "rdataclass": "DataFrame",
+          "location_prefix": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/",
+          "official_storage_url": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/coldata.rds",
+          "fetch_url": "https://experimenthub.bioconductor.org/fetch/2711"
+        }
+      ]
+    },
+    {
+      "check": "implementation_plan_matches_independent_sqlite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "counts_formal_connect403",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "counts_initial_proxy_failure_separate",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "counts_safe_recorded_curl_options",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "coldata_formal_connect403",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "coldata_initial_proxy_failure_separate",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "coldata_safe_recorded_curl_options",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "geo_formal_connect403",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "geo_initial_proxy_failure_separate",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "geo_safe_recorded_curl_options",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "fetch-2710_correct_head302_and_date",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "fetch-2711_correct_head302_and_date",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "fresh_environment_unknown_not_enforced",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "same_bound_config_version",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "current_targets_absent_from_returned_lists",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "policy_snapshot_matches_recorded_bytes",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "policy_v1_no_vpn_and_no_target_entries",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "three_fixed_ref_values",
+      "pass": true,
+      "details": {
+        "origin/control/stage1-quality-20261025": "9db89e675fa13fdc1d08b97b7f4782f9a2dad337",
+        "origin/fix/stage1-review-20261025": "9d473b441058c45b2563c2ebe94ae99dda1f5209",
+        "origin/plan/new-dataset-audit-20261026": "122fdbf2986f3791917197385f8d07ba0a75fce6"
+      }
+    },
+    {
+      "check": "real_rds_inputs_absent_before_audit",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "offline-mapping_independent_exit",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "protocol-gate_independent_exit",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "missing-inputs_independent_exit",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "offline_plan_matches_sqlite_and_no_download",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "formal_gate_refuses",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "missing_audit_blocks_without_algorithm",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "catalog_unchanged_after_review",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "worktree_still_clean",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "implementation_repo_still_target",
+      "pass": true,
+      "details": null
+    }
+  ],
+  "check_count": 40,
+  "failed_checks": [],
+  "scope": "network/catalog/directory/blocking evidence only",
+  "real_data": "BLOCKED",
+  "formal_design": "BLOCKED",
+  "formal_experiment": "BLOCKED",
+  "reviewer_network_requests": 0,
+  "new_clustering_or_ARI_NMI_run": false
+}

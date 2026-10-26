@@ -1,0 +1,9 @@
+{
+  "observations_current": true,
+  "network_policy_state": "unknown",
+  "enforced_established": false,
+  "matching_bound_config": "ae71c8d4-6392-40b0-901b-38e81b54b433~cecfgver_6adda21e15fc819c857dd9cc03d2aff7",
+  "actual_request_evidence": "CONNECT403",
+  "user_new_published_version_id_available": false,
+  "cause_of_binding_mismatch_established": false
+}
