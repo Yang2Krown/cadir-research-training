@@ -6,6 +6,11 @@
       "sha256": "dc54cfe9ba4a6cd751e0ccd2ab356326c56290ff441d5047a37613a78672ad63"
     },
     {
+      "path": "delivery-text-review.json",
+      "bytes": 1202,
+      "sha256": "d24a53fb7f16c10f488c646600f49330a5b04930b9e2eb238d9dde898bb3ab1b"
+    },
+    {
       "path": "execution-role-disclosure.json",
       "bytes": 391,
       "sha256": "6c1abbc9ff0df17cb1c1f8c47fe8fa309c509a8eea79decd78a1551847b9cd13"

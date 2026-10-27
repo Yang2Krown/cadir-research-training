@@ -1,0 +1,20 @@
+{
+  "status": "PASS_LIMITED_SCIENTIFIC_TEXT_CONSISTENCY",
+  "reviewer": "/root/hsc_results_independent_review",
+  "reviewed_at_utc": "2026-10-27T01:30:22.242029+00:00",
+  "scientific_acceptance_commit": "faa7cd80a9e9b5bee0bed9835146dbca0d18cede",
+  "result_commit": "091a8a4585cabc59a5504380398892bac49044f4",
+  "reviewed_drafts": [
+    {
+      "path": "/workspace/hsc-course-delivery-draft-20261026/results-zh-20261027.md",
+      "sha256": "506f530cd8c36c945baa181f664788e37e0174b69f7447abe010ecb6df7fbdcc"
+    },
+    {
+      "path": "/workspace/hsc-course-delivery-draft-20261026/presentation-notes-zh-20261027.md",
+      "sha256": "5a54ada73a44e03a3ce3fe14d27899915263249cc2978010d7b15bc69eddb328"
+    }
+  ],
+  "finding": "Both drafts preserve fixed numbers, ARI/NMImax definitions, common/evaluation cohort, predeclared seed2358, 5/5 success denominators, descriptive scope, resource caveats and limited C04 novelty. No unsupported new scientific claim found.",
+  "permitted_editorial_update": "Replace pending-review status with PASS_LIMITED_RESULT_ACCEPTANCE and cite the independent signed report/commit. Preserve numeric results and stated limitations.",
+  "drafts_edited_by_reviewer": false
+}
