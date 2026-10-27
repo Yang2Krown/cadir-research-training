@@ -142,21 +142,16 @@
   },
   "last_updated": "2026-10-26 Asia/Shanghai",
   "next_stage": {
-    "state": "INPUT_LEGALITY_PASS_QC_LOCK_DESIGN_PENDING",
+    "state": "HSC_EXPERIMENT_PASS_COURSE_MATERIALS_AND_LOCAL_BACKUP_PENDING",
     "source_audit_commit": "7bf4a460e1c59b53f9dc71faa53bca562129b765",
     "prepared_commit": "122fdbf2986f3791917197385f8d07ba0a75fce6",
     "draft_pr": "https://github.com/Yang2Krown/cadir-research-training/pull/3",
     "independent_report_sha256": "adf8e37cf20b04e3ac3003e7eb37ae958120c120b5c18ea871c6461698ddf83f",
     "real_data_acquired": true,
-    "formal_experiments_run": false,
-    "formal_experiment_released": false,
+    "formal_experiments_run": true,
+    "formal_experiment_released": true,
     "network_configuration_write_tool_available": false,
-    "other_gates": [
-      "real input and version/QC/ID lock",
-      "exclusive reference-label mapping",
-      "official S1 or independent coverage ruling",
-      "formal runner and independent design release"
-    ],
+    "other_gates": [],
     "real_data_location_scope": "Reported actual HTTP200 downloads in data sessions; raw objects not independently accessed by this controller review",
     "metadata_preparation_branch": "prep/nestorowa-metadata-20261026",
     "metadata_preparation_commit": "d853986e2e3a1cabc9f3f728f616e402432257ec",
@@ -164,7 +159,7 @@
     "metadata_independent_report_sha256": "a64199b6e0e47fe3cb21bebac28a96b71ce1677ec08c6a38eef78dd5d6d9d3a7",
     "real_count_values_audited": true,
     "scope_decision": "project-control/HSC扩展范围裁定-2026-10-26.md",
-    "next_action": "Execute common QC and freeze inputs/labels/evaluation IDs and fair design; independent release before algorithms",
+    "next_action": "Complete course reports/translation/PPT/video and verify full user-local raw/object backup; no repeat experiment requested",
     "historical_extra_hosts_required_before_acquisition": [
       "mghp.osn.xsede.org",
       "ftp.ncbi.nlm.nih.gov"
@@ -181,16 +176,31 @@
     "latest_raw_review_commit": "da802216238bc66a60eff514b1ccebf213e77351",
     "latest_raw_review_thread": "01a176cf-6af3-73fb-9f7e-4c4185be402a",
     "latest_raw_review": "project-control/reviews/da802216/独立真实输入复验报告.md",
-    "input_review_execution_disclosure": "Independent SolHigh authored logic and signed results; coordinator relayed fixed privileged container execution and publication, fully disclosed"
+    "input_review_execution_disclosure": "Independent SolHigh authored logic and signed results; coordinator relayed fixed privileged container execution and publication, fully disclosed",
+    "admitted_source_commit": "6cc7b3da67c193da11a67c45a75167d6521438b0",
+    "design_review_commit": "2d2565c24b3958260d7232ff03f211c06bd2e845",
+    "result_commit": "091a8a4585cabc59a5504380398892bac49044f4",
+    "result_review_commit": "b48066cba0bf4cd308f2f75b1134c12f85c576ef",
+    "delivery_commit": "4277589d24bedc2ae85dfc75296426c56e7679fa",
+    "result_status": "PASS_LIMITED_RESULT_ACCEPTANCE",
+    "clustering_cells": 1656,
+    "evaluation_cells": 1641,
+    "unlabelled_retained_cells": 15,
+    "C04": "ACCEPTED_LIMITED_NOVELTY_SCOPE_NOT_COMPLETE_SOURCE_COVERAGE",
+    "local_full_backup_verified": false,
+    "external_objects": {
+      "count": 63,
+      "bytes": 381876645
+    }
   },
-  "last_updated_at": "2026-10-26T20:35:46.022873+08:00",
+  "last_updated_at": "2026-10-27T09:55:28.394253+08:00",
   "user_confirmed_execution_boundary": {
     "reported_at": "2026-10-26 Asia/Shanghai",
     "last_user_executed_result": "User says last result sent around 19:30; subsequent suggested prompts not executed",
     "later_suggested_tasks_executed": false,
     "switching_sessions_allowed": true,
     "goal": "Complete the course with verified experiments and usable submission materials",
-    "latest_observed_execution": "User returned completed 01a176cf independent retest at da802216; subsequent QC/design task not dispatched"
+    "latest_observed_execution": "01a176cf completed formal experiment and independent result acceptance, delivery4277589; course final submission/video/local backup not complete"
   },
   "course_completion_materials": [
     "project-control/课程完成路线-2026-10-26.md",

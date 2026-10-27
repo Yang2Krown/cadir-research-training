@@ -1,0 +1,4 @@
+# Preserve original indexed tables, session output and logs byte-for-byte.
+*.tsv -text -whitespace
+*.txt -text -whitespace
+*.log -text -whitespace

@@ -1,0 +1,26 @@
+{
+  "source_result_commit": "091a8a4585cabc59a5504380398892bac49044f4",
+  "design_review_commit": "2d2565c24b3958260d7232ff03f211c06bd2e845",
+  "files": [
+    {
+      "path": "C04独立裁定.md",
+      "bytes": 2639,
+      "sha256": "535fd6af32d39ca0a7e46faa68d0156d51c8960c79521beeec399da4bd911eba"
+    },
+    {
+      "path": "admission.json",
+      "bytes": 4150,
+      "sha256": "5c0834c3150129980c1c372b9593be43e489a2ed42f9e9667abf131ebf4e1d0a"
+    },
+    {
+      "path": "execution-role-disclosure.json",
+      "bytes": 2392,
+      "sha256": "992650d1138c6902a3679de62ddcc08c74434f7995d7960973ac681f73c2d3c0"
+    },
+    {
+      "path": "独立阶段一科学审查报告.md",
+      "bytes": 9325,
+      "sha256": "9924101b8add80898f56a3aff4451327e7255e425fd6b1a5a4cd85a338957277"
+    }
+  ]
+}

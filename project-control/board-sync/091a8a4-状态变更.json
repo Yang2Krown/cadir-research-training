@@ -1,0 +1,24 @@
+{
+  "result_commit": "091a8a4585cabc59a5504380398892bac49044f4",
+  "review_commit": "b48066cba0bf4cd308f2f75b1134c12f85c576ef",
+  "automatic_local_sync": false,
+  "science_stage": "PASS_LIMITED_RESULT_ACCEPTANCE",
+  "updates": [
+    {
+      "taskId": "Q-HSC-EXECUTION",
+      "status": "已完成",
+      "boundary": "共同QC、冻结设计和正式两方法各五种子均完成且独立限定验收"
+    },
+    {
+      "taskId": "Q-HSC-DATA",
+      "status": "已完成",
+      "boundary": "真实输入审计与最终数据/评价ID锁完成，不等于用户本地已完整备份"
+    },
+    {
+      "taskId": "Q-HSC-S1",
+      "status": "待核实",
+      "boundary": "C04限定范围接受，附表S1等全覆盖仍未知"
+    }
+  ],
+  "remaining": "课程终稿/视频/真实检测与成员信息/63对象本地备份；本地看板以实际覆盖为准"
+}

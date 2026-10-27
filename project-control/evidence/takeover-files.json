@@ -6,8 +6,13 @@
   },
   {
     "path": "project-control/AI使用与调度记录.md",
-    "bytes": 8274,
-    "sha256": "069e61a1507bd0f07c7a2cee3315553c383efd5ddd876cd2827f212515c22ae7"
+    "bytes": 8899,
+    "sha256": "215eeb4954bc15e532041c83f0b5ee5793db256b5fe295e01a8641ec3043c6fd"
+  },
+  {
+    "path": "project-control/HSC公平实验阶段结论-2026-10-27.md",
+    "bytes": 4997,
+    "sha256": "69f4969cc63b7a32858580daa15006534ac9002b6226e6ef060d4cf38b69e412"
   },
   {
     "path": "project-control/HSC准备与公平实验连续执行任务-2026-10-26.md",
@@ -31,8 +36,13 @@
   },
   {
     "path": "project-control/README.md",
-    "bytes": 14070,
-    "sha256": "06ec9730dcf1256ab2edd9802f1310a138ac2bf4a5fc0f101cb60980569bd4b4"
+    "bytes": 14511,
+    "sha256": "ebcdd206733f6a2ff75a68590d95c5b8bd787ada735103fd171d081d4f309e20"
+  },
+  {
+    "path": "project-control/board-sync/091a8a4-状态变更.json",
+    "bytes": 865,
+    "sha256": "59908ce91bef82693d3b382f67f4716844e88ef86ec0f1c954448be565a2ddbb"
   },
   {
     "path": "project-control/board-sync/b7ee233-状态变更.json",
@@ -66,8 +76,8 @@
   },
   {
     "path": "project-control/evidence/takeover-snapshot.json",
-    "bytes": 8895,
-    "sha256": "3315435e75de1d602d8db250c77397fc8268ee756e27d25f2a75a8ae87a9be8c"
+    "bytes": 9459,
+    "sha256": "aff32c62d623022fafa01512d0af4a0622efb797c0a9f32ed014b32cf936e0a5"
   },
   {
     "path": "project-control/preparations/d853986/decision_register.tsv",
@@ -1798,6 +1808,161 @@
     "path": "project-control/reviews/da802216/独立真实输入复验报告.md",
     "bytes": 6432,
     "sha256": "40dbcedca34c89f8d1242e8311ff125a83b420f532a07a0ac05cf17a647a833c"
+  },
+  {
+    "path": "project-control/reviews/hsc-design-20261026/.gitattributes",
+    "bytes": 94,
+    "sha256": "4ff55eb6c65475b4dd1a7c7db222f05469ddc958c8d65212b19de0bd4bfc9380"
+  },
+  {
+    "path": "project-control/reviews/hsc-design-20261026/C04独立裁定.md",
+    "bytes": 2639,
+    "sha256": "535fd6af32d39ca0a7e46faa68d0156d51c8960c79521beeec399da4bd911eba"
+  },
+  {
+    "path": "project-control/reviews/hsc-design-20261026/admission.json",
+    "bytes": 4150,
+    "sha256": "5c0834c3150129980c1c372b9593be43e489a2ed42f9e9667abf131ebf4e1d0a"
+  },
+  {
+    "path": "project-control/reviews/hsc-design-20261026/execution-role-disclosure.json",
+    "bytes": 2392,
+    "sha256": "992650d1138c6902a3679de62ddcc08c74434f7995d7960973ac681f73c2d3c0"
+  },
+  {
+    "path": "project-control/reviews/hsc-design-20261026/主控来源索引.json",
+    "bytes": 798,
+    "sha256": "f733dde3ff800b0dd3d971fc9501e6a740d3b692be12e737aa71564572ae683e"
+  },
+  {
+    "path": "project-control/reviews/hsc-design-20261026/独立阶段一科学审查报告.md",
+    "bytes": 9325,
+    "sha256": "9924101b8add80898f56a3aff4451327e7255e425fd6b1a5a4cd85a338957277"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/.gitattributes",
+    "bytes": 147,
+    "sha256": "81f0a1e65a11dd8cd3842bbb1e55743cc47db8e0747a8369c5546820c34620e2"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/controller/主控接收与指标重算.json",
+    "bytes": 3944,
+    "sha256": "8cccc90b1dee5bddcd688f1b6cd599bc92b87327089558ff8c2dbb08078b3210"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/controller/来源保全说明.json",
+    "bytes": 3819,
+    "sha256": "95617ef1b643bf5b5e53577f16a10e0bb8d8edea9fa1e95ddb0a20e384bcea9e"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/decision.json",
+    "bytes": 5290,
+    "sha256": "dc54cfe9ba4a6cd751e0ccd2ab356326c56290ff441d5047a37613a78672ad63"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/delivery-text-review.json",
+    "bytes": 1202,
+    "sha256": "d24a53fb7f16c10f488c646600f49330a5b04930b9e2eb238d9dde898bb3ab1b"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/execution-role-disclosure.json",
+    "bytes": 391,
+    "sha256": "6c1abbc9ff0df17cb1c1f8c47fe8fa309c509a8eea79decd78a1551847b9cd13"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/figure-view-evidence.json",
+    "bytes": 3865,
+    "sha256": "5c20b90bb1496b851b30465620267d6b5cfd73bbe9b530caacbc44a6966c347e"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/host-checks.tsv",
+    "bytes": 538799,
+    "sha256": "e1c49442b7aabed2dfd762d9648021312cc1a593eb5a192a80b7dde9e5f4ce2c"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/host-result.json",
+    "bytes": 404,
+    "sha256": "f4762dce522fcf0d00553def1d7c31a458287360c602e8a733ae4f378bc16a6c"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/independent-contingencies.tsv",
+    "bytes": 14765,
+    "sha256": "1a1bf3c9336d297f591fe5984a2f89c94c26bace712c0bc29c0cd78cb8816b07"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/independent-summary.json",
+    "bytes": 1673,
+    "sha256": "2e31c0c5e92e200c92b951bfe1ff2d57b935fdaebde2ee787eac27b695b9401f"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/independently-recomputed-metrics.tsv",
+    "bytes": 1572,
+    "sha256": "b077c6e07e0def26b1ed3921c5ba3d25efb7b09f4a428cfc229420181f27e9ef"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/object-evidence/coordinator-console.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/object-evidence/coordinator-execution.json",
+    "bytes": 1123,
+    "sha256": "258861a016b19a8951b0d06802ee83c630bb0a6121cfd54fcc65d7b9e6f3581b"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/object-evidence/independent-geometry.tsv",
+    "bytes": 303,
+    "sha256": "93363e1c336959bec19c2ec574262adc1b1a9c370079862cdef31be830a7e3a0"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/object-evidence/object-checks.tsv",
+    "bytes": 5387,
+    "sha256": "ba0903a5a2d7bb3369dd7eeabb20a65d1e4aa8a392efc66e8f101038806b31fe"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/object-evidence/object-result.json",
+    "bytes": 166,
+    "sha256": "f1229795ac5adbaf7f4089852244ec46588febd58af64ec0402a2d8b71dcd156"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/object-evidence/sessionInfo.txt",
+    "bytes": 4558,
+    "sha256": "6d0b97eab3132225c6c4182f1f0afd4c3c20caebecccec345edb3ae2c631fd52"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/presentation-context-checks.json",
+    "bytes": 13631,
+    "sha256": "5027601ef353af0be2e77178aa19614aa7bb5394044694851be65d9e5abadcb8"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/review-artifact-index.json",
+    "bytes": 3440,
+    "sha256": "ce3353e85cc93cfcd0f3e8aa0fc6fc8c2b9e2e2ec0d25e3655389b5a84cb9f8c"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/reviewed-input-sha256.json",
+    "bytes": 29489,
+    "sha256": "89fb3eda5f5adb2bd0ea0780cd4d64c19d66e47d0d1a3e92316ef04f1a9267b2"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/verify_presentation_context.py",
+    "bytes": 3861,
+    "sha256": "31d3987c8e4cd18581fbdd91fb48ff1aa39a4c37ea62052048aab63987802bcd"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/verify_results.py",
+    "bytes": 13535,
+    "sha256": "bfa59264a71afedffba158d2d88f8c59ac0b26f13f6d0a427bc9b4691be53358"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/verify_saved_objects.R",
+    "bytes": 6105,
+    "sha256": "e41846c72ce008da368f862ce869f576f20b16b0df24068bb955b1fd7b00ed89"
+  },
+  {
+    "path": "project-control/reviews/hsc-results-20261027/独立结果复验报告.md",
+    "bytes": 9420,
+    "sha256": "9ad5bacad654f05773098b7f54e1c61e7efc1a2406e54aa0a34e625449403366"
   },
   {
     "path": "project-control/下一阶段启动与验收规则.md",

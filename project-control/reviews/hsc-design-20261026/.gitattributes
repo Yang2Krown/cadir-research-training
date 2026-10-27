@@ -1,0 +1,3 @@
+# Preserve signed source documents without line-ending normalization.
+*.md -text
+*.json -text

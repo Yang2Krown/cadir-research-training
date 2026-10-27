@@ -1,0 +1,101 @@
+{
+  "reviewer": "/root/hsc_results_independent_review",
+  "view_method": "tools.view_image returned actual PNG pixels; all eight presentation figures plus seed2358 native diagnostic",
+  "figures": [
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/01-all-seed-ARI-NMI.png",
+      "sha256": "979be506994895409a1319136d70948e42ce63a63e122c109ce0c9657604f145",
+      "width": 2700,
+      "height": 2100,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "actually_viewed_with_tool": true
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/02-cadir-seed2358-counts.png",
+      "sha256": "32aaa482f245f3fffcbe2136a4e2e82b5a6294b8890b3612a7dd3ef7d2ef5ef0",
+      "width": 2700,
+      "height": 1758,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "actually_viewed_with_tool": true
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/02-cadir-seed2358-reference-share.png",
+      "sha256": "bcba1db325e87d7a4050a6c5a864b5f5fde24ac1963bc82fec634d0542d08e71",
+      "width": 2700,
+      "height": 1758,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "actually_viewed_with_tool": true
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/02-pca_snn_louvain-seed2358-counts.png",
+      "sha256": "8e85b98f8f1833da6c969642857cfc06800e63702ab24ea0bab7c91959f3eb05",
+      "width": 2700,
+      "height": 1500,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "actually_viewed_with_tool": true
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/02-pca_snn_louvain-seed2358-reference-share.png",
+      "sha256": "7ffd572af67aab012dc7987074a3247525e0ccb6fe42aa458b3653df947fb8e3",
+      "width": 2700,
+      "height": 1500,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "actually_viewed_with_tool": true
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/03-shared-QC.png",
+      "sha256": "7c04b1503d7f7ca3757132123efa41be760ebffed0a4a58708f10ea0b324ebde",
+      "width": 3600,
+      "height": 1440,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "actually_viewed_with_tool": true
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/04-common-cohort.png",
+      "sha256": "5357b037738db541e028b6d5ed193c1ed6a92ffc7881700555e1041aea28784a",
+      "width": 2700,
+      "height": 1620,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "actually_viewed_with_tool": true
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/05-core-resources.png",
+      "sha256": "0cd31b3234dc1b1ea975a710ecf83bd722973934c824940b4863c1dba6386036",
+      "width": 3000,
+      "height": 2100,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "actually_viewed_with_tool": true
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/formal/cadir-seed-2358-attempt-01/diagnostics/association-plots.png",
+      "sha256": "ce9e33275ee55b7b11f9a4b33f8515b03d31ef02eb034b7bc94c1e872eddaaa7",
+      "actually_viewed_with_tool": true,
+      "observation": "Eleven panels with real cluster IDs; Ensembl top-five labels overlap, axis titles absent. Retain as native diagnostic only; geometry interpretation checked against saved basis and TSV."
+    }
+  ],
+  "interpretation": "Main figures legible and values checked against TSV and independently recomputed metrics/contingencies. Native label overlap is disclosed and limits gene-label reading."
+}
