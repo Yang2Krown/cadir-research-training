@@ -1,0 +1,22 @@
+{
+  "page_count": 29,
+  "pdf_bytes": 6466478,
+  "pdf_sha256": "c1c99d56d2528d1376fa053ca7c70c4e43b04b9b6a3944c8878a536ce490d2cc",
+  "pdf_figure_sources": 13,
+  "bibliography_entries": 7,
+  "dual_column_pages": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    24
+  ],
+  "missing_glyphs": 0,
+  "undefined_references": 0,
+  "undefined_citations": 0,
+  "overfull_boxes": 0,
+  "result_scope": "Existing scientific data reused; typesetting and source integrity checked"
+}

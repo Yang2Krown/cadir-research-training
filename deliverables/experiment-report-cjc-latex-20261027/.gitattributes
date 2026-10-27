@@ -1,0 +1,6 @@
+# Preserve supplied template sources and captured compiler output byte-for-byte.
+*.cls -text -whitespace
+*.bst -text -whitespace
+style/*.sty -text -whitespace
+evidence/*.txt -text -whitespace
+evidence/*.patch -text -whitespace

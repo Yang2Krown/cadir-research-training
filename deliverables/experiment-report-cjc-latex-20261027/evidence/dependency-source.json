@@ -1,0 +1,6 @@
+{
+  "url": "https://archive.ubuntu.com/ubuntu/pool/universe/t/texlive-lang/texlive-lang-chinese_2023.20240207-1_all.deb",
+  "bytes": 50625384,
+  "sha256": "8ebcaac1d9b670668863c5834c820577fe1e94ab90988850e150b6bb51a0f49d",
+  "install_method": "dpkg-deb extraction into isolated workspace; no system changes"
+}

@@ -1,0 +1,162 @@
+--- upstream/CjC.cls
++++ CjC.cls
+@@ -46,7 +46,7 @@
+ %
+ % 1 in = 72 bp = 72.27 pt
+ 
+-\newcommand\zihao[1]{%
++\newcommand\CjCzihao[1]{%
+    \ifthenelse{\equal{#1}{0}}{%
+        \CjC@choosefont{42bp}{.5pt}{.3pt}}{}%
+    \ifthenelse{\equal{#1}{0-}}{%
+@@ -86,16 +86,16 @@
+ %%-------------------------\normalsize --------------------------%%
+ %%---------------\large \Large \LARGE \huge \Huge ---------------%%
+ %% Refer to ctex
+-\def\tiny{\zihao{7-}}
+-\def\scriptsize{\zihao{7}}
+-\def\footnotesize{\zihao{6-}}
+-\def\small{\zihao{6}}
+-\def\normalsize{\zihao{5}}%
+-\def\large{\zihao{4-}}%
+-\def\Large{\zihao{4}}%
+-\def\LARGE{\zihao{3}}%
+-\def\huge{\zihao{2-}}%
+-\def\Huge{\zihao{1-}}%
++\def\tiny{\CjCzihao{7-}}
++\def\scriptsize{\CjCzihao{7}}
++\def\footnotesize{\CjCzihao{6-}}
++\def\small{\CjCzihao{6}}
++\def\normalsize{\CjCzihao{5}}%
++\def\large{\CjCzihao{4-}}%
++\def\Large{\CjCzihao{4}}%
++\def\LARGE{\CjCzihao{3}}%
++\def\huge{\CjCzihao{2-}}%
++\def\Huge{\CjCzihao{1-}}%
+ \def\IEEEproof{\@ifnextchar[{\@IEEEproof}{\@IEEEproof[\IEEEproofname]}}
+ \def\@IEEEproof[#1]{\par\noindent\hspace{1em}{\textbf #1{\quad}}}
+ \def\endIEEEproof{\hspace*{\fill}~$\blacksquare$\par}
+@@ -193,7 +193,7 @@
+ %
+ \newenvironment{acknowledgement}{
+     \vspace*{10pt}
+-    {\noindent\zihao{4}\bfseries Acknowledgements\par}
++    {\noindent\CjCzihao{4}\bfseries Acknowledgements\par}
+     \vspace*{10pt}
+     \begingroup
+     }{
+@@ -204,13 +204,13 @@
+ %%---------------- Define biography ----------------%%
+ \newenvironment{biography}[1][]{
+ \vskip 0.4\baselineskip%
+-\zihao{5-}
++\CjCzihao{5-}
+ \parpic{%
+ \includegraphics[height=3.3cm,width=2.5cm]{#1}}%
+ }{\vskip 0.4\baselineskip\par}
+ 
+ %% For author who has no photo
+-\newenvironment{biographynophoto}{\vskip 0.4\baselineskip\zihao{5-}}{\vskip 0.4\baselineskip\par}
++\newenvironment{biographynophoto}{\vskip 0.4\baselineskip\CjCzihao{5-}}{\vskip 0.4\baselineskip\par}
+ 
+ %%---------------- Redefine section -----------------%%
+ \setcounter{secnumdepth}{3}
+@@ -222,15 +222,15 @@
+ \renewcommand\section{\@startsection {section}{1}{\z@}%
+                                    {-1.5ex \@plus -.2ex \@minus -.2ex}%
+                                    {1.5ex \@plus.2ex}%
+-                                   {\zihao{4-}\bfseries }}
++                                   {\CjCzihao{4-}\bfseries }}
+ \renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+                                      {-1.0ex \@plus -.2ex \@minus -.2ex}%
+                                      {1.0ex \@plus .2ex}%
+-                                     {\zihao{5}\bfseries}}
++                                     {\CjCzihao{5}\bfseries}}
+ \renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+                                      {-0.5ex \@plus -.0ex \@minus -.2ex}%
+                                      {0.5ex \@plus .0ex}%
+-                                     {\zihao{5}}}
++                                     {\CjCzihao{5}}}
+ \renewcommand*\l@section[2]{%
+   \ifnum \c@tocdepth >\z@
+     \addpenalty\@secpenalty
+@@ -249,10 +249,10 @@
+ 
+ 
+ 
+-\newcommand{\firstheadname}[1]{\gdef\CjC@firstheadname{\zihao{5-} #1}}
+-\newcommand{\firstfootname}[1]{\gdef\CjC@firstfootname{\zihao{5-}}{#1}}
+-\newcommand{\headevenname}[1]{\gdef\CjC@headevenname{\zihao{5-} #1}}
+-\newcommand{\headoddname}[1]{\gdef\CjC@headoddname{\zihao{5-} #1}}
++\newcommand{\firstheadname}[1]{\gdef\CjC@firstheadname{\CjCzihao{5-} #1}}
++\newcommand{\firstfootname}[1]{\gdef\CjC@firstfootname{\CjCzihao{5-}}{#1}}
++\newcommand{\headevenname}[1]{\gdef\CjC@headevenname{\CjCzihao{5-} #1}}
++\newcommand{\headoddname}[1]{\gdef\CjC@headoddname{\CjCzihao{5-} #1}}
+ 
+ 
+ 
+@@ -263,7 +263,7 @@
+     \def\@evenhead{%
+         \vbox{%
+             \vskip 3.2mm%
+-            \hbox to \textwidth{{\zihao{5-} \hbox{\CjC@firstheadname} \hfill }}%
++            \hbox to \textwidth{{\CjCzihao{5-} \hbox{\CjC@firstheadname} \hfill }}%
+             \vskip 2.0mm%
+ %            \hrule width\textwidth height0.63pt\vskip0.85pt \hrule width\textwidth height0.63pt\vskip0.85pt \hrule width\textwidth height0.63pt%
+         }%
+@@ -282,7 +282,7 @@
+     \def\@evenhead{%
+         \vbox{%
+             \vskip 1mm%
+-            \hbox to \textwidth {\mbox{\hspace {2mm}} {\zihao{5-} \thepage} \hfill \hbox{\CjC@headevenname  \hfill  {\zihao{5-} \mbox{\hspace {2mm}}}}}%
++            \hbox to \textwidth {\mbox{\hspace {2mm}} {\CjCzihao{5-} \thepage} \hfill \hbox{\CjC@headevenname  \hfill  {\CjCzihao{5-} \mbox{\hspace {2mm}}}}}%
+             \vskip 2.0mm%
+            \hbox to \textwidth{\noindent\rule[2mm]{\textwidth}{0.5pt}}%
+         }%
+@@ -290,7 +290,7 @@
+     \def\@oddhead{%
+         \vbox{%
+             \vskip 1mm%
+-            \hbox to \textwidth {{\zihao{5-} \mbox{\hspace {0mm}} \CjC@headoddname}   \hfill {{\zihao{5-} \thepage} \mbox{\hspace {2mm}}}}%
++            \hbox to \textwidth {{\CjCzihao{5-} \mbox{\hspace {0mm}} \CjC@headoddname}   \hfill {{\CjCzihao{5-} \thepage} \mbox{\hspace {2mm}}}}%
+             \vskip 2.0mm%
+             \hbox to \textwidth{\noindent\rule[2mm]{\textwidth}{0.5pt}}%
+         }
+@@ -318,7 +318,7 @@
+ %    \def\@evenfoot{%
+ %        \vbox{%
+ %            \vskip 3.2mm%
+-%            \hbox to \textwidth{{\zihao{5-} \hbox{\CjC@firstfootname} \hfill }}%
++%            \hbox to \textwidth{{\CjCzihao{5-} \hbox{\CjC@firstfootname} \hfill }}%
+ %            \vskip 2.0mm%
+ %%            \hrule width\textwidth height0.63pt\vskip0.85pt \hrule width\textwidth height0.63pt\vskip0.85pt \hrule width\textwidth height0.63pt%
+ %        }%
+@@ -326,7 +326,7 @@
+ %   \def\@oddfoot{%
+ %        \vbox{%
+ %            \vskip 3.2mm%
+-%            \hbox to \textwidth{{\zihao{5-} \hbox{\CjC@firstfootname} \hfill }}%
++%            \hbox to \textwidth{{\CjCzihao{5-} \hbox{\CjC@firstfootname} \hfill }}%
+ %            \vskip 2.0mm%
+ %%            \hrule width\textwidth height0.63pt\vskip0.85pt \hrule width\textwidth height0.63pt\vskip0.85pt \hrule width\textwidth height0.63pt%
+ %        }%
+@@ -347,8 +347,8 @@
+ %    \def\@evenhead{%
+ %        \vbox{%
+ %            \vskip -20mm%
+-%            \hbox to \textwidth {\mbox{\hspace{2mm}}{\zihao{5-}\thepage}
+-%            \hfill \hbox{\CjC@headevenname}\hfill{\zihao{5-}\mbox{{\begin{CJK*}{GBK}{song}Year\end{CJK*}\hspace {2.5mm}}}}%
++%            \hbox to \textwidth {\mbox{\hspace{2mm}}{\CjCzihao{5-}\thepage}
++%            \hfill \hbox{\CjC@headevenname}\hfill{\CjCzihao{5-}\mbox{{\begin{CJK*}{GBK}{song}Year\end{CJK*}\hspace {2.5mm}}}}%
+ %\vskip 2.0mm%
+ %\hbox to \textwidth{\noindent\rule[2mm]{\textwidth}{0.5pt}}%
+ %        }}
+@@ -356,7 +356,7 @@
+ %    \def\@oddhead{%
+ %        \vbox{%
+ %            \vskip -40mm%
+-%            \hbox to \textwidth {{\zihao{5-}\mbox{\hspace {2mm}}{\begin{CJK*}{GBK}{song}No.\end{CJK*}
++%            \hbox to \textwidth {{\CjCzihao{5-}\mbox{\hspace {2mm}}{\begin{CJK*}{GBK}{song}No.\end{CJK*}
+ %\hfill \CjC@headoddname \hfill  {\thepage} \mbox{\hspace {2mm}}}}
+ %  \vskip 2.0mm%
+ %  \hbox to \textwidth{\noindent\rule[2mm]{\textwidth}{0.5pt}}}

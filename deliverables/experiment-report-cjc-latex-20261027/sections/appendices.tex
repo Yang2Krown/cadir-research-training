@@ -1,0 +1,105 @@
+\clearpage\onecolumn\appendix
+\section{源码、数据与固定成果}
+\subsection{源码地址}
+\begin{itemize}
+\item 项目源码：\href{https://github.com/Yang2Krown/cadir-research-training}{\nolinkurl{Yang2Krown/cadir-research-training}}。
+
+\item 作者分析代码：\href{https://github.com/VingronLab/CAdir_results/tree/c15b49578bde38b42fd5db2c9830c10dd441ee4c}{\nolinkurl{VingronLab/CAdir_results}}。
+
+\item CAdir计算包：\href{https://github.com/VingronLab/CAdir/tree/de74a008dfcd0d4fa4f7f93c57aa346892a8d935}{\nolinkurl{VingronLab/CAdir}}。
+
+\item APL计算包：\href{https://github.com/VingronLab/APL/tree/d4d1f40d9ea9f1d9a95b224d45de843334cd617d}{\nolinkurl{VingronLab/APL}}。
+
+\end{itemize}
+\subsection{数据地址}
+\begin{itemize}
+\item Tabula Muris研究：\href{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE109774}{GEO GSE109774}。LM实际输入、SHA256与特征规模见第\allowbreak{}2.3节。
+
+\item Nestorowa研究：\href{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81682}{GEO GSE81682}。实验读取scRNAseq legacy资源路径，保留原始表达、元数据及共同准备索引。
+
+\end{itemize}
+\subsection{固定成果与独立检查}
+\begin{table}[!htbp]
+\centering\zihao{-5}
+\caption{固定成果与独立检查提交}\label{tab:6}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
+\toprule
+内容 & 固定提交 \\
+\midrule
+LM九项分析与图表 & \seqsplit{ab68da7ef154f133ec436275fcf11396f37f884a} \\
+LM独立最终检查 & \seqsplit{060e32beb41a65c0ef13553cd9827b2aa95ba12f} \\
+HSC正式实现 & \seqsplit{6cc7b3da67c193da11a67c45a75167d6521438b0} \\
+HSC正式结果 & \seqsplit{091a8a4585cabc59a5504380398892bac49044f4} \\
+HSC独立结果检查 & \seqsplit{b48066cba0bf4cd308f2f75b1134c12f85c576ef} \\
+HSC结果交付 & \seqsplit{4277589d24bedc2ae85dfc75296426c56e7679fa} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+LM独立报告保存在{\ttfamily\nolinkurl{project-control/reviews/lm-fig3-20261027/report.md}}。HSC独立结论及交付入口保存在{\ttfamily\nolinkurl{project-control/HSC}}公平实验阶段结论{\ttfamily\nolinkurl{-2026-10-27.md}}。本报告图像和原始科学表的文件名、固定提交、大小与SHA256见随附{\ttfamily\nolinkurl{evidence/}}材料来源索引{\ttfamily\nolinkurl{.json}}。
+
+\section{代码与输出索引}
+\begin{table}[!htbp]
+\centering\zihao{-5}
+\caption{代码与输入输出索引}\label{tab:7}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
+\toprule
+模块 & 实际源文件 & 输入与输出 \\
+\midrule
+LM运行管理 & \nolinkurl{scripts/run_case.py} & 配置与RDS→独立目录、状态及R控制台 \\
+LM科学计算 & \nolinkurl{scripts/pipeline.R} & SCE→HVG、CA、CAdir、排名、注释和指标 \\
+LM结果检查 & \nolinkurl{scripts/verify_results.R} & 实际对象与表→数值检查记录 \\
+九图生成 & \nolinkurl{fig3_completion/scripts/render_fig3.R} & 保存对象→九图及科学表 \\
+图例布局 & \nolinkurl{fig3_completion/scripts/repair_s1_legend.R} & 相同对象→S1D/E布局修复 \\
+HSC共同准备 & \nolinkurl{fair-experiment/scripts/prepare_common.R} & 计数和元数据→QC、共享表达与评价ID \\
+HSC正式运行 & \nolinkurl{fair-experiment/scripts/formal_run.R} & 共享表达与种子→CA／PCA、分区和资源 \\
+HSC运行管理 & \nolinkurl{fair-experiment/scripts/run_experiment.py} & 准入与配置→两方法五种子执行 \\
+HSC排名诊断 & \nolinkurl{fair-experiment/scripts/rank_diagnostics.R} & 实际CA与CAdir→基因得分及图 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+前五行均相对于{\ttfamily\nolinkurl{cases/tabula_muris_limb/}}，后四行相对于{\ttfamily\nolinkurl{cases/nestorowa_hsc/}}。本报告的构建脚本还生成按固定源码定位的行号索引，保存为{\ttfamily\nolinkurl{evidence/}}代码段索引{\ttfamily\nolinkurl{.tsv}}。LM导出包括完整细胞分配、完整\allowbreak{}6000基因分配、1200基因排名、方向向量、角矩阵、参考流量及历史节点／边；HSC导出包括十次分区、指标及共同队列ID。
+
+\section{工作记录表}
+\begin{table}[!htbp]
+\centering\zihao{-5}
+\caption{已完成工作记录}\label{tab:8}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
+\toprule
+已完成工作 & 对应交付 \\
+\midrule
+环境建立与调试 & 固定包版本、环境脚本、加载及工程检查日志 \\
+LM分析实现 & 保存对象、九图、16项科学表 \\
+LM独立数值检查与图例复验 & 独立报告、重算表及图形检查 \\
+作者公开输出对照 & 固定HTML、逐簇汇总及日志对照 \\
+HSC共同准备与方法对照 & 固定QC、评价集合、两方法五种子结果 \\
+HSC独立检查 & 指标重算、对象检查及图表复核 \\
+报告写作与排版 & 本报告、代码分析、图表与来源索引 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\zihao{-5}
+\caption{团队分工与工时记录}\label{tab:9}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X}
+\toprule
+成员姓名 & 实际承担工作 & 实际工时／小时 & 组内排序 \\
+\midrule
+ &  &  &  \\
+ &  &  &  \\
+ &  &  &  \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\clearpage\section*{Background}\addcontentsline{toc}{section}{Background}
+Single-cell transcriptomics studies variation among individual cells by measuring expression for thousands of genes. A central computational task is to organize cells into groups and connect those groups to interpretable molecular features. Conventional workflows commonly normalize counts, select variable genes, calculate principal components, and identify communities in a neighbor graph. Such workflows provide useful cell partitions, while interpretation draws on gene expression patterns and published cell annotations. CAdir approaches this task through correspondence analysis and directional clustering. Its geometry links cells and genes, allowing cluster assignment, associated-gene ranking, and visualization to be interpreted within a common representation.
+
+This research training project examines that connection through an original-paper case and a new-data comparison. The Limb Muscle subset of Tabula Muris serves as the original case. It contains a mixture of tissue and immune populations and is used to reconstruct association plots, comparisons among directions, split-and-merge history, reference-label flows, and coordinate transformations. The resulting seven clusters and 1,200 assigned genes agree with the core summaries printed in the author’s public execution record. Examination of individual clusters connects the aggregate evaluation score to the actual distribution of reference labels. For example, the macrophage prediction shows a concentrated reference composition, while the B-cell prediction includes both B-cell and lymphocyte reference annotations.
+
+The extension uses the Nestorowa mouse hematopoietic stem and progenitor cell study. A shared preparation procedure fixes quality control, normalization, highly variable genes, and evaluation identifiers before comparing methods. CAdir and a principal-component-analysis, shared-nearest-neighbor, and Louvain baseline are each evaluated with five predefined seeds. Their relative ordering differs between the adjusted Rand index and normalized mutual information. The number of predicted clusters also differs, providing a practical example of the relationship between partition granularity and reference agreement. This experiment joins quantitative evaluation with inspection of cluster composition.
+
+The project emphasizes a traceable connection between computation and explanation. Input hashes identify the data objects, explicit identifiers connect matrices and annotations, and source revisions identify the executed implementation. Saved correspondence-analysis coordinates, random-number states, gene-ranking parameters, numerical tables, and figures make the results inspectable at multiple levels. Independent recalculation supports the reported metrics and geometric outputs. The educational contribution is an end-to-end account of how a published clustering method is implemented, evaluated, and explained using real single-cell data. The report combines the original method’s mathematical ideas with the practical steps required to obtain interpretable, reproducible experimental evidence.
+\par

@@ -1,0 +1,91 @@
+% Template source: strive-yang/CHINESE-JOURNAL-OF-COMPUTERS--Latex-Template
+% Fixed template revision: 69e5409cd9ad26c92348896494dd3a18b78a0fbe
+\documentclass[10.5pt,compsoc,UTF8]{CjC}
+\usepackage[UTF8,heading=false,fontset=fandol]{ctex}
+\usepackage{graphicx,amsmath,amssymb,booktabs,tabularx,array}
+\usepackage{fvextra,seqsplit,xurl}
+\usepackage{style/gbt7714}
+\usepackage{caption,placeins,stfloats,fancyhdr}
+\usepackage[hidelinks,unicode,bookmarksnumbered]{hyperref}
+\usepackage{bookmark}
+\input{metadata}
+
+% Prefer Times New Roman; use a metrically compatible open font where needed.
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{%
+  \IfFontExistsTF{TeX Gyre Termes}{\setmainfont{TeX Gyre Termes}}{\setmainfont{Liberation Serif}}}
+\IfFontExistsTF{DejaVu Sans Mono}{\setmonofont{DejaVu Sans Mono}[Scale=0.82]}{\setmonofont{Latin Modern Mono}[Scale=0.85]}
+\setCJKmonofont{FandolFang-Regular.otf}
+\DeclareCaptionFont{cjcsmall}{\zihao{-5}}
+\captionsetup{font=cjcsmall,labelsep=quad,justification=centering}
+\renewcommand{\figurename}{图}
+\renewcommand{\tablename}{表}
+\renewcommand{\contentsname}{目录}
+\renewcommand{\bibsection}{}
+\setcounter{tocdepth}{2}
+\setlength{\parindent}{2em}
+\setlength{\emergencystretch}{1.5em}
+\setlength{\textfloatsep}{10pt plus 2pt minus 2pt}
+\setlength{\dbltextfloatsep}{10pt plus 2pt minus 2pt}
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}
+\renewcommand{\topfraction}{0.95}
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\floatpagefraction}{0.75}
+\renewcommand{\dbltopfraction}{0.95}
+\setcounter{topnumber}{5}
+\setcounter{dbltopnumber}{5}
+\setlength{\headheight}{26pt}
+\headevenname{计算机学报格式\hfill 2026年}
+\headoddname{科研基础训练\hfill CAdir单细胞联合聚类复现与新数据对照实验}
+\fancypagestyle{cjc-report}{%
+  \fancyhf{}%
+  \fancyhead[LE]{\zihao{-5}\thepage\hfill 计算机学报格式\hfill 2026年}%
+  \fancyhead[RO]{\zihao{-5}科研基础训练\hfill CAdir单细胞联合聚类实验报告\hfill\thepage}%
+  \renewcommand{\headrulewidth}{0.5pt}}
+\pagestyle{cjc-report}
+\hypersetup{pdftitle={CAdir单细胞联合聚类的复现与新数据对照实验},pdfauthor={\ReportAuthors}}
+\newsavebox{\MathMeasure}
+\newcommand{\fitmath}[1]{%
+  \sbox{\MathMeasure}{$\displaystyle #1$}%
+  \ifdim\wd\MathMeasure>0.93\linewidth
+    \resizebox{0.93\linewidth}{!}{\usebox{\MathMeasure}}%
+  \else\usebox{\MathMeasure}\fi}
+
+\begin{document}
+\onecolumn
+\thispagestyle{empty}
+\noindent\begin{tabularx}{\textwidth}{@{}Xr@{}}
+科研基础训练实验报告 & 2026年10月27日\\
+\multicolumn{2}{c}{\heiti 计\quad 算\quad 机\quad 学\quad 报\quad 格\quad 式}\\
+\multicolumn{2}{c}{CHINESE JOURNAL OF COMPUTERS}\\
+\hline
+\end{tabularx}
+\vspace{8mm}
+\begin{center}
+{\zihao{2}\heiti\ReportTitle\par}
+\ifx\ReportAuthors\empty\else\vspace{4mm}{\zihao{3}\fangsong\ReportAuthors\par}\fi
+\ifx\ReportAffiliation\empty\else\vspace{2mm}{\zihao{6}\ReportAffiliation\par}\fi
+\end{center}
+\vspace{3mm}
+{\zihao{-5}\noindent\heiti 摘\quad 要\quad\songti\input{sections/abstract-cn}}
+\noindent{\zihao{-5}\heiti 关键词\quad\songti 单细胞转录组；对应分析；方向聚类；联合聚类；可重复计算；聚类评价\par}
+\vspace{5mm}
+\begin{center}{\zihao{4}\bfseries\ReportEnglishTitle\par}\end{center}
+{\zihao{5}\noindent\textbf{Abstract}\quad\input{sections/abstract-en}}
+\noindent{\zihao{5}\textbf{Key words}\quad single-cell transcriptomics; correspondence analysis; directional clustering; joint clustering; reproducible computation; clustering evaluation\par}
+\clearpage
+\pdfbookmark[0]{目录}{toc}
+\tableofcontents
+\clearpage
+\twocolumn
+\zihao{5}\songti
+\input{sections/body}
+\clearpage
+\section*{参考文献}
+\addcontentsline{toc}{section}{参考文献}
+\begingroup
+\zihao{-5}
+\bibliographystyle{gbt7714-numerical}
+\bibliography{bib/ref}
+\endgroup
+\input{sections/appendices}
+\end{document}
