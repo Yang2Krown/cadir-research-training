@@ -278,5 +278,13 @@
     "final_author_CA_feature_count": "NOT_PRINTED_UNKNOWN",
     "strict_artifact_identity": "UNVERIFIED",
     "new_experiment_run": false
+  },
+  "handover": {
+    "requested_by_user": true,
+    "document": "project-control/新主控交接Prompt-2026-10-27.md",
+    "prepared_at": "2026-10-27T14:51:45.977340+08:00",
+    "new_thread_not_created_by_old_controller": true,
+    "no_running_internal_scientific_work": true,
+    "current_scope": "LM first, then select subsequent original datasets; no automatic full-paper expansion"
   }
 }
