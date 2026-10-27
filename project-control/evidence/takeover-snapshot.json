@@ -193,7 +193,7 @@
       "bytes": 381876645
     }
   },
-  "last_updated_at": "2026-10-27T09:55:28.394253+08:00",
+  "last_updated_at": "2026-10-27T10:02:51.078819+08:00",
   "user_confirmed_execution_boundary": {
     "reported_at": "2026-10-26 Asia/Shanghai",
     "last_user_executed_result": "User says last result sent around 19:30; subsequent suggested prompts not executed",
@@ -206,5 +206,16 @@
     "project-control/课程完成路线-2026-10-26.md",
     "project-control/实验报告首案例初稿-2026-10-26.md",
     "project-control/原环境独立复验启动Prompt-2026-10-26.txt"
-  ]
+  ],
+  "course_stage_materials": {
+    "board_version": 3,
+    "board_zip": "/workspace/cadir-dashboard-delivery-20261027/项目看板-第三版-HSC正式实验验收后.zip",
+    "editable_PPT_pages": 18,
+    "report": "/workspace/cadir-course-results-materials-20261027/实验报告_阶段整合稿.md",
+    "bundle": "/workspace/cadir-course-delivery-20261027/课程当前成果-2026-10-27.zip",
+    "bundle_sha256": "96d9fd3ba69a2f0dbe072feb688543c6371c971b73c5c2c885e321246415f6f2",
+    "status": "DRAFTS_READY_FINAL_COURSE_ITEMS_PENDING",
+    "parent_mechanical_review_passed": true,
+    "Mac_automatic_sync": false
+  }
 }

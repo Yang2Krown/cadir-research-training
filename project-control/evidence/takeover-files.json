@@ -6,8 +6,8 @@
   },
   {
     "path": "project-control/AI使用与调度记录.md",
-    "bytes": 8899,
-    "sha256": "215eeb4954bc15e532041c83f0b5ee5793db256b5fe295e01a8641ec3043c6fd"
+    "bytes": 9330,
+    "sha256": "de9588a02ccfd29df5e98092789982b4e621406976c4381ecd20439d0bd98050"
   },
   {
     "path": "project-control/HSC公平实验阶段结论-2026-10-27.md",
@@ -36,8 +36,8 @@
   },
   {
     "path": "project-control/README.md",
-    "bytes": 14511,
-    "sha256": "ebcdd206733f6a2ff75a68590d95c5b8bd787ada735103fd171d081d4f309e20"
+    "bytes": 14871,
+    "sha256": "7994344b80929e00549a05c6f2f2ae72d0080efce30d19a10f0bb58e9abc236f"
   },
   {
     "path": "project-control/board-sync/091a8a4-状态变更.json",
@@ -76,8 +76,8 @@
   },
   {
     "path": "project-control/evidence/takeover-snapshot.json",
-    "bytes": 9459,
-    "sha256": "aff32c62d623022fafa01512d0af4a0622efb797c0a9f32ed014b32cf936e0a5"
+    "bytes": 10081,
+    "sha256": "85d67e23e22ac4ae0ce26c806fe051cc42656358c6cccc92c4994bee527ed369"
   },
   {
     "path": "project-control/preparations/d853986/decision_register.tsv",
@@ -2008,6 +2008,11 @@
     "path": "project-control/课程完成路线-2026-10-26.md",
     "bytes": 6961,
     "sha256": "55e55dd42ce2577ee6ae9c23baf79382c16c2b9eb90b807b6936c7ed138a5844"
+  },
+  {
+    "path": "project-control/课程材料交付记录-2026-10-27.json",
+    "bytes": 2467,
+    "sha256": "57a73ed33f32ad324cca22c3b1fdbb97fd41831fa675b8b7994f72d17da62641"
   },
   {
     "path": "project-control/项目组织者交接Prompt-会话记录恢复.md",

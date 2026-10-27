@@ -1,0 +1,67 @@
+{
+  "state": "STAGE_MATERIALS_DELIVERED_NOT_COURSE_FINAL",
+  "science_result_status": "PASS_LIMITED_RESULT_ACCEPTANCE",
+  "board_delta_review": "PASS_DATA_ONLY",
+  "editable_ppt_pages": 18,
+  "report_stage_draft_available": true,
+  "directly_delegated_models": {
+    "board_hsc_results_sync": "gpt-6-luna/max",
+    "course_results_materials": "gpt-6-luna/max"
+  },
+  "package": {
+    "package_path": "/workspace/cadir-course-delivery-20261027/课程当前成果-2026-10-27.zip",
+    "bytes": 36491914,
+    "sha256": "96d9fd3ba69a2f0dbe072feb688543c6371c971b73c5c2c885e321246415f6f2",
+    "members": 9,
+    "all_members_byte_equal": true,
+    "ZIP_CRC": "PASS",
+    "whole_raw_object_backup_included": false,
+    "external_object_count": 63,
+    "external_object_bytes": 381876645,
+    "Mac_board_automatically_updated": false,
+    "files": [
+      {
+        "path": "先读我.md",
+        "bytes": 2400,
+        "sha256": "cd492ab55a8d24168ec119019ea6a476ce28be5258f8d638f248ccad2fda026f"
+      },
+      {
+        "path": "01-HSC真实结果与独立证据.zip",
+        "bytes": 23185119,
+        "sha256": "034f08ff08f57961cc12db09b0c3dd2e13b7893ea09f793f1cea00f79166023c"
+      },
+      {
+        "path": "02-项目看板第三版.zip",
+        "bytes": 8562721,
+        "sha256": "d24fb37a708960b9cafbca807002ad53d65a06d43f2132d51e1eb9325a0894c7"
+      },
+      {
+        "path": "03-课程报告与PPT阶段稿.zip",
+        "bytes": 4702654,
+        "sha256": "7ba183257bc84e901bc3aaa95982a16ab3bebbc1f36c093be115ba4cd287d6ea"
+      },
+      {
+        "path": "04-HSC公平实验阶段结论.md",
+        "bytes": 4997,
+        "sha256": "69f4969cc63b7a32858580daa15006534ac9002b6226e6ef060d4cf38b69e412"
+      },
+      {
+        "path": "05-外置数据对象备份清单.tsv",
+        "bytes": 25942,
+        "sha256": "a8e718b0b32358b5bc4c457d15b05a24096f8ab849a2b882a7d27814636122bd"
+      },
+      {
+        "path": "06-主控指标重算核验.json",
+        "bytes": 3944,
+        "sha256": "8cccc90b1dee5bddcd688f1b6cd599bc92b87327089558ff8c2dbb08078b3210"
+      },
+      {
+        "path": "07-主控看板与材料核验.json",
+        "bytes": 1087,
+        "sha256": "9f998e98abac1da446bbadb32155838cbaddc8a7c0d36fa3410159e81583723d"
+      }
+    ]
+  },
+  "publication_scope": "仅将交付路径/哈希与当前状态写入仓库；本地看板和PPT私有文件未发布网站或推送GitHub",
+  "local_user_download_or_Mac_sync_verified": false
+}
