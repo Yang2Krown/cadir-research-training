@@ -1,0 +1,40 @@
+S1B | Each row: APL diagonal, other cluster directions
+cluster_1
+cluster 1
+
+
+
+
+                                cluster_2
+                                Vascular endothelial cell
+
+
+
+
+                                                            cluster_3
+                                                            B cell
+
+
+
+
+                                                                        cluster_4
+                                                                        T cell
+
+
+
+
+                                                                                    cluster_5
+                                                                                    Macrophage
+
+
+
+
+                                                                                                 cluster_6
+                                                                                                 Schwalie et al.Nature.P1
+
+
+
+
+                                                                                                                            cluster_7
+                                                                                                                            Endothelial cell
+

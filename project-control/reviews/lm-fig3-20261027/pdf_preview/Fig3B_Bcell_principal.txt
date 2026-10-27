@@ -1,0 +1,33 @@
+                          B cell [cluster_3] | principal coordinates
+                          6000 HVG−only | GOA predictions; see cluster selection table
+
+
+
+
+                      4
+                                             Macrophage
+
+
+
+
+orthogonal distance
+                      3
+
+                                                    T cell
+
+
+
+
+                      2
+
+
+
+
+                      1
+
+
+
+
+                              0.0     0.5     1.0        1.5   2.0
+                                    association strength
+

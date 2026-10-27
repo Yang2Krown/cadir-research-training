@@ -142,7 +142,7 @@
   },
   "last_updated": "2026-10-26 Asia/Shanghai",
   "next_stage": {
-    "state": "LM_FIG3_S1_COMPLETION_IN_PROGRESS_HSC_ACCEPTANCE_PRESERVED",
+    "state": "LM_FIG3_S1_WORKFLOW_PASS_STRICT_AUTHOR_EQ_BLOCKED",
     "source_audit_commit": "7bf4a460e1c59b53f9dc71faa53bca562129b765",
     "prepared_commit": "122fdbf2986f3791917197385f8d07ba0a75fce6",
     "draft_pr": "https://github.com/Yang2Krown/cadir-research-training/pull/3",
@@ -159,7 +159,7 @@
     "metadata_independent_report_sha256": "a64199b6e0e47fe3cb21bebac28a96b71ce1677ec08c6a38eef78dd5d6d9d3a7",
     "real_count_values_audited": true,
     "scope_decision": "project-control/HSC扩展范围裁定-2026-10-26.md",
-    "next_action": "Complete Fig3/S1 implementation, fix issues, independent SolHigh review and retest; preserve strict-input equivalence gap if unresolved",
+    "next_action": "Resolve authoritative LM marker/filtered input/private source identity evidence; no other dataset or whole-paper run until scope decision",
     "historical_extra_hosts_required_before_acquisition": [
       "mghp.osn.xsede.org",
       "ftp.ncbi.nlm.nih.gov"
@@ -193,7 +193,7 @@
       "bytes": 381876645
     }
   },
-  "last_updated_at": "2026-10-27T13:14:00.930291+08:00",
+  "last_updated_at": "2026-10-27T14:12:36.156337+08:00",
   "user_confirmed_execution_boundary": {
     "reported_at": "2026-10-26 Asia/Shanghai",
     "last_user_executed_result": "User says last result sent around 19:30; subsequent suggested prompts not executed",
@@ -227,6 +227,34 @@
     "LM_implementation_model": "gpt-6.1-sol/high",
     "LM_current_environment_actual_data_and_runtime_verified": true,
     "full_paper_replication_complete": false,
-    "course_whole_acceptance": false
+    "course_whole_acceptance": false,
+    "LM_fig3_workflow_implementation_and_independent_review_complete": true
+  },
+  "LM_fig3_completion": {
+    "implementation_tip": "ab68da7ef154f133ec436275fcf11396f37f884a",
+    "scientific_display_fix_commit": "8c1ff1c08cbc177402bc0148ca7bb4f3133fa0e3",
+    "independent_review_commit": "060e32beb41a65c0ef13553cd9827b2aa95ba12f",
+    "implementation_branch": "feat/lm-fig3-completion-20261027",
+    "review_branch": "review/lm-fig3-20261027",
+    "provided_input_complete_nine_analysis_workflow": "PASS_WITH_EXPLICIT_LIMITS",
+    "strict_author_artifact_equivalence": "BLOCKED_MISSING_AUTHOR_FILES_AND_IDENTITY",
+    "full_paper_replication_complete": false,
+    "input_and_actual_object_backup_package": {
+      "path": "/workspace/cadir-lm-fig3-delivery-20261027/LM输入与实际对象备份-20261027.zip",
+      "bytes": 116430093,
+      "sha256": "1fe60809f4d7556b20861e2ef6878fa2bc0331117b6e134df2db82c5817ad214",
+      "real_input_and_RDS_objects": 10,
+      "CRC_and_all_member_SHA": "PASS",
+      "user_local_download_verified": false
+    },
+    "small_delivery": {
+      "path": "/workspace/cadir-lm-fig3-delivery-20261027/LM首案例图表与独立复验-20261027.zip",
+      "bytes": 9636979,
+      "sha256": "3fc454672152269aab845481c3070844921f29de9c2df0b986978d7a33d9ac3f",
+      "members": 210,
+      "CRC_and_all_bytes": "PASS"
+    },
+    "publication": "Root verified original user authorization, destination and payload after child auto-review rejection; both branches successfully pushed without force/main changes",
+    "user_local_download_verified": false
   }
 }

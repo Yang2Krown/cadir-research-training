@@ -1,0 +1,26 @@
+{
+  "status": "DISPLAY_ONLY_REPAIR_IMPLEMENTER_SELFCHECK",
+  "source_run": "/workspace/cadir-lm-fig3-artifacts-20261027/hvg-only/case-htbeu88g",
+  "unchanged_data_directory": "/workspace/cadir-lm-fig3-artifacts-20261027/render-final/tables",
+  "CA_MD5": "873052e9d3ec3e85f0f247ba5febf30b",
+  "cadir_MD5": "403de97c17b02541f40852754e078794",
+  "checks": {
+    "S1D_Bcell_standard": {
+      "cell_coordinate_max_error_vs_saved_table": 4.9737991503207013e-14,
+      "direction_coordinate_max_error_vs_saved_table": 4.4408920985006262e-15,
+      "cells": 1882,
+      "directions": 7,
+      "legend_labels": ["T cell", "Macrophage"],
+      "equal_coordinate_ratio": 1
+    },
+    "S1E_endothelial_standard": {
+      "cell_coordinate_max_error_vs_saved_table": 4.9737991503207013e-14,
+      "direction_coordinate_max_error_vs_saved_table": 3.9968028886505635e-15,
+      "cells": 1882,
+      "directions": 7,
+      "legend_labels": "Vascular endothelial cell",
+      "equal_coordinate_ratio": 1
+    }
+  },
+  "independent_review": "PENDING_DISPLAY_RECHECK"
+}

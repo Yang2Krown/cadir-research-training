@@ -1,0 +1,106 @@
+{
+  "status": "PASS_INDEPENDENT_REPAIR_FILES",
+  "scientific_fix_sha": "8c1ff1c08cbc177402bc0148ca7bb4f3133fa0e3",
+  "delivery_tip": "ab68da7ef154f133ec436275fcf11396f37f884a",
+  "packaging_only_changed_paths": [
+    "cases/tabula_muris_limb/fig3_completion/evidence/external_artifacts.json",
+    "cases/tabula_muris_limb/fig3_completion/evidence/preservation.json",
+    "cases/tabula_muris_limb/fig3_completion/evidence/review_packet.json"
+  ],
+  "new_figures": [
+    {
+      "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/S1D_Bcell_standard.png",
+      "bytes": 103650,
+      "sha256": "ab10e1b7ac3795564daa6db20b9f903106b822c22c5467afba8a69f653ad0db6"
+    },
+    {
+      "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/S1D_Bcell_standard.pdf",
+      "bytes": 332542,
+      "sha256": "d12f877a202fe5f6a67e346bd1dfbe4d847ad0d53356916ca051b11c3f398ee5"
+    },
+    {
+      "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/S1E_endothelial_standard.png",
+      "bytes": 98609,
+      "sha256": "7b53a81b0ef76b856dc1b49ed14aed7573e845358ad0a927a1217cc742d2f25c"
+    },
+    {
+      "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/S1E_endothelial_standard.pdf",
+      "bytes": 328051,
+      "sha256": "b80b63248d9abd41a8f8aea0d7c5d19b9c3fcf115bf50c61c38022b10aadb030"
+    }
+  ],
+  "tracked_scientific_tables_unchanged": [
+    {
+      "path": "cases/tabula_muris_limb/fig3_completion/tables/Fig3A_actual_gene_labels.tsv",
+      "sha256": "680f4c58504059771d594a9ae19f300efc740d2ae3308c16f5353e075da6d5b6"
+    },
+    {
+      "path": "cases/tabula_muris_limb/fig3_completion/tables/Fig3D_history_edges.tsv",
+      "sha256": "a2983e4ee763394fcddecdc37ed5958559bc6ef60298a1d95e2a963767fabbb7"
+    },
+    {
+      "path": "cases/tabula_muris_limb/fig3_completion/tables/S1A_pairwise_direction_angles_degrees.tsv",
+      "sha256": "b782aea58204b2df38cdd7c6f83cae0f93652066b48f14ea9f7f7a2f136cf7c4"
+    },
+    {
+      "path": "cases/tabula_muris_limb/fig3_completion/tables/top5_genes.tsv",
+      "sha256": "d8cabcde68457e77a10cf1d5103b359fb8f3ca83b6560c4f281f65c1fd9a61af"
+    },
+    {
+      "path": "cases/tabula_muris_limb/fig3_completion/tables/all_gene_assignments.tsv",
+      "sha256": "b5f433723a2035c15fde1913c245546887199dae455f80196d9660235db71a21"
+    },
+    {
+      "path": "cases/tabula_muris_limb/fig3_completion/tables/principal_standard_projection_angle_checks.tsv",
+      "sha256": "63a84898fa961850af5f658f0fa904c8046093e5113957c92f2ac06e74d3045a"
+    },
+    {
+      "path": "cases/tabula_muris_limb/fig3_completion/tables/directions_principal.tsv",
+      "sha256": "34053ff51684b603299278cd321e065bf85a9fa7fc23fe90fb501f81c79d64bf"
+    },
+    {
+      "path": "cases/tabula_muris_limb/fig3_completion/tables/S1B_all_direction_projections.tsv",
+      "sha256": "59ff5befac11d70ae6dafe07f45bba7817895b978b7fb091e32d0488bc880ea0"
+    },
+    {
+      "path": "cases/tabula_muris_limb/fig3_completion/tables/Fig3D_node_annotations.tsv",
+      "sha256": "d716a97dd6da0a247547fa3d9d35ef9c4340408ff632158593e4b45ceeec58c2"
+    },
+    {
+      "path": "cases/tabula_muris_limb/fig3_completion/tables/all_gene_ranks.tsv",
+      "sha256": "bfd59a07c0d7e9a33bcba979fc6641a398b4ad6ea384954cbb70ba5c415733f3"
+    },
+    {
+      "path": "cases/tabula_muris_limb/fig3_completion/tables/all_cell_assignments.tsv",
+      "sha256": "fadbc56230cb2d3ba9ceeef30265a842fc2f8791408ca5d6d8d982ca96a491c8"
+    },
+    {
+      "path": "cases/tabula_muris_limb/fig3_completion/tables/cluster_annotation_reference_map.tsv",
+      "sha256": "aa5e947a8f9a22dfcec3c661569e3ed51c6c9c7f709a9851483501aa8f097ad0"
+    },
+    {
+      "path": "cases/tabula_muris_limb/fig3_completion/tables/CA_singular_values.tsv",
+      "sha256": "ff4f4be592e9813ccd26c03f4c0d4215795301ca3df9ab78ab0f1c95e3b918fe"
+    },
+    {
+      "path": "cases/tabula_muris_limb/fig3_completion/tables/directions_standard.tsv",
+      "sha256": "a569debe9f574c3e947757984c9dbb041e888310a38b8ddd946c94db83935797"
+    },
+    {
+      "path": "cases/tabula_muris_limb/fig3_completion/tables/panel_cluster_selection.tsv",
+      "sha256": "6031acdb2f32678b0d7e70d981653895fda357c3fa5668771df09251fe4d188f"
+    },
+    {
+      "path": "cases/tabula_muris_limb/fig3_completion/tables/S1C_reference_flows.tsv",
+      "sha256": "46cd90784ccfd5d66b0e67291eebea250c07b7279a9a1b28086fc963dd7c99b2"
+    }
+  ],
+  "all_old_external_records_unchanged": true,
+  "current_external_records_checked": 148,
+  "RDS_index_unchanged": true,
+  "review_packet": {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/Limb_Muscle_Fig3_S1_review_packet_display_fixed.tar.gz",
+    "bytes": 8440709,
+    "sha256": "c9ea5363bb967d00c3ba4763e58ef36c4c9afa93879250083470954685655c91"
+  }
+}

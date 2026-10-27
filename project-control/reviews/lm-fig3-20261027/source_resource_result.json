@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "source_index_checks": [
+    {
+      "index": "base_implementation_sha256.json",
+      "path": "cases/tabula_muris_limb/scripts/pipeline.R",
+      "sha256": "454806f404dad3d20686713ae9a371bcc5e1871910c09a74b02103b06cf8936d",
+      "match": true
+    },
+    {
+      "index": "base_implementation_sha256.json",
+      "path": "cases/tabula_muris_limb/scripts/run_case.py",
+      "sha256": "7b66ed7e3c4b393f3b38f1dc6d2d719df0a16e72ac9423de0b877ada79b4f406",
+      "match": true
+    },
+    {
+      "index": "base_implementation_sha256.json",
+      "path": "cases/tabula_muris_limb/scripts/run-r.sh",
+      "sha256": "bc5d9d59f405049bb9a78ade74d6921d905b2ea44dcdbc7fcded035e2e6e8669",
+      "match": true
+    },
+    {
+      "index": "base_implementation_sha256.json",
+      "path": "cases/tabula_muris_limb/scripts/sample_rss.sh",
+      "sha256": "468d7e51957fccc077c8ebe04be44b4b614258491a48a669a10449ab65946194",
+      "match": true
+    },
+    {
+      "index": "base_implementation_sha256.json",
+      "path": "cases/tabula_muris_limb/scripts/check_environment.py",
+      "sha256": "607794689af51c6a841c6f389578f84ff6bcddf90a1cd6060acd1cd3dfaf0efc",
+      "match": true
+    },
+    {
+      "index": "base_implementation_sha256.json",
+      "path": "cases/tabula_muris_limb/scripts/verify_results.R",
+      "sha256": "89c2ebd8fe9e6798fb362bfa228081beeec567ec0c8d5f517e08d730b92bfd7a",
+      "match": true
+    },
+    {
+      "index": "implementation_source_sha256.json",
+      "path": "cases/tabula_muris_limb/fig3_completion/scripts/collect_fig3.py",
+      "sha256": "3e9986198b83e19bfd0b9b02c5c6bb628b4333c1d36293f9353e8f49b34cfbec",
+      "match": true
+    },
+    {
+      "index": "implementation_source_sha256.json",
+      "path": "cases/tabula_muris_limb/fig3_completion/scripts/fix_sources.py",
+      "sha256": "83d1fbea9f6eb046eaa55705226c698c84faf746f023d3e0b73c361c73e97717",
+      "match": true
+    },
+    {
+      "index": "implementation_source_sha256.json",
+      "path": "cases/tabula_muris_limb/fig3_completion/scripts/render_fig3.R",
+      "sha256": "1ce5688a8973218a02f0457a38870c5edfddca0191fe5b2f65245421a32f78b6",
+      "match": true
+    },
+    {
+      "index": "implementation_source_sha256.json",
+      "path": "cases/tabula_muris_limb/fig3_completion/scripts/verify_fig3.R",
+      "sha256": "fa4cb6b97cfc2b35abc2d3bf27d13bee9c01eb946439b868af918a0004f3dcca",
+      "match": true
+    }
+  ],
+  "all_changes_under_fig3_completion": true,
+  "changed_paths": 105,
+  "cgroup_cpu_max": "200000 100000",
+  "cgroup_memory_max": "8589934592"
+}

@@ -1,0 +1,183 @@
+{
+  "status": "PASS_INDEPENDENT_SCIPY_HUNGARIAN",
+  "final_cost": "logpval",
+  "history_cost": "pval",
+  "results": [
+    {
+      "stage": "final",
+      "cost": "pval",
+      "selected_by_render": false,
+      "predictions": {
+        "cluster_1": "cluster_1",
+        "cluster_2": "Endothelial_cell",
+        "cluster_3": "B_cell",
+        "cluster_4": "T_cell",
+        "cluster_5": "Macrophage",
+        "cluster_6": "Schwalie_et_al.Nature.P1",
+        "cluster_7": "Vascular_endothelial_cell"
+      },
+      "matches_actual": false,
+      "objective": 0.21553495071134685,
+      "actual_annotation_constrained_objective": null,
+      "actual_annotations": null
+    },
+    {
+      "stage": "final",
+      "cost": "logpval",
+      "selected_by_render": true,
+      "predictions": {
+        "cluster_1": "cluster_1",
+        "cluster_2": "Vascular_endothelial_cell",
+        "cluster_3": "B_cell",
+        "cluster_4": "T_cell",
+        "cluster_5": "Macrophage",
+        "cluster_6": "Schwalie_et_al.Nature.P1",
+        "cluster_7": "Endothelial_cell"
+      },
+      "matches_actual": true,
+      "objective": -143.6552800722794,
+      "actual_annotation_constrained_objective": -143.6552800722794,
+      "actual_annotations": {
+        "cluster_1": "cluster_1",
+        "cluster_2": "Vascular_endothelial_cell",
+        "cluster_3": "B_cell",
+        "cluster_4": "T_cell",
+        "cluster_5": "Macrophage",
+        "cluster_6": "Schwalie_et_al.Nature.P1",
+        "cluster_7": "Endothelial_cell"
+      }
+    },
+    {
+      "stage": "iter_0",
+      "cost": "pval",
+      "selected_by_render": true,
+      "predictions": {
+        "cluster_1": "Bergmann_glial_cell",
+        "cluster_2": "Vascular_endothelial_cell",
+        "cluster_3": "B_cell",
+        "cluster_4": "cluster_4",
+        "cluster_5": "T_cell",
+        "cluster_6": "Macrophage",
+        "cluster_7": "Endothelial_cell",
+        "cluster_8": "Schwalie_et_al.Nature.P1"
+      },
+      "matches_actual": false,
+      "objective": 0.09614756421054912,
+      "actual_annotation_constrained_objective": 0.09614756421054912,
+      "actual_annotations": {
+        "cluster_1": "Bergmann_glial_cell",
+        "cluster_2": "Vascular_endothelial_cell",
+        "cluster_3": "B_cell",
+        "cluster_4": "cluster_4",
+        "cluster_5": "T_cell",
+        "cluster_6": "Immune_cell",
+        "cluster_7": "Endothelial_cell",
+        "cluster_8": "Schwalie_et_al.Nature.P1"
+      }
+    },
+    {
+      "stage": "iter_0",
+      "cost": "logpval",
+      "selected_by_render": false,
+      "predictions": {
+        "cluster_1": "Bergmann_glial_cell",
+        "cluster_2": "Endothelial_cell",
+        "cluster_3": "B_cell",
+        "cluster_4": "cluster_4",
+        "cluster_5": "T_cell",
+        "cluster_6": "Macrophage",
+        "cluster_7": "Vascular_endothelial_cell",
+        "cluster_8": "Schwalie_et_al.Nature.P1"
+      },
+      "matches_actual": false,
+      "objective": -143.54394337463694,
+      "actual_annotation_constrained_objective": null,
+      "actual_annotations": null
+    },
+    {
+      "stage": "merge_iter_1",
+      "cost": "pval",
+      "selected_by_render": true,
+      "predictions": {
+        "cluster_1": "Bergmann_glial_cell",
+        "cluster_2": "Endothelial_cell",
+        "cluster_3": "B_cell",
+        "cluster_4": "T_cell",
+        "cluster_5": "Macrophage",
+        "cluster_6": "Schwalie_et_al.Nature.P1"
+      },
+      "matches_actual": false,
+      "objective": 0.03236403431079518,
+      "actual_annotation_constrained_objective": 0.03236403431079518,
+      "actual_annotations": {
+        "cluster_1": "Bergmann_glial_cell",
+        "cluster_2": "Endothelial_cell",
+        "cluster_3": "B_cell",
+        "cluster_4": "T_cell",
+        "cluster_5": "Immune_cell",
+        "cluster_6": "Schwalie_et_al.Nature.P1"
+      }
+    },
+    {
+      "stage": "merge_iter_1",
+      "cost": "logpval",
+      "selected_by_render": false,
+      "predictions": {
+        "cluster_1": "Bergmann_glial_cell",
+        "cluster_2": "Endothelial_cell",
+        "cluster_3": "B_cell",
+        "cluster_4": "T_cell",
+        "cluster_5": "Macrophage",
+        "cluster_6": "Schwalie_et_al.Nature.P1"
+      },
+      "matches_actual": false,
+      "objective": -150.24956838109398,
+      "actual_annotation_constrained_objective": null,
+      "actual_annotations": null
+    },
+    {
+      "stage": "split_iter_2",
+      "cost": "pval",
+      "selected_by_render": true,
+      "predictions": {
+        "cluster_1": "cluster_1",
+        "cluster_2": "Endothelial_cell",
+        "cluster_3": "B_cell",
+        "cluster_4": "T_cell",
+        "cluster_5": "Macrophage",
+        "cluster_6": "Schwalie_et_al.Nature.P1",
+        "cluster_7": "Vascular_endothelial_cell"
+      },
+      "matches_actual": false,
+      "objective": 0.14962368067305934,
+      "actual_annotation_constrained_objective": 0.14962368067305934,
+      "actual_annotations": {
+        "cluster_1": "cluster_1",
+        "cluster_2": "Endothelial_cell",
+        "cluster_3": "B_cell",
+        "cluster_4": "T_cell",
+        "cluster_5": "Immune_cell",
+        "cluster_6": "Schwalie_et_al.Nature.P1",
+        "cluster_7": "Vascular_endothelial_cell"
+      }
+    },
+    {
+      "stage": "split_iter_2",
+      "cost": "logpval",
+      "selected_by_render": false,
+      "predictions": {
+        "cluster_1": "cluster_1",
+        "cluster_2": "Vascular_endothelial_cell",
+        "cluster_3": "B_cell",
+        "cluster_4": "T_cell",
+        "cluster_5": "Macrophage",
+        "cluster_6": "Schwalie_et_al.Nature.P1",
+        "cluster_7": "Endothelial_cell"
+      },
+      "matches_actual": false,
+      "objective": -142.39658585689523,
+      "actual_annotation_constrained_objective": null,
+      "actual_annotations": null
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Preserve original indexed independent evidence byte-for-byte.
+*.log -text -whitespace
+*.tsv -text -whitespace
+*.txt -text -whitespace

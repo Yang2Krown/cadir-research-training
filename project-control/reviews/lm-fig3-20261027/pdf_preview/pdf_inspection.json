@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Fig3A_association_top5",
+    "pdfinfo": "Title:           R Graphics Output\nCreator:         R\nProducer:        R 4.4.1\nCreationDate:    Tue Oct 27 05:14:58 2026 UTC\nModDate:         Tue Oct 27 05:14:58 2026 UTC\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           1\nEncrypted:       no\nPage size:       1080 x 792 pts\nPage rot:        0\nFile size:       2288000 bytes\nOptimized:       no\nPDF version:     1.4\n",
+    "text_characters": 2972
+  },
+  {
+    "name": "Fig3B_Bcell_principal",
+    "pdfinfo": "Title:           R Graphics Output\nCreator:         R\nProducer:        R 4.4.1\nCreationDate:    Tue Oct 27 05:15:01 2026 UTC\nModDate:         Tue Oct 27 05:15:01 2026 UTC\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           1\nEncrypted:       no\nPage size:       720 x 504 pts\nPage rot:        0\nFile size:       117915 bytes\nOptimized:       no\nPDF version:     1.4\n",
+    "text_characters": 533
+  },
+  {
+    "name": "Fig3C_endothelial_principal",
+    "pdfinfo": "Title:           R Graphics Output\nCreator:         R\nProducer:        R 4.4.1\nCreationDate:    Tue Oct 27 05:15:02 2026 UTC\nModDate:         Tue Oct 27 05:15:02 2026 UTC\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           1\nEncrypted:       no\nPage size:       720 x 504 pts\nPage rot:        0\nFile size:       112342 bytes\nOptimized:       no\nPDF version:     1.4\n",
+    "text_characters": 494
+  },
+  {
+    "name": "Fig3D_actual_split_merge_history",
+    "pdfinfo": "Title:           R Graphics Output\nCreator:         R\nProducer:        R 4.4.1\nCreationDate:    Tue Oct 27 05:15:22 2026 UTC\nModDate:         Tue Oct 27 05:15:22 2026 UTC\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           1\nEncrypted:       no\nPage size:       1296 x 864 pts\nPage rot:        0\nFile size:       2066463 bytes\nOptimized:       no\nPDF version:     1.4\n",
+    "text_characters": 649
+  },
+  {
+    "name": "S1A_direction_angle_heatmap",
+    "pdfinfo": "Title:           R Graphics Output\nCreator:         R\nProducer:        R 4.4.1\nCreationDate:    Tue Oct 27 05:15:03 2026 UTC\nModDate:         Tue Oct 27 05:15:03 2026 UTC\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           1\nEncrypted:       no\nPage size:       864 x 720 pts\nPage rot:        0\nFile size:       6380 bytes\nOptimized:       no\nPDF version:     1.4\n",
+    "text_characters": 9821
+  },
+  {
+    "name": "S1B_direction_projection_matrix",
+    "pdfinfo": "Title:           R Graphics Output\nCreator:         R\nProducer:        R 4.4.1\nCreationDate:    Tue Oct 27 05:15:07 2026 UTC\nModDate:         Tue Oct 27 05:15:07 2026 UTC\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           1\nEncrypted:       no\nPage size:       1296 x 1296 pts\nPage rot:        0\nFile size:       749271 bytes\nOptimized:       no\nPDF version:     1.4\n",
+    "text_characters": 1191
+  },
+  {
+    "name": "S1C_reference_sankey",
+    "pdfinfo": "Title:           R Graphics Output\nCreator:         R\nProducer:        R 4.4.1\nCreationDate:    Tue Oct 27 05:15:11 2026 UTC\nModDate:         Tue Oct 27 05:15:11 2026 UTC\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           1\nEncrypted:       no\nPage size:       936 x 720 pts\nPage rot:        0\nFile size:       68734 bytes\nOptimized:       no\nPDF version:     1.4\n",
+    "text_characters": 1296
+  },
+  {
+    "name": "S1D_Bcell_standard",
+    "pdfinfo": "Title:           R Graphics Output\nCreator:         R\nProducer:        R 4.4.1\nCreationDate:    Tue Oct 27 05:15:02 2026 UTC\nModDate:         Tue Oct 27 05:15:02 2026 UTC\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           1\nEncrypted:       no\nPage size:       720 x 504 pts\nPage rot:        0\nFile size:       331467 bytes\nOptimized:       no\nPDF version:     1.4\n",
+    "text_characters": 576
+  },
+  {
+    "name": "S1E_endothelial_standard",
+    "pdfinfo": "Title:           R Graphics Output\nCreator:         R\nProducer:        R 4.4.1\nCreationDate:    Tue Oct 27 05:15:03 2026 UTC\nModDate:         Tue Oct 27 05:15:03 2026 UTC\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           1\nEncrypted:       no\nPage size:       720 x 504 pts\nPage rot:        0\nFile size:       326874 bytes\nOptimized:       no\nPDF version:     1.4\n",
+    "text_characters": 579
+  }
+]

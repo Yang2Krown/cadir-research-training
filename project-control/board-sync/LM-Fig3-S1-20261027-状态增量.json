@@ -1,0 +1,19 @@
+{
+  "automatic_local_sync": false,
+  "implementation_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+  "review_commit": "060e32beb41a65c0ef13553cd9827b2aa95ba12f",
+  "updates": [
+    {
+      "taskId": "Q-CASE-READY",
+      "status": "已完成",
+      "boundary": "现有输入上的Fig3/S1九项完整分析实现及独立复验通过；严格作者制品等价仍BLOCKED"
+    },
+    {
+      "taskId": "RP-01",
+      "status": "进行中",
+      "boundary": "原文LM一例已补齐图表；其他原文实验未覆盖，严格来源缺口未闭，不能计整个课程复现交付完成"
+    }
+  ],
+  "user_course_wide_acceptance": false,
+  "other_datasets_started": false
+}
