@@ -142,7 +142,7 @@
   },
   "last_updated": "2026-10-26 Asia/Shanghai",
   "next_stage": {
-    "state": "LM_FIG3_S1_WORKFLOW_PASS_STRICT_AUTHOR_EQ_BLOCKED",
+    "state": "LM_WORKFLOW_ACCEPTED_AND_AUTHOR_PUBLIC_OUTPUTS_MATCHED_STRICT_IDENTITY_UNVERIFIED",
     "source_audit_commit": "7bf4a460e1c59b53f9dc71faa53bca562129b765",
     "prepared_commit": "122fdbf2986f3791917197385f8d07ba0a75fce6",
     "draft_pr": "https://github.com/Yang2Krown/cadir-research-training/pull/3",
@@ -159,7 +159,7 @@
     "metadata_independent_report_sha256": "a64199b6e0e47fe3cb21bebac28a96b71ce1677ec08c6a38eef78dd5d6d9d3a7",
     "real_count_values_audited": true,
     "scope_decision": "project-control/HSC扩展范围裁定-2026-10-26.md",
-    "next_action": "Resolve authoritative LM marker/filtered input/private source identity evidence; no other dataset or whole-paper run until scope decision",
+    "next_action": "Integrate author-output comparison into LM report; keep unverified artifact/member identity explicit; no new dataset or experiment automatically authorized",
     "historical_extra_hosts_required_before_acquisition": [
       "mghp.osn.xsede.org",
       "ftp.ncbi.nlm.nih.gov"
@@ -193,7 +193,7 @@
       "bytes": 381876645
     }
   },
-  "last_updated_at": "2026-10-27T14:12:36.156337+08:00",
+  "last_updated_at": "2026-10-27T14:33:04.060072+08:00",
   "user_confirmed_execution_boundary": {
     "reported_at": "2026-10-26 Asia/Shanghai",
     "last_user_executed_result": "User says last result sent around 19:30; subsequent suggested prompts not executed",
@@ -256,5 +256,27 @@
     },
     "publication": "Root verified original user authorization, destination and payload after child auto-review rejection; both branches successfully pushed without force/main changes",
     "user_local_download_verified": false
+  },
+  "LM_author_public_output_comparison": {
+    "ordinary_user_visible_thread": "01a17c09-207f-7399-bdf3-d319242fc003",
+    "thread_title": "核对LM首案例运行记录",
+    "author_commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+    "reference_types": 8,
+    "cell_count": 1882,
+    "assigned_genes": 1200,
+    "clusters": 7,
+    "all_cluster_sizes_and_gene_counts_match": true,
+    "printed_split_merge_log_matches": true,
+    "author_printed_ARI": "0.6695187",
+    "our_ARI_matches_author_display_precision": true,
+    "author_NMI": "NOT_PRINTED_UNKNOWN",
+    "marker_csv_shape_printed": [
+      19,
+      2
+    ],
+    "marker_csv_contents": "UNKNOWN",
+    "final_author_CA_feature_count": "NOT_PRINTED_UNKNOWN",
+    "strict_artifact_identity": "UNVERIFIED",
+    "new_experiment_run": false
   }
 }

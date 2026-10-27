@@ -1,0 +1,12 @@
+{
+  "author_repository": "VingronLab/CAdir_results",
+  "author_commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+  "author_path": "results/figure2.html",
+  "author_git_blob": "42db319717e0024999e786c882fafd4931377ec2",
+  "bytes": 197872,
+  "sha256": "f4c5e92d06639c4311244c306a5bbf15157270f6d9e8007e3bb81bfe6057c062",
+  "comparison_thread": "01a17c09-207f-7399-bdf3-d319242fc003",
+  "comparison_thread_title": "核对LM首案例运行记录",
+  "actual_model_exposed_by_read_tool": false,
+  "claim_boundary": "Actual printed outputs only; absent values and member identity remain unknown; HTML asset links retain original repository layout."
+}

@@ -6,8 +6,8 @@
   },
   {
     "path": "project-control/AI使用与调度记录.md",
-    "bytes": 10999,
-    "sha256": "260821037509b00e3a36dad50933abefb6bba49451ecc415f25384b0de7c6fda"
+    "bytes": 11532,
+    "sha256": "38fae83bb71df3929ca9eb61fd5ece902a9a4f99683206f8bdbdfd693bdeb41c"
   },
   {
     "path": "project-control/HSC公平实验阶段结论-2026-10-27.md",
@@ -28,6 +28,11 @@
     "path": "project-control/HSC真实输入阶段结论-2026-10-26.md",
     "bytes": 2501,
     "sha256": "25efbd9329efa7b573c2b6373db64d2bf53940402940de0bc74a93d22c1f2bfb"
+  },
+  {
+    "path": "project-control/LM作者公开输出对照结论-2026-10-27.md",
+    "bytes": 3012,
+    "sha256": "64e0e04bc9c98060dd99e3077443449f7113c221e83ea6c49738fc12e079c832"
   },
   {
     "path": "project-control/LM首案例图表补齐阶段结论-2026-10-27.md",
@@ -51,8 +56,8 @@
   },
   {
     "path": "project-control/README.md",
-    "bytes": 15780,
-    "sha256": "829ef06615eeaf710c735861e0d9b8160a619e2c6971b714f6d20649b98a9bd4"
+    "bytes": 16198,
+    "sha256": "23ef2fcea42d53c86501e8ef0846d190c019c140d82732ffe5f4619f5af73aa1"
   },
   {
     "path": "project-control/board-sync/091a8a4-状态变更.json",
@@ -80,6 +85,26 @@
     "sha256": "af37ae816b1bfb311db1fac795c3018435e5f313e5981fbb29db24710d578d75"
   },
   {
+    "path": "project-control/evidence/LM作者公开输出核对-20261027/.gitattributes",
+    "bytes": 109,
+    "sha256": "4f4eb3d9bcce85ffb6704bd286bf26ed97cca157ed11bfda9a8612814e9ea29f"
+  },
+  {
+    "path": "project-control/evidence/LM作者公开输出核对-20261027/figure2-author.html",
+    "bytes": 197872,
+    "sha256": "f4c5e92d06639c4311244c306a5bbf15157270f6d9e8007e3bb81bfe6057c062"
+  },
+  {
+    "path": "project-control/evidence/LM作者公开输出核对-20261027/source.json",
+    "bytes": 647,
+    "sha256": "3c7387bc7de8a21fe8c90d1c6b03bc5cae616765bff6b962be285903a605cb6e"
+  },
+  {
+    "path": "project-control/evidence/LM作者公开输出核对-20261027/普通会话原始结论.md",
+    "bytes": 4143,
+    "sha256": "711f4efa24814bca78a84a7600e25d2478bd64df00b04db4ab431e8255d76b52"
+  },
+  {
     "path": "project-control/evidence/R3-2026-10-26/intake.json",
     "bytes": 2728,
     "sha256": "f73571aaf24b599d7c7d88d0b14a248f80bf1479ddbbd5e3b144642ba4cf7ac8"
@@ -96,8 +121,8 @@
   },
   {
     "path": "project-control/evidence/takeover-snapshot.json",
-    "bytes": 12202,
-    "sha256": "da524d618aab7ca625647271d8600a25f379e46d471405faf46ecd7257c77ad0"
+    "bytes": 13057,
+    "sha256": "ef85ec5eb82fdf23132e4f5b6c61b621a7e7f66ac38623c4d3089bb021d66e80"
   },
   {
     "path": "project-control/preparations/d853986/decision_register.tsv",

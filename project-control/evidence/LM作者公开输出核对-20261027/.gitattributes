@@ -1,0 +1,2 @@
+# Preserve the fixed author's HTML bytes, including Quarto whitespace.
+figure2-author.html -text -whitespace
