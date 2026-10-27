@@ -643,5 +643,100 @@
     "path": "/workspace/cadir-lm-fig3-artifacts-20261027/render-final/verify-console.log",
     "bytes": 68,
     "sha256": "3711ca7502b72c051050bbaccde71fc41861d9a430196feffd6632153c4815ac"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/S1D_Bcell_standard.pdf",
+    "bytes": 332542,
+    "sha256": "d12f877a202fe5f6a67e346bd1dfbe4d847ad0d53356916ca051b11c3f398ee5"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/S1D_Bcell_standard.png",
+    "bytes": 103650,
+    "sha256": "ab10e1b7ac3795564daa6db20b9f903106b822c22c5467afba8a69f653ad0db6"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/S1E_endothelial_standard.pdf",
+    "bytes": 328051,
+    "sha256": "b80b63248d9abd41a8f8aea0d7c5d19b9c3fcf115bf50c61c38022b10aadb030"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/S1E_endothelial_standard.png",
+    "bytes": 98609,
+    "sha256": "7b53a81b0ef76b856dc1b49ed14aed7573e845358ad0a927a1217cc742d2f25c"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/console.log",
+    "bytes": 358,
+    "sha256": "02262ba532ffd894f3a05aa17101c280d4afb05df4e266a6c1232552bac22df8"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/first-display-attempt/S1D_Bcell_standard.pdf",
+    "bytes": 332637,
+    "sha256": "7b903fa2235e42a067358f12fdf971b449d5b0a015fafda6c6406fa6859bdf37"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/first-display-attempt/S1D_Bcell_standard.png",
+    "bytes": 105070,
+    "sha256": "436cea622c018a574e3c1ceb21e1113bcd688bdbbe1eb9e876887edce2722288"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/first-display-attempt/S1E_endothelial_standard.pdf",
+    "bytes": 328161,
+    "sha256": "ed5234cda8471497b472780076afa04b006237fb315702b9d6890b2e9e597725"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/first-display-attempt/S1E_endothelial_standard.png",
+    "bytes": 100358,
+    "sha256": "f2a71ebd4aef1a5424dad848dd3c151a8a3c9c964b6cd223b2079095b761c341"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/first-display-attempt/console.log",
+    "bytes": 602,
+    "sha256": "3cfc1a2b9ce41573a77470d884a40728960ae3f2ebd6bc2483e193b931f250a6"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/original/S1D_Bcell_standard.pdf",
+    "bytes": 331467,
+    "sha256": "a30905ee2a3a5574e311a69b647f73ea0ad81b48c03fdb53bebdbfd5b33f2c46"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/original/S1D_Bcell_standard.png",
+    "bytes": 104511,
+    "sha256": "42bca7694eb08b3c7f74caf169f7d6acd376ff0ba64e651cc016440a28f49bbd"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/original/S1E_endothelial_standard.pdf",
+    "bytes": 326874,
+    "sha256": "cd95f1466db18e4cf703025d81c07bf54a95c336b7436923d47ff94cf0b7b13d"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/original/S1E_endothelial_standard.png",
+    "bytes": 101615,
+    "sha256": "27914c9f62ecfd225eb116c1bbb15a77d877aa5466a5b5273971033a82d5de35"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/original_figures.json",
+    "bytes": 915,
+    "sha256": "c1e0cefe024b77bcc67222db7b5b87dcdd9ebdd6ef72b86aec7b76f2aeddf7c2"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/original_table_hashes.json",
+    "bytes": 3906,
+    "sha256": "22ab12199a29cad6e12c11d2e441a39aef2fca6c75b6f46d7d2e0ecf13e34e5f"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/repair_checks.json",
+    "bytes": 1050,
+    "sha256": "9556b9ab86d8f2c4659cd2b86086f5722f34163680efe4b56030bbbabbbe728c"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/repair_receipt.json",
+    "bytes": 3056,
+    "sha256": "80694059c898ae55bae7c8105b25c42c44382278caae50eb09ae4fb393850edb"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/sessionInfo.txt",
+    "bytes": 5207,
+    "sha256": "4a8e045c202dfb1862a30cb23eba68e64a91960fc697ad7bb37fa8cc5f6a40b0"
   }
 ]
