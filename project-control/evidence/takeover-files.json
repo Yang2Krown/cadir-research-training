@@ -6,8 +6,8 @@
   },
   {
     "path": "project-control/AI使用与调度记录.md",
-    "bytes": 9330,
-    "sha256": "de9588a02ccfd29df5e98092789982b4e621406976c4381ecd20439d0bd98050"
+    "bytes": 10383,
+    "sha256": "99195c81222b9d9da54ed9265b22f701dfb8b3746724907d6b7a9bb8172d9610"
   },
   {
     "path": "project-control/HSC公平实验阶段结论-2026-10-27.md",
@@ -30,14 +30,19 @@
     "sha256": "25efbd9329efa7b573c2b6373db64d2bf53940402940de0bc74a93d22c1f2bfb"
   },
   {
+    "path": "project-control/LM首案例补齐任务-2026-10-27.md",
+    "bytes": 2591,
+    "sha256": "038d81c06af07ab76f2229d32ca5794735fb7376c8c4adf0f61bad65b796ca10"
+  },
+  {
     "path": "project-control/R3补件清单.md",
     "bytes": 3157,
     "sha256": "90efd63066a84385db8cc718a75e344fa220a1e28f18f6daad16d97e22c18be6"
   },
   {
     "path": "project-control/README.md",
-    "bytes": 14871,
-    "sha256": "7994344b80929e00549a05c6f2f2ae72d0080efce30d19a10f0bb58e9abc236f"
+    "bytes": 15227,
+    "sha256": "66679bd1e9f1d03a862a9f76cb4d41a9771ad9d47001ea499d5d72cb9510441d"
   },
   {
     "path": "project-control/board-sync/091a8a4-状态变更.json",
@@ -76,8 +81,8 @@
   },
   {
     "path": "project-control/evidence/takeover-snapshot.json",
-    "bytes": 10081,
-    "sha256": "85d67e23e22ac4ae0ce26c806fe051cc42656358c6cccc92c4994bee527ed369"
+    "bytes": 10624,
+    "sha256": "567c41b717a0e6647c2c465ec7903c766c920da401aa69d2144a0b26441cf3cd"
   },
   {
     "path": "project-control/preparations/d853986/decision_register.tsv",

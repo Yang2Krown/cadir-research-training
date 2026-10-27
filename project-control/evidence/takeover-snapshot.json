@@ -142,7 +142,7 @@
   },
   "last_updated": "2026-10-26 Asia/Shanghai",
   "next_stage": {
-    "state": "HSC_EXPERIMENT_PASS_COURSE_MATERIALS_AND_LOCAL_BACKUP_PENDING",
+    "state": "LM_FIG3_S1_COMPLETION_IN_PROGRESS_HSC_ACCEPTANCE_PRESERVED",
     "source_audit_commit": "7bf4a460e1c59b53f9dc71faa53bca562129b765",
     "prepared_commit": "122fdbf2986f3791917197385f8d07ba0a75fce6",
     "draft_pr": "https://github.com/Yang2Krown/cadir-research-training/pull/3",
@@ -159,7 +159,7 @@
     "metadata_independent_report_sha256": "a64199b6e0e47fe3cb21bebac28a96b71ce1677ec08c6a38eef78dd5d6d9d3a7",
     "real_count_values_audited": true,
     "scope_decision": "project-control/HSC扩展范围裁定-2026-10-26.md",
-    "next_action": "Complete course reports/translation/PPT/video and verify full user-local raw/object backup; no repeat experiment requested",
+    "next_action": "Complete Fig3/S1 implementation, fix issues, independent SolHigh review and retest; preserve strict-input equivalence gap if unresolved",
     "historical_extra_hosts_required_before_acquisition": [
       "mghp.osn.xsede.org",
       "ftp.ncbi.nlm.nih.gov"
@@ -193,7 +193,7 @@
       "bytes": 381876645
     }
   },
-  "last_updated_at": "2026-10-27T10:02:51.078819+08:00",
+  "last_updated_at": "2026-10-27T13:14:00.930291+08:00",
   "user_confirmed_execution_boundary": {
     "reported_at": "2026-10-26 Asia/Shanghai",
     "last_user_executed_result": "User says last result sent around 19:30; subsequent suggested prompts not executed",
@@ -217,5 +217,16 @@
     "status": "DRAFTS_READY_FINAL_COURSE_ITEMS_PENDING",
     "parent_mechanical_review_passed": true,
     "Mac_automatic_sync": false
+  },
+  "latest_user_direction": {
+    "request": "Complete first original-paper LM case before deciding other datasets",
+    "full_paper_scope_expansion_authorized": false,
+    "full_paper_scope_review_agent": "INTERRUPTED",
+    "LM_Fig3_S1_completion_authorized": true,
+    "LM_implementation_agent": "/root/lm_fig3_completion",
+    "LM_implementation_model": "gpt-6.1-sol/high",
+    "LM_current_environment_actual_data_and_runtime_verified": true,
+    "full_paper_replication_complete": false,
+    "course_whole_acceptance": false
   }
 }
