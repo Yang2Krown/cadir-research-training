@@ -1,0 +1,7 @@
+new("standardGeneric", .Data = function (x, ...) 
+standardGeneric("runPCA"), generic = structure("runPCA", package = "BiocSingular"), 
+    package = "BiocSingular", group = list(), valueClass = character(0), 
+    signature = "x", default = NULL, skeleton = (function (x, 
+        ...) 
+    stop(gettextf("invalid call in method dispatch to '%s' (no default method)", 
+        "runPCA"), domain = NA))(x, ...))

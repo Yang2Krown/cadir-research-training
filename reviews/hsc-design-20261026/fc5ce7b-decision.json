@@ -1,0 +1,12 @@
+{
+  "formal_execution_permitted": false,
+  "decision": "BLOCKED_GENE_SUBSET_CONTRACT",
+  "source_commit": "fc5ce7b4911a3ee42bca9099dec8700fd974d23b",
+  "reviewer_participated_in_implementation": false,
+  "reviewer_model": "gpt-6.1-sol",
+  "reviewer_reasoning_effort": "high",
+  "reviewer_agent_id": "/root/hsc_design_review",
+  "C04_decision": "ACCEPTED_LIMITED_NOVELTY_SCOPE",
+  "stage1_scientific_oracle": "PASS_STAGE1_SCIENTIFIC_ORACLE_NO_ALGORITHMS",
+  "blocker": "formal and diagnostic entry points incorrectly require native filtered gene assignment IDs to equal every CA input gene; complete export and unassigned counts must use explicit ID mapping"
+}

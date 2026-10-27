@@ -1,0 +1,4 @@
+Error in admission_guard(a[[2]], a[[3]], a[[4]], a[[5]]) : 
+  isTRUE(gate$formal_execution_permitted) is not TRUE
+Calls: admission_guard -> stopifnot
+Execution halted
