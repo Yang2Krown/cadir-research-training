@@ -1,0 +1,84 @@
+[
+  {
+    "method": "cadir",
+    "successes": 5,
+    "denominator": 5,
+    "seed_repeats_are_biological_replicates": false,
+    "ARI": {
+      "n": 5,
+      "median": 0.291506398370853,
+      "IQR": 0.004115446025725,
+      "min": 0.288542263311154,
+      "max": 0.294304592075383
+    },
+    "NMI_max_entropy": {
+      "n": 5,
+      "median": 0.343414049181671,
+      "IQR": 0.0029193810319440017,
+      "min": 0.335758628723038,
+      "max": 0.346270584222157
+    },
+    "inferred_clusters": {
+      "n": 5,
+      "median": 10,
+      "IQR": 1.0,
+      "min": 9,
+      "max": 11
+    },
+    "core_elapsed_seconds": {
+      "n": 5,
+      "median": 13.321,
+      "IQR": 1.6639999999999997,
+      "min": 12.795,
+      "max": 15.493
+    },
+    "sampled_peak_rss_KiB": {
+      "n": 5,
+      "median": 2251236,
+      "IQR": 35544.0,
+      "min": 2100280,
+      "max": 2273504
+    }
+  },
+  {
+    "method": "pca_snn_louvain",
+    "successes": 5,
+    "denominator": 5,
+    "seed_repeats_are_biological_replicates": false,
+    "ARI": {
+      "n": 5,
+      "median": 0.269345381294258,
+      "IQR": 0.0007157102005740379,
+      "min": 0.266974895756801,
+      "max": 0.269799239306275
+    },
+    "NMI_max_entropy": {
+      "n": 5,
+      "median": 0.356463934525198,
+      "IQR": 0.002364435023851974,
+      "min": 0.35619161437881,
+      "max": 0.359383467966189
+    },
+    "inferred_clusters": {
+      "n": 5,
+      "median": 7,
+      "IQR": 0.0,
+      "min": 7,
+      "max": 7
+    },
+    "core_elapsed_seconds": {
+      "n": 5,
+      "median": 5.331,
+      "IQR": 0.3210000000000006,
+      "min": 5.041,
+      "max": 5.602
+    },
+    "sampled_peak_rss_KiB": {
+      "n": 5,
+      "median": 1543484,
+      "IQR": 800.0,
+      "min": 1543056,
+      "max": 1547968
+    }
+  }
+]

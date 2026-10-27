@@ -1,0 +1,28 @@
+Script started on 2026-10-27 00:53:40+00:00 [COMMAND="python3 /workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/scripts/run_experiment.py --admission /workspace/hsc-design-independent-review/reviews/hsc-design-20261026/admission.json --output-root /workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01" <not executed on terminal>]
+{"event": "METHOD_SEED_START", "method": "cadir", "seed": 2358, "utc": "2026-10-27T00:53:41Z", "output": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-2358-attempt-01"}
+{"event": "METHOD_SEED_EXIT", "method": "cadir", "seed": 2358, "exit_code": 0, "utc": "2026-10-27T00:54:24Z"}
+{"event": "DIAGNOSTIC_EXIT", "seed": 2358, "exit_code": 0, "utc": "2026-10-27T00:54:56Z"}
+{"event": "METHOD_SEED_START", "method": "pca_snn_louvain", "seed": 2358, "utc": "2026-10-27T00:54:56Z", "output": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-2358-attempt-01"}
+{"event": "METHOD_SEED_EXIT", "method": "pca_snn_louvain", "seed": 2358, "exit_code": 0, "utc": "2026-10-27T00:55:29Z"}
+{"event": "METHOD_SEED_START", "method": "cadir", "seed": 101, "utc": "2026-10-27T00:55:29Z", "output": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-101-attempt-01"}
+{"event": "METHOD_SEED_EXIT", "method": "cadir", "seed": 101, "exit_code": 0, "utc": "2026-10-27T00:56:08Z"}
+{"event": "DIAGNOSTIC_EXIT", "seed": 101, "exit_code": 0, "utc": "2026-10-27T00:56:40Z"}
+{"event": "METHOD_SEED_START", "method": "pca_snn_louvain", "seed": 101, "utc": "2026-10-27T00:56:40Z", "output": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-101-attempt-01"}
+{"event": "METHOD_SEED_EXIT", "method": "pca_snn_louvain", "seed": 101, "exit_code": 0, "utc": "2026-10-27T00:57:12Z"}
+{"event": "METHOD_SEED_START", "method": "cadir", "seed": 202, "utc": "2026-10-27T00:57:12Z", "output": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-202-attempt-01"}
+{"event": "METHOD_SEED_EXIT", "method": "cadir", "seed": 202, "exit_code": 0, "utc": "2026-10-27T00:57:56Z"}
+{"event": "DIAGNOSTIC_EXIT", "seed": 202, "exit_code": 0, "utc": "2026-10-27T00:58:28Z"}
+{"event": "METHOD_SEED_START", "method": "pca_snn_louvain", "seed": 202, "utc": "2026-10-27T00:58:28Z", "output": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-202-attempt-01"}
+{"event": "METHOD_SEED_EXIT", "method": "pca_snn_louvain", "seed": 202, "exit_code": 0, "utc": "2026-10-27T00:59:01Z"}
+{"event": "METHOD_SEED_START", "method": "cadir", "seed": 303, "utc": "2026-10-27T00:59:01Z", "output": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-303-attempt-01"}
+{"event": "METHOD_SEED_EXIT", "method": "cadir", "seed": 303, "exit_code": 0, "utc": "2026-10-27T00:59:41Z"}
+{"event": "DIAGNOSTIC_EXIT", "seed": 303, "exit_code": 0, "utc": "2026-10-27T01:00:13Z"}
+{"event": "METHOD_SEED_START", "method": "pca_snn_louvain", "seed": 303, "utc": "2026-10-27T01:00:13Z", "output": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-303-attempt-01"}
+{"event": "METHOD_SEED_EXIT", "method": "pca_snn_louvain", "seed": 303, "exit_code": 0, "utc": "2026-10-27T01:00:45Z"}
+{"event": "METHOD_SEED_START", "method": "cadir", "seed": 404, "utc": "2026-10-27T01:00:45Z", "output": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-404-attempt-01"}
+{"event": "METHOD_SEED_EXIT", "method": "cadir", "seed": 404, "exit_code": 0, "utc": "2026-10-27T01:01:26Z"}
+{"event": "DIAGNOSTIC_EXIT", "seed": 404, "exit_code": 0, "utc": "2026-10-27T01:01:56Z"}
+{"event": "METHOD_SEED_START", "method": "pca_snn_louvain", "seed": 404, "utc": "2026-10-27T01:01:56Z", "output": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-404-attempt-01"}
+{"event": "METHOD_SEED_EXIT", "method": "pca_snn_louvain", "seed": 404, "exit_code": 0, "utc": "2026-10-27T01:02:27Z"}
+
+Script done on 2026-10-27 01:02:27+00:00 [COMMAND_EXIT_CODE="0"]

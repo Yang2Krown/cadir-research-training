@@ -1,0 +1,14 @@
+{
+  "status": "REAL_RESULTS_ARCHIVED_PENDING_NEW_INDEPENDENT_RESULT_REVIEW",
+  "source_commit": "6cc7b3da67c193da11a67c45a75167d6521438b0",
+  "design_review_commit": "2d2565c24b3958260d7232ff03f211c06bd2e845",
+  "core_successes": 10,
+  "core_denominator": 10,
+  "diagnostic_successes": 5,
+  "diagnostic_denominator": 5,
+  "source_files_verified": 59,
+  "external_files_hashed": 316,
+  "copied_small_files": 280,
+  "external_large_objects": 40,
+  "no_new_scientific_computation": true
+}

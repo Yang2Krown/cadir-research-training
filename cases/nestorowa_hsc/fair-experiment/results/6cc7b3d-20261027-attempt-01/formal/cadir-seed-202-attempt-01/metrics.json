@@ -1,0 +1,13 @@
+{
+  "n_total": 1656,
+  "n_evaluated": 1641,
+  "n_excluded": 15,
+  "inferred_clusters": 10,
+  "status": "COMPUTED_FROZEN_EVALUATION_INTERSECTION",
+  "definition": "ARI combinatorial; NMI=MI/max(Hpred,Href), natural logs",
+  "ARI": 0.291506398370853,
+  "NMI_max_entropy": 0.343414049181671,
+  "MI": 0.713145404464059,
+  "H_predicted": 2.07663433154068,
+  "H_reference": 1.74546157540284
+}

@@ -1,0 +1,9 @@
+Iteration 1
+	Splitting cluster cluster_1
+	Splitting cluster cluster_4
+	Splitting cluster cluster_1
+	Merging cluster_2 with cluster_9
+Iteration 2
+	Splitting cluster cluster_5
+	Merging cluster_2 with cluster_5
+Iteration 3

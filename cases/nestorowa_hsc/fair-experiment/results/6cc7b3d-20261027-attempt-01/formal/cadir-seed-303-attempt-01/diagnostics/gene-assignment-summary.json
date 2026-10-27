@@ -1,0 +1,12 @@
+{
+  "input_genes": 6000,
+  "upstream_retained_genes": 1200,
+  "assigned_genes": 1200,
+  "unassigned_genes": 4800,
+  "qcutoff": 0.8,
+  "reason_counts": {
+    "assigned_by_upstream": 1200,
+    "excluded_by_upstream_ca_sphere_qcutoff": 4800
+  },
+  "internal_slot_action": "Original upstream subset retained unchanged; NA exists only in the full-universe export for absent IDs or upstream missing assignments"
+}

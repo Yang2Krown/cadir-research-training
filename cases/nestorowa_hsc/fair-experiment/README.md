@@ -1,3 +1,5 @@
+当前新增：正式两方法×五种子及全部诊断已执行完成，结果待全新独立复验。见 [实际结果报告](results/6cc7b3d-20261027-attempt-01/实际结果报告.md) 与 [逐图说明](results/6cc7b3d-20261027-attempt-01/presentation/逐图说明.md)。以下为阶段一冻结说明，历史边界保留。
+
 # Nestorowa HSC：评价前共同准备与公平比较
 
 本目录是输入阶段独立通过后的新阶段。旧输入复验da802216、首案例结论沿用。科学配置见design/scientific-config.json；冻结与实际接口修订依据见design/冻结说明.md。共同准备完成不等于正式执行获准。本实现者没有签署独立准入；正式CA/PCA/CAdir/聚类/ARI/NMI没有在阶段一运行。

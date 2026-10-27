@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/scripts/container.sh",
+    "/workspace/hsc-fair-experiment-data-20261026/presentation/6cc7b3d-20261027-attempt-01",
+    "Rscript",
+    "cases/nestorowa_hsc/fair-experiment/presentation/render_results.R",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01",
+    "/workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/locks/data-input-lock.json",
+    "/workspace/hsc-fair-experiment-data-20261026/presentation/6cc7b3d-20261027-attempt-01"
+  ],
+  "executor": "root coordinator relay; unmodified implementation presentation script",
+  "script_sha256_before": "c3df284b0a40b2927f5ecdc64d191e284cc6ae1bbf8b92f37d1c91118da32433",
+  "script_sha256_after": "c3df284b0a40b2927f5ecdc64d191e284cc6ae1bbf8b92f37d1c91118da32433",
+  "exit_code": 0,
+  "elapsed_seconds": 8.922526870010188,
+  "completed_utc": "2026-10-27T01:17:25.018713+00:00"
+}

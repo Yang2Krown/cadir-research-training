@@ -1,0 +1,7 @@
+{
+  "status": "PRESENTATION_COMPLETE_PENDING_INDEPENDENT_RESULT_REVIEW",
+  "stage": "validate_consumed_results",
+  "algorithms_or_new_metrics_computed": false,
+  "fixed_example_seed": 2358,
+  "script_sha256": "c3df284b0a40b2927f5ecdc64d191e284cc6ae1bbf8b92f37d1c91118da32433"
+}

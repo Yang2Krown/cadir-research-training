@@ -1,0 +1,87 @@
+{
+  "status": "VERIFIED_PENDING_INDEPENDENT_RESULT_REVIEW",
+  "ten_rows_equal_formal_metric_JSON": true,
+  "both_seed2358_contingencies_equal_formal": true,
+  "PNG": [
+    {
+      "name": "01-all-seed-ARI-NMI.png",
+      "width": 2700,
+      "height": 2100,
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "name": "02-cadir-seed2358-counts.png",
+      "width": 2700,
+      "height": 1758,
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "name": "02-cadir-seed2358-reference-share.png",
+      "width": 2700,
+      "height": 1758,
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "name": "02-pca_snn_louvain-seed2358-counts.png",
+      "width": 2700,
+      "height": 1500,
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "name": "02-pca_snn_louvain-seed2358-reference-share.png",
+      "width": 2700,
+      "height": 1500,
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "name": "03-shared-QC.png",
+      "width": 3600,
+      "height": 1440,
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "name": "04-common-cohort.png",
+      "width": 2700,
+      "height": 1620,
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    },
+    {
+      "name": "05-core-resources.png",
+      "width": 3000,
+      "height": 2100,
+      "dpi": [
+        299.9994,
+        299.9994
+      ]
+    }
+  ],
+  "PDF_headers_verified": 8,
+  "visually_inspected": [
+    "01-all-seed-ARI-NMI.png",
+    "02-cadir-seed2358-reference-share.png",
+    "03-shared-QC.png",
+    "05-core-resources.png"
+  ],
+  "new_algorithm_or_metric_computation": false
+}

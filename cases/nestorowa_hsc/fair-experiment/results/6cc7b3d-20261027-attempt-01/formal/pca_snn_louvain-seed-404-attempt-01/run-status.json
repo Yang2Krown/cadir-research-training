@@ -1,0 +1,6 @@
+{
+  "status": "FORMAL_CORE_COMPLETE",
+  "method": "pca_snn_louvain",
+  "seed": 404,
+  "stage": "evaluation"
+}

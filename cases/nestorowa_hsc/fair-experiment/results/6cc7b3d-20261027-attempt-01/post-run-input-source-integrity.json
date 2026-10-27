@@ -1,0 +1,8 @@
+{
+  "source_manifest_sha256": "8936ab92c624c9b8cc222caa4420c6d5f64c540fb740734d5fbca623bee97f6f",
+  "source_entries": 59,
+  "data_lock_sha256": "ac46362a024950ebeda08795b5f64857d3487435328c273e1dc2b8107feee6c1",
+  "data_entries": 42,
+  "all_current_bytes_match_frozen_locks": true,
+  "original_admission_equals_run_copy": true
+}
