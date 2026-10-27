@@ -1,0 +1,7 @@
+Warning messages:
+1: package ‘ggplot2’ was built under R version 4.4.3 
+2: package ‘patchwork’ was built under R version 4.4.3 
+Error in pairplot("B_cell", c("T_cell", "Macrophage"), "principal", "Fig3B_Bcell_principal") : 
+  max(abs(as.matrix(p$data[p$data$type == "cell", c("x", "y")]) -  .... is not TRUE
+Calls: pairplot -> stopifnot
+Execution halted

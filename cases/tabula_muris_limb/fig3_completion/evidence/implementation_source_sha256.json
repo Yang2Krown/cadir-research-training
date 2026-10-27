@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/scripts/collect_fig3.py",
+    "bytes": 4558,
+    "sha256": "3e9986198b83e19bfd0b9b02c5c6bb628b4333c1d36293f9353e8f49b34cfbec"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/scripts/fix_sources.py",
+    "bytes": 2797,
+    "sha256": "83d1fbea9f6eb046eaa55705226c698c84faf746f023d3e0b73c361c73e97717"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/scripts/render_fig3.R",
+    "bytes": 16366,
+    "sha256": "1ce5688a8973218a02f0457a38870c5edfddca0191fe5b2f65245421a32f78b6"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/scripts/verify_fig3.R",
+    "bytes": 5441,
+    "sha256": "fa4cb6b97cfc2b35abc2d3bf27d13bee9c01eb946439b868af918a0004f3dcca"
+  }
+]

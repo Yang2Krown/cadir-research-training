@@ -2,6 +2,10 @@
 
 本轮只处理 DOI [10.1371/journal.pcbi.1014418](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014418) 的 Fig3 A–D 及直接关联的 S1 A–E。作者固定提交 `VingronLab/CAdir_results@c15b49578bde38b42fd5db2c9830c10dd441ee4c` 的 `results/figure2.qmd` 对应正式 **Fig3**；正式 Fig2 是方法示意图。旧 6000-HVG 单案例及已闭合的 R3 因果诊断保留，不重复该实验。
 
+**实施交付已完成，独立复验待签署；作者特定制品严格等价仍 BLOCKED。** 9项子图的 PNG/PDF、真实数据表和实施自检见[结果报告](report.md)、[图注](captions.md)、[图表目录](figures/)、[自检](evidence/render/verification.json)。大对象与完整点云位于[外置索引](evidence/external_artifacts.json)，[RDS专用索引](evidence/external_RDS_index.json)含大小和SHA256。
+
+论文 Methods 的 Discussed data 明确描述 **6000 HVG、1882细胞、6000基因**；固定绘图代码又追加 marker CSV 中已表达基因。这是来源之间的具体差异，不把它自行解释为任何一方错误。本轮实现发表方法描述的6000-HVG几何图表路径，保留旧版限定结论；没有因此声称作者绘图制品严格等价。[本轮直接回读官方HTML](evidence/paper_methods_web.txt)及[固定代码](evidence/author-fixed/results/figure2.qmd)分别保全。`cluster_tabula_muris.R` 是全图谱簇数恢复实验，仅作为排除边界留档，没有执行；也没有下载或处理全图谱、PBMC或其他数据。
+
 ## 验收矩阵（运行前固定）
 
 | 项目 | 原文/固定代码要求 | 旧版覆盖 | 本轮交付与严格等价条件 |
@@ -34,3 +38,15 @@ PASS/PARTIAL/BLOCKED 是实施自检状态；本轮不签署独立通过。图�
 ## 入口
 
 先用原已验证 `scripts/rerun.sh --data ... --output-root ...` 产生一次新运行；随后本目录 `scripts/render_fig3.R RUN_DIRECTORY OUTPUT_DIRECTORY` 仅读取同一运行的保存对象绘图。具体命令、固定配置和源码哈希放在 `evidence/`。原 `results/figures` 均不改动。
+
+本次实际入口与运行收据见 [real_run.json](evidence/real_run.json)。绘图和核验命令如下；必须给新的输出目录，避免覆盖本轮证据：
+
+```bash
+case_dir=/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb
+run_dir=/workspace/cadir-lm-fig3-artifacts-20261027/hvg-only/case-htbeu88g
+plot_dir=/workspace/my-limb-fig3-plots
+bash "$case_dir/scripts/run-r.sh" "$case_dir/fig3_completion/scripts/render_fig3.R" "$run_dir" "$plot_dir"
+bash "$case_dir/scripts/run-r.sh" "$case_dir/fig3_completion/scripts/verify_fig3.R" "$run_dir" "$plot_dir"
+```
+
+这不是空机器安装器。依赖保留的 `/workspace/cadir-env`；既定环境入口包含原有工程smoke，不计作科研模拟结果。没有新增参数扫描、归一化或CA重算；多次绘图尝试全部复用同一对象。

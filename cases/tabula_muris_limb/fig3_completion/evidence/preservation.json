@@ -1,0 +1,27 @@
+{
+  "original_worktree_status": "",
+  "original_worktree_HEAD": "9d473b441058c45b2563c2ebe94ae99dda1f5209",
+  "input_after": {
+    "path": "/workspace/cadir-handover/input/tabula_muris_limb_preproc.rds",
+    "bytes": 43383527,
+    "sha256": "af643523ccdf49e4931b5a0f8c53e67ba7fb24fbabb2fed7edfecf3b55c51f8b"
+  },
+  "changed_tracked_paths": [
+    "cases/tabula_muris_limb/fig3_completion/README.md",
+    "cases/tabula_muris_limb/fig3_completion/evidence/author-fixed/download_raw_data/tabula_muris/download_full_tabula_muris.R",
+    "cases/tabula_muris_limb/fig3_completion/evidence/author-fixed/download_raw_data/tabula_muris/tabula_muris_limb_save_RAW_data.R",
+    "cases/tabula_muris_limb/fig3_completion/evidence/author-fixed/preprocessing/data_preprocessing.R",
+    "cases/tabula_muris_limb/fig3_completion/evidence/author-fixed/preprocessing/submit_to_cluster_preprocessing.sh",
+    "cases/tabula_muris_limb/fig3_completion/evidence/author-fixed/renv.lock",
+    "cases/tabula_muris_limb/fig3_completion/evidence/author-fixed/results/cluster_tabula_muris.R",
+    "cases/tabula_muris_limb/fig3_completion/evidence/author-fixed/results/figure2.qmd",
+    "cases/tabula_muris_limb/fig3_completion/evidence/author-fixed/results/utils.R",
+    "cases/tabula_muris_limb/fig3_completion/evidence/author_sources.json",
+    "cases/tabula_muris_limb/fig3_completion/evidence/base_implementation_sha256.json",
+    "cases/tabula_muris_limb/fig3_completion/evidence/cgroup_limits.json",
+    "cases/tabula_muris_limb/fig3_completion/evidence/paper_web_snapshot.txt",
+    "cases/tabula_muris_limb/fig3_completion/evidence/renv_download.json",
+    "cases/tabula_muris_limb/fig3_completion/evidence/run_config.json",
+    "cases/tabula_muris_limb/fig3_completion/scripts/fix_sources.py"
+  ]
+}

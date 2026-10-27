@@ -1,0 +1,45 @@
+{
+  "command": [
+    "bash",
+    "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/scripts/rerun.sh",
+    "--data",
+    "/workspace/cadir-handover/input/tabula_muris_limb_preproc.rds",
+    "--output-root",
+    "/workspace/cadir-lm-fig3-artifacts-20261027/hvg-only"
+  ],
+  "source_commit": "24353e8",
+  "baseline_commit": "9d473b441058c45b2563c2ebe94ae99dda1f5209",
+  "configuration": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/evidence/run_config.json",
+  "configuration_sha256": "75996e6a0c7a866821334ba2738cdcff113684777f6e099fddf280d9692dc820",
+  "status": {
+    "started_utc": "2026-10-27T05:08:06.864862+00:00",
+    "run_directory": "/workspace/cadir-lm-fig3-artifacts-20261027/hvg-only/case-htbeu88g",
+    "mode": "real_case",
+    "data_audit": "PASS",
+    "single_case": "PASS",
+    "paper_reproduction": "not_established",
+    "runtime": "verified_conda",
+    "required_runtime": {
+      "activate.sh": true,
+      "provenance.md": true,
+      "upstream-renv.lock": true
+    },
+    "integrity": "PASS",
+    "command": [
+      "bash",
+      "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/scripts/run-r.sh",
+      "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/scripts/pipeline.R",
+      "/workspace/cadir-lm-fig3-artifacts-20261027/hvg-only/case-htbeu88g/runtime_config.json",
+      "/workspace/cadir-lm-fig3-artifacts-20261027/hvg-only/case-htbeu88g"
+    ],
+    "status": "SINGLE_CASE_COMPLETE_WITH_DOCUMENTED_DIFFERENCES",
+    "annotation": "COMPLETE_PREDICTED_ONLY",
+    "r_peak_rss_KiB_linux": 2278652,
+    "exit_code": 0,
+    "elapsed_seconds": 36.3742964270059,
+    "launcher_children_max_rss_KiB_linux": 2278652,
+    "launcher_started": true,
+    "resource_scope": "Conda R process peak is r_peak_rss_KiB_linux from /proc/self/status; child getrusage includes the launcher. Stage peaks are sampled RSS; these are single-run diagnostics, not algorithm benchmarks."
+  },
+  "note": "Existing entrypoint includes an engineering smoke only; no new scientific simulation, other data set or parameter scan."
+}

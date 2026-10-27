@@ -1,0 +1,106 @@
+"cluster_id"	"x"	"y"	"sample"	"type"	"cluster"	"gene_score"	"info"
+"cluster_1"	1.19041013634387	1.1461280087344	"Cadm2"	"gene"	"gene_cluster"	-0.23096310867272	"Name: Cadm2
+Cluster: gene_cluster
+Type: gene"
+"cluster_1"	1.18969782307521	1.3322741057593	"Syt12"	"gene"	"gene_cluster"	-0.258897685740536	"Name: Syt12
+Cluster: gene_cluster
+Type: gene"
+"cluster_1"	0.954849217435488	1.33329327269936	"Ntn5"	"gene"	"gene_cluster"	-0.288689019618988	"Name: Ntn5
+Cluster: gene_cluster
+Type: gene"
+"cluster_1"	1.33858810335506	1.27583489207989	"Pax3"	"gene"	"gene_cluster"	-0.347068922842679	"Name: Pax3
+Cluster: gene_cluster
+Type: gene"
+"cluster_1"	1.0790851701017	1.46642574700585	"Gdnf"	"gene"	"gene_cluster"	-0.382294420269083	"Name: Gdnf
+Cluster: gene_cluster
+Type: gene"
+"cluster_2"	2.49327908998859	2.14262747547226	"Pcp4l1"	"gene"	"gene_cluster"	1.16827668068266	"Name: Pcp4l1
+Cluster: gene_cluster
+Type: gene"
+"cluster_2"	1.61626601144224	1.30879243597123	"Bcr"	"gene"	"gene_cluster"	0.765417987949496	"Name: Bcr
+Cluster: gene_cluster
+Type: gene"
+"cluster_2"	3.11199922429389	2.2793429390918	"Emid1"	"gene"	"gene_cluster"	0.331560433527669	"Name: Emid1
+Cluster: gene_cluster
+Type: gene"
+"cluster_2"	1.1649942630718	1.22610761668607	"Rasd1"	"gene"	"gene_cluster"	0.267312338562051	"Name: Rasd1
+Cluster: gene_cluster
+Type: gene"
+"cluster_2"	3.30534282504714	3.60060634521432	"Gpr97"	"gene"	"gene_cluster"	0.128841591829207	"Name: Gpr97
+Cluster: gene_cluster
+Type: gene"
+"cluster_3"	3.86022391401706	0.45093291527985	"H2-Ob"	"gene"	"gene_cluster"	2.83068399496069	"Name: H2-Ob
+Cluster: gene_cluster
+Type: gene"
+"cluster_3"	4.18697916748628	0.400585409499929	"Faim3"	"gene"	"gene_cluster"	2.78655340431516	"Name: Faim3
+Cluster: gene_cluster
+Type: gene"
+"cluster_3"	4.36320402978739	0.389472896040957	"Cd19"	"gene"	"gene_cluster"	2.76702810139582	"Name: Cd19
+Cluster: gene_cluster
+Type: gene"
+"cluster_3"	4.27380889902614	0.493022818664879	"Cd22"	"gene"	"gene_cluster"	2.76054538146501	"Name: Cd22
+Cluster: gene_cluster
+Type: gene"
+"cluster_3"	3.74733725968867	0.686220053337199	"H2-DMb2"	"gene"	"gene_cluster"	2.75796638040524	"Name: H2-DMb2
+Cluster: gene_cluster
+Type: gene"
+"cluster_4"	6.55488566198803	1.34182514519064	"Itk"	"gene"	"gene_cluster"	3.77716261028023	"Name: Itk
+Cluster: gene_cluster
+Type: gene"
+"cluster_4"	5.7023992586279	0.610368202205291	"Cd3d"	"gene"	"gene_cluster"	3.57419156084089	"Name: Cd3d
+Cluster: gene_cluster
+Type: gene"
+"cluster_4"	5.81501327963565	0.944493036243576	"Lat"	"gene"	"gene_cluster"	3.4892565624238	"Name: Lat
+Cluster: gene_cluster
+Type: gene"
+"cluster_4"	4.99366238793363	0.837487995694832	"Skap1"	"gene"	"gene_cluster"	3.31136505234403	"Name: Skap1
+Cluster: gene_cluster
+Type: gene"
+"cluster_4"	5.4383284445478	0.929410166314745	"Cd3g"	"gene"	"gene_cluster"	3.13937729619332	"Name: Cd3g
+Cluster: gene_cluster
+Type: gene"
+"cluster_5"	4.56347675706356	1.03471337799188	"Gp49a"	"gene"	"gene_cluster"	3.25829390125701	"Name: Gp49a
+Cluster: gene_cluster
+Type: gene"
+"cluster_5"	4.36383814770141	0.905005673709327	"Lrrc25"	"gene"	"gene_cluster"	3.04241993528392	"Name: Lrrc25
+Cluster: gene_cluster
+Type: gene"
+"cluster_5"	3.81654093755609	0.510123220861283	"Alox5ap"	"gene"	"gene_cluster"	3.02215796719437	"Name: Alox5ap
+Cluster: gene_cluster
+Type: gene"
+"cluster_5"	3.82718329134072	1.32913760863738	"Gm11428"	"gene"	"gene_cluster"	2.85090007401382	"Name: Gm11428
+Cluster: gene_cluster
+Type: gene"
+"cluster_5"	4.10722732171015	1.36036995733968	"Lilrb4"	"gene"	"gene_cluster"	2.83751302945262	"Name: Lilrb4
+Cluster: gene_cluster
+Type: gene"
+"cluster_6"	1.5189761759808	0.880204253421636	"C7"	"gene"	"gene_cluster"	0.401471548415842	"Name: C7
+Cluster: gene_cluster
+Type: gene"
+"cluster_6"	1.45079131415525	0.881783119027527	"Cilp"	"gene"	"gene_cluster"	0.362586196657581	"Name: Cilp
+Cluster: gene_cluster
+Type: gene"
+"cluster_6"	1.38456388459488	0.9408605563041	"3632451O06Rik"	"gene"	"gene_cluster"	0.264871962760438	"Name: 3632451O06Rik
+Cluster: gene_cluster
+Type: gene"
+"cluster_6"	1.57320408502432	1.09269370533168	"Ccbe1"	"gene"	"gene_cluster"	0.211839722625686	"Name: Ccbe1
+Cluster: gene_cluster
+Type: gene"
+"cluster_6"	1.28193733426617	1.01074053524793	"Ngf"	"gene"	"gene_cluster"	0.205313573114582	"Name: Ngf
+Cluster: gene_cluster
+Type: gene"
+"cluster_7"	3.14484070268782	0.364088977698237	"Flt1"	"gene"	"gene_cluster"	2.80453370771095	"Name: Flt1
+Cluster: gene_cluster
+Type: gene"
+"cluster_7"	3.06981574790917	0.443967309329481	"Cdh5"	"gene"	"gene_cluster"	2.80223283628868	"Name: Cdh5
+Cluster: gene_cluster
+Type: gene"
+"cluster_7"	2.9824310345037	0.521823076767664	"Gpr116"	"gene"	"gene_cluster"	2.73892072291295	"Name: Gpr116
+Cluster: gene_cluster
+Type: gene"
+"cluster_7"	3.1762810367613	0.459126985800062	"Eltd1"	"gene"	"gene_cluster"	2.57252310768482	"Name: Eltd1
+Cluster: gene_cluster
+Type: gene"
+"cluster_7"	3.02017990649099	0.600575755334667	"Ptprb"	"gene"	"gene_cluster"	2.53504778375917	"Name: Ptprb
+Cluster: gene_cluster
+Type: gene"

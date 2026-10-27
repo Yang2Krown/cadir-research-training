@@ -1,0 +1,55 @@
+{
+  "recorded_at": "2026-10-27T13:12:13.661436+08:00",
+  "reachable_commits": 296,
+  "observed_refs": "c15b49578bde38b42fd5db2c9830c10dd441ee4c refs/heads/main\n8b94a0d66a89dc47dd596ced9feb02a8b307a5ed refs/remotes/origin/250220_paper_submission\ne0a7ee7fbbc7c04f71c43fde21e0a83b37567c9b refs/remotes/origin/250603_review\n9b1f4a5af408af5df9881a366f6c0a634d1207df refs/remotes/origin/251217_PCB_submission\nde38fd724520321631327bfae28d540ea1f1089d refs/remotes/origin/260513_PCB_2nd_submission\nc15b49578bde38b42fd5db2c9830c10dd441ee4c refs/remotes/origin/260618_PCB_FINAL_SUBMISSION\nc15b49578bde38b42fd5db2c9830c10dd441ee4c refs/remotes/origin/HEAD\ndde0054d190736f0edcbf57547d39444e2ead4ef refs/remotes/origin/PLOS_Comp_Bio\nc15b49578bde38b42fd5db2c9830c10dd441ee4c refs/remotes/origin/main\n",
+  "exact_filename_history_result": "",
+  "source_checks": [
+    {
+      "path": "results/figure2.qmd",
+      "fixed_commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "git_blob": "654de2d4178d79ec87524b3fcf4edef66ef234a8",
+      "sha256": "a617f10f6d20bdfd32b9f5702186f7269ecb66d68e31124d79ac0d668a47a215",
+      "previous_partial_cache_exists": true,
+      "previous_cached_bytes_equal": true,
+      "current_implementation_source_bytes_equal": true
+    },
+    {
+      "path": "results/utils.R",
+      "fixed_commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "git_blob": "93495e6c07d75818c2a840beacf2b3cd83ad4be4",
+      "sha256": "e591ffd37f31a24db46e6735188e03700efa9d83b4fe84de79583a2054af3d80",
+      "previous_partial_cache_exists": true,
+      "previous_cached_bytes_equal": true,
+      "current_implementation_source_bytes_equal": true
+    },
+    {
+      "path": "preprocessing/data_preprocessing.R",
+      "fixed_commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "git_blob": "79231db6a8b4a904a348c7f2a71ab21bac12eaf0",
+      "sha256": "7442212dc8a47214c8047bf5e1500d525f797013558953d985815f92b4edc13c",
+      "previous_partial_cache_exists": true,
+      "previous_cached_bytes_equal": true,
+      "current_implementation_source_bytes_equal": true
+    },
+    {
+      "path": "download_raw_data/tabula_muris/tabula_muris_limb_save_RAW_data.R",
+      "fixed_commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "git_blob": "c54eab2b84eee9dbafc8cd88df97422ae297b15b",
+      "sha256": "3c53a8707180df4b5fb2c92c60130aa06a064943c3f4fa03f5e082c05e4b3558",
+      "previous_partial_cache_exists": true,
+      "previous_cached_bytes_equal": true,
+      "current_implementation_source_bytes_equal": true
+    },
+    {
+      "path": "renv.lock",
+      "fixed_commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "git_blob": "a6ca3df3bd6379bc0d6c632897b67fbdbc008867",
+      "sha256": "b8dbf9e526885496c1b28af91c1bec36aa6b103c87da0a966ce4869d06f3a129",
+      "previous_partial_cache_exists": false,
+      "previous_cached_bytes_equal": null,
+      "current_implementation_source_bytes_equal": true
+    }
+  ],
+  "scope": "All296 commits reachable from cloned refs, precise filenames only; no claim unavailable Zenodo/renamed or unpublished files do not exist",
+  "controller_check_correction": "Initial cache-completeness assertion failed because the interrupted old cache lacked renv.lock; current implementation has the correct fixed lock blob; no source mismatch found."
+}

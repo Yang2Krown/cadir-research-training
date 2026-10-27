@@ -1,0 +1,238 @@
+CAdir: Joint clustering of cells and genes for single-cell transcriptomics with visualization-driven cluster quality assessment | PLOS Computational Biology (https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1014418)
+【turn976496view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014418","lineno":450}); Redirected to URL: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014418; Total lines: 947
+L399: Association Plots are constructed as described by Gralinska et al. [【117†30】]. The Association Plot x-coordinate of a point a is calculated as the scalar projection of its vector 【204†Image】 in CA space onto the cluster direction 【205†Image】, whereas the y-coordinate is the distance of the point to the direction:
+L400: 
+L401: 【206†Image】(9)
+L402: The value of Association Plots lies in the interpretability of cluster quality and the relationship between clustered cells and their specifically expressed genes. A well-defined cluster of cells will form a cloud of points extending near the x-axis to the right. Likewise, the cluster specific genes will lie towards the right and close to the x-axis.
+L403: This is a reflection of the feature of correspondence analysis whereby a cluster of cells with its specific genes extends along a direction away from the origin. Conversely, when a cluster is of low quality, its cells will remain close to the origin and will not be pointed to the right, or they will point upwards rather than follow the x-axis. Correspondingly, there will be few genes to the right and close to the x-axis.
+L404: Generally, the higher the y-coordinate, the less specific for a cluster the cell or gene is.
+L405: Since CAdir clusters the data into directions with associated cells and genes, we utilize the respective Association Plots to visualize clustering results. When CAdir produces k clusters, we output k Association Plots. Importantly, because the cluster directions are determined using the principal coordinates, they are best visualized in an Association Plot together with the cells using the principal coordinates.
+L406: However, when visualizing cells and genes simultaneously, a better interpretability of the Association Plot is achieved when displaying cells in standard coordinates and genes in principal coordinates. This choice of coordinates can lead to slight differences in the visualizations. CAdir offers many additional customization options when plotting the cluster Association Plots. In 【207†S20 Fig】 we demonstrate some of the available parameters.
+L407: ### Gene assignment
+L408: In CA, cluster specific cells and genes are located along the cluster direction in an asymmetric map, and they can therefore be assigned to the cluster based on the orthogonal distance to the cluster direction. The most specific genes lie far away from the origin while around the origin all the unspecific genes are located. Therefore, we filter out those genes that are within a sphere of radius r around the origin. The radius r is chosen to filter out 80% of genes.
+L409: Only the remaining genes get assigned to the cluster direction with the shortest distance of the gene’s standard coordinates to its projection on the line. We found that the genes are best filtered based on their principal coordinates, but the actual cluster assignment is done in standard coordinates in order to ensure interpretable distances.
+L410: ### Gene scoring
+L411: 
+L412: After performing a clustering of cells and genes, it is often of interest which genes are the most specific for a cluster. However, only ranking genes by their association to a cluster would only consider the x-axis of an Association Plot and therefore ignore potential associations to other clusters. In order to quantitatively score how specific genes are for a cluster, the 【208†Image】-score, introduced by Gralinska et al. [【117†30】,【202†51】] can be used.
+L413: Given a point 【209†Image】 with Association Plot x-coordinates 【210†Image】 and y-coordinate 【211†Image】, the 【212†Image】-score can be calculated as follows:
+L414: 
+L415: 【213†Image】(10)
+L416: Because 【214†Image】 determines the angle of the line above which 99 % of the cluster unspecific genes fall, a 【215†Image】-score of 0 would mean the gene falls exactly on this line. Points to the right and below of this line will have a positive score, whereas points to the left and above will have a negative score. Shifting this line in parallel by one unit on the x-axis, gives the line for points with a score of 1 and similarly shifting it by two units gives the line for points with a score of 2.
+L417: A positive score larger than 0 therefore indicates cluster specificity, as the points fall to the right of the line above which 99 % of cluster unspecific genes fall. 【207†S20E】 and 【207†S20F Fig】 show Association Plots with the line defined by the cutoff angle plotted.
+L418: ### Cell type annotation
+L419: The co-clustered genes can then be used as input for a gene set overrepresentation analysis using the CellMarker 2.0 [【216†52】] gene set to annotate the clusters. Using the CellMarker 2.0 [【216†52】] gene set, each cluster is annotated as follows: The gene sets are filtered to only contain sets with a minimum of 10 and a maximum of 500 genes and only genes that are present in the single-cell data set and could therefore be assigned to a cluster are kept.
+L420: A hypergeometric test is then performed for all co-clustered genes in a cluster and all gene sets. Obtained p-values are adjusted to correct for multiple testing and the adjusted log-p-values are used to construct a cost matrix containing the clusters and all enriched gene sets. If a cluster’s genes were not found to be enriched in a specific cluster, its cost gets set to 0.
+L421: Using the R package RcppHungarian (【217†https://doi.org/10.32614/CRAN.package.RcppHungarian†doi.org】), we applied the Hungarian method [【218†53】] to solve the assignment problem, such that each cluster is getting uniquely assigned a cell type, even if clusters have similar enriched gene sets. If, however, the assigned gene set has an adjusted hypergeometric p-value smaller than 0.05 the cluster is left unannotated.
+L422: Alternatively to the Cell Marker gene set, the cells can also be annotated using the PanglaoDB [【219†54】] gene set. The CAdir R package also includes the option to annotate the data by using the 【220†Image】-scores of the genes to perform gene set enrichment analysis (GSEA) [【221†55】,【222†56】] as an alternative to gene set overrepresentation analysis.
+L423: ### Data processing
+L424: Simulated and experimental data sets used for the benchmarking were pre-processed as follows: Using the functions perCellQCMetrics and perCellQCFilters from the R package scuttle [【223†57】], we removed cells that are identified as outliers based on the number of detected genes, the sum of counts per cell and the percent of mitochondrial reads. Additionally, we removed genes that are expressed in less than 1 % of cells.
+L425: Afterwards, cells were normalized and counts were transformed to log-counts using the functions quickCluster, computeSumFactor and logNormCounts from the packages scran [【124†33】] and scuttle [【223†57】].
+L426: The Brain Organoids data was pre-processed similar to the other data sets, but as was also done in the original publication [【224†58】], only cells with less than 40 % mitochondrial counts were kept.
+L427: ### Simulated data
+L428: Simulated data was generated using the Bioconductor package Splatter [【136†39】], which can generate new single-cell RNA-seq data with arbitrary number of clusters based on parameters estimated from experimental data.
+L429: We used two different data sets, the Zeisel Brain Data [【79†14】] (Zeisel) obtained through the Bioconductor package scRNA-seq [【225†59】] and PBMC3k data from 10x Genomics obtained through the Bioconductor R package TENxPBMCData, [【109†29】] to estimate parameters concerning the mean gene expression, outliers, library size, the biological coefficient of variation and dropouts.
+L430: We used each real data set (Zeisel and PBMC3k) as the basis for 6 different simulated data sets for which we varied the probability for a gene to be differentially expressed as well as the shape and mean parameter of the log-normal distribution that defines the magnitude of the differential expression, resulting in a total of 12 data sets (see 【226†Table 1】). Each simulated data set was generated with 1,000 cells, 10,000 genes and 6 six clusters.
+L431: The generated clusters contained 30 %, 25 %, 20 %, 10 %, 10 % and 5 % of the total number of cells respectively.
+L432: Download:
+L433: 
+L434:   * 【227†PNG larger image】
+L435:   * 【228†TIFF original image】
+L436: Table 1. Parameter combinations for simulated data used for benchmarking. The 12 simulated data sets used in benchmarking the cell clustering are either based on the PMBC3k or Zeisel data set. For each reference data set we estimated the base parameters and then varied the mean of the log-normal distribution (DE factor mean), the variance of the log-normal distribution (DE factor var.) and the probability for a gene to be differentially expressed (DE prob.).
+L437: 【229†https://doi.org/10.1371/journal.pcbi.1014418.t001†doi.org】
+L438: ### Experimental data
+L439: Experimental data sets were downloaded directly from the relevant publications or alternatively obtained through R data repositories such as the scRNAseq and TENxPBMCData Bioconductor packages. In our benchmarking we used the following data sets: Freytag Gold [【230†60】], Tabula Muris [【150†41】], Tirosh [【231†61】], PBMC10x [【232†62】], Dmel Spatial [【233†63】], Tabula Sapiens [【234†64】] and Brain Organoids [【224†58】] data sets were downloaded from the resources specified in the respective publication.
+L440: Using the Bioconductor package scRNAseq [【225†59】] we downloaded the following data sets: Zeisel Brain [【79†14】], Darmanis [【235†65】] and Baron Pancreas [【236†66】]. The Tabula Muris LM (Tabula Muris subsetted to Limb Muscle tissue) [【150†41】] data was downloaded using the TabulaMurisData R Bioconductor package [【102†28】] and the PBMC3K data was downloaded using the TENxPBMCData Bioconductor package [【109†29】]. See also 【237†Table 2】 for an overview of the data sets.
+L441: All data sets were pre-processed as described in the Section Data Processing.
+L442: Download:
+L443: 
+L444:   * 【238†PNG larger image】
+L445:   * 【239†TIFF original image】
+L446: 
+L447: Table 2. Overview over the used data sets. The name listed under Data Set is used as the shorthand name for the data set. Cell and gene counts refer to the pre-processed data before feature selection.
+L448: 
+L449: 【240†https://doi.org/10.1371/journal.pcbi.1014418.t002†doi.org】
+L450: #### Discussed data.
+L451: The Tabula Muris Limb Muscle and PBMC3k data sets discussed in the results were processed as following: We downloaded the Smartseq2 Tabula Muris data with the Bioconductor package TabulaMurisData [【102†28】] and subsetted it to the Limb Muscle tissue. It was processed as described above and then subset to the 6000 most highly variable genes using the R package scran, resulting in a data set with 1882 cells and 6000 genes. We performed CA using the package APL and kept the first 30 dimensions.
+L452: Subsequently, the data was clustered using CAdir with k = 8 and the angle cutoff set to 55 degrees. Cells were annotated by gene set overrepresentation analysis using the CellMarker 2.0 gene set.
+L453: The PBMC3k data was downloaded from [【109†29】] (【241†https://doi.org/10.18129/B9.bioc.TENxPBMCData†doi.org】) and preprocessed according to the Seurat “Guided Clustering Tutorial” [【242†67】] (【243†https://satijalab.org/seurat/articles/pbmc3k_tutorial†satijalab.org】, accessed on 2024-08-23). We retained the 20 % most highly variable genes, performed CA and kept the first 30 dimensions. Clustering with CAdir was performed with k = 12 and the cutoff angle was inferred automatically by CAdir.
+L454: The co-clustered genes were used to annotate the data using the included gene set overrepresentation analysis method. To intentionally create a poor clustering to demonstrate CAdir’s ability to assess the quality of a clustering we clustered the PBMC3k data with k = 14 and the cutoff angle set to 55 degrees. This data set was also used for validating the marker genes as described in the Supplementary Section “Validation of Marker Genes” in 【98†S1 Appendix】.
+L455: An improved clustering used for the comparison to other marker gene detection methods was performed using the 1000 most highly variable genes, 20 CA dimensions with k = 7 initial directions and the cutoff angle 【244†Image】 set to 50. The 30 % least specific genes were filtered out based on their distance from the origin.
+L456: ### Benchmarking
+L457: For the evaluation of the cell clustering performance, we benchmarked CAdir against 10 other clustering algorithms, namely Seurat [【68†3】], CAbiNet [【86†21】], Monocle3 [【69†4】], SIMLR [【72†7】], SC3 [【130†37】], RaceID [【128†35】,【129†36】], DivBiclust [【131†38】], k-means clustering, scDeepCluster [【74†9】] and scG-cluster [【75†10】].
+L458: Similarly, to evaluate the simultaneous clustering of cells and genes, we tested CAdir against 8 other biclustering algorithms: CAbiNet, BackSPIN, CCA, Plaid, QUBIC, QUBIC2, s4vd and Non-negative Matrix Factorization (NMF) [【79†14】,【81†16】,【82†17】,【86†21】,【152†42】–【153†45】]. Seurat [【68†3】] and Monocle3 [【69†4】], in conjunction with marker gene detection, were additionally added to the biclustering comparison.
+L459: To perform biclustering using NMF we used the RcppML package [【153†45】]. The log-count matrix is factorized into two matrices with k factors. Each cell and gene is then assigned to the factor with the highest coefficient. Because the factorization is not unique, we perform several restarts and return the best performing model as measured by the mean-squared-error. Additionally, L1-regularization is applied in order to increase the sparsity of the returned matrices.
+L460: The number of factors k, number of restarts and the L1-regularization penalties are varied during the benchmarking (see Table D in 【98†S1 Appendix】).
+L461: In order to test the algorithms under different conditions, we benchmarked them on the simulated and real data sets using the 2000, 4000, and 6000 most highly variable genes as determined by the function modelGeneVar and getTopHVGs from the package scran [【124†33】]. To prevent any bias in the choice of parameters, we additionally ran every algorithm with 36 different parameter combinations for a total of 108 runs per algorithm and data set.
+L462: As the number of parameters differ between algorithms, this can result in many variations of a single parameter or only a few different choices for more parameters. Table C and D in 【98†S1 Appendix】 list the 36 parameter combinations used for the cell clustering (Table C in 【98†S1 Appendix】) and biclustering (Table D in 【98†S1 Appendix】) benchmarking respectively. The data was pre-processed in the same way for all algorithms prior to clustering.
+L463: Algorithms that failed during the first run were rerun with more computational resources. If for example an algorithm required more memory than was provided, it was rerun with 500 Gb of memory, but if it exceeded the run time limits, the algorithm was restarted with a run time limit of 24 hours. For any other failures the algorithms were rerun with double the amount resources as for the original run, with a maximum of 500 Gb of memory and 24 hours of runtime.
+L464: Algorithms that did not finish the clustering were rerun up to two times.
+L465: #### Cell clustering evaluation.
+L466: We used the Adjusted Rand Index (ARI) [【245†68】] and the normalized mutual information (NMI) [【246†69】] as implemented in the R package aricode [【247†70】] to compare the cell clusterings to the reference annotations. The Adjusted Rand Index measures the similarity between two clusterings as done by the Rand Index, but is adjusted to correct for coincidental clusterings.
+L467: The ARI ranges from -1–1, where 0 indicates a random clustering, -1 a clustering worse than expected by chance and 1 that the two clusterings match perfectly. As the name already implies, NMI is a normalized measure for mutual information, and is bounded between 0 and 1. As it measures the dependence between the two groupings, higher values for the NMI indicate a higher association between the two clusterings.
+L468: Only successful runs were used for the evaluation, meaning that the summary statics such as mean or the maximum are taken over differing amount of runs, depending on how many effectively finished. We furthermore excluded runs that did not return interpretable results. Some clustering algorithms for example return “NA” or 0 clusters when they do not converge. These results were therefore excluded.
+L469: #### Biclustering evaluation.
+L470: In order to evaluate the simultaneous clustering of cells and genes, we used the clustering error (CE), introduced by Patrikainen and Meila [【154†46】,【155†47】]. Unlike the ARI, the CE measures the proportion of cells and genes that are assigned to a wrong cluster in a biclustering B, compared to a reference biclustering 【248†Image】. The clusters in B and 【249†Image】 are optimally matched in advance and therefore the number of confused points between the two biclusterings is minimized.
+L471: This is achieved using the Hungarian algorithm [【218†53】]. The CE is then given by the following formula:
+L472: 【250†Image】(11)
+L473: 
+L474: where 【251†Image】 represents the number of entries shared between B and 【252†Image】 and 【253†Image】 is the maximal sum of the confusion matrix. The CE ranges from 0 to 1, where a higher value reflects a better biclustering performance.
+L475: #### Runtime benchmarking.
+L476: Similarly to the benchmarking performed for the cell clustering, we used Splatter to simulate data sets of increasing size. We simulated data sets with 2 000 genes and 1 000, 10 000, 20 000, 40 000, 60 000, 80 000, 100 000, 200 000, 400 000 or 600 000 cells. For all simulated data sets we simulated 6 clusters and set the parameters de.facLoc and de.facScale to 1.5. The probability for a gene to be differentially expressed was set to 0.1.
+L477: The simulated data sets were normalized using the functions quickCluster and logNormCounts. All tested algorithms were run using a single thread and the runtime including potential dimensionality reduction steps was recorded.
+L478: #### Cluster number recovery.
+L479: To benchmark how well CAdir recovers the correct number of clusters, we used a scheme similar to the one described by Yu et al. [【67†2】]: We subset the pre-processed Tabula Muris cell atlas data to cell types with at least 300 cells, resulting in a data set 15 771 genes × 39 207 cells with 38 cell types from 18 tissues.
+L480: We then subset the data set to n randomly sampled cell types, where n is between 4–30 cell types in steps of 2, and again sub-sampled each cluster to 200 cells in order to equalize the size of the clusters. We retained the top 4 000 most highly variable genes, kept the first n + 20 dimensions after performing CA and let CAdir automatically infer the cutoff angle below which 99 %, 99.9 % or 99.99 % of cells fall when considering random directions in CA space.
+L481: To account for the variability introduced by randomly sampling clusters, we repeated each run 10 times.
+L482: ### Code availability
+L483: The latest version of CAdir can be downloaded and installed from GitHub (【61†https://github.com/VingronLab/CAdir†github.com】). The version of the package used to produce the results presented in this manuscript is available on Zenodo (【63†https://doi.org/10.5281/zenodo.14900874†doi.org】).
+L484: The code to reproduce the presented results can be found here on GitHub (【254†https://github.com/VingronLab/CAdir_results†github.com】) and is also deposited on Zenodo (【64†https://doi.org/10.5281/zenodo.14894255†doi.org】).
+L485: ## Supporting information
+L486: 
+L487: ### 【255†S1 Appendix.】 Supplementary Materials and Results.
+L488: 
+L489: Additional comparisons, analyses and benchmarkings that give additional insights into the performance and functionality of CAdir.
+L490: 
+L491: 【256†https://doi.org/10.1371/journal.pcbi.1014418.s001†doi.org】
+L492: 
+L493: (PDF)
+L494: ### 【257†S1 Fig.】 Interpretation of the Tabula Muris Limb Muscle data clustering.
+L495: A, Matrix of the pairwise angles between the cluster directions. Lower angles indicate higher similarity between clusters. B, Each row shows an Association Plot of the respective cluster in the diagonal and lines that show the direction of the remaining other clusters projected into the Association Plot. C, Sankey plot of the annotated clustering obtained with CAdir (left) and the ground truth annotation (right). Association Plot with cells in standard coordinates for D, B cells and E, Endothelial cells.
+L496: Closely associated clusters are colored in red and blue.
+L497: 【258†https://doi.org/10.1371/journal.pcbi.1014418.s002†doi.org】
+L498: 
+L499: (PDF)
+L500: ### 【259†S2 Fig.】 Clustering of PBMC3k data - additional plots.
+L501: 
+L502: A, Association Plots of the corrected clustering of the PBMC3k data after removing outlier cells and genes. Clustered cells are colored in lime green and co-clustered genes in orange. Five genes with the highest S【260†Image】-score are labelled. Other cells and genes are colored in dark green and grey respectively. B, Sankey plot comparing the corrected clustering (left) against the annotation obtained through the Seurat vignette (right).
+L503: 【261†https://doi.org/10.1371/journal.pcbi.1014418.s003†doi.org】
+L504: 
+L505: (PDF)
+L506: ### 【262†S3 Fig.】 Proportion of known marker genes among co-clustered genes.
+L507: 
+L508: Clustering of the PBMC3k data using CAdir. A-E, Proportion of co-clustered genes with S【263†Image】-score > 0 that are also contained in the CellMarker gene set used to annotate the cluster. F, For cluster 6 the gene set corresponding to the corresponding cell type from the annotation was used. G, Sankey plot of the clustering to show correspondence to the reference annotation.
+L509: 【264†https://doi.org/10.1371/journal.pcbi.1014418.s004†doi.org】
+L510: 
+L511: (PNG)
+L512: ### 【265†S4 Fig.】 Log-count expression plots of top ranked genes by CAdir and scran.
+L513: 
+L514: The violin plots show the expression for the 4 highest ranked genes using the 【266†Image】-score for CAdir and the mean AUC for scran. A-B, Expression for the B cell cluster. C-D, Expression for the Monocytes cluster. E-F, Expression for the Cytotoxic CD4^{+} T cell cluster.
+L515: 
+L516: 【267†https://doi.org/10.1371/journal.pcbi.1014418.s005†doi.org】
+L517: 
+L518: (PDF)
+L519: ### 【268†S5 Fig.】 Overlap of marker genes found by CAdir and scran.
+L520: 
+L521: The overlap between the co-clustered genes found by CAdir and scran’s scoreMarkers is determined by taking the same number of top ranked genes for both methods. A, Overlap between CAdir and scran using all co-clustered genes and B, using only the co-clustered genes with 【269†Image】.
+L522: 
+L523: 【270†https://doi.org/10.1371/journal.pcbi.1014418.s006†doi.org】
+L524: 
+L525: (PDF)
+L526: ### 【271†S6 Fig.】 Average NMI benchmarking results and percentage of successful runs per algorithm.
+L527: 
+L528: A, Mean Normalized Mutual Information over all 108 parameter combinations for each simulated data set. B, Fraction of successful (dark green) runs, runs that produced N/A (not assigned, orange) and crashed runs (red) for each algorithm and tested data set.
+L529: 
+L530: 【272†https://doi.org/10.1371/journal.pcbi.1014418.s007†doi.org】
+L531: 
+L532: (PDF)
+L533: ### 【273†S7 Fig.】 Runtime and Cluster Detection.
+L534: A, Computational runtime on simulated data of increasing size. Both x-axis and y-axis are in log10-scale for better interpretability. SC3 is marked in a dashed line as it is the only benchmarked cluster that does not cluster all cells in a conventional manner but instead only clusters 5000 cells and then attempts to assign the remaining cells to these clusters.
+L535: B, Deviation of the number of retrieved clusters from the number of randomly sampled cell type clusters from the Tabula Muris cell atlas for different numbers of k used to initialize CAdir and different quantile cutoffs for the automatic angle determination (apl_q). Error bars indicate the standard deviation over 10 replicate runs.
+L536: 【274†https://doi.org/10.1371/journal.pcbi.1014418.s008†doi.org】
+L537: 
+L538: (PDF)
+L539: ### 【275†S8 Fig.】 Split-merge graph plots.
+L540: 
+L541: For the cell clustering parameter combination that achieved the best ARI score, split-merge graphs are plotted for the A, Tirosh B, Brain Organoids and C, Tabula Sapiens data set.
+L542: 
+L543: 【276†https://doi.org/10.1371/journal.pcbi.1014418.s009†doi.org】
+L544: 
+L545: (PDF)
+L546: ### 【277†S9 Fig.】 UMAPs of CAdir clustering results.
+L547: 
+L548: Using the best scoring parameter combination of the cell clustering comparison, UMAPs for both the CAdir clustering and the reference annotation are plotted for the A-B, Tirosh, C-D, Brain Organoids and E-F, Tabula Sapiens. These data sets were chosen to further understand why CAdir did not achieve the best clustering results in the benchmarking on these data sets.
+L549: 
+L550: 【278†https://doi.org/10.1371/journal.pcbi.1014418.s010†doi.org】
+L551: 
+L552: (PNG)
+L553: ### 【279†S10 Fig.】 Expression of co-clustered genes for selected clusters - Tirosh data set.
+L554: 
+L555: Expression levels of the 4 genes with the highest 【280†Image】-score are shown for A, cluster 3 and B, cluster 4 using the best performing parameter combinations from the cell clustering benchmarking of CAdir on the Tirosh data set. C, Expression of CD4 in cluster 3 and 4.
+L556: 
+L557: 【281†https://doi.org/10.1371/journal.pcbi.1014418.s011†doi.org】
+L558: 
+L559: (PDF)
+L560: ### 【282†S11 Fig.】 Influence of the choice of dimensionality and Association Plot cutoff quantile on the clustering results.
+L561: 
+L562: Achieved ARI for A, the chosen number of CA dimensions and B, the Association Plot (APL) cutoff quantiles for experimental data sets.
+L563: 
+L564: 【283†https://doi.org/10.1371/journal.pcbi.1014418.s012†doi.org】
+L565: 
+L566: (PDF)
+L567: ### 【284†S12 Fig.】 Effect of the number of random directions on the inferred cutoff angle.
+L568: 
+L569: A, Number of random directions in comparison to the inferred cutoff angle. B, Number of random directions compared to the achieved ARI. Overall, after approximately 100 iterations the inferred angle is stable and therefore a higher number of random directions does not change the resulting ARI meaningfully.
+L570: 
+L571: 【285†https://doi.org/10.1371/journal.pcbi.1014418.s013†doi.org】
+L572: 
+L573: (PDF)
+L574: ### 【286†S13 Fig.】 Effect of the number of CAdir iterations.
+L575: 
+L576: Obtained cell clustering ARI on A, experimental data and B, simulated data for 1–50 CAdir iterations. The same comparison was also performed for C, experimental and D, simulated data for the Dirclust sub-step.
+L577: 
+L578: 【287†https://doi.org/10.1371/journal.pcbi.1014418.s014†doi.org】
+L579: 
+L580: (PDF)
+L581: ### 【288†S14 Fig.】 Expression of selected genes with increasing cluster specificity.
+L582: 
+L583: Association Plots of the A, B cell B, Endothelial cell clusters of the Tabula Muris Limb Muscle data. The selected genes increase in both their vector norm and 【289†Image】-score from left to right. The violin plots for the selected genes show the log-normalized expression of the genes in the clusters. As shown, the further out the gene lies from the origin, the more cluster specific they are.
+L584: 【290†https://doi.org/10.1371/journal.pcbi.1014418.s015†doi.org】
+L585: 
+L586: (PDF)
+L587: ### 【291†S15 Fig.】 Number of recovered clusters using Seurat.
+L588: 
+L589: Deviation of the number of recovered clusters using Seurat (y-axis) compared to the number of randomly sampled clusters (x-axis) from the Tabula Muris cell atlas. The deviation was measured for different numbers of nearest neighbors (NNs) as well as for different Leiden clustering resolutions.
+L590: 
+L591: 【292†https://doi.org/10.1371/journal.pcbi.1014418.s016†doi.org】
+L592: 
+L593: (PDF)
+L594: ### 【293†S16 Fig.】 Splatter simulation gene dropout probability.
+L595: 
+L596: A, Logistic function with increased dropout probability. The simulation parameter dropout.mid that determines the point at which the probability for a gene to be a dropout is 0.5 is set to 20 and dropout.shape is set to -0.05 for a slower falloff. Logistic functions estimated from the data for b, the Zeisel and B, PBMC3k data set.
+L597: 
+L598: 【294†https://doi.org/10.1371/journal.pcbi.1014418.s017†doi.org】
+L599: 
+L600: (PDF)
+L601: ### 【295†S17 Fig.】 Benchmarking results on sparser simulated data.
+L602: Biclustering benchmarking results for simulated data with increased gene dropout rate. The cell clustering is evaluated by A, the maximum ARI and B mean ARI of the cell clustering and the biclustering using the C, the maximum CE and D, the mean CE over all parameter combinations. Missing results for certain algorithms are because all (bi-)clustering runs for a data set either did not yield any interpretable results or all runs crashed (see, e.g., Plaid and DivBiclust).
+L603: 【296†https://doi.org/10.1371/journal.pcbi.1014418.s018†doi.org】
+L604: 
+L605: (PDF)
+L606: ### 【297†S18 Fig.】 Comparison of initialization methods for CAdir.
+L607: 
+L608: Adjusted Rand Index for clustering using kmeans_{++} (kmeansppp) and random initialization (rand) over 100 repetitions on the Tabula Muris Limb Muscle data for either k = 8 (ground truth) or k = 5 (kmeanspp_sub and rand_sub).
+L609: 
+L610: 【298†https://doi.org/10.1371/journal.pcbi.1014418.s019†doi.org】
+L611: 
+L612: (PDF)
+L613: ### 【299†S19 Fig.】 Comparison of 【300†Image】 inference methods.
+L614: 
+L615: For each experimental data set used in the benchmarking, the cutoff angle 【301†Image】 is inferred either using the permutation based method (“perm”) or using randomized directions (“rand”). Panel A shows the inferred angle, whereas B shows the ARI of the clustering result using the inferred angle.
+L616: 
+L617: 【302†https://doi.org/10.1371/journal.pcbi.1014418.s020†doi.org】
+L618: 
+L619: (PNG)
+L620: ### 【303†S20 Fig.】 Overview over plotting functionality.
+L621: Association Plots for the B cell cluster of the Tabula Muris Limb Muscle data set. A, Cells are colored by their respective cluster and the T cell and Macrophage cluster directions are highlighted. B, Association Plot only showing the genes, with the top 10 most highly associated genes labelled. Depending on the main interest, the size of either C, the genes, or D, the cells can be increased to provide a better overview. Panel E shows the Association plot for the cells in principal coordinates.
+L622: The red line has the same angle as the inferred cutoff angle 【304†Image】. The clustered cells are clearly delineated by the cutoff line from other cell types. Similarly in F, cells and genes are plotted together. Genes that fall to the right and below the red cutoff angle line are the most cluster specific.
+L623: 【305†https://doi.org/10.1371/journal.pcbi.1014418.s021†doi.org】
+L624: 
+L625: (PNG)
+L626: ## Acknowledgments
+L627: 
+L628: The authors wish to thank the IT group of the Max Planck Institute of Molecular Genetics for their support.
+L629: ## References
+L630:   1. 1. Zhang S, Li X, Lin J, Lin Q, Wong K-C. Review of single-cell RNA-seq data clustering for cell-type identification and characterization. RNA. 2023;29(5):517–30. pmid:36737104
+L631:      * 【306†View Article†doi.org】
+L632:      * 【307†PubMed/NCBI†www.ncbi.nlm.nih.gov】
+L633:      * 【308†Google Scholar†scholar.google.com】
+

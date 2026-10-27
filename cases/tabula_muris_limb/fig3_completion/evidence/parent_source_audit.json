@@ -1,0 +1,49 @@
+{
+  "recorded_at": "2026-10-27T13:08:23.848758+08:00",
+  "scope": "LM Fig3 source resources only; no whole-paper expansion",
+  "observations": [
+    {
+      "url": "https://zenodo.org/records/14900874",
+      "tool": "search_service_web_run.open",
+      "reference": "turn620622view0",
+      "result": "URL not accessible; no file list or bytes acquired"
+    },
+    {
+      "url": "https://zenodo.org/api/records/14900874",
+      "tool": "search_service_web_run.open",
+      "reference": "turn620622view1",
+      "result": "URL not accessible; no metadata acquired"
+    },
+    {
+      "url": "https://api.datacite.org/dois/10.5281/zenodo.14900874",
+      "tool": "search_service_web_run.open",
+      "reference": "turn212772view0",
+      "result": "URL not accessible"
+    },
+    {
+      "url": "https://zenodo.org/records/14894255",
+      "tool": "search_service_web_run.open",
+      "reference": "turn168402view0",
+      "result": "URL not accessible"
+    },
+    {
+      "repository": "VingronLab/CAdir_results",
+      "ref": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+      "path": "README.md",
+      "tool": "github_fetch_file",
+      "result": "404 for this path/ref only; not proof the whole repo is unavailable"
+    },
+    {
+      "query": "\"tabula_muris_marker_genes.csv\"",
+      "tool": "search_service_web_run.search",
+      "result": "No authoritative file located in this bounded search; not proof of nonexistence"
+    }
+  ],
+  "not_observed": [
+    "Zenodo file inventory",
+    "author marker CSV bytes",
+    "author filtered RDS bytes",
+    "archive checksum or private CAdir byte identity"
+  ],
+  "next": "Continue available-data Fig3/S1 implementation; keep strict-source equivalence unresolved; independent review judges the declared scope."
+}

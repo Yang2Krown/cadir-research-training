@@ -1,0 +1,27 @@
+$k
+[1] 8
+
+$epochs
+[1] 50
+
+$init
+[1] "kmeanspp"
+
+$log
+[1] FALSE
+
+$qcutoff
+[1] 0.8
+
+$call
+CAdir::dirclust_splitmerge(caobj = ca, k = cfg$cadir$k, cutoff = cfg$cadir$cutoff, 
+    qcutoff = cfg$cadir$qcutoff, method = cfg$cadir$method, counts = cfg$cadir$counts, 
+    apl_quant = cfg$cadir$apl_quant, min_cells = cfg$cadir$min_cells, 
+    epochs = cfg$cadir$epochs, reps = cfg$cadir$reps, apl_cutoff_reps = cfg$cadir$apl_cutoff_reps, 
+    make_plots = cfg$cadir$make_plots, convergence_thr = cfg$cadir$convergence_thr, 
+    max_iter = cfg$cadir$max_iter, init = cfg$cadir$init, keep_log = cfg$cadir$keep_log)
+
+$alpha_genes
+     99% 
+1.075064 
+
