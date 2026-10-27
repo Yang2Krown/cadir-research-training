@@ -1,0 +1,63 @@
+Fig3A | Limb Muscle (6000 HVG−only)
+Automatic GOA names; original cluster IDs in brackets
+
+     cluster 1 [cluster_1]                                       Vascular endothelial cell [cluster_2]        B cell [cluster_3]
+
+40                                                          40                                           40
+
+
+
+30                                                          30                                           30
+
+
+
+20                                                          20                                           20
+
+
+
+10                                                          10                                           10
+                                   Syt12                                        Gpr97
+                            Gdnf          Pax3                           Pcp4l1    Emid1                                       H2−DMb2 Cd22
+ 0                          Ntn5       Cadm2                0           Rasd1 Bcr                        0                    H2−Ob Faim3 Cd19
+         −1         0              1             2                         0         5         10                   0.0         2.5        5.0
+
+     T cell [cluster_4]                                          Macrophage [cluster_5]                       Schwalie et al.Nature.P1 [cluster_6]
+
+40                                                          40                                           40
+
+
+
+30                                                          30                                           30
+                                                                                                                                                      type      cell       gene
+
+
+20                                                          20                                           20
+                                                                                                                                                      cluster      cell_cluster   cell_other   gene_cluster   gene_other
+
+
+10                                                          10                                           10
+                                                                           Lilrb4                                                   3632451O06Rik
+                      Cd3g Lat                                     Gm11428         Gp49a                                           Ngf        Ccbe1
+ 0                Skap1 Cd3d Itk                            0        Alox5ap    Lrrc25                   0                            Cilp  C7
+        0.0       2.5        5.0           7.5       10.0           0            5            10               −1         0           1          2
+
+     Endothelial cell [cluster_7]
+
+40
+
+
+
+30
+
+
+
+20
+
+
+
+10
+                             Ptprb
+                  Gpr116              Eltd1
+ 0                    Cdh5         Flt1
+              0         2              4              6
+

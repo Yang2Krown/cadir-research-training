@@ -1,0 +1,5 @@
+{
+  "status": "PASS_INDEPENDENT_SCIPY_HUNGARIAN",
+  "verified_actual_annotations": 28,
+  "costs_produce_different_names": true
+}
