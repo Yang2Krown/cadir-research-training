@@ -1,0 +1,21 @@
+module	fixed_commit	source_path	start_line	excerpt_path
+audit_object <-	ab68da7ef154f133ec436275fcf11396f37f884a	cases/tabula_muris_limb/scripts/pipeline.R	23	evidence/source/LM/pipeline.R
+export_results <-	ab68da7ef154f133ec436275fcf11396f37f884a	cases/tabula_muris_limb/scripts/pipeline.R	80	evidence/source/LM/pipeline.R
+modelGeneVar	ab68da7ef154f133ec436275fcf11396f37f884a	cases/tabula_muris_limb/scripts/pipeline.R	215	evidence/source/LM/pipeline.R
+do.call(APL::cacomp	ab68da7ef154f133ec436275fcf11396f37f884a	cases/tabula_muris_limb/scripts/pipeline.R	235	evidence/source/LM/pipeline.R
+CAdir::dirclust_splitmerge	ab68da7ef154f133ec436275fcf11396f37f884a	cases/tabula_muris_limb/scripts/pipeline.R	244	evidence/source/LM/pipeline.R
+CAdir::rank_genes	ab68da7ef154f133ec436275fcf11396f37f884a	cases/tabula_muris_limb/scripts/pipeline.R	102	evidence/source/LM/pipeline.R
+aricode::clustComp	ab68da7ef154f133ec436275fcf11396f37f884a	cases/tabula_muris_limb/scripts/pipeline.R	132	evidence/source/LM/pipeline.R
+aricode::clustComp	ab68da7ef154f133ec436275fcf11396f37f884a	cases/tabula_muris_limb/scripts/pipeline.R	136	evidence/source/LM/pipeline.R
+CAdir::annotate_biclusters	ab68da7ef154f133ec436275fcf11396f37f884a	cases/tabula_muris_limb/scripts/pipeline.R	267	evidence/source/LM/pipeline.R
+tempfile.mkdtemp	ab68da7ef154f133ec436275fcf11396f37f884a	cases/tabula_muris_limb/scripts/run_case.py	31	evidence/source/LM/run_case.py
+aricode::clustComp	ab68da7ef154f133ec436275fcf11396f37f884a	cases/tabula_muris_limb/scripts/verify_results.R	75	evidence/source/LM/verify_results.R
+modelGeneVar	6cc7b3da67c193da11a67c45a75167d6521438b0	cases/nestorowa_hsc/fair-experiment/scripts/prepare_common.R	63	evidence/source/HSC/prepare_common.R
+scuttle::logNormCounts	6cc7b3da67c193da11a67c45a75167d6521438b0	cases/nestorowa_hsc/fair-experiment/scripts/prepare_common.R	53	evidence/source/HSC/prepare_common.R
+do.call(APL::cacomp	6cc7b3da67c193da11a67c45a75167d6521438b0	cases/nestorowa_hsc/fair-experiment/scripts/formal_run.R	25	evidence/source/HSC/formal_run.R
+CAdir::dirclust_splitmerge	6cc7b3da67c193da11a67c45a75167d6521438b0	cases/nestorowa_hsc/fair-experiment/scripts/formal_run.R	29	evidence/source/HSC/formal_run.R
+scater::runPCA	6cc7b3da67c193da11a67c45a75167d6521438b0	cases/nestorowa_hsc/fair-experiment/scripts/formal_run.R	34	evidence/source/HSC/formal_run.R
+scran::buildSNNGraph	6cc7b3da67c193da11a67c45a75167d6521438b0	cases/nestorowa_hsc/fair-experiment/scripts/formal_run.R	37	evidence/source/HSC/formal_run.R
+igraph::cluster_louvain	6cc7b3da67c193da11a67c45a75167d6521438b0	cases/nestorowa_hsc/fair-experiment/scripts/formal_run.R	39	evidence/source/HSC/formal_run.R
+def main	6cc7b3da67c193da11a67c45a75167d6521438b0	cases/nestorowa_hsc/fair-experiment/scripts/run_experiment.py	48	evidence/source/HSC/run_experiment.py
+CAdir::rank_genes	6cc7b3da67c193da11a67c45a75167d6521438b0	cases/nestorowa_hsc/fair-experiment/scripts/rank_diagnostics.R	19	evidence/source/HSC/rank_diagnostics.R

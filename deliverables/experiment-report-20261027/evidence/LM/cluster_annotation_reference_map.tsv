@@ -1,0 +1,8 @@
+"cluster_id"	"predicted_annotation"	"ncells"	"reference_majority"	"reference_majority_n"	"reference_majority_fraction"
+"cluster_1"	"cluster_1"	940	"skeletal muscle satellite cell"	526	0.559574468085106
+"cluster_2"	"Vascular_endothelial_cell"	28	"endothelial cell"	19	0.678571428571429
+"cluster_3"	"B_cell"	113	"B cell"	63	0.557522123893805
+"cluster_4"	"T_cell"	48	"T cell"	33	0.6875
+"cluster_5"	"Macrophage"	76	"macrophage"	73	0.960526315789474
+"cluster_6"	"Schwalie_et_al.Nature.P1"	490	"mesenchymal stem cell"	488	0.995918367346939
+"cluster_7"	"Endothelial_cell"	187	"endothelial cell"	187	1

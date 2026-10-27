@@ -1,0 +1,8 @@
+{
+  "original_cells": 1882,
+  "original_genes": 13204,
+  "hvg_count": 6000,
+  "actual_selected_genes": 6000,
+  "seed": 2358,
+  "renormalized": false
+}
