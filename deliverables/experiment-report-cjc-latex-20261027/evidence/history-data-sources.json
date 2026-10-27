@@ -1,0 +1,26 @@
+[
+  {
+    "file": "evidence/history-data/Fig3D_node_annotations.tsv.gz",
+    "source_file": "Fig3D_node_annotations.tsv",
+    "source_sha256": "d716a97dd6da0a247547fa3d9d35ef9c4340408ff632158593e4b45ceeec58c2",
+    "gzip_sha256": "d2d42551d6d0a822fe2d907265b9696475f8d0f3213c67c841bebf122d84f93e"
+  },
+  {
+    "file": "evidence/history-data/Fig3D_history_edges.tsv.gz",
+    "source_file": "Fig3D_history_edges.tsv",
+    "source_sha256": "a2983e4ee763394fcddecdc37ed5958559bc6ef60298a1d95e2a963767fabbb7",
+    "gzip_sha256": "697179604bf061f94816698f71dd73548ae82b4aacb6363f7452b4a3917e786c"
+  },
+  {
+    "file": "evidence/history-data/Fig3D_all_node_cell_membership.tsv.gz",
+    "source_file": "Fig3D_all_node_cell_membership.tsv",
+    "source_sha256": "c258391fcaade14aa96871f8102fe26a2765a98b76efb6d91f3c044de56454cb",
+    "gzip_sha256": "3d4b01bc572b79546edb92c27b2282c7ea2a4b03a53e880f3a18f0256ae66a71"
+  },
+  {
+    "file": "evidence/history-data/Fig3D_all_node_APL_coordinates.tsv.gz",
+    "source_file": "Fig3D_all_node_APL_coordinates.tsv",
+    "source_sha256": "4033e85c4df00cc46c2a81c5361059da621b5d6d3850670baae6230cf1784780",
+    "gzip_sha256": "363660d8bacd69dfe2c8338766cf8a4f91cf6548c506f162dd4642205efdfe29"
+  }
+]

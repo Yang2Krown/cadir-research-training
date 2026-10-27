@@ -2,13 +2,13 @@
 \section{源码、数据与固定成果}
 \subsection{源码地址}
 \begin{itemize}
-\item 项目源码：\href{https://github.com/Yang2Krown/cadir-research-training}{\nolinkurl{Yang2Krown/cadir-research-training}}。
+\item 项目源码：\href{https://github.com/Yang2Krown/cadir-research-training}{\texttt{\fontsize{10}{12}\selectfont\seqsplit{Yang{2}Krown/cadir-research-training}}}。
 
-\item 作者分析代码：\href{https://github.com/VingronLab/CAdir_results/tree/c15b49578bde38b42fd5db2c9830c10dd441ee4c}{\nolinkurl{VingronLab/CAdir_results}}。
+\item 作者分析代码：\href{https://github.com/VingronLab/CAdir_results/tree/c15b49578bde38b42fd5db2c9830c10dd441ee4c}{\texttt{\fontsize{10}{12}\selectfont\seqsplit{VingronLab/CAdir\_results}}}。
 
-\item CAdir计算包：\href{https://github.com/VingronLab/CAdir/tree/de74a008dfcd0d4fa4f7f93c57aa346892a8d935}{\nolinkurl{VingronLab/CAdir}}。
+\item CAdir计算包：\href{https://github.com/VingronLab/CAdir/tree/de74a008dfcd0d4fa4f7f93c57aa346892a8d935}{\texttt{\fontsize{10}{12}\selectfont\seqsplit{VingronLab/CAdir}}}。
 
-\item APL计算包：\href{https://github.com/VingronLab/APL/tree/d4d1f40d9ea9f1d9a95b224d45de843334cd617d}{\nolinkurl{VingronLab/APL}}。
+\item APL计算包：\href{https://github.com/VingronLab/APL/tree/d4d1f40d9ea9f1d9a95b224d45de843334cd617d}{\texttt{\fontsize{10}{12}\selectfont\seqsplit{VingronLab/APL}}}。
 
 \end{itemize}
 \subsection{数据地址}
@@ -36,7 +36,7 @@ HSC结果交付 & \seqsplit{4277589d24bedc2ae85dfc75296426c56e7679fa} \\
 \end{tabularx}
 \end{table}
 
-LM独立报告保存在{\ttfamily\nolinkurl{project-control/reviews/lm-fig3-20261027/report.md}}。HSC独立结论及交付入口保存在{\ttfamily\nolinkurl{project-control/HSC}}公平实验阶段结论{\ttfamily\nolinkurl{-2026-10-27.md}}。本报告图像和原始科学表的文件名、固定提交、大小与SHA256见随附{\ttfamily\nolinkurl{evidence/}}材料来源索引{\ttfamily\nolinkurl{.json}}。
+LM独立报告保存在\texttt{\fontsize{10}{12}\selectfont\seqsplit{project-control/reviews/lm-fig{3}-{20261027}/report.md}}。HSC独立结论及交付入口保存在\texttt{\fontsize{10}{12}\selectfont\seqsplit{project-control/HSC公平实验阶段结论-{2026}-{10}-{27}.md}}。本报告图像和原始科学表的文件名、固定提交、大小与SHA256见随附\texttt{\fontsize{10}{12}\selectfont\seqsplit{evidence/材料来源索引.json}}。
 
 \section{代码与输出索引}
 \begin{table}[!htbp]
@@ -46,20 +46,20 @@ LM独立报告保存在{\ttfamily\nolinkurl{project-control/reviews/lm-fig3-2026
 \toprule
 模块 & 实际源文件 & 输入与输出 \\
 \midrule
-LM运行管理 & \nolinkurl{scripts/run_case.py} & 配置与RDS→独立目录、状态及R控制台 \\
-LM科学计算 & \nolinkurl{scripts/pipeline.R} & SCE→HVG、CA、CAdir、排名、注释和指标 \\
-LM结果检查 & \nolinkurl{scripts/verify_results.R} & 实际对象与表→数值检查记录 \\
-九图生成 & \nolinkurl{fig3_completion/scripts/render_fig3.R} & 保存对象→九图及科学表 \\
-图例布局 & \nolinkurl{fig3_completion/scripts/repair_s1_legend.R} & 相同对象→S1D/E布局修复 \\
-HSC共同准备 & \nolinkurl{fair-experiment/scripts/prepare_common.R} & 计数和元数据→QC、共享表达与评价ID \\
-HSC正式运行 & \nolinkurl{fair-experiment/scripts/formal_run.R} & 共享表达与种子→CA／PCA、分区和资源 \\
-HSC运行管理 & \nolinkurl{fair-experiment/scripts/run_experiment.py} & 准入与配置→两方法五种子执行 \\
-HSC排名诊断 & \nolinkurl{fair-experiment/scripts/rank_diagnostics.R} & 实际CA与CAdir→基因得分及图 \\
+LM运行管理 & \texttt{\fontsize{10}{12}\selectfont\seqsplit{scripts/run\_case.py}} & 配置与RDS→独立目录、状态及R控制台 \\
+LM科学计算 & \texttt{\fontsize{10}{12}\selectfont\seqsplit{scripts/pipeline.R}} & SCE→HVG、CA、CAdir、排名、注释和指标 \\
+LM结果检查 & \texttt{\fontsize{10}{12}\selectfont\seqsplit{scripts/verify\_results.R}} & 实际对象与表→数值检查记录 \\
+九图生成 & \texttt{\fontsize{10}{12}\selectfont\seqsplit{fig{3}\_completion/scripts/render\_fig{3}.R}} & 保存对象→九图及科学表 \\
+图例布局 & \texttt{\fontsize{10}{12}\selectfont\seqsplit{fig{3}\_completion/scripts/repair\_s{1}\_legend.R}} & 相同对象→S1D/E布局修复 \\
+HSC共同准备 & \texttt{\fontsize{10}{12}\selectfont\seqsplit{fair-experiment/scripts/prepare\_common.R}} & 计数和元数据→QC、共享表达与评价ID \\
+HSC正式运行 & \texttt{\fontsize{10}{12}\selectfont\seqsplit{fair-experiment/scripts/formal\_run.R}} & 共享表达与种子→CA／PCA、分区和资源 \\
+HSC运行管理 & \texttt{\fontsize{10}{12}\selectfont\seqsplit{fair-experiment/scripts/run\_experiment.py}} & 准入与配置→两方法五种子执行 \\
+HSC排名诊断 & \texttt{\fontsize{10}{12}\selectfont\seqsplit{fair-experiment/scripts/rank\_diagnostics.R}} & 实际CA与CAdir→基因得分及图 \\
 \bottomrule
 \end{tabularx}
 \end{table}
 
-前五行均相对于{\ttfamily\nolinkurl{cases/tabula_muris_limb/}}，后四行相对于{\ttfamily\nolinkurl{cases/nestorowa_hsc/}}。本报告的构建脚本还生成按固定源码定位的行号索引，保存为{\ttfamily\nolinkurl{evidence/}}代码段索引{\ttfamily\nolinkurl{.tsv}}。LM导出包括完整细胞分配、完整\allowbreak{}6000基因分配、1200基因排名、方向向量、角矩阵、参考流量及历史节点／边；HSC导出包括十次分区、指标及共同队列ID。
+前五行均相对于\texttt{\fontsize{10}{12}\selectfont\seqsplit{cases/tabula\_muris\_limb/}}，后四行相对于\texttt{\fontsize{10}{12}\selectfont\seqsplit{cases/nestorowa\_hsc/}}。本报告的构建脚本还生成按固定源码定位的行号索引，保存为\texttt{\fontsize{10}{12}\selectfont\seqsplit{evidence/代码段索引.tsv}}。LM导出包括完整细胞分配、完整\allowbreak{}6000基因分配、1200基因排名、方向向量、角矩阵、参考流量及历史节点／边；HSC导出包括十次分区、指标及共同队列ID。
 
 \section{工作记录表}
 \begin{table}[!htbp]
@@ -94,6 +94,24 @@ HSC独立检查 & 指标重算、对象检查及图表复核 \\
 \end{tabularx}
 \end{table}
 
+\section{历史节点的放大关联图}
+三个阶段共\allowbreak{}21个面板使用已有逐节点坐标与逐细胞成员表绘制。每个面板展示\allowbreak{}1882个细胞，亮绿色表示该节点的成员，深绿色表示其余细胞；标题列出该阶段簇号、细胞数与历史自动注释。各阶段的细胞总数均为\allowbreak{}1882。
+
+\begin{figure}[p]
+\centering
+\includegraphics[width=0.98\textwidth,height=0.91\textheight,keepaspectratio]{layout/figures/history_initial_panels.pdf}
+\caption{初始阶段的8个节点关联图，按两列四行放大显示。}\label{fig:history-initial}
+\end{figure}
+\begin{figure}[p]
+\centering
+\includegraphics[width=0.98\textwidth,height=0.83\textheight,keepaspectratio]{layout/figures/history_merge_panels.pdf}
+\caption{合并阶段的6个节点关联图，按两列三行放大显示。}\label{fig:history-merge}
+\end{figure}
+\begin{figure}[p]
+\centering
+\includegraphics[width=0.98\textwidth,height=0.91\textheight,keepaspectratio]{layout/figures/history_split_panels.pdf}
+\caption{拆分阶段的7个节点关联图，按两列四行放大显示。}\label{fig:history-split}
+\end{figure}
 \clearpage\section*{Background}\addcontentsline{toc}{section}{Background}
 Single-cell transcriptomics studies variation among individual cells by measuring expression for thousands of genes. A central computational task is to organize cells into groups and connect those groups to interpretable molecular features. Conventional workflows commonly normalize counts, select variable genes, calculate principal components, and identify communities in a neighbor graph. Such workflows provide useful cell partitions, while interpretation draws on gene expression patterns and published cell annotations. CAdir approaches this task through correspondence analysis and directional clustering. Its geometry links cells and genes, allowing cluster assignment, associated-gene ranking, and visualization to be interpreted within a common representation.
 

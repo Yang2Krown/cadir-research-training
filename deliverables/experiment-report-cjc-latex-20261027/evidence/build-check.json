@@ -1,18 +1,42 @@
 {
   "page_count": 29,
-  "pdf_bytes": 6466478,
-  "pdf_sha256": "c1c99d56d2528d1376fa053ca7c70c4e43b04b9b6a3944c8878a536ce490d2cc",
+  "pdf_bytes": 4768624,
+  "pdf_sha256": "c99b58daf1052d83290888cd029aafbe24617c9d0d9bd0f29afb08e5c3d4ba38",
   "pdf_figure_sources": 13,
-  "bibliography_entries": 7,
+  "bibliography_entries": 15,
+  "english_references": 15,
+  "references_2024_2026": 9,
+  "history_display_figures": 4,
+  "enlarged_history_panels": 21,
+  "original_figures_checked": 13,
+  "figure_pages": {
+    "1": 13,
+    "2": 14,
+    "3": 14,
+    "4": 15,
+    "5": 16,
+    "6": 16,
+    "7": 17,
+    "8": 18,
+    "9": 18,
+    "10": 19,
+    "11": 20,
+    "12": 21,
+    "13": 21
+  },
+  "command_layout": {
+    "page": 8,
+    "before_gap_pt": 11.356689453125,
+    "after_gap_pt": 5.613037109375
+  },
   "dual_column_pages": [
     5,
     6,
     7,
-    8,
     9,
     10,
-    11,
-    24
+    22,
+    23
   ],
   "missing_glyphs": 0,
   "undefined_references": 0,

@@ -1,0 +1,152 @@
+[
+  {
+    "key": "kohl2026",
+    "year": 2026,
+    "language": "English",
+    "doi": "10.1371/journal.pcbi.1014418",
+    "source": "https://doi.org/10.1371/journal.pcbi.1014418",
+    "verification": "Existing report reference retained",
+    "checked_date": "2026-10-27",
+    "newly_added": false
+  },
+  {
+    "key": "tabulamuris2018",
+    "year": 2018,
+    "language": "English",
+    "doi": "10.1038/s41586-018-0590-4",
+    "source": "https://doi.org/10.1038/s41586-018-0590-4",
+    "verification": "Existing report reference retained",
+    "checked_date": "2026-10-27",
+    "newly_added": false
+  },
+  {
+    "key": "nestorowa2016",
+    "year": 2016,
+    "language": "English",
+    "doi": "10.1182/blood-2016-05-716480",
+    "source": "https://doi.org/10.1182/blood-2016-05-716480",
+    "verification": "Existing report reference retained",
+    "checked_date": "2026-10-27",
+    "newly_added": false
+  },
+  {
+    "key": "huber2015",
+    "year": 2015,
+    "language": "English",
+    "doi": "10.1038/nmeth.3252",
+    "source": "https://doi.org/10.1038/nmeth.3252",
+    "verification": "Existing report reference retained",
+    "checked_date": "2026-10-27",
+    "newly_added": false
+  },
+  {
+    "key": "lun2016",
+    "year": 2016,
+    "language": "English",
+    "doi": null,
+    "source": "https://pubmed.ncbi.nlm.nih.gov/27909575/",
+    "verification": "Existing report reference retained",
+    "checked_date": "2026-10-27",
+    "newly_added": false
+  },
+  {
+    "key": "blondel2008",
+    "year": 2008,
+    "language": "English",
+    "doi": "10.1088/1742-5468/2008/10/P10008",
+    "source": "https://doi.org/10.1088/1742-5468/2008/10/P10008",
+    "verification": "Existing report reference retained",
+    "checked_date": "2026-10-27",
+    "newly_added": false
+  },
+  {
+    "key": "hubert1985",
+    "year": 1985,
+    "language": "English",
+    "doi": "10.1007/BF01908075",
+    "source": "https://doi.org/10.1007/BF01908075",
+    "verification": "Existing report reference retained",
+    "checked_date": "2026-10-27",
+    "newly_added": false
+  },
+  {
+    "key": "zhao2024cabinet",
+    "year": 2024,
+    "language": "English",
+    "doi": "10.1093/nar/gkae480",
+    "source": "https://academic.oup.com/nar/article/52/13/e57/7689921",
+    "verification": "Publisher/PubMed metadata and abstract checked for the new related-work discussion",
+    "checked_date": "2026-10-27",
+    "newly_added": true
+  },
+  {
+    "key": "castanho2024",
+    "year": 2024,
+    "language": "English",
+    "doi": "10.1093/bib/bbae342",
+    "source": "https://academic.oup.com/bib/article/25/4/bbae342/7713725",
+    "verification": "Publisher/PubMed metadata and abstract checked for the new related-work discussion",
+    "checked_date": "2026-10-27",
+    "newly_added": true
+  },
+  {
+    "key": "fu2025ivae",
+    "year": 2025,
+    "language": "English",
+    "doi": "10.1186/s12915-025-02315-7",
+    "source": "https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-025-02315-7",
+    "verification": "Publisher/PubMed metadata and abstract checked for the new related-work discussion",
+    "checked_date": "2026-10-27",
+    "newly_added": true
+  },
+  {
+    "key": "kim2025scice",
+    "year": 2025,
+    "language": "English",
+    "doi": "10.1038/s41467-025-60702-8",
+    "source": "https://www.nature.com/articles/s41467-025-60702-8",
+    "verification": "Publisher/PubMed metadata and abstract checked for the new related-work discussion",
+    "checked_date": "2026-10-27",
+    "newly_added": true
+  },
+  {
+    "key": "sant2025choir",
+    "year": 2025,
+    "language": "English",
+    "doi": "10.1038/s41588-025-02148-8",
+    "source": "https://www.nature.com/articles/s41588-025-02148-8",
+    "verification": "Publisher/PubMed metadata and abstract checked for the new related-work discussion",
+    "checked_date": "2026-10-27",
+    "newly_added": true
+  },
+  {
+    "key": "yin2025benchmark",
+    "year": 2025,
+    "language": "English",
+    "doi": "10.1186/s13059-025-03719-y",
+    "source": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03719-y",
+    "verification": "Publisher/PubMed metadata and abstract checked for the new related-work discussion",
+    "checked_date": "2026-10-27",
+    "newly_added": true
+  },
+  {
+    "key": "ge2025normalization",
+    "year": 2025,
+    "language": "English",
+    "doi": "10.1371/journal.pone.0335102",
+    "source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0335102",
+    "verification": "Publisher/PubMed metadata and abstract checked for the new related-work discussion",
+    "checked_date": "2026-10-27",
+    "newly_added": true
+  },
+  {
+    "key": "fang2024pipeline",
+    "year": 2024,
+    "language": "English",
+    "doi": "10.1186/s13059-024-03304-9",
+    "source": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03304-9",
+    "verification": "Publisher/PubMed metadata and abstract checked for the new related-work discussion",
+    "checked_date": "2026-10-27",
+    "newly_added": true
+  }
+]

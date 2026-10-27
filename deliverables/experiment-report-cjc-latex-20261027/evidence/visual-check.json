@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-27",
+  "inspection": "Rendered pages and all-page contact sheet checked",
+  "pages_checked_at_reading_scale": [
+    1,
+    8,
+    14,
+    15,
+    16,
+    18,
+    21,
+    26
+  ],
+  "checks": [
+    "Author and bilingual header",
+    "Unframed commands and spacing",
+    "Paired direction plots",
+    "Readable history topology and key panels",
+    "Angle labels and complete 49-panel projection matrix",
+    "Paired HSC distributions with column normalization",
+    "Complete historical node panels"
+  ],
+  "scientific_result_policy": "Existing accepted numerical results retained"
+}

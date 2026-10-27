@@ -1,0 +1,340 @@
+[
+  {
+    "source": "figures/Fig3A_association_top5.pdf",
+    "display": "layout/figures/Fig3A_association_top5.pdf",
+    "source_sha256": "11474a85e87298605bf52325646feaf9ce3012bd25cbaeace37ca8cef6e5c3c8",
+    "display_sha256": "7f715081c1b73d00ec979c3b186bb7dd318b4b460470b831551c8ca382cb3d22",
+    "source_box": [
+      0.0,
+      0.0,
+      1080.0,
+      792.0
+    ],
+    "ink_box": [
+      11.0,
+      5.0,
+      1064.0,
+      779.5
+    ],
+    "crop_box": [
+      5.0,
+      0.0,
+      1070.0,
+      785.5
+    ],
+    "operation": "Exterior white margins only; equal scaling",
+    "original_retained": true
+  },
+  {
+    "source": "figures/Fig3B_Bcell_principal.pdf",
+    "display": "layout/figures/Fig3B_Bcell_principal.pdf",
+    "source_sha256": "af0291165c9c86d4efd5b9708562b21d5bf08e1b8360680591465fd181a6f58a",
+    "display_sha256": "3c695cc21f6a39b1658982b771a1aacc3f0db94b5c03707fe78480321a5cc536",
+    "source_box": [
+      0.0,
+      0.0,
+      720.0,
+      504.0
+    ],
+    "ink_box": [
+      231.5,
+      46.5,
+      488.5,
+      497.5
+    ],
+    "crop_box": [
+      225.5,
+      44.0,
+      494.5,
+      503.5
+    ],
+    "operation": "Repeated heading moved to caption; axes/data/legends retained; equal scaling",
+    "original_retained": true
+  },
+  {
+    "source": "figures/Fig3C_endothelial_principal.pdf",
+    "display": "layout/figures/Fig3C_endothelial_principal.pdf",
+    "source_sha256": "c51c17edf6ca5c8c9ce40e581dcf76c5dc7264e12edbdd9bf7307bbc4a506fc0",
+    "display_sha256": "0d2aa6607db4f68e02d58a0665325f94e44652b5cce4d9e88271a7536a10e979",
+    "source_box": [
+      0.0,
+      0.0,
+      720.0,
+      504.0
+    ],
+    "ink_box": [
+      244.5,
+      46.5,
+      475.5,
+      497.5
+    ],
+    "crop_box": [
+      238.5,
+      44.0,
+      481.5,
+      503.5
+    ],
+    "operation": "Repeated heading moved to caption; axes/data/legends retained; equal scaling",
+    "original_retained": true
+  },
+  {
+    "source": "figures/Fig3D_actual_split_merge_history.pdf",
+    "display": "layout/figures/Fig3D_actual_split_merge_history.pdf",
+    "source_sha256": "cd6802d27e5a5125baa61ebb1a6b629408d8032a4125f3d015e949f1d61d81c0",
+    "display_sha256": "fa14f451ac0196289b74dfd9f2b7d053f0710acc847db1b956dcc3cb4537e155",
+    "source_box": [
+      0.0,
+      0.0,
+      1296.0,
+      864.0
+    ],
+    "ink_box": [
+      59.0,
+      0.5,
+      1268.5,
+      861.5
+    ],
+    "crop_box": [
+      53.0,
+      0.0,
+      1274.5,
+      864.0
+    ],
+    "operation": "Exterior white margins only; equal scaling",
+    "original_retained": true
+  },
+  {
+    "source": "figures/HSC_01-all-seed-ARI-NMI.pdf",
+    "display": "layout/figures/HSC_01-all-seed-ARI-NMI.pdf",
+    "source_sha256": "b3db29592483e3b07ad876d9b11f8db593e6abd9043d6fdc6120e1df4497bd4b",
+    "display_sha256": "103924ec3aad6cbcb234ceba0a75c6db0579820807746e141a9ab3c5b2fbb8a1",
+    "source_box": [
+      0.0,
+      0.0,
+      648.0,
+      504.0
+    ],
+    "ink_box": [
+      5.5,
+      5.5,
+      642.0,
+      498.0
+    ],
+    "crop_box": [
+      0.0,
+      0.0,
+      648.0,
+      504.0
+    ],
+    "operation": "Exterior white margins only; equal scaling",
+    "original_retained": true
+  },
+  {
+    "source": "figures/HSC_02-cadir-seed2358-reference-share.pdf",
+    "display": "layout/figures/HSC_02-cadir-seed2358-reference-share.pdf",
+    "source_sha256": "6f84eff0488c2d26ba3bdb5d2b21e3c28e7c730a3a2187b4b1a5863ef041b454",
+    "display_sha256": "5a0a52dc9ca136b9c159e241745e439c2a9e3ae2aa89911486790ab7ad18b5a8",
+    "source_box": [
+      0.0,
+      0.0,
+      648.0,
+      421.0
+    ],
+    "ink_box": [
+      5.5,
+      4.5,
+      642.0,
+      413.5
+    ],
+    "crop_box": [
+      0.0,
+      0.0,
+      648.0,
+      419.5
+    ],
+    "operation": "Exterior white margins only; equal scaling",
+    "original_retained": true
+  },
+  {
+    "source": "figures/HSC_02-pca_snn_louvain-seed2358-reference-share.pdf",
+    "display": "layout/figures/HSC_02-pca_snn_louvain-seed2358-reference-share.pdf",
+    "source_sha256": "ae81782cb8e6d25c0c73748180d2fb6d23f802ae4bd9d9664ae2f96717d3bf6a",
+    "display_sha256": "8363a138de07045c1595f5ed89060209a94de1fce5d5332cf621ccbd46a2fc32",
+    "source_box": [
+      0.0,
+      0.0,
+      648.0,
+      360.0
+    ],
+    "ink_box": [
+      5.5,
+      5.5,
+      642.0,
+      352.5
+    ],
+    "crop_box": [
+      0.0,
+      0.0,
+      648.0,
+      358.5
+    ],
+    "operation": "Exterior white margins only; equal scaling",
+    "original_retained": true
+  },
+  {
+    "source": "figures/HSC_04-common-cohort.pdf",
+    "display": "layout/figures/HSC_04-common-cohort.pdf",
+    "source_sha256": "68cbe0b7ee9f0cb67b854e40a5deaa1e73f654bc89c50d143e17968d59b84ef9",
+    "display_sha256": "75664890326c1b8c8e1946474c020c54141e1d8f936844f806029135439ad026",
+    "source_box": [
+      0.0,
+      0.0,
+      648.0,
+      388.0
+    ],
+    "ink_box": [
+      5.5,
+      4.5,
+      642.0,
+      382.0
+    ],
+    "crop_box": [
+      0.0,
+      0.0,
+      648.0,
+      388.0
+    ],
+    "operation": "Exterior white margins only; equal scaling",
+    "original_retained": true
+  },
+  {
+    "source": "figures/S1A_direction_angle_heatmap.pdf",
+    "display": "layout/figures/S1A_direction_angle_heatmap.pdf",
+    "source_sha256": "e11751c333a8f666064f7419a9ff40611144b0ab5b4c2f0a44792659854656d9",
+    "display_sha256": "63956936efad19a3b489d91cd6f2ac40c5042e1f53e569f09c6a41dfd080925b",
+    "source_box": [
+      0.0,
+      0.0,
+      864.0,
+      720.0
+    ],
+    "ink_box": [
+      33.0,
+      4.5,
+      825.5,
+      713.5
+    ],
+    "crop_box": [
+      27.0,
+      0.0,
+      831.5,
+      719.5
+    ],
+    "operation": "Exterior white margins only; equal scaling",
+    "original_retained": true
+  },
+  {
+    "source": "figures/S1B_direction_projection_matrix.pdf",
+    "display": "layout/figures/S1B_direction_projection_matrix.pdf",
+    "source_sha256": "c06f2d7d734841fb57debd62cf482247ead0d67328e5cff50df9116b33af000f",
+    "display_sha256": "30a0b997d81402a2dae69cf709e7a0205f726a2cea5fc45fb8e098745090bcaa",
+    "source_box": [
+      0.0,
+      0.0,
+      1296.0,
+      1296.0
+    ],
+    "ink_box": [
+      11.5,
+      5.0,
+      1285.5,
+      1282.5
+    ],
+    "crop_box": [
+      5.5,
+      0.0,
+      1291.5,
+      1288.5
+    ],
+    "operation": "Exterior white margins only; equal scaling",
+    "original_retained": true
+  },
+  {
+    "source": "figures/S1C_reference_sankey.pdf",
+    "display": "layout/figures/S1C_reference_sankey.pdf",
+    "source_sha256": "196f06e20d7c4eeee01141134ce93ebde685f2ee7ffdc12ded156bfbe847b097",
+    "display_sha256": "75096710a77a272fd2c6087b0d6a1b5316bb3af440bc4710e507239bee787a1c",
+    "source_box": [
+      0.0,
+      0.0,
+      936.0,
+      720.0
+    ],
+    "ink_box": [
+      10.5,
+      6.0,
+      748.0,
+      712.0
+    ],
+    "crop_box": [
+      4.5,
+      0.0,
+      754.0,
+      718.0
+    ],
+    "operation": "Exterior white margins only; equal scaling",
+    "original_retained": true
+  },
+  {
+    "source": "figures/S1D_Bcell_standard.pdf",
+    "display": "layout/figures/S1D_Bcell_standard.pdf",
+    "source_sha256": "d12f877a202fe5f6a67e346bd1dfbe4d847ad0d53356916ca051b11c3f398ee5",
+    "display_sha256": "f3e9f4e20cdf0f3f3d302e76621cfbcd4dc367b3d2675af7879b31ef6d4f74cb",
+    "source_box": [
+      0.0,
+      0.0,
+      720.0,
+      504.0
+    ],
+    "ink_box": [
+      250.0,
+      46.5,
+      502.5,
+      492.0
+    ],
+    "crop_box": [
+      244.0,
+      44.0,
+      508.5,
+      498.0
+    ],
+    "operation": "Repeated heading moved to caption; axes/data/legends retained; equal scaling",
+    "original_retained": true
+  },
+  {
+    "source": "figures/S1E_endothelial_standard.pdf",
+    "display": "layout/figures/S1E_endothelial_standard.pdf",
+    "source_sha256": "b80b63248d9abd41a8f8aea0d7c5d19b9c3fcf115bf50c61c38022b10aadb030",
+    "display_sha256": "5bb32b56bf506f3dcb45dbb2966f9ec841fdf33d249ecc19d218b199e6abc47b",
+    "source_box": [
+      0.0,
+      0.0,
+      720.0,
+      504.0
+    ],
+    "ink_box": [
+      251.0,
+      46.5,
+      501.0,
+      492.0
+    ],
+    "crop_box": [
+      245.0,
+      44.0,
+      507.0,
+      498.0
+    ],
+    "operation": "Repeated heading moved to caption; axes/data/legends retained; equal scaling",
+    "original_retained": true
+  }
+]

@@ -8,14 +8,16 @@ import re
 import subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT.parent / 'experiment-report-20261027/实验报告.md'
+SOURCE = ROOT / 'report-content.md'
 REPO = ROOT.parents[1]
 LM = 'ab68da7ef154f133ec436275fcf11396f37f884a'
 HSC = '091a8a4585cabc59a5504380398892bac49044f4'
 TEMPLATE = '69e5409cd9ad26c92348896494dd3a18b78a0fbe'
 CITES = {str(i): name for i, name in enumerate(
     ['kohl2026', 'tabulamuris2018', 'nestorowa2016', 'huber2015',
-     'lun2016', 'blondel2008', 'hubert1985'], 1)}
+     'lun2016', 'blondel2008', 'hubert1985','zhao2024cabinet','castanho2024',
+     'fu2025ivae','kim2025scice','sant2025choir','yin2025benchmark',
+     'ge2025normalization','fang2024pipeline'], 1)}
 FIGURES = ['Fig3A_association_top5', 'Fig3B_Bcell_principal',
            'Fig3C_endothelial_principal', 'Fig3D_actual_split_merge_history',
            'S1A_direction_angle_heatmap', 'S1B_direction_projection_matrix',
@@ -32,14 +34,24 @@ def escape(s):
     return ''.join(chars.get(c, c) for c in s)
 
 
+def code_inline(s):
+    if re.fullmatch(r'[0-9a-fA-F]{32,}', s):
+        content = escape(s)
+    else:
+        parts = re.findall(r'\d+|[^\d]', s)
+        content = ''.join('{' + p + '}' if p.isdigit() else
+                          r'{\ }' if p == ' ' else escape(p) for p in parts)
+    return r'\texttt{\fontsize{10}{12}\selectfont\seqsplit{' + content + '}}'
+
+
 def text(s):
     s = s.replace('本次两组比较中的最大角度变化为', '两组比较中的最大角度变化为')
     if '/' in s and re.fullmatch(r'[A-Za-z0-9_/.\-]+', s):
-        return r'\nolinkurl{' + s + '}'
-    parts = re.split(r'(\[[1-7]\]|图(?:1[0-3]|[1-9])(?!\d)|表1(?!\d))', s)
+        return code_inline(s)
+    parts = re.split(r'(\[(?:1[0-5]|[1-9])\]|图(?:1[0-3]|[1-9])(?!\d)|表1(?!\d))', s)
     result = []
     for x in parts:
-        if re.fullmatch(r'\[[1-7]\]', x):
+        if re.fullmatch(r'\[(?:1[0-5]|[1-9])\]', x):
             result.append(r'\cite{' + CITES[x[1:-1]] + '}')
         elif re.fullmatch(r'图(?:1[0-3]|[1-9])', x):
             result.append(r'图~\ref{fig:' + x[1:] + '}')
@@ -87,9 +99,7 @@ def inline(items):
         elif kind == 'Strong': out.append(r'\textbf{' + inline(value) + '}')
         elif kind == 'Emph': out.append(r'\emph{' + inline(value) + '}')
         elif kind == 'Code':
-            parts = re.split(r'([\u3400-\u9fff]+)', value[1])
-            out.append(''.join(escape(p) if re.fullmatch(r'[\u3400-\u9fff]+', p)
-                               else r'{\ttfamily\nolinkurl{' + p + '}}' for p in parts if p))
+            out.append(code_inline(value[1]))
         elif kind == 'Math':
             formula = value[1].replace(r'\mathbf{\Phi}', r'\boldsymbol{\Phi}').replace(
                 r'\mathbf{\Gamma}', r'\boldsymbol{\Gamma}')
@@ -107,6 +117,7 @@ class Renderer:
         self.table_number = 0
         self.figure_count = 0
         self.in_appendix = False
+        self.pending_figure = None
 
     def table(self, value):
         self.table_number += 1
@@ -141,10 +152,55 @@ class Renderer:
         n = self.figure_count
         name = Path(source).stem + '.pdf'
         cap = re.sub(r'^图\d+[\s\u3000]*', '', plain(caption)).rstrip('。')
-        return (r'\begin{figure*}[!tbp]' + '\n' + r'\centering' + '\n' +
-                r'\includegraphics[width=0.96\textwidth,height=0.72\textheight,keepaspectratio]{figures/' + name + '}\n' +
+        if n == 4:
+            name = 'Fig3D_history_readable.pdf'
+            cap = '真实拆分合并历史的拓扑与局部放大：（a）22节点、23条边的完整历史；（b–d）合并簇C2及其拆分后C2、C7的关联图。亮绿表示该节点成员，深绿表示其余细胞'
+        if n == 2:
+            cap = cap.replace('B细胞簇', 'B细胞簇（cluster_3）')
+        elif n == 3:
+            cap = cap.replace('两个内皮预测方向', '内皮簇（cluster_7）与血管内皮簇（cluster_2）')
+        elif n == 8:
+            cap = cap.replace('免疫方向', 'B细胞簇（cluster_3）')
+        elif n == 9:
+            cap = cap.replace('内皮方向', '内皮簇（cluster_7）')
+        if n == 5:
+            name = 'S1A_angles_readable.pdf'
+            cap += '。C1—C7分别表示cluster_1—cluster_7，角度显示到小数点后一位'
+        if n in [2, 5, 8, 12]:
+            self.pending_figure = (n, name, cap)
+            return ''
+        if n in [3, 6, 9, 13]:
+            assert self.pending_figure is not None
+            pair = [self.pending_figure, (n, name, cap)]
+            self.pending_figure = None
+            result = [r'\begin{figure}[H]', r'\centering']
+            if n in [6, 13]:
+                heights = ['0.29', '0.53'] if n == 6 else ['0.42', '0.38']
+                for i, (number, filename, title) in enumerate(pair):
+                    if i: result.append(r'\par\vspace{6pt}')
+                    result.extend([r'\includegraphics[width=0.96\textwidth,height='+heights[i]+r'\textheight,keepaspectratio]{layout/figures/'+filename+'}',
+                                   r'\caption{'+escape(title)+r'}\label{fig:'+str(number)+'}'])
+                result.append(r'\end{figure}')
+                return '\n'.join(result)+'\n\n'
+            for i, (number, filename, title) in enumerate(pair):
+                if i: result.append(r'\hfill')
+                result.extend([r'\begin{minipage}[t]{0.475\textwidth}',
+                               r'\centering\vspace{0pt}',
+                               r'\includegraphics[width=\linewidth,height=0.55\textheight,keepaspectratio]{layout/figures/'+filename+'}',
+                               r'\caption{'+escape(title)+r'}\label{fig:'+str(number)+'}',
+                               r'\end{minipage}'])
+            result.append(r'\end{figure}')
+            return '\n'.join(result)+'\n\n'
+        sizes = {1: ('0.96', '0.60'), 4: ('0.96', '0.60'), 5: ('0.90', '0.53'),
+                 6: ('0.96', '0.70'), 7: ('0.90', '0.52'), 10: ('0.90', '0.38'),
+                 11: ('0.92', '0.50'), 12: ('0.93', '0.42'), 13: ('0.93', '0.38')}
+        width, height = sizes[n]
+        opening = r'\begin{figure}[H]'
+        closing = r'\end{figure}'
+        return (opening + '\n' + r'\centering' + '\n' +
+                r'\includegraphics[width='+width+r'\textwidth,height='+height+r'\textheight,keepaspectratio]{layout/figures/' + name + '}\n' +
                 r'\caption{' + escape(cap) + r'}\label{fig:' + str(n) + '}\n' +
-                r'\end{figure*}' + '\n\n')
+                closing + '\n\n')
 
     def blocks(self, blocks):
         out = []
@@ -180,16 +236,42 @@ class Renderer:
                 image = next(x for x in para['c'] if x['t'] == 'Image')
                 out.append(self.figure(image['c'][1], image['c'][2][0]))
             elif kind == 'CodeBlock':
-                out.append(r'\begin{Verbatim}[fontsize=\fontsize{7.7}{10}\selectfont,breaklines=true,breakanywhere=true,frame=single]' +
-                           '\n' + value[1] + '\n' + r'\end{Verbatim}' + '\n\n')
+                code = value[1]
+                if code == ('bash /workspace/cadir-env/complete-setup.sh\n'
+                            'source /workspace/cadir-env/activate.sh\nRscript --version'):
+                    code = 'cd /workspace/cadir-env\nbash complete-setup.sh\nsource activate.sh\nRscript --version'
+                out.append(r'\begin{ReportCode}' + '\n' + code + '\n' + r'\end{ReportCode}' + '\n\n')
             elif kind == 'Table': out.append(self.table(value))
             elif kind == 'BulletList':
                 out.append(r'\begin{itemize}' + '\n')
                 for part in value: out.append(r'\item ' + self.blocks(part))
                 out.append(r'\end{itemize}' + '\n')
             elif kind == 'HorizontalRule': out.append('\n')
+            elif kind == 'RawBlock' and value[0] == 'latex': out.append(value[1]+'\n')
             else: raise ValueError('Unhandled block: ' + kind)
         return ''.join(out)
+
+
+def results_layout(body):
+    """Keep wide results beside their explanation, with double-column prose.
+
+    Use normal full-width H figures between balanced prose blocks. This avoids
+    a long two-column float queue detaching plots from their interpretation.
+    """
+    start = body.index(r'\section{LM实验结果与分析}')
+    stop = len(body)
+    results = body[start:stop].replace(r'\begin{table*}[!htbp]', r'\begin{table}[H]').replace(r'\end{table*}', r'\end{table}')
+    chunks = re.split(r'(\\begin\{(?:figure|table)\}\[H\].*?\\end\{(?:figure|table)\})',
+                      results, flags=re.S)
+    layout = [r'\clearpage\onecolumn', '\n']
+    for chunk in chunks:
+        if not chunk.strip():
+            continue
+        if chunk.startswith((r'\begin{figure}', r'\begin{table}')):
+            layout.append(chunk+'\n')
+        else:
+            layout.append(r'\begin{multicols}{2}\raggedcolumns'+'\n'+chunk.strip()+'\n'+r'\end{multicols}'+'\n')
+    return body[:start]+''.join(layout)+body[stop:]
 
 
 def main():
@@ -216,7 +298,7 @@ def main():
         header = {'t': 'Header', 'c': [1, ['', [], []], [{'t':'Str','c':title}]]}
         target = appendix if title.startswith('附录') or title == 'Background' else body
         target.extend([header] + blocks)
-    (ROOT / 'sections/body.tex').write_text(r.blocks(body).rstrip() + '\n\\par\n')
+    (ROOT / 'sections/body.tex').write_text(results_layout(r.blocks(body)).rstrip() + '\n\\par\n')
     (ROOT / 'sections/appendices.tex').write_text(r.blocks(appendix).rstrip() + '\n\\par\n')
     records = []
     for name in FIGURES:
@@ -236,12 +318,13 @@ def main():
                         'sha256':hashlib.sha256(data).hexdigest()})
     (ROOT / 'evidence/figure-sources.json').write_text(json.dumps(records,ensure_ascii=False,indent=2)+'\n')
     (ROOT / 'evidence/content-source.json').write_text(json.dumps({
-        'report_commit':'b7d968ad8d30f366383c2b3afc97a5c2e5b2bfa5',
+        'base_report_commit':'b7d968ad8d30f366383c2b3afc97a5c2e5b2bfa5',
+        'base_report_path':'deliverables/experiment-report-20261027/实验报告.md',
         'report_path':str(SOURCE.relative_to(REPO)),
         'report_sha256':hashlib.sha256(SOURCE.read_bytes()).hexdigest(),
         'template_repository':'https://github.com/strive-yang/CHINESE-JOURNAL-OF-COMPUTERS--Latex-Template',
         'template_commit':TEMPLATE, 'figures':r.figure_count,
-        'transformation':'Report content to CjC sections; equivalent compact ARI notation; existing vector figures; BibTeX citations'
+        'transformation':'Completed report retained with added related work and enlarged frozen-history appendix; editable Markdown to CjC sections; equivalent compact ARI notation; BibTeX citations'
     },ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({'figures':r.figure_count,'tables':r.table_number,'output':str(ROOT)},ensure_ascii=False))
 
