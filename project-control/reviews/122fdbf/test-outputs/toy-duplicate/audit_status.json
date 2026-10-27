@@ -1,0 +1,5 @@
+{
+  "status": "FAILED_STRUCTURE",
+  "error": "Unique, nonempty explicit gene/cell IDs required",
+  "clustering_or_evaluation_run": false
+}

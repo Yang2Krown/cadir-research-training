@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-10-26T20:13:47.649371+08:00",
+  "command": [
+    "python3",
+    "/workspace/hsc-input-independent-review/project-control/reviews/b7ee233-real-input-20261026/scripts/run_review.py"
+  ],
+  "reviewer_authored_runner_sha256": "6ade54ad6ae96243b0f766143285a02fc39e2ecfcc4c4d1e480a03a41a25ebe6",
+  "executor": "coordinator execution relay only; no reviewer code edited or verdict signed",
+  "formal_execution_permitted": false,
+  "exit_code": 1,
+  "elapsed_seconds": 77.73203389000264,
+  "runner_unchanged_after": true
+}

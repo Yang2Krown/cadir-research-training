@@ -1,0 +1,125 @@
+function (points, lines, pnorm, pos_only = TRUE) 
+{
+    if (is.matrix(lines)) {
+        lines <- t(lines)
+    }
+    proj <- (points %*% lines)
+    dist <- pnorm^2 - proj^2
+    dist[dist < 0] <- 0
+    dist <- sqrt(dist)
+    if (pos_only) {
+        dist[proj < 0] <- Inf
+    }
+    return(dist)
+}
+<bytecode: 0x55ab40ed9608>
+<environment: namespace:CAdir>
+function (caobj, k, cutoff = NULL, qcutoff = 0.8, method = "random", 
+    counts = NULL, apl_quant = 0.99, min_cells = 5, epochs = NULL, 
+    reps = NULL, apl_cutoff_reps = 100, make_plots = FALSE, convergence_thr = 0.001, 
+    max_iter = 50, init = "kmeanspp", keep_log = TRUE, lines = NULL) 
+{
+    fun_args <- match.call()
+    if (!is.null(cutoff)) {
+        cutoff <- deg2rad(cutoff)
+    }
+    if (isTRUE(keep_log)) {
+        log <- list()
+        log$clusters <- as.data.frame(matrix(0, ncol = 1, nrow = nrow(caobj@prin_coords_cols)))
+        colnames(log$clusters) <- "root"
+        log$directions <- as.data.frame(matrix(0, ncol = ncol(caobj@prin_coords_cols), 
+            nrow = 1))
+        colnames(log$directions) <- colnames(caobj@prin_coords_cols)
+        log$directions <- cbind(iter = "root", dirname = "root", 
+            log$directions)
+    }
+    if (!is.null(lines)) {
+        lines <- lines/row_norm(lines)
+    }
+    out <- dirclust(points = caobj@prin_coords_cols, k = k, epochs = epochs, 
+        init = init, lines = lines, log = FALSE, convergence_thr = convergence_thr, 
+        max_iter = max_iter)
+    out <- rename_clusters(out)
+    if (isTRUE(keep_log)) {
+        log <- log_iter(log = log, cadir = out, name = "iter_0")
+    }
+    if (is.null(cutoff)) {
+        if (method == "permutation" && is.null(counts)) {
+            rlang::warn(paste0("No count matrix for permutation supplied. ", 
+                "Switching to random directions method."))
+            counts <- NULL
+            method <- "random"
+        }
+        grp_idx <- which(out@cell_clusters == base::sample(unique(out@cell_clusters), 
+            1))
+        cutoff <- get_apl_cutoff(caobj = caobj, counts = counts, 
+            method = method, group = grp_idx, quant = apl_quant, 
+            apl_cutoff_reps = apl_cutoff_reps, axis = "cols")
+        out@parameters$sa_cutoff <- cutoff
+        rlang::inform(paste0("\nInferred cutoff angle: ", round(rad2deg(cutoff), 
+            2), "\n"))
+    }
+    use_conv <- !isFALSE(convergence_thr)
+    if (is.null(reps)) {
+        reps <- max_iter
+    }
+    i <- 0
+    has_conv <- FALSE
+    while (!(isTRUE(has_conv) || i >= reps)) {
+        i <- i + 1
+        rlang::inform(paste0("Iteration ", i))
+        iter_nm <- paste0("iter_", i)
+        out@log$last_rep <- i
+        out <- split_clusters(cadir = out, caobj = caobj, cutoff = cutoff, 
+            min_cells = min_cells, make_plots = make_plots)
+        if (isTRUE(keep_log)) {
+            log <- log_iter(log = log, cadir = out, name = paste0("split_", 
+                iter_nm))
+        }
+        out <- dirclust(points = caobj@prin_coords_cols, k = ncol(out@directions), 
+            epochs = epochs, log = FALSE, cadir = out, convergence_thr = convergence_thr, 
+            max_iter = 10)
+        out <- rename_clusters(out)
+        if (isTRUE(keep_log)) {
+            log <- log_iter(log = log, cadir = out, name = paste0("interS_", 
+                iter_nm))
+        }
+        out <- merge_clusters(caobj = caobj, cadir = out, cutoff = cutoff, 
+            make_plots = make_plots)
+        if (isTRUE(keep_log)) {
+            log <- log_iter(log = log, cadir = out, name = paste0("merge_", 
+                iter_nm))
+        }
+        out <- dirclust(points = caobj@prin_coords_cols, k = ncol(out@directions), 
+            epochs = epochs, log = FALSE, cadir = out, convergence_thr = convergence_thr, 
+            max_iter = 10)
+        out <- rename_clusters(out)
+        if (isTRUE(keep_log)) {
+            log <- log_iter(log = log, cadir = out, name = paste0("interM_", 
+                iter_nm))
+        }
+        if (i > 1 && use_conv) {
+            has_conv <- check_convergence(now = out@directions, 
+                prev = last_iter, convergence_thr = convergence_thr)
+            if (isTRUE(has_conv)) 
+                break
+        }
+        last_iter <- out@directions
+    }
+    out@gene_clusters <- assign_genes(caobj = caobj, cadir = out, 
+        qcutoff = qcutoff, coords = "prin")
+    out <- rename_clusters(out)
+    if (isTRUE(keep_log)) {
+        log <- log_iter(log = log, cadir = out, name = paste0("end", 
+            iter_nm))
+    }
+    if (isTRUE(keep_log)) {
+        to_keep <- (!names(out@log) %in% names(log))
+        out@log <- c(out@log[to_keep], log)
+    }
+    out@parameters$qcutoff <- qcutoff
+    out@parameters$call <- fun_args
+    return(out)
+}
+<bytecode: 0x55ab40f02e08>
+<environment: namespace:CAdir>

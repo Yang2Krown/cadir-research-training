@@ -1,0 +1,57 @@
+Warning message:
+package ‘matrixStats’ was built under R version 4.4.3 
+$status
+[1] "PASS_INDEPENDENT_NUMERIC"
+
+$implementation_sha
+[1] "a33e815971f8bb89e8136ed65ee41b99a2f3a2e9"
+
+$cells
+[1] 1882
+
+$genes
+[1] 6000
+
+$assigned_genes
+[1] 1200
+
+$clusters
+[1] 7
+
+$alpha
+     99% 
+1.075064 
+
+$ARI
+[1] 0.6695187
+
+$NMImax
+[1] 0.7418854
+
+$history_stages
+[1] "iter_0"       "merge_iter_1" "split_iter_2"
+
+$history_nodes
+[1] 22
+
+$history_edges
+[1] 23
+
+$principal_projection_max_angle_error
+[1] 1.503025e-14
+
+$standard_max_angle_change
+[1] 27.53593
+
+$B_T_angle
+[1] 63.99844
+
+$B_Macrophage_angle
+[1] 72.69562
+
+$Endothelial_Vascular_angle
+[1] 66.11007
+
+$strict_author_artifact_equivalence
+[1] "BLOCKED"
+

@@ -1,0 +1,70 @@
+{
+  "received": [
+    {
+      "file": "导出清单.json",
+      "path": "/workspace/attachments/3b5c0489-7d7f-4c6b-b7ac-2dfa1973ea2e/导出清单.json",
+      "bytes": 20154,
+      "sha256": "05a72678fc0e1489ba0bfba6ed532eb9d2f8944d38f432036db250fbde99aa72",
+      "expected_match": true
+    },
+    {
+      "file": "R3小文本证据.zip",
+      "path": "/workspace/attachments/02ec33c8-fc1f-4fc2-8cdd-01bc7263ca4a/R3小文本证据.zip",
+      "bytes": 133113,
+      "sha256": "b654efa9eaab33cecacd4bebac7b372c967d1a98fd5a8b1870dd16ed13f77fc7",
+      "expected_match": true
+    },
+    {
+      "file": "ca.rds",
+      "path": "/workspace/attachments/265fe0fc-6903-4aa4-949a-ef6d0d431e5f/ca.rds",
+      "bytes": 5761375,
+      "sha256": "1e6348adc31fc1ae3d8971605953f1524116399ea2e299817aa89c75d9d2e661",
+      "expected_match": true
+    },
+    {
+      "file": "cadir_unranked.rds",
+      "path": "/workspace/attachments/eacf94fc-d844-4b8e-a860-f1450bb1ecd7/cadir_unranked.rds",
+      "bytes": 21821342,
+      "sha256": "df428b523f8b4027209ea81673ccb25665b1e490cd9dab58ef797f22807b2d96",
+      "expected_match": true
+    }
+  ],
+  "manifest_files_verified": [
+    "ca.rds",
+    "text/rerun/runtime_config.json",
+    "text/evidence/full-run.json",
+    "text/rerun/full/console.log",
+    "text/rerun/full/sessionInfo.txt",
+    "text/evidence/upstream_sources.json",
+    "text/evidence/large_artifacts.json",
+    "text/evidence/installed_source_function_comparison.json",
+    "text/evidence/environment-activate.sh",
+    "text/evidence/environment-provenance.md",
+    "text/evidence/environment-sources.json",
+    "text/evidence/source_before_sha256.json",
+    "text/evidence/historical_hash_comparison.json",
+    "text/evidence/rank_discrepancy.json",
+    "text/evidence/rank_differences.tsv",
+    "text/evidence/ranking_current_repeat.json",
+    "text/evidence/ranking_current_repeat.log",
+    "text/evidence/backend_check.json",
+    "text/evidence/saved_objects_check.json",
+    "text/evidence/resources.txt",
+    "text/scripts/run_full.py",
+    "text/scripts/inspect_algorithm.R",
+    "text/scripts/rank_discrepancy.py",
+    "text/source/cases/tabula_muris_limb/scripts/pipeline.R",
+    "text/source/cases/tabula_muris_limb/scripts/run-r.sh",
+    "text/source/cases/tabula_muris_limb/scripts/sample_rss.sh",
+    "text/rerun/full/effective_cadir_parameters.txt",
+    "text/rerun/full/installed_packages.tsv",
+    "text/rerun/full/coclustered_gene_ranks.tsv",
+    "text/rerun/full/r_status.json",
+    "text/rerun/full/stage_times_seconds.json",
+    "text/rerun/full/selected_genes.tsv",
+    "text/rerun/full/hvg_genes.tsv",
+    "cadir_unranked.rds"
+  ],
+  "manifest_files_not_received": [],
+  "export_claimed_required_found": 7
+}

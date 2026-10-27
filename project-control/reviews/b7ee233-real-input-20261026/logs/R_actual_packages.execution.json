@@ -1,0 +1,14 @@
+{
+  "started_utc": "2026-10-26T11:13:54.715079+00:00",
+  "ended_utc": "2026-10-26T11:13:56.013503+00:00",
+  "argv": [
+    "/workspace/cadir-env/skeleton_runtime/bin/Rscript",
+    "--vanilla",
+    "-e",
+    "cat(R.version.string,\"\\n\"); cat(\"R.home=\",R.home(),\"\\n\"); print(.libPaths()); for (p in c(\"Matrix\",\"S4Vectors\",\"jsonlite\",\"digest\",\"BiocVersion\")) { cat(p,\": \"); if (requireNamespace(p,quietly=TRUE)) cat(as.character(packageVersion(p)),\"\\n\") else cat(\"UNAVAILABLE\\n\") }; print(sessionInfo())"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 1.298435270000482,
+  "stdout_bytes": 1245,
+  "stderr_bytes": 0
+}

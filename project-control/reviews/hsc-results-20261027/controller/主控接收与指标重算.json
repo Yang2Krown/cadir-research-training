@@ -1,0 +1,140 @@
+{
+  "result_commit": "091a8a4585cabc59a5504380398892bac49044f4",
+  "review_commit": "b48066cba0bf4cd308f2f75b1134c12f85c576ef",
+  "delivery_commit": "4277589d24bedc2ae85dfc75296426c56e7679fa",
+  "zip_size": 23185119,
+  "zip_sha256": "034f08ff08f57961cc12db09b0c3dd2e13b7893ea09f793f1cea00f79166023c",
+  "zip_CRC": "PASS",
+  "zip_members": 342,
+  "indexed_member_hashes_checked": 341,
+  "review_index_files_checked": 21,
+  "controller_metrics_independently_recomputed_from_cell_IDs": true,
+  "raw_RDS_not_available_to_controller": true,
+  "normalization_or_clustering_rerun": false,
+  "runs": [
+    {
+      "method": "cadir",
+      "seed": 2358,
+      "ARI": 0.28854226331115396,
+      "NMImax": 0.3357586287230378,
+      "n_cells": 1656,
+      "n_clusters": 11,
+      "n_eval": 1641,
+      "ARI_delta": 5.551115123125783e-17,
+      "NMI_delta": 2.220446049250313e-16
+    },
+    {
+      "method": "cadir",
+      "seed": 101,
+      "ARI": 0.29385770588688764,
+      "NMImax": 0.34627058422215756,
+      "n_cells": 1656,
+      "n_clusters": 9,
+      "n_eval": 1641,
+      "ARI_delta": 3.3306690738754696e-16,
+      "NMI_delta": 5.551115123125783e-16
+    },
+    {
+      "method": "cadir",
+      "seed": 202,
+      "ARI": 0.29150639837085257,
+      "NMImax": 0.3434140491816711,
+      "n_cells": 1656,
+      "n_clusters": 10,
+      "n_eval": 1641,
+      "ARI_delta": 4.440892098500626e-16,
+      "NMI_delta": 1.1102230246251565e-16
+    },
+    {
+      "method": "cadir",
+      "seed": 303,
+      "ARI": 0.28974225986116287,
+      "NMImax": 0.34239854655077767,
+      "n_cells": 1656,
+      "n_clusters": 10,
+      "n_eval": 1641,
+      "ARI_delta": 1.1102230246251565e-16,
+      "NMI_delta": 3.3306690738754696e-16
+    },
+    {
+      "method": "cadir",
+      "seed": 404,
+      "ARI": 0.2943045920753827,
+      "NMImax": 0.3453179275827218,
+      "n_cells": 1656,
+      "n_clusters": 9,
+      "n_eval": 1641,
+      "ARI_delta": 3.3306690738754696e-16,
+      "NMI_delta": 2.220446049250313e-16
+    },
+    {
+      "method": "pca_snn_louvain",
+      "seed": 2358,
+      "ARI": 0.2669748957568009,
+      "NMImax": 0.3562580723786778,
+      "n_cells": 1656,
+      "n_clusters": 7,
+      "n_eval": 1641,
+      "ARI_delta": 1.1102230246251565e-16,
+      "NMI_delta": 2.220446049250313e-16
+    },
+    {
+      "method": "pca_snn_louvain",
+      "seed": 101,
+      "ARI": 0.2694392717568449,
+      "NMImax": 0.3561916143788098,
+      "n_cells": 1656,
+      "n_clusters": 7,
+      "n_eval": 1641,
+      "ARI_delta": 1.1102230246251565e-16,
+      "NMI_delta": 1.6653345369377348e-16
+    },
+    {
+      "method": "pca_snn_louvain",
+      "seed": 202,
+      "ARI": 0.26934538129425784,
+      "NMImax": 0.3564639345251977,
+      "n_cells": 1656,
+      "n_clusters": 7,
+      "n_eval": 1641,
+      "ARI_delta": 1.6653345369377348e-16,
+      "NMI_delta": 2.7755575615628914e-16
+    },
+    {
+      "method": "pca_snn_louvain",
+      "seed": 303,
+      "ARI": 0.2687235615562709,
+      "NMImax": 0.35862250740253027,
+      "n_cells": 1656,
+      "n_clusters": 7,
+      "n_eval": 1641,
+      "ARI_delta": 5.551115123125783e-17,
+      "NMI_delta": 2.7755575615628914e-16
+    },
+    {
+      "method": "pca_snn_louvain",
+      "seed": 404,
+      "ARI": 0.26979923930627475,
+      "NMImax": 0.359383467966189,
+      "n_cells": 1656,
+      "n_clusters": 7,
+      "n_eval": 1641,
+      "ARI_delta": 2.220446049250313e-16,
+      "NMI_delta": 0.0
+    }
+  ],
+  "summary": {
+    "cadir": {
+      "n_runs": 5,
+      "ARI_median": 0.29150639837085257,
+      "NMImax_median": 0.3434140491816711
+    },
+    "pca_snn_louvain": {
+      "n_runs": 5,
+      "ARI_median": 0.26934538129425784,
+      "NMImax_median": 0.3564639345251977
+    }
+  },
+  "max_metric_delta": 5.551115123125783e-16,
+  "first_controller_check_correction": "Status field names metric validity, not process success; first strict success-string assertion corrected to actual recorded schema; source data unchanged."
+}

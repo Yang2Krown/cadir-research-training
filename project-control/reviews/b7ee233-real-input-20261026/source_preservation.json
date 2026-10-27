@@ -1,0 +1,6 @@
+{
+  "same_HEAD": true,
+  "same_audit_source_bytes": true,
+  "clean_before": true,
+  "clean_after": true
+}

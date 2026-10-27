@@ -1,0 +1,18 @@
+{
+  "target_HEAD": "b7ee2335dc25ffab3a60d1feab44272d6d5a45cb",
+  "target_parent": "d853986e2e3a1cabc9f3f728f616e402432257ec",
+  "local_origin_ref": "b7ee2335dc25ffab3a60d1feab44272d6d5a45cb",
+  "worktree_clean": true,
+  "status_porcelain": "",
+  "source_sha256": {
+    "audit_inputs.R": "63d5c3d419b34645227178bc1daaf8da04a113f13ec11c04427f709c1fef9f92",
+    "metadata_identity.R": "aada661c76bd5d9fd5084c53572b958055d48b8e1466b6610f2de3c35cee58f5",
+    "run_input_audit.py": "5c8e15aa5257acdf60dc1c5625af0aab99a29d16631f007e6930855846d53a3b",
+    "test_metadata_identity.R": "5ff1aca1e931dbbe3dbecc647cd71723d07fb6383fad20aaea1033bf670deb32",
+    "verify_a03_evidence.py": "863ff1e16d52e40fc35fb013890b917f629d4d6761a6bbdc0890819109dd488e",
+    "inspect_legacy_rownames.R": "9d99b92ad38d2962d2c7aeaff131091a7e2fa883713c8dba12adaec4251e6704"
+  },
+  "real_raw_directory_present": false,
+  "source_worktree_modified_by_reviewer": false,
+  "output_directory": "/workspace/cadir-hsc-a03-independent-review-20261026"
+}

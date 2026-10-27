@@ -1,0 +1,2 @@
+# Preserve independent review diagnostic logs byte for byte.
+*.log -whitespace

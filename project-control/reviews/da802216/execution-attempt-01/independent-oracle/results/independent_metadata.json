@@ -1,0 +1,91 @@
+{
+  "class": "DataFrame",
+  "rows": 1920,
+  "raw_attribute_type": "symbol",
+  "raw_symbol": "\u0001NULL\u0001",
+  "semantic_NULL": true,
+  "default_rownames_not_used": true,
+  "fields": {
+    "cell.type": {
+      "class": "lgCMatrix",
+      "dimensions": [1920, 23],
+      "columns": ["LTHSC_broad", "LMPP_broad", "MPP_broad", "CMP_broad", "MEP_broad", "GMP_broad", "MPP1_broad", "MPP2_broad", "MPP3_broad", "STHSC_broad", "LTHSC", "LMPP", "MPP", "CMP", "MEP", "GMP", "MPP1", "MPP2", "MPP3", "STHSC", "ESLAM", "HSC1", "Projected"],
+      "explicit_ids": true,
+      "order_same": true,
+      "NA_entries": 0,
+      "NA_by_column": {
+        "LTHSC_broad": 0,
+        "LMPP_broad": 0,
+        "MPP_broad": 0,
+        "CMP_broad": 0,
+        "MEP_broad": 0,
+        "GMP_broad": 0,
+        "MPP1_broad": 0,
+        "MPP2_broad": 0,
+        "MPP3_broad": 0,
+        "STHSC_broad": 0,
+        "LTHSC": 0,
+        "LMPP": 0,
+        "MPP": 0,
+        "CMP": 0,
+        "MEP": 0,
+        "GMP": 0,
+        "MPP1": 0,
+        "MPP2": 0,
+        "MPP3": 0,
+        "STHSC": 0,
+        "ESLAM": 0,
+        "HSC1": 0,
+        "Projected": 0
+      },
+      "all_NA_rows": 0
+    },
+    "diffusion": {
+      "class": ["matrix", "array"],
+      "dimensions": [1920, 3],
+      "columns": ["DC1", "DC2", "DC3"],
+      "explicit_ids": true,
+      "order_same": true,
+      "NA_entries": 1263,
+      "NA_by_column": {
+        "DC1": 421,
+        "DC2": 421,
+        "DC3": 421
+      },
+      "all_NA_rows": 421
+    },
+    "FACS": {
+      "class": ["matrix", "array"],
+      "dimensions": [1920, 10],
+      "columns": ["FSC.H", "CD34", "CD16", "c.Kit", "EPCR", "Flk2", "CD150", "CD48", "Lin", "Sca1"],
+      "explicit_ids": true,
+      "order_same": true,
+      "NA_entries": 4300,
+      "NA_by_column": {
+        "FSC.H": 430,
+        "CD34": 430,
+        "CD16": 430,
+        "c.Kit": 430,
+        "EPCR": 430,
+        "Flk2": 430,
+        "CD150": 430,
+        "CD48": 430,
+        "Lin": 430,
+        "Sca1": 430
+      },
+      "all_NA_rows": 430
+    }
+  },
+  "broad_label_counts": {
+    "CMP": 328,
+    "GMP": 123,
+    "LMPP": 280,
+    "LTHSC": 323,
+    "MEP": 362,
+    "MPP": 368,
+    "7": 136
+  },
+  "unassigned": 136,
+  "all_23_zero": 136,
+  "object_unchanged": true
+}

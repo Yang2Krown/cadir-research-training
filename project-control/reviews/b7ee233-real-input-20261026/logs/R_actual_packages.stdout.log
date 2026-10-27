@@ -1,0 +1,33 @@
+R version 4.4.1 (2024-06-14) 
+R.home= /workspace/cadir-env/skeleton_runtime/lib/R 
+[1] "/workspace/cadir-env/R-library"                     
+[2] "/workspace/cadir-env/skeleton_runtime/lib/R/library"
+Matrix : 1.7.6 
+S4Vectors : 0.42.1 
+jsonlite : 2.0.0 
+digest : 0.6.39 
+BiocVersion : 3.19.1 
+R version 4.4.1 (2024-06-14)
+Platform: x86_64-conda-linux-gnu
+Running under: Debian GNU/Linux 13 (trixie)
+
+Matrix products: default
+BLAS/LAPACK: /workspace/cadir-env/skeleton_runtime/lib/libopenblasp-r0.3.34.so;  LAPACK version 3.12.0
+
+locale:
+ [1] LC_CTYPE=C.UTF-8       LC_NUMERIC=C           LC_TIME=C.UTF-8       
+ [4] LC_COLLATE=C.UTF-8     LC_MONETARY=C.UTF-8    LC_MESSAGES=C.UTF-8   
+ [7] LC_PAPER=C.UTF-8       LC_NAME=C              LC_ADDRESS=C          
+[10] LC_TELEPHONE=C         LC_MEASUREMENT=C.UTF-8 LC_IDENTIFICATION=C   
+
+time zone: Etc/UTC
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+ [1] compiler_4.4.1      Matrix_1.7-6        BiocVersion_3.19.1 
+ [4] S4Vectors_0.42.1    grid_4.4.1          digest_0.6.39      
+ [7] jsonlite_2.0.0      BiocGenerics_0.50.0 stats4_4.4.1       
+[10] lattice_0.23-1     

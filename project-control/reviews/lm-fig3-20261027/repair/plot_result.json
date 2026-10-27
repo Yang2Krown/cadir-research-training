@@ -1,0 +1,24 @@
+{
+  "status": "PASS_INDEPENDENT_REPAIR_PLOT_DATA",
+  "scope": "Constructed actual fixed-source ggplot objects with ggsave intercepted; no image regeneration or CA/clustering/GOA rerun.",
+  "panels": {
+    "S1D_Bcell_standard": {
+      "points": 7882,
+      "all_points_max_error": 4.9737991503207013e-14,
+      "direction_slope_error": 3.5527136788005009e-14,
+      "legend_labels": ["T cell", "Macrophage"],
+      "coord_equal_ratio": 1,
+      "top5_IDs_unchanged": true,
+      "comparison_member_coordinates_unchanged": true
+    },
+    "S1E_endothelial_standard": {
+      "points": 7882,
+      "all_points_max_error": 4.9737991503207013e-14,
+      "direction_slope_error": 4.2632564145606011e-14,
+      "legend_labels": "Vascular endothelial cell",
+      "coord_equal_ratio": 1,
+      "top5_IDs_unchanged": true,
+      "comparison_member_coordinates_unchanged": true
+    }
+  }
+}

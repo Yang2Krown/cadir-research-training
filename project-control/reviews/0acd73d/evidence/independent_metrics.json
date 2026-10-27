@@ -1,0 +1,118 @@
+{
+  "n": 1882,
+  "cluster_count": 7,
+  "reference_count": 8,
+  "ARI": 0.6695187044863515,
+  "NMI_max": 0.7418854231154817,
+  "MI": 1.2645447365585447,
+  "H_cluster": 1.3811886368689998,
+  "H_reference": 1.704501392207171,
+  "ARI_abs_error": 4.440892098500626e-16,
+  "NMI_abs_error": 3.3306690738754696e-16,
+  "tolerance": 1e-12,
+  "reference_source": "original RDS via independent extract_independent.R, ID joined",
+  "formula_ARI": "(sum C(nij,2)-sum C(ai,2)*sum C(bj,2)/C(n,2))/(0.5*(sum C(ai,2)+sum C(bj,2))-sum C(ai,2)*sum C(bj,2)/C(n,2))",
+  "formula_NMI": "sum(pij*ln(pij/(pi*pj)))/max(-sum(pi*ln(pi)),-sum(pj*ln(pj)))",
+  "counts": [
+    {
+      "cluster": "cluster_1",
+      "reference": "skeletal muscle satellite cell",
+      "count": 526
+    },
+    {
+      "cluster": "cluster_1",
+      "reference": "skeletal muscle satellite stem cell",
+      "count": 414
+    },
+    {
+      "cluster": "cluster_2",
+      "reference": "endothelial cell",
+      "count": 19
+    },
+    {
+      "cluster": "cluster_2",
+      "reference": "mesenchymal stem cell",
+      "count": 4
+    },
+    {
+      "cluster": "cluster_2",
+      "reference": "skeletal muscle satellite cell",
+      "count": 2
+    },
+    {
+      "cluster": "cluster_2",
+      "reference": "skeletal muscle satellite stem cell",
+      "count": 3
+    },
+    {
+      "cluster": "cluster_3",
+      "reference": "B cell",
+      "count": 63
+    },
+    {
+      "cluster": "cluster_3",
+      "reference": "lymphocyte",
+      "count": 49
+    },
+    {
+      "cluster": "cluster_3",
+      "reference": "skeletal muscle satellite cell",
+      "count": 1
+    },
+    {
+      "cluster": "cluster_4",
+      "reference": "T cell",
+      "count": 33
+    },
+    {
+      "cluster": "cluster_4",
+      "reference": "lymphocyte",
+      "count": 9
+    },
+    {
+      "cluster": "cluster_4",
+      "reference": "mesenchymal stem cell",
+      "count": 3
+    },
+    {
+      "cluster": "cluster_4",
+      "reference": "skeletal muscle satellite cell",
+      "count": 1
+    },
+    {
+      "cluster": "cluster_4",
+      "reference": "skeletal muscle satellite stem cell",
+      "count": 2
+    },
+    {
+      "cluster": "cluster_5",
+      "reference": "lymphocyte",
+      "count": 1
+    },
+    {
+      "cluster": "cluster_5",
+      "reference": "macrophage",
+      "count": 73
+    },
+    {
+      "cluster": "cluster_5",
+      "reference": "skeletal muscle satellite cell",
+      "count": 2
+    },
+    {
+      "cluster": "cluster_6",
+      "reference": "mesenchymal stem cell",
+      "count": 488
+    },
+    {
+      "cluster": "cluster_6",
+      "reference": "skeletal muscle satellite cell",
+      "count": 2
+    },
+    {
+      "cluster": "cluster_7",
+      "reference": "endothelial cell",
+      "count": 187
+    }
+  ]
+}

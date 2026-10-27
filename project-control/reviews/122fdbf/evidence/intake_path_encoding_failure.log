@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/cadir-newdata-prep-independent-20261026/scripts/review_inputs.py", line 39, in <module>
+    changed=subprocess.check_output(['git','-C',str(src),'diff','--name-only','9d473b441058c45b2563c2ebe94ae99dda1f5209']).decode().splitlines();assert all(p.startswith('cases/nestorowa_hsc/') or p.startswith('planning/new-dataset/2026-10-26/') for p in changed)
+                                                                                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

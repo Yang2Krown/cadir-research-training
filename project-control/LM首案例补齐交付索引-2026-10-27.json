@@ -1,0 +1,19 @@
+{
+  "small_package": {
+    "path": "/workspace/cadir-lm-fig3-delivery-20261027/LM首案例图表与独立复验-20261027.zip",
+    "bytes": 9636979,
+    "sha256": "3fc454672152269aab845481c3070844921f29de9c2df0b986978d7a33d9ac3f",
+    "members": 210,
+    "CRC_and_all_bytes": "PASS"
+  },
+  "data_package": {
+    "path": "/workspace/cadir-lm-fig3-delivery-20261027/LM输入与实际对象备份-20261027.zip",
+    "bytes": 116430093,
+    "sha256": "1fe60809f4d7556b20861e2ef6878fa2bc0331117b6e134df2db82c5817ad214",
+    "real_input_and_RDS_objects": 10,
+    "CRC_and_all_member_SHA": "PASS",
+    "user_local_download_verified": false
+  },
+  "scope": "Nine analyses and figures accepted on provided input; strict author artifacts BLOCKED",
+  "Mac_applied_and_download_verified": false
+}

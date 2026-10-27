@@ -1,0 +1,93 @@
+[
+  {
+    "file": "figures/Fig3A_association_top5.pdf",
+    "commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+    "source_path": "cases/tabula_muris_limb/fig3_completion/figures/Fig3A_association_top5.pdf",
+    "bytes": 2288000,
+    "sha256": "11474a85e87298605bf52325646feaf9ce3012bd25cbaeace37ca8cef6e5c3c8"
+  },
+  {
+    "file": "figures/Fig3B_Bcell_principal.pdf",
+    "commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+    "source_path": "cases/tabula_muris_limb/fig3_completion/figures/Fig3B_Bcell_principal.pdf",
+    "bytes": 117915,
+    "sha256": "af0291165c9c86d4efd5b9708562b21d5bf08e1b8360680591465fd181a6f58a"
+  },
+  {
+    "file": "figures/Fig3C_endothelial_principal.pdf",
+    "commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+    "source_path": "cases/tabula_muris_limb/fig3_completion/figures/Fig3C_endothelial_principal.pdf",
+    "bytes": 112342,
+    "sha256": "c51c17edf6ca5c8c9ce40e581dcf76c5dc7264e12edbdd9bf7307bbc4a506fc0"
+  },
+  {
+    "file": "figures/Fig3D_actual_split_merge_history.pdf",
+    "commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+    "source_path": "cases/tabula_muris_limb/fig3_completion/figures/Fig3D_actual_split_merge_history.pdf",
+    "bytes": 2066463,
+    "sha256": "cd6802d27e5a5125baa61ebb1a6b629408d8032a4125f3d015e949f1d61d81c0"
+  },
+  {
+    "file": "figures/S1A_direction_angle_heatmap.pdf",
+    "commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+    "source_path": "cases/tabula_muris_limb/fig3_completion/figures/S1A_direction_angle_heatmap.pdf",
+    "bytes": 6380,
+    "sha256": "e11751c333a8f666064f7419a9ff40611144b0ab5b4c2f0a44792659854656d9"
+  },
+  {
+    "file": "figures/S1B_direction_projection_matrix.pdf",
+    "commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+    "source_path": "cases/tabula_muris_limb/fig3_completion/figures/S1B_direction_projection_matrix.pdf",
+    "bytes": 749271,
+    "sha256": "c06f2d7d734841fb57debd62cf482247ead0d67328e5cff50df9116b33af000f"
+  },
+  {
+    "file": "figures/S1C_reference_sankey.pdf",
+    "commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+    "source_path": "cases/tabula_muris_limb/fig3_completion/figures/S1C_reference_sankey.pdf",
+    "bytes": 68734,
+    "sha256": "196f06e20d7c4eeee01141134ce93ebde685f2ee7ffdc12ded156bfbe847b097"
+  },
+  {
+    "file": "figures/S1D_Bcell_standard.pdf",
+    "commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+    "source_path": "cases/tabula_muris_limb/fig3_completion/figures/S1D_Bcell_standard.pdf",
+    "bytes": 332542,
+    "sha256": "d12f877a202fe5f6a67e346bd1dfbe4d847ad0d53356916ca051b11c3f398ee5"
+  },
+  {
+    "file": "figures/S1E_endothelial_standard.pdf",
+    "commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+    "source_path": "cases/tabula_muris_limb/fig3_completion/figures/S1E_endothelial_standard.pdf",
+    "bytes": 328051,
+    "sha256": "b80b63248d9abd41a8f8aea0d7c5d19b9c3fcf115bf50c61c38022b10aadb030"
+  },
+  {
+    "file": "figures/HSC_04-common-cohort.pdf",
+    "commit": "091a8a4585cabc59a5504380398892bac49044f4",
+    "source_path": "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/04-common-cohort.pdf",
+    "bytes": 4994,
+    "sha256": "68cbe0b7ee9f0cb67b854e40a5deaa1e73f654bc89c50d143e17968d59b84ef9"
+  },
+  {
+    "file": "figures/HSC_01-all-seed-ARI-NMI.pdf",
+    "commit": "091a8a4585cabc59a5504380398892bac49044f4",
+    "source_path": "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/01-all-seed-ARI-NMI.pdf",
+    "bytes": 6622,
+    "sha256": "b3db29592483e3b07ad876d9b11f8db593e6abd9043d6fdc6120e1df4497bd4b"
+  },
+  {
+    "file": "figures/HSC_02-cadir-seed2358-reference-share.pdf",
+    "commit": "091a8a4585cabc59a5504380398892bac49044f4",
+    "source_path": "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/02-cadir-seed2358-reference-share.pdf",
+    "bytes": 6900,
+    "sha256": "6f84eff0488c2d26ba3bdb5d2b21e3c28e7c730a3a2187b4b1a5863ef041b454"
+  },
+  {
+    "file": "figures/HSC_02-pca_snn_louvain-seed2358-reference-share.pdf",
+    "commit": "091a8a4585cabc59a5504380398892bac49044f4",
+    "source_path": "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/02-pca_snn_louvain-seed2358-reference-share.pdf",
+    "bytes": 6550,
+    "sha256": "ae81782cb8e6d25c0c73748180d2fb6d23f802ae4bd9d9664ae2f96717d3bf6a"
+  }
+]

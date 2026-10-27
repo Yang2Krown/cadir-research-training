@@ -1,0 +1,115 @@
+% Template source: strive-yang/CHINESE-JOURNAL-OF-COMPUTERS--Latex-Template
+% Fixed template revision: 69e5409cd9ad26c92348896494dd3a18b78a0fbe
+\documentclass[10.5pt,compsoc,UTF8]{CjC}
+\usepackage[UTF8,heading=false,fontset=fandol]{ctex}
+\usepackage{graphicx,amsmath,amssymb,booktabs,tabularx,array}
+\usepackage{fvextra,seqsplit,xurl}
+\usepackage{style/gbt7714}
+\usepackage{caption,placeins,stfloats,fancyhdr}
+\usepackage{float,multicol}
+\setlength{\multicolsep}{5pt}
+\usepackage[hidelinks,unicode,bookmarksnumbered]{hyperref}
+\usepackage{bookmark}
+\input{metadata}
+
+% Prefer Times New Roman; use a metrically compatible open font where needed.
+\IfFontExistsTF{Times New Roman}{\setmainfont{Times New Roman}}{%
+  \IfFontExistsTF{TeX Gyre Termes}{\setmainfont{TeX Gyre Termes}}{\setmainfont{Liberation Serif}}}
+\IfFontExistsTF{DejaVu Sans Mono}{\setmonofont{DejaVu Sans Mono}[Scale=0.90]}{\setmonofont{Latin Modern Mono}[Scale=0.90]}
+\setCJKmonofont{FandolFang-Regular.otf}
+\DeclareCaptionFont{cjcsmall}{\zihao{-5}}
+\captionsetup{font=cjcsmall,labelsep=quad,justification=centering}
+\renewcommand{\figurename}{图}
+\renewcommand{\tablename}{表}
+\renewcommand{\contentsname}{目录}
+\renewcommand{\bibsection}{}
+\setcounter{tocdepth}{2}
+\setlength{\parindent}{2em}
+\setlength{\emergencystretch}{2.5em}
+\setlength{\textfloatsep}{10pt plus 2pt minus 2pt}
+\setlength{\dbltextfloatsep}{10pt plus 2pt minus 2pt}
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}
+\renewcommand{\topfraction}{0.95}
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\floatpagefraction}{0.75}
+\renewcommand{\dbltopfraction}{0.95}
+\setcounter{topnumber}{5}
+\setcounter{dbltopnumber}{5}
+\setlength{\headheight}{26pt}
+\raggedbottom
+\DefineVerbatimEnvironment{ReportCode}{Verbatim}{%
+  fontsize=\fontsize{10}{12.5}\selectfont,
+  breaklines=true,breakanywhere=false,breakafter={/,(},
+  breaksymbolleft={},breaksymbolright={},breakaftersymbolpre={},breakaftersymbolpost={},
+  frame=none,xleftmargin=0.5em,xrightmargin=0pt,
+  listparameters={\setlength{\topsep}{5pt}\setlength{\partopsep}{0pt}\setlength{\itemsep}{0pt}\setlength{\parsep}{0pt}}}
+\makeatletter
+\setlength{\@fptop}{0pt}
+\setlength{\@dblfptop}{0pt}
+\setlength{\@fpsep}{12pt}
+\setlength{\@dblfpsep}{12pt}
+\setlength{\@fpbot}{0pt plus 1fil}
+\setlength{\@dblfpbot}{0pt plus 1fil}
+\makeatother
+\headevenname{计\quad 算\quad 机\quad 学\quad 报\hfill 2026年10月}
+\headoddname{孙良坤等：CAdir单细胞联合聚类复现与新数据对照实验}
+\fancypagestyle{cjc-report}{%
+  \fancyhf{}%
+  \fancyhead[LE]{\zihao{-5}\thepage\hfill 计\quad 算\quad 机\quad 学\quad 报\hfill 2026年10月}%
+  \fancyhead[RO]{\zihao{-5}孙良坤等：CAdir单细胞联合聚类复现\hfill\thepage}%
+  \renewcommand{\headrulewidth}{0.5pt}}
+\pagestyle{cjc-report}
+\hypersetup{pdftitle={CAdir单细胞联合聚类的复现与新数据对照实验},pdfauthor={\ReportAuthorsPlain}}
+\newsavebox{\MathMeasure}
+\newcommand{\fitmath}[1]{%
+  \sbox{\MathMeasure}{$\displaystyle #1$}%
+  \ifdim\wd\MathMeasure>0.93\linewidth
+    \resizebox{0.93\linewidth}{!}{\usebox{\MathMeasure}}%
+  \else\usebox{\MathMeasure}\fi}
+
+\begin{document}
+\onecolumn
+\thispagestyle{empty}
+\noindent\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}cr@{}}
+{\zihao{-5}2026年10月} & {\zihao{5}\heiti 计\quad 算\quad 机\quad 学\quad 报} & {\zihao{-5}October 2026}\\[2pt]
+& {\zihao{-5}CHINESE JOURNAL OF COMPUTERS} & \\
+\specialrule{0.7pt}{4pt}{1pt}
+\specialrule{0.3pt}{0pt}{0pt}
+\end{tabular*}
+\vspace{7mm}
+\begin{center}
+{\zihao{2}\heiti\ReportTitle\par}
+\ifx\ReportAuthors\empty\else\vspace{4mm}{\zihao{3}\fangsong\ReportAuthors\par}\fi
+\ifx\ReportAffiliation\empty\else\vspace{2mm}{\zihao{6}\ReportAffiliation\par}\fi
+\end{center}
+\vspace{3mm}
+{\zihao{-5}\noindent\heiti 摘\quad 要\quad\songti\input{sections/abstract-cn}}
+\noindent{\zihao{-5}\heiti 关键词\quad\songti 单细胞转录组；对应分析；方向聚类；联合聚类；可重复计算；聚类评价\par}
+\vspace{5mm}
+\begin{center}{\zihao{4}\bfseries\ReportEnglishTitle\par}\end{center}
+\begin{center}
+{\zihao{5}\ReportEnglishAuthors\par}
+\vspace{1mm}
+{\zihao{6}\ReportEnglishAffiliation\par}
+\end{center}
+{\zihao{5}\noindent\textbf{Abstract}\quad\input{sections/abstract-en}}
+\noindent{\zihao{5}\textbf{Key words}\quad single-cell transcriptomics; correspondence analysis; directional clustering; joint clustering; reproducible computation; clustering evaluation\par}
+\clearpage
+\pdfbookmark[0]{目录}{toc}
+\tableofcontents
+\clearpage
+\twocolumn
+\raggedbottom
+\zihao{5}\songti
+\input{sections/body}
+\begin{multicols}{2}\raggedcolumns
+\section*{参考文献}
+\addcontentsline{toc}{section}{参考文献}
+\begingroup
+\zihao{-5}
+\bibliographystyle{gbt7714-numerical}
+\bibliography{bib/ref}
+\endgroup
+\end{multicols}
+\input{sections/appendices}
+\end{document}

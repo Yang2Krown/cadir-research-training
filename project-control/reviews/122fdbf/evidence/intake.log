@@ -1,0 +1,38 @@
+{
+  "catalog_mapping": [
+    {
+      "ah_id": "EH2694",
+      "resource_id": 2694,
+      "dataprovider": "GEO",
+      "location_prefix": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/",
+      "paths": [
+        {
+          "id": 2710,
+          "rdatapath": "scRNAseq/nestorowa-hsc/2.0.0/counts.rds",
+          "rdataclass": "dgCMatrix",
+          "resource_id": 2694,
+          "dispatchclass": "Rds"
+        }
+      ],
+      "storage_url": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/counts.rds"
+    },
+    {
+      "ah_id": "EH2695",
+      "resource_id": 2695,
+      "dataprovider": "Bertie Gottgens",
+      "location_prefix": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/",
+      "paths": [
+        {
+          "id": 2711,
+          "rdatapath": "scRNAseq/nestorowa-hsc/2.0.0/coldata.rds",
+          "rdataclass": "DataFrame",
+          "resource_id": 2695,
+          "dispatchclass": "Rds"
+        }
+      ],
+      "storage_url": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/coldata.rds"
+    }
+  ],
+  "external_manifest_matches": 46,
+  "protected_files": 439
+}

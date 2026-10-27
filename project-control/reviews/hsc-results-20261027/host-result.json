@@ -1,0 +1,12 @@
+{
+  "status": "PASS_INDEPENDENT_HOST_RECOMPUTATION",
+  "result_commit": "091a8a4585cabc59a5504380398892bac49044f4",
+  "source_commit": "6cc7b3da67c193da11a67c45a75167d6521438b0",
+  "checks": 9111,
+  "max_ARI_difference": 4.440892098500626e-16,
+  "max_NMI_difference": 4.440892098500626e-16,
+  "source_files": 59,
+  "data_files": 42,
+  "runtime_files": 1855,
+  "raw_full_GEO_comparison_repeated": false
+}

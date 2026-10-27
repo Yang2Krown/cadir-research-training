@@ -1,0 +1,58 @@
+S1C | Automatic prediction to original reference annotation
+
+
+
+                             cluster_7: Endothelial_cell
+
+                                                                skeletal muscle satellite stem cell
+
+
+
+
+                         cluster_6: Schwalie_et_al.Nature.P1
+
+
+
+
+                                                                  skeletal muscle satellite cell
+
+
+                               cluster_5: Macrophage
+
+
+                                  cluster_4: T_cell
+
+
+
+                                  cluster_3: B_cell
+
+
+                         cluster_2: Vascular_endothelial_cell
+                                                                     mesenchymal stem cell
+
+
+
+
+                                                                          macrophage
+
+
+                                                                           lymphocyte
+                                 cluster_1: cluster_1
+
+
+
+                                                                         endothelial cell
+
+
+
+
+                                                                              T cell
+
+
+                                                                              B cell
+
+
+
+
+                                       CAdir                               Reference
+

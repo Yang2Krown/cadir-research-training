@@ -1,0 +1,43 @@
+{
+  "checked_utc": "2026-10-25",
+  "author_source": {
+    "url": "https://github.com/VingronLab/CAdir_results/blob/c15b49578bde38b42fd5db2c9830c10dd441ee4c/results/figure2.qmd",
+    "git_blob_sha": "654de2d4178d79ec87524b3fcf4edef66ef234a8",
+    "repository_commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+    "read_full_content": true,
+    "findings": [
+      "文件名与frontmatter为Figure 2",
+      "Limb Muscle输入filtered RDS、6000 HVG+marker CSV",
+      "cacomp dims30 pythonTRUE，seed2358 CAdir k8 cutoff55"
+    ]
+  },
+  "paper": {
+    "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014418",
+    "fig2_title": "Clustering by direction - Overview.",
+    "fig3_title": "Clustering of Tabula Muris Limb Muscle data.",
+    "web_line_numbers": [
+      194,
+      207
+    ]
+  },
+  "figures_viewed": [
+    "figures/association_plots.png",
+    "figures/ca_clusters.png",
+    "acceptance/2026-10-25/figures/confusion_within_cluster.png",
+    "acceptance/2026-10-25/figures/confusion_within_reference.png"
+  ],
+  "caption": "figures/association_plots.caption.md",
+  "backend_source": "/workspace/cadir-env/sources/APL/R/CA.R:470-495",
+  "backend_finding": "dims30<rank path calls irlba independently of python flag",
+  "geometry_source_read": [
+    "CAdir/R/cluster_apl.R:1-155",
+    "CAdir/R/apl.R:1-132"
+  ],
+  "not_repeated": [
+    "GOA418检验",
+    "基因分配几何全量重建",
+    "python TRUE/FALSE实验",
+    "APL逐点重建"
+  ],
+  "independent_review_history_directory_present": false
+}

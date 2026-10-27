@@ -1,0 +1,15 @@
+{
+  "remote": "https://github.com/Yang2Krown/cadir-research-training.git",
+  "implementation_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+  "files": 113,
+  "bytes": 9276990,
+  "only_authorized_LM_directory": true,
+  "raw_RDS_or_secret_types": false,
+  "credential_scan": "no matches",
+  "delivery_delta_vs_repaired_scientific_commit": [
+    "cases/tabula_muris_limb/fig3_completion/evidence/external_artifacts.json",
+    "cases/tabula_muris_limb/fig3_completion/evidence/preservation.json",
+    "cases/tabula_muris_limb/fig3_completion/evidence/review_packet.json"
+  ],
+  "trusted_authorization": "Original user explicitly authorizes project branch commits/pushes to Yang2Krown/cadir-research-training. Scope remains LM Fig3/S1; no merge, formal submission or paid action."
+}

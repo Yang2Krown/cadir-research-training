@@ -1,0 +1,13 @@
+{
+  "started_utc": "2026-10-26T11:13:54.646662+00:00",
+  "ended_utc": "2026-10-26T11:13:54.699846+00:00",
+  "argv": [
+    "docker",
+    "--host=unix:///var/run/docker.sock",
+    "info"
+  ],
+  "exit_code": 1,
+  "elapsed_seconds": 0.05319661500107031,
+  "stdout_bytes": 330,
+  "stderr_bytes": 219
+}

@@ -1,0 +1,5 @@
+wrong_cluster_same_counts 1 {'status': 'FAIL', 'error': 'Per-gene cluster/NA mismatch against cadir.rds'}
+wrong_NA_same_assigned_count 1 {'status': 'FAIL', 'error': 'setequal(genes$gene_id[!is.na(genes$cluster)], names(cadir@gene_clusters)) is not TRUE'}
+wrong_Score 1 {'status': 'FAIL', 'error': 'Ranking Score mismatch against cadir.rds (absolute tolerance 1e-10)'}
+wrong_Rank 1 {'status': 'FAIL', 'error': 'Ranking Rank mismatch against cadir.rds'}
+wrong_cluster_count 1 {'status': 'FAIL', 'error': 'Per-cluster gene counts mismatch'}

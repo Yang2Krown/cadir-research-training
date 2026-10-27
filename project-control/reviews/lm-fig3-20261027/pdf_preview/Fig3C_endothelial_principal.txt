@@ -1,0 +1,32 @@
+                          Endothelial cell [cluster_7] | principal coordinates
+                          6000 HVG−only | GOA predictions; see cluster selection table
+
+
+
+
+                      4
+
+
+
+
+orthogonal distance
+                      3
+
+                                            Vascular endothelial cell
+
+
+
+
+                      2
+
+
+
+
+                      1
+
+
+
+
+                             0.0      0.5         1.0       1.5
+                                   association strength
+

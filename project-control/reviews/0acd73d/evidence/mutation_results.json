@@ -1,0 +1,65 @@
+[
+  {
+    "case": "wrong_cluster_same_counts",
+    "exit_code": 1,
+    "initial_status": "PASS",
+    "final": {
+      "status": "FAIL",
+      "error": "Per-gene cluster/NA mismatch against cadir.rds"
+    },
+    "mutation": {
+      "genes": [
+        "H2-Aa",
+        "Apold1"
+      ]
+    }
+  },
+  {
+    "case": "wrong_NA_same_assigned_count",
+    "exit_code": 1,
+    "initial_status": "PASS",
+    "final": {
+      "status": "FAIL",
+      "error": "setequal(genes$gene_id[!is.na(genes$cluster)], names(cadir@gene_clusters)) is not TRUE"
+    },
+    "mutation": {
+      "genes": [
+        "H2-Aa",
+        "Gpx3"
+      ]
+    }
+  },
+  {
+    "case": "wrong_Score",
+    "exit_code": 1,
+    "initial_status": "PASS",
+    "final": {
+      "status": "FAIL",
+      "error": "Ranking Score mismatch against cadir.rds (absolute tolerance 1e-10)"
+    },
+    "mutation": {
+      "gene": "Cadm2",
+      "before": "-0.23096310867272"
+    }
+  },
+  {
+    "case": "wrong_Rank",
+    "exit_code": 1,
+    "initial_status": "PASS",
+    "final": {
+      "status": "FAIL",
+      "error": "Ranking Rank mismatch against cadir.rds"
+    },
+    "mutation": {}
+  },
+  {
+    "case": "wrong_cluster_count",
+    "exit_code": 1,
+    "initial_status": "PASS",
+    "final": {
+      "status": "FAIL",
+      "error": "Per-cluster gene counts mismatch"
+    },
+    "mutation": {}
+  }
+]

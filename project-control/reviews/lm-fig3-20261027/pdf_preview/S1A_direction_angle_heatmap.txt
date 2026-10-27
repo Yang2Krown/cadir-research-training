@@ -1,0 +1,239 @@
+                                       S1A | Pairwise principal direction angles
+
+
+
+         cluster_7: Endothelial_cell
+
+
+
+
+cluster_6: Schwalie_et_al.Nature.P1
+
+
+
+
+            cluster_5: Macrophage
+
+
+
+                                                                                                                                                                                                               Angle (degrees)
+
+                                                                                                                                                                                                                   100
+
+                   cluster_4: T_cell                                                                                                                                                                               75
+
+                                                                                                                                                                                                                   50
+
+                                                                                                                                                                                                                   25
+
+                                                                                                                                                                                                                   0
+
+
+                   cluster_3: B_cell
+
+
+
+
+cluster_2: Vascular_endothelial_cell
+
+
+
+
+                cluster_1: cluster_1
+                                                                                      ell
+
+
+
+
+                                                                                                                                                                                 P1
+                                                     _1
+
+
+
+
+                                                                                                        ell
+
+
+
+
+                                                                                                                                               ge
+                                                                                                                         ell
+
+
+
+
+                                                                                                                                                                                                         ell
+                                                                                   l_c
+
+
+
+
+                                                                                                    _c
+
+
+
+
+                                                                                                                       _c
+
+
+
+
+                                                                                                                                                                                                      _c
+                                                                                                                                              ha
+                                                     ter
+
+
+
+
+                                                                                                                                                                              re.
+                                                                                                   :B
+
+
+
+
+                                                                                                                     :T
+
+
+
+
+                                                                                                                                                                                                     lial
+                                                                                                                                             rop
+                                                                                 elia
+                                                  lus
+
+
+
+
+                                                                                                                                                                         atu
+                                                                                                                    r_4
+                                                                                                  r_3
+
+
+
+
+                                                                                                                                                                                                   the
+                                                :c
+
+
+
+
+                                                                                                                                           ac
+
+
+
+
+                                                                                                                                                                        l.N
+                                                                             oth
+                                               r_1
+
+
+
+
+                                                                                                               ste
+
+
+
+
+                                                                                                                                                                                                do
+                                                                                             ste
+
+
+
+
+                                                                                                                                      :M
+
+
+
+
+                                                                                                                                                                    t_a
+                                                                            nd
+
+
+
+
+                                                                                                                                                                                              En
+                                                                                                              clu
+                                          ste
+
+
+
+
+                                                                                            clu
+
+
+
+
+                                                                                                                                     r_5
+                                                                         _e
+
+
+
+
+                                                                                                                                                                  _e
+
+
+
+
+                                                                                                                                                                                              7:
+                                         clu
+
+
+
+
+                                                                       lar
+
+
+
+
+                                                                                                                                                                  lie
+                                                                                                                                ste
+
+
+
+
+                                                                                                                                                                                            _
+                                                                                                                                                               wa
+                                                                       cu
+
+
+
+
+                                                                                                                                                                                        ter
+                                                                                                                               clu
+                                                                    as
+
+
+
+
+                                                                                                                                                            ch
+
+
+
+
+                                                                                                                                                                                          s
+                                                                                                                                                                                      clu
+                                                                  :V
+
+
+
+
+                                                                                                                                                           :S
+                                                                 r_2
+
+
+
+
+                                                                                                                                                          r_6
+                                                            ste
+
+
+
+
+                                                                                                                                                     ste
+                                                           clu
+
+
+
+
+                                                                                                                                                    clu
+

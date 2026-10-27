@@ -1,0 +1,3 @@
+# Preserve original CRLF table and raw console bytes for indexed evidence.
+difference_table.tsv -text -whitespace
+*.log -text -whitespace

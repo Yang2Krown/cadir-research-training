@@ -1,0 +1,24 @@
+{
+  "cells": 1882,
+  "genes": 6000,
+  "cluster_counts_verified": true,
+  "cell_counts": {
+    "cluster_1": 940,
+    "cluster_5": 76,
+    "cluster_2": 28,
+    "cluster_7": 187,
+    "cluster_6": 490,
+    "cluster_4": 48,
+    "cluster_3": 113
+  },
+  "assigned_gene_counts": {
+    "cluster_3": 200,
+    "cluster_7": 270,
+    "cluster_6": 106,
+    "cluster_4": 192,
+    "cluster_5": 203,
+    "cluster_2": 184,
+    "cluster_1": 45
+  },
+  "cell_and_gene_assignments_match_frozen": true
+}

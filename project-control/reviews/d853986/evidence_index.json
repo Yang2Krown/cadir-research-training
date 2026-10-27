@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-26T07:31:49.912110+00:00",
+  "commit": "d853986e2e3a1cabc9f3f728f616e402432257ec",
+  "phase_result": "ACCEPT_FOR_PREPARATION",
+  "formal_execution_permitted": false,
+  "source_worktree": "/workspace/cadir-hsc-prep-independent-source-20261026",
+  "independent_recalculation": [
+    "61-file exact bundle coverage and hashes; 52-file original snapshot; 12/22 original indexes and recovered baseline bytes",
+    "1920-cell memberships/levels/hierarchy/candidate/flags",
+    "3840-record SOFT parse and all mapping fields",
+    "Fixed builder remote bytes"
+  ],
+  "record_only": [
+    "External raw receipts",
+    "RDS layout and original raw missingness",
+    "Author webpage28 correction and access observations",
+    "Prior primary-source coverage records"
+  ],
+  "not_verified": [
+    "Raw RDS/count bytes or content",
+    "Real count header/dimnames/gene IDs/values",
+    "Raw R metadata NULL/nested layout",
+    "Original flow source IDs",
+    "Author1656 inclusion list",
+    "2017 correction applicability",
+    "S1 full coverage",
+    "QC/experimental design/implementation/environment/results"
+  ],
+  "artifacts": [
+    {
+      "path": "decisions.tsv",
+      "bytes": 2360,
+      "sha256": "fbe20bb32d086e1f0f571f03d26fe0d0bc9debc1ecd2ff893efae4b036b5d731"
+    },
+    {
+      "path": "geo_recalculation.json",
+      "bytes": 149503,
+      "sha256": "be102da18248b79756870d992dff969f9dde48d0d4b837a528d8e3236899db3a"
+    },
+    {
+      "path": "independent_builder_receipt.json",
+      "bytes": 558,
+      "sha256": "6c22188f77463e7b7a4e68c3c34d7b8702d2fbc4de3c4aeb4716f93b49e89e9f"
+    },
+    {
+      "path": "independent_checks.py",
+      "bytes": 12975,
+      "sha256": "7dac234a9d0e60980871813128e27b391c7ba10e21351c9aa3337cbe90a392ef"
+    },
+    {
+      "path": "independently_fetched_legacy_builder.Rmd",
+      "bytes": 2801,
+      "sha256": "d695cdc7c214abbd461207b6698bd493a8ce687ef13b5f3565b73e91e233d352"
+    },
+    {
+      "path": "integrity.json",
+      "bytes": 13869,
+      "sha256": "22006fca2b30e7d4b8f43ec055a09eade81a230238a2108c13716f743e1a3294"
+    },
+    {
+      "path": "metadata_recalculation.json",
+      "bytes": 2447,
+      "sha256": "75153316215ce0df3a83972d1548cf30cad16746358f6a2a8ad657ebd56bff0d"
+    },
+    {
+      "path": "review_run.json",
+      "bytes": 425,
+      "sha256": "918959b4c2e968a2bb8f474bdceb808584898c2fabf0b897fb9bdd87d7eae737"
+    },
+    {
+      "path": "static_review.json",
+      "bytes": 3270,
+      "sha256": "8a06d8348c2a70c7233bdb96fc6377a35ffc682c39ab533c1e1e038a797095de"
+    },
+    {
+      "path": "独立审查报告.md",
+      "bytes": 10315,
+      "sha256": "a64199b6e0e47fe3cb21bebac28a96b71ce1677ec08c6a38eef78dd5d6d9d3a7"
+    },
+    {
+      "path": "review_sha256.tsv",
+      "bytes": 954,
+      "sha256": "08f51c2f0e87f65ad8d65c52681de22688fce486b26b8a4ae1bd3af5aac56128"
+    }
+  ],
+  "index_self_hash_excluded": true
+}

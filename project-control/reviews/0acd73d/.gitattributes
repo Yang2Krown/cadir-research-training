@@ -1,0 +1,2 @@
+# Preserve reviewer log bytes; R's diagnostic output intentionally has trailing spaces.
+*.log -whitespace

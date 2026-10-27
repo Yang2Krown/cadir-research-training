@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "status": "DRAFT_FOR_INDEPENDENT_REVIEW_NOT_INPUT_LOCK",
+  "prepared_at": "2026-10-26T14:59:05.502541+08:00",
+  "formal_execution_permitted": false,
+  "snapshot_commit": "b4e2d1f8ca57f27f5a8b7f69014254a1d7bcf4e9",
+  "inherited_protocol": {
+    "path": "../pre-registration.json",
+    "sha256": "283aeaa323b7052618073e585efc19759de81da013fbcfedc306557bd940fba1",
+    "parameters_seeds_QC_resource_limits_modified": false,
+    "existing_gates_waived": false
+  },
+  "boundary": {
+    "count_value_access_authorized": false,
+    "count_values_read_this_turn": false,
+    "counts_rds_deserialized_this_turn": false,
+    "experiments_simulation_smoke_clustering_metrics_run": false,
+    "independent_review_started": false,
+    "PR_created": false
+  },
+  "selected_resource": "scRNAseq/nestorowa-hsc/2.0.0",
+  "newer_gypsum_selected": false,
+  "input_artifacts_external_to_git": [
+    {
+      "path": "reacquired-20261026/GSE81682_HTSeq_counts.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE81nnn/GSE81682/suppl/GSE81682_HTSeq_counts.txt.gz",
+      "bytes": 30236635,
+      "sha256": "e12745e4087823ae868c6fe82a38510c15730e82ee74e1983def85ed3b7df68a",
+      "receipt": "reacquired-20261026/GSE81682_HTSeq_counts.txt.gz.json",
+      "provenance": "REACQUIRED_THIS_SESSION; not the missing prior original",
+      "content_access": "first sample-ID header line only; gene/count rows not parsed"
+    },
+    {
+      "path": "reacquired-20261026/coldata.rds",
+      "url": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/coldata.rds",
+      "bytes": 182319,
+      "sha256": "16d9e3ee62d27aac74591ccddd064eb2be9b86836591c8ec99d39e1af0bf35bc",
+      "receipt": "reacquired-20261026/coldata.rds.json",
+      "provenance": "REACQUIRED_THIS_SESSION; not the missing prior original",
+      "content_access": "metadata parsed with rdata 1.1.0"
+    },
+    {
+      "path": "reacquired-20261026/counts.rds",
+      "url": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/counts.rds",
+      "bytes": 90044893,
+      "sha256": "6bf8a84f4db185eb6021ceb53b7d6d33083410e02a6ee7a6df2191f0bbb90563",
+      "receipt": "reacquired-20261026/counts.rds.json",
+      "provenance": "REACQUIRED_THIS_SESSION; not the missing prior original",
+      "content_access": "download/hash only; not deserialized"
+    }
+  ],
+  "identity_plan": {
+    "master_key": "explicit row names of nested cell.type",
+    "top_level_rownames": "NULL; preserve this fact",
+    "nested_ids_observed": 1920,
+    "geo_header_matches_all_nested_ids_in_order": true,
+    "counts_rds_dimnames_current_reacquisition_checked": false,
+    "gene_ids_current_reacquisition_checked": false,
+    "original_flow_table_ID_coverage_checked": false,
+    "derive_ids_from_position_prefix_or_copy_counts_names": false,
+    "missing_or_duplicate_explicit_ID_policy": "STOP; write ID differences; do not invent IDs"
+  },
+  "cohort": {
+    "acquired_candidate_cells": 1920,
+    "author_reported_analyzed_cells": 1656,
+    "final_included_cells": null,
+    "original_author_inclusion_ID_list": null,
+    "force_target_number": false,
+    "exclude_by_projected_or_FACS_missing": false,
+    "status": "BLOCKED_A02"
+  },
+  "reference": {
+    "status": "DRAFT_NOT_FROZEN",
+    "source": "author retrospective index-sort membership, via legacy cell.type",
+    "candidate_level": "six broad categories only",
+    "labels": [
+      "LTHSC",
+      "LMPP",
+      "MPP",
+      "CMP",
+      "MEP",
+      "GMP"
+    ],
+    "membership_columns": [
+      "LTHSC_broad",
+      "LMPP_broad",
+      "MPP_broad",
+      "CMP_broad",
+      "MEP_broad",
+      "GMP_broad"
+    ],
+    "candidate_file": "metadata-audit/candidate_broad_reference.tsv",
+    "candidate_file_sha256": "180ee720dd5899dcb397b319a7027dbeac1bc44f8eff9ef87a7d151abd622bce",
+    "candidate_assigned": 1784,
+    "candidate_unassigned": 136,
+    "candidate_conflicts": 0,
+    "meaning": "immunophenotypic reference; not functional fate truth",
+    "missing_policy": "Never seventh class or expression imputation; keep future QC-eligible cells in clustering, exclude only from external reference evaluation",
+    "conflict_policy": "STOP and adjudicate before freezing; no argmax or priority collapse",
+    "post_QC_n_evaluated": null,
+    "fine_subtypes_ESLAM_HSC1_Projected": "retain original members as metadata; not extra primary classes",
+    "decision_required": "C01"
+  },
+  "FACS_and_diffusion": {
+    "use_as_algorithm_input": false,
+    "regate_or_impute": false,
+    "missing_origin": "UNRESOLVED; source absence vs match failure vs original NA",
+    "decision_required": [
+      "A04",
+      "C03"
+    ]
+  },
+  "replication": {
+    "Rep_semantics": "UNKNOWN; name pairing only",
+    "donor_batch_mapping": null,
+    "biological_replication_claim_allowed": false,
+    "combine_Rep_counts": false,
+    "decision_required": "C02"
+  },
+  "source_version": {
+    "author_2017_28_cell_correction_notice_verified": true,
+    "current_GEO_Hub_correction_status": "UNRESOLVED",
+    "source_ids": "E01,E02",
+    "decision_required": "A02"
+  },
+  "implementation_todo": "A03; audit_inputs.R does not support NULL top-level metadata rownames; no patch executed",
+  "decision_register": "decision_register.tsv",
+  "approval": {
+    "required": "existing independent Sol High source/data/design review and original formal gates",
+    "actual_review_status": "NOT_STARTED_BY_THIS_TASK",
+    "actual_approval": null,
+    "formal_execution_authorization": null
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "started_utc": "2026-10-26T11:14:05.090534+00:00",
+  "ended_utc": "2026-10-26T11:14:05.102357+00:00",
+  "argv": [
+    "curl",
+    "--location",
+    "--fail",
+    "--silent",
+    "--show-error",
+    "--retry",
+    "0",
+    "--connect-timeout",
+    "20",
+    "--max-time",
+    "60",
+    "--proto",
+    "=https",
+    "--proto-redir",
+    "=https",
+    "--dump-header",
+    "/workspace/cadir-b7ee233-raw-independent-review-20261026/project-control/reviews/b7ee233-real-input-20261026/logs/coldata.rds.headers.log",
+    "--output",
+    "/workspace/cadir-b7ee233-raw-independent-data-20261026/coldata.rds.download.part",
+    "--write-out",
+    "%{json}",
+    "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/coldata.rds"
+  ],
+  "exit_code": 22,
+  "elapsed_seconds": 0.01182743600293179,
+  "stdout_bytes": 1915,
+  "stderr_bytes": 49
+}

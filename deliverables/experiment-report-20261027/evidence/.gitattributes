@@ -1,0 +1,3 @@
+# Preserve byte-exact captured runtime output and scientific source snapshots.
+HSC/sessionInfo.txt -text -whitespace
+source/** -text -whitespace

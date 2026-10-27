@@ -1,0 +1,1 @@
+compare_evidence_v2.py exited 1: ValueError invalid literal for int() with base 10: 'FALSE'. Original membership TSV uses TRUE/FALSE, independent totals use numeric 0/1. Comparator encoding fix only; audited source unchanged.

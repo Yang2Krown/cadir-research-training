@@ -1,0 +1,85 @@
+[
+  {
+    "name": "protocol_structure",
+    "command": [
+      "python",
+      "/workspace/cadir-newdata-prep-review-source/cases/nestorowa_hsc/scripts/check_protocol.py",
+      "/workspace/cadir-newdata-prep-review-source/planning/new-dataset/2026-10-26/pre-registration.json"
+    ],
+    "exit_code": 0,
+    "expected_exit_code": 0
+  },
+  {
+    "name": "formal_gate",
+    "command": [
+      "python",
+      "/workspace/cadir-newdata-prep-review-source/cases/nestorowa_hsc/scripts/check_protocol.py",
+      "/workspace/cadir-newdata-prep-review-source/planning/new-dataset/2026-10-26/pre-registration.json",
+      "--require-ready"
+    ],
+    "exit_code": 2,
+    "expected_exit_code": 2
+  },
+  {
+    "name": "offline_acquisition_plan",
+    "command": [
+      "python",
+      "/workspace/cadir-newdata-prep-review-source/cases/nestorowa_hsc/scripts/acquire_hub.py",
+      "--catalog",
+      "/workspace/cadir-newdata-20261026/acquisition/experimenthub.sqlite3",
+      "--output-root",
+      "/workspace/cadir-newdata-prep-independent-20261026/offline-plan"
+    ],
+    "exit_code": 0,
+    "expected_exit_code": 0
+  },
+  {
+    "name": "missing_real_inputs",
+    "command": [
+      "bash",
+      "/workspace/cadir-newdata-prep-review-source/cases/nestorowa_hsc/scripts/run-r.sh",
+      "/workspace/cadir-newdata-prep-review-source/cases/nestorowa_hsc/scripts/audit_inputs.R",
+      "/workspace/cadir-newdata-prep-independent-20261026/not-acquired-counts.rds",
+      "/workspace/cadir-newdata-prep-independent-20261026/not-acquired-coldata.rds",
+      "/workspace/cadir-newdata-prep-independent-20261026/missing-real"
+    ],
+    "exit_code": 2,
+    "expected_exit_code": 2
+  },
+  {
+    "name": "make_own_toy",
+    "command": [
+      "bash",
+      "/workspace/cadir-newdata-prep-review-source/cases/nestorowa_hsc/scripts/run-r.sh",
+      "/workspace/cadir-newdata-prep-independent-20261026/scripts/make_independent_toy.R"
+    ],
+    "exit_code": 0,
+    "expected_exit_code": 0
+  },
+  {
+    "name": "own_positive",
+    "command": [
+      "bash",
+      "/workspace/cadir-newdata-prep-review-source/cases/nestorowa_hsc/scripts/run-r.sh",
+      "/workspace/cadir-newdata-prep-review-source/cases/nestorowa_hsc/scripts/audit_inputs.R",
+      "/workspace/cadir-newdata-prep-independent-20261026/toy/counts.rds",
+      "/workspace/cadir-newdata-prep-independent-20261026/toy/coldata.rds",
+      "/workspace/cadir-newdata-prep-independent-20261026/toy-positive"
+    ],
+    "exit_code": 0,
+    "expected_exit_code": 0
+  },
+  {
+    "name": "own_duplicate_ID",
+    "command": [
+      "bash",
+      "/workspace/cadir-newdata-prep-review-source/cases/nestorowa_hsc/scripts/run-r.sh",
+      "/workspace/cadir-newdata-prep-review-source/cases/nestorowa_hsc/scripts/audit_inputs.R",
+      "/workspace/cadir-newdata-prep-independent-20261026/toy/duplicate_cells.rds",
+      "/workspace/cadir-newdata-prep-independent-20261026/toy/coldata.rds",
+      "/workspace/cadir-newdata-prep-independent-20261026/toy-duplicate"
+    ],
+    "exit_code": 1,
+    "expected_exit_code": 1
+  }
+]

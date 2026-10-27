@@ -1,0 +1,198 @@
+{
+  "scope": "Report assembly, saved-table consistency and document layout; existing scientific acceptance reused",
+  "source_files_checked": 42,
+  "figure_count": 13,
+  "hsc_rows": 10,
+  "hsc_summary": {
+    "cadir": {
+      "ARI": 0.291506398370853,
+      "NMI_max_entropy": 0.343414049181671,
+      "core_elapsed_seconds": 13.321
+    },
+    "pca_snn_louvain": {
+      "ARI": 0.269345381294258,
+      "NMI_max_entropy": 0.356463934525198,
+      "core_elapsed_seconds": 5.331
+    }
+  },
+  "lm_ranked_genes": 1200,
+  "office_math_objects": 47,
+  "page_count": 29,
+  "toc_entries": 56,
+  "pages": [
+    {
+      "page": 1,
+      "text_chars": 82,
+      "placed_images": 0,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 2,
+      "text_chars": 6101,
+      "placed_images": 0,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 3,
+      "text_chars": 3417,
+      "placed_images": 0,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 4,
+      "text_chars": 2445,
+      "placed_images": 0,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 5,
+      "text_chars": 2658,
+      "placed_images": 0,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 6,
+      "text_chars": 1129,
+      "placed_images": 0,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 7,
+      "text_chars": 1095,
+      "placed_images": 0,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 8,
+      "text_chars": 944,
+      "placed_images": 0,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 9,
+      "text_chars": 971,
+      "placed_images": 0,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 10,
+      "text_chars": 1320,
+      "placed_images": 0,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 11,
+      "text_chars": 1611,
+      "placed_images": 0,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 12,
+      "text_chars": 1437,
+      "placed_images": 0,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 13,
+      "text_chars": 1509,
+      "placed_images": 0,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 14,
+      "text_chars": 1409,
+      "placed_images": 0,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 15,
+      "text_chars": 528,
+      "placed_images": 1,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 16,
+      "text_chars": 331,
+      "placed_images": 2,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 17,
+      "text_chars": 434,
+      "placed_images": 1,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 18,
+      "text_chars": 58,
+      "placed_images": 1,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 19,
+      "text_chars": 230,
+      "placed_images": 1,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 20,
+      "text_chars": 320,
+      "placed_images": 1,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 21,
+      "text_chars": 186,
+      "placed_images": 2,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 22,
+      "text_chars": 666,
+      "placed_images": 1,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 23,
+      "text_chars": 634,
+      "placed_images": 1,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 24,
+      "text_chars": 439,
+      "placed_images": 1,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 25,
+      "text_chars": 589,
+      "placed_images": 1,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 26,
+      "text_chars": 1328,
+      "placed_images": 0,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 27,
+      "text_chars": 1564,
+      "placed_images": 0,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 28,
+      "text_chars": 1186,
+      "placed_images": 0,
+      "out_of_bounds_blocks": 0
+    },
+    {
+      "page": 29,
+      "text_chars": 3188,
+      "placed_images": 0,
+      "out_of_bounds_blocks": 0
+    }
+  ]
+}

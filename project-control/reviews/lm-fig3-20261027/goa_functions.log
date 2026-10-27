@@ -1,0 +1,75 @@
+function (gene_sets, filter_literature = FALSE) 
+{
+    if (is(gene_sets, "tbl")) {
+        gene_sets <- as.data.frame(gene_sets)
+    }
+    gene_list <- list()
+    gs <- sort(unique(drop(gene_sets[, 1])))
+    for (i in seq_len(length(gs))) {
+        sel <- which(gene_sets[, 1] == gs[i])
+        genes <- drop(gene_sets[sel, 2])
+        gene_list[[gs[i]]] <- genes
+    }
+    names(gene_list) <- gsub(" ", "_", names(gene_list))
+    if (isTRUE(filter_literature)) {
+        gene_list <- gene_list[!grepl("et_al\\.", names(gene_list))]
+    }
+    return(gene_list)
+}
+<bytecode: 0x5560a7099678>
+<environment: namespace:CAdir>
+function (gois, gene_sets, universe, min_size, max_size, verbose = TRUE) 
+{
+    gene_sets <- lapply(gene_sets, intersect, universe)
+    all_gs <- unique(unlist(gene_sets))
+    gois <- gois[gois %in% all_gs]
+    gene_sets <- filter_gene_set_list(gene_sets = gene_sets, 
+        min_size = min_size, max_size = max_size)
+    gois_in_set <- sapply(gene_sets, intersect, gois)
+    gois_in_set <- filter_gene_set_list(gene_sets = gois_in_set, 
+        min_size = 1, max_size = Inf)
+    if (length(gois_in_set) == 0) {
+        if (isTRUE(verbose)) {
+            warning("No genes of interest are found in any gene set!", 
+                " Returning empty results data.frame.")
+        }
+        enrich_res <- data.frame(gene_set = "No_Cell_Type_Found", 
+            pval = NA, padj = NA, GeneRatio = NA, BgRatio = NA, 
+            ngois_in_set = 0, ngenes_in_set = length(gene_sets), 
+            ngois = length(gois), ngenes_in_sets = length(all_gs))
+        return(enrich_res)
+    }
+    else {
+        gs_names <- sort(unique(names(gois_in_set)))
+        gene_sets <- gene_sets[gs_names]
+        gois_in_set <- gois_in_set[gs_names]
+        ngois <- length(gois)
+        group1 <- lengths(gene_sets)
+        group2 <- length(all_gs)
+        overlap <- lengths(gois_in_set)
+        phyper_df <- data.frame(gois_in_set = overlap - 1, genes_in_set = group1, 
+            genes_universe = group2 - group1, ngois = ngois)
+        rownames(phyper_df) <- names(gene_sets)
+        pvalues <- apply(phyper_df, 1, function(n) {
+            stats::phyper(n[1], n[2], n[3], n[4], lower.tail = FALSE)
+        })
+        p_adj <- stats::p.adjust(pvalues, method = "BH")
+        gene_ratio <- apply(data.frame(a = overlap, b = ngois), 
+            1, function(x) {
+                paste(x[1], "/", x[2], sep = "", collapse = "")
+            })
+        bg_ratio <- apply(data.frame(a = group1, b = group2), 
+            1, function(x) {
+                paste(x[1], "/", x[2], sep = "", collapse = "")
+            })
+        enrich_res <- data.frame(gene_set = names(gene_sets), 
+            pval = pvalues, padj = p_adj, GeneRatio = gene_ratio, 
+            BgRatio = bg_ratio, ngois_in_set = overlap, ngenes_in_set = group1, 
+            ngois = ngois, ngenes_in_sets = group2)
+        rownames(enrich_res) <- NULL
+        ord <- order(enrich_res$padj)
+        return(enrich_res[ord, ])
+    }
+}
+<bytecode: 0x5560a70b2328>
+<environment: namespace:CAdir>

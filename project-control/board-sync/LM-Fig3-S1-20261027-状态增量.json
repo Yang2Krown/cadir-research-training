@@ -1,0 +1,28 @@
+{
+  "automatic_local_sync": false,
+  "implementation_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+  "review_commit": "060e32beb41a65c0ef13553cd9827b2aa95ba12f",
+  "updates": [
+    {
+      "taskId": "Q-CASE-READY",
+      "status": "已完成",
+      "boundary": "现有输入上的Fig3/S1九项完整分析及独立复验通过；作者公开核心汇总复现一致；严格作者制品/逐成员身份未验证"
+    },
+    {
+      "taskId": "RP-01",
+      "status": "进行中",
+      "boundary": "LM报告正文已纳入九图验收与作者公开核心汇总对照；图注和答辩文字增量可用；作者原件/逐成员未知，课程报告仍为阶段稿，其他原文实验未覆盖"
+    }
+  ],
+  "user_course_wide_acceptance": false,
+  "other_datasets_started": false,
+  "author_public_output_comparison": "MATCHED_SUMMARIES_AND_VISIBLE_LOG_ARI_AT_PRINTED_PRECISION",
+  "author_NMI": "NOT_PRINTED_UNKNOWN",
+  "materials": {
+    "report": "project-control/实验报告首案例初稿-2026-10-26.md",
+    "caption_and_speaker_text": "project-control/LM图注与答辩增量-2026-10-27.md",
+    "existing_PPT_modified": false,
+    "existing_delivery_ZIP_updated": false,
+    "course_final_accepted": false
+  }
+}

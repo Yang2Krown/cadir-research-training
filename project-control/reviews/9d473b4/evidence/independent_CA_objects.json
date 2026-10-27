@@ -1,0 +1,47 @@
+{
+  "genes": 6000,
+  "cells": 1882,
+  "original_ID_order_identical": true,
+  "inferred_sign_vector": [1, 1, 1, 1, 1, 1, -1, 1, 1, -1, -1, 1, 1, 1, -1, 1, -1, -1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1],
+  "negative_axes": [7, 10, 11, 15, 17, 18, 21, 22],
+  "singular_values_max_abs": 6.66133814775094e-16,
+  "coordinate_tolerance": 1e-09,
+  "coordinate_slots": [
+    {
+      "slot": "U",
+      "raw_max_abs": 0.35352677700198,
+      "sign_aligned_max_abs": 8.84015083357781e-14
+    },
+    {
+      "slot": "V",
+      "raw_max_abs": 0.49836176734843,
+      "sign_aligned_max_abs": 1.68254299381942e-13
+    },
+    {
+      "slot": "std_coords_rows",
+      "raw_max_abs": 99.6811348115922,
+      "sign_aligned_max_abs": 2.98676638976758e-11
+    },
+    {
+      "slot": "std_coords_cols",
+      "raw_max_abs": 30.8484187891553,
+      "sign_aligned_max_abs": 1.01296748766799e-11
+    },
+    {
+      "slot": "prin_coords_rows",
+      "raw_max_abs": 10.6815534846054,
+      "sign_aligned_max_abs": 2.91011659214746e-12
+    },
+    {
+      "slot": "prin_coords_cols",
+      "raw_max_abs": 3.3056308581827,
+      "sign_aligned_max_abs": 9.04887276220734e-13
+    }
+  ],
+  "optimal_orthogonal_map_max_difference_from_diagonal_sign": 6.21867961982581e-13,
+  "optimal_map_residual_max_abs": 2.49245069028348e-13,
+  "cells_factor_names_levels_identical": true,
+  "genes_factor_names_levels_identical": true,
+  "dict_identical": true,
+  "direction_sign_aligned_max_abs": 2.02067529375682e-13
+}

@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/scripts/container.sh",
+    "/workspace/hsc-fair-experiment-data-20261026/result-review/independent-01",
+    "Rscript",
+    "/workspace/hsc-results-independent-review/reviews/hsc-results-20261027/verify_saved_objects.R",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01",
+    "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01",
+    "/workspace/hsc-fair-experiment-data-20261026/result-review/independent-01"
+  ],
+  "executor": "root coordinator relay of unmodified independent reviewer script",
+  "script_sha256_before": "e41846c72ce008da368f862ce869f576f20b16b0df24068bb955b1fd7b00ed89",
+  "script_sha256_after": "e41846c72ce008da368f862ce869f576f20b16b0df24068bb955b1fd7b00ed89",
+  "wrapper_sha256_before": "e420a41203f62540d4cb85de3cc26d1224689a6f37e3da895e2da4023ed4548b",
+  "wrapper_sha256_after": "e420a41203f62540d4cb85de3cc26d1224689a6f37e3da895e2da4023ed4548b",
+  "exit_code": 0,
+  "elapsed_seconds": 18.62253927400161,
+  "completed_utc": "2026-10-27T01:24:42.472988+00:00"
+}

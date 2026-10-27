@@ -1,0 +1,1542 @@
+{
+  "/workspace/cadir-r3-review-source/.gitignore": {
+    "bytes": 992,
+    "sha256": "1fa39c429dad1e7bc77be44b682beaf57bab447dd3489e77a7e5ee4204943978"
+  },
+  "/workspace/cadir-r3-review-source/README.md": {
+    "bytes": 487,
+    "sha256": "db7dbe7373847834da3bafb390462f3009b2a118e4671d9dba02a14ba75c5620"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/README.md": {
+    "bytes": 7114,
+    "sha256": "c501f7951869dc5c18054f46b55b692ebf73d445085fe262bf3672a2152dbd28"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/README.md": {
+    "bytes": 3066,
+    "sha256": "7efdfe509f7eadd18e9bc88dd41172b92fd179aec1725c3f84459e99f3739eed"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/annotation/annotation_decisions.tsv": {
+    "bytes": 4769,
+    "sha256": "9679b0e0a1671626bd2bbde271eb2316a83e5668aa6533a2509908d5848bfcbc"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/annotation/cluster_1_gene_coverage.tsv": {
+    "bytes": 1313,
+    "sha256": "1266045a3bd42bd4f6531aa3573c7643f15d8e4ac1996c2b76a52d878b454abf"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/annotation/goa_all.tsv": {
+    "bytes": 58096,
+    "sha256": "d4fa92cea66f0453461de00cbe855f98d279daf69135d8e749340e22052a0c68"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/annotation/goa_top10.tsv": {
+    "bytes": 13735,
+    "sha256": "0b55746dfa0a888da99cff16ca0d9f479aa980a8e286bb268e39e3ebd9bf3cab"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/annotation/hungarian_assignments.tsv": {
+    "bytes": 370,
+    "sha256": "404e478aa3d476bb817214ee24f109e3915748dbe7b6b3872d0069cf8188cd9e"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/annotation/review_status.json": {
+    "bytes": 694,
+    "sha256": "fbf4df0123f3e3895a91e365f77e410a8045198c31166fcde176d2292bfbf04f"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/annotation/schwalie_resource_records.tsv": {
+    "bytes": 60968,
+    "sha256": "1788b626d92765d88093dad7c98d6f6613137084ecce60ab6f16a246d6547f76"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/annotation/sessionInfo.txt": {
+    "bytes": 1260,
+    "sha256": "f564d860489261b3320dc0baad66acb5ff92e3a84b9300baaa1fe871df0eae88"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/annotation/support_genes_long.tsv": {
+    "bytes": 27929,
+    "sha256": "327a48d7cc50934050d9a3d466d61b1913f6ec132cfabd473dfe66288f82d214"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/figures/confusion_within_cluster.pdf": {
+    "bytes": 38840,
+    "sha256": "cbca7fe00a08c638677c9c3a327d0a6fe2956c6de3b1faa834df66322360b226"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/figures/confusion_within_cluster.png": {
+    "bytes": 224068,
+    "sha256": "a26335494b8425a1393185ae60ad7c23da428b04e05131d2ab71d1d0de16091b"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/figures/confusion_within_reference.pdf": {
+    "bytes": 38615,
+    "sha256": "aaef36fa3607de2c01066e1d6f983d395ea84bd20cebf4962908eeb95eed87d6"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/figures/confusion_within_reference.png": {
+    "bytes": 217590,
+    "sha256": "95a62cf3d073cc83ae883bb3ce88c016c92a9d9bb26a145dd74785996fa0936e"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/activate.sh": {
+    "bytes": 573,
+    "sha256": "8e29eb4ae38526c4c20ebf25664695d7b85f2204b623c8e7766112710ce4c27a"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/baseline_manifest.json": {
+    "bytes": 77163,
+    "sha256": "3142e2a55efaf80c4b17e92acefe24b81a249c48e4c06e71b8a45d8f94f1a0e0"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/baseline_manifest.sha256": {
+    "bytes": 89,
+    "sha256": "ff1e84101ae8b3dddb3f3eecf9371403727b604c2692dc2a783d6555aca05a24"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/baseline_preservation_check.json": {
+    "bytes": 459,
+    "sha256": "f20d7293ff4a77215115d6239183b8a9c7af362d5e2dd74574037870c0ab9445"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/conda-explicit-linux-64.txt": {
+    "bytes": 55080,
+    "sha256": "536a08930ad24cbf92ee27ea854dfd2f609be1d67308940c5aff08240d921520"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/config/case.json": {
+    "bytes": 1110,
+    "sha256": "e4cc974fcaa7adef7b4ba74df224df9e5b8c086cb2b66861508157bf3d384c1c"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/git_status.txt": {
+    "bytes": 4962,
+    "sha256": "c186229f0fb5d9449cc06b59fa83b17526b3bf3b37b7d655aa3acf1392e5d7a8"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/CA_rss_samples_KiB.txt": {
+    "bytes": 888,
+    "sha256": "b6362821cbd6a5d701eaae94e1fa030f57cc9d3482785ec802bcb048d186c453"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/CA_sampler.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/CAdir_rss_samples_KiB.txt": {
+    "bytes": 488,
+    "sha256": "911e889aadb8d6fe062e63fae021382c208235e2c892c2894df73599eac9fbe9"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/CAdir_sampler.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/annotation_resources.json": {
+    "bytes": 104,
+    "sha256": "2d4947b1dc5d2d98a16f681ea7ebb57ac0336f8c88446ae4cc36aecefcd847af"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/annotation_rss_samples_KiB.txt": {
+    "bytes": 168,
+    "sha256": "1a3c04896fc5a62b14f5c76d3f5cf20cd72dd278702cdf1bccb50ca318770ec0"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/annotation_sampler.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/audit_rss_samples_KiB.txt": {
+    "bytes": 368,
+    "sha256": "c074204154be758273de1d944acde77c8361d9ade7af53c15eb0df6d3499c440"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/audit_sampler.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/config.json": {
+    "bytes": 1252,
+    "sha256": "a2c63a4e17d3292d5fc65c5d9e02fcb2dbdb25b299be825c5bdd1193c99f4428"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/console.log": {
+    "bytes": 329,
+    "sha256": "62af15fd0e2588ffb4d3e4011d861206494019842810611683a8ad7e9f67a222"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/data_audit.json": {
+    "bytes": 2176,
+    "sha256": "8da2d1fccfcb9471d7c7a980bc49f0fede4ad09d84e11d20be0f0fa211fd741a"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/exports_ranking_plots_rss_samples_KiB.txt": {
+    "bytes": 936,
+    "sha256": "6f3d254d6354d84f74f1ab0fb2da77980c6cad95b1b768ac73e33a4a0b4dd313"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/exports_ranking_plots_sampler.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/input_integrity.json": {
+    "bytes": 187,
+    "sha256": "39a21943c3a7fa67744ad6088fff86f25e373d9a93663afed3dc5eed5189f5f7"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/installed_packages.tsv": {
+    "bytes": 9202,
+    "sha256": "a87be7e7a7e94b27b9eceaef49b99e635a72790dc1569cb4dffef3ab97845b76"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/metrics.json": {
+    "bytes": 312,
+    "sha256": "d67d22ca1841f966580998e2e8550dd5ca180de9f22cc6b4c13ba772c20b2ae7"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/modelGeneVar_rss_samples_KiB.txt": {
+    "bytes": 40,
+    "sha256": "b2ffc89480c2a2a0a8555cbdcdfc7f84b21ae130becd7d56f1195dee155342ec"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/modelGeneVar_sampler.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/r_status.json": {
+    "bytes": 237,
+    "sha256": "0aedd53c560218e7957c8a3c1ba9c8b64484e8abf5a0eae1d68d730c178cc6aa"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/readRDS_rss_samples_KiB.txt": {
+    "bytes": 198,
+    "sha256": "23384580cac9a5f3822f5ffb1549236a27ff395b7f199c81a557289d1e241151"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/readRDS_sampler.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/required_version_check.tsv": {
+    "bytes": 254,
+    "sha256": "51e100ba02cbedf1200045954199b4f4b1a7ee16cc05fce192bfba65ccbe4ba5"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/runtime_config.json": {
+    "bytes": 1252,
+    "sha256": "a2c63a4e17d3292d5fc65c5d9e02fcb2dbdb25b299be825c5bdd1193c99f4428"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/selection.json": {
+    "bytes": 151,
+    "sha256": "14d7e529e0dadc1b5c868df197f08c2c32132258e414adb13135f515ace22538"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/sessionInfo.txt": {
+    "bytes": 5759,
+    "sha256": "4ba38a5b40d5f921675735ad5f1cbbac00731d09506e1ad704455557e91543de"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/stage_times_seconds.json": {
+    "bytes": 2201,
+    "sha256": "775cd8182bf04e0fb3c099f24026177b3b8ddb227d5f7eb8ecdffb38c13bbdab"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-5los7t_s/status.json": {
+    "bytes": 1325,
+    "sha256": "d5f867a9e97d15172dee7d4f4d00082ec17b24acd535a63fb873510a3d8f7564"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-hrj6sx0g/audit_rss_samples_KiB.txt": {
+    "bytes": 360,
+    "sha256": "9afb3e030d370ce12a0e5ed4a1d21375e17dd897bbc9ca1c4ce8d32889e83780"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-hrj6sx0g/audit_sampler.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-hrj6sx0g/config.json": {
+    "bytes": 1251,
+    "sha256": "cd8c96f369eea43f8d33911949e7c94be1ce9baaba550e785bc1896eea75d31d"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-hrj6sx0g/console.log": {
+    "bytes": 196,
+    "sha256": "ea049dc903fe636a69eeb4716de90b9a5b966dd783bfa5117dad64a68b33c276"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-hrj6sx0g/data_audit.json": {
+    "bytes": 1748,
+    "sha256": "c1c75922dadcd3e5a44367e3292f414730ed5e209015083fb4be0cd6fe108eb7"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-hrj6sx0g/input_integrity.json": {
+    "bytes": 187,
+    "sha256": "39a21943c3a7fa67744ad6088fff86f25e373d9a93663afed3dc5eed5189f5f7"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-hrj6sx0g/installed_packages.tsv": {
+    "bytes": 9202,
+    "sha256": "a87be7e7a7e94b27b9eceaef49b99e635a72790dc1569cb4dffef3ab97845b76"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-hrj6sx0g/r_status.json": {
+    "bytes": 172,
+    "sha256": "caed403548eedfc6a38eff1fd12c8380b363e5babcfa9ae97d856697f87c4357"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-hrj6sx0g/readRDS_rss_samples_KiB.txt": {
+    "bytes": 198,
+    "sha256": "eaf0721885d1f813c61ffc3b4015705a45bfce7c77c18a8ddf868b7694144a8a"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-hrj6sx0g/readRDS_sampler.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-hrj6sx0g/required_version_check.tsv": {
+    "bytes": 254,
+    "sha256": "51e100ba02cbedf1200045954199b4f4b1a7ee16cc05fce192bfba65ccbe4ba5"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-hrj6sx0g/runtime_config.json": {
+    "bytes": 1251,
+    "sha256": "cd8c96f369eea43f8d33911949e7c94be1ce9baaba550e785bc1896eea75d31d"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-hrj6sx0g/sessionInfo.txt": {
+    "bytes": 5379,
+    "sha256": "ac51ef6feb6f62ed7b64e710ac19d52b574e332034b556ca768cbb72176d096c"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-hrj6sx0g/stage_times_seconds.json": {
+    "bytes": 624,
+    "sha256": "e7d03788952b702aad7fa63f190d24961c7257b2469576d214d7be2c6f24d309"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-hrj6sx0g/status.json": {
+    "bytes": 1260,
+    "sha256": "fad5e74134231c082280f1147b2ce2041770f2aff2dc0f6cc754ad269ffeb5aa"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/CA_rss_samples_KiB.txt": {
+    "bytes": 880,
+    "sha256": "482d3da688fbfe62327e14400fa2a071ba8d080a2823bace646c95ff2fc1792f"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/CA_sampler.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/CAdir_rss_samples_KiB.txt": {
+    "bytes": 472,
+    "sha256": "e56527c07356ab183ccb77f6fb25728d97d878cac009fcd2c4565c2d345925c9"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/CAdir_sampler.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/annotation_resources.json": {
+    "bytes": 178,
+    "sha256": "0a5ec7e84201d8a8b0b4813eaaf28a3fec50908914fa9038bdfda6af44692474"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/annotation_rss_samples_KiB.txt": {
+    "bytes": 168,
+    "sha256": "f2ca981ab98d01f1aad091286a6a271816ed940da44e3f527213be3fe824af53"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/annotation_sampler.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/audit_rss_samples_KiB.txt": {
+    "bytes": 368,
+    "sha256": "1422d074351c3efdb11493cbb8ad2dc640be3a5a1f0e6948704b1298d1fd28da"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/audit_sampler.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/config.json": {
+    "bytes": 1252,
+    "sha256": "a2c63a4e17d3292d5fc65c5d9e02fcb2dbdb25b299be825c5bdd1193c99f4428"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/console.log": {
+    "bytes": 329,
+    "sha256": "62af15fd0e2588ffb4d3e4011d861206494019842810611683a8ad7e9f67a222"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/data_audit.json": {
+    "bytes": 2273,
+    "sha256": "0574fc7abfb4ea1adf1647f8ca46c0be9aeac44c06f0aba8c1e92a40dccb19bb"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/exports_ranking_plots_rss_samples_KiB.txt": {
+    "bytes": 736,
+    "sha256": "30a1ff55475611141f27e462f575425d4feb21ffcb10514d1788f43f97e7b961"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/exports_ranking_plots_sampler.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/input_integrity.json": {
+    "bytes": 187,
+    "sha256": "39a21943c3a7fa67744ad6088fff86f25e373d9a93663afed3dc5eed5189f5f7"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/installed_packages.tsv": {
+    "bytes": 9202,
+    "sha256": "a87be7e7a7e94b27b9eceaef49b99e635a72790dc1569cb4dffef3ab97845b76"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/metrics.json": {
+    "bytes": 334,
+    "sha256": "b1624836f37038fe399fa78bda33abaa415fdb37565f04dbbad72dcff202b5a8"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/modelGeneVar_rss_samples_KiB.txt": {
+    "bytes": 40,
+    "sha256": "5619c340dcc8a700c39399762e37fe041e2d74ad2fd63b5ecd849fe42ac50059"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/modelGeneVar_sampler.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/r_status.json": {
+    "bytes": 237,
+    "sha256": "65097f573ab497b8aec689d797217f75778e62e1105d2573c46bbd6fb83323ec"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/readRDS_rss_samples_KiB.txt": {
+    "bytes": 198,
+    "sha256": "ed8f6663a5cca1b3d804a3eff6f74ea58c5c0be859e2fbbf3c682af2b81c5844"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/readRDS_sampler.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/required_version_check.tsv": {
+    "bytes": 254,
+    "sha256": "51e100ba02cbedf1200045954199b4f4b1a7ee16cc05fce192bfba65ccbe4ba5"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/runtime_config.json": {
+    "bytes": 1252,
+    "sha256": "a2c63a4e17d3292d5fc65c5d9e02fcb2dbdb25b299be825c5bdd1193c99f4428"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/selection.json": {
+    "bytes": 151,
+    "sha256": "14d7e529e0dadc1b5c868df197f08c2c32132258e414adb13135f515ace22538"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/sessionInfo.txt": {
+    "bytes": 5759,
+    "sha256": "4ba38a5b40d5f921675735ad5f1cbbac00731d09506e1ad704455557e91543de"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/stage_times_seconds.json": {
+    "bytes": 2199,
+    "sha256": "c0a1f1bbafefb74f79d0280a2babe0a28dfe53607df76d57e49ad8b306d97eb8"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/status.json": {
+    "bytes": 1325,
+    "sha256": "d159346a1bc5cb087fead9989ca546438082a4149c54fe941aa37a3ec1bc3a26"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/verification.json": {
+    "bytes": 395,
+    "sha256": "6c937fbdf13a100a93e7c576a234cf118a8d7e73df9a62dc52c4b40b04eda427"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-ppkaow9s/verification.log": {
+    "bytes": 448,
+    "sha256": "fbc8188e2128139f9b2432aa1e3db8006ca6d6b4f197daba7e189bd728df5c1a"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-qgx9q1ac/config.json": {
+    "bytes": 990,
+    "sha256": "d54a4a1f5ea92bb3769f760f41c3182c006bd49acf0185d2083d808d17c12a70"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-qgx9q1ac/console.log": {
+    "bytes": 98,
+    "sha256": "412348ca7346abcfad2a7a8c287385c22266df4d3f8a3a1dee871c949e8eddad"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-qgx9q1ac/status.json": {
+    "bytes": 752,
+    "sha256": "01314f4e1b682b9466ae27b83c496fdb410ed6effbae329c94acbdcd789cf362"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-x523sv2h/config.json": {
+    "bytes": 1221,
+    "sha256": "43d5175ed9e37a311a50480233109b7ab9e9970f544559c41c64bbd758223bdf"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-x523sv2h/console.log": {
+    "bytes": 98,
+    "sha256": "412348ca7346abcfad2a7a8c287385c22266df4d3f8a3a1dee871c949e8eddad"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/case-x523sv2h/status.json": {
+    "bytes": 884,
+    "sha256": "60bc848b8405332c5223bd8ae333d976cf2c54fc0bd61ae0543f4a9307f898ed"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/environment-lvscv1j4/resources.log": {
+    "bytes": 3658,
+    "sha256": "69a793194de73d23a1f207dd313de27c9e8c8c7365fe647411894bcee1b43bdc"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/environment-lvscv1j4/sources.json": {
+    "bytes": 947,
+    "sha256": "5d75212102e7fdff973a50d125d79311e14e2ba7c346566cff31f89a71e73a16"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/environment-lvscv1j4/status.json": {
+    "bytes": 2120,
+    "sha256": "1cbab24f2fb9dffad4dc4e6169385f9ca347fb9d883d2b42afd47dd17aa05760"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/environment-lvscv1j4/synthetic-console.log": {
+    "bytes": 478,
+    "sha256": "b89f2bf13fefb69662b795362201c81915de31355f134e83b50c6659d56a7017"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/environment-lvscv1j4/synthetic-resources.json": {
+    "bytes": 374,
+    "sha256": "97ed27a85c8964f56e36ffd747f606214ddb47b6a1dbc45af4c43ec8859e60cc"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/environment-lvscv1j4/synthetic_smoke.log": {
+    "bytes": 374,
+    "sha256": "97ed27a85c8964f56e36ffd747f606214ddb47b6a1dbc45af4c43ec8859e60cc"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/environment-lvscv1j4/versions.log": {
+    "bytes": 6737,
+    "sha256": "9c45917857ece59a0a13619502cb1e38cb7cf9ff895669f8d7adfd33f0cb3564"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/environment-mbeu2g34/resources.log": {
+    "bytes": 3655,
+    "sha256": "2eb788f2236dd53524ce17ef8b5dcfbccaaaba4729ee91097a2b582a2a09ac9e"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/environment-mbeu2g34/status.json": {
+    "bytes": 679,
+    "sha256": "84586252ce7d3a6f5b5519ebbe956268a9b5614afe7a8598b8316d3b0635a8fb"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/history_logs/index.json": {
+    "bytes": 3776,
+    "sha256": "68da400e773dc5a98be8fcf2c20cfdb787732333973312d4f6ace063fcef2388"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/latest-case.json": {
+    "bytes": 1325,
+    "sha256": "d159346a1bc5cb087fead9989ca546438082a4149c54fe941aa37a3ec1bc3a26"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/latest-environment.json": {
+    "bytes": 2120,
+    "sha256": "1cbab24f2fb9dffad4dc4e6169385f9ca347fb9d883d2b42afd47dd17aa05760"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/provenance.md": {
+    "bytes": 3252,
+    "sha256": "a3c2c553095d4199ca15dc441cc5b87ab29347e915100353387eb2fe23ca61f6"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/review_software.json": {
+    "bytes": 237,
+    "sha256": "2d44597f832ad7a60f07f3ed60cd328a638b218b86ef2ae0c1952774c28bcbac"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/runtime-renv.lock": {
+    "bytes": 701970,
+    "sha256": "e4602fde7d84d17dee7ff8eac3545ea8be59b0e04c5b4254f76d1e8e0176b2dd"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/scripts/assemble_input.py": {
+    "bytes": 2249,
+    "sha256": "d11f96eee688e445d1c47c64647eab595c97ce06a5e1a00a4ef1193e8106cca7"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/scripts/check_environment.py": {
+    "bytes": 2701,
+    "sha256": "49d0439b40ac4e38565471bfd99ce4ce7c59ec2ea6e3ed42c84f80d7d5160950"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/scripts/collect_outputs.py": {
+    "bytes": 2625,
+    "sha256": "918879104941ce2c864909a7899b9c3bdfd52cf5baaff151178326204aa6f2a8"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/scripts/pipeline.R": {
+    "bytes": 16657,
+    "sha256": "9cd80aae7e616deb5659e5bddb0e2c568136e67baf9085ffa14489b07c380fb8"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/scripts/rerun.sh": {
+    "bytes": 484,
+    "sha256": "cad687b065b564dccb4fa2d14bd2308a12b799e6212a70dad467103b79054efd"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/scripts/run-r.sh": {
+    "bytes": 188,
+    "sha256": "bc5d9d59f405049bb9a78ade74d6921d905b2ea44dcdbc7fcded035e2e6e8669"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/scripts/run_case.py": {
+    "bytes": 4847,
+    "sha256": "2743e614a50a75735b1a943ec5520bc0f84b4e25a1dbe0e4a4bb5d2669c9aafa"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/scripts/sample_rss.sh": {
+    "bytes": 270,
+    "sha256": "468d7e51957fccc077c8ebe04be44b4b614258491a48a669a10449ab65946194"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/scripts/verify_results.R": {
+    "bytes": 2869,
+    "sha256": "5cfd1302e8999306e08e9de6dba947718bf099deb20d7f7e5650ecabe8e5f7d5"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/scripts/versions.R": {
+    "bytes": 758,
+    "sha256": "7bf4e4853f0fa84f33cfb3492635b457b8521d0818ac91b59b889199c78d3ef4"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/sources.json": {
+    "bytes": 947,
+    "sha256": "5d75212102e7fdff973a50d125d79311e14e2ba7c346566cff31f89a71e73a16"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/tracked_diff.patch": {
+    "bytes": 969,
+    "sha256": "b520fa094aa8ac4b4d7f8c7e6824cd397e2cb0800839c60b6bd18ac3ed2f3643"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/upstream-renv.lock": {
+    "bytes": 169895,
+    "sha256": "b8dbf9e526885496c1b28af91c1bec36aa6b103c87da0a966ce4869d06f3a129"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/freeze/upstream_observed.json": {
+    "bytes": 1323,
+    "sha256": "f984e924ec3fa61cc7c9a43f558c9967ee5e3f691cdb7b50ba1ed172a060d022"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/logs/annotation_review.log": {
+    "bytes": 10497,
+    "sha256": "2dbf46e3a88f088af990256269b53c4328e8533ef6e3ddc4510fbce92989ce8f"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/logs/cluster_review.log": {
+    "bytes": 4520,
+    "sha256": "24094519d779c45493b8969047266199bc69b77d581a25f32cd93a0bb7ed9d57"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/logs/marker_search.log": {
+    "bytes": 2078,
+    "sha256": "fdbd5a588b08324a86b6fc17cf076ea12281a72ec0c805be60c5c1bad5dba9de"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/report/GIT_FILES.txt": {
+    "bytes": 19222,
+    "sha256": "91be057b3c9b2ab24061f6177a1b8672205170e1dd6983d7d39f9b02fbb48d66"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/report/external_artifacts.json": {
+    "bytes": 74795,
+    "sha256": "398750c29fd7e3254424fec171318c3ef5cfbe4a22b8ba3c7ecaea03e9f6959c"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/report/review.css": {
+    "bytes": 916,
+    "sha256": "5259d79b7e1e2fd93754317f16b4936e4886e509c6a2e41938d6296a3760d538"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/report/\u7ed3\u679c\u89e3\u8bfb\u62a5\u544a.html": {
+    "bytes": 614789,
+    "sha256": "fa2a8d3aaee6e2e1905832384cb441d1663b4118d2d1a9309664f1a06791cc1b"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/report/\u7ed3\u679c\u89e3\u8bfb\u62a5\u544a.md": {
+    "bytes": 18744,
+    "sha256": "6cf850aa8999d8a81754a1fcf75d318e802ae197b6cbafabf2881e78f7811833"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/scripts/annotation_review.R": {
+    "bytes": 5667,
+    "sha256": "ede6724d47d46d7c9c1e8efd2238dc68f34dfc45cabd4394c35f7fa11c2eaed7"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/scripts/build_report.py": {
+    "bytes": 18393,
+    "sha256": "5822fe455fb6e1a07b4ce5c5e51711654a5ddc24851d90d9ae1e57bb366d993c"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/scripts/check_marker_sources.py": {
+    "bytes": 4142,
+    "sha256": "40ab7bd40752be71218b3aba441fc4ab030695ec9010f32a2e6a641ce372164a"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/scripts/cluster_review.py": {
+    "bytes": 4741,
+    "sha256": "93a358ecd138fd4bcfc661d3e869c78fd930b4720487d24b5b8471120757d91d"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/scripts/freeze_baseline.py": {
+    "bytes": 2699,
+    "sha256": "a50835515a2df9ce3a731ee53e49ac6e43acb6bfa041270e609615b53b3e012b"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/scripts/package_deliverables.py": {
+    "bytes": 6633,
+    "sha256": "01107fed0d8919c6cb9d0af846c78513fab1c025b2a486fb01395a6e97ebb1d8"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/scripts/review_only.sh": {
+    "bytes": 558,
+    "sha256": "b15f30eb7ca39ea47a3e9ef38436886f26e4f3f7ce5a000e5a9588f3fb955b80"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/scripts/verify_acceptance.py": {
+    "bytes": 2950,
+    "sha256": "3b99c4f1e4438aa097bbccbb2074fe503a3bf9ee7e15763b35e898b9a8e31f86"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/source_check/.gitignore": {
+    "bytes": 353,
+    "sha256": "fc259abe002a6459734722d118e535cefdf8429eacd11efc374c3563a7c895f0"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/source_check/CAdir_LICENSE.md": {
+    "bytes": 34904,
+    "sha256": "585e25ef8f5946a52bf2aed68d5becfc38be94a8663aa01c1b31d88aa57f1de3"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/source_check/CAdir_results_tree_paths.txt": {
+    "bytes": 34362,
+    "sha256": "e1fafc6b87f4ed6a61c9cb7a840d28eb962d0c031d96fc0ad2dbec99e3224cb1"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/source_check/CAdir_tree_paths.txt": {
+    "bytes": 2861,
+    "sha256": "7099565f2994707e4c80c4c003949f4089043e5fed2e8a5b8b871c89b2306447"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/source_check/author_reference_manifest.json": {
+    "bytes": 1318,
+    "sha256": "5ff0858587e23ac33133b5b144cdb70157b58944893e6d080c4d08b1ad032b77"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/source_check/marker_search.json": {
+    "bytes": 2078,
+    "sha256": "fdbd5a588b08324a86b6fc17cf076ea12281a72ec0c805be60c5c1bad5dba9de"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/source_check/results_releases_first20.json": {
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/tables/cluster_composition.tsv": {
+    "bytes": 1167,
+    "sha256": "93e5c14be040e98880b53fad15dcca7885695d7e558a27e15d9149e73aec655b"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/tables/cluster_review_checks.json": {
+    "bytes": 297,
+    "sha256": "d1edab58aeba35a445f7177ef1e8a0a5aa654cb83cc752398d3fe11811cb1065"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/tables/counts_7x8.tsv": {
+    "bytes": 345,
+    "sha256": "67bb264586c11bdd305c238a1a64615773c622810d1c871a80a556192c954822"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/tables/counts_and_fractions_long.tsv": {
+    "bytes": 2741,
+    "sha256": "e57928544e4946cf90eb38ff6a14dac035fbec780f13398d73e0b4314a4a8044"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/tables/figure2_comparison.tsv": {
+    "bytes": 4916,
+    "sha256": "971cc61f495bd4b3343ef3395a7e8c361d8505ba58ab628ebe6bb7df8f0d221f"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/tables/fraction_within_cluster.tsv": {
+    "bytes": 708,
+    "sha256": "7c4a6554b86eccc993e37f5bef99bcbe103da7812592d0782a9baee919c2c78f"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/tables/fraction_within_reference.tsv": {
+    "bytes": 720,
+    "sha256": "aac4e1638d9120cce94868a06f61c04bf764d79f42692912f22aeeba45f8eb82"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/acceptance/2026-10-25/tables/reference_distribution.tsv": {
+    "bytes": 953,
+    "sha256": "0a0ba7199480fbe655dea1d49b418cdb6ca47b26fb14e7080c1f4cf8e713be14"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/artifact_manifest.json": {
+    "bytes": 37981,
+    "sha256": "fee2efaf2ae9e7bee44db48524ce5dcea8d25a25b21e4bf6260f2578be7549ad"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/config/case.json": {
+    "bytes": 1110,
+    "sha256": "e4cc974fcaa7adef7b4ba74df224df9e5b8c086cb2b66861508157bf3d384c1c"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/.gitignore": {
+    "bytes": 108,
+    "sha256": "bb125b6d4108481a11eeb846418f88b8dced733d976b318e3a8f5745d74f4248"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/assembly-20261025T093431661935Z.json": {
+    "bytes": 842,
+    "sha256": "851539be7e8e3b47c92fc49ac7d70ddabc2cc72ce69b5aedf890241894d916e3"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/author-lock-version-comparison.tsv": {
+    "bytes": 16890,
+    "sha256": "5f449e4f597eb22f7cea4ed9ae7849ec01cc73acd48a56e5936e8380d2c6f6e7"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/cadir-remote-head.txt": {
+    "bytes": 46,
+    "sha256": "16a5528ede21c42535f7bde305aaed6dc33cf6796a567d753cdd23cd852a2431"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/continuation-sources-verification.json": {
+    "bytes": 1855,
+    "sha256": "524ddb06f71bbea5e6a48ed98524e1e61023f7e826d006f36396a383b2aa6733"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/continuation-task.md": {
+    "bytes": 2988,
+    "sha256": "df03d87ec2e6aa04d7cc57082c19ea0e911a6ba2066e36006c9a7ec01741a9cd"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/docker-images.jsonl": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/docker-info.json": {
+    "bytes": 260,
+    "sha256": "4e2cd4980b112ca0e8c323fdeb1ad4d7adb4a308f39bef6406a3f8f3d979ba80"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/environment_audit.json": {
+    "bytes": 2146,
+    "sha256": "240f8aff0bfa95674331c9dc7245e110a72df79c600f0967112a244f25a21d7e"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/legacy-core-versions.csv": {
+    "bytes": 254,
+    "sha256": "b9a86587c6a89161bafd8f26617d54a571246214979dae8e5225021c3f0961b9"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/legacy-provenance.md": {
+    "bytes": 3252,
+    "sha256": "a3c2c553095d4199ca15dc441cc5b87ab29347e915100353387eb2fe23ca61f6"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/legacy-smoke-ca-cadir-smoke.png": {
+    "bytes": 18424,
+    "sha256": "431ebfd6f4c55f78297bc1507afc0447ea2f3345938652ee3cea3c82214d4415"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/legacy-smoke-console.log": {
+    "bytes": 478,
+    "sha256": "b89f2bf13fefb69662b795362201c81915de31355f134e83b50c6659d56a7017"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/legacy-smoke-installed-packages.csv": {
+    "bytes": 14765,
+    "sha256": "c870f0aaa5776f8d1ce19b75e4574cf188cbfc73da966c0046c55baec50a3ddb"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/legacy-smoke-resources.json": {
+    "bytes": 374,
+    "sha256": "f01b7ca88cc0a3061e5a5f3d7eb060f38bcd755c2816005f1ad36d9a97026ba5"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/legacy-smoke-sessionInfo.txt": {
+    "bytes": 5788,
+    "sha256": "c725baf89274d3e83e8f1a35b20741b7406b97be1746db5d78a807eedce99b34"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/legacy-smoke-status.txt": {
+    "bytes": 69,
+    "sha256": "6a97d2731837f37338425a10b0165fc7bb95b5cb14ab619552a3ab4fc804922f"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/marker_resource_search.json": {
+    "bytes": 470,
+    "sha256": "7815289d8ea1866fd380f9754de3777929dea03e3d94a2b1bcfbd530d32ec072"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/paper_page23.txt": {
+    "bytes": 780,
+    "sha256": "c9919530df56fc29f7b956a0077f743c63f84552cb150fb2e82ddd944d2271a8"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/postrun-input-integrity.json": {
+    "bytes": 136,
+    "sha256": "a77e6a97dce5541ae0a4c643d6a6069aaa6876e503d4e7e023bc4cfedd754e45"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/pre-continuation-scripts/README.md": {
+    "bytes": 5992,
+    "sha256": "92eb69f19ff5146df322546c5402c64824e979d87c9476d7dc4231fb90898f93"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/pre-continuation-scripts/assemble_input.py": {
+    "bytes": 2249,
+    "sha256": "d11f96eee688e445d1c47c64647eab595c97ce06a5e1a00a4ef1193e8106cca7"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/pre-continuation-scripts/case.json": {
+    "bytes": 1079,
+    "sha256": "5b7a04be68eb0c1ded66cc85d4228c72bd4dbe85a873e590b390f8cf80b99938"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/pre-continuation-scripts/check_environment.py": {
+    "bytes": 1997,
+    "sha256": "f7c082ff2c8bd0c87d7518774609ca5e48ce5382326a22e87877a8f6dfe0b4d4"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/pre-continuation-scripts/pipeline.R": {
+    "bytes": 14306,
+    "sha256": "edb5eb6bcc448c8f07fcc70efcf8cc5b02d7bb708290bfbd1231bdf538ed6429"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/pre-continuation-scripts/run-r.sh": {
+    "bytes": 560,
+    "sha256": "7bbbc8debb3b4dc73e258c2b650495474835e512c896dae676fb00ad75ba4bdd"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/pre-continuation-scripts/run_case.py": {
+    "bytes": 5481,
+    "sha256": "3bd468dbe1c8f6eeabe86647e930595cf638b03780b1f9ea900198f42ea14a28"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/pre-continuation-scripts/sample_rss.sh": {
+    "bytes": 270,
+    "sha256": "468d7e51957fccc077c8ebe04be44b4b614258491a48a669a10449ab65946194"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/pre-continuation-scripts/static-checks.json": {
+    "bytes": 1175,
+    "sha256": "ab68103323bb7fb4d63f39a3b25210973ab28ceacacb33e330042dc95c91347d"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/pre-continuation-scripts/versions.R": {
+    "bytes": 769,
+    "sha256": "50dface2833b4970f65010ca2f20a3ae0b05a46a5d51220ed43c80e95bb50558"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/required-paths.txt": {
+    "bytes": 573,
+    "sha256": "3c1fbd8853f358b56ac26c13509b5f91be3694b424412fcc6e6f7c80dd4208b6"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/resources.txt": {
+    "bytes": 3788,
+    "sha256": "86822a73f3e1aede730e3c8de23d83b24feba184598b67da67969f6129e3dbb3"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/results-remote-head.txt": {
+    "bytes": 46,
+    "sha256": "b000da16aa9fd75572c97c6b953fdacee8e3d18742827a8481b100ea97492e08"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/results-source-status.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/source_manifest.json": {
+    "bytes": 2965,
+    "sha256": "edefb1502bc16d48bd8dc15efbff60ce573f74f14653c01c16727d9e1b2688f5"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/static-checks.json": {
+    "bytes": 1841,
+    "sha256": "04279f3e01ecb2b69ad51379581e7d404fead637fa9b8a8bd31b42168440570d"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/evidence/task.md": {
+    "bytes": 4231,
+    "sha256": "7e72f3339f7a1e3c232bbace7e3caaf149d956a730f8e146d938efbd89fd963f"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/figures/association_plots.caption.md": {
+    "bytes": 1882,
+    "sha256": "278738b4c365255b6951e1bbce2cae9b5258485bdd71c1d7532e7a9ebd543843"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/figures/association_plots.pdf": {
+    "bytes": 2318514,
+    "sha256": "a1eb09151d66856df9952240acb31f71e1341230467ebac41baa81268fc1b85d"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/figures/association_plots.png": {
+    "bytes": 626290,
+    "sha256": "02fd90048d4d349887707877b1541566bc9b6ab66958cfe3085908b64df3bb80"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/figures/ca_clusters.png": {
+    "bytes": 94760,
+    "sha256": "8892f9e211232857fbfd3dda04f53080d0abef25eaa4d2bffa2c5f6379e8346b"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/latest-case.json": {
+    "bytes": 1325,
+    "sha256": "d159346a1bc5cb087fead9989ca546438082a4149c54fe941aa37a3ec1bc3a26"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/latest-environment.json": {
+    "bytes": 2120,
+    "sha256": "1cbab24f2fb9dffad4dc4e6169385f9ca347fb9d883d2b42afd47dd17aa05760"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/publication/COMMITTED_FILES.txt": {
+    "bytes": 19002,
+    "sha256": "034ec3789c1a25b52b4976064521f9010526231fa6edf8d8dbccf8e051fc377e"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/publication/README.md": {
+    "bytes": 5463,
+    "sha256": "993d8d95831d2b07466ce95f30a7da5f5cde428f0d6a6c8f0394749977a71a30"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/publication/external_resources.json": {
+    "bytes": 9313,
+    "sha256": "2301dbd94cab0094fbe0c770bd2b92115fded3b3c699c81fa25b33489d6b67ba"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/publication/files_sha256.tsv": {
+    "bytes": 36064,
+    "sha256": "45b162b0f95f0a5c1f6a42f1133423aedb96154da37b2b28c598857acf739616"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/reports/continuation.md": {
+    "bytes": 8584,
+    "sha256": "fa8f85b201b988908c00c48887e46377456f9ab8e211ae9030c4b34e1c5c97cb"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/reports/first-run.md": {
+    "bytes": 6861,
+    "sha256": "afcb2cc883cace38c761effad305becfe30cce70f76fb381096508b495428468"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/annotation_resources.json": {
+    "bytes": 178,
+    "sha256": "0a5ec7e84201d8a8b0b4813eaaf28a3fec50908914fa9038bdfda6af44692474"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/cell_clusters.tsv": {
+    "bytes": 120547,
+    "sha256": "a1d28de354ebcf2d89d488e83872688afd2234985cb3577f234d6bb4fe5eb030"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/cluster_annotations.tsv": {
+    "bytes": 503,
+    "sha256": "d3b0758911537c4cd59572348a7ae25bff6a558bd45c969c7e5df2abc9438258"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/cluster_reference_contingency.tsv": {
+    "bytes": 1932,
+    "sha256": "338895a43ffd4b838eac6b09976bb44c29f0015dc19e962c72e355c1b26137c0"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/cluster_sizes.tsv": {
+    "bytes": 164,
+    "sha256": "e2dc11c9b91ce0154459e141241597595f1d793e575d4df7e663da49009904f7"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/coclustered_gene_ranks.tsv": {
+    "bytes": 54539,
+    "sha256": "e38264e1523e3b49398d02ba8f3131cbdedd8f647043b40eeac3d2fa6a4aced6"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/config.json": {
+    "bytes": 1252,
+    "sha256": "a2c63a4e17d3292d5fc65c5d9e02fcb2dbdb25b299be825c5bdd1193c99f4428"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/console.log": {
+    "bytes": 329,
+    "sha256": "62af15fd0e2588ffb4d3e4011d861206494019842810611683a8ad7e9f67a222"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/data_audit.json": {
+    "bytes": 2273,
+    "sha256": "0574fc7abfb4ea1adf1647f8ca46c0be9aeac44c06f0aba8c1e92a40dccb19bb"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/effective_cadir_parameters.txt": {
+    "bytes": 640,
+    "sha256": "664fd32282d10535887758efb92aa445a0c3774a64920af8f08bf1ed5b898933"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/gene_clusters.tsv": {
+    "bytes": 81174,
+    "sha256": "b5f433723a2035c15fde1913c245546887199dae455f80196d9660235db71a21"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/input_integrity.json": {
+    "bytes": 187,
+    "sha256": "39a21943c3a7fa67744ad6088fff86f25e373d9a93663afed3dc5eed5189f5f7"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/metrics.json": {
+    "bytes": 334,
+    "sha256": "b1624836f37038fe399fa78bda33abaa415fdb37565f04dbbad72dcff202b5a8"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/paper_differences.txt": {
+    "bytes": 253,
+    "sha256": "f2925a850ed96e5e13266350f2547f930f1b1d2c1aee3f986a36b03fbb08611e"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/predicted_annotations.tsv": {
+    "bytes": 99924,
+    "sha256": "9109eba83b1321108d7b7676c1f98fdef716996d80200027bd3c39aa74587e8b"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/reference_label_counts.tsv": {
+    "bytes": 201,
+    "sha256": "1a3c8bbe65a1d607572681ca2b53950e50d7eab10662664af13b784151b3b28d"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/required_version_check.tsv": {
+    "bytes": 254,
+    "sha256": "51e100ba02cbedf1200045954199b4f4b1a7ee16cc05fce192bfba65ccbe4ba5"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/result_index.json": {
+    "bytes": 9242,
+    "sha256": "d4f6507b43bcdb3d85662a1f008d52f36d182930a28c0c2d5f7ea51cec5a22fb"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/selection.json": {
+    "bytes": 151,
+    "sha256": "14d7e529e0dadc1b5c868df197f08c2c32132258e414adb13135f515ace22538"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/sessionInfo.txt": {
+    "bytes": 5759,
+    "sha256": "4ba38a5b40d5f921675735ad5f1cbbac00731d09506e1ad704455557e91543de"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/stage_times_seconds.json": {
+    "bytes": 2199,
+    "sha256": "c0a1f1bbafefb74f79d0280a2babe0a28dfe53607df76d57e49ad8b306d97eb8"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/status.json": {
+    "bytes": 1325,
+    "sha256": "d159346a1bc5cb087fead9989ca546438082a4149c54fe941aa37a3ec1bc3a26"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/verification.json": {
+    "bytes": 395,
+    "sha256": "6c937fbdf13a100a93e7c576a234cf118a8d7e73df9a62dc52c4b40b04eda427"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/results/verification.log": {
+    "bytes": 448,
+    "sha256": "fbc8188e2128139f9b2432aa1e3db8006ca6d6b4f197daba7e189bd728df5c1a"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/README.md": {
+    "bytes": 10019,
+    "sha256": "e498bbae74b66643da56cad60fa03c831d7163e19133913925d6fc4da3f02f5e"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/external_evidence_manifest.json": {
+    "bytes": 57345,
+    "sha256": "c22f9eab165556af1d77d132462419f9b3c0f81ad883083ef259742c6efda75e"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-1/config.json": {
+    "bytes": 1244,
+    "sha256": "6d998fff56efcde1ef02df1778ecf437de19b6ad50fe1516b5672f881648822f"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-1/environment-status.json": {
+    "bytes": 2157,
+    "sha256": "e7ae65bb20f70b36b86cfd95df61b3dae19adaac823b7eebf08cb9210499cba2"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-1/external_artifacts_sha256.json": {
+    "bytes": 8444,
+    "sha256": "dacbf5a317f3c0098751221a543e3e0d081171816a1780bbbdd13c01cb735b44"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-1/input_integrity.json": {
+    "bytes": 179,
+    "sha256": "3999ab885eb6b24e6208b3936426b1564e80d583af08b8516bac21b83b70c4f1"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-1/metrics.json": {
+    "bytes": 334,
+    "sha256": "b1624836f37038fe399fa78bda33abaa415fdb37565f04dbbad72dcff202b5a8"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-1/paper_differences.txt": {
+    "bytes": 424,
+    "sha256": "e4af5b37322922500179cd8b16a5a4f5dc0a1c349cd90bde4b44347010b6dec3"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-1/r_status.json": {
+    "bytes": 237,
+    "sha256": "ab2d88aa8ba4d3f61bc93826447d93148f2ce71d68332d9aa1b0adbc649fa214"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-1/ranking_provenance.json": {
+    "bytes": 1510,
+    "sha256": "8ee650ba1d25afa30be39e9d7677dc2ce682570debd5e99489731c87aedbe68a"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-1/rng_stages.json": {
+    "bytes": 64426,
+    "sha256": "187afc9a428511bd8e2585869fa861ad554ef20068241c7194c0a6a3f89cb8c1"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-1/runtime_config.json": {
+    "bytes": 1244,
+    "sha256": "6d998fff56efcde1ef02df1778ecf437de19b6ad50fe1516b5672f881648822f"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-1/status.json": {
+    "bytes": 1313,
+    "sha256": "9b14a38e037a32e5cfc5ace67c1cc039cae309ca826534d5f563af63391466bd"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-1/verification.json": {
+    "bytes": 365,
+    "sha256": "4b1c43984b94f9566268a234ed02dc64453f197841df67c202b3fd4d12f2e057"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-1/verification.log": {
+    "bytes": 416,
+    "sha256": "c464b5950ee8e0aabf5b5b525011ae057f3787d5e8e37898194a0ad487d4da57"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-1.log": {
+    "bytes": 3737,
+    "sha256": "fcf7fc2dd4bfdb4bd749561829ebdacecb3c978d328e1d837998afd68bb1dcca"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-2/config.json": {
+    "bytes": 1244,
+    "sha256": "6d998fff56efcde1ef02df1778ecf437de19b6ad50fe1516b5672f881648822f"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-2/environment-status.json": {
+    "bytes": 2158,
+    "sha256": "9765d1cea091a21d157b245eb6adc46f6a68a5bb552c3cc08d63426ab59539da"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-2/external_artifacts_sha256.json": {
+    "bytes": 8445,
+    "sha256": "522d9c5dd3efbf96283b94725115fe6ae5dec3ed37f9325092e5695e5a47038e"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-2/input_integrity.json": {
+    "bytes": 179,
+    "sha256": "3999ab885eb6b24e6208b3936426b1564e80d583af08b8516bac21b83b70c4f1"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-2/metrics.json": {
+    "bytes": 334,
+    "sha256": "b1624836f37038fe399fa78bda33abaa415fdb37565f04dbbad72dcff202b5a8"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-2/paper_differences.txt": {
+    "bytes": 424,
+    "sha256": "e4af5b37322922500179cd8b16a5a4f5dc0a1c349cd90bde4b44347010b6dec3"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-2/r_status.json": {
+    "bytes": 237,
+    "sha256": "6c7de521f0247c4445f4eac805e6e0399ee1327a67baeb1d816a32fc3729a02d"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-2/ranking_provenance.json": {
+    "bytes": 1510,
+    "sha256": "8ee650ba1d25afa30be39e9d7677dc2ce682570debd5e99489731c87aedbe68a"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-2/rng_stages.json": {
+    "bytes": 64426,
+    "sha256": "187afc9a428511bd8e2585869fa861ad554ef20068241c7194c0a6a3f89cb8c1"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-2/runtime_config.json": {
+    "bytes": 1244,
+    "sha256": "6d998fff56efcde1ef02df1778ecf437de19b6ad50fe1516b5672f881648822f"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-2/status.json": {
+    "bytes": 1314,
+    "sha256": "ef95869de1f8f5a56cf368eaadf276caf918f161d8392546a3c89fb9b6269ca2"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-2/verification.json": {
+    "bytes": 365,
+    "sha256": "4b1c43984b94f9566268a234ed02dc64453f197841df67c202b3fd4d12f2e057"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-2/verification.log": {
+    "bytes": 416,
+    "sha256": "c464b5950ee8e0aabf5b5b525011ae057f3787d5e8e37898194a0ad487d4da57"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh-run-2.log": {
+    "bytes": 3739,
+    "sha256": "e3516af6aef2e5e523421b8e7545e79625bc000ed04a30a16ec1579e32738f8f"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh_comparison.json": {
+    "bytes": 646,
+    "sha256": "142cdf168479d834b9d663bdfe32b1402491723f215e292b67c27542edd1759d"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/fresh_comparison.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/historical_object_hash_comparison.json": {
+    "bytes": 2589,
+    "sha256": "c3fc9a8db3132934a18e931138c0da4a4185a704a21a500c47bfc2f847b5543a"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/log_copy_normalization.json": {
+    "bytes": 432,
+    "sha256": "d079e6c16d1324d322cd05c5dafb865e1a2e55f0012b367f578e56d24158cb60"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/preservation.json": {
+    "bytes": 46432,
+    "sha256": "22552a7e9f7b64dcd6467e50d0427d28a527ba28bb60fa4333fa5382739bf63a"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/ranking_diagnosis.json": {
+    "bytes": 1555,
+    "sha256": "0edc0bcbf169fd0aa9cb650c4a7f546255a9ce79850e05d9e13b11b8bb5e8ad6"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/ranking_diagnosis.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/tested_source_sha256.json": {
+    "bytes": 2833,
+    "sha256": "3103c93c40bb50c3aadbe9582184bffd89698b06b5c405e7637d0614103ab95e"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/upstream_sources.json": {
+    "bytes": 832,
+    "sha256": "94eef3a232a845e7ef8944b7c0ef5a3c7ad4ae4b493d7abe9ef54756ba52de72"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/verifier-mutations.log": {
+    "bytes": 1631,
+    "sha256": "cf0eedbcbfbd63b94fbf38d13a70bad0ea828be2e566691fc03c1513b734be72"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/verifier-normal.log": {
+    "bytes": 416,
+    "sha256": "c464b5950ee8e0aabf5b5b525011ae057f3787d5e8e37898194a0ad487d4da57"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/verifier-swap_clusters.log": {
+    "bytes": 151,
+    "sha256": "7a6088630aa595f8d8c509ef15e2e6408ee516b4168d59dbd681be52c306abf9"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/verifier-wrong_NA.log": {
+    "bytes": 191,
+    "sha256": "109623519ac1bb291b4847046ad03f7101d162da0d1746f571046c43d7651324"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/verifier-wrong_Rank.log": {
+    "bytes": 144,
+    "sha256": "f577d9ecb58afcf7541ad03f5a4778e4fd71e47229a4b47d6251e9ab4358ff92"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/verifier-wrong_Score.log": {
+    "bytes": 172,
+    "sha256": "3a079d16f783cc428fcae60b2baf72cfce5f621595396cceda5ff2deca76dd79"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/verifier-wrong_cluster_count.log": {
+    "bytes": 137,
+    "sha256": "a6d82b97fffd633d05026535a557f32dcf2d963a5ab630cf7910a288f6fea857"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/evidence/verifier_mutations.json": {
+    "bytes": 1631,
+    "sha256": "cf0eedbcbfbd63b94fbf38d13a70bad0ea828be2e566691fc03c1513b734be72"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/r1-smoke-isolation/README.md": {
+    "bytes": 3396,
+    "sha256": "67f944923a411e1957b1ffc164d0188141dc9af3d1b29e6ec8a49480fb315cb4"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/r1-smoke-isolation/evidence/case-status.json": {
+    "bytes": 1346,
+    "sha256": "f33fff4db75257a80a7262f9e8721e93ee7002eb42f2bc5338e3b188dbfb18bf"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/r1-smoke-isolation/evidence/case-verification.json": {
+    "bytes": 365,
+    "sha256": "4b1c43984b94f9566268a234ed02dc64453f197841df67c202b3fd4d12f2e057"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/r1-smoke-isolation/evidence/environment-status.json": {
+    "bytes": 2978,
+    "sha256": "1a5792d9cf94b5b03710cd37bdce3998b80cee8038392d22434b30413a1435a3"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/r1-smoke-isolation/evidence/external_artifacts_sha256.json": {
+    "bytes": 27535,
+    "sha256": "beda15ebab0cd51980b5cd7421ea8197a959db6ba819e900c633a772d3419d2b"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/r1-smoke-isolation/evidence/full-entry.log": {
+    "bytes": 4672,
+    "sha256": "c4b5c4ad04f832318bb0f91eb54dd2729bda4c9e8e20df483826a3356e1b62f7"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/r1-smoke-isolation/evidence/input-integrity.json": {
+    "bytes": 179,
+    "sha256": "3999ab885eb6b24e6208b3936426b1564e80d583af08b8516bac21b83b70c4f1"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/r1-smoke-isolation/evidence/log_copy_normalization.json": {
+    "bytes": 196,
+    "sha256": "33261189923b8acf47e37cc1ae3a133040a438414bbb6b98370e7b4712c67343"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/r1-smoke-isolation/evidence/shared_after.json": {
+    "bytes": 10327,
+    "sha256": "0505ee7123f193584c5c8cebeb4a8ce2d55e0dad6cb2d7912f2f92a12819fb67"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/r1-smoke-isolation/evidence/shared_before.json": {
+    "bytes": 10327,
+    "sha256": "0505ee7123f193584c5c8cebeb4a8ce2d55e0dad6cb2d7912f2f92a12819fb67"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/r1-smoke-isolation/evidence/smoke-console.log": {
+    "bytes": 467,
+    "sha256": "725ea82cfcf6417aa39eb2763871ea749bf9936f6195aa6d379347d26b473d89"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/r1-smoke-isolation/evidence/smoke-resources.json": {
+    "bytes": 708,
+    "sha256": "3711ec5c66c8e79c577daeb09007ebedea41c860d8830e208555fe5fce8dabfe"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/r1-smoke-isolation/evidence/smoke-sessionInfo.txt": {
+    "bytes": 4807,
+    "sha256": "8780fbcedabf56786ef55b2690dffd0977829bf8884325b29c1ca9d844b6f304"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/r1-smoke-isolation/evidence/smoke-status.txt": {
+    "bytes": 69,
+    "sha256": "6a97d2731837f37338425a10b0165fc7bb95b5cb14ab619552a3ab4fc804922f"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/r1-smoke-isolation/evidence/summary.json": {
+    "bytes": 2720,
+    "sha256": "74599c968b514e9c5bb9d7b63e2724e45df674ba7a24ecd2b09349991f2b7067"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/r1-smoke-isolation/evidence/tested_source_sha256.json": {
+    "bytes": 282,
+    "sha256": "26554236b7090184d5d9e757291721861ec216f7c07df6c60466b00b8d2f9421"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/r1-smoke-isolation/verify_smoke_isolation.py": {
+    "bytes": 4434,
+    "sha256": "9be3eadd4cdf190f7b4db82e87edf9fda8d0768a5d6e79d6de05b39fe22b1557"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/scripts/compare_fresh.R": {
+    "bytes": 1767,
+    "sha256": "b25c8afea010fe97cd3063b6ab07b77929cd4bc0428f527b6e134f52f0ff2192"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/scripts/diagnose_ranking.R": {
+    "bytes": 3386,
+    "sha256": "4573f52bd00da21471ed4075e129d7a03e5d49c07f40958f9e9c1c141e3e40a0"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-25/scripts/run_mutations.py": {
+    "bytes": 3663,
+    "sha256": "517943eff943d9b84cc117302fca5c3828a3c2c793d5e670519d23d516617918"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/README.md": {
+    "bytes": 9621,
+    "sha256": "24292d08ff814a42543214a0c9706e7d33c3ecd7c9f739f9b2f8189a821f9122"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/evidence/baseline_observed_ranks.tsv": {
+    "bytes": 54539,
+    "sha256": "e38264e1523e3b49398d02ba8f3131cbdedd8f647043b40eeac3d2fa6a4aced6"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/evidence/baseline_reflected_to_review_ranks.tsv": {
+    "bytes": 54561,
+    "sha256": "0a2382525aa2fc6b0a9f9436d16a7d5b7e9b77402865240efcf97c5aff1fcddc"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/evidence/ca_comparison.json": {
+    "bytes": 3659,
+    "sha256": "1d6b94b33a2b4d2294f3183cd41844685adb55ece9fa2fbec8e1ba66abb6e44e"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/evidence/ca_comparison.log": {
+    "bytes": 1007,
+    "sha256": "b99c775f84371c66842a337b36b24b837cb7f9e7b1ac046fe6be7d2e9ce191b2"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/evidence/config_environment_comparison.json": {
+    "bytes": 446,
+    "sha256": "890aea8c93d5de55e11ea9c1486b84ca49620b652ea051207f31475781695147"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/evidence/diagnostic_rng_equality.json": {
+    "bytes": 165,
+    "sha256": "2801459923fed004164560160afda122d3747b28ee14c84ba11fb08d77bb976c"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/evidence/diagnostic_rng_states.json": {
+    "bytes": 60211,
+    "sha256": "0314ee449b733a0d07df2b488feb0b7c6a516641e02818e3fa36adc36adc9f82"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/evidence/external_artifacts_sha256.json": {
+    "bytes": 3604,
+    "sha256": "36ffc4912d32bd17288a0dee87254448cf79552c1f7e9cc1092753edf3094ab0"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/evidence/input_preservation_after.json": {
+    "bytes": 12326,
+    "sha256": "cb60ae7589625a92d516ad0cea3a15bf8d1cb12f3747600eb62dd1e5a0f0701e"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/evidence/input_preservation_before.json": {
+    "bytes": 11729,
+    "sha256": "14e7b51877e2f346f111e5276265fc79108b8f88f1d9b3aa1a607914e9b924c4"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/evidence/log_copy_normalization.json": {
+    "bytes": 203,
+    "sha256": "1017e060b9b4840a27b5034f270e4b421811de31bd05df2f79db74d3728f7742"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/evidence/metadata_only_diff.json": {
+    "bytes": 580,
+    "sha256": "ad1395d1a93b3d7ac242572aaad736fb95a07689a40303dc93fdbec39497abfd"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/evidence/per_axis_comparison.tsv": {
+    "bytes": 2152,
+    "sha256": "02be89ded7f5073d847db1fef2a6c226b0d79600c8f51a625f8d98411388b909"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/evidence/pre_r3_commit_preservation.json": {
+    "bytes": 281,
+    "sha256": "9364e15f082d8c933013057d01eb6e84b6023437f705774d991ff0fb748849fa"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/evidence/ranking_replays.json": {
+    "bytes": 4334,
+    "sha256": "9bf5a2ee90ed60a5d37d9b3fc7a25f8f4204b694028a15d01992b95b1ddc901d"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/evidence/ranking_replays.log": {
+    "bytes": 6646,
+    "sha256": "c2ce89280b50c699c775f15a1ad9257a71150fe9efa72781153d3af40e5a28f7"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/evidence/received_intake.json": {
+    "bytes": 2728,
+    "sha256": "f73571aaf24b599d7c7d88d0b14a248f80bf1479ddbbd5e3b144642ba4cf7ac8"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/evidence/review_observed_ranks.tsv": {
+    "bytes": 54552,
+    "sha256": "84a2dc78d7744b5a35ad19b7fdf3a0021829cfb56dbf52014407a0a3d5ed0850"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/evidence/review_reflected_to_baseline_ranks.tsv": {
+    "bytes": 54569,
+    "sha256": "0c7f6c62a6625aac152e0f633a042e361b2a44736e650e071a1eeabd26167e9f"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/evidence/source_hash_comparison.json": {
+    "bytes": 5763,
+    "sha256": "f13f56b3640d9dfc4391aa2c18733cb7f841dfe76e1f06433079189e04385158"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/scripts/compare_ca.R": {
+    "bytes": 1885,
+    "sha256": "043addfed031864d045b0fd0eadd29a9a7a05482a32462e48841018e7083f6c1"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/review_fixes/2026-10-26-r3/scripts/replay_rankings.R": {
+    "bytes": 6481,
+    "sha256": "3c1ff48f041e4109108122de5eaea52571e72516fe60d852cf57c04bc4f9b599"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/scripts/assemble_input.py": {
+    "bytes": 2249,
+    "sha256": "d11f96eee688e445d1c47c64647eab595c97ce06a5e1a00a4ef1193e8106cca7"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/scripts/check_environment.py": {
+    "bytes": 4749,
+    "sha256": "607794689af51c6a841c6f389578f84ff6bcddf90a1cd6060acd1cd3dfaf0efc"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/scripts/collect_outputs.py": {
+    "bytes": 2922,
+    "sha256": "b8d392e086d0d00e54946091a29aa08e2ceb44e8e41e5e484e1dc1e3cbbcff8f"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/scripts/output_paths.py": {
+    "bytes": 414,
+    "sha256": "ddf496117465f192ff6290ce792a1cd2014d9696257839bb989367fc28fef4c1"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/scripts/pipeline.R": {
+    "bytes": 18525,
+    "sha256": "454806f404dad3d20686713ae9a371bcc5e1871910c09a74b02103b06cf8936d"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/scripts/rerun.sh": {
+    "bytes": 1026,
+    "sha256": "4738cd00b083f3cfc54dd6b177e2832e7106dee64bb81d64b4c017fc0b07ea90"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/scripts/run-r.sh": {
+    "bytes": 188,
+    "sha256": "bc5d9d59f405049bb9a78ade74d6921d905b2ea44dcdbc7fcded035e2e6e8669"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/scripts/run_case.py": {
+    "bytes": 4953,
+    "sha256": "7b66ed7e3c4b393f3b38f1dc6d2d719df0a16e72ac9423de0b877ada79b4f406"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/scripts/sample_rss.sh": {
+    "bytes": 270,
+    "sha256": "468d7e51957fccc077c8ebe04be44b4b614258491a48a669a10449ab65946194"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/scripts/verify_results.R": {
+    "bytes": 6267,
+    "sha256": "89c2ebd8fe9e6798fb362bfa228081beeec567ec0c8d5f517e08d730b92bfd7a"
+  },
+  "/workspace/cadir-r3-review-source/cases/tabula_muris_limb/scripts/versions.R": {
+    "bytes": 758,
+    "sha256": "7bf4e4853f0fa84f33cfb3492635b457b8521d0818ac91b59b889199c78d3ef4"
+  },
+  "/workspace/cadir-r3-evidence-20261026/R3\u5c0f\u6587\u672c\u8bc1\u636e.zip": {
+    "bytes": 133113,
+    "sha256": "b654efa9eaab33cecacd4bebac7b372c967d1a98fd5a8b1870dd16ed13f77fc7"
+  },
+  "/workspace/cadir-r3-evidence-20261026/ca.rds": {
+    "bytes": 5761375,
+    "sha256": "1e6348adc31fc1ae3d8971605953f1524116399ea2e299817aa89c75d9d2e661"
+  },
+  "/workspace/cadir-r3-evidence-20261026/cadir_unranked.rds": {
+    "bytes": 21821342,
+    "sha256": "df428b523f8b4027209ea81673ccb25665b1e490cd9dab58ef797f22807b2d96"
+  },
+  "/workspace/cadir-r3-evidence-20261026/intake.json": {
+    "bytes": 2728,
+    "sha256": "f73571aaf24b599d7c7d88d0b14a248f80bf1479ddbbd5e3b144642ba4cf7ac8"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/evidence/backend_check.json": {
+    "bytes": 281,
+    "sha256": "9a2a1dc6135b5fe022dda641da9b8439763fcf4ed6828ac73fd56f878ae40be8"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/evidence/environment-activate.sh": {
+    "bytes": 573,
+    "sha256": "8e29eb4ae38526c4c20ebf25664695d7b85f2204b623c8e7766112710ce4c27a"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/evidence/environment-provenance.md": {
+    "bytes": 3252,
+    "sha256": "a3c2c553095d4199ca15dc441cc5b87ab29347e915100353387eb2fe23ca61f6"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/evidence/environment-sources.json": {
+    "bytes": 947,
+    "sha256": "5d75212102e7fdff973a50d125d79311e14e2ba7c346566cff31f89a71e73a16"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/evidence/full-run.json": {
+    "bytes": 415,
+    "sha256": "54e3cd352da994605c9296527fbb6e32063626cee354bd545e7723ba4337df94"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/evidence/historical_hash_comparison.json": {
+    "bytes": 3500,
+    "sha256": "a05ac1495c4abb4f70d0f2eec81a15f8a666975a3bd58051aecb67f0fc7c61e0"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/evidence/installed_source_function_comparison.json": {
+    "bytes": 3566,
+    "sha256": "81d95efd6de86cef09872c55179254c151701120873b1cbdf5bfd01dd0e2a622"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/evidence/large_artifacts.json": {
+    "bytes": 1092,
+    "sha256": "f5dd87bf23d714e6b0a9da333b7d1e4eca1e44c11f06b77515d01a34b84b46a7"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/evidence/rank_differences.tsv": {
+    "bytes": 32934,
+    "sha256": "20c0b63d21252c9b1f957f0dc10eceea593317256798c274a1a030885b6a60e1"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/evidence/rank_discrepancy.json": {
+    "bytes": 658,
+    "sha256": "eb12d79d793752d11e2a87f7e6aaaf512e013805d7d96cf97f06275213910497"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/evidence/ranking_current_repeat.json": {
+    "bytes": 74,
+    "sha256": "d36846bf1d5fe11532d0c88477f7d9d6a3c40f8e7edc07aa757cb16b4d7c3963"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/evidence/ranking_current_repeat.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/evidence/resources.txt": {
+    "bytes": 93,
+    "sha256": "ebf10a674cefd387ec00bf16bb3264eb622db6eb972eeeac36770a2442d8cbf9"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/evidence/saved_objects_check.json": {
+    "bytes": 176,
+    "sha256": "f16b6ed8b93ed113a39952aca81b29f232ee182415160a90942a1b31ffef8ec3"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/evidence/source_before_sha256.json": {
+    "bytes": 37071,
+    "sha256": "8a6df6f1361b148fe86ffd2c8ae1eb5016a08741b43e22bce16b02d3d441ce9f"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/evidence/upstream_sources.json": {
+    "bytes": 3694,
+    "sha256": "1bf285512af91499dfaecc1f6d5817a7e7446fd50c8a8da26413859cb2a319ec"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/rerun/full/coclustered_gene_ranks.tsv": {
+    "bytes": 54552,
+    "sha256": "84a2dc78d7744b5a35ad19b7fdf3a0021829cfb56dbf52014407a0a3d5ed0850"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/rerun/full/console.log": {
+    "bytes": 329,
+    "sha256": "62af15fd0e2588ffb4d3e4011d861206494019842810611683a8ad7e9f67a222"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/rerun/full/effective_cadir_parameters.txt": {
+    "bytes": 640,
+    "sha256": "e536cb13ee3996fa4f266c50ea2f00a5ede7b302c9ea099e1816d6f9f34ed208"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/rerun/full/hvg_genes.tsv": {
+    "bytes": 52364,
+    "sha256": "a9ac1b09f77e24dda2c20d65251f8fde27ce8bde579327498fdac3106b8815f3"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/rerun/full/installed_packages.tsv": {
+    "bytes": 9202,
+    "sha256": "a87be7e7a7e94b27b9eceaef49b99e635a72790dc1569cb4dffef3ab97845b76"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/rerun/full/r_status.json": {
+    "bytes": 237,
+    "sha256": "2395d20a768f18ffc35eb10edc8de05877a85cb35971c796de025e7cae7f9131"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/rerun/full/selected_genes.tsv": {
+    "bytes": 52364,
+    "sha256": "a9ac1b09f77e24dda2c20d65251f8fde27ce8bde579327498fdac3106b8815f3"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/rerun/full/sessionInfo.txt": {
+    "bytes": 5759,
+    "sha256": "4ba38a5b40d5f921675735ad5f1cbbac00731d09506e1ad704455557e91543de"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/rerun/full/stage_times_seconds.json": {
+    "bytes": 2211,
+    "sha256": "7a7fc7715aaf44a6b8c8e6842dc3fb868cf2c9f6219c43214c7386282f15a36c"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/rerun/runtime_config.json": {
+    "bytes": 1250,
+    "sha256": "3b1a7fb3d3cbbfe4238885ea37e660af09c72e042782de738563db723b8a25ae"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/scripts/inspect_algorithm.R": {
+    "bytes": 2997,
+    "sha256": "5488d8a8db0d4fc475de853ded77989d3d4f2e95e596cfc8727690e953fbb1ae"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/scripts/rank_discrepancy.py": {
+    "bytes": 2455,
+    "sha256": "3c61122c3442a53409976f41b810701bdab86f6dfa0927071ffce7a7aef2a0f6"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/scripts/run_full.py": {
+    "bytes": 675,
+    "sha256": "3934b74c15cfb50460ce6b802f6dc72d2484400e3fd55371c7a14c9af896c6ea"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/source/cases/tabula_muris_limb/scripts/pipeline.R": {
+    "bytes": 16657,
+    "sha256": "9cd80aae7e616deb5659e5bddb0e2c568136e67baf9085ffa14489b07c380fb8"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/source/cases/tabula_muris_limb/scripts/run-r.sh": {
+    "bytes": 188,
+    "sha256": "bc5d9d59f405049bb9a78ade74d6921d905b2ea44dcdbc7fcded035e2e6e8669"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/text/source/cases/tabula_muris_limb/scripts/sample_rss.sh": {
+    "bytes": 270,
+    "sha256": "468d7e51957fccc077c8ebe04be44b4b614258491a48a669a10449ab65946194"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/\u5bfc\u51fa\u6e05\u5355.json": {
+    "bytes": 20154,
+    "sha256": "05a72678fc0e1489ba0bfba6ed532eb9d2f8944d38f432036db250fbde99aa72"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/\u5bfc\u51fa\u6e05\u5355.tsv": {
+    "bytes": 6447,
+    "sha256": "5b87ffed90c419e5b062edba5816f4a8b3ed5cd1da4c4195b06e209c938b1c4c"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/\u5bfc\u51fa\u8bf4\u660e.md": {
+    "bytes": 1792,
+    "sha256": "761dc3ff9ddeb23474e115b2559ca7839d5d44f13a154a5866a377dccbf6da25"
+  },
+  "/workspace/cadir-r3-evidence-20261026/text-export/\u7f3a\u5931\u4e0e\u672a\u4fdd\u5b58\u9879.json": {
+    "bytes": 985,
+    "sha256": "755a6fe6fab75562ec7c902873f7d11797990247d6b81f36a92ce39a282c3315"
+  },
+  "/workspace/cadir-r3-evidence-20261026/\u5bfc\u51fa\u6e05\u5355.json": {
+    "bytes": 20154,
+    "sha256": "05a72678fc0e1489ba0bfba6ed532eb9d2f8944d38f432036db250fbde99aa72"
+  },
+  "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/ca.rds": {
+    "bytes": 5761828,
+    "sha256": "e769376f42f5fc0eada10cc194c4b00101816bd80b7e6d23a01d0d44a472992f"
+  },
+  "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/cadir_unranked.rds": {
+    "bytes": 21823635,
+    "sha256": "a65d07a24970dd2cbd7c47539cfea119ba438a9f8c04c91192260ec574d79b1d"
+  },
+  "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/runtime_config.json": {
+    "bytes": 1244,
+    "sha256": "6d998fff56efcde1ef02df1778ecf437de19b6ad50fe1516b5672f881648822f"
+  },
+  "/workspace/cadir-stage1-retest/complete-entry/case-e_ilcvjv/sessionInfo.txt": {
+    "bytes": 5759,
+    "sha256": "4ba38a5b40d5f921675735ad5f1cbbac00731d09506e1ad704455557e91543de"
+  },
+  "/workspace/cadir-stage1-retest/publish/\u72ec\u7acb\u590d\u9a8c\u62a5\u544a.md": {
+    "bytes": 16303,
+    "sha256": "7568f9355d93db71948de733753088a16e5abef48bf53354f04c0fb774d5f60a"
+  }
+}

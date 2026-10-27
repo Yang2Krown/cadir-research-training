@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": {
+    "explicit_nested_IDs_are_canonical": true,
+    "reversed_nested_rows_align_by_ID": true,
+    "original_input_and_existing_NA_preserved": true,
+    "no_position_based_identity_fill": true,
+    "no_NA_imputation": true,
+    "no_conflicting_broad_memberships": true,
+    "duplicate_nested_ID_rejected": true,
+    "nonNULL_top_level_ID_conflict_rejected": true
+  },
+  "fixture": "synthetic in-memory S4Vectors::DFrame with nested matrices",
+  "actual_RDS_read": false,
+  "count_or_GEO_data_used": false,
+  "scientific_pipeline_or_smoke_run": false,
+  "source_commit": "b7ee2335dc25ffab3a60d1feab44272d6d5a45cb",
+  "source_sha256": "aada661c76bd5d9fd5084c53572b958055d48b8e1466b6610f2de3c35cee58f5",
+  "runtime": {
+    "R": "R version 4.4.1 (2024-06-14)",
+    "S4Vectors": "0.42.1",
+    "digest": "0.6.39"
+  }
+}

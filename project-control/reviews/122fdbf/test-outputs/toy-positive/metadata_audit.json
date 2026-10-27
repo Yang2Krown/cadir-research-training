@@ -1,0 +1,23 @@
+{
+  "fields": [
+    {
+      "name": "donor",
+      "class": "character",
+      "dimensions": null,
+      "subfields": null,
+      "missing_entries": 0
+    },
+    {
+      "name": "FACS",
+      "class": "AsIs",
+      "dimensions": [2, 2],
+      "subfields": ["broad_HSPC", "narrow_HSC"],
+      "missing_entries": 0
+    }
+  ],
+  "metadata_ids_order_identical": false,
+  "aligned_by_explicit_ids": true,
+  "reference_label_mapping_status": "NOT_VERIFIED; author broad/narrow FACS gates overlap",
+  "unique_reference_field": "NOT_FROZEN",
+  "donor_sample_condition_mapping": "NOT_VERIFIED"
+}

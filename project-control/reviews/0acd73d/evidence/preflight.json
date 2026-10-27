@@ -1,0 +1,9 @@
+{
+  "source_sha": "8561914bc67c511ec76374996fb12d713f23f171",
+  "source_status": "",
+  "case_runs_exists_before": false,
+  "output_root_exists_before": false,
+  "input_bytes": 43383527,
+  "input_sha256": "af643523ccdf49e4931b5a0f8c53e67ba7fb24fbabb2fed7edfecf3b55c51f8b",
+  "runtime_latest_smoke_before": "{\n  \"run_directory\": \"/workspace/cadir-env/runs/smoke-fmpq2m42\",\n  \"exit_code\": 0,\n  \"elapsed_seconds\": 14.012004859000001,\n  \"max_rss_KiB_linux\": 1186364,\n  \"scope\": \"Whole Rscript including package loading; engineering diagnostic only, not a paper reproduction or algorithm benchmark.\",\n  \"png_sha256\": \"431ebfd6f4c55f78297bc1507afc0447ea2f3345938652ee3cea3c82214d4415\"\n}\n"
+}

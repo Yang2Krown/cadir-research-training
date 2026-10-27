@@ -1,0 +1,46 @@
+{
+  "ARI": 0.6695187044863515,
+  "NMI": 0.7418854231154817,
+  "ranking": {
+    "alpha_genes": 1.07506446203775,
+    "ranked_genes": 1200,
+    "frozen_score_max_abs_difference": 0.0,
+    "rank_changes": 0,
+    "gene_cluster_pairs_identical": true,
+    "historical_objects_read": false,
+    "fresh_objects_vs_historical_index": [
+      {
+        "file": "ca.rds",
+        "bytes": 5761828,
+        "historical_bytes": 5761828,
+        "sha256": "e769376f42f5fc0eada10cc194c4b00101816bd80b7e6d23a01d0d44a472992f",
+        "historical_sha256": "e769376f42f5fc0eada10cc194c4b00101816bd80b7e6d23a01d0d44a472992f",
+        "match": true
+      },
+      {
+        "file": "cadir.rds",
+        "bytes": 21844811,
+        "historical_bytes": 21844811,
+        "sha256": "126a197ba5b47dae676f18a2398833d80d5f459cba97b53554cd1ec07cf67a33",
+        "historical_sha256": "126a197ba5b47dae676f18a2398833d80d5f459cba97b53554cd1ec07cf67a33",
+        "match": true
+      },
+      {
+        "file": "cadir_annotated.rds",
+        "bytes": 21845082,
+        "historical_bytes": 21845082,
+        "sha256": "0803c2b9dae0f72be8d16aae3fc62dbcd7bedc8498b40777f5e8a15547caa244",
+        "historical_sha256": "0803c2b9dae0f72be8d16aae3fc62dbcd7bedc8498b40777f5e8a15547caa244",
+        "match": true
+      },
+      {
+        "file": "cadir_unranked.rds",
+        "bytes": 21823635,
+        "historical_bytes": 21823635,
+        "sha256": "a65d07a24970dd2cbd7c47539cfea119ba438a9f8c04c91192260ec574d79b1d",
+        "historical_sha256": "a65d07a24970dd2cbd7c47539cfea119ba438a9f8c04c91192260ec574d79b1d",
+        "match": true
+      }
+    ]
+  }
+}

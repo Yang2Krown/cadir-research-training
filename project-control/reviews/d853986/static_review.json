@@ -1,0 +1,66 @@
+{
+  "reviewed_commit": "d853986e2e3a1cabc9f3f728f616e402432257ec",
+  "reviewer_configuration_from_parent_assignment": "gpt-6.1-sol / high",
+  "phase_result": "ACCEPT_FOR_PREPARATION",
+  "formal_admission": "REJECT",
+  "formal_execution_permitted": false,
+  "A03": {
+    "source": "cases/nestorowa_hsc/scripts/audit_inputs.R",
+    "lines": [
+      16,
+      19,
+      22,
+      23,
+      38,
+      44
+    ],
+    "finding": "Only top-level rownames used as metadata identity; actual NULL top-level layout is recorded by implementation, not independently re-read here.",
+    "repair_contract": "Extract explicit nested cell.type IDs; independently validate each nested matrix IDs; retain NULL fact, NA, source and explicit reorder indices; stop on missing/duplicate/set conflict; split metadata-only from counts reader.",
+    "R_execution": false
+  },
+  "legacy_builder": {
+    "pinned_repository": "drisso/scRNAseq",
+    "commit": "adb9cd957e3a0a8f7f504ebe514e653cfe4b52ef",
+    "independent_remote_byte_match": true,
+    "celltype_match_and_assert_lines": [
+      47,
+      48
+    ],
+    "flow_match_and_overwrite_without_unmatched_assert_lines": [
+      66,
+      67
+    ],
+    "scope": "Current packaged ID agreement cannot establish original flow source match coverage; no reproducible Hub build proven."
+  },
+  "source_observations": {
+    "E01": "Read implementation tool-observation record only; not downloaded webpage body or independent author-notice verification.",
+    "2017_notice": "Reported author webpage expression correction; neither proves present GEO/Hub raw counts wrong nor proves corrected.",
+    "E03": "Access-failure observation records only; no full paper/method appendix body.",
+    "CAdir_S1": "Not present/read in reviewed evidence; main-text and fixed-code coverage records insufficient for absolute never-used claim."
+  },
+  "amendment_adjudication": {
+    "accepted_direction": "Official legacy1920 candidate cohort, released broad6 phenotype labels, descriptive single-study method extension.",
+    "relinquished_claims": [
+      "Exact recovery of original author1656 cohort",
+      "Verified incorporation of webpage28-cell correction",
+      "Original flow source reconstruction",
+      "Biological replication or cross-donor inference",
+      "Functional fate truth"
+    ],
+    "required_next": "Controller must version adoption; actual count/ID/QC/label/design gates remain; no indefinite demand for webpage28 IDs for the narrowed descriptive claim."
+  },
+  "not_independently_verified": [
+    "Raw RDS/count bytes or content",
+    "Real count header/dimnames/gene IDs/values",
+    "Raw R metadata NULL/nested layout",
+    "Original flow source IDs",
+    "Author1656 inclusion list",
+    "2017 correction applicability",
+    "S1 full coverage",
+    "QC/experimental design/implementation/environment/results"
+  ],
+  "runtime_skill_used": "skill://plugin_connector_1p_c5b7d5df5d7081918f2c4be5a633ed5d/cloud-environment-runtime/SKILL.md",
+  "source_checkout_modified": false,
+  "scientific_experiments_run": false,
+  "review_script_note": "First local checker attempt encountered Git quoted non-ASCII filenames; checker updated to core.quotepath=false and completed. This was a reviewer checker issue, not an implementation finding."
+}

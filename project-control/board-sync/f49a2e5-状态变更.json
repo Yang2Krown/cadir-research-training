@@ -1,0 +1,17 @@
+{
+  "source_commit": "f49a2e5d0a4676ef181cc2742f1ddcc5db8be6e2",
+  "automatic_local_sync": false,
+  "source": "project-control/真实输入复跑阻塞结论-2026-10-26.md",
+  "updates": [
+    {
+      "taskId": "Q-HSC-DATA",
+      "status": "受阻",
+      "boundary": "独立复跑未开始：旧配置下载CONNECT403且指定容器镜像缺失；A01未通过，A03仅代码层接受"
+    },
+    {
+      "taskId": "Q-HSC-EXECUTION",
+      "status": "受阻",
+      "boundary": "保持QC/输入锁/C04/正式设计及真实输入独立复验门槛"
+    }
+  ]
+}

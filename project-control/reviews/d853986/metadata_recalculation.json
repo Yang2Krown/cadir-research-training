@@ -1,0 +1,97 @@
+{
+  "commit": "d853986e2e3a1cabc9f3f728f616e402432257ec",
+  "source": "committed memberships/flags/candidate TSV; raw RDS not opened",
+  "cells": 1920,
+  "unique_nonempty_ids": true,
+  "membership_columns": 23,
+  "all_values_binary": true,
+  "all_23_zero": 136,
+  "levels": {
+    "broad": {
+      "positive_by_label": {
+        "LTHSC_broad": 323.0,
+        "LMPP_broad": 280.0,
+        "MPP_broad": 368.0,
+        "CMP_broad": 328.0,
+        "MEP_broad": 362.0,
+        "GMP_broad": 123.0
+      },
+      "assigned": 1784,
+      "unassigned": 136,
+      "conflicts": 0
+    },
+    "fine": {
+      "positive_by_label": {
+        "LTHSC": 323.0,
+        "LMPP": 211.0,
+        "MPP": 259.0,
+        "CMP": 227.0,
+        "MEP": 232.0,
+        "GMP": 56.0
+      },
+      "assigned": 1308,
+      "unassigned": 612,
+      "conflicts": 0
+    },
+    "broad_mpp": {
+      "positive_by_label": {
+        "MPP1_broad": 68.0,
+        "MPP2_broad": 28.0,
+        "MPP3_broad": 162.0,
+        "STHSC_broad": 110.0
+      },
+      "assigned": 368,
+      "unassigned": 1552,
+      "conflicts": 0
+    },
+    "fine_mpp": {
+      "positive_by_label": {
+        "MPP1": 29.0,
+        "MPP2": 12.0,
+        "MPP3": 66.0,
+        "STHSC": 40.0
+      },
+      "assigned": 147,
+      "unassigned": 1773,
+      "conflicts": 0
+    }
+  },
+  "hierarchy": {
+    "LTHSC_outside_broad": 0,
+    "LMPP_outside_broad": 0,
+    "MPP_outside_broad": 0,
+    "CMP_outside_broad": 0,
+    "MEP_outside_broad": 0,
+    "GMP_outside_broad": 0,
+    "MPP1_outside_broad": 0,
+    "MPP2_outside_broad": 0,
+    "MPP3_outside_broad": 0,
+    "STHSC_outside_broad": 0,
+    "broad_mpp_outside_parent": 0,
+    "broad_mpp_parent_without_child": 0.0,
+    "fine_mpp_outside_parent": 0,
+    "fine_mpp_parent_without_child": 112.0
+  },
+  "candidate_rows_compared": 1920,
+  "candidate_differences": [],
+  "category_counts_match": true,
+  "flag_counts": {
+    "Projected": 183,
+    "diffusion_missing": 421,
+    "FACS_missing": 430,
+    "no_broad_label": 136,
+    "no_fine_label": 612
+  },
+  "flag_crosschecks": {
+    "diffusion_missing": {
+      "projected": 91,
+      "nonprojected": 330
+    },
+    "FACS_missing": {
+      "projected": 91,
+      "nonprojected": 339
+    }
+  },
+  "flags_limitation": "FACS/DC missing flags independently summed, but raw missingness was not re-extracted",
+  "raw_top_level_NULL_and_nested_IDs": "implementation records/static code reviewed; no independent RDS verification"
+}

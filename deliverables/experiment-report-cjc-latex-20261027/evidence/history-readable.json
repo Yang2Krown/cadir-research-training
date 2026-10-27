@@ -1,0 +1,115 @@
+{
+  "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+  "action": "Display-only rendering of frozen APL coordinates and membership",
+  "coordinate_rows": 39522,
+  "cells_per_node": 1882,
+  "history_nodes": 22,
+  "history_edges": 23,
+  "stage_clusters": [
+    8,
+    6,
+    7
+  ],
+  "stage_cells": [
+    1882,
+    1882,
+    1882
+  ],
+  "member_counts": {
+    "iter_0-cluster_1": 439,
+    "iter_0-cluster_2": 153,
+    "iter_0-cluster_3": 113,
+    "iter_0-cluster_4": 502,
+    "iter_0-cluster_5": 49,
+    "iter_0-cluster_6": 76,
+    "iter_0-cluster_7": 59,
+    "iter_0-cluster_8": 491,
+    "merge_iter_1-cluster_1": 941,
+    "merge_iter_1-cluster_2": 212,
+    "merge_iter_1-cluster_3": 113,
+    "merge_iter_1-cluster_4": 49,
+    "merge_iter_1-cluster_5": 76,
+    "merge_iter_1-cluster_6": 491,
+    "split_iter_2-cluster_1": 941,
+    "split_iter_2-cluster_2": 25,
+    "split_iter_2-cluster_3": 113,
+    "split_iter_2-cluster_4": 49,
+    "split_iter_2-cluster_5": 76,
+    "split_iter_2-cluster_6": 491,
+    "split_iter_2-cluster_7": 187
+  },
+  "equal_aspect": true,
+  "outputs": [
+    {
+      "file": "layout/figures/Fig3D_history_readable.pdf",
+      "bytes": 73665,
+      "sha256": "83da6e04699b120a157bb867e5258c1aa51c728db9ad3f65422360811566a297",
+      "nodes": [
+        "root-0",
+        "iter_0-cluster_1",
+        "iter_0-cluster_4",
+        "iter_0-cluster_2",
+        "iter_0-cluster_7",
+        "iter_0-cluster_3",
+        "iter_0-cluster_5",
+        "iter_0-cluster_6",
+        "iter_0-cluster_8",
+        "merge_iter_1-cluster_1",
+        "merge_iter_1-cluster_2",
+        "merge_iter_1-cluster_3",
+        "merge_iter_1-cluster_4",
+        "merge_iter_1-cluster_5",
+        "merge_iter_1-cluster_6",
+        "split_iter_2-cluster_1",
+        "split_iter_2-cluster_2",
+        "split_iter_2-cluster_7",
+        "split_iter_2-cluster_3",
+        "split_iter_2-cluster_4",
+        "split_iter_2-cluster_5",
+        "split_iter_2-cluster_6"
+      ]
+    },
+    {
+      "file": "layout/figures/history_initial_panels.pdf",
+      "bytes": 91170,
+      "sha256": "644a4b09f6ed13beb039fa635896988d3801a829a1e078706208fe098774f598",
+      "nodes": [
+        "iter_0-cluster_1",
+        "iter_0-cluster_2",
+        "iter_0-cluster_3",
+        "iter_0-cluster_4",
+        "iter_0-cluster_5",
+        "iter_0-cluster_6",
+        "iter_0-cluster_7",
+        "iter_0-cluster_8"
+      ]
+    },
+    {
+      "file": "layout/figures/history_merge_panels.pdf",
+      "bytes": 72501,
+      "sha256": "97f6beab5b9b7afa32ca3ca22e359fde2faac66ffaca0f984514f9e59d9701f8",
+      "nodes": [
+        "merge_iter_1-cluster_1",
+        "merge_iter_1-cluster_2",
+        "merge_iter_1-cluster_3",
+        "merge_iter_1-cluster_4",
+        "merge_iter_1-cluster_5",
+        "merge_iter_1-cluster_6"
+      ]
+    },
+    {
+      "file": "layout/figures/history_split_panels.pdf",
+      "bytes": 80712,
+      "sha256": "1e35fa6166f4b786fb591a12611fdcbbb8f1d572916ef5c14e5a9629e95088c4",
+      "nodes": [
+        "split_iter_2-cluster_1",
+        "split_iter_2-cluster_2",
+        "split_iter_2-cluster_3",
+        "split_iter_2-cluster_4",
+        "split_iter_2-cluster_5",
+        "split_iter_2-cluster_6",
+        "split_iter_2-cluster_7"
+      ]
+    }
+  ]
+}

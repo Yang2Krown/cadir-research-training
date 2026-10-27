@@ -1,0 +1,20 @@
+{
+  "url": "https://experimenthub.bioconductor.org/fetch/2694",
+  "method": "HEAD",
+  "follow_redirects": false,
+  "status": 302,
+  "headers": {
+    "date": "Mon, 26 Oct 2026 01:20:54 GMT",
+    "server": "envoy",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-powered-by": "Phusion Passenger 4.0.46",
+    "location": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/lun-spikein/2.0.0/rowdata-tropho.rds",
+    "status": "302 Found",
+    "content-type": "text/html;charset=utf-8",
+    "x-envoy-upstream-service-time": "346",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  }
+}

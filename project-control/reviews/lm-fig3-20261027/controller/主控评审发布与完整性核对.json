@@ -1,0 +1,13 @@
+{
+  "review_commit": "060e32beb41a65c0ef13553cd9827b2aa95ba12f",
+  "remote": "https://github.com/Yang2Krown/cadir-research-training.git",
+  "files": 80,
+  "review_index_files_checked": 79,
+  "only_authorized_review_directory": true,
+  "raw_RDS_or_secret_types": false,
+  "credential_scan_before_push": "no matches",
+  "trusted_user_authorization_verified": true,
+  "root_normal_push_completed": true,
+  "child_automatic_rejection_record_preserved": true,
+  "hash_index_check_note": "Index paths are repo-relative; initial controller check incorrectly prepended review directory twice. Corrected after publication and all79 entries verified; repository files were unchanged. Destination, review-only payload and credential-pattern scan were completed before root publication."
+}

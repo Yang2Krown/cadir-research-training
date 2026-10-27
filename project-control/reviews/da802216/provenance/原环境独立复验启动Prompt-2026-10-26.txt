@@ -1,0 +1,23 @@
+这是当前的新授权，覆盖此前“不组织评审”的限制。你继续担任原实施环境的协调者，不由你自签独立通过。
+
+只完成一项：在当前已经跑通过真实输入审计的云端工作区，组织b7ee233的真实输入独立复验。不要新建另一台云端服务器，不运行QC筛选、归一化、聚类、ARI/NMI、smoke或正式实验。
+
+先读取仓库Yang2Krown/cadir-research-training的control/stage1-quality-20261025分支：
+project-control/课程完成路线-2026-10-26.md
+project-control/独立真实输入复跑任务-b7ee233.md
+
+先实际检查，不要假定历史文件仍在：
+1. 原始文件目录 /workspace/nestorowa-metadata-preparation/reacquired-20261026/ 内的counts.rds、coldata.rds、GSE81682_HTSeq_counts.txt.gz。
+2. 本地Docker镜像 cadir-r-ver:4.4.1-bioc3.19 和R库 /workspace/.cadir-r-lib/4.4；实际加载审计所需依赖，不运行smoke。
+3. 源码固定提交 b7ee2335dc25ffab3a60d1feab44272d6d5a45cb。使用独立目录和全新输出，不修改原成果。
+
+这些前提齐备后，启动一个没有参与A03实现的独立评审子代理，实际参数必须设置：
+model=gpt-6.1-sol
+reasoning_effort=high
+fork_turns=none
+
+将两份任务文件、实际路径和固定SHA完整传给它，让它在当前工作区完成任务文件要求的独立真实对象核验、全量GEO/RDS数值对照、metadata-only/full隔离复跑及真实元数据内存负例，不能用原实现的PASS或verify_a03_evidence.py代替独立核验。先确认子代理确实能看到同一批文件和本地镜像；若不可见，不把任务迁到空环境继续失败。
+
+原任务允许缺失时下载；本次更具体的要求是：优先复用已存在原件，不重复下载、重装整套环境或对同一403重试。若前提丢失或不能创建指定独立评审者，保留一次检查证据并简短说明准确缺项、现有可用替代；不要假装已派发、已独立验收或写新的大批计划。
+
+完成后：独立评审者将脚本、日志、运行环境、哈希、差异表和简短结论commit/push到独立review分支，英文Conventional Commit类型加中文描述；不创建PR、不改main、大数据不进Git。提供一个小型可下载证据包。报告PASS/FAIL/BLOCKED、精确提交、是否能关闭输入合法性项，以及剩余科学问题。输入审计通过不代表整个课程、新数据设计或正式实验已通过。主控读取本会话和远端结果，用户不再搬运大文件。

@@ -1,0 +1,10 @@
+{
+  "base_report_commit": "b7d968ad8d30f366383c2b3afc97a5c2e5b2bfa5",
+  "base_report_path": "deliverables/experiment-report-20261027/实验报告.md",
+  "report_path": "deliverables/experiment-report-cjc-latex-20261027/report-content.md",
+  "report_sha256": "0631f7396fcfe8076785170384bf35ff8dcc5cba67c98573f2e411df22095f23",
+  "template_repository": "https://github.com/strive-yang/CHINESE-JOURNAL-OF-COMPUTERS--Latex-Template",
+  "template_commit": "69e5409cd9ad26c92348896494dd3a18b78a0fbe",
+  "figures": 13,
+  "transformation": "Completed report retained with added related work and enlarged frozen-history appendix; editable Markdown to CjC sections; equivalent compact ARI notation; BibTeX citations"
+}

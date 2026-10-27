@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "cases": 15,
+  "passes": 15,
+  "real_metadata_only": true,
+  "source_RDS_unchanged": true,
+  "counts_or_simulated_matrix_used": false
+}

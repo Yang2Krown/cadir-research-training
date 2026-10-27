@@ -1,0 +1,55 @@
+{
+  "independent_synthetic_dimensions": [
+    3,
+    2
+  ],
+  "positive": {
+    "status": "STRUCTURAL_AUDIT_COMPLETE_REVIEW_REQUIRED",
+    "genes": 3,
+    "cells": 2,
+    "matrix_version_shape_QC_labels": "RAW_STRUCTURE_INSPECTED; QC/version/unique-label review still required",
+    "scientific_input_lock_complete": false,
+    "clustering_or_evaluation_run": false
+  },
+  "flat_ID_donor_alignment": [
+    {
+      "cell_id": "cell_B",
+      "donor": "donor_B"
+    },
+    {
+      "cell_id": "cell_A",
+      "donor": "donor_A"
+    }
+  ],
+  "nested_FACS": {
+    "name": "FACS",
+    "class": "AsIs",
+    "dimensions": [
+      2,
+      2
+    ],
+    "subfields": [
+      "broad_HSPC",
+      "narrow_HSC"
+    ],
+    "missing_entries": 0
+  },
+  "nested_overlapping_FACS_not_coerced_to_exclusive_truth": true,
+  "unique_reference_field": "NOT_FROZEN",
+  "duplicate_ID_case": {
+    "status": "FAILED_STRUCTURE",
+    "error": "Unique, nonempty explicit gene/cell IDs required",
+    "clustering_or_evaluation_run": false
+  },
+  "missing_real_input_case": {
+    "status": "BLOCKED_INPUTS_NOT_ACQUIRED",
+    "missing_inputs": [
+      "/workspace/cadir-newdata-prep-independent-20261026/not-acquired-counts.rds",
+      "/workspace/cadir-newdata-prep-independent-20261026/not-acquired-coldata.rds"
+    ],
+    "matrix_version_shape_QC_labels": "NOT_VERIFIED",
+    "clustering_or_evaluation_run": false
+  },
+  "formal_execution_permitted": false,
+  "no_clustering_or_metrics_executed": true
+}

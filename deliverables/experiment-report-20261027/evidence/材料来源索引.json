@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "report": "实验报告.md",
+  "management_base": "8d86e93104bae3f01c7b15bc0b07b811b62884f6",
+  "collection": "byte-exact Git object reads; no scientific rerun",
+  "files": [
+    {
+      "path": "assets/Fig3A_association_top5.png",
+      "bytes": 506911,
+      "sha256": "153e74237928b38b1a9821ee7a155c40d5adac3bbf9c7bd2e9c7c808b93aa569",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/figures/Fig3A_association_top5.png",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/figures/Fig3A_association_top5.png"
+    },
+    {
+      "path": "assets/Fig3B_Bcell_principal.png",
+      "bytes": 141320,
+      "sha256": "00d6c1f000c7f8e5e4ec7d80a81ff8c464531d56fe74a39c577b3ce45cffb0eb",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/figures/Fig3B_Bcell_principal.png",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/figures/Fig3B_Bcell_principal.png"
+    },
+    {
+      "path": "assets/Fig3C_endothelial_principal.png",
+      "bytes": 127874,
+      "sha256": "dcee9480d4c0e79ef2b1dceed69078bb239ef7535ba8223e9ea71dc6b671830c",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/figures/Fig3C_endothelial_principal.png",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/figures/Fig3C_endothelial_principal.png"
+    },
+    {
+      "path": "assets/Fig3D_actual_split_merge_history.png",
+      "bytes": 487782,
+      "sha256": "363ff8a15a79ebb273d738f863dd8661ea4984fb9fca5dede1d369a8aad5c437",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/figures/Fig3D_actual_split_merge_history.png",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/figures/Fig3D_actual_split_merge_history.png"
+    },
+    {
+      "path": "assets/S1A_direction_angle_heatmap.png",
+      "bytes": 80756,
+      "sha256": "ab2f970529f19183aac9cc841cbed2e8d5d7f9eadf9d8e51706dd5dab8544cbf",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/figures/S1A_direction_angle_heatmap.png",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/figures/S1A_direction_angle_heatmap.png"
+    },
+    {
+      "path": "assets/S1B_direction_projection_matrix.png",
+      "bytes": 543772,
+      "sha256": "0600c32ec3f39fee879783b9ddfeb560ee9eb718cad18ae91211375d79f54b85",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/figures/S1B_direction_projection_matrix.png",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/figures/S1B_direction_projection_matrix.png"
+    },
+    {
+      "path": "assets/S1C_reference_sankey.png",
+      "bytes": 231295,
+      "sha256": "1a87f6fbf391568a2a0293c1b8c37e040607b7942f05ca00fc067a5aa870f65c",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/figures/S1C_reference_sankey.png",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/figures/S1C_reference_sankey.png"
+    },
+    {
+      "path": "assets/S1D_Bcell_standard.png",
+      "bytes": 103650,
+      "sha256": "ab10e1b7ac3795564daa6db20b9f903106b822c22c5467afba8a69f653ad0db6",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/figures/S1D_Bcell_standard.png",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/figures/S1D_Bcell_standard.png"
+    },
+    {
+      "path": "assets/S1E_endothelial_standard.png",
+      "bytes": 98609,
+      "sha256": "7b53a81b0ef76b856dc1b49ed14aed7573e845358ad0a927a1217cc742d2f25c",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/figures/S1E_endothelial_standard.png",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/figures/S1E_endothelial_standard.png"
+    },
+    {
+      "path": "evidence/LM/cluster_annotation_reference_map.tsv",
+      "bytes": 594,
+      "sha256": "aa5e947a8f9a22dfcec3c661569e3ed51c6c9c7f709a9851483501aa8f097ad0",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/tables/cluster_annotation_reference_map.tsv",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/tables/cluster_annotation_reference_map.tsv"
+    },
+    {
+      "path": "evidence/LM/all_gene_ranks.tsv",
+      "bytes": 74413,
+      "sha256": "bfd59a07c0d7e9a33bcba979fc6641a398b4ad6ea384954cbb70ba5c415733f3",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/tables/all_gene_ranks.tsv",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/tables/all_gene_ranks.tsv"
+    },
+    {
+      "path": "evidence/LM/all_gene_assignments.tsv",
+      "bytes": 81174,
+      "sha256": "b5f433723a2035c15fde1913c245546887199dae455f80196d9660235db71a21",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/tables/all_gene_assignments.tsv",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/tables/all_gene_assignments.tsv"
+    },
+    {
+      "path": "evidence/LM/top5_genes.tsv",
+      "bytes": 2133,
+      "sha256": "d8cabcde68457e77a10cf1d5103b359fb8f3ca83b6560c4f281f65c1fd9a61af",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/tables/top5_genes.tsv",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/tables/top5_genes.tsv"
+    },
+    {
+      "path": "evidence/LM/principal_standard_projection_angle_checks.tsv",
+      "bytes": 3562,
+      "sha256": "63a84898fa961850af5f658f0fa904c8046093e5113957c92f2ac06e74d3045a",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/tables/principal_standard_projection_angle_checks.tsv",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/tables/principal_standard_projection_angle_checks.tsv"
+    },
+    {
+      "path": "evidence/LM/Fig3D_history_edges.tsv",
+      "bytes": 938,
+      "sha256": "a2983e4ee763394fcddecdc37ed5958559bc6ef60298a1d95e2a963767fabbb7",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/tables/Fig3D_history_edges.tsv",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/tables/Fig3D_history_edges.tsv"
+    },
+    {
+      "path": "evidence/LM/Fig3D_node_annotations.tsv",
+      "bytes": 2047,
+      "sha256": "d716a97dd6da0a247547fa3d9d35ef9c4340408ff632158593e4b45ceeec58c2",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/tables/Fig3D_node_annotations.tsv",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/tables/Fig3D_node_annotations.tsv"
+    },
+    {
+      "path": "evidence/LM/metrics.json",
+      "bytes": 334,
+      "sha256": "b1624836f37038fe399fa78bda33abaa415fdb37565f04dbbad72dcff202b5a8",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/evidence/real-run/metrics.json",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/evidence/real-run/metrics.json"
+    },
+    {
+      "path": "evidence/LM/selection.json",
+      "bytes": 151,
+      "sha256": "14d7e529e0dadc1b5c868df197f08c2c32132258e414adb13135f515ace22538",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/evidence/real-run/selection.json",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/evidence/real-run/selection.json"
+    },
+    {
+      "path": "evidence/LM/ranking_provenance.json",
+      "bytes": 1526,
+      "sha256": "035bf1d23c41a8cbd4ae04c6c6006f9aea05d76646123c10311e9e0d1187e304",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/evidence/real-run/ranking_provenance.json",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/evidence/real-run/ranking_provenance.json"
+    },
+    {
+      "path": "evidence/LM/stage_times_seconds.json",
+      "bytes": 2212,
+      "sha256": "830f3a1e6560d07e21f81e8fec5ad609f403d3117eb7c52ed44f801c8e9a3b3c",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/evidence/real-run/stage_times_seconds.json",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/evidence/real-run/stage_times_seconds.json"
+    },
+    {
+      "path": "evidence/LM/required_version_check.tsv",
+      "bytes": 254,
+      "sha256": "51e100ba02cbedf1200045954199b4f4b1a7ee16cc05fce192bfba65ccbe4ba5",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/evidence/real-run/required_version_check.tsv",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/evidence/real-run/required_version_check.tsv"
+    },
+    {
+      "path": "evidence/LM/run_config.json",
+      "bytes": 1198,
+      "sha256": "75996e6a0c7a866821334ba2738cdcff113684777f6e099fddf280d9692dc820",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/evidence/run_config.json",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/evidence/run_config.json"
+    },
+    {
+      "path": "evidence/LM/real_run.json",
+      "bytes": 2126,
+      "sha256": "787855fd69c586d59354d6963bac0417a4bdfcd6242a154becf99b525bb9b2d5",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/evidence/real_run.json",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/evidence/real_run.json"
+    },
+    {
+      "path": "assets/HSC_04-common-cohort.png",
+      "bytes": 91876,
+      "sha256": "5357b037738db541e028b6d5ed193c1ed6a92ffc7881700555e1041aea28784a",
+      "source_commit": "091a8a4585cabc59a5504380398892bac49044f4",
+      "source_path": "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/04-common-cohort.png",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/091a8a4585cabc59a5504380398892bac49044f4/cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/04-common-cohort.png"
+    },
+    {
+      "path": "assets/HSC_01-all-seed-ARI-NMI.png",
+      "bytes": 135726,
+      "sha256": "979be506994895409a1319136d70948e42ce63a63e122c109ce0c9657604f145",
+      "source_commit": "091a8a4585cabc59a5504380398892bac49044f4",
+      "source_path": "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/01-all-seed-ARI-NMI.png",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/091a8a4585cabc59a5504380398892bac49044f4/cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/01-all-seed-ARI-NMI.png"
+    },
+    {
+      "path": "assets/HSC_02-cadir-seed2358-reference-share.png",
+      "bytes": 254132,
+      "sha256": "bcba1db325e87d7a4050a6c5a864b5f5fde24ac1963bc82fec634d0542d08e71",
+      "source_commit": "091a8a4585cabc59a5504380398892bac49044f4",
+      "source_path": "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/02-cadir-seed2358-reference-share.png",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/091a8a4585cabc59a5504380398892bac49044f4/cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/02-cadir-seed2358-reference-share.png"
+    },
+    {
+      "path": "assets/HSC_02-pca_snn_louvain-seed2358-reference-share.png",
+      "bytes": 188952,
+      "sha256": "7ffd572af67aab012dc7987074a3247525e0ccb6fe42aa458b3653df947fb8e3",
+      "source_commit": "091a8a4585cabc59a5504380398892bac49044f4",
+      "source_path": "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/02-pca_snn_louvain-seed2358-reference-share.png",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/091a8a4585cabc59a5504380398892bac49044f4/cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/02-pca_snn_louvain-seed2358-reference-share.png"
+    },
+    {
+      "path": "evidence/HSC/all-seed-presented-values.tsv",
+      "bytes": 2548,
+      "sha256": "2ff375e3a8de949fb01ddb78f44dfe47bbe16d9d9fde6ba3846ffd7dab476786",
+      "source_commit": "091a8a4585cabc59a5504380398892bac49044f4",
+      "source_path": "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/all-seed-presented-values.tsv",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/091a8a4585cabc59a5504380398892bac49044f4/cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/all-seed-presented-values.tsv"
+    },
+    {
+      "path": "evidence/HSC/cohort-summary.tsv",
+      "bytes": 153,
+      "sha256": "0940786660688793553eea4a7073f7d551a9b5ceb026ab6807e72ee04c2f428f",
+      "source_commit": "091a8a4585cabc59a5504380398892bac49044f4",
+      "source_path": "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/cohort-summary.tsv",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/091a8a4585cabc59a5504380398892bac49044f4/cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/presentation/cohort-summary.tsv"
+    },
+    {
+      "path": "evidence/HSC/sessionInfo.txt",
+      "bytes": 5646,
+      "sha256": "a527174a51aed227304e57df7ad3da629c9ada42b1e36cfbad573f0f4c88a55f",
+      "source_commit": "091a8a4585cabc59a5504380398892bac49044f4",
+      "source_path": "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/formal/cadir-seed-2358-attempt-01/sessionInfo.txt",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/091a8a4585cabc59a5504380398892bac49044f4/cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/formal/cadir-seed-2358-attempt-01/sessionInfo.txt"
+    },
+    {
+      "path": "evidence/source/LM/pipeline.R",
+      "bytes": 18525,
+      "sha256": "454806f404dad3d20686713ae9a371bcc5e1871910c09a74b02103b06cf8936d",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/scripts/pipeline.R",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/scripts/pipeline.R"
+    },
+    {
+      "path": "evidence/source/LM/run_case.py",
+      "bytes": 4953,
+      "sha256": "7b66ed7e3c4b393f3b38f1dc6d2d719df0a16e72ac9423de0b877ada79b4f406",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/scripts/run_case.py",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/scripts/run_case.py"
+    },
+    {
+      "path": "evidence/source/LM/rerun.sh",
+      "bytes": 1026,
+      "sha256": "4738cd00b083f3cfc54dd6b177e2832e7106dee64bb81d64b4c017fc0b07ea90",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/scripts/rerun.sh",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/scripts/rerun.sh"
+    },
+    {
+      "path": "evidence/source/LM/run-r.sh",
+      "bytes": 188,
+      "sha256": "bc5d9d59f405049bb9a78ade74d6921d905b2ea44dcdbc7fcded035e2e6e8669",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/scripts/run-r.sh",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/scripts/run-r.sh"
+    },
+    {
+      "path": "evidence/source/LM/verify_results.R",
+      "bytes": 6267,
+      "sha256": "89c2ebd8fe9e6798fb362bfa228081beeec567ec0c8d5f517e08d730b92bfd7a",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/scripts/verify_results.R",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/scripts/verify_results.R"
+    },
+    {
+      "path": "evidence/source/LM/render_fig3.R",
+      "bytes": 16642,
+      "sha256": "2941e2d2d135915a25ac038ea3006b170d657b6e507769cb1a0189edafc04736",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/scripts/render_fig3.R",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/scripts/render_fig3.R"
+    },
+    {
+      "path": "evidence/source/LM/repair_s1_legend.R",
+      "bytes": 3597,
+      "sha256": "95a7988760b24b3e6f3732dda9ea4d6757415f72db8926a8dd2e561d717e4594",
+      "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+      "source_path": "cases/tabula_muris_limb/fig3_completion/scripts/repair_s1_legend.R",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/ab68da7ef154f133ec436275fcf11396f37f884a/cases/tabula_muris_limb/fig3_completion/scripts/repair_s1_legend.R"
+    },
+    {
+      "path": "evidence/source/HSC/prepare_common.R",
+      "bytes": 9501,
+      "sha256": "92fcafe3ed8e978ed48f76f5a4303454a8f0bca29b83c7a019a3640a4084bbb1",
+      "source_commit": "6cc7b3da67c193da11a67c45a75167d6521438b0",
+      "source_path": "cases/nestorowa_hsc/fair-experiment/scripts/prepare_common.R",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/6cc7b3da67c193da11a67c45a75167d6521438b0/cases/nestorowa_hsc/fair-experiment/scripts/prepare_common.R"
+    },
+    {
+      "path": "evidence/source/HSC/formal_run.R",
+      "bytes": 7005,
+      "sha256": "45a58f2965c0df16ca177b7b5051cb9b559a8664363841f950ca964353e3525c",
+      "source_commit": "6cc7b3da67c193da11a67c45a75167d6521438b0",
+      "source_path": "cases/nestorowa_hsc/fair-experiment/scripts/formal_run.R",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/6cc7b3da67c193da11a67c45a75167d6521438b0/cases/nestorowa_hsc/fair-experiment/scripts/formal_run.R"
+    },
+    {
+      "path": "evidence/source/HSC/run_experiment.py",
+      "bytes": 7905,
+      "sha256": "588583c10b79992951be241dffd6e1efc94f5d3523b02bab869d52abb4acbe28",
+      "source_commit": "6cc7b3da67c193da11a67c45a75167d6521438b0",
+      "source_path": "cases/nestorowa_hsc/fair-experiment/scripts/run_experiment.py",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/6cc7b3da67c193da11a67c45a75167d6521438b0/cases/nestorowa_hsc/fair-experiment/scripts/run_experiment.py"
+    },
+    {
+      "path": "evidence/source/HSC/rank_diagnostics.R",
+      "bytes": 4959,
+      "sha256": "ecf36bffdf15950fe52a1eecca2324532e2b41f3fe722c4681831b66653ac94a",
+      "source_commit": "6cc7b3da67c193da11a67c45a75167d6521438b0",
+      "source_path": "cases/nestorowa_hsc/fair-experiment/scripts/rank_diagnostics.R",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/6cc7b3da67c193da11a67c45a75167d6521438b0/cases/nestorowa_hsc/fair-experiment/scripts/rank_diagnostics.R"
+    },
+    {
+      "path": "evidence/HSC/scientific-config.json",
+      "bytes": 13537,
+      "sha256": "b1e30c8d292b289095bcc1b5159f82b4568f16ca4b07207e039795e15219a969",
+      "source_commit": "6cc7b3da67c193da11a67c45a75167d6521438b0",
+      "source_path": "cases/nestorowa_hsc/fair-experiment/design/scientific-config.json",
+      "source_url": "https://github.com/Yang2Krown/cadir-research-training/blob/6cc7b3da67c193da11a67c45a75167d6521438b0/cases/nestorowa_hsc/fair-experiment/design/scientific-config.json"
+    }
+  ]
+}

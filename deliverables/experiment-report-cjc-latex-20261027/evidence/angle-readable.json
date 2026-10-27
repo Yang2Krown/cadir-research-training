@@ -1,0 +1,10 @@
+{
+  "file": "evidence/S1A_pairwise_direction_angles_degrees.tsv",
+  "source_commit": "ab68da7ef154f133ec436275fcf11396f37f884a",
+  "source_file": "S1A_pairwise_direction_angles_degrees.tsv",
+  "sha256": "b782aea58204b2df38cdd7c6f83cae0f93652066b48f14ea9f7f7a2f136cf7c4",
+  "display": "layout/figures/S1A_angles_readable.pdf",
+  "display_sha256": "1649cc8ac5ee3a33a3c9b715382769cc62e9bd717a982025dfc1471a6e773f1a",
+  "operation": "Display only; no angles recalculated",
+  "display_precision": "One decimal place"
+}

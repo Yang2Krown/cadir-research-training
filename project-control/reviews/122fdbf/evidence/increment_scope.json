@@ -1,0 +1,33 @@
+{
+  "changed_paths": [
+    "cases/nestorowa_hsc/.gitignore",
+    "cases/nestorowa_hsc/README.md",
+    "cases/nestorowa_hsc/scripts/acquire_hub.py",
+    "cases/nestorowa_hsc/scripts/audit_inputs.R",
+    "cases/nestorowa_hsc/scripts/check_protocol.py",
+    "cases/nestorowa_hsc/scripts/fetch_public.py",
+    "cases/nestorowa_hsc/scripts/run-r.sh",
+    "planning/new-dataset/2026-10-26/evidence/actual-input-blocked.json",
+    "planning/new-dataset/2026-10-26/evidence/baseline-api-check.log",
+    "planning/new-dataset/2026-10-26/evidence/download_receipts.json",
+    "planning/new-dataset/2026-10-26/evidence/external_artifacts_sha256.json",
+    "planning/new-dataset/2026-10-26/evidence/fixed-source-content-check.json",
+    "planning/new-dataset/2026-10-26/evidence/formal-gate-check.json",
+    "planning/new-dataset/2026-10-26/evidence/hub-acquisition-plan.json",
+    "planning/new-dataset/2026-10-26/evidence/log_copy_normalization.json",
+    "planning/new-dataset/2026-10-26/evidence/preparation-status.json",
+    "planning/new-dataset/2026-10-26/evidence/primary-page-followup.json",
+    "planning/new-dataset/2026-10-26/evidence/protocol-check.json",
+    "planning/new-dataset/2026-10-26/evidence/structural-script-tests.json",
+    "planning/new-dataset/2026-10-26/pre-registration.json",
+    "planning/new-dataset/2026-10-26/pre-registration.md",
+    "planning/new-dataset/2026-10-26/sources.json",
+    "planning/new-dataset/2026-10-26/\u6570\u636e\u51c6\u5907\u4e0e\u963b\u585e\u62a5\u544a.md",
+    "planning/new-dataset/2026-10-26/\u6700\u5c0f\u7f51\u7edc\u914d\u7f6e\u5efa\u8bae.md",
+    "planning/new-dataset/2026-10-26/\u6765\u6e90\u5ba1\u8ba1\u62a5\u544a.md",
+    "planning/new-dataset/2026-10-26/\u72ec\u7acb\u51c6\u5907\u5ba1\u67e5\u6e05\u5355.md"
+  ],
+  "all_stage1_files_unchanged_vs_9d473b4": true,
+  "largest_tracked_file_bytes": 2318514,
+  "tracked_RDS_files": []
+}

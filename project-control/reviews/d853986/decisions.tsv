@@ -1,0 +1,11 @@
+id	decision	severity	scope	remaining_condition
+C01	ACCEPT_FOR_PREPARATION	NONE_IN_PREPARATION	broad6 published-label candidate; 1784 assigned/136 missing/0 conflicts	Freeze mapping; intersect with future shared QC IDs; preserve unassigned cells for clustering if eligible
+C02	ACCEPT_FOR_PREPARATION	LIMITATION	Descriptive single-study comparison; no Rep merge or donor/biological replication inference	Record scope in next version; evidence required only for stronger replication/batch/donor claims
+C03	ACCEPT_FOR_PREPARATION	LIMITATION	Published immunophenotype membership only; no FACS intensity input or re-gating	Disclose phenotype/reference limits; no functional truth claim
+A02_COHORT	AMEND_SCOPE	P1_FORMAL_GATE	Official 1920 candidate resource may support new extension rather than recovery of original 1656	Versioned cohort/question amendment and independent adjudication before input lock
+A02_ARCHIVED_VERSION	AMEND_SCOPE	P1_SCOPE_CHANGE_PENDING	Descriptive comparison on fixed official legacy1920 version; webpage correction applicability unknown	Version scope and disclose residual risk; relinquish verified-corrected/original1656 claims; retain actual ID/count/QC/design gates
+A02_CORRECTION_CLAIM	REQUEST_EVIDENCE	CLAIM_GATE_ONLY	Any claim that current GEO/Hub reflects the 2017 webpage correction	Affected files/IDs and revision chain required only for this stronger claim; webpage notice alone does not prove current counts wrong
+A03	ACCEPT_FOR_PREPARATION	P2_VALIDATOR_DEFECT	Static finding and repair contract accepted; old R audit not executed	Separate nested-explicit-ID metadata extraction; fail missing/duplicate/conflicting IDs; preserve top NULL and NA; later actual-input audit
+A04	AMEND_SCOPE	P2_EVIDENCE_SCOPE	Accept published-label-only scope without claiming original flow coverage	Record no FACS/DC input, no complete-flow or re-gating claim; original-ID evidence required for those stronger claims
+C04	REQUEST_EVIDENCE	P1_FORMAL_GATE	Novelty preliminary; official S1 coverage not complete	Read S1 dataset/method coverage or versioned source-by-source explicit novelty adjudication under original process
+C05	REJECT	P1_FORMAL_GATE	Formal implementation/execution admission not granted	Actual input/QC/label locks, scope decisions, environment/implementation and independent formal design approval; formal_execution_permitted=false

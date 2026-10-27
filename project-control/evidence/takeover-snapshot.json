@@ -1,0 +1,290 @@
+{
+  "date": "2026-10-25",
+  "timezone": "Asia/Shanghai",
+  "control_thread": "01a17385-6fd3-71dd-ae1a-a9fa2b77203d",
+  "available_thread_tools": [
+    "codex_app__list_archived_threads",
+    "codex_app__list_threads",
+    "codex_app__move_thread_to_sidebar_section",
+    "codex_app__read_thread",
+    "codex_app__read_thread_terminal",
+    "codex_app__set_thread_archived",
+    "codex_app__set_thread_read_state",
+    "codex_app__set_thread_title",
+    "codex_app__share_thread",
+    "codex_app__wait_threads",
+    "mcp__codex_apps__github_list_pull_request_review_threads",
+    "mcp__codex_apps__github_resolve_review_thread",
+    "mcp__codex_apps__github_unresolve_review_thread"
+  ],
+  "unavailable_required_tools": [
+    "create_thread",
+    "send_message_to_thread"
+  ],
+  "existing_review": {
+    "thread_id": "01a17354-6169-70a8-810e-d49d4d605029",
+    "host_id": "durable",
+    "turn_id": "01a17354-69d0-7705-b71d-de57180f078a",
+    "started_at": 1792936274,
+    "completed_at": 1792937263,
+    "actual_model": "not_exposed_by_available_read_tool",
+    "review_status": "completed_with_R1_R2_R3_conditions",
+    "stage_gate": "blocked_pending_fixes_and_independent_retest"
+  },
+  "recovery": {
+    "method": "Full fileChange addition plus all subsequent updates read via codex_app.read_thread; original evidence entities not copied",
+    "source_files": [
+      "项目组织者交接Prompt.md",
+      "独立质量评审报告.md"
+    ],
+    "local_mac_file_read": false,
+    "review_archive_copied": false
+  },
+  "remote_verified": {
+    "repository": "Yang2Krown/cadir-research-training",
+    "case_branch": "case/tabula-muris-limb-first-run",
+    "case_sha": "756c8d16ae22fe671f7b715a696c8272523e08ed",
+    "file_count": 247,
+    "main_sha": "35a05eb54d73a38a56a8427b8544e97ae78a70c4"
+  },
+  "dispatches": [
+    {
+      "task": "/root/stage1_repair",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "kind": "internal_subagent",
+      "worktree": "/workspace/cadir-stage1-fix",
+      "branch": "fix/stage1-review-20261025",
+      "scope": "R1-R6 fixes and evidence; no main merge, no baseline overwrite",
+      "state": "completed_R3_actual_object_diagnosis_and_N2_metadata_fix"
+    },
+    {
+      "task": "/root/stage1_independent_retest",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "kind": "internal_subagent",
+      "state": "completed_R3_independent_retest_with_scope_release"
+    },
+    {
+      "task": "/root/new_dataset_source_audit",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "max",
+      "kind": "internal_subagent",
+      "state": "completed_source_audit",
+      "branch": "plan/new-dataset-audit-20261026",
+      "worktree": "/workspace/cadir-next-data-plan",
+      "base_sha": "9d473b441058c45b2563c2ebe94ae99dda1f5209",
+      "commit": "7bf4a460e1c59b53f9dc71faa53bca562129b765"
+    },
+    {
+      "task": "stage2_core_preparation",
+      "agent_path": "/root/stage1_repair",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "kind": "internal_subagent_followup",
+      "state": "completed_preparation_blocked_network",
+      "commit": "122fdbf2986f3791917197385f8d07ba0a75fce6"
+    },
+    {
+      "task": "stage2_independent_preparation_review",
+      "agent_path": "/root/stage1_independent_retest",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "kind": "internal_subagent_followup",
+      "state": "completed_preparation_self_consistent_formal_stage_blocked",
+      "commit": "122fdbf2986f3791917197385f8d07ba0a75fce6"
+    },
+    {
+      "task": "/root/hsc_preparation_review",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "kind": "internal_subagent",
+      "state": "completed_preparation_acceptance_formal_admission_rejected",
+      "reviewed_commit": "d853986e2e3a1cabc9f3f728f616e402432257ec"
+    },
+    {
+      "task": "/root/hsc_a03_independent_retest",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "state": "failed_before_work_model_capacity"
+    },
+    {
+      "task": "/root/hsc_a03_review_luna",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "max",
+      "state": "completed_code_and_records_acceptance_raw_retest_pending",
+      "reviewed_commit": "b7ee2335dc25ffab3a60d1feab44272d6d5a45cb"
+    }
+  ],
+  "final_stage": {
+    "status": "PASS_WITH_EXPLICIT_SCOPE",
+    "fixed_sha": "9d473b441058c45b2563c2ebe94ae99dda1f5209",
+    "independent_retest_base_sha": "8561914bc67c511ec76374996fb12d713f23f171",
+    "independent_retest_delta_sha": "9d473b441058c45b2563c2ebe94ae99dda1f5209",
+    "closed": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "N1",
+      "N2"
+    ],
+    "open_important": [],
+    "open_nonblocking": [],
+    "management_pr": "https://github.com/Yang2Krown/cadir-research-training/pull/1",
+    "fix_pr": "https://github.com/Yang2Krown/cadir-research-training/pull/2",
+    "report_sha256": "67aacd8c03d322d563afb281a9d3e19986254629db233d32c984470648c753c8",
+    "automatic_continuation_configured": false,
+    "scope": "6000-HVG single case, fixed or independently verified aligned CA basis; no arbitrary-basis invariance, strict paper replication, biological validation or robustness claim",
+    "supplementary_uploads_complete": true
+  },
+  "last_updated": "2026-10-26 Asia/Shanghai",
+  "next_stage": {
+    "state": "LM_WORKFLOW_ACCEPTED_AND_AUTHOR_PUBLIC_OUTPUTS_MATCHED_STRICT_IDENTITY_UNVERIFIED",
+    "source_audit_commit": "7bf4a460e1c59b53f9dc71faa53bca562129b765",
+    "prepared_commit": "122fdbf2986f3791917197385f8d07ba0a75fce6",
+    "draft_pr": "https://github.com/Yang2Krown/cadir-research-training/pull/3",
+    "independent_report_sha256": "adf8e37cf20b04e3ac3003e7eb37ae958120c120b5c18ea871c6461698ddf83f",
+    "real_data_acquired": true,
+    "formal_experiments_run": true,
+    "formal_experiment_released": true,
+    "network_configuration_write_tool_available": false,
+    "other_gates": [],
+    "real_data_location_scope": "Reported actual HTTP200 downloads in data sessions; raw objects not independently accessed by this controller review",
+    "metadata_preparation_branch": "prep/nestorowa-metadata-20261026",
+    "metadata_preparation_commit": "d853986e2e3a1cabc9f3f728f616e402432257ec",
+    "metadata_independent_review": "project-control/reviews/d853986/独立审查报告.md",
+    "metadata_independent_report_sha256": "a64199b6e0e47fe3cb21bebac28a96b71ce1677ec08c6a38eef78dd5d6d9d3a7",
+    "real_count_values_audited": true,
+    "scope_decision": "project-control/HSC扩展范围裁定-2026-10-26.md",
+    "next_action": "Integrate author-output comparison into LM report; keep unverified artifact/member identity explicit; no new dataset or experiment automatically authorized",
+    "historical_extra_hosts_required_before_acquisition": [
+      "mghp.osn.xsede.org",
+      "ftp.ncbi.nlm.nih.gov"
+    ],
+    "minimum_extra_hosts": [],
+    "controller_scope_rechecked_commit": "a100d34e634bed298fdfdc9fd316132290518595",
+    "controller_scope_recheck": "project-control/reviews/d853986/controller-scope-recheck/增量复验结论.md",
+    "input_audit_fix_commit": "b7ee2335dc25ffab3a60d1feab44272d6d5a45cb",
+    "input_audit_fix_branch": "fix/nestorowa-input-audit-a03-20261026",
+    "A03_code_review": "PASS_CODE_AND_REAL_OBJECT_CLOSED",
+    "A01_independent_real_input_audit": "PASS_CLOSED",
+    "a03_review_model": "gpt-6-luna/max after SolHigh capacity failure",
+    "a03_review": "project-control/reviews/b7ee233/独立复核报告.md",
+    "latest_raw_review_commit": "da802216238bc66a60eff514b1ccebf213e77351",
+    "latest_raw_review_thread": "01a176cf-6af3-73fb-9f7e-4c4185be402a",
+    "latest_raw_review": "project-control/reviews/da802216/独立真实输入复验报告.md",
+    "input_review_execution_disclosure": "Independent SolHigh authored logic and signed results; coordinator relayed fixed privileged container execution and publication, fully disclosed",
+    "admitted_source_commit": "6cc7b3da67c193da11a67c45a75167d6521438b0",
+    "design_review_commit": "2d2565c24b3958260d7232ff03f211c06bd2e845",
+    "result_commit": "091a8a4585cabc59a5504380398892bac49044f4",
+    "result_review_commit": "b48066cba0bf4cd308f2f75b1134c12f85c576ef",
+    "delivery_commit": "4277589d24bedc2ae85dfc75296426c56e7679fa",
+    "result_status": "PASS_LIMITED_RESULT_ACCEPTANCE",
+    "clustering_cells": 1656,
+    "evaluation_cells": 1641,
+    "unlabelled_retained_cells": 15,
+    "C04": "ACCEPTED_LIMITED_NOVELTY_SCOPE_NOT_COMPLETE_SOURCE_COVERAGE",
+    "local_full_backup_verified": false,
+    "external_objects": {
+      "count": 63,
+      "bytes": 381876645
+    }
+  },
+  "last_updated_at": "2026-10-27T14:33:04.060072+08:00",
+  "user_confirmed_execution_boundary": {
+    "reported_at": "2026-10-26 Asia/Shanghai",
+    "last_user_executed_result": "User says last result sent around 19:30; subsequent suggested prompts not executed",
+    "later_suggested_tasks_executed": false,
+    "switching_sessions_allowed": true,
+    "goal": "Complete the course with verified experiments and usable submission materials",
+    "latest_observed_execution": "01a176cf completed formal experiment and independent result acceptance, delivery4277589; course final submission/video/local backup not complete"
+  },
+  "course_completion_materials": [
+    "project-control/课程完成路线-2026-10-26.md",
+    "project-control/实验报告首案例初稿-2026-10-26.md",
+    "project-control/原环境独立复验启动Prompt-2026-10-26.txt"
+  ],
+  "course_stage_materials": {
+    "board_version": 3,
+    "board_zip": "/workspace/cadir-dashboard-delivery-20261027/项目看板-第三版-HSC正式实验验收后.zip",
+    "editable_PPT_pages": 18,
+    "report": "/workspace/cadir-course-results-materials-20261027/实验报告_阶段整合稿.md",
+    "bundle": "/workspace/cadir-course-delivery-20261027/课程当前成果-2026-10-27.zip",
+    "bundle_sha256": "96d9fd3ba69a2f0dbe072feb688543c6371c971b73c5c2c885e321246415f6f2",
+    "status": "DRAFTS_READY_FINAL_COURSE_ITEMS_PENDING",
+    "parent_mechanical_review_passed": true,
+    "Mac_automatic_sync": false
+  },
+  "latest_user_direction": {
+    "request": "Complete first original-paper LM case before deciding other datasets",
+    "full_paper_scope_expansion_authorized": false,
+    "full_paper_scope_review_agent": "INTERRUPTED",
+    "LM_Fig3_S1_completion_authorized": true,
+    "LM_implementation_agent": "/root/lm_fig3_completion",
+    "LM_implementation_model": "gpt-6.1-sol/high",
+    "LM_current_environment_actual_data_and_runtime_verified": true,
+    "full_paper_replication_complete": false,
+    "course_whole_acceptance": false,
+    "LM_fig3_workflow_implementation_and_independent_review_complete": true
+  },
+  "LM_fig3_completion": {
+    "implementation_tip": "ab68da7ef154f133ec436275fcf11396f37f884a",
+    "scientific_display_fix_commit": "8c1ff1c08cbc177402bc0148ca7bb4f3133fa0e3",
+    "independent_review_commit": "060e32beb41a65c0ef13553cd9827b2aa95ba12f",
+    "implementation_branch": "feat/lm-fig3-completion-20261027",
+    "review_branch": "review/lm-fig3-20261027",
+    "provided_input_complete_nine_analysis_workflow": "PASS_WITH_EXPLICIT_LIMITS",
+    "strict_author_artifact_equivalence": "BLOCKED_MISSING_AUTHOR_FILES_AND_IDENTITY",
+    "full_paper_replication_complete": false,
+    "input_and_actual_object_backup_package": {
+      "path": "/workspace/cadir-lm-fig3-delivery-20261027/LM输入与实际对象备份-20261027.zip",
+      "bytes": 116430093,
+      "sha256": "1fe60809f4d7556b20861e2ef6878fa2bc0331117b6e134df2db82c5817ad214",
+      "real_input_and_RDS_objects": 10,
+      "CRC_and_all_member_SHA": "PASS",
+      "user_local_download_verified": false
+    },
+    "small_delivery": {
+      "path": "/workspace/cadir-lm-fig3-delivery-20261027/LM首案例图表与独立复验-20261027.zip",
+      "bytes": 9636979,
+      "sha256": "3fc454672152269aab845481c3070844921f29de9c2df0b986978d7a33d9ac3f",
+      "members": 210,
+      "CRC_and_all_bytes": "PASS"
+    },
+    "publication": "Root verified original user authorization, destination and payload after child auto-review rejection; both branches successfully pushed without force/main changes",
+    "user_local_download_verified": false
+  },
+  "LM_author_public_output_comparison": {
+    "ordinary_user_visible_thread": "01a17c09-207f-7399-bdf3-d319242fc003",
+    "thread_title": "核对LM首案例运行记录",
+    "author_commit": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+    "reference_types": 8,
+    "cell_count": 1882,
+    "assigned_genes": 1200,
+    "clusters": 7,
+    "all_cluster_sizes_and_gene_counts_match": true,
+    "printed_split_merge_log_matches": true,
+    "author_printed_ARI": "0.6695187",
+    "our_ARI_matches_author_display_precision": true,
+    "author_NMI": "NOT_PRINTED_UNKNOWN",
+    "marker_csv_shape_printed": [
+      19,
+      2
+    ],
+    "marker_csv_contents": "UNKNOWN",
+    "final_author_CA_feature_count": "NOT_PRINTED_UNKNOWN",
+    "strict_artifact_identity": "UNVERIFIED",
+    "new_experiment_run": false
+  },
+  "handover": {
+    "requested_by_user": true,
+    "document": "project-control/新主控交接Prompt-2026-10-27.md",
+    "prepared_at": "2026-10-27T14:51:45.977340+08:00",
+    "new_thread_not_created_by_old_controller": true,
+    "no_running_internal_scientific_work": true,
+    "current_scope": "LM first, then select subsequent original datasets; no automatic full-paper expansion"
+  }
+}
