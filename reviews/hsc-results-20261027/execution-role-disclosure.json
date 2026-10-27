@@ -1,0 +1,7 @@
+{
+  "host_python_executor": "independent reviewer",
+  "R_object_verification_executor": "root coordinator relay of reviewer-authored unchanged SHA-pinned script",
+  "R_script_sha256": "e41846c72ce008da368f862ce869f576f20b16b0df24068bb955b1fd7b00ed89",
+  "receipt_sha256": "258861a016b19a8951b0d06802ee83c630bb0a6121cfd54fcc65d7b9e6f3581b",
+  "reviewer_direct_docker_access_claimed": false
+}
