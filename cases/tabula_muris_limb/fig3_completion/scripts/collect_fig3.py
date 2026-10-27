@@ -11,11 +11,13 @@ base=Path(__file__).resolve().parents[1]
 root=Path('/workspace/cadir-lm-fig3-artifacts-20261027')
 run=root/'hvg-only/case-htbeu88g'
 render=root/'render-final'
+repair=root/'s1-legend-fix-20261027'
 assert json.loads((render/'provenance/verification.json').read_text())['status']=='PASS_IMPLEMENTER_SELFCHECK_ONLY'
 for folder in ['figures','tables','evidence/render','evidence/real-run','evidence/parent-sources']:
     (base/folder).mkdir(parents=True,exist_ok=True)
 for p in (render/'figures').glob('*'):
-    shutil.copyfile(p,base/'figures'/p.name)
+    source=repair/p.name if (repair/p.name).is_file() else p
+    shutil.copyfile(source,base/'figures'/p.name)
 # Full point clouds, all CA coordinates and all history membership/coordinates
 # remain in the indexed external artifacts; concise review tables are in Git.
 tables=['cluster_annotation_reference_map.tsv','panel_cluster_selection.tsv','all_cell_assignments.tsv',
@@ -44,7 +46,7 @@ def record(p):
     with p.open('rb') as f:
         for c in iter(lambda:f.read(1024*1024),b''):h.update(c)
     return {'path':str(p),'bytes':p.stat().st_size,'sha256':h.hexdigest()}
-external=[record(p) for folder in [run,render] for p in sorted(folder.rglob('*')) if p.is_file()]
+external=[record(p) for folder in [run,render] + ([repair] if repair.is_dir() else []) for p in sorted(folder.rglob('*')) if p.is_file()]
 (base/'evidence/external_artifacts.json').write_text(json.dumps(external,indent=2)+'\n')
 rds=[r for r in external if r['path'].lower().endswith('.rds')]
 (base/'evidence/external_RDS_index.json').write_text(json.dumps(rds,indent=2)+'\n')
@@ -59,9 +61,9 @@ assert all('/fig3_completion/' in p for p in preservation['changed_tracked_paths
 (base/'evidence/preservation.json').write_text(json.dumps(preservation,indent=2)+'\n')
 scripts=[record(p) for p in sorted((base/'scripts').glob('*')) if p.is_file()]
 (base/'evidence/implementation_source_sha256.json').write_text(json.dumps(scripts,indent=2)+'\n')
-packet=root/'Limb_Muscle_Fig3_S1_review_packet.tar.gz'
+packet=root/('Limb_Muscle_Fig3_S1_review_packet_display_fixed.tar.gz' if repair.is_dir() else 'Limb_Muscle_Fig3_S1_review_packet.tar.gz')
 with tarfile.open(packet,'w:gz') as tf:
     for p in sorted(base.rglob('*')):
-        if p.is_file(): tf.add(p,arcname=Path('fig3_completion')/p.relative_to(base))
+        if p.is_file() and p != base/'evidence/review_packet.json': tf.add(p,arcname=Path('fig3_completion')/p.relative_to(base))
 (base/'evidence/review_packet.json').write_text(json.dumps(record(packet),indent=2)+'\n')
 print(json.dumps({'review_packet':record(packet),'external_files':len(external),'RDS_objects':len(rds)}))

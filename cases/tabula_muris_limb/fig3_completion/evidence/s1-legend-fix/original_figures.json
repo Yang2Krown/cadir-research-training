@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/original/S1D_Bcell_standard.png",
+    "bytes": 104511,
+    "sha256": "42bca7694eb08b3c7f74caf169f7d6acd376ff0ba64e651cc016440a28f49bbd"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/original/S1D_Bcell_standard.pdf",
+    "bytes": 331467,
+    "sha256": "a30905ee2a3a5574e311a69b647f73ea0ad81b48c03fdb53bebdbfd5b33f2c46"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/original/S1E_endothelial_standard.png",
+    "bytes": 101615,
+    "sha256": "27914c9f62ecfd225eb116c1bbb15a77d877aa5466a5b5273971033a82d5de35"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/original/S1E_endothelial_standard.pdf",
+    "bytes": 326874,
+    "sha256": "cd95f1466db18e4cf703025d81c07bf54a95c336b7436923d47ff94cf0b7b13d"
+  }
+]

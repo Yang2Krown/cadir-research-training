@@ -1,0 +1,82 @@
+[
+  {
+    "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/tables/CA_singular_values.tsv",
+    "bytes": 649,
+    "sha256": "ff4f4be592e9813ccd26c03f4c0d4215795301ca3df9ab78ab0f1c95e3b918fe"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/tables/Fig3A_actual_gene_labels.tsv",
+    "bytes": 4985,
+    "sha256": "680f4c58504059771d594a9ae19f300efc740d2ae3308c16f5353e075da6d5b6"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/tables/Fig3D_history_edges.tsv",
+    "bytes": 938,
+    "sha256": "a2983e4ee763394fcddecdc37ed5958559bc6ef60298a1d95e2a963767fabbb7"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/tables/Fig3D_node_annotations.tsv",
+    "bytes": 2047,
+    "sha256": "d716a97dd6da0a247547fa3d9d35ef9c4340408ff632158593e4b45ceeec58c2"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/tables/S1A_pairwise_direction_angles_degrees.tsv",
+    "bytes": 947,
+    "sha256": "b782aea58204b2df38cdd7c6f83cae0f93652066b48f14ea9f7f7a2f136cf7c4"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/tables/S1B_all_direction_projections.tsv",
+    "bytes": 2799,
+    "sha256": "59ff5befac11d70ae6dafe07f45bba7817895b978b7fb091e32d0488bc880ea0"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/tables/S1C_reference_flows.tsv",
+    "bytes": 1160,
+    "sha256": "46cd90784ccfd5d66b0e67291eebea250c07b7279a9a1b28086fc963dd7c99b2"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/tables/all_cell_assignments.tsv",
+    "bytes": 151854,
+    "sha256": "fadbc56230cb2d3ba9ceeef30265a842fc2f8791408ca5d6d8d982ca96a491c8"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/tables/all_gene_assignments.tsv",
+    "bytes": 81174,
+    "sha256": "b5f433723a2035c15fde1913c245546887199dae455f80196d9660235db71a21"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/tables/all_gene_ranks.tsv",
+    "bytes": 74413,
+    "sha256": "bfd59a07c0d7e9a33bcba979fc6641a398b4ad6ea384954cbb70ba5c415733f3"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/tables/cluster_annotation_reference_map.tsv",
+    "bytes": 594,
+    "sha256": "aa5e947a8f9a22dfcec3c661569e3ed51c6c9c7f709a9851483501aa8f097ad0"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/tables/directions_principal.tsv",
+    "bytes": 4473,
+    "sha256": "34053ff51684b603299278cd321e065bf85a9fa7fc23fe90fb501f81c79d64bf"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/tables/directions_standard.tsv",
+    "bytes": 4272,
+    "sha256": "a569debe9f574c3e947757984c9dbb041e888310a38b8ddd946c94db83935797"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/tables/panel_cluster_selection.tsv",
+    "bytes": 942,
+    "sha256": "6031acdb2f32678b0d7e70d981653895fda357c3fa5668771df09251fe4d188f"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/tables/principal_standard_projection_angle_checks.tsv",
+    "bytes": 3562,
+    "sha256": "63a84898fa961850af5f658f0fa904c8046093e5113957c92f2ac06e74d3045a"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/tables/top5_genes.tsv",
+    "bytes": 2133,
+    "sha256": "d8cabcde68457e77a10cf1d5103b359fb8f3ca83b6560c4f281f65c1fd9a61af"
+  }
+]

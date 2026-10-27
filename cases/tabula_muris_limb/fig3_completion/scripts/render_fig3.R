@@ -1,6 +1,8 @@
 #!/usr/bin/env Rscript
 # One saved CA basis, fixed ranks and real split/merge log; no reclustering.
 suppressPackageStartupMessages({library(CAdir); library(APL); library(ggplot2); library(patchwork)})
+script_path<-sub('^--file=','',grep('^--file=',commandArgs(),value=TRUE)[1])
+source(file.path(dirname(normalizePath(script_path)),'direction_legend.R'))
 options(warn=1)
 args <- commandArgs(trailingOnly=TRUE)
 stopifnot(length(args)==2)
@@ -128,13 +130,15 @@ pairplot<-function(base_role,other_roles,kind,filename) {
  cols<-c('#d44a3d','#00b1ea')
  for(i in seq_along(ids)) {
    j<-ids[i]; dd<-data.frame(x=dp[j,1],y=dp[j,2]); take<-ck@cell_clusters==j
-   p<-p+geom_point(data=as.data.frame(xy[take,,drop=FALSE]),aes(x,y),inherit.aes=FALSE,color=cols[i],size=1.2)+
+   p<-p+geom_point(data=as.data.frame(xy[take,,drop=FALSE]),aes(x,y),inherit.aes=FALSE,color=cols[i],size=1.2)
+   if(kind=='principal')p<-p+
        geom_abline(intercept=0,slope=dd$y/dd$x,color=cols[i],linetype='dashed',linewidth=.8)+
        annotate('text',x=dd$x*(2+i),y=dd$y*(2+i),label=gsub('_',' ',other_roles[i]),color=cols[i],size=3.6)
  }
  p<-p+coord_equal()+theme_bw(base_size=13)+theme(legend.position='none')+
       ggtitle(paste0(gsub('_',' ',base_role),' [',cl,'] | ',kind,' coordinates'))+
       labs(subtitle='6000 HVG-only | GOA predictions; see cluster selection table')
+ if(kind=='standard')p<-add_standard_direction_legend(p,dp[ids,,drop=FALSE],other_roles,cols)
  savefig(p,filename,10,7)
  plot_objects[[filename]]<<-p
  for(j in rownames(dirs)) {
