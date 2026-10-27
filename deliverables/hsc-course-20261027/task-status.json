@@ -1,0 +1,241 @@
+{
+  "schema_version": "1.0",
+  "snapshot_date": "2026-10-27",
+  "snapshot_state": "current",
+  "formal_execution_permitted": true,
+  "state_source": "Signed input, QC, design and result reviews; frozen run/result archive commit 091a8a4; local backup and Mac board remain unverified/not synced.",
+  "board_sync": {
+    "status": "not_synced",
+    "target": "Mac local task board",
+    "synced_at": null,
+    "note": "No Mac files or dashboard were edited by this task. This workspace JSON is prepared for later manual or authorized synchronization."
+  },
+  "tasks": [
+    {
+      "task_id": "HSC-INPUT",
+      "title": "Input legality and real-source identity review",
+      "status": "closed_limited_scope",
+      "summary": "The accepted real-input review da802216238bc66a60eff514b1ccebf213e77351 closed input legality and the A03 legacy-object entry review within its stated scope.",
+      "scope_limit": "This does not by itself constitute the final data-input lock, label lock, C04 novelty decision, or permission to run algorithms.",
+      "next_action": "Reuse the accepted review as the closed input-stage evidence; do not repeat the closed full-value comparison without a new concrete reason.",
+      "depends_on": [],
+      "evidence": [
+        {
+          "description": "Accepted HSC real-input stage conclusion",
+          "path": "/workspace/hsc-fair-experiment-handoff-20261026/HSC真实输入阶段结论-2026-10-26.md",
+          "sha256": null,
+          "status": "available"
+        },
+        {
+          "description": "Independent review commit recorded in the accepted input-stage conclusion: da802216238bc66a60eff514b1ccebf213e77351",
+          "path": null,
+          "sha256": null,
+          "status": "available"
+        }
+      ]
+    },
+    {
+      "task_id": "HSC-QC",
+      "title": "Common QC and read-only closeout",
+      "status": "passed_limited_scope",
+      "summary": "Common QC and input/label/configuration locks passed the independent stage-one review within its stated scope; the accepted finalization record states COMMON_PREPARATION_FINALIZED_NO_ALGORITHMS.",
+      "scope_limit": "QC passage is limited to the locked preparation and independent review; it does not represent final algorithm results or biological truth.",
+      "next_action": "Preserve the locked inputs and report the exact QC counts only from the reviewed artifacts in the final report.",
+      "depends_on": [
+        "HSC-INPUT"
+      ],
+      "evidence": [
+        {
+          "description": "Common preparation read-only finalization status",
+          "path": "/workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/evidence/common-preparation-finalization-01/stage1-finalization-status.json",
+          "sha256": "c9b711d1bfbeb9e30424734ef5f11ddcc3f593bfa4692a40ca682b797d2dcce4",
+          "status": "available"
+        },
+        {
+          "description": "Independent stage-one review report confirming real QC, locks and bounded admission",
+          "path": "/workspace/hsc-design-independent-review/reviews/hsc-design-20261026/独立阶段一科学审查报告.md",
+          "sha256": "9924101b8add80898f56a3aff4451327e7255e425fd6b1a5a4cd85a338957277",
+          "status": "available"
+        }
+      ]
+    },
+    {
+      "task_id": "HSC-DESIGN",
+      "title": "Formal runner, locks, and independent design review",
+      "status": "passed_limited_scope",
+      "summary": "Independent review signed PASS_LIMITED_FORMAL_EXECUTION for implementation commit 6cc7b3da67c193da11a67c45a75167d6521438b0; the exact admission JSON records C04 as ACCEPTED_LIMITED_NOVELTY_SCOPE and preserves its source-coverage limits.",
+      "scope_limit": "The signed admission permits only the frozen methods/seeds/input/configuration/environment. It is not result acceptance, superiority evidence, or final course acceptance.",
+      "next_action": "Keep the execution bound to the admitted hashes; route any substantive change for review before continuing.",
+      "depends_on": [
+        "HSC-INPUT",
+        "HSC-QC"
+      ],
+      "evidence": [
+        {
+          "description": "Signed admission JSON; SHA-256 verified against coordinator value",
+          "path": "/workspace/hsc-design-independent-review/reviews/hsc-design-20261026/admission.json",
+          "sha256": "5c0834c3150129980c1c372b9593be43e489a2ed42f9e9667abf131ebf4e1d0a",
+          "status": "available"
+        },
+        {
+          "description": "Independent design review commit 2d2565c24b3958260d7232ff03f211c06bd2e845",
+          "path": null,
+          "sha256": null,
+          "status": "available"
+        },
+        {
+          "description": "Admitted implementation commit 6cc7b3da67c193da11a67c45a75167d6521438b0",
+          "path": null,
+          "sha256": null,
+          "status": "available"
+        }
+      ]
+    },
+    {
+      "task_id": "HSC-RUNS",
+      "title": "Conditional CAdir and baseline runs",
+      "status": "passed_limited_scope",
+      "summary": "All 10 core runs and five diagnostics completed successfully with no retries; the frozen output is archived at result commit 091a8a4585cabc59a5504380398892bac49044f4. The separate reviewer accepted the bounded results.",
+      "scope_limit": "Acceptance is limited to the admitted single-study methods, inputs and metrics; it does not establish overall superiority, biological truth, or course-wide acceptance.",
+      "next_action": "Keep result commit 091a8a4585cabc59a5504380398892bac49044f4 fixed and cite the signed independent result review.",
+      "depends_on": [
+        "HSC-DESIGN"
+      ],
+      "evidence": [
+        {
+          "description": "Fixed run root; 10 core runs and five diagnostic runs completed, no retries (coordinator status)",
+          "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01",
+          "sha256": null,
+          "status": "available"
+        },
+        {
+          "description": "Run summary JSON; SHA-256 of small result summary",
+          "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/summary.json",
+          "sha256": "6d3e2675b906741e73e9d7d6541e814ca8a1815a15ba501968a01f0573602ced",
+          "status": "available"
+        },
+        {
+          "description": "Per-method/per-seed TSV; SHA-256 of small result table",
+          "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/all-seed-results.tsv",
+          "sha256": "548dda19dde7a6c695a348dfd399f543517d86d5a144268029d80a087f3bccd3",
+          "status": "available"
+        },
+        {
+          "description": "All ten method/seed processes recorded with exit code 0 and no retries",
+          "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/attempt-receipts.json",
+          "sha256": "4e56cac65d1f97b89efe61d3c3e4968eaa4ecd67f0b619295ba720f889c0dab2",
+          "status": "available"
+        },
+        {
+          "description": "Actual terminal capture; preserved for final small package",
+          "path": "/workspace/hsc-fair-experiment-data-20261026/formal-capture/6cc7b3d-20261027-attempt-01/terminal.typescript",
+          "sha256": "8c8c2381f2cdcb5cbf7dd8f0a48481fbc505701bdbbc7566a3fdf576e6a1b7d8",
+          "status": "available"
+        },
+        {
+          "description": "Actual timing capture; preserved for final small package",
+          "path": "/workspace/hsc-fair-experiment-data-20261026/formal-capture/6cc7b3d-20261027-attempt-01/terminal.timing",
+          "sha256": "1ea68eccdb89279d074b846280e07cd8189b8a7a69a5b64317d8c14e6e965970",
+          "status": "available"
+        },
+        {
+          "description": "Generated presentation output set; caption and presentation status explicitly remain pending independent result review",
+          "path": "/workspace/hsc-fair-experiment-data-20261026/presentation/6cc7b3d-20261027-attempt-01",
+          "sha256": null,
+          "status": "available"
+        },
+        {
+          "description": "Frozen result archive commit",
+          "path": "/workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01",
+          "sha256": null,
+          "status": "available"
+        }
+      ]
+    },
+    {
+      "task_id": "HSC-RESULT-REVIEW",
+      "title": "Independent results and metric review",
+      "status": "passed_limited_scope",
+      "summary": "Independent results review signed PASS_LIMITED_RESULT_ACCEPTANCE. The review is bound to result commit 091a8a4 and admitted source commit 6cc7b3d; the separate text-consistency record permits only status/citation updates to the two Chinese drafts.",
+      "scope_limit": "The decision retains the stated limitations: single-study descriptive scope, seeds are not biological replicates, reference is not functional-lineage truth, C04 novelty is limited, and local backup/Mac sync are unverified.",
+      "next_action": "Preserve the signed report, decision and text-review record unchanged in the delivery package.",
+      "depends_on": [
+        "HSC-RUNS"
+      ],
+      "evidence": [
+        {
+          "description": "Signed independent result decision; SHA-256 verified",
+          "path": "/workspace/hsc-results-independent-review/reviews/hsc-results-20261027/decision.json",
+          "sha256": "dc54cfe9ba4a6cd751e0ccd2ab356326c56290ff441d5047a37613a78672ad63",
+          "status": "available"
+        },
+        {
+          "description": "Independent result report; SHA-256 verified",
+          "path": "/workspace/hsc-results-independent-review/reviews/hsc-results-20261027/独立结果复验报告.md",
+          "sha256": "9ad5bacad654f05773098b7f54e1c61e7efc1a2406e54aa0a34e625449403366",
+          "status": "available"
+        },
+        {
+          "description": "Signed limited scientific text-consistency record; permits status/citation-only updates",
+          "path": "/workspace/hsc-results-independent-review/reviews/hsc-results-20261027/delivery-text-review.json",
+          "sha256": "d24a53fb7f16c10f488c646600f49330a5b04930b9e2eb238d9dde898bb3ab1b",
+          "status": "available"
+        },
+        {
+          "description": "Final reviewer tip containing the signed result and text-review records",
+          "path": null,
+          "sha256": null,
+          "status": "available"
+        }
+      ]
+    },
+    {
+      "task_id": "HSC-EXPORT",
+      "title": "Final figures, tables, captions, and result package",
+      "status": "completed_read_only",
+      "summary": "The final small-results ZIP was assembled from the frozen result archive, with every RDS excluded and external paths/sizes/SHA-256 indexed. ZIP CRC and per-member SHA-256 verification passed; the ZIP digest is in its .sha256 sidecar.",
+      "scope_limit": "The ZIP is a small-results/provenance package, not a full data backup. Mac board sync and user-local raw/object backup remain unverified.",
+      "next_action": "Root may push the delivery commit; user-local external-object export and SHA verification remain outstanding.",
+      "depends_on": [
+        "HSC-RESULT-REVIEW"
+      ],
+      "evidence": [
+        {
+          "description": "Verified ZIP artifact (CRC and every member SHA-256 passed); digest in adjacent sidecar",
+          "path": "/workspace/hsc-course-delivery-git/deliverables/hsc-course-20261027/HSC-course-results-091a8a4-20261027.zip",
+          "sha256": null,
+          "status": "available"
+        },
+        {
+          "description": "ZIP SHA-256 sidecar",
+          "path": "/workspace/hsc-course-delivery-git/deliverables/hsc-course-20261027/HSC-course-results-091a8a4-20261027.zip.sha256",
+          "sha256": null,
+          "status": "available"
+        },
+        {
+          "description": "Final package manifest with signed review and external-object inventory",
+          "path": "/workspace/hsc-course-delivery-git/deliverables/hsc-course-20261027/package_manifest.json",
+          "sha256": null,
+          "status": "available"
+        }
+      ]
+    },
+    {
+      "task_id": "HSC-LOCAL-BACKUP",
+      "title": "Separate export and user-local backup verification",
+      "status": "not_started",
+      "summary": "Mac board remains not synced; user-local copy of all raw and prepared data has not been verified.",
+      "scope_limit": "Workspace reference hashes and the ZIP external-object index do not prove the user has a complete local backup.",
+      "next_action": "After delivery, export all external objects and record user-local byte counts and SHA-256 values.",
+      "depends_on": [],
+      "evidence": [
+        {
+          "description": "Source file sizes and hashes from the acquisition manifest; local copy still unverified",
+          "path": "/workspace/nestorowa-metadata-preparation/acquisition_manifest.json",
+          "sha256": null,
+          "status": "available"
+        }
+      ]
+    }
+  ]
+}
