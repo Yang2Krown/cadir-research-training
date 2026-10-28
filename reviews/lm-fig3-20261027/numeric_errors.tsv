@@ -1,0 +1,64 @@
+"check"	"max_absolute_error"
+"std_columns"	3.5527136788005e-15
+"std_rows"	7.105427357601e-15
+"directions_principal"	4.9960036108132e-16
+"directions_standard"	4.88498130835069e-15
+"singular_values"	4.71844785465692e-16
+"angle_table"	1.20741826972573e-06
+"score_cluster_1"	4.88498130835069e-15
+"score_cluster_2"	5.32907051820075e-15
+"score_cluster_3"	7.54951656745106e-15
+"score_cluster_4"	6.21724893790088e-15
+"score_cluster_5"	1.02140518265514e-14
+"score_cluster_6"	4.88498130835069e-15
+"score_cluster_7"	1.68753899743024e-14
+"A cluster_1 cell"	5.15143483426073e-14
+"A cluster_1 gene"	7.105427357601e-15
+"A cluster_2 cell"	4.9737991503207e-14
+"A cluster_2 gene"	4.61852778244065e-14
+"A cluster_3 cell"	4.9737991503207e-14
+"A cluster_3 gene"	3.5527136788005e-14
+"A cluster_4 cell"	5.15143483426073e-14
+"A cluster_4 gene"	3.5527136788005e-14
+"A cluster_5 cell"	5.15143483426073e-14
+"A cluster_5 gene"	2.66453525910038e-14
+"A cluster_6 cell"	5.15143483426073e-14
+"A cluster_6 gene"	4.79616346638068e-14
+"A cluster_7 cell"	5.15143483426073e-14
+"A cluster_7 gene"	1.06026298851702e-14
+"Fig3B_Bcell_principal"	5.32907051820075e-15
+"Fig3B_Bcell_principal_directions"	4.44089209850063e-16
+"Fig3C_endothelial_principal"	5.55111512312578e-15
+"Fig3C_endothelial_principal_directions"	4.44089209850063e-16
+"S1D_Bcell_standard"	4.9737991503207e-14
+"S1D_Bcell_standard_directions"	4.88498130835069e-15
+"S1E_endothelial_standard"	5.15143483426073e-14
+"S1E_endothelial_standard_directions"	4.88498130835069e-15
+"S1B_cluster_1"	4.9960036108132e-16
+"S1B_cluster_2"	4.44089209850063e-16
+"S1B_cluster_3"	4.44089209850063e-16
+"S1B_cluster_4"	5.55111512312578e-16
+"S1B_cluster_5"	4.44089209850063e-16
+"S1B_cluster_6"	5.55111512312578e-16
+"S1B_cluster_7"	4.44089209850063e-16
+"history_iter_0-cluster_1"	5.10702591327572e-15
+"history_iter_0-cluster_2"	5.32907051820075e-15
+"history_iter_0-cluster_3"	5.10702591327572e-15
+"history_iter_0-cluster_4"	5.32907051820075e-15
+"history_iter_0-cluster_5"	5.32907051820075e-15
+"history_iter_0-cluster_6"	5.32907051820075e-15
+"history_iter_0-cluster_7"	5.32907051820075e-15
+"history_iter_0-cluster_8"	5.32907051820075e-15
+"history_merge_iter_1-cluster_1"	5.10702591327572e-15
+"history_merge_iter_1-cluster_2"	5.55111512312578e-15
+"history_merge_iter_1-cluster_3"	5.32907051820075e-15
+"history_merge_iter_1-cluster_4"	5.55111512312578e-15
+"history_merge_iter_1-cluster_5"	5.10702591327572e-15
+"history_merge_iter_1-cluster_6"	5.32907051820075e-15
+"history_split_iter_2-cluster_1"	5.10702591327572e-15
+"history_split_iter_2-cluster_2"	5.32907051820075e-15
+"history_split_iter_2-cluster_3"	5.10702591327572e-15
+"history_split_iter_2-cluster_4"	5.32907051820075e-15
+"history_split_iter_2-cluster_5"	5.10702591327572e-15
+"history_split_iter_2-cluster_6"	5.32907051820075e-15
+"history_split_iter_2-cluster_7"	5.32907051820075e-15

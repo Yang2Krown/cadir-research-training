@@ -1,0 +1,36 @@
+                                    Endothelial cell [cluster_7] | standard coordinates
+                                    6000 HVG−only | GOA predictions; see cluster selection table
+
+
+
+                               40
+
+
+
+
+                               30
+
+
+
+
+         orthogonal distance
+                               20
+
+
+
+
+                               10
+
+
+
+
+                                      Ptprb
+                                         Eltd1
+                                    Gpr116
+                                0
+                                     Cdh5 Flt1
+                                     0   2   4    6
+                  association strength
+
+Compared direction                               Vascular endothelial cell
+

@@ -1,0 +1,19 @@
+{
+  "status": "PASS_INDEPENDENT_PROVENANCE",
+  "HVG_ids_match_saved_variance_top6000": true,
+  "alpha": 1.0750644620377505,
+  "render_seed": 2358,
+  "render_has_no_CA_clustering_reranking_calls": true,
+  "function_md5": {
+    "cluster_apl": "9dc82828b2d6833f12fb5cb95d6b32b7",
+    "apl_model": "c2b0835025bc921375987de04dd09cb1",
+    "plot_clusters": "da771ef94bf2b93123cafcb3469119ca",
+    "plot_results": "c02fa4caca78dbfd9a31a814fcf59078",
+    "sm_plot": "948975c27c8233e94b218bbdfe53c8af",
+    "build_graph": "5c01abe255d33c74f97efa3b64c169c0",
+    "assign_genes": "cf9874089bacd36d58669a4f191d6355",
+    "rank_genes": "92ee9945ebccfc24e79ce1d6a5b406f1",
+    "get_angle": "ecd6152fa68d358381d7b7e94b99f4eb",
+    "annotate_by_gse": "a2f78ca888b83c60675861229e7ae9e1"
+  }
+}

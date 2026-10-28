@@ -1,0 +1,120 @@
+
+FUNCTION build_sub_graph 
+function (before, after, before_nm = "start", after_nm = "end") 
+{
+    graph <- data.frame()
+    node <- unique(before)
+    for (n in node) {
+        n_nm <- paste0(before_nm, "-", n)
+        cluster <- which(before == n)
+        new_clusters <- unique(after[cluster])
+        for (nn in new_clusters) {
+            nn_nm <- paste0(after_nm, "-", nn)
+            graph <- rbind(graph, data.frame(from = n_nm, to = nn_nm))
+        }
+    }
+    return(graph)
+}
+<bytecode: 0x55cdc2549bf0>
+<environment: namespace:CAdir>
+
+FUNCTION f2c 
+function (f) 
+{
+    c <- as.character(f)
+    stopifnot(is.character(c))
+    return(c)
+}
+<bytecode: 0x55cdc2595340>
+<environment: namespace:CAdir>
+
+FUNCTION goa_per_cluster 
+function (cadir, universe, org, set = "CellMarker", min_size = 10, 
+    max_size = 500, filter_literature = FALSE, verbose = TRUE) 
+{
+    stopifnot(is(cadir, "cadir"))
+    suppressWarnings({
+        cadir <- rm_monoclusters(cadir)
+    })
+    gs <- load_ct_gene_set(set = set, org = org)
+    gene_sets <- make_gene_set_list(gs, filter_literature = filter_literature)
+    gc <- cadir@gene_clusters
+    gc_names <- sort(unique(gc))
+    gc_list <- lapply(X = gc_names, FUN = function(x) {
+        names(gc[which(gc == gc_names[x])])
+    })
+    names(gc_list) <- gc_names
+    gse_res <- list()
+    for (c in seq_len(length(gc_list))) {
+        gene <- gc_list[[c]]
+        clst_name <- names(gc_list)[c]
+        goa <- compute_goa(gois = gene, gene_sets = gene_sets, 
+            universe = universe, min_size = min_size, max_size = max_size, 
+            verbose = verbose)
+        gse_res[[clst_name]] <- goa
+    }
+    return(gse_res)
+}
+<bytecode: 0x55cdc259a2f0>
+<environment: namespace:CAdir>
+
+FUNCTION goa_bicluster 
+
+FUNCTION run_hungarian 
+function (gse_res, cost = "logpval") 
+{
+    gse_res <- dplyr::bind_rows(gse_res, .id = "cluster")
+    if (cost == "pval") {
+        gse_res$cost <- gse_res[, "padj"]
+        na_cost <- 1
+        result_factor <- 1
+    }
+    else if (cost == "logpval") {
+        gse_res$cost <- log10(gse_res$padj)
+        na_cost <- 0
+        result_factor <- -1
+    }
+    else if (cost == "NES") {
+        gse_res$cost <- -gse_res$NES
+        na_cost <- 0
+        result_factor <- -1
+    }
+    else {
+        rlang::abort("Invalid cost.")
+    }
+    cost_mat <- stats::reshape(data = gse_res[, c("cluster", 
+        "gene_set", "cost")], direction = "wide", idvar = "cluster", 
+        timevar = "gene_set", new.row.names = seq_len(length(unique(gse_res$cluster))))
+    cost_mat[is.na(cost_mat)] <- na_cost
+    colnames(cost_mat) <- gsub("cost.", "", colnames(cost_mat), 
+        fixed = TRUE)
+    if ("No_Cell_Type_Found" %in% colnames(cost_mat)) {
+        rm_col <- which(colnames(cost_mat) == "No_Cell_Type_Found")
+        cost_mat <- cost_mat[, -rm_col, drop = FALSE]
+    }
+    if (ncol(cost_mat) == 1) {
+        stop("GOA results do not contain any cell types! Check if any genes are in the gene sets!")
+    }
+    clusters <- as.character(cost_mat$cluster)
+    cell_types <- colnames(cost_mat)[2:ncol(cost_mat)]
+    cost_mat <- as.matrix(cost_mat[, 2:ncol(cost_mat)], drop = FALSE)
+    assignments <- RcppHungarian::HungarianSolver(cost_mat)$pairs
+    assignments <- assignments[assignments[, 2] > 0, ]
+    cluster_anno <- data.frame(cluster = clusters[assignments[, 
+        1]], cell_type = cell_types[assignments[, 2]], cost = result_factor * 
+        cost_mat[assignments])
+    return(cluster_anno)
+}
+<bytecode: 0x55cdc25ac700>
+<environment: namespace:CAdir>
+
+FUNCTION ca_sphere_idx 
+function (x, qcutoff = 0.8) 
+{
+    xn <- row_norm(x)
+    q <- stats::quantile(xn, qcutoff)
+    idx <- which(xn >= q)
+    return(idx)
+}
+<bytecode: 0x55cdc25c2308>
+<environment: namespace:CAdir>
