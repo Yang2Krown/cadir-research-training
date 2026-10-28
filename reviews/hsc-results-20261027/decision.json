@@ -1,0 +1,69 @@
+{
+  "decision": "PASS_LIMITED_RESULT_ACCEPTANCE",
+  "signed_at_utc": "2026-10-27T01:28:59.989311+00:00",
+  "reviewer_agent_id": "/root/hsc_results_independent_review",
+  "reviewer_model": "gpt-6.1-sol",
+  "reviewer_reasoning_effort": "high",
+  "fork_turns": "none",
+  "reviewer_participated_in_result_implementation": false,
+  "result_commit": "091a8a4585cabc59a5504380398892bac49044f4",
+  "source_commit": "6cc7b3da67c193da11a67c45a75167d6521438b0",
+  "design_review_commit": "2d2565c24b3958260d7232ff03f211c06bd2e845",
+  "authority_commit": "574c71e357f4b3bb714a3d4ddceb28593b0afd27",
+  "accepted_input_review": "da802216238bc66a60eff514b1ccebf213e77351",
+  "admission_sha256": "5c0834c3150129980c1c372b9593be43e489a2ed42f9e9667abf131ebf4e1d0a",
+  "bindings": {
+    "source_manifest_sha256": "8936ab92c624c9b8cc222caa4420c6d5f64c540fb740734d5fbca623bee97f6f",
+    "data_lock_sha256": "ac46362a024950ebeda08795b5f64857d3487435328c273e1dc2b8107feee6c1",
+    "scientific_config_sha256": "b1e30c8d292b289095bcc1b5159f82b4568f16ca4b07207e039795e15219a969",
+    "environment_signature_sha256": "e2e6b0b03a1952068eaa8c4ccec469671d947bb4553926b326d4f1086b0b2fc5",
+    "runtime_library_lock_sha256": "37bd6195b8605db9572addc842431a723b1980deb4a6cc96c8e23fee5aac5d52",
+    "docker_image_id": "sha256:baf71525f92cb9813846199dce68c6190c23d4774b025a7baec85e9688b642c7"
+  },
+  "result_artifact_bindings": {
+    "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/formal/all-seed-results.tsv": "548dda19dde7a6c695a348dfd399f543517d86d5a144268029d80a087f3bccd3",
+    "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/formal/summary.json": "6d3e2675b906741e73e9d7d6541e814ca8a1815a15ba501968a01f0573602ced",
+    "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/formal/attempt-receipts.json": "4e56cac65d1f97b89efe61d3c3e4968eaa4ecd67f0b619295ba720f889c0dab2",
+    "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/external-artifacts-sha256.json": "e2ca90bae43b2184079ec2893f415088c004ccd00416b33b6d15648fc3de6b4b",
+    "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/archive-copy-sha256.json": "2d9717f7cad089fa577de7cf0fd5d2481c95dc8dad90922fbb88df84429369c8",
+    "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/large-objects-export-manifest.json": "00ad884c169fb9d76fb253a2663bb28e76c8a44834d39cbf136c6cb546cdff1b",
+    "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/terminal-capture/coordinator-execution.json": "68723eec1dcd9c9308dcba1a2aeddef2e321105d910a9cc3e73cb12ca65c708e",
+    "cases/nestorowa_hsc/fair-experiment/results/6cc7b3d-20261027-attempt-01/实际结果报告.md": "31e50c3066120cdb128bed5bc07b5b39fbed6062df1e1ebe0f29847a14824bac"
+  },
+  "independent_evidence": {
+    "host_checks": 9111,
+    "object_checks": 130,
+    "presentation_context_checks": 85,
+    "actually_viewed_presentation_PNGs": 8,
+    "actually_viewed_native_PNGs": 1,
+    "max_ARI_difference": 4.440892098500626e-16,
+    "max_NMI_difference": 4.440892098500626e-16,
+    "max_saved_basis_score_error": 1.4210854715202e-14,
+    "metrics_and_summary_recomputed_independently": true,
+    "algorithms_reexecuted": false,
+    "source_data_runtime_and_archive_hashes_verified": true
+  },
+  "important_findings": [],
+  "required_implementation_repairs": [],
+  "C04_decision": "ACCEPTED_LIMITED_NOVELTY_SCOPE",
+  "accepted_claim": "On this single study and frozen preprocessing/parameters, CAdir has higher ARI and lower NMImax than PCA+SNN/Louvain; both methods succeeded 5/5; no overall superiority claim.",
+  "limitations": [
+    "Single-study descriptive comparison; seeds are not biological replicates; donor/Rep unknown.",
+    "Published broad immunophenotype reference is not functional-lineage ground truth.",
+    "1656 retained cells does not establish original-paper same-ID cohort.",
+    "C04 ACCEPTED_LIMITED_NOVELTY_SCOPE inherited from independent design review: S1 full text, Table2 image rows and Zenodo contents remain unverified; no never-used-by-authors claim.",
+    "Native association figure Ensembl labels overlap and axis titles are absent; retain as a diagnostic and consult complete TSV.",
+    "Geometry verified only within each exact saved CA basis; no arbitrary basis invariance or gene-function accuracy claim.",
+    "Core RSS is sampled every 50ms and can miss spikes; process VmHWM includes startup/loading; no general performance-superiority claim.",
+    "Mac board not synchronized by reviewer; user-local complete raw/object backup unverified; course final materials/submission are outside this result acceptance."
+  ],
+  "execution_disclosure": {
+    "host_python_executor": "independent reviewer",
+    "R_object_verification_executor": "root coordinator relay of reviewer-authored unchanged SHA-pinned script",
+    "R_script_sha256": "e41846c72ce008da368f862ce869f576f20b16b0df24068bb955b1fd7b00ed89",
+    "receipt_sha256": "258861a016b19a8951b0d06802ee83c630bb0a6121cfd54fcc65d7b9e6f3581b",
+    "reviewer_direct_docker_access_claimed": false
+  },
+  "review_report": "reviews/hsc-results-20261027/独立结果复验报告.md",
+  "review_report_sha256": "9ad5bacad654f05773098b7f54e1c61e7efc1a2406e54aa0a34e625449403366"
+}

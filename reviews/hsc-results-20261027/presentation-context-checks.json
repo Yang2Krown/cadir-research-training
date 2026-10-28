@@ -1,0 +1,347 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "management_document_project-control/HSC准备与公平实验连续执行任务-2026-10-26.md",
+      "passed": true
+    },
+    {
+      "check": "management_document_project-control/HSC真实输入阶段结论-2026-10-26.md",
+      "passed": true
+    },
+    {
+      "check": "management_document_project-control/HSC扩展范围裁定-2026-10-26.md",
+      "passed": true
+    },
+    {
+      "check": "management_document_project-control/课程完成路线-2026-10-26.md",
+      "passed": true
+    },
+    {
+      "check": "no_replaced_attempt_in_fixed_run",
+      "passed": true
+    },
+    {
+      "check": "presentation_script_SHA",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/admission-used.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/locks/data-input-lock.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/frozen-reference.tsv",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/final-cell-ids.txt",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/evaluation-cell-ids.txt",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/hvg-gene-ids.txt",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/cell-qc.tsv",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/qc-thresholds.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01-finalization-01/preparation-summary.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/attempt-receipts.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-2358-attempt-01/core-artifacts-sha256.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-2358-attempt-01/metrics.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-2358-attempt-01/core-resources.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-2358-attempt-01/cell-partition.tsv",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-2358-attempt-01/core-artifacts-sha256.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-2358-attempt-01/metrics.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-2358-attempt-01/core-resources.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-2358-attempt-01/cell-partition.tsv",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-101-attempt-01/core-artifacts-sha256.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-101-attempt-01/metrics.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-101-attempt-01/core-resources.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-101-attempt-01/cell-partition.tsv",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-101-attempt-01/core-artifacts-sha256.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-101-attempt-01/metrics.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-101-attempt-01/core-resources.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-101-attempt-01/cell-partition.tsv",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-202-attempt-01/core-artifacts-sha256.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-202-attempt-01/metrics.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-202-attempt-01/core-resources.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-202-attempt-01/cell-partition.tsv",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-202-attempt-01/core-artifacts-sha256.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-202-attempt-01/metrics.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-202-attempt-01/core-resources.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-202-attempt-01/cell-partition.tsv",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-303-attempt-01/core-artifacts-sha256.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-303-attempt-01/metrics.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-303-attempt-01/core-resources.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-303-attempt-01/cell-partition.tsv",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-303-attempt-01/core-artifacts-sha256.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-303-attempt-01/metrics.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-303-attempt-01/core-resources.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-303-attempt-01/cell-partition.tsv",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-404-attempt-01/core-artifacts-sha256.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-404-attempt-01/metrics.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-404-attempt-01/core-resources.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-404-attempt-01/cell-partition.tsv",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-404-attempt-01/core-artifacts-sha256.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-404-attempt-01/metrics.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-404-attempt-01/core-resources.json",
+      "passed": true
+    },
+    {
+      "check": "presentation_consumed_file_/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-404-attempt-01/cell-partition.tsv",
+      "passed": true
+    },
+    {
+      "check": "presented_frozen_cutoff_log2 endogenous read count",
+      "passed": true
+    },
+    {
+      "check": "presented_frozen_cutoff_log2 detected endogenous genes",
+      "passed": true
+    },
+    {
+      "check": "presented_frozen_cutoff_ERCC percent",
+      "passed": true
+    },
+    {
+      "check": "PNG_signature_01-all-seed-ARI-NMI.png",
+      "passed": true
+    },
+    {
+      "check": "PNG_300dpi_01-all-seed-ARI-NMI.png",
+      "passed": true
+    },
+    {
+      "check": "PDF_pair_01-all-seed-ARI-NMI",
+      "passed": true
+    },
+    {
+      "check": "PNG_signature_02-cadir-seed2358-counts.png",
+      "passed": true
+    },
+    {
+      "check": "PNG_300dpi_02-cadir-seed2358-counts.png",
+      "passed": true
+    },
+    {
+      "check": "PDF_pair_02-cadir-seed2358-counts",
+      "passed": true
+    },
+    {
+      "check": "PNG_signature_02-cadir-seed2358-reference-share.png",
+      "passed": true
+    },
+    {
+      "check": "PNG_300dpi_02-cadir-seed2358-reference-share.png",
+      "passed": true
+    },
+    {
+      "check": "PDF_pair_02-cadir-seed2358-reference-share",
+      "passed": true
+    },
+    {
+      "check": "PNG_signature_02-pca_snn_louvain-seed2358-counts.png",
+      "passed": true
+    },
+    {
+      "check": "PNG_300dpi_02-pca_snn_louvain-seed2358-counts.png",
+      "passed": true
+    },
+    {
+      "check": "PDF_pair_02-pca_snn_louvain-seed2358-counts",
+      "passed": true
+    },
+    {
+      "check": "PNG_signature_02-pca_snn_louvain-seed2358-reference-share.png",
+      "passed": true
+    },
+    {
+      "check": "PNG_300dpi_02-pca_snn_louvain-seed2358-reference-share.png",
+      "passed": true
+    },
+    {
+      "check": "PDF_pair_02-pca_snn_louvain-seed2358-reference-share",
+      "passed": true
+    },
+    {
+      "check": "PNG_signature_03-shared-QC.png",
+      "passed": true
+    },
+    {
+      "check": "PNG_300dpi_03-shared-QC.png",
+      "passed": true
+    },
+    {
+      "check": "PDF_pair_03-shared-QC",
+      "passed": true
+    },
+    {
+      "check": "PNG_signature_04-common-cohort.png",
+      "passed": true
+    },
+    {
+      "check": "PNG_300dpi_04-common-cohort.png",
+      "passed": true
+    },
+    {
+      "check": "PDF_pair_04-common-cohort",
+      "passed": true
+    },
+    {
+      "check": "PNG_signature_05-core-resources.png",
+      "passed": true
+    },
+    {
+      "check": "PNG_300dpi_05-core-resources.png",
+      "passed": true
+    },
+    {
+      "check": "PDF_pair_05-core-resources",
+      "passed": true
+    },
+    {
+      "check": "eight_presentation_pairs",
+      "passed": true
+    },
+    {
+      "check": "prior_independent_39_check_repair_evidence_retained",
+      "passed": true
+    }
+  ],
+  "prior_repair_evidence_sha256": "6d71d4ba0b12d9b76d3cff541791e46ee4a8ea3f733a3941a1fe2f065ad3b5ac",
+  "prior_repair_review_not_reperformed": true
+}
