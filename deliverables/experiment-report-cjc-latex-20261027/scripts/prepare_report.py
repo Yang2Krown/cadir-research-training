@@ -131,10 +131,13 @@ class Renderer:
         cells = []
         for row in rows:
             cells.append([self.blocks(c[4]).strip().replace('\n\n', ' ') for c in row[1]])
-        defaults = {1: '实验数据与规模', 2: '实际软件环境', 6: '固定成果与独立检查提交',
-                    7: '代码与输入输出索引', 8: '已完成工作记录', 9: '团队分工与工时记录'}
-        caption = self.pending_table or defaults.get(self.table_number, '实验结果')
-        label = 'tab:lm-clusters' if '逐簇结果' in caption else 'tab:' + str(self.table_number)
+        titles = {1: '实验数据集及分析规模', 2: '软件环境及计算资源',
+                  3: 'LM细胞簇规模与关联基因数', 4: 'HSC两种方法在五个随机种子下的聚类结果',
+                  5: 'HSC聚类效果与计算开销汇总', 6: '实验成果与独立评审的版本索引',
+                  7: '案例分析模块与输入输出', 8: '项目阶段工作与交付物',
+                  9: '成员分工与工时统计'}
+        caption = titles[self.table_number]
+        label = 'tab:lm-clusters' if self.table_number == 3 else 'tab:' + str(self.table_number)
         self.pending_table = None
         env = 'table' if self.in_appendix else 'table*'
         spec = ('>{\\raggedright\\arraybackslash}X' * n)
@@ -154,18 +157,8 @@ class Renderer:
         cap = re.sub(r'^图\d+[\s\u3000]*', '', plain(caption)).rstrip('。')
         if n == 4:
             name = 'Fig3D_history_readable.pdf'
-            cap = '真实拆分合并历史的拓扑与局部放大：（a）22节点、23条边的完整历史；（b–d）合并簇C2及其拆分后C2、C7的关联图。亮绿表示该节点成员，深绿表示其余细胞'
-        if n == 2:
-            cap = cap.replace('B细胞簇', 'B细胞簇（cluster_3）')
-        elif n == 3:
-            cap = cap.replace('两个内皮预测方向', '内皮簇（cluster_7）与血管内皮簇（cluster_2）')
-        elif n == 8:
-            cap = cap.replace('免疫方向', 'B细胞簇（cluster_3）')
-        elif n == 9:
-            cap = cap.replace('内皮方向', '内皮簇（cluster_7）')
         if n == 5:
             name = 'S1A_angles_readable.pdf'
-            cap += '。C1—C7分别表示cluster_1—cluster_7，角度显示到小数点后一位'
         if n in [2, 5, 8, 12]:
             self.pending_figure = (n, name, cap)
             return ''

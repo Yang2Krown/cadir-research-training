@@ -175,7 +175,11 @@ onSerif(0)/m/n/10.53937 Benjamini |\TU/FandolSong-Regular(1)/m/n/10.53937 –|
 [26]
 [27]
 [28])
-[29] (./main.aux) )
+[29] (./main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
 (see the transcript file for additional information)
 Output written on main.pdf (29 pages).
 Transcript written on main.log.

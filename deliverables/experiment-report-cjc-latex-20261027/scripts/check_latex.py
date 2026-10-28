@@ -76,6 +76,31 @@ def main():
         assert r'\newlabel{fig:history-' + label + '}' in aux
     pages = fitz.open(ROOT / 'main.pdf')
     fulltext = ''.join(p.get_text() for p in pages)
+    caption_rows = []
+    section_text = '\n'.join(p.read_text() for p in (ROOT / 'sections').glob('*.tex'))
+    forbidden_caption = re.compile(r'两列|四行|三行|并排|放大|重排|排版|布局|裁切|修复后')
+    for caption, label in re.findall(r'\\caption\{([^\n]+)\}\\label\{([^}]+)\}', section_text):
+        assert not forbidden_caption.search(caption), (label, caption)
+        caption_rows.append(dict(label=label, caption=caption))
+    assert sum(r['label'].startswith('fig:') for r in caption_rows) == 16
+    assert sum(r['label'].startswith('tab:') for r in caption_rows) == 9
+    graphic_text_checks = []
+    forbidden_graphic = re.compile(r'两列四行|两列三行|放大显示|two.columns|four.rows|enlarged display|layout instructions', re.I)
+    for filename in sorted(set(re.findall(r'\\includegraphics\[[^\]]*\]\{([^}]+)\}', section_text))):
+        graphic = fitz.open(ROOT / filename)
+        graphic_text = ''.join(page.get_text() for page in graphic)
+        assert not forbidden_graphic.search(graphic_text), filename
+        graphic_text_checks.append(dict(file=filename, forbidden_layout_instructions=False))
+    normalized_pdf = fulltext.replace('\n', '').replace(' ', '')
+    for title in ['LM初始聚类阶段的细胞关联结构', 'LM簇合并后的细胞关联结构', 'LM簇拆分后的细胞关联结构']:
+        assert title in normalized_pdf, title
+    for phrase in ['按两列四行', '按两列三行', '放大显示', '局部放大']:
+        assert phrase not in normalized_pdf, phrase
+    (ROOT / 'evidence/caption-check.json').write_text(json.dumps(dict(
+        figures=16, tables=9, captions=caption_rows,
+        graphic_text_checks=graphic_text_checks,
+        policy='Titles describe scientific content; layout and editing instructions excluded'),
+        ensure_ascii=False, indent=2)+'\n')
     assert '\ufffd' not in fulltext
     first_page = pages[0].get_text().replace('\n', '').replace(' ', '')
     for text in ['2026年10月','October2026','孙良坤','李思言','ChatGPT6.1Sol','南京农业大学']:

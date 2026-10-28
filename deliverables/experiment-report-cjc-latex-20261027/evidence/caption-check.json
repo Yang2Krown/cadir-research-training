@@ -1,0 +1,173 @@
+{
+  "figures": 16,
+  "tables": 9,
+  "captions": [
+    {
+      "label": "tab:1",
+      "caption": "实验数据集及分析规模"
+    },
+    {
+      "label": "tab:2",
+      "caption": "软件环境及计算资源"
+    },
+    {
+      "label": "tab:lm-clusters",
+      "caption": "LM细胞簇规模与关联基因数"
+    },
+    {
+      "label": "fig:1",
+      "caption": "LM细胞—基因关联图及各簇前五位关联基因"
+    },
+    {
+      "label": "fig:2",
+      "caption": "B细胞簇（cluster\\_3）与T细胞、巨噬细胞方向的主坐标比较"
+    },
+    {
+      "label": "fig:3",
+      "caption": "内皮细胞簇（cluster\\_7）与血管内皮细胞簇（cluster\\_2）的主坐标比较"
+    },
+    {
+      "label": "fig:4",
+      "caption": "LM细胞簇的合并与拆分过程及内皮相关簇的关联结构。（a）聚类历史；（b）合并后的C2；（c、d）拆分后的C2与C7。亮绿表示该簇成员，深绿表示其余细胞"
+    },
+    {
+      "label": "fig:5",
+      "caption": "LM细胞簇方向的两两夹角（单位：度）。C1—C7对应cluster\\_1—cluster\\_7，数值保留一位小数"
+    },
+    {
+      "label": "fig:6",
+      "caption": "LM七个细胞簇的关联图与方向投影矩阵"
+    },
+    {
+      "label": "fig:7",
+      "caption": "LM预测簇与原始参考细胞类别之间的对应关系"
+    },
+    {
+      "label": "fig:8",
+      "caption": "B细胞簇（cluster\\_3）的标准坐标关联图"
+    },
+    {
+      "label": "fig:9",
+      "caption": "内皮细胞簇（cluster\\_7）的标准坐标关联图"
+    },
+    {
+      "label": "fig:10",
+      "caption": "HSC质量控制前后的细胞数及聚类与评价队列"
+    },
+    {
+      "label": "tab:4",
+      "caption": "HSC两种方法在五个随机种子下的聚类结果"
+    },
+    {
+      "label": "fig:11",
+      "caption": "HSC两种方法在五个随机种子下的ARI与NMImax"
+    },
+    {
+      "label": "tab:5",
+      "caption": "HSC聚类效果与计算开销汇总"
+    },
+    {
+      "label": "fig:12",
+      "caption": "HSC参考类别在CAdir预测簇中的分布（随机种子2358）"
+    },
+    {
+      "label": "fig:13",
+      "caption": "HSC参考类别在PCA＋SNN＋Louvain预测簇中的分布（随机种子2358）"
+    },
+    {
+      "label": "tab:6",
+      "caption": "实验成果与独立评审的版本索引"
+    },
+    {
+      "label": "tab:7",
+      "caption": "案例分析模块与输入输出"
+    },
+    {
+      "label": "tab:8",
+      "caption": "项目阶段工作与交付物"
+    },
+    {
+      "label": "tab:9",
+      "caption": "成员分工与工时统计"
+    },
+    {
+      "label": "fig:history-initial",
+      "caption": "LM初始聚类阶段的细胞关联结构"
+    },
+    {
+      "label": "fig:history-merge",
+      "caption": "LM簇合并后的细胞关联结构"
+    },
+    {
+      "label": "fig:history-split",
+      "caption": "LM簇拆分后的细胞关联结构"
+    }
+  ],
+  "graphic_text_checks": [
+    {
+      "file": "layout/figures/Fig3A_association_top5.pdf",
+      "forbidden_layout_instructions": false
+    },
+    {
+      "file": "layout/figures/Fig3B_Bcell_principal.pdf",
+      "forbidden_layout_instructions": false
+    },
+    {
+      "file": "layout/figures/Fig3C_endothelial_principal.pdf",
+      "forbidden_layout_instructions": false
+    },
+    {
+      "file": "layout/figures/Fig3D_history_readable.pdf",
+      "forbidden_layout_instructions": false
+    },
+    {
+      "file": "layout/figures/HSC_01-all-seed-ARI-NMI.pdf",
+      "forbidden_layout_instructions": false
+    },
+    {
+      "file": "layout/figures/HSC_02-cadir-seed2358-reference-share.pdf",
+      "forbidden_layout_instructions": false
+    },
+    {
+      "file": "layout/figures/HSC_02-pca_snn_louvain-seed2358-reference-share.pdf",
+      "forbidden_layout_instructions": false
+    },
+    {
+      "file": "layout/figures/HSC_04-common-cohort.pdf",
+      "forbidden_layout_instructions": false
+    },
+    {
+      "file": "layout/figures/S1A_angles_readable.pdf",
+      "forbidden_layout_instructions": false
+    },
+    {
+      "file": "layout/figures/S1B_direction_projection_matrix.pdf",
+      "forbidden_layout_instructions": false
+    },
+    {
+      "file": "layout/figures/S1C_reference_sankey.pdf",
+      "forbidden_layout_instructions": false
+    },
+    {
+      "file": "layout/figures/S1D_Bcell_standard.pdf",
+      "forbidden_layout_instructions": false
+    },
+    {
+      "file": "layout/figures/S1E_endothelial_standard.pdf",
+      "forbidden_layout_instructions": false
+    },
+    {
+      "file": "layout/figures/history_initial_panels.pdf",
+      "forbidden_layout_instructions": false
+    },
+    {
+      "file": "layout/figures/history_merge_panels.pdf",
+      "forbidden_layout_instructions": false
+    },
+    {
+      "file": "layout/figures/history_split_panels.pdf",
+      "forbidden_layout_instructions": false
+    }
+  ],
+  "policy": "Titles describe scientific content; layout and editing instructions excluded"
+}

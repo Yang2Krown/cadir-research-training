@@ -364,7 +364,7 @@ LM得到7簇、1200个已分配基因。相对8类原参考，ARI为0.6695187044
 
 如图1所示，七个关联图分别展示一个方向，簇内细胞为黄绿色、关联基因为橙色，其他细胞和基因为深绿色及灰色。每簇标出真实排名前五的基因。T细胞方向呈现沿横轴集中的结构；其他簇的纵向离散程度和背景点重叠展示了不同的分离状况。
 
-![图1　LM七簇关联图与真实top5基因（对应原论文Fig3A）。](assets/Fig3A_association_top5.png){width=95%}
+![图1　LM细胞—基因关联图及各簇前五位关联基因。](assets/Fig3A_association_top5.png){width=95%}
 
 基因得分将投影强度和偏离距离结合。`cluster_1`前五名为Cadm2、Syt12、Ntn5、Pax3、Gdnf，其得分依次为−0.230963、−0.258898、−0.288689、−0.347069、−0.382294。这组负分数说明：在该簇的当前alpha下，正交距离惩罚大于投影收益；图中top5表示簇内排序最高的五个基因。完整分数表支持逐个基因解释。
 
@@ -372,17 +372,17 @@ LM得到7簇、1200个已分配基因。相对8类原参考，ARI为0.6695187044
 
 图2展示B细胞预测簇及T细胞、巨噬细胞方向，图3展示两个内皮预测方向。B与T方向夹角为63.9984377°，B与巨噬细胞为72.6956194°；两个内皮方向夹角为66.1100659°。等比例坐标轴便于观察投影几何。
 
-![图2　B细胞簇及T细胞、巨噬细胞的主坐标方向比较（对应Fig3B）。](assets/Fig3B_Bcell_principal.png){width=85%}
+![图2　B细胞簇（cluster_3）与T细胞、巨噬细胞方向的主坐标比较。](assets/Fig3B_Bcell_principal.png){width=85%}
 
-![图3　两个内皮预测方向的主坐标比较（对应Fig3C）。](assets/Fig3C_endothelial_principal.png){width=85%}
+![图3　内皮细胞簇（cluster_7）与血管内皮细胞簇（cluster_2）的主坐标比较。](assets/Fig3C_endothelial_principal.png){width=85%}
 
 预测与参考的对应进一步解释了图形。B预测簇含113个细胞，其中63个原参考为B cell、49个为lymphocyte。Macrophage预测簇76个细胞中73个参考为macrophage。Endothelial预测簇187个细胞均为endothelial cell参考，Vascular endothelial预测簇28个细胞中19个为该参考。两个内皮方向的细分来自GOA预测；原参考对它们使用同一个endothelial类别。
 
 ## 6.4 Fig3D：实际拆分合并过程
 
-图4根据保存的真实节点、边、坐标和成员表重新组织：上半部给出22节点、23条边的完整拓扑，节点直接标明阶段簇号与细胞数；下半部放大合并簇C2及其拆分后的C2、C7三个关联图。21个非根节点的完整关联图按初始、合并、拆分三个阶段分组放在附录D，每个面板保留该阶段成员、坐标、自动注释和细胞数。
+图4展示初始8个细胞簇经合并形成6簇、再经拆分形成7簇的历史过程。合并后的C2包含212个细胞，拆分后形成25个细胞的C2与187个细胞的C7。附录D给出三个阶段各簇的关联结构及历史自动注释。
 
-![图4　LM真实拆分合并历史（对应Fig3D）。](assets/Fig3D_actual_split_merge_history.png){width=95%}
+![图4　LM细胞簇的合并与拆分过程及内皮相关簇的关联结构。（a）聚类历史；（b）合并后的C2；（c、d）拆分后的C2与C7。亮绿表示该簇成员，深绿表示其余细胞。](assets/Fig3D_actual_split_merge_history.png){width=95%}
 
 历史图使用`keep_end=FALSE`展示到最后一次拆分，最终成员表则来自随后的细化。因此一个末层25细胞分支与最终28细胞簇分别代表不同计算时点。历史注释保留Immune cell、Bergmann glial cell等上游预测名称，反映当时的基因富集结果。该图把初始8方向到最终7簇的调整过程与细胞几何联系起来。
 
@@ -390,9 +390,9 @@ LM得到7簇、1200个已分配基因。相对8类原参考，ARI为0.6695187044
 
 图5给出7×7两两方向角矩阵，图6将七个基准关联图及其他方向投影组织成49个面板。前者适合读出明确角度，后者便于比较同一基准下其他簇的投影位置。
 
-![图5　全部簇方向的两两夹角，单位为度（对应S1A）。](assets/S1A_direction_angle_heatmap.png){width=85%}
+![图5　LM细胞簇方向的两两夹角（单位：度）。C1—C7对应cluster_1—cluster_7，数值保留一位小数。](assets/S1A_direction_angle_heatmap.png){width=85%}
 
-![图6　七个基准方向的关联图与方向投影矩阵（对应S1B）。](assets/S1B_direction_projection_matrix.png){width=95%}
+![图6　LM七个细胞簇的关联图与方向投影矩阵。](assets/S1B_direction_projection_matrix.png){width=95%}
 
 方向接近表示表达关联几何相近；结合原参考、自动注释和基因排名，可讨论哪些簇具有相似表达成分。方向角表保存了完整精度，补充了图中面板缩放后的视觉信息。
 
@@ -400,7 +400,7 @@ LM得到7簇、1200个已分配基因。相对8类原参考，ARI为0.6695187044
 
 图7保留1882个细胞在七个预测簇与八类原参考之间的全部流量。流量表、列联表和指标使用相同细胞ID，因此可以从总体ARI进一步定位到具体类别。
 
-![图7　LM七簇与八类原参考的细胞流量（对应S1C）。](assets/S1C_reference_sankey.png){width=95%}
+![图7　LM预测簇与原始参考细胞类别之间的对应关系。](assets/S1C_reference_sankey.png){width=95%}
 
 参考重叠显示，`cluster_1`以skeletal muscle satellite cell为最大类别（526／940），Schwalie命名簇以mesenchymal stem cell为最大类别（488／490）。各簇的组成有不同纯度，解释了总体指标与局部结构之间的关系。自动预测提供基因集层面的注释，参考流量提供已发布标签层面的对应。
 
@@ -408,11 +408,11 @@ LM得到7簇、1200个已分配基因。相对8类原参考，ARI为0.6695187044
 
 图8和图9将对应的免疫、内皮展示转换为标准坐标，并叠加相同簇的方向。方向按奇异值逐轴转换，细胞与方向坐标由实际对象计算。
 
-![图8　免疫方向的标准坐标关联图（对应S1D）。](assets/S1D_Bcell_standard.png){width=85%}
+![图8　B细胞簇（cluster_3）的标准坐标关联图。](assets/S1D_Bcell_standard.png){width=85%}
 
-![图9　内皮方向的标准坐标关联图（对应S1E）。](assets/S1E_endothelial_standard.png){width=85%}
+![图9　内皮细胞簇（cluster_7）的标准坐标关联图。](assets/S1E_endothelial_standard.png){width=85%}
 
-本次两组比较中的最大角度变化为27.5359338°。这一结果展示了各轴缩放如何改变方向关系。主坐标图用于解释原聚类方向角，标准坐标图用于观察与联合显示基因相联系的坐标表达。修复后的底部图例完整显示比较方向。
+本次两组比较中的最大角度变化为27.5359338°。这一结果展示了各轴缩放如何改变方向关系。主坐标图用于解释原聚类方向角，标准坐标图用于观察与联合显示基因相联系的坐标表达。图例标明与目标簇比较的细胞类型方向。
 
 ## 6.8 资源记录与数值检查
 
@@ -426,7 +426,7 @@ LM本次真实案例进程耗时36.3743秒，R进程峰值RSS为2278652 KiB，�
 
 共同QC由1920个候选细胞保留1656个，得到40721个合格基因和6000个共享高变基因。两种方法使用相同表达矩阵及1641细胞评价集合，各运行五个种子。图10展示质量控制与最终队列组成。
 
-![图10　HSC共同QC与聚类／评价队列组成。](assets/HSC_04-common-cohort.png){width=90%}
+![图10　HSC质量控制前后的细胞数及聚类与评价队列。](assets/HSC_04-common-cohort.png){width=90%}
 
 比较保持了输入、特征、降维维数、参考集合及预定种子的一致；CAdir的方向更新、拆分合并与PCA-SNN-Louvain的社区划分分别按各自配置执行。
 
@@ -449,7 +449,7 @@ LM本次真实案例进程耗时36.3743秒，R进程峰值RSS为2278652 KiB，�
 
 图11展示全部十次运行。两方法成功次数均为5／5。CAdir的ARI范围为0.288542—0.294305，基线为0.266975—0.269799；CAdir的NMImax范围为0.335759—0.346271，基线为0.356192—0.359383。
 
-![图11　HSC两方法五种子ARI与NMImax。](assets/HSC_01-all-seed-ARI-NMI.png){width=95%}
+![图11　HSC两种方法在五个随机种子下的ARI与NMImax。](assets/HSC_01-all-seed-ARI-NMI.png){width=95%}
 
 **表3　HSC结果的中位数汇总**
 
@@ -469,9 +469,9 @@ CAdir的ARI中位数比基线高0.022161，NMImax中位数低0.013050。ARI从�
 
 以预定种子2358为展示例，图12、13分别给出每一参考类别在预测簇之间的分布，每列归一化到100%。完整列联表同时保留细胞计数，可进一步检查各簇的参考组成。五个种子提供计算初始化变化下的描述，所有种子均进入汇总。
 
-![图12　HSC CAdir种子2358：各参考类别在预测簇间的分布。](assets/HSC_02-cadir-seed2358-reference-share.png){width=95%}
+![图12　HSC参考类别在CAdir预测簇中的分布（随机种子2358）。](assets/HSC_02-cadir-seed2358-reference-share.png){width=95%}
 
-![图13　HSC基线种子2358：各参考类别在预测簇间的分布。](assets/HSC_02-pca_snn_louvain-seed2358-reference-share.png){width=95%}
+![图13　HSC参考类别在PCA＋SNN＋Louvain预测簇中的分布（随机种子2358）。](assets/HSC_02-pca_snn_louvain-seed2358-reference-share.png){width=95%}
 
 HSC结果的独立检查重新计算了十次指标，并检查保存对象、输入ID、输出完整性及主要图表。最大数值差异处于浮点舍入量级。
 
@@ -598,7 +598,7 @@ LM独立报告保存在`project-control/reviews/lm-fig3-20261027/report.md`。HS
 |  |  |  |  |
 |  |  |  |  |
 
-# 附录D 历史节点的放大关联图
+# 附录D 聚类历史各阶段的细胞关联结构
 
 三个阶段共21个面板使用已有逐节点坐标与逐细胞成员表绘制。每个面板展示1882个细胞，亮绿色表示该节点的成员，深绿色表示其余细胞；标题列出该阶段簇号、细胞数与历史自动注释。各阶段的细胞总数均为1882。
 
@@ -606,17 +606,17 @@ LM独立报告保存在`project-control/reviews/lm-fig3-20261027/report.md`。HS
 \begin{figure}[p]
 \centering
 \includegraphics[width=0.98\textwidth,height=0.91\textheight,keepaspectratio]{layout/figures/history_initial_panels.pdf}
-\caption{初始阶段的8个节点关联图，按两列四行放大显示。}\label{fig:history-initial}
+\caption{LM初始聚类阶段的细胞关联结构}\label{fig:history-initial}
 \end{figure}
 \begin{figure}[p]
 \centering
 \includegraphics[width=0.98\textwidth,height=0.83\textheight,keepaspectratio]{layout/figures/history_merge_panels.pdf}
-\caption{合并阶段的6个节点关联图，按两列三行放大显示。}\label{fig:history-merge}
+\caption{LM簇合并后的细胞关联结构}\label{fig:history-merge}
 \end{figure}
 \begin{figure}[p]
 \centering
 \includegraphics[width=0.98\textwidth,height=0.91\textheight,keepaspectratio]{layout/figures/history_split_panels.pdf}
-\caption{拆分阶段的7个节点关联图，按两列四行放大显示。}\label{fig:history-split}
+\caption{LM簇拆分后的细胞关联结构}\label{fig:history-split}
 \end{figure}
 ```
 

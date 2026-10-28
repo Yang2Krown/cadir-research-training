@@ -2,6 +2,8 @@
 
 主文档：[main.tex](main.tex)。阅读版：[main.pdf](main.pdf)。
 
+2026年10月28日复核全部16幅图、9张表的标题和图内文字。图题、表题描述研究对象及分析内容；修订后的完整清单见`evidence/caption-check.json`。
+
 首页保留《计算机学报》／CHINESE JOURNAL OF COMPUTERS刊名，去掉卷期，日期为2026年10月／October 2026。中英文署名已按用户提供的信息填写孙良坤、李思言、ChatGPT 6.1 Sol；南京农业大学对应前两位作者。
 
 本版已按用户PDF反馈修正图表与命令排版：Fig3B/C及S1D/E分别并排；移去外侧白边，将四张窄图的重复标题整合进中文图注，保留数据、轴、图例及等比例坐标。13份原始PDF保存在项目仓库`figures/`，排版用文件位于`layout/figures/`。
