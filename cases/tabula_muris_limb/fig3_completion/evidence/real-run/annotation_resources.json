@@ -1,0 +1,8 @@
+{
+  "set": "CellMarker",
+  "organism": "mm",
+  "source_object": "CAdir::cellmarker_v2",
+  "package_version": "0.0.99",
+  "records": 35197,
+  "overlapping_selected_genes": 3366
+}

@@ -1,0 +1,6 @@
+"cluster_id"	"role"	"basis"	"predicted_annotation"	"ncells"	"reference_majority"	"reference_majority_n"	"reference_majority_fraction"
+"cluster_3"	"B_cell"	"Unique largest overlap with original cell_ontology_class; prediction cross-check"	"B_cell"	113	"B cell"	63	0.557522123893805
+"cluster_4"	"T_cell"	"Unique largest overlap with original cell_ontology_class; prediction cross-check"	"T_cell"	48	"T cell"	33	0.6875
+"cluster_5"	"Macrophage"	"Unique largest overlap with original cell_ontology_class; prediction cross-check"	"Macrophage"	76	"macrophage"	73	0.960526315789474
+"cluster_7"	"Endothelial_cell"	"Exact automatic GOA prediction; original reference has no vascular endothelial subtype"	"Endothelial_cell"	187	"endothelial cell"	187	1
+"cluster_2"	"Vascular_endothelial_cell"	"Exact automatic GOA prediction; original reference has no vascular endothelial subtype"	"Vascular_endothelial_cell"	28	"endothelial cell"	19	0.678571428571429

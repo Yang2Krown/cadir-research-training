@@ -1,0 +1,21 @@
+"cluster_id"	"predicted_annotation"	"reference"	"Freq"
+"cluster_3"	"B_cell"	"B cell"	63
+"cluster_7"	"Endothelial_cell"	"endothelial cell"	187
+"cluster_2"	"Vascular_endothelial_cell"	"endothelial cell"	19
+"cluster_3"	"B_cell"	"lymphocyte"	49
+"cluster_5"	"Macrophage"	"lymphocyte"	1
+"cluster_4"	"T_cell"	"lymphocyte"	9
+"cluster_5"	"Macrophage"	"macrophage"	73
+"cluster_6"	"Schwalie_et_al.Nature.P1"	"mesenchymal stem cell"	488
+"cluster_4"	"T_cell"	"mesenchymal stem cell"	3
+"cluster_2"	"Vascular_endothelial_cell"	"mesenchymal stem cell"	4
+"cluster_3"	"B_cell"	"skeletal muscle satellite cell"	1
+"cluster_1"	"cluster_1"	"skeletal muscle satellite cell"	526
+"cluster_5"	"Macrophage"	"skeletal muscle satellite cell"	2
+"cluster_6"	"Schwalie_et_al.Nature.P1"	"skeletal muscle satellite cell"	2
+"cluster_4"	"T_cell"	"skeletal muscle satellite cell"	1
+"cluster_2"	"Vascular_endothelial_cell"	"skeletal muscle satellite cell"	2
+"cluster_1"	"cluster_1"	"skeletal muscle satellite stem cell"	414
+"cluster_4"	"T_cell"	"skeletal muscle satellite stem cell"	2
+"cluster_2"	"Vascular_endothelial_cell"	"skeletal muscle satellite stem cell"	3
+"cluster_4"	"T_cell"	"T cell"	33

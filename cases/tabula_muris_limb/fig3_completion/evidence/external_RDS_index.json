@@ -1,0 +1,47 @@
+[
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/hvg-only/case-htbeu88g/ca.rds",
+    "bytes": 5761828,
+    "sha256": "e769376f42f5fc0eada10cc194c4b00101816bd80b7e6d23a01d0d44a472992f"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/hvg-only/case-htbeu88g/cadir.rds",
+    "bytes": 21844811,
+    "sha256": "126a197ba5b47dae676f18a2398833d80d5f459cba97b53554cd1ec07cf67a33"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/hvg-only/case-htbeu88g/cadir_annotated.rds",
+    "bytes": 21845082,
+    "sha256": "0803c2b9dae0f72be8d16aae3fc62dbcd7bedc8498b40777f5e8a15547caa244"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/hvg-only/case-htbeu88g/cadir_unranked.rds",
+    "bytes": 21823635,
+    "sha256": "a65d07a24970dd2cbd7c47539cfea119ba438a9f8c04c91192260ec574d79b1d"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/render-final/objects/figure_data.rds",
+    "bytes": 1713299,
+    "sha256": "81877bf2ee486f627ebdd73ad85991eefd38f8a67409bc7d070eae80a40f3636"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/render-final/objects/history_GOA.rds",
+    "bytes": 28536,
+    "sha256": "1d7a670539ea5a5efca8440956a59dab6c5a46ba1eb3df3ca8fe8bd6ec96b7da"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/render-final/objects/rng_after_render.rds",
+    "bytes": 2558,
+    "sha256": "aec9e71463a7fa719f9296948d6bb7f81c149a987694ad76094ce513127df747"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/render-final/objects/rng_before_render.rds",
+    "bytes": 2558,
+    "sha256": "f38722747e524ae729055148e703f375052ff8125ad685a587f0baf144a7758a"
+  },
+  {
+    "path": "/workspace/cadir-lm-fig3-artifacts-20261027/render-final/objects/split_merge_full_log.rds",
+    "bytes": 18201,
+    "sha256": "cf21752ef14dbd7a320f1d8304163b94d11a5596ecdd77249a95d3768360035b"
+  }
+]

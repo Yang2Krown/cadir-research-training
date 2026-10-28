@@ -1,0 +1,7 @@
+Warning message:
+package ‘ggplot2’ was built under R version 4.4.3 
+Scale for colour is already present.
+Adding another scale for colour, which will replace the existing scale.
+Scale for colour is already present.
+Adding another scale for colour, which will replace the existing scale.
+Only S1D/E repainted; points, directions and coord_equal preserved.

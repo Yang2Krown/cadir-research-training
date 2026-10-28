@@ -1,0 +1,74 @@
+[
+  {
+    "path": "results/figure2.qmd",
+    "sha256": "a617f10f6d20bdfd32b9f5702186f7269ecb66d68e31124d79ac0d668a47a215",
+    "bytes": 23483,
+    "cache_path": "/workspace/cadir-full-paper-scope-review-20261027/author-fixed/results/figure2.qmd",
+    "upstream_ref": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+    "url": "https://raw.githubusercontent.com/VingronLab/CAdir_results/c15b49578bde38b42fd5db2c9830c10dd441ee4c/results/figure2.qmd",
+    "cache_download_record_verified": true
+  },
+  {
+    "path": "results/utils.R",
+    "sha256": "e591ffd37f31a24db46e6735188e03700efa9d83b4fe84de79583a2054af3d80",
+    "bytes": 9717,
+    "cache_path": "/workspace/cadir-full-paper-scope-review-20261027/author-fixed/results/utils.R",
+    "upstream_ref": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+    "url": "https://raw.githubusercontent.com/VingronLab/CAdir_results/c15b49578bde38b42fd5db2c9830c10dd441ee4c/results/utils.R",
+    "cache_download_record_verified": true
+  },
+  {
+    "path": "results/cluster_tabula_muris.R",
+    "sha256": "c583711c64194353a4e75c2f8e9c1ed7ee0a1d7e685213758b042467951405bc",
+    "bytes": 2412,
+    "cache_path": "/workspace/cadir-full-paper-scope-review-20261027/author-fixed/results/cluster_tabula_muris.R",
+    "upstream_ref": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+    "url": "https://raw.githubusercontent.com/VingronLab/CAdir_results/c15b49578bde38b42fd5db2c9830c10dd441ee4c/results/cluster_tabula_muris.R",
+    "cache_download_record_verified": true
+  },
+  {
+    "path": "download_raw_data/tabula_muris/tabula_muris_limb_save_RAW_data.R",
+    "sha256": "3c53a8707180df4b5fb2c92c60130aa06a064943c3f4fa03f5e082c05e4b3558",
+    "bytes": 314,
+    "cache_path": "/workspace/cadir-full-paper-scope-review-20261027/author-fixed/download_raw_data/tabula_muris/tabula_muris_limb_save_RAW_data.R",
+    "upstream_ref": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+    "url": "https://raw.githubusercontent.com/VingronLab/CAdir_results/c15b49578bde38b42fd5db2c9830c10dd441ee4c/download_raw_data/tabula_muris/tabula_muris_limb_save_RAW_data.R",
+    "cache_download_record_verified": true
+  },
+  {
+    "path": "download_raw_data/tabula_muris/download_full_tabula_muris.R",
+    "sha256": "3b2427af9908dc288bdfe82d75f07d5c2b16d8f46fc9ede6b4f953f121b9a2e0",
+    "bytes": 297,
+    "cache_path": "/workspace/cadir-full-paper-scope-review-20261027/author-fixed/download_raw_data/tabula_muris/download_full_tabula_muris.R",
+    "upstream_ref": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+    "url": "https://raw.githubusercontent.com/VingronLab/CAdir_results/c15b49578bde38b42fd5db2c9830c10dd441ee4c/download_raw_data/tabula_muris/download_full_tabula_muris.R",
+    "cache_download_record_verified": true
+  },
+  {
+    "path": "preprocessing/data_preprocessing.R",
+    "sha256": "7442212dc8a47214c8047bf5e1500d525f797013558953d985815f92b4edc13c",
+    "bytes": 8446,
+    "cache_path": "/workspace/cadir-full-paper-scope-review-20261027/author-fixed/preprocessing/data_preprocessing.R",
+    "upstream_ref": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+    "url": "https://raw.githubusercontent.com/VingronLab/CAdir_results/c15b49578bde38b42fd5db2c9830c10dd441ee4c/preprocessing/data_preprocessing.R",
+    "cache_download_record_verified": true
+  },
+  {
+    "path": "preprocessing/submit_to_cluster_preprocessing.sh",
+    "sha256": "45c13a1a6bed325cec6da7fdbb50d85796d4c34ddfd4c34c5a84c40dc1087215",
+    "bytes": 7684,
+    "cache_path": "/workspace/cadir-full-paper-scope-review-20261027/author-fixed/preprocessing/submit_to_cluster_preprocessing.sh",
+    "upstream_ref": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+    "url": "https://raw.githubusercontent.com/VingronLab/CAdir_results/c15b49578bde38b42fd5db2c9830c10dd441ee4c/preprocessing/submit_to_cluster_preprocessing.sh",
+    "cache_download_record_verified": true
+  },
+  {
+    "path": "renv.lock",
+    "sha256": "b8dbf9e526885496c1b28af91c1bec36aa6b103c87da0a966ce4869d06f3a129",
+    "bytes": 169895,
+    "cache_path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/evidence/author-fixed/renv.lock",
+    "upstream_ref": "c15b49578bde38b42fd5db2c9830c10dd441ee4c",
+    "url": "https://raw.githubusercontent.com/VingronLab/CAdir_results/c15b49578bde38b42fd5db2c9830c10dd441ee4c/renv.lock",
+    "cache_download_record_verified": true
+  }
+]

@@ -1,0 +1,7 @@
+Warning messages:
+1: package ‘ggplot2’ was built under R version 4.4.3 
+2: package ‘patchwork’ was built under R version 4.4.3 
+Error in gg_par(col = alpha(data$colour %||% data$fill %||% "black", data$alpha),  : 
+  could not find function "gg_par"
+Calls: savefig ... <Anonymous> -> draw_key -> titleGrob -> textGrob -> grob
+Execution halted

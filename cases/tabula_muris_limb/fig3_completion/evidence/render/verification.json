@@ -1,0 +1,14 @@
+{
+  "status": "PASS_IMPLEMENTER_SELFCHECK_ONLY",
+  "independent_review": "PENDING",
+  "cells": 1882,
+  "genes": 6000,
+  "ranks": 1200,
+  "top5_labels": 35,
+  "panels": 9,
+  "PNG_PDF_files": 18,
+  "history_annotated_nodes": 21,
+  "APL_coordinate_max_error": 5.1514348342607263e-14,
+  "score_max_error": 7.5495165674510645e-15,
+  "strict_author_input_equivalence": "BLOCKED_MISSING_MARKER_FILTERED_RDS_PRIVATE_PACKAGE_IDENTITY"
+}

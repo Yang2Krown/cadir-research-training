@@ -1,0 +1,15 @@
+{
+  "seed": 2358,
+  "RNGkind": ["Mersenne-Twister", "Inversion", "Rejection"],
+  "alpha_genes": 1.07506446203775,
+  "installed_CAdir_function_md5": {
+    "rank_genes": "92ee9945ebccfc24e79ce1d6a5b406f1",
+    "get_apl_cutoff": "9582a96c79d5e5d665c981605666c69b",
+    "random_direction_cutoff": "19502e28c3d289cf74714b38c209c3b5",
+    "apl_model": "c2b0835025bc921375987de04dd09cb1"
+  },
+  "ca_cell_pivot_ids": ["P3.MAA001454.3_38_F.1.1", "N10.D042186.3_8_M.1.1", "J9.MAA001454.3_38_F.1.1", "O12.D042473.3_10_M.1.1", "P14.D042105.3_11_M.1.1", "O12.D042473.3_10_M.1.1", "A6.D042105.3_11_M.1.1", "O12.D042473.3_10_M.1.1", "O12.D042473.3_10_M.1.1", "M10.B002769.3_39_F.1.1", "E19.D042186.3_8_M.1.1", "O12.D042473.3_10_M.1.1", "O14.D042186.3_8_M.1.1", "M15.D042105.3_11_M.1.1", "O14.D042186.3_8_M.1.1", "O14.D042186.3_8_M.1.1", "N1.D042103.3_11_M.1", "M15.D042105.3_11_M.1.1", "J8.D042105.3_11_M.1.1", "J8.D042105.3_11_M.1.1", "O13.D042105.3_11_M.1.1", "O13.D042105.3_11_M.1.1", "M13.D042105.3_11_M.1.1", "O13.D042105.3_11_M.1.1", "M13.D042105.3_11_M.1.1", "M15.D042105.3_11_M.1.1", "M13.D042105.3_11_M.1.1", "M13.D042105.3_11_M.1.1", "M15.D042105.3_11_M.1.1", "P6.MAA001454.3_38_F.1.1"],
+  "ca_cell_pivot_signs": [1, -1, 1, -1, 1, -1, 1, 1, -1, 1, -1, 1, 1, 1, 1, 1, 1, -1, -1, -1, 1, 1, -1, -1, -1, 1, -1, 1, 1, -1],
+  "tie_rule": "Upstream decreasing Score order; exact ties retain CA row order (R stable order).",
+  "ranking_scope": "Scores and ranks use this run's stored CA basis, RNG state, alpha and installed functions."
+}

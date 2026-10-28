@@ -1,0 +1,233 @@
+CAdir: Joint clustering of cells and genes for single-cell transcriptomics with visualization-driven cluster quality assessment | PLOS Computational Biology (https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1014418)
+【turn348420view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn723100view0","lineno":198}); Redirected to URL: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014418; Total lines: 947
+L177: Unlike other clustering approaches, CAdir offers an intuitive and easy to interpret approach that enables users to evaluate the clustering performance through diagnostic plots and aids in understanding the intermediate steps that lead to the final result (【93†Fig 1】). The co-clustered genes further provide the basis for annotating clusters and identifying cluster defining marker genes.
+L178: In contrast to other cell clustering and biclustering algorithms, CAdir offers a number of advantages: CAdir is faster than all tested cell clustering algorithms, while additionally providing the co-clustered genes. Despite its fast runtime, CAdir outperforms all biclustering algorithms in our benchmarking, including recent algorithms such as, e.g., CAbiNet.
+L179: In contrast to other biclustering algorithms, CAdir can additionally visualize the found biclusters succinctly in an interpretable way that allows the identification of the most important co-clustered genes for each bicluster and provides a fast to compute ranking for each co-clustered gene. Lastly, whereas many algorithms require the number of clusters as an input, CAdir can independently estimate the number of clusters in the data.
+L180: In this paper we introduce the novel clustering approach of CAdir and show that it’s performance is as good as other state-of-the-art cell clustering algorithms, while providing easy to interpret diagnostic outputs, a clustering of both cells and genes as well as determining the number of clusters. Using CAdir’s powerful plotting functionality, we further show how the output of CAdir can be used to better understand and interpret the clustering results.
+L181: ## Results
+L182: ### Clustering cells by direction
+L183: CA is used to embed cells and genes into the same dimensionality reduced space. This not only helps to remove noise from the data, but CA also arranges similar points along specific directions. Therefore, cells with comparable expression profiles will fall along the same direction, and the genes characteristic to this cluster of cells will also lie along the same direction.
+L184: Generally, the further out a cell or gene is positioned along a direction, the more strongly it exhibits cluster specific qualities, e.g., the expression of cluster specific marker genes. CAdir makes use of these unique geometric properties of CA to cluster the data.
+L185: Since in CA space clusters of cells and their cluster-specific genes get placed along a direction from the origin, our CAdir algorithm looks for distinct, densely populated directions in CA space. 【97†Fig 2】 shows the basic steps of CAdir’s clustering approach as explained in the Methods section.
+L186: After initializing a pre-defined number of directions, CAdir assigns each cell to the closest direction (see 【97†Fig 2A】 and 【97†2B】) and re-computes the direction for each cluster through total least squares regression. This is repeated for a set number of iterations until a stable first clustering is reached (【97†Fig 2C】). Then, cluster directions with small angles to each other are merged, whereas sub-clusters with large angles within a cluster are split (【97†Fig 2D】).
+L187: CAdir determines by itself the number of clusters in the data based on a cutoff angle inferred from the data. The output of CAdir is a set of Association Plots, each visualizing a cluster of cells with its specific genes. This allows for intuitive interpretation of the individual cluster qualities. Based on the cluster specific genes CAdir provides a mapping of clusters to cell types from a given gene set library.
+L188: A more detailed description of the clustering algorithm, the automated cell type annotation as well as Association Plots can be found in the Materials and Methods and in the Supporting Information 【98†S1 Appendix】.
+L189: Download:
+L190: 
+L191:   * 【99†PNG larger image】
+L192:   * 【100†TIFF original image】
+L193: 
+L194: Fig 2. Clustering by direction - Overview.
+L195: A, CAdir clusters cells that lie along a direction in CA space by assigning them to the best fitting line. B, Each cell is assigned to the closest cluster direction based on the shortest orthogonal distance of the cell to a direction. The cluster directions are then recomputed based on the changed cluster assignments. C, CAdir updates the clusters iteratively: Starting from an initialization (1), cells are assigned to the closest direction and the cluster direction is recomputed (2).
+L196: This is repeated until the final cluster directions are found (3). D, CAdir is further able to independently detect low-quality clusters and thereby infer the number of clusters in the data. Depending on the angle between cluster directions, it either splits a cluster into two new clusters or merges two or more directions into a single cluster.
+L197: 【101†https://doi.org/10.1371/journal.pcbi.1014418.g002†doi.org】
+L198: #### Tabula Muris Limb Muscle data.
+L199: 
+L200: We clustered the Tabula Muris Limb Muscle (LM) data [【102†28】] with 1882 cells using CAdir and used the co-clustered genes to annotate the cells using the automated cell type annotation. As can be seen in 【103†Fig 3A】, CAdir finds 7 directions that summarize the data and correspond well to the provided ground truth clustering (【104†S1C Fig】).
+L201: 
+L202: Download:
+L203: 
+L204:   * 【105†PNG larger image】
+L205:   * 【106†TIFF original image】
+L206: 
+L207: Fig 3. Clustering of Tabula Muris Limb Muscle data.
+L208: A, Association Plots of all clusters determined by CAdir with cluster annotations obtained by gene set over-representation analysis. Clustered cells are colored in lime green and co-clustered genes in orange. Other cells and genes are colored in dark green and grey respectively. For each cluster, the top 5 most highly ranked genes by S【107†Image】-score are labelled.
+L209: Association plots for B, the B cell cluster with the directions of Macrophages (blue) and T cells (red) and the associated cells highlighted and C, Association Plot for the Endothelial cell cluster with the direction and the cells of the Vascular endothelial cell cluster highlighted in red. D, Graph of the splits and merges performed by CAdir. Each row in the graph corresponds to a single iteration of the algorithm (iterations without splits and merges are removed) and each node to a cluster.
+L210: At each node an association plot of the cells (principal coordinates) is shown with clustered cells in lime green and all other cells in dark green. The clusters are annotated by the automatic cell type annotation using the co-clustered genes.
+L211: 【108†https://doi.org/10.1371/journal.pcbi.1014418.g003†doi.org】
+L212: CAdir provides visualization tools to comprehensive judge the quality of the obtained clusters: A well-separated cluster of cells forms an elongated cloud along a direction in CA space. Cluster specific genes, as well as cells more representative of the cluster, are found further out in the same direction. Association Plots are ideally suited to visualize the clusters obtained through CAdir, as they allow us to visualize how closely points are associated with a direction in CA space.
+L213: In an Association Plot, the points’ coordinates are determined by their projection onto a given direction, as well as their distance to that direction, which perfectly aligns with the clustering mechanics of CAdir. The Association Plots in 【103†Fig 3A】 are drawn for each cluster, with clustered cells in lime green, co-clustered genes in orange and the remaining cells and genes in dark green and gray respectively.
+L214: Generally, in a well separated cluster the direction-determining cells have a large x-coordinate in the Association Plot, which corresponds to their projection onto the line. Simultaneously, a low y-coordinate (distance to the line) is desirable, as it indicates that the cluster is not very dispersed and is not, or only mildly, correlated with other directions. For example, the T-cell cluster in 【103†Fig 3A】 is apparently well-defined and, interestingly, so is the unannotated Cluster 1.
+L215: Although well-defined as a cluster, the automatic annotation is undecided here but can be resolved with respect to the annotation of the experiment (【104†S1C Fig】).
+L216: The angles between cluster directions can also be seen in an Association Plot and this feature can be used to better understand the relationship between clusters. For example, a zoom into the B cell Association Plot displaying cells and directions in principal coordinates shows a low angle between it and the Macrophages and T cell cluster (【103†Fig 3B】), as would be expected based on their largely similar expression profiles.
+L217: Similarly, the projection of the Vascular endothelial cell cluster direction into the Association Plot has a lower angle than other cell types to the Endothelial cells (【103†Fig 3C】). The angle between clusters can therefore be used as an indicator of similarity between clusters. Importantly, as 【104†S1】D and 【104†S1E Fig】 (cells in standard coordinates) shows, the angle between the directions is only conserved when plotting the cells in principal coordinates.
+L218: The heat map in 【104†S1A Fig】 shows the angle between cluster directions and 【104†S1B Fig】 displays this graphically in terms of the directions of a cluster in another cluster’s Association Plot. There one sees, e.g., that there is some relationship between endothelial and vascular endothelial cells, but no similarity between those and the immune cells.
+L219: For many applications it can be important to know why a cluster was merged or split. The graph in 【103†Fig 3D】 visualizes the clustering decisions of the algorithm: Starting from the unclustered data as the tree root, each level represents a split or merge performed by CAdir.
+L220: The intermediate clustering steps as well as the final clustering were annotated using the method described in Section “Gene assignment.” To further improve the interpretability, an Association Plot depicting the state of a cluster at a given iteration gives valuable feedback about why it was split, merged, or left as is.
+L221: Throughout the iterative process, CAdir combined two clusters into cluster 1 and additionally merged and subsequently re-split the two endothelial cell clusters (Vascular endothelial cell and Endothelial cell respectively). This seemingly redundant step can help to find a better direction for both clusters if the initial clustering included cells from both cell type. By first merging the clusters, CAdir can break out of a local minimum and attempt to find directions that better explain the data.
+L222: #### Identifying low-quality clusters.
+L223: To demonstrate the use of CAdir for quality control and how to assess cluster quality, we clustered the PBMC3k data set [【109†29】] with CAdir parameters chosen on purpose to result in a low-quality clusters. The clustering results are shown in 【110†Fig 4A】. While most clusters show a large number of cluster specific cells and genes, cluster 5 is dominated by only a small number of cells and genes towards the right of the plot (【110†Fig 4A】).
+L224: The majority of other cells and genes in cluster 5 do not seem to be strongly associated with the cluster and can be found close to the origin. Cluster 5 consists of only a small number of cells (20 cells), and could not be annotated by our automatic cell type annotation.
+L225: Download:
+L226: 
+L227:   * 【111†PNG larger image】
+L228:   * 【112†TIFF original image】
+L229: 
+L230: Fig 4. Clustering results for PBMC3k data.
+L231: A, Association Plots for the 6 clusters obtained with CAdir. Clustered cells are colored in lime green, co-clustered genes in orange. Other cells are colored in dark green and the remaining genes in grey. The 5 genes with the highest S【113†Image】-score for each cluster are labelled. The two cells identified as outliers in cluster 5 are marked in red in the respective association plot. B, Violin plots of the log-expression of the four genes with the highest S【114†Image】-score for cluster 5.
+L232: C, Sankey plot showing the re-assignment of the remaining cells from cluster 5 after re-clustering to other clusters. D, Results of the gene set over-representation analysis used to annotate clusters. The heatmap shows the negative log_{10} adjusted p-values. In order to provide better visual interpretability of the results, the color scale is capped at 30 and gene sets with an adjusted p-value lower than 10^{−30} are therefore all colored in orange.
+L233: 【115†https://doi.org/10.1371/journal.pcbi.1014418.g004†doi.org】
+L234: Ranking the genes using S【116†Image】-scores [【117†30】], we identified the 4 genes that are most highly associated with cluster 5: ZNF682, YEATS2, CDKN2A and ESF1 (see 【110†Fig 4B】). As can be seen in 【110†Fig 4B】, most of these genes are expressed only moderately even in cluster 5.
+L235: ZNF682, which is considerably higher expressed in cluster 5, is predicted to be involved in transcription regulation (【118†https://www.ncbi.nlm.nih.gov/gene/91120†www.ncbi.nlm.nih.gov】, accessed on 2025.02.18), but not known to be indicative of a cell type. The gene CDKN2A, however, codes for two proteins, p16^{INK4a} and p14^{ARF}, both of which cause cell cycle arrest and generally lead to apoptosis or senescence [【119†31】,【120†32】].
+L236: CDKN2A is particularly highly expressed in some cells of cluster 5, making it likely that the cluster is mostly based on apoptotic and outlier cells.
+L237: Ranking the cells in cluster 5 similarly to the genes, we removed all cells and genes with S【121†Image】-scores above 0. In total this includes 2 cells and 13 genes. The removed cells are also marked in red in the Association Plot for cluster 5 in 【110†Fig 4A】. After re-clustering the data with the outliers removed, we obtained the same 5 clusters as shown in 【110†Fig 4A】, excluding cluster 5 (see also 【122†S2A Fig】).
+L238: The remaining cells that were originally clustered in cluster 5 are merged into the Naive CD4^{+} T cell, Natural killer cell, Megakaryocyte and B cell clusters (【110†Fig 4C】), further confirming that cluster 5 was dominated by outliers. The final clustering generally corresponds well with the clusters from the annotation (Sankey plot 【122†S2B Fig】), but letting CAdir pick the cutoff angle leads to a slightly more conservative clustering.
+L239: As can be seen in 【122†S2B Fig】, the automatic cell type annotation is able to correctly identify the majority cell type of the clusters based on the co-clustered genes.
+L240: One exception is the Megakaryocyte cluster, which is labelled as Platelet cells in the ground truth annotation. This can potentially be attributed to the fact that Megakaryocytes produce Platelet cells, which, as they do not have a nucleus, inherit the mRNA from their parent cell. In cases such as this where two cell types share a large number of expressed genes, the automatic cell type annotation can sometimes mislabel clusters.
+L241: The results from the gene set over-representation analysis presented in 【110†Fig 4D】 show that the second most significant gene set (tied with Mast cells) for the Megakaryocyte cluster is in fact Platelet cells. Similarly, 【110†Fig 4D】 shows that some clusters, such as B cells, have a very clear annotation with one gene set having a much lower adjusted p-value, and other clusters such as Naive CD4^{+} T cell could have two or more gene sets with very similar p-values.
+
+--------------------------------------------------------------------------------
+CAdir: Joint clustering of cells and genes for single-cell transcriptomics with visualization-driven cluster quality assessment | PLOS Computational Biology (https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1014418)
+【turn348420view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn723100view0","lineno":485}); Redirected to URL: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014418; Total lines: 947
+L462: As the number of parameters differ between algorithms, this can result in many variations of a single parameter or only a few different choices for more parameters. Table C and D in 【98†S1 Appendix】 list the 36 parameter combinations used for the cell clustering (Table C in 【98†S1 Appendix】) and biclustering (Table D in 【98†S1 Appendix】) benchmarking respectively. The data was pre-processed in the same way for all algorithms prior to clustering.
+L463: Algorithms that failed during the first run were rerun with more computational resources. If for example an algorithm required more memory than was provided, it was rerun with 500 Gb of memory, but if it exceeded the run time limits, the algorithm was restarted with a run time limit of 24 hours. For any other failures the algorithms were rerun with double the amount resources as for the original run, with a maximum of 500 Gb of memory and 24 hours of runtime.
+L464: Algorithms that did not finish the clustering were rerun up to two times.
+L465: #### Cell clustering evaluation.
+L466: We used the Adjusted Rand Index (ARI) [【245†68】] and the normalized mutual information (NMI) [【246†69】] as implemented in the R package aricode [【247†70】] to compare the cell clusterings to the reference annotations. The Adjusted Rand Index measures the similarity between two clusterings as done by the Rand Index, but is adjusted to correct for coincidental clusterings.
+L467: The ARI ranges from -1–1, where 0 indicates a random clustering, -1 a clustering worse than expected by chance and 1 that the two clusterings match perfectly. As the name already implies, NMI is a normalized measure for mutual information, and is bounded between 0 and 1. As it measures the dependence between the two groupings, higher values for the NMI indicate a higher association between the two clusterings.
+L468: Only successful runs were used for the evaluation, meaning that the summary statics such as mean or the maximum are taken over differing amount of runs, depending on how many effectively finished. We furthermore excluded runs that did not return interpretable results. Some clustering algorithms for example return “NA” or 0 clusters when they do not converge. These results were therefore excluded.
+L469: #### Biclustering evaluation.
+L470: In order to evaluate the simultaneous clustering of cells and genes, we used the clustering error (CE), introduced by Patrikainen and Meila [【154†46】,【155†47】]. Unlike the ARI, the CE measures the proportion of cells and genes that are assigned to a wrong cluster in a biclustering B, compared to a reference biclustering 【248†Image】. The clusters in B and 【249†Image】 are optimally matched in advance and therefore the number of confused points between the two biclusterings is minimized.
+L471: This is achieved using the Hungarian algorithm [【218†53】]. The CE is then given by the following formula:
+L472: 【250†Image】(11)
+L473: 
+L474: where 【251†Image】 represents the number of entries shared between B and 【252†Image】 and 【253†Image】 is the maximal sum of the confusion matrix. The CE ranges from 0 to 1, where a higher value reflects a better biclustering performance.
+L475: #### Runtime benchmarking.
+L476: Similarly to the benchmarking performed for the cell clustering, we used Splatter to simulate data sets of increasing size. We simulated data sets with 2 000 genes and 1 000, 10 000, 20 000, 40 000, 60 000, 80 000, 100 000, 200 000, 400 000 or 600 000 cells. For all simulated data sets we simulated 6 clusters and set the parameters de.facLoc and de.facScale to 1.5. The probability for a gene to be differentially expressed was set to 0.1.
+L477: The simulated data sets were normalized using the functions quickCluster and logNormCounts. All tested algorithms were run using a single thread and the runtime including potential dimensionality reduction steps was recorded.
+L478: #### Cluster number recovery.
+L479: To benchmark how well CAdir recovers the correct number of clusters, we used a scheme similar to the one described by Yu et al. [【67†2】]: We subset the pre-processed Tabula Muris cell atlas data to cell types with at least 300 cells, resulting in a data set 15 771 genes × 39 207 cells with 38 cell types from 18 tissues.
+L480: We then subset the data set to n randomly sampled cell types, where n is between 4–30 cell types in steps of 2, and again sub-sampled each cluster to 200 cells in order to equalize the size of the clusters. We retained the top 4 000 most highly variable genes, kept the first n + 20 dimensions after performing CA and let CAdir automatically infer the cutoff angle below which 99 %, 99.9 % or 99.99 % of cells fall when considering random directions in CA space.
+L481: To account for the variability introduced by randomly sampling clusters, we repeated each run 10 times.
+L482: ### Code availability
+L483: The latest version of CAdir can be downloaded and installed from GitHub (【61†https://github.com/VingronLab/CAdir†github.com】). The version of the package used to produce the results presented in this manuscript is available on Zenodo (【63†https://doi.org/10.5281/zenodo.14900874†doi.org】).
+L484: The code to reproduce the presented results can be found here on GitHub (【254†https://github.com/VingronLab/CAdir_results†github.com】) and is also deposited on Zenodo (【64†https://doi.org/10.5281/zenodo.14894255†doi.org】).
+L485: ## Supporting information
+L486: 
+L487: ### 【255†S1 Appendix.】 Supplementary Materials and Results.
+L488: 
+L489: Additional comparisons, analyses and benchmarkings that give additional insights into the performance and functionality of CAdir.
+L490: 
+L491: 【256†https://doi.org/10.1371/journal.pcbi.1014418.s001†doi.org】
+L492: 
+L493: (PDF)
+L494: ### 【257†S1 Fig.】 Interpretation of the Tabula Muris Limb Muscle data clustering.
+L495: A, Matrix of the pairwise angles between the cluster directions. Lower angles indicate higher similarity between clusters. B, Each row shows an Association Plot of the respective cluster in the diagonal and lines that show the direction of the remaining other clusters projected into the Association Plot. C, Sankey plot of the annotated clustering obtained with CAdir (left) and the ground truth annotation (right). Association Plot with cells in standard coordinates for D, B cells and E, Endothelial cells.
+L496: Closely associated clusters are colored in red and blue.
+L497: 【258†https://doi.org/10.1371/journal.pcbi.1014418.s002†doi.org】
+L498: 
+L499: (PDF)
+L500: ### 【259†S2 Fig.】 Clustering of PBMC3k data - additional plots.
+L501: 
+L502: A, Association Plots of the corrected clustering of the PBMC3k data after removing outlier cells and genes. Clustered cells are colored in lime green and co-clustered genes in orange. Five genes with the highest S【260†Image】-score are labelled. Other cells and genes are colored in dark green and grey respectively. B, Sankey plot comparing the corrected clustering (left) against the annotation obtained through the Seurat vignette (right).
+L503: 【261†https://doi.org/10.1371/journal.pcbi.1014418.s003†doi.org】
+L504: 
+L505: (PDF)
+L506: ### 【262†S3 Fig.】 Proportion of known marker genes among co-clustered genes.
+L507: 
+L508: Clustering of the PBMC3k data using CAdir. A-E, Proportion of co-clustered genes with S【263†Image】-score > 0 that are also contained in the CellMarker gene set used to annotate the cluster. F, For cluster 6 the gene set corresponding to the corresponding cell type from the annotation was used. G, Sankey plot of the clustering to show correspondence to the reference annotation.
+L509: 【264†https://doi.org/10.1371/journal.pcbi.1014418.s004†doi.org】
+L510: 
+L511: (PNG)
+L512: ### 【265†S4 Fig.】 Log-count expression plots of top ranked genes by CAdir and scran.
+L513: 
+L514: The violin plots show the expression for the 4 highest ranked genes using the 【266†Image】-score for CAdir and the mean AUC for scran. A-B, Expression for the B cell cluster. C-D, Expression for the Monocytes cluster. E-F, Expression for the Cytotoxic CD4^{+} T cell cluster.
+L515: 
+L516: 【267†https://doi.org/10.1371/journal.pcbi.1014418.s005†doi.org】
+L517: 
+L518: (PDF)
+L519: ### 【268†S5 Fig.】 Overlap of marker genes found by CAdir and scran.
+L520: 
+L521: The overlap between the co-clustered genes found by CAdir and scran’s scoreMarkers is determined by taking the same number of top ranked genes for both methods. A, Overlap between CAdir and scran using all co-clustered genes and B, using only the co-clustered genes with 【269†Image】.
+L522: 
+L523: 【270†https://doi.org/10.1371/journal.pcbi.1014418.s006†doi.org】
+L524: 
+L525: (PDF)
+L526: ### 【271†S6 Fig.】 Average NMI benchmarking results and percentage of successful runs per algorithm.
+L527: 
+L528: A, Mean Normalized Mutual Information over all 108 parameter combinations for each simulated data set. B, Fraction of successful (dark green) runs, runs that produced N/A (not assigned, orange) and crashed runs (red) for each algorithm and tested data set.
+L529: 
+L530: 【272†https://doi.org/10.1371/journal.pcbi.1014418.s007†doi.org】
+L531: 
+L532: (PDF)
+L533: ### 【273†S7 Fig.】 Runtime and Cluster Detection.
+L534: A, Computational runtime on simulated data of increasing size. Both x-axis and y-axis are in log10-scale for better interpretability. SC3 is marked in a dashed line as it is the only benchmarked cluster that does not cluster all cells in a conventional manner but instead only clusters 5000 cells and then attempts to assign the remaining cells to these clusters.
+L535: B, Deviation of the number of retrieved clusters from the number of randomly sampled cell type clusters from the Tabula Muris cell atlas for different numbers of k used to initialize CAdir and different quantile cutoffs for the automatic angle determination (apl_q). Error bars indicate the standard deviation over 10 replicate runs.
+L536: 【274†https://doi.org/10.1371/journal.pcbi.1014418.s008†doi.org】
+L537: 
+L538: (PDF)
+L539: ### 【275†S8 Fig.】 Split-merge graph plots.
+L540: 
+L541: For the cell clustering parameter combination that achieved the best ARI score, split-merge graphs are plotted for the A, Tirosh B, Brain Organoids and C, Tabula Sapiens data set.
+L542: 
+L543: 【276†https://doi.org/10.1371/journal.pcbi.1014418.s009†doi.org】
+L544: 
+L545: (PDF)
+L546: ### 【277†S9 Fig.】 UMAPs of CAdir clustering results.
+L547: 
+L548: Using the best scoring parameter combination of the cell clustering comparison, UMAPs for both the CAdir clustering and the reference annotation are plotted for the A-B, Tirosh, C-D, Brain Organoids and E-F, Tabula Sapiens. These data sets were chosen to further understand why CAdir did not achieve the best clustering results in the benchmarking on these data sets.
+L549: 
+L550: 【278†https://doi.org/10.1371/journal.pcbi.1014418.s010†doi.org】
+L551: 
+L552: (PNG)
+L553: ### 【279†S10 Fig.】 Expression of co-clustered genes for selected clusters - Tirosh data set.
+L554: 
+L555: Expression levels of the 4 genes with the highest 【280†Image】-score are shown for A, cluster 3 and B, cluster 4 using the best performing parameter combinations from the cell clustering benchmarking of CAdir on the Tirosh data set. C, Expression of CD4 in cluster 3 and 4.
+L556: 
+L557: 【281†https://doi.org/10.1371/journal.pcbi.1014418.s011†doi.org】
+L558: 
+L559: (PDF)
+L560: ### 【282†S11 Fig.】 Influence of the choice of dimensionality and Association Plot cutoff quantile on the clustering results.
+L561: 
+L562: Achieved ARI for A, the chosen number of CA dimensions and B, the Association Plot (APL) cutoff quantiles for experimental data sets.
+L563: 
+L564: 【283†https://doi.org/10.1371/journal.pcbi.1014418.s012†doi.org】
+L565: 
+L566: (PDF)
+L567: ### 【284†S12 Fig.】 Effect of the number of random directions on the inferred cutoff angle.
+L568: 
+L569: A, Number of random directions in comparison to the inferred cutoff angle. B, Number of random directions compared to the achieved ARI. Overall, after approximately 100 iterations the inferred angle is stable and therefore a higher number of random directions does not change the resulting ARI meaningfully.
+L570: 
+L571: 【285†https://doi.org/10.1371/journal.pcbi.1014418.s013†doi.org】
+L572: 
+L573: (PDF)
+L574: ### 【286†S13 Fig.】 Effect of the number of CAdir iterations.
+L575: 
+L576: Obtained cell clustering ARI on A, experimental data and B, simulated data for 1–50 CAdir iterations. The same comparison was also performed for C, experimental and D, simulated data for the Dirclust sub-step.
+L577: 
+L578: 【287†https://doi.org/10.1371/journal.pcbi.1014418.s014†doi.org】
+L579: 
+L580: (PDF)
+L581: ### 【288†S14 Fig.】 Expression of selected genes with increasing cluster specificity.
+L582: 
+L583: Association Plots of the A, B cell B, Endothelial cell clusters of the Tabula Muris Limb Muscle data. The selected genes increase in both their vector norm and 【289†Image】-score from left to right. The violin plots for the selected genes show the log-normalized expression of the genes in the clusters. As shown, the further out the gene lies from the origin, the more cluster specific they are.
+L584: 【290†https://doi.org/10.1371/journal.pcbi.1014418.s015†doi.org】
+L585: 
+L586: (PDF)
+L587: ### 【291†S15 Fig.】 Number of recovered clusters using Seurat.
+L588: 
+L589: Deviation of the number of recovered clusters using Seurat (y-axis) compared to the number of randomly sampled clusters (x-axis) from the Tabula Muris cell atlas. The deviation was measured for different numbers of nearest neighbors (NNs) as well as for different Leiden clustering resolutions.
+L590: 
+L591: 【292†https://doi.org/10.1371/journal.pcbi.1014418.s016†doi.org】
+L592: 
+L593: (PDF)
+L594: ### 【293†S16 Fig.】 Splatter simulation gene dropout probability.
+L595: 
+L596: A, Logistic function with increased dropout probability. The simulation parameter dropout.mid that determines the point at which the probability for a gene to be a dropout is 0.5 is set to 20 and dropout.shape is set to -0.05 for a slower falloff. Logistic functions estimated from the data for b, the Zeisel and B, PBMC3k data set.
+L597: 
+L598: 【294†https://doi.org/10.1371/journal.pcbi.1014418.s017†doi.org】
+L599: 
+L600: (PDF)
+L601: ### 【295†S17 Fig.】 Benchmarking results on sparser simulated data.
+L602: Biclustering benchmarking results for simulated data with increased gene dropout rate. The cell clustering is evaluated by A, the maximum ARI and B mean ARI of the cell clustering and the biclustering using the C, the maximum CE and D, the mean CE over all parameter combinations. Missing results for certain algorithms are because all (bi-)clustering runs for a data set either did not yield any interpretable results or all runs crashed (see, e.g., Plaid and DivBiclust).
+L603: 【296†https://doi.org/10.1371/journal.pcbi.1014418.s018†doi.org】
+L604: 
+L605: (PDF)
+L606: ### 【297†S18 Fig.】 Comparison of initialization methods for CAdir.
+L607: 
+L608: Adjusted Rand Index for clustering using kmeans_{++} (kmeansppp) and random initialization (rand) over 100 repetitions on the Tabula Muris Limb Muscle data for either k = 8 (ground truth) or k = 5 (kmeanspp_sub and rand_sub).
+L609: 
+L610: 【298†https://doi.org/10.1371/journal.pcbi.1014418.s019†doi.org】
+L611: 
+L612: (PDF)
+L613: ### 【299†S19 Fig.】 Comparison of 【300†Image】 inference methods.
+L614: 
+L615: For each experimental data set used in the benchmarking, the cutoff angle 【301†Image】 is inferred either using the permutation based method (“perm”) or using randomized directions (“rand”). Panel A shows the inferred angle, whereas B shows the ARI of the clustering result using the inferred angle.
+L616: 
+L617: 【302†https://doi.org/10.1371/journal.pcbi.1014418.s020†doi.org】
+L618: 
+L619: (PNG)
+L620: ### 【303†S20 Fig.】 Overview over plotting functionality.
+L621: Association Plots for the B cell cluster of the Tabula Muris Limb Muscle data set. A, Cells are colored by their respective cluster and the T cell and Macrophage cluster directions are highlighted. B, Association Plot only showing the genes, with the top 10 most highly associated genes labelled. Depending on the main interest, the size of either C, the genes, or D, the cells can be increased to provide a better overview. Panel E shows the Association plot for the cells in principal coordinates.
+L622: The red line has the same angle as the inferred cutoff angle 【304†Image】. The clustered cells are clearly delineated by the cutoff line from other cell types. Similarly in F, cells and genes are plotted together. Genes that fall to the right and below the red cutoff angle line are the most cluster specific.
+

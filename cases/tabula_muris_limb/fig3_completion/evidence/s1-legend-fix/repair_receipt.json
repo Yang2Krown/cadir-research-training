@@ -1,0 +1,69 @@
+{
+  "baseline_commit": "a33e815971f8bb89e8136ed65ee41b99a2f3a2e9",
+  "scope": "Only S1D/E direction-name legends; no point, direction, rank, cluster, GOA, or scientific table changes",
+  "unchanged_original_external_artifact_count": 129,
+  "all_original_external_SHA256_match": true,
+  "all_16_tracked_scientific_table_SHA256_match": true,
+  "new_figures": [
+    {
+      "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/S1D_Bcell_standard.png",
+      "bytes": 103650,
+      "sha256": "ab10e1b7ac3795564daa6db20b9f903106b822c22c5467afba8a69f653ad0db6"
+    },
+    {
+      "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/S1D_Bcell_standard.pdf",
+      "bytes": 332542,
+      "sha256": "d12f877a202fe5f6a67e346bd1dfbe4d847ad0d53356916ca051b11c3f398ee5"
+    },
+    {
+      "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/S1E_endothelial_standard.png",
+      "bytes": 98609,
+      "sha256": "7b53a81b0ef76b856dc1b49ed14aed7573e845358ad0a927a1217cc742d2f25c"
+    },
+    {
+      "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/S1E_endothelial_standard.pdf",
+      "bytes": 328051,
+      "sha256": "b80b63248d9abd41a8f8aea0d7c5d19b9c3fcf115bf50c61c38022b10aadb030"
+    }
+  ],
+  "original_figures": [
+    {
+      "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/original/S1D_Bcell_standard.png",
+      "bytes": 104511,
+      "sha256": "42bca7694eb08b3c7f74caf169f7d6acd376ff0ba64e651cc016440a28f49bbd"
+    },
+    {
+      "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/original/S1D_Bcell_standard.pdf",
+      "bytes": 331467,
+      "sha256": "a30905ee2a3a5574e311a69b647f73ea0ad81b48c03fdb53bebdbfd5b33f2c46"
+    },
+    {
+      "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/original/S1E_endothelial_standard.png",
+      "bytes": 101615,
+      "sha256": "27914c9f62ecfd225eb116c1bbb15a77d877aa5466a5b5273971033a82d5de35"
+    },
+    {
+      "path": "/workspace/cadir-lm-fig3-artifacts-20261027/s1-legend-fix-20261027/original/S1E_endothelial_standard.pdf",
+      "bytes": 326874,
+      "sha256": "cd95f1466db18e4cf703025d81c07bf54a95c336b7436923d47ff94cf0b7b13d"
+    }
+  ],
+  "scripts": [
+    {
+      "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/scripts/render_fig3.R",
+      "bytes": 16642,
+      "sha256": "2941e2d2d135915a25ac038ea3006b170d657b6e507769cb1a0189edafc04736"
+    },
+    {
+      "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/scripts/direction_legend.R",
+      "bytes": 1133,
+      "sha256": "1998a251c72f8af6c27e3e4aa2b01ebb77f0fe14ec959fcae12011c970e440fb"
+    },
+    {
+      "path": "/workspace/cadir-lm-fig3-completion-20261027/cases/tabula_muris_limb/fig3_completion/scripts/repair_s1_legend.R",
+      "bytes": 3597,
+      "sha256": "95a7988760b24b3e6f3732dda9ea4d6757415f72db8926a8dd2e561d717e4594"
+    }
+  ],
+  "independent_display_recheck": "PENDING"
+}

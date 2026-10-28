@@ -1,0 +1,1178 @@
+---
+title: Figure 2
+jupyter:
+  jupytext:
+    formats: 'ipynb,qmd:quarto'
+    text_representation:
+      extension: .qmd
+      format_name: quarto
+      format_version: '1.0'
+      jupytext_version: 1.16.1
+  kernelspec:
+    display_name: R 4.4.1
+    language: R
+    name: ir441
+---
+
+# Setup
+
+```{r}
+# Working directory should be the root directory of repository.
+# setwd("./")
+renv::load()
+source("./results/utils.R")
+
+suppressPackageStartupMessages({
+  # devtools::load_all("~/gits/ClemensKohl/CAdir/")
+  library(CAdir)
+  library(APL)
+  library(SingleCellExperiment)
+  library(dplyr)
+  library(tidyr)
+
+  # To load the data set
+  library(TENxPBMCData)
+  library(Seurat)
+  library(SeuratObject)
+  library(scater)
+  library(scuttle)
+  library(scran)
+
+  library(patchwork)
+  library(ggtext)
+  library(gguidance)
+})
+
+options(repr.plot.width = 20, repr.plot.height = 15)
+
+dir <- "./results/"
+imgdir <- file.path(dir, "img/figure2/")
+dir.create(imgdir, recursive = TRUE)
+```
+
+## Load data
+
+```{r}
+data_dir <- "./data/real/discussed/"
+
+marker_genes <- readr::read_csv(file.path(
+  data_dir,
+  "tabula_muris_marker_genes.csv"
+))
+sce <- readRDS(file.path(
+  data_dir,
+  "preprocessed/tabula_muris_preprocessed_filtered.rds"
+))
+
+genevars <- modelGeneVar(sce, assay.type = "logcounts")
+chosen <- getTopHVGs(genevars, n = 6000, var.threshold = NULL)
+
+# add marker_genes
+expr_markers <- marker_genes[marker_genes$gene %in% rownames(sce), ]
+chosen <- c(chosen, expr_markers$gene)
+chosen <- unique(chosen)
+sce_sub <- sce[chosen, ]
+
+ca <- cacomp(
+  obj = logcounts(sce_sub),
+  princ_coords = 3,
+  dims = 30,
+  top = nrow(sce_sub),
+  residuals = "pearson",
+  python = TRUE
+)
+
+cell_types <- sce$cell_ontology_class
+cat("Number of cell types:", length(unique(cell_types)), "\n")
+```
+
+# CAdir
+
+```{r}
+set.seed(2358)
+cak <- dirclust_splitmerge(
+  caobj = ca,
+  k = 8,
+  cutoff = 55,
+  method = "random",
+  apl_quant = 0.99,
+  counts = NULL,
+  min_cells = 20,
+  reps = NULL,
+  make_plots = TRUE,
+  qcutoff = 0.8,
+  convergence_thr = 0.001
+)
+```
+
+Annotate biclustering:
+
+```{r}
+cak <- annotate_biclusters(
+  obj = cak,
+  caobj = ca,
+  universe = rownames(sce_sub),
+  org = "mm",
+  method = "goa",
+  cost = "logpval",
+  filter_literature = FALSE
+)
+
+sce_sub$cadir <- cak@cell_clusters
+
+cak
+```
+
+```{r}
+um1 <- plotUMAP(sce_sub, colour = "cadir")
+um2 <- plotUMAP(sce_sub, colour = "cell_ontology_class")
+
+ari <- aricode::clustComp(sce_sub$cadir, sce_sub$cell_ontology_class)
+cat("ARI:", ari$ARI)
+
+um <- um1 + ggtitle(paste0("ARI: ", round(ari$ARI, 2))) + um2
+# NOTE: Uncomment to plot
+# um
+
+ggsave(
+  plot = um,
+  filename = file.path(imgdir, "umap.png")
+)
+```
+
+# Cluster Association Plots
+
+```{r}
+pcll <- plot_clusters(
+  cadir = cak,
+  caobj = ca,
+  show_genes = TRUE,
+  label_genes = TRUE,
+  ntop = 5,
+  title_prefix = "",
+  axis = TRUE,
+  text_size = 19,
+  legend_pos = "right",
+  return_list = TRUE,
+  gsub_title = "_"
+)
+
+pcll_nolabel <- plot_clusters(
+  cadir = cak,
+  caobj = ca,
+  show_genes = TRUE,
+  label_genes = FALSE,
+  ntop = 5,
+  title_prefix = "",
+  axis = TRUE,
+  text_size = 19,
+  legend_pos = "right",
+  return_list = TRUE,
+  gsub_title = "_"
+)
+
+pcl <- wrap_plots(pcll, ncol = 3) +
+  guide_area() +
+  plot_layout(guides = "collect") &
+  theme(legend.box = "horizontal")
+
+
+ggsave(
+  plot = pcl,
+  filename = file.path(imgdir, "cluster_apls.pdf"),
+  device = cairo_pdf,
+  width = 3400,
+  height = 2000,
+  units = "px"
+)
+
+ggsave(
+  plot = pcl,
+  filename = file.path(imgdir, "cluster_apls.png"),
+  width = 3400,
+  height = 2000,
+  units = "px"
+)
+
+# NOTE: Uncomment to plot
+# pcl
+```
+
+## B & T cells - standard coordinates APL
+
+```{r}
+cls <- "B_cell"
+group <- which(cak@cell_clusters == cls)
+direction <- cak@directions[cak@dict[[cls]], ] / ca@D
+
+model <- apl_model(
+  coords = ca@std_coords_cols,
+  direction = direction,
+  group = group
+)
+
+tcs_coords <- model(ca@std_coords_cols)
+tcs_coords <- tcs_coords[cak@cell_clusters == "T_cell", ]
+t_dir <- cak@directions[cak@dict[["T_cell"]], ]
+t_dir <- t_dir / ca@D # prin_coords to std_coords
+t_dir <- model(t_dir)
+
+ics_coords <- model(ca@std_coords_cols)
+ics_coords <- ics_coords[cak@cell_clusters == "Macrophage", ]
+i_dir <- cak@directions[cak@dict[["Macrophage"]], ]
+i_dir <- i_dir / ca@D # prin_coords to std_coords
+i_dir <- model(i_dir)
+```
+
+```{r}
+p_bt_std <- cluster_apl(
+  ca,
+  cak,
+  cluster = cls,
+  direction = cak@directions[cls, ],
+  group = which(cak@cell_clusters == cls),
+  highlight_cluster = TRUE,
+  show_genes = TRUE,
+  label_genes = TRUE,
+  show_lines = FALSE,
+  size_factor = 0.5,
+  ntop = 5
+) +
+  geom_point(
+    data = tcs_coords,
+    aes(x = x, y = y, text = NULL),
+    color = "#d44a3d"
+  ) +
+  ggplot2::geom_abline(
+    intercept = 0,
+    slope = CAdir:::slope(lines = t_dir, dims = 1:2),
+    color = "#d44a3d",
+    linetype = "dashed",
+    linewidth = 1
+  ) +
+  geom_label(
+    data = as.data.frame(t_dir * 4),
+    aes(x, y, text = NULL),
+    label = "T_cell",
+    color = "#d44a3d",
+    vjust = 1,
+    hjust = -0.1
+  ) +
+  geom_point(
+    data = ics_coords,
+    aes(x = x, y = y, text = NULL),
+    color = "#00b1ea"
+  ) +
+  ggplot2::geom_abline(
+    intercept = 0,
+    slope = CAdir:::slope(lines = i_dir, dims = 1:2),
+    color = "#00b1ea",
+    linetype = "dashed",
+    linewidth = 1
+  ) +
+  geom_label(
+    data = as.data.frame(i_dir * 7),
+    aes(x, y, text = NULL),
+    label = "Macrophage",
+    color = "#00b1ea",
+    vjust = 1,
+    hjust = -0.4
+  ) +
+  ggtitle("B cell") +
+  theme_bw(base_size = 16)
+
+# NOTE: Uncomment to plot
+# p_bt_std
+
+ggsave(
+  plot = p_bt_std,
+  file = file.path(imgdir, "B_cell_cluster_std_coords.pdf"),
+  device = cairo_pdf,
+  width = 2000,
+  height = 1600,
+  units = "px"
+)
+ggsave(
+  plot = p_bt_std,
+  file = file.path(imgdir, "B_cell_cluster_std_coords.png"),
+  width = 2000,
+  height = 1600,
+  units = "px"
+)
+```
+
+## Endothelial cells - Standard coordinates APL
+
+```{r}
+cls <- "Endothelial_cell"
+group <- which(cak@cell_clusters == cls)
+direction <- cak@directions[cak@dict[[cls]], ] / ca@D
+
+model <- apl_model(
+  coords = ca@std_coords_cols,
+  direction = direction,
+  group = group
+)
+
+ecs_coords <- model(ca@std_coords_cols)
+ecs_coords <- ecs_coords[cak@cell_clusters == "Vascular_endothelial_cell", ]
+e_dir <- cak@directions[cak@dict[["Vascular_endothelial_cell"]], ]
+e_dir <- e_dir / ca@D # prin_coords to std_coords
+e_dir <- model(e_dir)
+```
+
+```{r}
+p_ecs_std <- cluster_apl(
+  ca,
+  cak,
+  cluster = cls,
+  direction = cak@directions[cls, ],
+  group = which(cak@cell_clusters == cls),
+  highlight_cluster = TRUE,
+  show_genes = TRUE,
+  label_genes = TRUE,
+  show_lines = FALSE,
+  size_factor = 0.5,
+  ntop = 5
+) +
+  geom_point(
+    data = ecs_coords,
+    aes(x = x, y = y, text = NULL),
+    color = "#d44a3d"
+  ) +
+  ggplot2::geom_abline(
+    intercept = 0,
+    slope = CAdir:::slope(lines = e_dir, dims = 1:2),
+    color = "#d44a3d",
+    linetype = "dashed",
+    size = 1
+  ) +
+  geom_label(
+    data = as.data.frame(e_dir * 2),
+    aes(x, y, text = NULL),
+    label = "Vascular endothelial cell",
+    color = "#d44a3d",
+    hjust = 0
+  ) +
+  ggtitle("Endothelial_cell") +
+  theme_bw(base_size = 16)
+
+# NOTE: Uncomment to plot
+# p_ecs_std
+
+ggsave(
+  plot = p_ecs_std,
+  file = file.path(imgdir, "endothelial_cell_clusters_std_coords.pdf"),
+  device = cairo_pdf,
+  width = 2000,
+  height = 1600,
+  units = "px"
+)
+ggsave(
+  plot = p_ecs_std,
+  file = file.path(imgdir, "endothelial_cell_clusters_std_coords.png"),
+  width = 2000,
+  height = 1600,
+  units = "px"
+)
+```
+
+## B & T cells - principal coordinates APL
+
+```{r}
+cls <- "B_cell"
+group <- which(cak@cell_clusters == cls)
+direction <- cak@directions[cak@dict[[cls]], ]
+
+model <- apl_model(
+  coords = ca@prin_coords_cols,
+  direction = direction,
+  group = group
+)
+
+tcs_coords <- model(ca@prin_coords_cols)
+tcs_coords <- tcs_coords[cak@cell_clusters == "T_cell", ]
+t_dir <- cak@directions[cak@dict[["T_cell"]], ]
+t_dir <- model(t_dir)
+
+ics_coords <- model(ca@prin_coords_cols)
+ics_coords <- ics_coords[cak@cell_clusters == "Macrophage", ]
+i_dir <- cak@directions[cak@dict[["Macrophage"]], ]
+i_dir <- model(i_dir)
+```
+
+```{r}
+p_bt_prin <- cluster_apl(
+  ca,
+  cak,
+  cluster = cls,
+  direction = cak@directions[cls, ],
+  group = which(cak@cell_clusters == cls),
+  highlight_cluster = TRUE,
+  show_genes = FALSE,
+  label_genes = TRUE,
+  show_lines = FALSE,
+  size_factor = 0.5,
+  ntop = 5
+) +
+  geom_point(
+    data = tcs_coords,
+    aes(x = x, y = y, text = NULL),
+    color = "#d44a3d"
+  ) +
+  ggplot2::geom_abline(
+    intercept = 0,
+    slope = CAdir:::slope(lines = t_dir, dims = 1:2),
+    color = "#d44a3d",
+    linetype = "dashed",
+    size = 1
+  ) +
+  geom_label(
+    data = as.data.frame(t_dir * 2),
+    aes(x, y, text = NULL),
+    label = "T_cell",
+    color = "#d44a3d",
+    vjust = -1
+  ) +
+  geom_point(
+    data = ics_coords,
+    aes(x = x, y = y, text = NULL),
+    color = "#00b1ea"
+  ) +
+  ggplot2::geom_abline(
+    intercept = 0,
+    slope = CAdir:::slope(lines = i_dir, dims = 1:2),
+    color = "#00b1ea",
+    linetype = "dashed",
+    size = 1
+  ) +
+  geom_label(
+    data = as.data.frame(i_dir * 3),
+    aes(x, y, text = NULL),
+    label = "Macrophage",
+    color = "#00b1ea",
+    vjust = 1
+  ) +
+  ggtitle("B cell") +
+  theme_bw(base_size = 18) +
+  theme(plot.title = element_text(size = 22))
+
+# NOTE: Uncomment to plot
+# p_bt_prin
+
+ggsave(
+  plot = p_bt_prin,
+  file = file.path(imgdir, "B_cell_cluster_prin_coords.pdf"),
+  device = cairo_pdf,
+  width = 2000,
+  height = 1600,
+  units = "px"
+)
+ggsave(
+  plot = p_bt_prin,
+  file = file.path(imgdir, "B_cell_cluster_prin_coords.png"),
+  width = 2000,
+  height = 1600,
+  units = "px"
+)
+```
+
+## Endothelial cells - principal coordinates APL
+
+```{r}
+cls <- "Endothelial_cell"
+group <- which(cak@cell_clusters == cls)
+direction <- cak@directions[cak@dict[[cls]], ]
+
+model <- apl_model(
+  coords = ca@prin_coords_cols,
+  direction = direction,
+  group = group
+)
+
+ecs_coords <- model(ca@prin_coords_cols)
+ecs_coords <- ecs_coords[cak@cell_clusters == "Vascular_endothelial_cell", ]
+e_dir <- cak@directions[cak@dict[["Vascular_endothelial_cell"]], ]
+e_dir <- model(e_dir)
+```
+
+```{r}
+p_ecs_prin <- cluster_apl(
+  ca,
+  cak,
+  cluster = cls,
+  direction = cak@directions[cls, ],
+  group = which(cak@cell_clusters == cls),
+  highlight_cluster = TRUE,
+  show_genes = FALSE,
+  label_genes = TRUE,
+  show_lines = FALSE,
+  size_factor = 0.5,
+  ntop = 5
+) +
+  geom_point(
+    data = ecs_coords,
+    aes(x = x, y = y, text = NULL),
+    color = "#d44a3d"
+  ) +
+  ggplot2::geom_abline(
+    intercept = 0,
+    slope = CAdir:::slope(lines = e_dir, dims = 1:2),
+    color = "#d44a3d",
+    linetype = "dashed",
+    size = 1
+  ) +
+  geom_label(
+    data = as.data.frame(e_dir * 2),
+    aes((x + 0.3), y, text = NULL),
+    label = "Vascular\nendothelial cell",
+    color = "#d44a3d"
+    # hjust = -0.3
+  ) +
+  ggtitle("Endothelial_cell") +
+  theme_bw(base_size = 18) +
+  theme(plot.title = element_text(size = 22))
+
+# NOTE: Uncomment to plot
+# p_ecs_prin
+
+ggsave(
+  plot = p_ecs_prin,
+  file = file.path(imgdir, "endothelial_cell_clusters_prin_coords.pdf"),
+  device = cairo_pdf,
+  width = 2000,
+  height = 1600,
+  units = "px"
+)
+ggsave(
+  plot = p_ecs_prin,
+  file = file.path(imgdir, "endothelial_cell_clusters_prin_coords.png"),
+  width = 2000,
+  height = 1600,
+  units = "px"
+)
+```
+
+### GOA
+```{r}
+
+goa_res <- goa_per_cluster(
+  cadir = cak,
+  universe = rownames(sce_sub),
+  set = "CellMarker",
+  org = "mm",
+  min_size = 10,
+  max_size = 500,
+  filter_literature = FALSE
+)
+```
+
+```{r}
+nclust <- length(goa_res)
+
+goa_mat <- lapply(goa_res, function(x, nc = nclust) {
+  subs <- min(nrow(x), nc)
+  x[seq_len(subs), ]
+})
+
+goa_mat <- dplyr::bind_rows(goa_mat, .id = "cluster")
+
+gr <- goa_mat[, c("cluster", "gene_set", "padj")]
+gr <- complete(gr, cluster, gene_set, fill = list(padj = 1))
+gr$gene_set <- gsub("_", " ", gr$gene_set)
+gr$cluster <- gsub("_", " ", gr$cluster)
+
+p_gs_enr <- ggplot(gr, aes(x = cluster, y = gene_set, fill = -log10(padj))) +
+  geom_tile() +
+  scale_fill_gradientn(
+    colours = c("#29485d", "#006c66", "#c6d325", "#ef7c00"),
+    limits = c(0, 30),
+    # limits = c(0, quantile(-log10(gr$padj), 0.99)),
+    oob = scales::squish,
+    guide = "colourbar_custom"
+  ) +
+  coord_fixed() +
+  theme_bw() +
+  labs(
+    x = "Cluster",
+    y = "Gene Set",
+    title = "Gene Set enrichment",
+    fill = expression(atop("-log"[10], "\npadj"))
+  ) +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1, color = "black"),
+    axis.text.y = element_text(color = "black"),
+    text = element_text(size = 18),
+    plot.title = element_text(size = 16, face = "plain", hjust = 0.5)
+  ) # "bold"
+
+# NOTE: Uncomment to plot
+# p_gs_enr
+
+ggsave(
+  plot = p_gs_enr,
+  file = file.path(imgdir, "gene_set_enr_hm_tm.pdf"),
+  width = 3000,
+  height = 3000,
+  units = "px"
+)
+ggsave(
+  plot = p_gs_enr,
+  file = file.path(imgdir, "gene_set_enr_hm_tm.png"),
+  width = 3000,
+  height = 3000,
+  units = "px"
+)
+```
+
+
+
+# Further Plots
+## SM plot
+
+```{r}
+sm <- sm_plot(
+  cadir = cak,
+  caobj = ca,
+  rm_redund = TRUE,
+  keep_end = FALSE,
+  highlight_cluster = TRUE,
+  show_genes = FALSE,
+  annotate_clusters = TRUE,
+  org = "mm",
+  inlet_side = 0.11,
+  title_size = 12,
+  show_axis = FALSE,
+  layout = "tree",
+  rotate = FALSE
+)
+
+# NOTE: Uncomment to plot
+# sm
+
+ggsave(
+  plot = sm,
+  filename = file.path(imgdir, "tm_split_merge_plot.pdf"),
+  device = cairo_pdf,
+  width = 2300,
+  height = 2100,
+  units = "px"
+)
+
+ggsave(
+  plot = sm,
+  filename = file.path(imgdir, "tm_split_merge_plot.png"),
+  width = 2300,
+  height = 2100,
+  units = "px"
+)
+```
+
+```{r}
+sm_rot <- sm_plot(
+  cadir = cak,
+  caobj = ca,
+  rm_redund = TRUE,
+  keep_end = FALSE,
+  highlight_cluster = TRUE,
+  show_genes = FALSE,
+  annotate_clusters = TRUE,
+  org = "mm",
+  inlet_side = 0.11,
+  title_size = 12,
+  show_axis = FALSE,
+  layout = "tree",
+  rotate = TRUE
+)
+
+# NOTE: Uncomment to plot
+# sm_rot
+
+ggsave(
+  plot = sm_rot,
+  filename = file.path(imgdir, "tm_split_merge_plot_rotate.pdf"),
+  device = cairo_pdf,
+  width = 3000,
+  height = 2100,
+  units = "px"
+)
+
+ggsave(
+  plot = sm_rot,
+  filename = file.path(imgdir, "tm_split_merge_plot_rotate.png"),
+  width = 4000,
+  height = 2100,
+  units = "px"
+)
+```
+
+
+
+## Sankey
+
+```{r}
+library(ggsankey)
+sce_sank <- sce_sub
+
+data <- colData(sce_sank) %>%
+  as.data.frame() %>%
+  rename(
+    "CAdir" = "cadir",
+    "Annotation" = "cell_ontology_class"
+  )
+
+df <- data %>%
+  make_long(CAdir, Annotation)
+
+info <- data.frame(
+  Biclusters = as.factor(data$CAdir),
+  Truth = as.character(data$Annotation)
+) %>%
+  as_tibble() %>%
+  group_by(Biclusters, Truth) %>%
+  summarise(n = n()) %>%
+  group_by(Truth) %>%
+  mutate(Partition = n / sum(n)) %>%
+  ungroup() %>%
+  as.data.frame() %>%
+  group_by(Truth) %>%
+  filter(Partition == max(Partition)) %>%
+  dplyr::select(Biclusters, Truth) %>%
+  distinct(Biclusters, .keep_all = TRUE)
+
+
+pal <- mpi_extend_pal()
+
+cols <- pal(length(unique(sce_sank$cadir)))
+names(cols) <- unique(sce_sank$cadir)
+
+info <- left_join(
+  data.frame("Biclusters" = names(cols), "col" = cols),
+  info,
+  by = "Biclusters"
+)
+
+cols <- c(cols, info$col)
+
+names(cols) <- c(as.character(unique(sce_sank$cadir)), info$Truth)
+
+order <- c(
+  "cluster_1",
+  "Vascular_endothelial_cell",
+  "Endothelial_cell",
+  "Schwalie_et_al.Nature.P1",
+  "Macrophage",
+  "B_cell",
+  "T_cell",
+  "skeletal muscle satellite stem cell",
+  "skeletal muscle satellite cell",
+  "endothelial cell",
+  "mesenchymal stem cell",
+  "macrophage",
+  "B cell",
+  "lymphocyte",
+  "T cell"
+)
+
+wrap <- 17
+df$node <- factor(
+  stringr::str_wrap(df$node, wrap),
+  levels = stringr::str_wrap(order, wrap)
+)
+df$next_node <- factor(
+  stringr::str_wrap(df$next_node, wrap),
+  levels = stringr::str_wrap(order, wrap)
+)
+
+names(cols) <- stringr::str_wrap(names(cols), wrap)
+
+
+sank <- ggplot(
+  df,
+  aes(
+    x = x,
+    next_x = next_x,
+    node = node,
+    next_node = next_node,
+    fill = node,
+    label = as.character(node)
+  )
+) +
+  geom_sankey(
+    flow.alpha = 0.4,
+  ) +
+  geom_sankey_label(size = 6) +
+  labs(x = "") +
+  scale_fill_manual(values = cols) +
+  theme_sankey(base_size = 26, base_family = "sans") +
+  theme(
+    legend.position = "none"
+  )
+
+# NOTE: Uncomment to plot
+# sank
+
+ggsave(
+  plot = sank,
+  filename = file.path(imgdir, "sankey_plot_TM_clustering.pdf"),
+  width = 2700,
+  height = 2400,
+  device = cairo_pdf,
+  units = "px"
+)
+
+ggsave(
+  plot = sank,
+  filename = file.path(imgdir, "sankey_plot_TM_clustering.png"),
+  width = 2700,
+  height = 2400,
+  units = "px"
+)
+```
+
+## Angle between clusters
+
+```{r}
+ang_rad <- CAdir:::get_angle(cak@directions, cak@directions)
+rownames(ang_rad) <- gsub("_|\\.", " ", rownames(ang_rad))
+colnames(ang_rad) <- gsub("_|\\.", " ", colnames(ang_rad))
+ang_deg <- as.data.frame(CAdir:::rad2deg(ang_rad)) %>%
+  tibble::rownames_to_column("cluster")
+
+long_ang <- tidyr::pivot_longer(
+  data = ang_deg,
+  cols = -cluster,
+  values_to = "angle",
+  names_to = "to_cluster"
+)
+
+pang <- ggplot(long_ang, aes(x = cluster, y = to_cluster, fill = angle)) +
+  geom_tile() +
+  CAdir:::scale_fill_gradient_mpimg(name = "orange", trans = "reverse") +
+  theme_bw(base_size = 16) +
+  theme(
+    axis.text.x = element_text(
+      color = "black",
+      angle = 45,
+      vjust = 1,
+      hjust = 1
+    ),
+    axis.text.y = element_text(color = "black"),
+    plot.title = element_text(size = 18)
+  ) +
+  ggtitle("Angle between clusters")
+
+# NOTE: Uncomment to plot
+# pang
+
+ggsave(
+  plot = pang,
+  filename = file.path(imgdir, "angle_between_clusters.pdf"),
+  width = 2000,
+  height = 1600,
+  units = "px"
+)
+```
+
+```{r}
+prl <- plot_results(
+  cak,
+  ca,
+  highlight_cluster = TRUE,
+  title_prefix = "",
+  gsub_title = "_|\\.",
+  return_list = TRUE
+)
+
+pr <- lapply(
+  prl,
+  FUN = function(p) {
+    p +
+      theme(
+        plot.title = ggtext::element_textbox_simple(size = 15)
+      )
+  }
+)
+
+pr <- ggpubr::ggarrange(
+  plotlist = pr,
+  nrow = sqrt(length(pr)),
+  ncol = sqrt(length(pr))
+)
+
+ggsave(
+  plot = pr,
+  filename = file.path(imgdir, "summary_results.pdf"),
+  width = 3400,
+  height = 3400,
+  units = "px"
+)
+
+# NOTE: Uncomment to plot
+# pr
+```
+
+# Panel Figure 2
+
+```{r}
+pcll_nolegend <- lapply(pcll, function(x) {
+  x + guides(color = "none")
+})
+# fmt: skip
+layout <- c(
+  # left column no label
+  area(t = 1 , b = 6 , l = 1, r = 6),
+  area(t = 7 , b = 12, l = 1, r = 6),
+  area(t = 13, b = 18, l = 1, r = 6),
+  area(t = 19, b = 24, l = 1, r = 6),
+  # left column with label
+  area(t = 1 , b = 6 , l = 7, r = 12),
+  area(t = 7 , b = 12, l = 7, r = 12),
+  area(t = 13, b = 18, l = 7, r = 12),
+  area(t = 19, b = 24, l = 7, r = 12),
+  # right column no label
+  area(t = 1 , b = 6 , l = 16, r = 21),
+  area(t = 7 , b = 12, l = 16, r = 21),
+  area(t = 13, b = 18, l = 16, r = 21),
+  # right column with label
+  area(t = 1 , b = 6 , l = 22, r = 27),
+  area(t = 7 , b = 12, l = 22, r = 27),
+  area(t = 13, b = 18, l = 22, r = 27),
+  # Guide Area
+  area(t = 19, b = 24, l = 16, r = 27)
+)
+
+first_half_fig2 <- wrap_plots(
+  c(
+    pcll_nolabel[1:4],
+    pcll_nolegend[1:4],
+    pcll_nolabel[5:7],
+    pcll_nolegend[5:7],
+    list(guide_area())
+  ),
+  design = layout,
+  guides = "collect"
+) +
+  plot_annotation(tag_levels = "A") &
+  theme(
+    plot.tag = element_text(
+      size = 18,
+      face = "bold",
+    ),
+    legend.position = "bottom",
+    legend.box = "vertical",
+    # legend.key.size = unit(6, "cm"),
+    legend.text = element_text(size = 16),
+    legend.title = element_text(size = 18)
+  )
+
+ggsave(
+  plot = first_half_fig2,
+  filename = file.path(imgdir, "fig2_1st_half.png"),
+  width = 6372,
+  height = 3312,
+  units = "px"
+)
+
+ggsave(
+  plot = first_half_fig2,
+  filename = file.path(imgdir, "fig2_1st_half.tiff"),
+  width = 6372,
+  height = 3312,
+  units = "px"
+)
+
+ggsave(
+  plot = first_half_fig2,
+  filename = file.path(imgdir, "fig2_1st_half.pdf"),
+  width = 6372,
+  height = 3312,
+  device = cairo_pdf,
+  units = "px"
+)
+```
+
+
+```{r}
+
+# fmt: skip
+layout <- c(
+  # left column no label
+  area(t = 2 , b = 4 , l = 1, r = 3),
+  area(t = 5 , b = 7, l = 1, r = 3),
+  area(t = 8, b = 8, l = 1, r = 3),
+  area(t = 1, b = 9, l = 4, r = 9)
+)
+
+second_half_fig2 <- p_bt_prin +
+  p_ecs_prin +
+  guide_area() +
+  wrap_elements(sm_rot) +
+  plot_layout(guides = "collect", design = layout) +
+  plot_annotation(tag_levels = "A") &
+  theme(
+    plot.tag = element_text(
+      size = 18,
+      face = "bold"
+    ),
+    legend.position = "bottom",
+    legend.box = "vertical"
+  )
+
+# second_half_fig2
+
+ggsave(
+  plot = second_half_fig2,
+  filename = file.path(imgdir, "figure2_2ndhalf.png"),
+  width = 5372,
+  height = 3312,
+  units = "px"
+)
+
+ggsave(
+  plot = second_half_fig2,
+  filename = file.path(imgdir, "figure2_2ndhalf.tiff"),
+  width = 5372,
+  height = 3312,
+  units = "px"
+)
+
+ggsave(
+  plot = second_half_fig2,
+  filename = file.path(imgdir, "figure2_2ndhalf.pdf"),
+  width = 5372,
+  height = 3312,
+  device = cairo_pdf,
+  units = "px"
+)
+```
+
+
+
+```{r}
+pcl_panel <- pcll
+for (i in seq_len(length(pcl_panel))) {
+  if (i != 1) pcl_panel[[i]] <- pcl_panel[[i]] + plot_layout(tag_level = "new")
+}
+
+fig2 <- (((wrap_plots(pcl_panel, ncol = 3) +
+  guide_area() +
+  plot_layout(guides = "collect") &
+  theme(
+    legend.box = "horizontal",
+    legend.text = element_text(size = 16),
+    legend.title = element_text(size = 18)
+  )) /
+  (p_bt_prin +
+    p_ecs_prin +
+    guide_area() +
+    plot_layout(guides = "collect", width = c(3, 3, 1)))) +
+  plot_layout(height = c(2, 1)) |
+  wrap_elements(sm_rot)) +
+  plot_annotation(tag_levels = "A") &
+  theme(plot.tag = element_text(size = 18, face = "bold"))
+
+ggsave(
+  plot = fig2,
+  filename = file.path(imgdir, "figure2_patchwork_panel.png"),
+  width = 6372,
+  height = 3312,
+  units = "px"
+)
+
+ggsave(
+  plot = fig2,
+  filename = file.path(imgdir, "figure2_patchwork_panel.tiff"),
+  width = 6372,
+  height = 3312,
+  units = "px"
+)
+
+ggsave(
+  plot = fig2,
+  filename = file.path(imgdir, "figure2_patchwork_panel.pdf"),
+  width = 6372,
+  height = 3312,
+  device = cairo_pdf,
+  units = "px"
+)
+```
+
+# Panel Suppl. Figure 1 
+```{r}
+
+pr_panel <- lapply(
+  seq_along(prl),
+  FUN = function(i) {
+    if (i != 1) {
+      prl[[i]] +
+        theme(plot.title = ggtext::element_textbox_simple(size = 8)) +
+        plot_layout(tag_level = "new")
+    } else {
+      prl[[i]] +
+        theme(plot.title = ggtext::element_textbox_simple(size = 8))
+    }
+  }
+)
+
+pr_panel <- ggpubr::ggarrange(
+  plotlist = pr_panel,
+  nrow = sqrt(length(pr_panel)),
+  ncol = sqrt(length(pr_panel))
+)
+
+layout = c(
+  area(t = 1, l = 1, b = 4, r = 4),
+  area(1, 5, 4, 8),
+  area(5, 1, 8, 4),
+  area(5, 5, 6, 8),
+  area(7, 5, 8, 8)
+)
+# plot(layout)
+
+# pr_panel <- wrap_plots(pr_panel, ncol = 3)
+
+sfig1 <- pang +
+  free(pr_panel, side = "rtbl") +
+  free(sank, side = "lr") +
+  p_bt_std +
+  p_ecs_std +
+  plot_layout(design = layout) +
+  plot_annotation(tag_levels = "A") &
+  theme(plot.tag = element_text(size = 18, face = "bold"))
+
+# sfig1 <- (pang + free(pr, type = "panel", side = "rb")) / (free(sank, side = "l") + (p_bt_std / p_ecs_std))
+
+ggsave(
+  plot = sfig1,
+  filename = file.path(imgdir, "suppl_figure1_patchwork_panel.png"),
+  width = 4802,
+  height = 4502,
+  units = "px"
+)
+
+ggsave(
+  plot = sfig1,
+  filename = file.path(imgdir, "suppl_figure1_patchwork_panel.pdf"),
+  width = 4802,
+  height = 4502,
+  device = cairo_pdf,
+  units = "px"
+)
+
+ggsave(
+  plot = sfig1,
+  filename = file.path(imgdir, "suppl_figure1_patchwork_panel.tiff"),
+  width = 4802,
+  height = 4502,
+  units = "px"
+)
+```
+
+
+# Session Info
+
+```{r}
+sessionInfo()
+```
+
