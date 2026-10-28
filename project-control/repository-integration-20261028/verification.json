@@ -1,0 +1,135 @@
+{
+  "all_original_remote_heads_are_ancestors": true,
+  "remote_branch_count_before": 19,
+  "non_main_branches_included": 18,
+  "preservation": [
+    {
+      "source": "origin/feat/lm-fig3-completion-20261027",
+      "prefix": "cases/tabula_muris_limb/",
+      "files_checked": 448,
+      "documentation_exceptions": [
+        "README.md",
+        "fig3_completion/README.md"
+      ],
+      "differences": []
+    },
+    {
+      "source": "origin/delivery/hsc-course-20261027",
+      "prefix": "cases/nestorowa_hsc/",
+      "files_checked": 450,
+      "documentation_exceptions": [
+        "README.md",
+        "fair-experiment/README.md"
+      ],
+      "differences": []
+    },
+    {
+      "source": "origin/delivery/hsc-course-20261027",
+      "prefix": "deliverables/hsc-course-20261027/",
+      "files_checked": 14,
+      "documentation_exceptions": [],
+      "differences": []
+    },
+    {
+      "source": "origin/review/lm-fig3-20261027",
+      "prefix": "reviews/lm-fig3-20261027/",
+      "files_checked": 80,
+      "documentation_exceptions": [],
+      "differences": []
+    },
+    {
+      "source": "origin/review/hsc-design-20261026",
+      "prefix": "reviews/hsc-design-20261026/",
+      "files_checked": 51,
+      "documentation_exceptions": [],
+      "differences": []
+    },
+    {
+      "source": "origin/review/hsc-results-20261027",
+      "prefix": "reviews/hsc-results-20261027/",
+      "files_checked": 22,
+      "documentation_exceptions": [],
+      "differences": []
+    },
+    {
+      "source": "6ff97748dda1af431440e9bb74a0789de957eb2a",
+      "prefix": "deliverables/experiment-report-20261027/",
+      "files_checked": 57,
+      "documentation_exceptions": [],
+      "differences": []
+    },
+    {
+      "source": "6ff97748dda1af431440e9bb74a0789de957eb2a",
+      "prefix": "deliverables/experiment-report-cjc-latex-20261027/figures/",
+      "files_checked": 13,
+      "documentation_exceptions": [],
+      "differences": []
+    },
+    {
+      "source": "6ff97748dda1af431440e9bb74a0789de957eb2a",
+      "prefix": "deliverables/experiment-report-cjc-latex-20261027/layout/",
+      "files_checked": 18,
+      "documentation_exceptions": [],
+      "differences": []
+    }
+  ],
+  "hsc_zip": {
+    "sha256": "034f08ff08f57961cc12db09b0c3dd2e13b7893ea09f793f1cea00f79166023c",
+    "crc": "PASS",
+    "members": 342
+  },
+  "navigation_links_checked": 60,
+  "broken_navigation_links": [],
+  "historical_controller_readme_preserved": true,
+  "latex": {
+    "page_count": 29,
+    "pdf_bytes": 4768499,
+    "pdf_sha256": "e13a5409eaab39aa71fa510649d206252d8d733ba241dc528102e9362061c21f",
+    "pdf_figure_sources": 13,
+    "bibliography_entries": 15,
+    "english_references": 15,
+    "references_2024_2026": 9,
+    "history_display_figures": 4,
+    "enlarged_history_panels": 21,
+    "original_figures_checked": 13,
+    "figure_pages": {
+      "1": 13,
+      "2": 14,
+      "3": 14,
+      "4": 15,
+      "5": 16,
+      "6": 16,
+      "7": 17,
+      "8": 18,
+      "9": 18,
+      "10": 19,
+      "11": 20,
+      "12": 21,
+      "13": 21
+    },
+    "command_layout": {
+      "page": 8,
+      "before_gap_pt": 11.356689453125,
+      "after_gap_pt": 5.613037109375
+    },
+    "dual_column_pages": [
+      5,
+      6,
+      7,
+      9,
+      10,
+      22,
+      23
+    ],
+    "missing_glyphs": 0,
+    "undefined_references": 0,
+    "undefined_citations": 0,
+    "overfull_boxes": 0,
+    "result_scope": "Existing scientific data reused; typesetting and source integrity checked"
+  },
+  "caption_checks": {
+    "figures": 16,
+    "tables": 9,
+    "status": "PASS"
+  }
+}

@@ -1,4 +1,15 @@
-# Nestorowa HSC：输入准备，正式执行仍禁止
+# Nestorowa HSC：新数据对照实验
+
+**当前状态：真实输入独立复验、共同准备、独立设计准入、两方法各五种子及独立结果复验均已完成。**
+
+- [公平实验代码、配置与结果](fair-experiment/README.md)
+- [独立设计准入](../../reviews/hsc-design-20261026/独立阶段一科学审查报告.md)
+- [独立结果复验](../../reviews/hsc-results-20261027/独立结果复验报告.md)
+- [主控阶段结论](../../project-control/HSC公平实验阶段结论-2026-10-27.md)
+
+## 输入准备阶段记录（历史）
+
+下文保留输入审计入口与当时的阶段门槛；正式实验的当前状态见上方结论。
 
 最新交付见 [A03 修复与真实输入审计](../../planning/new-dataset/2026-10-26/input-legality-a03/README.md)。
 历史准备及收据在 `planning/new-dataset/2026-10-26/metadata-preparation/`。

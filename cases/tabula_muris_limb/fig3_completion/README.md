@@ -1,8 +1,10 @@
-# Limb Muscle Fig3/S1 补齐（实施自检，待独立复验）
+# Limb Muscle Fig3/S1 分析成果
+
+**当前状态：九项分析及图例修复已独立复验通过。** 见[原始独立报告](../../../reviews/lm-fig3-20261027/report.md)和[主控阶段结论](../../../project-control/LM首案例图表补齐阶段结论-2026-10-27.md)。下列实施自检与运行前矩阵保留其原始范围。
 
 本轮只处理 DOI [10.1371/journal.pcbi.1014418](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014418) 的 Fig3 A–D 及直接关联的 S1 A–E。作者固定提交 `VingronLab/CAdir_results@c15b49578bde38b42fd5db2c9830c10dd441ee4c` 的 `results/figure2.qmd` 对应正式 **Fig3**；正式 Fig2 是方法示意图。旧 6000-HVG 单案例及已闭合的 R3 因果诊断保留，不重复该实验。
 
-**实施交付已完成，独立复验待签署；作者特定制品严格等价仍 BLOCKED。** 9项子图的 PNG/PDF、真实数据表和实施自检见[结果报告](report.md)、[图注](captions.md)、[图表目录](figures/)、[自检](evidence/render/verification.json)。大对象与完整点云位于[外置索引](evidence/external_artifacts.json)，[RDS专用索引](evidence/external_RDS_index.json)含大小和SHA256。
+**实施交付与独立复验已完成；作者特定制品的来源范围见固定阶段结论。** 9项子图的 PNG/PDF、真实数据表和实施自检见[结果报告](report.md)、[图注](captions.md)、[图表目录](figures/)、[自检](evidence/render/verification.json)。大对象与完整点云位于[外置索引](evidence/external_artifacts.json)，[RDS专用索引](evidence/external_RDS_index.json)含大小和SHA256。
 
 论文 Methods 的 Discussed data 明确描述 **6000 HVG、1882细胞、6000基因**；固定绘图代码又追加 marker CSV 中已表达基因。这是来源之间的具体差异，不把它自行解释为任何一方错误。本轮实现发表方法描述的6000-HVG几何图表路径，保留旧版限定结论；没有因此声称作者绘图制品严格等价。[本轮直接回读官方HTML](evidence/paper_methods_web.txt)及[固定代码](evidence/author-fixed/results/figure2.qmd)分别保全。`cluster_tabula_muris.R` 是全图谱簇数恢复实验，仅作为排除边界留档，没有执行；也没有下载或处理全图谱、PBMC或其他数据。
 

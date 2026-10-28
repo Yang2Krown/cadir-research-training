@@ -1,0 +1,59 @@
+[
+  {
+    "branch": "audit/new-env-network-20261026",
+    "merge_commit": "ed457f88f5d8c8e24474a9318ec4186e7ff4ab2e",
+    "conflicts": []
+  },
+  {
+    "branch": "delivery/hsc-course-20261027",
+    "merge_commit": "bac1efb398eeec70aa9978a83b5d73f609d7044b",
+    "conflicts": []
+  },
+  {
+    "branch": "review/hsc-design-20261026",
+    "merge_commit": "1957b01df8e415662dce672063127f41a1e20be5",
+    "conflicts": []
+  },
+  {
+    "branch": "review/hsc-input-b7ee233-20261026",
+    "merge_commit": "e18eb836c2bce687668881052f9f03d07f6c4b5b",
+    "conflicts": [
+      {
+        "file": "project-control/reviews/b7ee233-real-input-20261026/difference_table.tsv",
+        "resolution": "Use the completed independent rerun table from da802216; retain the earlier acquisition-blocked table separately",
+        "archived_earlier_file": "project-control/reviews/b7ee233-real-input-20261026/difference_table.blocked-f49a2e5.tsv",
+        "earlier_sha256": "69e3159bdd0795d7d4b756b5f40ff33bab315a6a236b4ba35d9eb506029c4404",
+        "current_sha256": "a963c2a5cc20ccde55d1cc9589b52b1f694c1facbeb0ea642273e738d2c2710b"
+      }
+    ]
+  },
+  {
+    "branch": "review/hsc-results-20261027",
+    "merge_commit": "3b9751ce98a53ac1c047e2e444dd78d0bf4bfdf8",
+    "conflicts": []
+  },
+  {
+    "branch": "feat/lm-fig3-completion-20261027",
+    "merge_commit": "162d324e7fe7fd55eaf5de4a7106c802a23b9133",
+    "conflicts": []
+  },
+  {
+    "branch": "review/lm-fig3-20261027",
+    "merge_commit": "649985ecea54823dc0f3716956b3fe6d09ad2b30",
+    "conflicts": []
+  },
+  {
+    "branch": "review/raw-input-b7ee233-20261026",
+    "merge_commit": "91082ad01066f1828b8c4eb05df3df886e7ee16d",
+    "conflicts": [
+      {
+        "file": "project-control/reviews/b7ee233-real-input-20261026/difference_table.tsv",
+        "resolution": "Keep da802216 completed rerun table as current; archive incoming f49a2e5 blocked table verbatim",
+        "archived_earlier_file": "project-control/reviews/b7ee233-real-input-20261026/difference_table.blocked-f49a2e5.tsv",
+        "current_sha256": "a963c2a5cc20ccde55d1cc9589b52b1f694c1facbeb0ea642273e738d2c2710b",
+        "earlier_original_sha256": "69e3159bdd0795d7d4b756b5f40ff33bab315a6a236b4ba35d9eb506029c4404",
+        "duplicate_archive_deduplicated": true
+      }
+    ]
+  }
+]
