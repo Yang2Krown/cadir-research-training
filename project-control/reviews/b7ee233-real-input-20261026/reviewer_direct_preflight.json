@@ -1,0 +1,19 @@
+{
+  "reviewer": "GPT-6.1 Sol / High",
+  "files": {
+    "coldata.rds": {
+      "bytes": 182319,
+      "sha256": "16d9e3ee62d27aac74591ccddd064eb2be9b86836591c8ec99d39e1af0bf35bc"
+    },
+    "GSE81682_HTSeq_counts.txt.gz": {
+      "bytes": 30236635,
+      "sha256": "e12745e4087823ae868c6fe82a38510c15730e82ee74e1983def85ed3b7df68a"
+    },
+    "counts.rds": {
+      "bytes": 90044893,
+      "sha256": "6bf8a84f4db185eb6021ceb53b7d6d33083410e02a6ee7a6df2191f0bbb90563"
+    }
+  },
+  "reviewed_commit": "b7ee2335dc25ffab3a60d1feab44272d6d5a45cb",
+  "privileged_tool_attempts": "environment_status interrupted without result; Docker exec_command with network permission twice interrupted after 272.8 / 194 seconds, no session ID; coordinator will execute reviewer-authored runner without editing"
+}

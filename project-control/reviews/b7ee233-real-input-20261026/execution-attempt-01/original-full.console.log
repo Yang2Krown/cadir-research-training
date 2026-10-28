@@ -1,0 +1,4 @@
+usage: run_input_audit.py [-h] --metadata METADATA [--counts COUNTS]
+                          [--geo GEO] --manifest MANIFEST --output OUTPUT
+                          {metadata-only,full}
+run_input_audit.py: error: Attempt path exists; use a fresh path

@@ -1,0 +1,9 @@
+{
+  "reviewer": "GPT-6.1 Sol / High",
+  "privileged_command_executor": "coordinator; reviewer-authored runner executed unchanged",
+  "reviewed_commit": "b7ee2335dc25ffab3a60d1feab44272d6d5a45cb",
+  "image_id": "sha256:baf71525f92cb9813846199dce68c6190c23d4774b025a7baec85e9688b642c7",
+  "image_tag": "cadir-r-ver:4.4.1-bioc3.19",
+  "formal_execution_permitted": false,
+  "environment_status": "reviewer tool wait interrupted without output; coordinator preflight records supplied separately; actual offline image execution below is primary runtime evidence"
+}

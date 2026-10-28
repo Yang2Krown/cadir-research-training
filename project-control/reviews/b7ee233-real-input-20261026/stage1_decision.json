@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "real input legality and A03 legacy RDS identity retest",
+  "reviewed_commit": "b7ee2335dc25ffab3a60d1feab44272d6d5a45cb",
+  "A01_input_legality_can_close": true,
+  "A03_real_object_retest_can_close": true,
+  "formal_execution_permitted": false,
+  "QC_performed": false,
+  "normalization_performed": false,
+  "algorithms_or_metrics_or_smoke_or_simulations_run": false,
+  "independent_oracle_exit_code": 0,
+  "metadata_only_exit_code": 0,
+  "full_exit_code": 0,
+  "real_metadata_cases_passed": 15,
+  "independent_comparison_checks_passed": 69,
+  "privileged_command_executor": "coordinator execution relay; independent reviewer authored and interpreted"
+}

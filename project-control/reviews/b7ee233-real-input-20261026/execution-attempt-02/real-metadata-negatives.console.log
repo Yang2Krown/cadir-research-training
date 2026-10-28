@@ -1,0 +1,4 @@
+Warning message:
+In replCmat4(x, i1 = if (iMi) seq.int(from = 0L, length.out = di[1L]) else .ind.prep2(i,  :
+  x[] <- val: val is coerced to logical for "lgCMatrix" x
+Real metadata in-memory adversarial cases PASS

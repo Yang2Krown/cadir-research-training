@@ -1,4 +1,70 @@
-file	expected_bytes_manifest_only	expected_sha256_manifest_only	actual_bytes_before	actual_sha256_before	actual_bytes_after	actual_sha256_after	status
-counts.rds	90044893	6bf8a84f4db185eb6021ceb53b7d6d33083410e02a6ee7a6df2191f0bbb90563	UNAVAILABLE	NOT_COMPUTED	UNAVAILABLE	NOT_COMPUTED	BLOCKED_ACQUISITION
-coldata.rds	182319	16d9e3ee62d27aac74591ccddd064eb2be9b86836591c8ec99d39e1af0bf35bc	UNAVAILABLE	NOT_COMPUTED	UNAVAILABLE	NOT_COMPUTED	BLOCKED_ACQUISITION
-GSE81682_HTSeq_counts.txt.gz	30236635	e12745e4087823ae868c6fe82a38510c15730e82ee74e1983def85ed3b7df68a	UNAVAILABLE	NOT_COMPUTED	UNAVAILABLE	NOT_COMPUTED	BLOCKED_ACQUISITION
+check	independent_or_expected	original_or_actual	pass
+attempt02 input and source hashes unchanged	sha256:23f1c3f6eb2d5b04fc3bc914b9a623a78591889852189eafa91b2b58f2ba1498	sha256:23f1c3f6eb2d5b04fc3bc914b9a623a78591889852189eafa91b2b58f2ba1498	True
+attempt01 input and source hashes unchanged	sha256:2662ce25c2d79c5b77103773ca418070ff60532d9d87c31b5a7d427cd3133f5f	sha256:2662ce25c2d79c5b77103773ca418070ff60532d9d87c31b5a7d427cd3133f5f	True
+inputs same between attempts	"{""GSE81682_HTSeq_counts.txt.gz"": {""bytes"": 30236635, ""sha256"": ""e12745e4087823ae868c6fe82a38510c15730e82ee74e1983def85ed3b7df68a""}, ""coldata.rds"": {""bytes"": 182319, ""sha256"": ""16d9e3ee62d27aac74591ccddd064eb2be9b86836591c8ec99d39e1af0bf35bc""}, ""counts.rds"": {""bytes"": 90044893, ""sha256"": ""6bf8a84f4db185eb6021ceb53b7d6d33083410e02a6ee7a6df2191f0bbb90563""}}"	"{""GSE81682_HTSeq_counts.txt.gz"": {""bytes"": 30236635, ""sha256"": ""e12745e4087823ae868c6fe82a38510c15730e82ee74e1983def85ed3b7df68a""}, ""coldata.rds"": {""bytes"": 182319, ""sha256"": ""16d9e3ee62d27aac74591ccddd064eb2be9b86836591c8ec99d39e1af0bf35bc""}, ""counts.rds"": {""bytes"": 90044893, ""sha256"": ""6bf8a84f4db185eb6021ceb53b7d6d33083410e02a6ee7a6df2191f0bbb90563""}}"	True
+reviewer direct input hashes match runner	"{""GSE81682_HTSeq_counts.txt.gz"": {""bytes"": 30236635, ""sha256"": ""e12745e4087823ae868c6fe82a38510c15730e82ee74e1983def85ed3b7df68a""}, ""coldata.rds"": {""bytes"": 182319, ""sha256"": ""16d9e3ee62d27aac74591ccddd064eb2be9b86836591c8ec99d39e1af0bf35bc""}, ""counts.rds"": {""bytes"": 90044893, ""sha256"": ""6bf8a84f4db185eb6021ceb53b7d6d33083410e02a6ee7a6df2191f0bbb90563""}}"	"{""GSE81682_HTSeq_counts.txt.gz"": {""bytes"": 30236635, ""sha256"": ""e12745e4087823ae868c6fe82a38510c15730e82ee74e1983def85ed3b7df68a""}, ""coldata.rds"": {""bytes"": 182319, ""sha256"": ""16d9e3ee62d27aac74591ccddd064eb2be9b86836591c8ec99d39e1af0bf35bc""}, ""counts.rds"": {""bytes"": 90044893, ""sha256"": ""6bf8a84f4db185eb6021ceb53b7d6d33083410e02a6ee7a6df2191f0bbb90563""}}"	True
+all four runner commands exit zero	[0, 0, 0, 0]	[0, 0, 0, 0]	True
+independent oracle PASS	"""PASS"""	"""PASS"""	True
+real metadata negatives PASS	"""PASS"""	"""PASS"""	True
+metadata-only original exit	0	0	True
+metadata-only formal execution prohibited	false	false	True
+metadata-only counts read flag	false	false	True
+metadata-only exact image	"""sha256:baf71525f92cb9813846199dce68c6190c23d4774b025a7baec85e9688b642c7"""	"""sha256:baf71525f92cb9813846199dce68c6190c23d4774b025a7baec85e9688b642c7"""	True
+metadata-only executed source audit_inputs.R	"""63d5c3d419b34645227178bc1daaf8da04a113f13ec11c04427f709c1fef9f92"""	"""63d5c3d419b34645227178bc1daaf8da04a113f13ec11c04427f709c1fef9f92"""	True
+metadata-only executed source metadata_identity.R	"""aada661c76bd5d9fd5084c53572b958055d48b8e1466b6610f2de3c35cee58f5"""	"""aada661c76bd5d9fd5084c53572b958055d48b8e1466b6610f2de3c35cee58f5"""	True
+metadata-only executed source run_input_audit.py	"""5c8e15aa5257acdf60dc1c5625af0aab99a29d16631f007e6930855846d53a3b"""	"""5c8e15aa5257acdf60dc1c5625af0aab99a29d16631f007e6930855846d53a3b"""	True
+metadata-only no raw count/GEO mounts	false	false	True
+metadata-only candidate cell IDs and labels	sha256:cad5bf2e1928b500c5ab3c6a531e0e4c97435377680f9c006ec7a6dcc4731298	sha256:cad5bf2e1928b500c5ab3c6a531e0e4c97435377680f9c006ec7a6dcc4731298	True
+metadata-only raw NULL symbol	"""\u0001NULL\u0001"""	"""\u0001NULL\u0001"""	True
+metadata-only semantic NULL	true	true	True
+metadata-only unassigned	136	136	True
+metadata-only cell.type dimensions	[1920, 23]	[1920, 23]	True
+metadata-only cell.type columns	"[""LTHSC_broad"", ""LMPP_broad"", ""MPP_broad"", ""CMP_broad"", ""MEP_broad"", ""GMP_broad"", ""MPP1_broad"", ""MPP2_broad"", ""MPP3_broad"", ""STHSC_broad"", ""LTHSC"", ""LMPP"", ""MPP"", ""CMP"", ""MEP"", ""GMP"", ""MPP1"", ""MPP2"", ""MPP3"", ""STHSC"", ""ESLAM"", ""HSC1"", ""Projected""]"	"[""LTHSC_broad"", ""LMPP_broad"", ""MPP_broad"", ""CMP_broad"", ""MEP_broad"", ""GMP_broad"", ""MPP1_broad"", ""MPP2_broad"", ""MPP3_broad"", ""STHSC_broad"", ""LTHSC"", ""LMPP"", ""MPP"", ""CMP"", ""MEP"", ""GMP"", ""MPP1"", ""MPP2"", ""MPP3"", ""STHSC"", ""ESLAM"", ""HSC1"", ""Projected""]"	True
+metadata-only cell.type NA_entries	0	0	True
+metadata-only cell.type NA_by_column	"{""CMP"": 0, ""CMP_broad"": 0, ""ESLAM"": 0, ""GMP"": 0, ""GMP_broad"": 0, ""HSC1"": 0, ""LMPP"": 0, ""LMPP_broad"": 0, ""LTHSC"": 0, ""LTHSC_broad"": 0, ""MEP"": 0, ""MEP_broad"": 0, ""MPP"": 0, ""MPP1"": 0, ""MPP1_broad"": 0, ""MPP2"": 0, ""MPP2_broad"": 0, ""MPP3"": 0, ""MPP3_broad"": 0, ""MPP_broad"": 0, ""Projected"": 0, ""STHSC"": 0, ""STHSC_broad"": 0}"	"{""CMP"": 0, ""CMP_broad"": 0, ""ESLAM"": 0, ""GMP"": 0, ""GMP_broad"": 0, ""HSC1"": 0, ""LMPP"": 0, ""LMPP_broad"": 0, ""LTHSC"": 0, ""LTHSC_broad"": 0, ""MEP"": 0, ""MEP_broad"": 0, ""MPP"": 0, ""MPP1"": 0, ""MPP1_broad"": 0, ""MPP2"": 0, ""MPP2_broad"": 0, ""MPP3"": 0, ""MPP3_broad"": 0, ""MPP_broad"": 0, ""Projected"": 0, ""STHSC"": 0, ""STHSC_broad"": 0}"	True
+metadata-only cell.type all_NA_rows	0	0	True
+metadata-only diffusion dimensions	[1920, 3]	[1920, 3]	True
+metadata-only diffusion columns	"[""DC1"", ""DC2"", ""DC3""]"	"[""DC1"", ""DC2"", ""DC3""]"	True
+metadata-only diffusion NA_entries	1263	1263	True
+metadata-only diffusion NA_by_column	"{""DC1"": 421, ""DC2"": 421, ""DC3"": 421}"	"{""DC1"": 421, ""DC2"": 421, ""DC3"": 421}"	True
+metadata-only diffusion all_NA_rows	421	421	True
+metadata-only FACS dimensions	[1920, 10]	[1920, 10]	True
+metadata-only FACS columns	"[""FSC.H"", ""CD34"", ""CD16"", ""c.Kit"", ""EPCR"", ""Flk2"", ""CD150"", ""CD48"", ""Lin"", ""Sca1""]"	"[""FSC.H"", ""CD34"", ""CD16"", ""c.Kit"", ""EPCR"", ""Flk2"", ""CD150"", ""CD48"", ""Lin"", ""Sca1""]"	True
+metadata-only FACS NA_entries	4300	4300	True
+metadata-only FACS NA_by_column	"{""CD150"": 430, ""CD16"": 430, ""CD34"": 430, ""CD48"": 430, ""EPCR"": 430, ""FSC.H"": 430, ""Flk2"": 430, ""Lin"": 430, ""Sca1"": 430, ""c.Kit"": 430}"	"{""CD150"": 430, ""CD16"": 430, ""CD34"": 430, ""CD48"": 430, ""EPCR"": 430, ""FSC.H"": 430, ""Flk2"": 430, ""Lin"": 430, ""Sca1"": 430, ""c.Kit"": 430}"	True
+metadata-only FACS all_NA_rows	430	430	True
+metadata-only all 23 membership totals	"{""CMP"": 227, ""CMP_broad"": 328, ""ESLAM"": 42, ""GMP"": 56, ""GMP_broad"": 123, ""HSC1"": 126, ""LMPP"": 211, ""LMPP_broad"": 280, ""LTHSC"": 323, ""LTHSC_broad"": 323, ""MEP"": 232, ""MEP_broad"": 362, ""MPP"": 259, ""MPP1"": 29, ""MPP1_broad"": 68, ""MPP2"": 12, ""MPP2_broad"": 28, ""MPP3"": 66, ""MPP3_broad"": 162, ""MPP_broad"": 368, ""Projected"": 183, ""STHSC"": 40, ""STHSC_broad"": 110}"	"{""CMP"": 227, ""CMP_broad"": 328, ""ESLAM"": 42, ""GMP"": 56, ""GMP_broad"": 123, ""HSC1"": 126, ""LMPP"": 211, ""LMPP_broad"": 280, ""LTHSC"": 323, ""LTHSC_broad"": 323, ""MEP"": 232, ""MEP_broad"": 362, ""MPP"": 259, ""MPP1"": 29, ""MPP1_broad"": 68, ""MPP2"": 12, ""MPP2_broad"": 28, ""MPP3"": 66, ""MPP3_broad"": 162, ""MPP_broad"": 368, ""Projected"": 183, ""STHSC"": 40, ""STHSC_broad"": 110}"	True
+full original exit	0	0	True
+full formal execution prohibited	false	false	True
+full counts read flag	true	true	True
+full exact image	"""sha256:baf71525f92cb9813846199dce68c6190c23d4774b025a7baec85e9688b642c7"""	"""sha256:baf71525f92cb9813846199dce68c6190c23d4774b025a7baec85e9688b642c7"""	True
+full executed source audit_inputs.R	"""63d5c3d419b34645227178bc1daaf8da04a113f13ec11c04427f709c1fef9f92"""	"""63d5c3d419b34645227178bc1daaf8da04a113f13ec11c04427f709c1fef9f92"""	True
+full executed source metadata_identity.R	"""aada661c76bd5d9fd5084c53572b958055d48b8e1466b6610f2de3c35cee58f5"""	"""aada661c76bd5d9fd5084c53572b958055d48b8e1466b6610f2de3c35cee58f5"""	True
+full executed source run_input_audit.py	"""5c8e15aa5257acdf60dc1c5625af0aab99a29d16631f007e6930855846d53a3b"""	"""5c8e15aa5257acdf60dc1c5625af0aab99a29d16631f007e6930855846d53a3b"""	True
+full candidate cell IDs and labels	sha256:cad5bf2e1928b500c5ab3c6a531e0e4c97435377680f9c006ec7a6dcc4731298	sha256:cad5bf2e1928b500c5ab3c6a531e0e4c97435377680f9c006ec7a6dcc4731298	True
+full raw NULL symbol	"""\u0001NULL\u0001"""	"""\u0001NULL\u0001"""	True
+full semantic NULL	true	true	True
+full unassigned	136	136	True
+full cell.type dimensions	[1920, 23]	[1920, 23]	True
+full cell.type columns	"[""LTHSC_broad"", ""LMPP_broad"", ""MPP_broad"", ""CMP_broad"", ""MEP_broad"", ""GMP_broad"", ""MPP1_broad"", ""MPP2_broad"", ""MPP3_broad"", ""STHSC_broad"", ""LTHSC"", ""LMPP"", ""MPP"", ""CMP"", ""MEP"", ""GMP"", ""MPP1"", ""MPP2"", ""MPP3"", ""STHSC"", ""ESLAM"", ""HSC1"", ""Projected""]"	"[""LTHSC_broad"", ""LMPP_broad"", ""MPP_broad"", ""CMP_broad"", ""MEP_broad"", ""GMP_broad"", ""MPP1_broad"", ""MPP2_broad"", ""MPP3_broad"", ""STHSC_broad"", ""LTHSC"", ""LMPP"", ""MPP"", ""CMP"", ""MEP"", ""GMP"", ""MPP1"", ""MPP2"", ""MPP3"", ""STHSC"", ""ESLAM"", ""HSC1"", ""Projected""]"	True
+full cell.type NA_entries	0	0	True
+full cell.type NA_by_column	"{""CMP"": 0, ""CMP_broad"": 0, ""ESLAM"": 0, ""GMP"": 0, ""GMP_broad"": 0, ""HSC1"": 0, ""LMPP"": 0, ""LMPP_broad"": 0, ""LTHSC"": 0, ""LTHSC_broad"": 0, ""MEP"": 0, ""MEP_broad"": 0, ""MPP"": 0, ""MPP1"": 0, ""MPP1_broad"": 0, ""MPP2"": 0, ""MPP2_broad"": 0, ""MPP3"": 0, ""MPP3_broad"": 0, ""MPP_broad"": 0, ""Projected"": 0, ""STHSC"": 0, ""STHSC_broad"": 0}"	"{""CMP"": 0, ""CMP_broad"": 0, ""ESLAM"": 0, ""GMP"": 0, ""GMP_broad"": 0, ""HSC1"": 0, ""LMPP"": 0, ""LMPP_broad"": 0, ""LTHSC"": 0, ""LTHSC_broad"": 0, ""MEP"": 0, ""MEP_broad"": 0, ""MPP"": 0, ""MPP1"": 0, ""MPP1_broad"": 0, ""MPP2"": 0, ""MPP2_broad"": 0, ""MPP3"": 0, ""MPP3_broad"": 0, ""MPP_broad"": 0, ""Projected"": 0, ""STHSC"": 0, ""STHSC_broad"": 0}"	True
+full cell.type all_NA_rows	0	0	True
+full diffusion dimensions	[1920, 3]	[1920, 3]	True
+full diffusion columns	"[""DC1"", ""DC2"", ""DC3""]"	"[""DC1"", ""DC2"", ""DC3""]"	True
+full diffusion NA_entries	1263	1263	True
+full diffusion NA_by_column	"{""DC1"": 421, ""DC2"": 421, ""DC3"": 421}"	"{""DC1"": 421, ""DC2"": 421, ""DC3"": 421}"	True
+full diffusion all_NA_rows	421	421	True
+full FACS dimensions	[1920, 10]	[1920, 10]	True
+full FACS columns	"[""FSC.H"", ""CD34"", ""CD16"", ""c.Kit"", ""EPCR"", ""Flk2"", ""CD150"", ""CD48"", ""Lin"", ""Sca1""]"	"[""FSC.H"", ""CD34"", ""CD16"", ""c.Kit"", ""EPCR"", ""Flk2"", ""CD150"", ""CD48"", ""Lin"", ""Sca1""]"	True
+full FACS NA_entries	4300	4300	True
+full FACS NA_by_column	"{""CD150"": 430, ""CD16"": 430, ""CD34"": 430, ""CD48"": 430, ""EPCR"": 430, ""FSC.H"": 430, ""Flk2"": 430, ""Lin"": 430, ""Sca1"": 430, ""c.Kit"": 430}"	"{""CD150"": 430, ""CD16"": 430, ""CD34"": 430, ""CD48"": 430, ""EPCR"": 430, ""FSC.H"": 430, ""Flk2"": 430, ""Lin"": 430, ""Sca1"": 430, ""c.Kit"": 430}"	True
+full FACS all_NA_rows	430	430	True
+full all 23 membership totals	"{""CMP"": 227, ""CMP_broad"": 328, ""ESLAM"": 42, ""GMP"": 56, ""GMP_broad"": 123, ""HSC1"": 126, ""LMPP"": 211, ""LMPP_broad"": 280, ""LTHSC"": 323, ""LTHSC_broad"": 323, ""MEP"": 232, ""MEP_broad"": 362, ""MPP"": 259, ""MPP1"": 29, ""MPP1_broad"": 68, ""MPP2"": 12, ""MPP2_broad"": 28, ""MPP3"": 66, ""MPP3_broad"": 162, ""MPP_broad"": 368, ""Projected"": 183, ""STHSC"": 40, ""STHSC_broad"": 110}"	"{""CMP"": 227, ""CMP_broad"": 328, ""ESLAM"": 42, ""GMP"": 56, ""GMP_broad"": 123, ""HSC1"": 126, ""LMPP"": 211, ""LMPP_broad"": 280, ""LTHSC"": 323, ""LTHSC_broad"": 323, ""MEP"": 232, ""MEP_broad"": 362, ""MPP"": 259, ""MPP1"": 29, ""MPP1_broad"": 68, ""MPP2"": 12, ""MPP2_broad"": 28, ""MPP3"": 66, ""MPP3_broad"": 162, ""MPP_broad"": 368, ""Projected"": 183, ""STHSC"": 40, ""STHSC_broad"": 110}"	True
+full count class	"[""dgCMatrix""]"	"[""dgCMatrix""]"	True
+full count dimensions	[46175, 1920]	[46175, 1920]	True
+full stored values	22595902	22595902	True
+full all values compared	88656000	88656000	True
+full numeric differences	0	0	True
+full all gene ID ordering	sha256:86ad0c5e2abe36bdb77cdc20090055007e4f2ac5d9a1c76fad0bd0016a2e9eb3	sha256:86ad0c5e2abe36bdb77cdc20090055007e4f2ac5d9a1c76fad0bd0016a2e9eb3	True
+full all cell ID alignment	sha256:9b46f3554455dfd9fbd622fb0610aa2717093f96484862ca06fda6e589f395c2	sha256:9b46f3554455dfd9fbd622fb0610aa2717093f96484862ca06fda6e589f395c2	True

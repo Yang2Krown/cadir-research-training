@@ -1,0 +1,10 @@
+{
+  "reviewer_direct_host_read": true,
+  "file": "/workspace/nestorowa-metadata-preparation/reacquired-20261026/GSE81682_HTSeq_counts.txt.gz",
+  "explicit_GEO_cells": 1920,
+  "unique_explicit_GEO_genes": 46175,
+  "all_values_lexically_nonnegative_integers": true,
+  "values_checked": 88656000,
+  "RDS_correspondence": "await independent R oracle; host lexical check does not substitute",
+  "elapsed_seconds": 5.033736228942871
+}
