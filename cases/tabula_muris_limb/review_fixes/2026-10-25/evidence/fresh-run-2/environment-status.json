@@ -1,0 +1,52 @@
+{
+  "started_utc": "2026-10-25T14:51:57.752197+00:00",
+  "run_directory": "/workspace/cadir-stage1-fix-evidence/fresh-run-2/environment-kfdop70p",
+  "runtime": "verified_conda",
+  "environment_check": "verified_this_run",
+  "resources": {
+    "exit_code": 0,
+    "elapsed_seconds": 0.0072601910000003045,
+    "command": [
+      "bash",
+      "-c",
+      "lscpu; free -b; df -B1 /workspace /tmp; cat /sys/fs/cgroup/cpu.max /sys/fs/cgroup/memory.max"
+    ]
+  },
+  "missing_required_files": [],
+  "source_document_sha256": {
+    "activate.sh": "8e29eb4ae38526c4c20ebf25664695d7b85f2204b623c8e7766112710ce4c27a",
+    "provenance.md": "a3c2c553095d4199ca15dc441cc5b87ab29347e915100353387eb2fe23ca61f6",
+    "upstream-renv.lock": "b8dbf9e526885496c1b28af91c1bec36aa6b103c87da0a966ce4869d06f3a129",
+    "sources.json": "5d75212102e7fdff973a50d125d79311e14e2ba7c346566cff31f89a71e73a16",
+    "smoke.R": "cbee1d49e454add9d3101111cb507065322e8eea9f9a03b2fdbc95fcd5047a29",
+    "run-smoke.py": "f7b2d53354b6ec909eeb9dcd0e68d11e10770f4e4e693b180a32dfb91a165eaa"
+  },
+  "versions": {
+    "exit_code": 0,
+    "elapsed_seconds": 14.135628434000012,
+    "command": [
+      "bash",
+      "/workspace/cadir-stage1-fix-evidence/fresh-checkout/cases/tabula_muris_limb/scripts/run-r.sh",
+      "/workspace/cadir-stage1-fix-evidence/fresh-checkout/cases/tabula_muris_limb/scripts/versions.R",
+      "/workspace/cadir-stage1-fix-evidence/fresh-checkout/cases/tabula_muris_limb/config/case.json"
+    ]
+  },
+  "synthetic_smoke": {
+    "exit_code": 0,
+    "elapsed_seconds": 14.050346802999968,
+    "command": [
+      "bash",
+      "-c",
+      "source /workspace/cadir-env/activate.sh; exec python /workspace/cadir-env/run-smoke.py"
+    ]
+  },
+  "synthetic_smoke_evidence": {
+    "run_directory": "/workspace/cadir-env/runs/smoke-fmpq2m42",
+    "exit_code": 0,
+    "elapsed_seconds": 14.012004859000001,
+    "max_rss_KiB_linux": 1186364,
+    "scope": "Whole Rscript including package loading; engineering diagnostic only, not a paper reproduction or algorithm benchmark.",
+    "png_sha256": "431ebfd6f4c55f78297bc1507afc0447ea2f3345938652ee3cea3c82214d4415"
+  },
+  "status": "PASS"
+}

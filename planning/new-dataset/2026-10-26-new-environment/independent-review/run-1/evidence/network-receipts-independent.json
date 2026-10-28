@@ -1,0 +1,69 @@
+{
+  "get_requests": [
+    {
+      "kind": "counts",
+      "formal_start_utc": "2026-10-26T02:41:41.869438+00:00",
+      "formal_end_utc": "2026-10-26T02:41:41.886435+00:00",
+      "formal_exit": 56,
+      "http_connect": 403,
+      "origin_http": 0,
+      "downloaded_bytes": 0,
+      "sha256": null,
+      "initial_exit": 7,
+      "url": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/counts.rds",
+      "origin_tls_established": false
+    },
+    {
+      "kind": "coldata",
+      "formal_start_utc": "2026-10-26T02:41:41.886688+00:00",
+      "formal_end_utc": "2026-10-26T02:41:41.897411+00:00",
+      "formal_exit": 56,
+      "http_connect": 403,
+      "origin_http": 0,
+      "downloaded_bytes": 0,
+      "sha256": null,
+      "initial_exit": 7,
+      "url": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/coldata.rds",
+      "origin_tls_established": false
+    },
+    {
+      "kind": "geo",
+      "formal_start_utc": "2026-10-26T02:41:41.897556+00:00",
+      "formal_end_utc": "2026-10-26T02:41:41.919220+00:00",
+      "formal_exit": 56,
+      "http_connect": 403,
+      "origin_http": 0,
+      "downloaded_bytes": 0,
+      "sha256": null,
+      "initial_exit": 7,
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE81nnn/GSE81682/suppl/GSE81682_HTSeq_counts.txt.gz",
+      "origin_tls_established": false
+    }
+  ],
+  "head_requests": [
+    {
+      "fetch_id": 2710,
+      "time_utc": "2026-10-26T02:43:13.256343+00:00",
+      "header_dates": [
+        "Mon, 26 Oct 2026 02:43:12 GMT",
+        "Mon, 26 Oct 2026 02:43:13 GMT"
+      ],
+      "http_code": 302,
+      "location": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/counts.rds",
+      "followed": false
+    },
+    {
+      "fetch_id": 2711,
+      "time_utc": "2026-10-26T02:43:13.730058+00:00",
+      "header_dates": [
+        "Mon, 26 Oct 2026 02:43:13 GMT",
+        "Mon, 26 Oct 2026 02:43:13 GMT"
+      ],
+      "http_code": 302,
+      "location": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/coldata.rds",
+      "followed": false
+    }
+  ],
+  "new_requests_by_reviewer": 0,
+  "reason_no_new_request": "Existing explicit CONNECT403 evidence sufficient; no retry or bypass."
+}

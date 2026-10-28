@@ -1,0 +1,142 @@
+{
+  "seed": 2358,
+  "RNGkind": ["Mersenne-Twister", "Inversion", "Rejection"],
+  "flipped_axes": [7, 10, 11, 15, 17, 18, 21, 22],
+  "cell_assignments_identical": true,
+  "gene_assignments_identical": true,
+  "direction_error_after_sign_alignment": 2.02067529375682e-13,
+  "observed_gene_projection_max_difference": 7.32747196252603e-14,
+  "observed_gene_orthogonal_distance_max_difference": 9.28146448586631e-14,
+  "ranking_replays": {
+    "baseline_observed": {
+      "alpha": 1.07506446203775,
+      "comparison_to_frozen_baseline": {
+        "genes": 1200,
+        "same_gene_cluster_pairs": true,
+        "maximum_score_absolute_error": 5.32907051820075e-15,
+        "scores_within_1e_10": true,
+        "rank_changes": 0,
+        "full_rank_identical": true
+      },
+      "comparison_to_old_review": {
+        "genes": 1200,
+        "same_gene_cluster_pairs": true,
+        "maximum_score_absolute_error": 0.346546986154587,
+        "scores_within_1e_10": false,
+        "rank_changes": 541,
+        "full_rank_identical": false
+      },
+      "independent_geometry_score_max_error": 3.5527136788005e-15
+    },
+    "review_observed": {
+      "alpha": 1.10141280187352,
+      "comparison_to_frozen_baseline": {
+        "genes": 1200,
+        "same_gene_cluster_pairs": true,
+        "maximum_score_absolute_error": 0.346546986154591,
+        "scores_within_1e_10": false,
+        "rank_changes": 541,
+        "full_rank_identical": false
+      },
+      "comparison_to_old_review": {
+        "genes": 1200,
+        "same_gene_cluster_pairs": true,
+        "maximum_score_absolute_error": 5.10702591327572e-15,
+        "scores_within_1e_10": true,
+        "rank_changes": 0,
+        "full_rank_identical": true
+      },
+      "independent_geometry_score_max_error": 5.32907051820075e-15
+    },
+    "baseline_reflected_to_review": {
+      "alpha": 1.10141280187356,
+      "comparison_to_frozen_baseline": {
+        "genes": 1200,
+        "same_gene_cluster_pairs": true,
+        "maximum_score_absolute_error": 0.346546986155163,
+        "scores_within_1e_10": false,
+        "rank_changes": 541,
+        "full_rank_identical": false
+      },
+      "comparison_to_old_review": {
+        "genes": 1200,
+        "same_gene_cluster_pairs": true,
+        "maximum_score_absolute_error": 5.71986902286881e-13,
+        "scores_within_1e_10": true,
+        "rank_changes": 0,
+        "full_rank_identical": true
+      },
+      "independent_geometry_score_max_error": 3.99680288865056e-15
+    },
+    "review_reflected_to_baseline": {
+      "alpha": 1.07506446203776,
+      "comparison_to_frozen_baseline": {
+        "genes": 1200,
+        "same_gene_cluster_pairs": true,
+        "maximum_score_absolute_error": 1.21014309684142e-13,
+        "scores_within_1e_10": true,
+        "rank_changes": 0,
+        "full_rank_identical": true
+      },
+      "comparison_to_old_review": {
+        "genes": 1200,
+        "same_gene_cluster_pairs": true,
+        "maximum_score_absolute_error": 0.346546986154532,
+        "scores_within_1e_10": false,
+        "rank_changes": 541,
+        "full_rank_identical": false
+      },
+      "independent_geometry_score_max_error": 5.32907051820075e-15
+    }
+  },
+  "unranked_slot_comparison": [
+    {
+      "slot": "cell_clusters",
+      "identical": true,
+      "class": "factor"
+    },
+    {
+      "slot": "gene_clusters",
+      "identical": true,
+      "class": "factor"
+    },
+    {
+      "slot": "directions",
+      "identical": false,
+      "class": ["matrix", "array"]
+    },
+    {
+      "slot": "distances",
+      "identical": false,
+      "class": ["matrix", "array"]
+    },
+    {
+      "slot": "log",
+      "identical": false,
+      "class": "list"
+    },
+    {
+      "slot": "parameters",
+      "identical": true,
+      "class": "list"
+    },
+    {
+      "slot": "plots",
+      "identical": false,
+      "class": "list"
+    },
+    {
+      "slot": "gene_ranks",
+      "identical": true,
+      "class": "list"
+    },
+    {
+      "slot": "dict",
+      "identical": true,
+      "class": "list"
+    }
+  ],
+  "old_runtime_RNG_snapshot_received": false,
+  "actual_old_unranked_received": true,
+  "scope": "Historical CA and unranked objects read directly. Counterfactual reflections affect diagnostic copies only; no CA recomputation, original-data pipeline, parameter search or algorithm modification."
+}

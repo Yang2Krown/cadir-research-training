@@ -1,0 +1,10 @@
+{
+  "config_differences": {
+    "data_path": {
+      "baseline": "/workspace/cadir-handover/input/tabula_muris_limb_preproc.rds",
+      "review": "/workspace/cadir-review-756c8d16/input/tabula_muris_limb_preproc.rds"
+    }
+  },
+  "sessionInfo_bytes_identical": true,
+  "interpretation": "Input location differs; input SHA256 and scientific parameters are identical. Identical sessionInfo does not establish every binary or hardware condition."
+}

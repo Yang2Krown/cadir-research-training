@@ -1,0 +1,13 @@
+{
+  "operation": "Strip trailing whitespace and extra EOF blank lines in Git copies only; full original logs and SHA256 stay in external evidence.",
+  "files": [
+    "verifier-wrong_Score.log",
+    "verifier-wrong_Rank.log",
+    "verifier-wrong_cluster_count.log",
+    "verifier-normal.log",
+    "verifier-wrong_NA.log",
+    "verifier-swap_clusters.log",
+    "fresh-run-2/verification.log",
+    "fresh-run-1/verification.log"
+  ]
+}

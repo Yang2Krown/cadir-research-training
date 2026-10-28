@@ -1,0 +1,56 @@
+{
+  "uri_mode": "ro",
+  "query": "SELECT r.id AS resource_id, r.ah_id, r.title, r.rdatadateadded,\n                  p.id AS fetch_id, p.resource_id AS rdatapath_resource_id,\n                  p.rdatapath,p.rdataclass,l.location_prefix\n           FROM resources r\n           JOIN rdatapaths p ON p.resource_id=r.id\n           JOIN location_prefixes l ON l.id=r.location_prefix_id\n           WHERE r.ah_id IN ('EH2694','EH2695') ORDER BY r.ah_id",
+  "rows": [
+    {
+      "resource_id": 2694,
+      "ah_id": "EH2694",
+      "title": "Nestorowa HSC counts",
+      "rdatadateadded": "2019-07-10",
+      "fetch_id": 2710,
+      "rdatapath_resource_id": 2694,
+      "rdatapath": "scRNAseq/nestorowa-hsc/2.0.0/counts.rds",
+      "rdataclass": "dgCMatrix",
+      "location_prefix": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/",
+      "official_storage_url": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/counts.rds",
+      "fetch_url": "https://experimenthub.bioconductor.org/fetch/2710"
+    },
+    {
+      "resource_id": 2695,
+      "ah_id": "EH2695",
+      "title": "Nestorowa HSC colData",
+      "rdatadateadded": "2019-07-10",
+      "fetch_id": 2711,
+      "rdatapath_resource_id": 2695,
+      "rdatapath": "scRNAseq/nestorowa-hsc/2.0.0/coldata.rds",
+      "rdataclass": "DataFrame",
+      "location_prefix": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/",
+      "official_storage_url": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/coldata.rds",
+      "fetch_url": "https://experimenthub.bioconductor.org/fetch/2711"
+    }
+  ],
+  "input_sources": [
+    {
+      "id": 2694,
+      "sourcesize": null,
+      "sourceurl": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81682",
+      "sourceversion": "GSE81682_HTSeq_counts.txt.gz",
+      "sourcemd5": null,
+      "sourcelastmodifieddate": null,
+      "resource_id": 2694,
+      "sourcetype": "TSV"
+    },
+    {
+      "id": 2695,
+      "sourcesize": null,
+      "sourceurl": "http://blood.stemcells.cam.ac.uk/data",
+      "sourceversion": "all_cell_types.txt;coordinates_gene_counts_flow_cytometry.txt.gz",
+      "sourcemd5": null,
+      "sourcelastmodifieddate": null,
+      "resource_id": 2695,
+      "sourcetype": "TSV"
+    }
+  ],
+  "content_verified": false,
+  "matrix_or_label_audit_performed": false
+}

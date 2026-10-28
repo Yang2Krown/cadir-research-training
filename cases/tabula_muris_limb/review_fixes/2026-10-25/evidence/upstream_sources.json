@@ -1,0 +1,23 @@
+[
+  {
+    "package": "APL",
+    "directory": "/workspace/cadir-env/sources/APL",
+    "commit": "d4d1f40d9ea9f1d9a95b224d45de843334cd617d",
+    "tracked_status": "",
+    "files_sha256": {
+      "R/CA.R": "0d3a40b5da68045cbbb71de1144b2504b538d88fcea09ebc2b083819506f54a0"
+    }
+  },
+  {
+    "package": "CAdir",
+    "directory": "/workspace/cadir-env/sources/CAdir",
+    "commit": "de74a008dfcd0d4fa4f7f93c57aa346892a8d935",
+    "tracked_status": "",
+    "files_sha256": {
+      "R/genes.R": "cfbfec1e52263c87e9797a4e83c5658aae72098471e72b37a8b208f9cb40e415",
+      "R/apl.R": "95d20b24f722107e8762e1937a5f34f97592452a330fae2bcf5536e1d2a387b7",
+      "R/cluster_apl.R": "933a3000406b1c2db159e979e0771de46a770097ac7f1f2a3db0598255874075",
+      "R/plot.R": "5f66d9519a46ce7be0ff173328e7583bb030fef4a0ffd1cac8dc711839e4e389"
+    }
+  }
+]

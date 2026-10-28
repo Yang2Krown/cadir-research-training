@@ -1,0 +1,6 @@
+{
+  "path": "/workspace/cadir-stage1-fix/cases/tabula_muris_limb/scripts/check_environment.py",
+  "sha256": "607794689af51c6a841c6f389578f84ff6bcddf90a1cd6060acd1cd3dfaf0efc",
+  "runtime_smoke_script_executed": "/workspace/cadir-env/smoke.R",
+  "runtime_launcher_executed": false
+}

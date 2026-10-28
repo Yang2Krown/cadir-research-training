@@ -1,0 +1,2 @@
+# Preserve HTTP wire headers (CRLF and final empty line) byte for byte.
+evidence/network/*.headers.txt -text -diff

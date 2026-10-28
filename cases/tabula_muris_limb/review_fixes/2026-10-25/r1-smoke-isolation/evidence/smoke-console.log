@@ -1,0 +1,17 @@
+LOADED CAdir 0.0.99
+LOADED APL 1.9.1
+LOADED CAbiNet 0.99.2
+LOADED SingleCellExperiment 1.26.0
+LOADED scran 1.32.0
+LOADED scater 1.32.1
+LOADED scuttle 1.14.0
+LOADED aricode 1.0.3
+PASS CA
+Iteration 1
+Iteration 2
+PASS CAdir
+PASS plot, RDS roundtrip and evaluation package call
+Warning messages:
+1: package ‘matrixStats’ was built under R version 4.4.3
+2: package ‘ggplot2’ was built under R version 4.4.3
+3: package ‘aricode’ was built under R version 4.4.3

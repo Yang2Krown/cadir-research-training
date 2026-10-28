@@ -1,0 +1,582 @@
+[
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/CA_rss_samples_KiB.txt",
+    "bytes": 1072,
+    "sha256": "844e82052f29c8bfaea08600ce896256a580c8a4935f0d313b6b510d926a6235"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/CA_sampler.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/CAdir_rss_samples_KiB.txt",
+    "bytes": 600,
+    "sha256": "353187038ea7db91d8e55776668410a602756e766dcdc8b7fea3041914fed425"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/CAdir_sampler.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/annotation_cellmarker_mouse.tsv",
+    "bytes": 1003010,
+    "sha256": "2d458c7de4df20b02efb3e81f390d34985aff6b17cf7879ddd5e6228c8158333"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/annotation_resources.json",
+    "bytes": 178,
+    "sha256": "0a5ec7e84201d8a8b0b4813eaaf28a3fec50908914fa9038bdfda6af44692474"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/annotation_rss_samples_KiB.txt",
+    "bytes": 168,
+    "sha256": "f1779643aafaa81ce3eef035ae8a5c4d2848d32dfb01180bbafb3f50741e9d2e"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/annotation_sampler.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/association_plots.pdf",
+    "bytes": 2318514,
+    "sha256": "9fd9412a8cdbb73ae0a7fc405612dd1e40f4deabe3dca4bbd44d5367becd175f"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/association_plots.png",
+    "bytes": 626290,
+    "sha256": "02fd90048d4d349887707877b1541566bc9b6ab66958cfe3085908b64df3bb80"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/audit_rss_samples_KiB.txt",
+    "bytes": 440,
+    "sha256": "6cc66e2548631a38cefe6f6f5f218dfc15f618db612f7e6f2eee5ab17d056906"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/audit_sampler.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/ca.rds",
+    "bytes": 5761828,
+    "sha256": "e769376f42f5fc0eada10cc194c4b00101816bd80b7e6d23a01d0d44a472992f"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/ca_cell_coordinates.tsv",
+    "bytes": 1130848,
+    "sha256": "3864b5e0ccc8fda1ad4680e6d80937531543f92f20c5114fac55326cf3a9efd7"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/ca_clusters.png",
+    "bytes": 94760,
+    "sha256": "8892f9e211232857fbfd3dda04f53080d0abef25eaa4d2bffa2c5f6379e8346b"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/ca_gene_coordinates.tsv",
+    "bytes": 3473226,
+    "sha256": "151e1d267cadc2885c74bd68ee0fd19f551bd19870ea5198d177625253b8ad47"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/cadir.rds",
+    "bytes": 21844811,
+    "sha256": "126a197ba5b47dae676f18a2398833d80d5f459cba97b53554cd1ec07cf67a33"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/cadir_annotated.rds",
+    "bytes": 21845082,
+    "sha256": "0803c2b9dae0f72be8d16aae3fc62dbcd7bedc8498b40777f5e8a15547caa244"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/cadir_unranked.rds",
+    "bytes": 21823635,
+    "sha256": "a65d07a24970dd2cbd7c47539cfea119ba438a9f8c04c91192260ec574d79b1d"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/cell_clusters.tsv",
+    "bytes": 120547,
+    "sha256": "a1d28de354ebcf2d89d488e83872688afd2234985cb3577f234d6bb4fe5eb030"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/cell_metadata.tsv",
+    "bytes": 614792,
+    "sha256": "0a0f5cbbcaeb5c35ce409f61d9446c8ee9c6d594bfe8f59962d05579d1ce6a3d"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/cluster_reference_contingency.tsv",
+    "bytes": 1932,
+    "sha256": "338895a43ffd4b838eac6b09976bb44c29f0015dc19e962c72e355c1b26137c0"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/cluster_sizes.tsv",
+    "bytes": 164,
+    "sha256": "e2dc11c9b91ce0154459e141241597595f1d793e575d4df7e663da49009904f7"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/coclustered_gene_ranks.tsv",
+    "bytes": 54539,
+    "sha256": "e38264e1523e3b49398d02ba8f3131cbdedd8f647043b40eeac3d2fa6a4aced6"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/config.json",
+    "bytes": 1244,
+    "sha256": "6d998fff56efcde1ef02df1778ecf437de19b6ad50fe1516b5672f881648822f"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/console.log",
+    "bytes": 329,
+    "sha256": "62af15fd0e2588ffb4d3e4011d861206494019842810611683a8ad7e9f67a222"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/data_audit.json",
+    "bytes": 2273,
+    "sha256": "0574fc7abfb4ea1adf1647f8ca46c0be9aeac44c06f0aba8c1e92a40dccb19bb"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/effective_cadir_parameters.txt",
+    "bytes": 640,
+    "sha256": "664fd32282d10535887758efb92aa445a0c3774a64920af8f08bf1ed5b898933"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/exports_ranking_plots_rss_samples_KiB.txt",
+    "bytes": 848,
+    "sha256": "341d43a2b8ee1931215487f8130c7ca41f83740e84fd9189fd3d77782fcd9601"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/exports_ranking_plots_sampler.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/gene_clusters.tsv",
+    "bytes": 81174,
+    "sha256": "b5f433723a2035c15fde1913c245546887199dae455f80196d9660235db71a21"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/gene_metadata.tsv",
+    "bytes": 545928,
+    "sha256": "5b8730a3359d69af09a339ddd19f06e2c9c9baecbb0f614c6ed1affe8954fb50"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/gene_variance.tsv",
+    "bytes": 1523966,
+    "sha256": "4ed0021dcf434fc7f03829d0a30e89483c5b6f718a619aee975d8dd0e8675d89"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/hvg_genes.tsv",
+    "bytes": 52364,
+    "sha256": "a9ac1b09f77e24dda2c20d65251f8fde27ce8bde579327498fdac3106b8815f3"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/input_integrity.json",
+    "bytes": 179,
+    "sha256": "3999ab885eb6b24e6208b3936426b1564e80d583af08b8516bac21b83b70c4f1"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/installed_packages.tsv",
+    "bytes": 9202,
+    "sha256": "a87be7e7a7e94b27b9eceaef49b99e635a72790dc1569cb4dffef3ab97845b76"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/metadata.txt",
+    "bytes": 3166,
+    "sha256": "1cf5fd800b927ed4f4445b093a31333fba3f13482a9448ecb176241600fb421c"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/metrics.json",
+    "bytes": 334,
+    "sha256": "b1624836f37038fe399fa78bda33abaa415fdb37565f04dbbad72dcff202b5a8"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/modelGeneVar_rss_samples_KiB.txt",
+    "bytes": 48,
+    "sha256": "8e04e764c55c52612ccf1afa46e6e90c63f11854d19a8010a2880ba7664e3e06"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/modelGeneVar_sampler.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/object_structure.txt",
+    "bytes": 798,
+    "sha256": "e00d9718506e0dd1f4969756f88f521b4c6e0a693b83388d8b2f6d76304bcf91"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/paper_differences.txt",
+    "bytes": 424,
+    "sha256": "e4af5b37322922500179cd8b16a5a4f5dc0a1c349cd90bde4b44347010b6dec3"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/predicted_annotations.tsv",
+    "bytes": 99924,
+    "sha256": "9109eba83b1321108d7b7676c1f98fdef716996d80200027bd3c39aa74587e8b"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/r_status.json",
+    "bytes": 237,
+    "sha256": "a6d388fbdb937dd6af5669269caeec0583ac6273ebf545e2cafcf7fea830cd97"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/ranking_provenance.json",
+    "bytes": 1510,
+    "sha256": "8ee650ba1d25afa30be39e9d7677dc2ce682570debd5e99489731c87aedbe68a"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/readRDS_rss_samples_KiB.txt",
+    "bytes": 222,
+    "sha256": "94ccbe4583719e7d9bb0be464356781e6f1e447c2992f71c0cfd4c92e057ad2d"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/readRDS_sampler.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/reference_label_counts.tsv",
+    "bytes": 201,
+    "sha256": "1a3c8bbe65a1d607572681ca2b53950e50d7eab10662664af13b784151b3b28d"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/required_version_check.tsv",
+    "bytes": 254,
+    "sha256": "51e100ba02cbedf1200045954199b4f4b1a7ee16cc05fce192bfba65ccbe4ba5"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/rng_stages.json",
+    "bytes": 64426,
+    "sha256": "187afc9a428511bd8e2585869fa861ad554ef20068241c7194c0a6a3f89cb8c1"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/runtime_config.json",
+    "bytes": 1244,
+    "sha256": "6d998fff56efcde1ef02df1778ecf437de19b6ad50fe1516b5672f881648822f"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/selected_genes.tsv",
+    "bytes": 52364,
+    "sha256": "a9ac1b09f77e24dda2c20d65251f8fde27ce8bde579327498fdac3106b8815f3"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/selection.json",
+    "bytes": 151,
+    "sha256": "14d7e529e0dadc1b5c868df197f08c2c32132258e414adb13135f515ace22538"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/sessionInfo.txt",
+    "bytes": 5759,
+    "sha256": "4ba38a5b40d5f921675735ad5f1cbbac00731d09506e1ad704455557e91543de"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/split_merge_cluster_history.tsv",
+    "bytes": 320154,
+    "sha256": "bd3270411b4d3038fc03440dc196020bf4cd9533752e9e790819d6e3d97549dc"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/stage_times_seconds.json",
+    "bytes": 2213,
+    "sha256": "e0670ff5e423b3ee514d5ae78aa739d5b4ac44c8fce85fa0f070d364350c022e"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/status.json",
+    "bytes": 1346,
+    "sha256": "f33fff4db75257a80a7262f9e8721e93ee7002eb42f2bc5338e3b188dbfb18bf"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/verification.json",
+    "bytes": 365,
+    "sha256": "4b1c43984b94f9566268a234ed02dc64453f197841df67c202b3fd4d12f2e057"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n/verification.log",
+    "bytes": 418,
+    "sha256": "16a6f4245d0202b4356c943371c13ea52b33c8870decf60deab06a6256df3bd5"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/figures/association_plots.pdf",
+    "bytes": 2318514,
+    "sha256": "9fd9412a8cdbb73ae0a7fc405612dd1e40f4deabe3dca4bbd44d5367becd175f"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/figures/association_plots.png",
+    "bytes": 626290,
+    "sha256": "02fd90048d4d349887707877b1541566bc9b6ab66958cfe3085908b64df3bb80"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/figures/ca_clusters.png",
+    "bytes": 94760,
+    "sha256": "8892f9e211232857fbfd3dda04f53080d0abef25eaa4d2bffa2c5f6379e8346b"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/annotation_resources.json",
+    "bytes": 178,
+    "sha256": "0a5ec7e84201d8a8b0b4813eaaf28a3fec50908914fa9038bdfda6af44692474"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/cell_clusters.tsv",
+    "bytes": 120547,
+    "sha256": "a1d28de354ebcf2d89d488e83872688afd2234985cb3577f234d6bb4fe5eb030"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/cluster_annotations.tsv",
+    "bytes": 503,
+    "sha256": "d3b0758911537c4cd59572348a7ae25bff6a558bd45c969c7e5df2abc9438258"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/cluster_reference_contingency.tsv",
+    "bytes": 1932,
+    "sha256": "338895a43ffd4b838eac6b09976bb44c29f0015dc19e962c72e355c1b26137c0"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/cluster_sizes.tsv",
+    "bytes": 164,
+    "sha256": "e2dc11c9b91ce0154459e141241597595f1d793e575d4df7e663da49009904f7"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/coclustered_gene_ranks.tsv",
+    "bytes": 54539,
+    "sha256": "e38264e1523e3b49398d02ba8f3131cbdedd8f647043b40eeac3d2fa6a4aced6"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/config.json",
+    "bytes": 1244,
+    "sha256": "6d998fff56efcde1ef02df1778ecf437de19b6ad50fe1516b5672f881648822f"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/console.log",
+    "bytes": 329,
+    "sha256": "62af15fd0e2588ffb4d3e4011d861206494019842810611683a8ad7e9f67a222"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/data_audit.json",
+    "bytes": 2273,
+    "sha256": "0574fc7abfb4ea1adf1647f8ca46c0be9aeac44c06f0aba8c1e92a40dccb19bb"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/effective_cadir_parameters.txt",
+    "bytes": 640,
+    "sha256": "664fd32282d10535887758efb92aa445a0c3774a64920af8f08bf1ed5b898933"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/gene_clusters.tsv",
+    "bytes": 81174,
+    "sha256": "b5f433723a2035c15fde1913c245546887199dae455f80196d9660235db71a21"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/input_integrity.json",
+    "bytes": 179,
+    "sha256": "3999ab885eb6b24e6208b3936426b1564e80d583af08b8516bac21b83b70c4f1"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/metrics.json",
+    "bytes": 334,
+    "sha256": "b1624836f37038fe399fa78bda33abaa415fdb37565f04dbbad72dcff202b5a8"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/paper_differences.txt",
+    "bytes": 424,
+    "sha256": "e4af5b37322922500179cd8b16a5a4f5dc0a1c349cd90bde4b44347010b6dec3"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/predicted_annotations.tsv",
+    "bytes": 99924,
+    "sha256": "9109eba83b1321108d7b7676c1f98fdef716996d80200027bd3c39aa74587e8b"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/ranking_provenance.json",
+    "bytes": 1510,
+    "sha256": "8ee650ba1d25afa30be39e9d7677dc2ce682570debd5e99489731c87aedbe68a"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/reference_label_counts.tsv",
+    "bytes": 201,
+    "sha256": "1a3c8bbe65a1d607572681ca2b53950e50d7eab10662664af13b784151b3b28d"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/required_version_check.tsv",
+    "bytes": 254,
+    "sha256": "51e100ba02cbedf1200045954199b4f4b1a7ee16cc05fce192bfba65ccbe4ba5"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/result_index.json",
+    "bytes": 9407,
+    "sha256": "190f0b6a2eac1d217b8d9fbf8de891e7542ab2143c97b7880f9c3e34a3e7a7d8"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/selection.json",
+    "bytes": 151,
+    "sha256": "14d7e529e0dadc1b5c868df197f08c2c32132258e414adb13135f515ace22538"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/sessionInfo.txt",
+    "bytes": 5759,
+    "sha256": "4ba38a5b40d5f921675735ad5f1cbbac00731d09506e1ad704455557e91543de"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/stage_times_seconds.json",
+    "bytes": 2213,
+    "sha256": "e0670ff5e423b3ee514d5ae78aa739d5b4ac44c8fce85fa0f070d364350c022e"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/status.json",
+    "bytes": 1346,
+    "sha256": "f33fff4db75257a80a7262f9e8721e93ee7002eb42f2bc5338e3b188dbfb18bf"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/verification.json",
+    "bytes": 365,
+    "sha256": "4b1c43984b94f9566268a234ed02dc64453f197841df67c202b3fd4d12f2e057"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/deliverables/results/verification.log",
+    "bytes": 418,
+    "sha256": "16a6f4245d0202b4356c943371c13ea52b33c8870decf60deab06a6256df3bd5"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/activate.sh",
+    "bytes": 573,
+    "sha256": "8e29eb4ae38526c4c20ebf25664695d7b85f2204b623c8e7766112710ce4c27a"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/provenance.md",
+    "bytes": 3252,
+    "sha256": "a3c2c553095d4199ca15dc441cc5b87ab29347e915100353387eb2fe23ca61f6"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/resources.log",
+    "bytes": 3661,
+    "sha256": "851812905896194cbf7ae62644676b703e07db65cdd859e319c55414eb85e2d9"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/run-smoke.py",
+    "bytes": 1764,
+    "sha256": "f7b2d53354b6ec909eeb9dcd0e68d11e10770f4e4e693b180a32dfb91a165eaa"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/smoke.R",
+    "bytes": 2965,
+    "sha256": "cbee1d49e454add9d3101111cb507065322e8eea9f9a03b2fdbc95fcd5047a29"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/sources.json",
+    "bytes": 947,
+    "sha256": "5d75212102e7fdff973a50d125d79311e14e2ba7c346566cff31f89a71e73a16"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/status.json",
+    "bytes": 2978,
+    "sha256": "1a5792d9cf94b5b03710cd37bdce3998b80cee8038392d22434b30413a1435a3"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/synthetic-ca-cadir-smoke.png",
+    "bytes": 18424,
+    "sha256": "431ebfd6f4c55f78297bc1507afc0447ea2f3345938652ee3cea3c82214d4415"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/synthetic-console.log",
+    "bytes": 478,
+    "sha256": "b89f2bf13fefb69662b795362201c81915de31355f134e83b50c6659d56a7017"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/synthetic-installed-packages.csv",
+    "bytes": 14765,
+    "sha256": "c870f0aaa5776f8d1ce19b75e4574cf188cbfc73da966c0046c55baec50a3ddb"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/synthetic-resources.json",
+    "bytes": 708,
+    "sha256": "3711ec5c66c8e79c577daeb09007ebedea41c860d8830e208555fe5fce8dabfe"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/synthetic-sessionInfo.txt",
+    "bytes": 5788,
+    "sha256": "c725baf89274d3e83e8f1a35b20741b7406b97be1746db5d78a807eedce99b34"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/synthetic-smoke/ca-cadir-smoke.png",
+    "bytes": 18424,
+    "sha256": "431ebfd6f4c55f78297bc1507afc0447ea2f3345938652ee3cea3c82214d4415"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/synthetic-smoke/console.log",
+    "bytes": 478,
+    "sha256": "b89f2bf13fefb69662b795362201c81915de31355f134e83b50c6659d56a7017"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/synthetic-smoke/installed-packages.csv",
+    "bytes": 14765,
+    "sha256": "c870f0aaa5776f8d1ce19b75e4574cf188cbfc73da966c0046c55baec50a3ddb"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/synthetic-smoke/resources.json",
+    "bytes": 708,
+    "sha256": "3711ec5c66c8e79c577daeb09007ebedea41c860d8830e208555fe5fce8dabfe"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/synthetic-smoke/sessionInfo.txt",
+    "bytes": 5788,
+    "sha256": "c725baf89274d3e83e8f1a35b20741b7406b97be1746db5d78a807eedce99b34"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/synthetic-smoke/smoke-results.rds",
+    "bytes": 26038,
+    "sha256": "69ee0c35b5035a409d0480a475b0be3041d30787a2c06ab8a36da87438a987ce"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/synthetic-smoke/status.txt",
+    "bytes": 69,
+    "sha256": "6a97d2731837f37338425a10b0165fc7bb95b5cb14ab619552a3ab4fc804922f"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/synthetic-smoke/synthetic-sce.rds",
+    "bytes": 22713,
+    "sha256": "dc383425b7bea4b885c0cebb2deffdcf408aba6603de3da91b8ea4225da63a39"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/synthetic-status.txt",
+    "bytes": 69,
+    "sha256": "6a97d2731837f37338425a10b0165fc7bb95b5cb14ab619552a3ab4fc804922f"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/upstream-renv.lock",
+    "bytes": 169895,
+    "sha256": "b8dbf9e526885496c1b28af91c1bec36aa6b103c87da0a966ce4869d06f3a129"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/versions.log",
+    "bytes": 6737,
+    "sha256": "9c45917857ece59a0a13619502cb1e38cb7cf9ff895669f8d7adfd33f0cb3564"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/latest-case.json",
+    "bytes": 1346,
+    "sha256": "f33fff4db75257a80a7262f9e8721e93ee7002eb42f2bc5338e3b188dbfb18bf"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/latest-environment.json",
+    "bytes": 2978,
+    "sha256": "1a5792d9cf94b5b03710cd37bdce3998b80cee8038392d22434b30413a1435a3"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry.log",
+    "bytes": 4672,
+    "sha256": "c4b5c4ad04f832318bb0f91eb54dd2729bda4c9e8e20df483826a3356e1b62f7"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/shared_after.json",
+    "bytes": 10327,
+    "sha256": "0505ee7123f193584c5c8cebeb4a8ce2d55e0dad6cb2d7912f2f92a12819fb67"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/shared_before.json",
+    "bytes": 10327,
+    "sha256": "0505ee7123f193584c5c8cebeb4a8ce2d55e0dad6cb2d7912f2f92a12819fb67"
+  },
+  {
+    "path": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/summary.json",
+    "bytes": 2720,
+    "sha256": "74599c968b514e9c5bb9d7b63e2724e45df674ba7a24ecd2b09349991f2b7067"
+  }
+]

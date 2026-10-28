@@ -1,0 +1,4 @@
+Author figure2.qmd corresponds to the formal paper Fig 3 Limb Muscle case (Fig 2 is the method overview).
+python=FALSE here versus TRUE in author figure2.qmd; fixed APL at dims=30 uses R/irlba for both parameter values.
+Input name differs from author figure2.qmd; exact preprocessing equivalence requires source documentation.
+Author tabula_muris_marker_genes.csv unavailable: HVGs only; marker augmentation not reproduced.

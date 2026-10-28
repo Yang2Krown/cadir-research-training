@@ -1,0 +1,75 @@
+{
+  "command": [
+    "bash",
+    "/workspace/cadir-stage1-fix/cases/tabula_muris_limb/scripts/rerun.sh",
+    "--data",
+    "/workspace/cadir-handover/input/tabula_muris_limb_preproc.rds",
+    "--output-root",
+    "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry"
+  ],
+  "exit_code": 0,
+  "shared_latest_and_runs_unchanged": true,
+  "runtime_source_files_unchanged": true,
+  "shared_file_count": 49,
+  "environment_status": "PASS",
+  "environment_directory": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd",
+  "smoke_directory": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/environment-szj7bkxd/synthetic-smoke",
+  "smoke_within_environment_directory": true,
+  "smoke_artifacts": {
+    "status.txt": {
+      "bytes": 69,
+      "sha256": "6a97d2731837f37338425a10b0165fc7bb95b5cb14ab619552a3ab4fc804922f"
+    },
+    "sessionInfo.txt": {
+      "bytes": 5788,
+      "sha256": "c725baf89274d3e83e8f1a35b20741b7406b97be1746db5d78a807eedce99b34"
+    },
+    "installed-packages.csv": {
+      "bytes": 14765,
+      "sha256": "c870f0aaa5776f8d1ce19b75e4574cf188cbfc73da966c0046c55baec50a3ddb"
+    },
+    "synthetic-sce.rds": {
+      "bytes": 22713,
+      "sha256": "dc383425b7bea4b885c0cebb2deffdcf408aba6603de3da91b8ea4225da63a39"
+    },
+    "smoke-results.rds": {
+      "bytes": 26038,
+      "sha256": "69ee0c35b5035a409d0480a475b0be3041d30787a2c06ab8a36da87438a987ce"
+    },
+    "ca-cadir-smoke.png": {
+      "bytes": 18424,
+      "sha256": "431ebfd6f4c55f78297bc1507afc0447ea2f3345938652ee3cea3c82214d4415"
+    },
+    "console.log": {
+      "bytes": 478,
+      "sha256": "b89f2bf13fefb69662b795362201c81915de31355f134e83b50c6659d56a7017"
+    },
+    "resources.json": {
+      "bytes": 708,
+      "sha256": "3711ec5c66c8e79c577daeb09007ebedea41c860d8830e208555fe5fce8dabfe"
+    }
+  },
+  "smoke_pass_status": true,
+  "smoke_nonempty_artifacts": true,
+  "smoke_png_sha256_matches": true,
+  "smoke_elapsed_seconds": 14.32303441099998,
+  "smoke_child_max_rss_KiB_linux": 1186432,
+  "case_status": "SINGLE_CASE_COMPLETE_WITH_DOCUMENTED_DIFFERENCES",
+  "case_directory": "/workspace/cadir-stage1-fix-evidence/r1-smoke-isolation-20261025/full-entry/case-5axm6v2n",
+  "verification": {
+    "status": "PASS",
+    "cells": 1882,
+    "selected_genes": 6000,
+    "assigned_genes": 1200,
+    "clusters": 7,
+    "ARI": 0.669518704486352,
+    "NMI": 0.741885423115482,
+    "annotation_changes_partition": false,
+    "per_gene_cluster_including_NA": true,
+    "per_cluster_counts": true,
+    "ranking_gene_cluster_score_rank_row_num": true,
+    "score_absolute_tolerance": 1e-10
+  },
+  "deliverables_exist": true,
+  "passed": true
+}

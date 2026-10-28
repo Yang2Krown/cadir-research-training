@@ -1,0 +1,23 @@
+{
+  "reviewed_sha": "e987d4c10c65e54977d44790a13c3be5da2518f8",
+  "baseline_sha": "122fdbf2986f3791917197385f8d07ba0a75fce6",
+  "task_name": "/root/independent_network_review",
+  "spawn_parameters_confirmed_by_parent": {
+    "task_name": "independent_network_review",
+    "fork_turns": "none",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high"
+  },
+  "model_provenance_source": "Parent confirmed actual spawn arguments and returned task name; not an environment_status model field.",
+  "fresh_environment_status_tool": "cloud_environment_environment_status({})",
+  "tool_timestamp_provided": false,
+  "current_policy_state": "unknown",
+  "new_network_requests": 0,
+  "real_data": "BLOCKED",
+  "formal_design": "BLOCKED",
+  "formal_experiment": "BLOCKED",
+  "substantive_findings": [],
+  "repair_and_retest": "Not applicable: no substantive revision requested at reviewed SHA.",
+  "modified_implementation_files": false,
+  "commit_or_push_by_reviewer": false
+}
