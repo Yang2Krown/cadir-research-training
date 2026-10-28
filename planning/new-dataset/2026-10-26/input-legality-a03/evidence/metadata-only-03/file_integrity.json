@@ -1,0 +1,11 @@
+{
+  "coldata.rds": {
+    "name": "coldata.rds",
+    "bytes": 182319,
+    "sha256": "16d9e3ee62d27aac74591ccddd064eb2be9b86836591c8ec99d39e1af0bf35bc",
+    "expected_bytes": 182319,
+    "expected_sha256": "16d9e3ee62d27aac74591ccddd064eb2be9b86836591c8ec99d39e1af0bf35bc",
+    "source_url": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/coldata.rds",
+    "matches": true
+  }
+}

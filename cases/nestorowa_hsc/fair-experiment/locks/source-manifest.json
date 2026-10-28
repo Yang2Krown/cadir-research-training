@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "repository_root": "/workspace/hsc-fair-experiment",
+  "files": [
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/design/admission-template.json",
+      "bytes": 689,
+      "sha256": "7fc2d36e17e86aec553a04e1759e97b8d200e6be3a6d693009bacabdec1bfac6"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/design/scientific-config.json",
+      "bytes": 13537,
+      "sha256": "b1e30c8d292b289095bcc1b5159f82b4568f16ca4b07207e039795e15219a969"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/design/冻结说明.md",
+      "bytes": 4387,
+      "sha256": "645878ac006f6f72d57e6fa410ac7c7b0e0bbe1f5b1504017517436d3167f7ba"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/design/独立准入核对要点.md",
+      "bytes": 2572,
+      "sha256": "d5fd704fa9f86f115f52c5806d836191e7c470f54322e74bc377f3a75a213ba2"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/C04/C04_source_coverage.json",
+      "bytes": 8991,
+      "sha256": "1b241d3a2732b59e9d00c65d78c819486bc799fe15f0a341bea207e0bcdd446e"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/C04/C04_source_coverage.tsv",
+      "bytes": 2500,
+      "sha256": "da6c4b8e4e67cff2ba892ccd6c01035341da498da69377d8a6ebaa31a34f4d6f"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/C04/SHA256SUMS.txt",
+      "bytes": 927,
+      "sha256": "b99f5b30bb94dfd0a8bace8c152d36fbdb056b2b0d538b70e8e8758bb47217b2"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/C04/access_log.md",
+      "bytes": 3130,
+      "sha256": "77ebcb2b586262e8a5f9c8c4bfc1744667e2dc31afe4390672f6ee639de772ee"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/C04/说明.md",
+      "bytes": 2596,
+      "sha256": "a780cb186cb8a6aa30c9a2578dab6326e93259c43856d715ccb92c84e6c56836"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/APL__cacomp.R.txt",
+      "bytes": 265,
+      "sha256": "f2080fa25b1281099e8dfe536c88bdb1eeb429a67fb54ab4d9dabef14116f32e"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/APL__run_cacomp.R.txt",
+      "bytes": 4731,
+      "sha256": "1a0ae004568fd19875da38020e0b6795a7b25cdcbd6d0d901b1eaaf93af9e2cb"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/BiocNeighbors__KmknnParam.R.txt",
+      "bytes": 160,
+      "sha256": "cf381579941166a23837bb90fcf1c4f5ffd7c4f69f4e98bbb76f8a937a9cba60"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/BiocSingular__IrlbaParam.R.txt",
+      "bytes": 262,
+      "sha256": "cb756525a751db0819a3079266ae03616887a68cfb667a0e2e4f516e612c774b"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/CAdir__apl_model.R.txt",
+      "bytes": 1055,
+      "sha256": "22884457facd47c984cebe9869b40445ec6b33cfd03878993b0855d3a9b165f4"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/CAdir__dirclust_splitmerge.R.txt",
+      "bytes": 4856,
+      "sha256": "25840a2b1e3d5218622c2b4af60a64372442c691dfa01b8e9328b0c67188094a"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/CAdir__get_apl_cutoff.R.txt",
+      "bytes": 1270,
+      "sha256": "c1f2ca2aeb910609999b64aa2ff2796463543ffa271b2039d1d3778b13d786a4"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/CAdir__plot_clusters.R.txt",
+      "bytes": 2352,
+      "sha256": "12c3e78baba7bc2e38f3e44bcabaa0bcaf07774b4e494d297e7526144efca341"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/CAdir__random_direction_cutoff.R.txt",
+      "bytes": 1409,
+      "sha256": "469f5f1aba9913eb37ae00baeaad4ae383473fb2ca6707d95bf2cfecdf986563"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/CAdir__rank_genes.R.txt",
+      "bytes": 1800,
+      "sha256": "1806fa6be9b2ec398a53f07089f4b0054734cb0bcc35b1ca6c9b08f8144473d6"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/buildSNNGraph__methods.txt",
+      "bytes": 1026,
+      "sha256": "5ebaea460aabd30732437b2c8288ad8b655762dd9a82aaca41f8b2268bee8a38"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/cacomp__methods.txt",
+      "bytes": 4729,
+      "sha256": "fb30202ba8c36184b24f3f634301a75480ffbf525e76d395d0c48ec89b9d225f"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/calculatePCA__methods.txt",
+      "bytes": 1855,
+      "sha256": "275c7d08760f673620f7c1c1c7bda151771c22d4097a3bacb6c31b8fda67a873"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/environment-signature.json",
+      "bytes": 476680,
+      "sha256": "ca5d95b706ea2f643d675515794c3f9a3fea30b4637800dc8a50a63a67800845"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/environment-signature.rds",
+      "bytes": 232042,
+      "sha256": "e2e6b0b03a1952068eaa8c4ccec469671d947bb4553926b326d4f1086b0b2fc5"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/igraph__cluster_louvain.R.txt",
+      "bytes": 898,
+      "sha256": "5a534f0791676797048f1564a36fc81096a3b4ea5b7ad7e8f137bfd36217d4db"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/installed-packages.tsv",
+      "bytes": 7881,
+      "sha256": "85df3b91e5521bb899df23018df152cb8ef911d24ec9ad6fe79f3828a667cddb"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/logNormCounts__methods.txt",
+      "bytes": 3276,
+      "sha256": "a52e9a30f41f47c45f2c1ceafac0a53337401938183589d8a7edae3aea3a0550"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/modelGeneVar__methods.txt",
+      "bytes": 1275,
+      "sha256": "716fe547a317b3dfa42377010f4160d0b611fb21cba7ae29bfe7e37dda328ad7"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/normalizeCounts__methods.txt",
+      "bytes": 2384,
+      "sha256": "2eaa65f846cddce4e5d39beb28b03778aec3b2b3d980423f607a974c8edd9afa"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/resource-context.json",
+      "bytes": 119,
+      "sha256": "24c4293ebc3d9cf756451b97f5799929740a112a1c6f44243cad6195fc4dddec"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/runPCA__methods.txt",
+      "bytes": 1126,
+      "sha256": "42b6151b505d3782467d5f958e4bb3cb54761704c438fa08cb4fdff228a55c71"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/runSVD__methods.txt",
+      "bytes": 1746,
+      "sha256": "f5dce0da6923b49dc537689540178a67877a65f90b2d7451fea614522c017884"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/scater__calculatePCA.R.txt",
+      "bytes": 89,
+      "sha256": "6dfbfeb1dcfa9e141976d5740f6914c582d4938c50d00f6be4cfd1c5d7fdd171"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/scater__runPCA.R.txt",
+      "bytes": 83,
+      "sha256": "fd6b614362897974149a992a7ec2355c8ba86d0bc65ba41dde2b52ef3a2c577d"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/scran__buildSNNGraph.R.txt",
+      "bytes": 90,
+      "sha256": "f87b7581c215ea5f2639133e17aa5a31262b5000049b9b1d8dc18e127d1eb9ea"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/scran__getTopHVGs.R.txt",
+      "bytes": 1120,
+      "sha256": "b412a0922e0b2dbb540b0f450a557deb3e5c6802375247becd09fb8f1a467766"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/scran__makeSNNGraph.R.txt",
+      "bytes": 338,
+      "sha256": "69f46e669bbf035f8476de0c4a72c36a3e863e023ef19b0a9cbb631db7d5d7ef"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/scran__modelGeneVar.R.txt",
+      "bytes": 89,
+      "sha256": "607e1918a2fab560227ecc781eaad2e92300308a513b5d934e7982129619d065"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/scuttle__librarySizeFactors.R.txt",
+      "bytes": 95,
+      "sha256": "be515634a9c3809c08716b65f3f0099d505064bd27c103131330a87668fe7812"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/scuttle__logNormCounts.R.txt",
+      "bytes": 90,
+      "sha256": "77a42b1b1ce21050dc8a07154f7eb8c472f7e58dd1a17f4781611f5e0effeef3"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/sessionInfo.txt",
+      "bytes": 5646,
+      "sha256": "a527174a51aed227304e57df7ad3da629c9ada42b1e36cfbad573f0f4c88a55f"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/scripts/admission_guard.R",
+      "bytes": 1860,
+      "sha256": "0f4168e0b858e26c251ac7018f6453b1db1321c5fb086f5e68c0a363c0257540"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/scripts/common.R",
+      "bytes": 2294,
+      "sha256": "f928b3abdefffcd241d0869524501bfe348443f620904b2fbc625d4eacf9ad55"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/scripts/container.sh",
+      "bytes": 1357,
+      "sha256": "e420a41203f62540d4cb85de3cc26d1224689a6f37e3da895e2da4023ed4548b"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/scripts/evaluate.R",
+      "bytes": 1683,
+      "sha256": "6b27b7c3a1aed2866daba7be0d645b505d6a550bf1cd324141245282ddb9ccf9"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/scripts/finalize_stage1.R",
+      "bytes": 6362,
+      "sha256": "94ec002a08c7cb86cad0bdf5e95d58dedf33b53301d7d37154d52ce704b2ccf6"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/scripts/formal_run.R",
+      "bytes": 7005,
+      "sha256": "45a58f2965c0df16ca177b7b5051cb9b559a8664363841f950ca964353e3525c"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/scripts/freeze_stage1.py",
+      "bytes": 3517,
+      "sha256": "22de7d366d39f76caa1ca0ae7eba79c3d9ef0540e8170b1d9fdcdb31df75d483"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/scripts/gene_partition.R",
+      "bytes": 1917,
+      "sha256": "96c36c179c672d235d0ccc6f4e577a9493da1120ddd49d81828c7896f66d6a0c"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/scripts/lock_runtime_library.py",
+      "bytes": 1923,
+      "sha256": "a97f8cad59413e229b152e1552459847a6a496437b747902854001a3da503f23"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/scripts/prepare_common.R",
+      "bytes": 9501,
+      "sha256": "92fcafe3ed8e978ed48f76f5a4303454a8f0bca29b83c7a019a3640a4084bbb1"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/scripts/probe_environment.R",
+      "bytes": 1596,
+      "sha256": "694a26177974709c707c10e3b4032ffab738e91fb23c1987b5e08efc8774f4d0"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/scripts/rank_diagnostics.R",
+      "bytes": 4959,
+      "sha256": "ecf36bffdf15950fe52a1eecca2324532e2b41f3fe722c4681831b66653ac94a"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/scripts/run_experiment.py",
+      "bytes": 7905,
+      "sha256": "588583c10b79992951be241dffd6e1efc94f5d3523b02bab869d52abb4acbe28"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/scripts/sample_rss.sh",
+      "bytes": 225,
+      "sha256": "39af8f42e7dd03a85a791c775c4d0e8eb1a59310654d7f42437582628e059dd6"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/scripts/static_check.R",
+      "bytes": 675,
+      "sha256": "6513d28262359ceaec5367700ab46938d70e05807ba87042a3e681e8cbae6d69"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/scripts/summarize_results.py",
+      "bytes": 1774,
+      "sha256": "1138de0e6b375e7a8cabdf5bff3fa4596bfe019d6cc2ca9bad82793a016b054e"
+    },
+    {
+      "path": "cases/nestorowa_hsc/fair-experiment/scripts/test_gene_partition_mapping.R",
+      "bytes": 1434,
+      "sha256": "6d0ba4f9afc0cf03a44209b832e1a4fcb6109ea32e8498ce37835f10d404e205"
+    },
+    {
+      "path": "cases/nestorowa_hsc/scripts/metadata_identity.R",
+      "bytes": 5918,
+      "sha256": "aada661c76bd5d9fd5084c53572b958055d48b8e1466b6610f2de3c35cee58f5"
+    }
+  ]
+}

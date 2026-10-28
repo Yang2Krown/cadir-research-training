@@ -1,0 +1,89 @@
+{
+  "files": [
+    {
+      "path": "cell-partition.rds",
+      "bytes": 5389,
+      "sha256": "dfc02b819d42f176cae41488b0171bf4df30b0f614c523061b6186f27f4d6ace"
+    },
+    {
+      "path": "cell-partition.tsv",
+      "bytes": 25200,
+      "sha256": "db05af37a0e9e24ef5e9a252e53f7a3319f1d46732350fc51e71b2e83f14add3"
+    },
+    {
+      "path": "cluster-sizes.tsv",
+      "bytes": 72,
+      "sha256": "98478ab648d7cb2d7f620dcc3f341402b74d2e89b9a0e8e2e2e43defb0d22628"
+    },
+    {
+      "path": "console.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "core-complete.txt",
+      "bytes": 24,
+      "sha256": "7c45da55ea215c87456448a1cdd158cce63674cda21cd4cf06bf48edd0b22b2f"
+    },
+    {
+      "path": "core-resources.json",
+      "bytes": 417,
+      "sha256": "ae73a9dfca38b30b020724b24a50a5827c24c431cbc90f92a2673d615e0a6cd5"
+    },
+    {
+      "path": "core-rss-KiB.txt",
+      "bytes": 848,
+      "sha256": "6dc819c1c174b21870a25b8a46d2d7b2595df33e311a7e0065317fd68d616122"
+    },
+    {
+      "path": "core-sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "core-start.json",
+      "bytes": 91,
+      "sha256": "9a63bc0b998d03fa490a2bf71c3027d386e663b3722c43eeca3e52ad4bf74463"
+    },
+    {
+      "path": "evaluation-contingency.tsv",
+      "bytes": 586,
+      "sha256": "8ac00f038c5439a8a0ea277e30e67300cd2f81e250e97c3e7a1db32abc1b3a7e"
+    },
+    {
+      "path": "louvain.rds",
+      "bytes": 7602,
+      "sha256": "b1e6100a4abd97a7afce23a812d7635dbb97b16faa484fde9b499e1b185fc8d4"
+    },
+    {
+      "path": "metrics.json",
+      "bytes": 386,
+      "sha256": "2516aeb6da9c5bc6a545a77d9a4948b0632444f57d94de5889df389a55967894"
+    },
+    {
+      "path": "pca.rds",
+      "bytes": 1792490,
+      "sha256": "ba1273cdacef9e450ac827b1e090121c53855c0ddb663ae9bcb5a0b3944f9d23"
+    },
+    {
+      "path": "rng.rds",
+      "bytes": 7860,
+      "sha256": "a50b828c2e8af515eae81dbe664bf69d10e9a834805a05d1f190c0ae41052ba8"
+    },
+    {
+      "path": "run-status.json",
+      "bytes": 110,
+      "sha256": "ae3b2bdffe61f8806550930547c97b6981224fd04e10ac8f90f2d71a44fd123b"
+    },
+    {
+      "path": "sessionInfo.txt",
+      "bytes": 5646,
+      "sha256": "a527174a51aed227304e57df7ad3da629c9ada42b1e36cfbad573f0f4c88a55f"
+    },
+    {
+      "path": "snn-graph.rds",
+      "bytes": 630029,
+      "sha256": "e19da11832885e9aac7792ba305c32fd1801c5cf5f21f0b4a6689335430d4c05"
+    }
+  ]
+}

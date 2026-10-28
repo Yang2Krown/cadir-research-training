@@ -1,0 +1,87 @@
+[
+  {
+    "method": "cadir",
+    "seed": 2358,
+    "exit_code": 0,
+    "wall_seconds_process_including_load_exports": 42.81963447800081,
+    "attempt_directory": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-2358-attempt-01",
+    "success": true,
+    "diagnostic_exit_code": 0
+  },
+  {
+    "method": "pca_snn_louvain",
+    "seed": 2358,
+    "exit_code": 0,
+    "wall_seconds_process_including_load_exports": 33.070834657002706,
+    "attempt_directory": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-2358-attempt-01",
+    "success": true
+  },
+  {
+    "method": "cadir",
+    "seed": 101,
+    "exit_code": 0,
+    "wall_seconds_process_including_load_exports": 39.51278225099668,
+    "attempt_directory": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-101-attempt-01",
+    "success": true,
+    "diagnostic_exit_code": 0
+  },
+  {
+    "method": "pca_snn_louvain",
+    "seed": 101,
+    "exit_code": 0,
+    "wall_seconds_process_including_load_exports": 31.90854152700922,
+    "attempt_directory": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-101-attempt-01",
+    "success": true
+  },
+  {
+    "method": "cadir",
+    "seed": 202,
+    "exit_code": 0,
+    "wall_seconds_process_including_load_exports": 44.24319958600972,
+    "attempt_directory": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-202-attempt-01",
+    "success": true,
+    "diagnostic_exit_code": 0
+  },
+  {
+    "method": "pca_snn_louvain",
+    "seed": 202,
+    "exit_code": 0,
+    "wall_seconds_process_including_load_exports": 33.17884125899582,
+    "attempt_directory": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-202-attempt-01",
+    "success": true
+  },
+  {
+    "method": "cadir",
+    "seed": 303,
+    "exit_code": 0,
+    "wall_seconds_process_including_load_exports": 40.28719780698884,
+    "attempt_directory": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-303-attempt-01",
+    "success": true,
+    "diagnostic_exit_code": 0
+  },
+  {
+    "method": "pca_snn_louvain",
+    "seed": 303,
+    "exit_code": 0,
+    "wall_seconds_process_including_load_exports": 32.077362594995066,
+    "attempt_directory": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-303-attempt-01",
+    "success": true
+  },
+  {
+    "method": "cadir",
+    "seed": 404,
+    "exit_code": 0,
+    "wall_seconds_process_including_load_exports": 40.60919240700605,
+    "attempt_directory": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-404-attempt-01",
+    "success": true,
+    "diagnostic_exit_code": 0
+  },
+  {
+    "method": "pca_snn_louvain",
+    "seed": 404,
+    "exit_code": 0,
+    "wall_seconds_process_including_load_exports": 31.33344858798955,
+    "attempt_directory": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-404-attempt-01",
+    "success": true
+  }
+]

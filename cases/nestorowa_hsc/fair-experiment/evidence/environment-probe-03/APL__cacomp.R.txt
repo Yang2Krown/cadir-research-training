@@ -1,0 +1,4 @@
+list(formals = as.pairlist(alist(obj = , coords = TRUE, princ_coords = 3, python = FALSE, dims = NULL, top = 5000, inertia = TRUE, rm_zeros = TRUE, residuals = "pearson", cutoff = NULL, clip = FALSE, ... = )), 
+    body = {
+        standardGeneric("cacomp")
+    })

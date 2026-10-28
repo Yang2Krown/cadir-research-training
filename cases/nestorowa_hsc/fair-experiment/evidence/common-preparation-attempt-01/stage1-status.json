@@ -1,0 +1,10 @@
+{
+  "status": "FAILED",
+  "stage": "reference_lock_after_label_blind_QC",
+  "forbidden_algorithms_called": false,
+  "error": "No method asJSON S3 class: table",
+  "elapsed_seconds": 80.861,
+  "memory_status": ["VmHWM:\t 2226260 kB", "VmRSS:\t 2220108 kB"],
+  "config_sha256": "b1e30c8d292b289095bcc1b5159f82b4568f16ca4b07207e039795e15219a969",
+  "environment_signature_sha256": "e2e6b0b03a1952068eaa8c4ccec469671d947bb4553926b326d4f1086b0b2fc5"
+}

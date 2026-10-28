@@ -1,0 +1,3 @@
+# Keep diagnostic and failure output byte-for-byte, including R console spacing.
+* -text
+evidence/*.log -whitespace

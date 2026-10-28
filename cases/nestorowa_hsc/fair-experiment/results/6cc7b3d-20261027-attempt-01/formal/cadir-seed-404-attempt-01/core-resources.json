@@ -1,0 +1,8 @@
+{
+  "core_elapsed_seconds": 13.094,
+  "sampled_peak_rss_KiB": 2273504,
+  "rss_samples": 252,
+  "process_memory_at_core_end": ["VmHWM:\t 2287176 kB", "VmRSS:\t 2134040 kB"],
+  "scope": "CA+splitmerge and lightweight RNG/shape checks; output serialization and ranking excluded",
+  "memory_note": "50ms sampled stage RSS can miss spikes. VmHWM includes packages and input loading; no unmatched-scope RAM superiority claim."
+}

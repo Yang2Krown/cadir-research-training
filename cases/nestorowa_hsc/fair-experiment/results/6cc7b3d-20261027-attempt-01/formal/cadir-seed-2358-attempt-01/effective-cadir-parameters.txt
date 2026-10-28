@@ -1,0 +1,23 @@
+$k
+[1] 8
+
+$epochs
+[1] 50
+
+$init
+[1] "kmeanspp"
+
+$log
+[1] FALSE
+
+$qcutoff
+[1] 0.8
+
+$call
+CAdir::dirclust_splitmerge(caobj = ca, k = z$k, cutoff = z$cutoff, 
+    qcutoff = z$qcutoff, method = z$method, counts = z$counts, 
+    apl_quant = z$apl_quant, min_cells = z$min_cells, epochs = z$epochs, 
+    reps = z$reps, apl_cutoff_reps = z$apl_cutoff_reps, make_plots = z$make_plots, 
+    convergence_thr = z$convergence_thr, max_iter = z$max_iter, 
+    init = z$init, keep_log = z$keep_log)
+

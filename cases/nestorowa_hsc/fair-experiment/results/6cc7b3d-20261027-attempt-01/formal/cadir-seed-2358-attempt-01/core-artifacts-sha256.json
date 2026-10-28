@@ -1,0 +1,119 @@
+{
+  "files": [
+    {
+      "path": "ca-basis.json",
+      "bytes": 1641,
+      "sha256": "34eaa3505003a9b124a495f2ecf42950a5f76c274088aedfa99467628d3c4748"
+    },
+    {
+      "path": "ca.rds",
+      "bytes": 5556978,
+      "sha256": "4e985838178a200cd605a71d49ddf70e8302f70f278f9edeb6615c44060f40b3"
+    },
+    {
+      "path": "cadir_unranked.rds",
+      "bytes": 112172,
+      "sha256": "3291f2f189cf73db97bdea76c2ccafdf3b60b373211fb5faa39fbcc36b4e6367"
+    },
+    {
+      "path": "cell-partition.rds",
+      "bytes": 5376,
+      "sha256": "b5b5044d906ecea3f47f08de87991cd90d50c1a2bcb1a0d6257e199231a682af"
+    },
+    {
+      "path": "cell-partition.tsv",
+      "bytes": 38858,
+      "sha256": "d30f19fb7e85d60e32dfb613c6167321d72e92520e4780cf8f00f61fa910db90"
+    },
+    {
+      "path": "cluster-sizes.tsv",
+      "bytes": 190,
+      "sha256": "a5f8bd094f2be4b82006a465bae266d919ce5587ccf7832eede75fafe47ed2e4"
+    },
+    {
+      "path": "console.log",
+      "bytes": 175,
+      "sha256": "cfe37dacf0db21d5387c838df04e47f711c7e4e0f2930143613a872b1ba72650"
+    },
+    {
+      "path": "core-complete.txt",
+      "bytes": 24,
+      "sha256": "fc869dc94db507e8f05cb58d5537b6041120d3f7c63163be85c1857d11d2a0de"
+    },
+    {
+      "path": "core-resources.json",
+      "bytes": 423,
+      "sha256": "5aea44f84d4eda4bfa27b9d9fed9448402d2b89b90425e43a8ceb7afbb117f45"
+    },
+    {
+      "path": "core-rss-KiB.txt",
+      "bytes": 2272,
+      "sha256": "33962acffda777af3ebf63213a95accf98011d0b065cef2232fe25a08d228696"
+    },
+    {
+      "path": "core-sampler.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "core-start.json",
+      "bytes": 82,
+      "sha256": "6e0f65fc2cff5337b661ffce777639e5257e327b96d32a3ecf68f394a9a098b3"
+    },
+    {
+      "path": "effective-cadir-parameters.txt",
+      "bytes": 486,
+      "sha256": "8c19592b186b9f4b4ba936d14339e3d31d8d393224f5eff4a24b8d8639a8e52d"
+    },
+    {
+      "path": "evaluation-contingency.tsv",
+      "bytes": 1429,
+      "sha256": "57512d04a130aa9086784a6dc431b46210335ade26daddd864447237e1dc752d"
+    },
+    {
+      "path": "gene-assignment-summary.json",
+      "bytes": 408,
+      "sha256": "308fa3f9d1d487971c7dfb5268d8dbe7ddf489a6eeba391783e29e52c19c523e"
+    },
+    {
+      "path": "gene-exclusions.tsv",
+      "bytes": 369666,
+      "sha256": "2325acdc865a3c3677bd5b5ad31b93c8eea8675f379d12fd5e85083fb45df528"
+    },
+    {
+      "path": "gene-partition.tsv",
+      "bytes": 449198,
+      "sha256": "90d7955953a07e7927f2bbedf0a4e92b3f15b73788450282893d04319d4e125a"
+    },
+    {
+      "path": "metrics.json",
+      "bytes": 387,
+      "sha256": "6e2a00e75edfb7c8df8ff5effe9846e4805b2a480ef3c10f4c0fccfb6a1ded42"
+    },
+    {
+      "path": "rng.rds",
+      "bytes": 7796,
+      "sha256": "6108d2da76f45ebfca871f96b5f9cb918344bbb0ece3abc22e03181f68344675"
+    },
+    {
+      "path": "run-status.json",
+      "bytes": 101,
+      "sha256": "9fd1ba0aa681604a5ae008cdc92798f69d0fd3ce1da76db81ed595b16f3a0d00"
+    },
+    {
+      "path": "sessionInfo.txt",
+      "bytes": 5646,
+      "sha256": "a527174a51aed227304e57df7ad3da629c9ada42b1e36cfbad573f0f4c88a55f"
+    },
+    {
+      "path": "splitmerge-history.tsv",
+      "bytes": 205952,
+      "sha256": "cf3947e11eda09abc108fdab88b8c9de73135a69312d753837e9facaa8e3bde8"
+    },
+    {
+      "path": "unassigned-gene-ids.txt",
+      "bytes": 91200,
+      "sha256": "79f362e10133f8e4f6c8ef849d39520761546aa41d1007f983fff82ad1b24807"
+    }
+  ]
+}

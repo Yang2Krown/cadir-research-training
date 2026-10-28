@@ -1,0 +1,207 @@
+[
+  {
+    "url": "https://experimenthub.bioconductor.org/fetch/2694",
+    "started_utc": "2026-10-26T01:20:13.211353+00:00",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "elapsed_seconds": 0.7697509720019298,
+    "record_file": "/workspace/cadir-newdata-20261026/acquisition/EH2694-counts.rds.json",
+    "selected_response_headers": {},
+    "correction": "Initial wrong fetch ID; not a Nestorowa artifact. Correct IDs from rdatapaths are 2710/2711."
+  },
+  {
+    "url": "https://experimenthub.bioconductor.org/fetch/2695",
+    "started_utc": "2026-10-26T01:20:14.989308+00:00",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "elapsed_seconds": 0.2703877229942009,
+    "record_file": "/workspace/cadir-newdata-20261026/acquisition/EH2695-coldata.rds.json",
+    "selected_response_headers": {},
+    "correction": "Initial wrong fetch ID; not a Nestorowa artifact. Correct IDs from rdatapaths are 2710/2711."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/LTLA/scRNAseq/master/R/NestorowaHSCData.R",
+    "started_utc": "2026-10-26T01:19:16.335357+00:00",
+    "status": 200,
+    "bytes": 2811,
+    "sha256": "2c84052f4d2a9a09e0e77d2d1aa9aa89d6532f1d81386fbeab3816373fc878c9",
+    "final_url": "https://raw.githubusercontent.com/LTLA/scRNAseq/master/R/NestorowaHSCData.R",
+    "elapsed_seconds": 0.356440832001681,
+    "record_file": "/workspace/cadir-newdata-20261026/acquisition/NestorowaHSCData.R.json",
+    "selected_response_headers": {
+      "content-type": "text/plain; charset=utf-8",
+      "etag": "\"ad3b46ab1dddea4f8cc06de4d365f54d96ab1f61b1f5b92325901160807addbc\"",
+      "date": "Mon, 26 Oct 2026 01:19:16 GMT",
+      "content-length": "2811"
+    }
+  },
+  {
+    "url": "https://raw.githubusercontent.com/VingronLab/CAdir_results/c15b49578bde38b42fd5db2c9830c10dd441ee4c/download_raw_data/tabula_muris/download_full_tabula_muris.R",
+    "started_utc": "2026-10-26T01:21:55.308831+00:00",
+    "status": 200,
+    "bytes": 297,
+    "sha256": "3b2427af9908dc288bdfe82d75f07d5c2b16d8f46fc9ede6b4f953f121b9a2e0",
+    "final_url": "https://raw.githubusercontent.com/VingronLab/CAdir_results/c15b49578bde38b42fd5db2c9830c10dd441ee4c/download_raw_data/tabula_muris/download_full_tabula_muris.R",
+    "elapsed_seconds": 0.3324282969988417,
+    "record_file": "/workspace/cadir-newdata-20261026/acquisition/author-tabula-muris-full.R.json",
+    "selected_response_headers": {
+      "content-type": "text/plain; charset=utf-8",
+      "etag": "\"def5c07369ba35ac33b973bfdf835ab21fdd7f6e396092f5a33f0b680018e9a8\"",
+      "date": "Mon, 26 Oct 2026 01:21:55 GMT",
+      "content-length": "297"
+    }
+  },
+  {
+    "url": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/counts.rds",
+    "method": "HEAD",
+    "purpose": "Single confirmation of correct official Hub target policy denial; no alternate route or proxy.",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "record_file": "/workspace/cadir-newdata-20261026/acquisition/correct-mghp-head.json",
+    "selected_response_headers": {}
+  },
+  {
+    "url": "https://raw.githubusercontent.com/LTLA/scRNAseq/c47ea394f4bbfe35f58909a91cffa617c072b552/R/create_sce.R",
+    "started_utc": "2026-10-26T01:21:54.550839+00:00",
+    "status": 200,
+    "bytes": 1688,
+    "sha256": "f5b9e09fdbc87bae9c0c1422d1872eff182515ab040c7fc3e25c1534d265d6c0",
+    "final_url": "https://raw.githubusercontent.com/LTLA/scRNAseq/c47ea394f4bbfe35f58909a91cffa617c072b552/R/create_sce.R",
+    "elapsed_seconds": 0.38378063100390136,
+    "record_file": "/workspace/cadir-newdata-20261026/acquisition/create_sce-fixed.R.json",
+    "selected_response_headers": {
+      "content-type": "text/plain; charset=utf-8",
+      "etag": "\"fded5c1f91ee7b7f076997e894ab802c152bb377f2730d19888a220da83b0bcd\"",
+      "date": "Mon, 26 Oct 2026 01:21:54 GMT",
+      "content-length": "1688"
+    }
+  },
+  {
+    "url": "https://experimenthub.bioconductor.org/metadata/experimenthub.sqlite3",
+    "started_utc": "2026-10-26T01:19:16.955181+00:00",
+    "status": 200,
+    "bytes": 10378240,
+    "sha256": "1c0786502f29cf67b892d7452dc03d29af6c1dda82ddd89118a4d79d10a83c4e",
+    "final_url": "https://experimenthub.bioconductor.org/metadata/experimenthub.sqlite3",
+    "elapsed_seconds": 1.3388697509944905,
+    "record_file": "/workspace/cadir-newdata-20261026/acquisition/experimenthub.sqlite3.json",
+    "selected_response_headers": {
+      "date": "Mon, 26 Oct 2026 01:19:17 GMT",
+      "last-modified": "Tue, 20 Oct 2026 18:36:07 GMT",
+      "content-length": "10378240",
+      "content-type": "application/octet-stream"
+    }
+  },
+  {
+    "name": "geo-counts",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE81nnn/GSE81682/suppl/GSE81682_HTSeq_counts.txt.gz",
+    "error": "<urlopen error [Errno 1] Operation not permitted>",
+    "elapsed_seconds": 0.013836723002896179,
+    "record_file": "/workspace/cadir-newdata-20261026/acquisition/first-access.json",
+    "classification": "INITIAL_SANDBOX_NETWORK_UNAVAILABLE"
+  },
+  {
+    "name": "scrnaseq-package",
+    "url": "https://bioconductor.org/packages/3.19/data/experiment/src/contrib/scRNAseq_2.18.0.tar.gz",
+    "error": "<urlopen error [Errno 1] Operation not permitted>",
+    "elapsed_seconds": 0.00018682600057218224,
+    "record_file": "/workspace/cadir-newdata-20261026/acquisition/first-access.json",
+    "classification": "INITIAL_SANDBOX_NETWORK_UNAVAILABLE"
+  },
+  {
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE81nnn/GSE81682/suppl/GSE81682_HTSeq_counts.txt.gz",
+    "started_utc": "2026-10-26T01:18:47.061914+00:00",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "elapsed_seconds": 0.014494425995508209,
+    "record_file": "/workspace/cadir-newdata-20261026/acquisition/geo-network-attempt.txt.gz.json",
+    "selected_response_headers": {}
+  },
+  {
+    "url": "https://experimenthub.bioconductor.org/fetch/2710",
+    "method": "HEAD",
+    "status": 302,
+    "follow_redirects": false,
+    "hub_resource": "EH2694",
+    "rdatapaths_id": 2710,
+    "record_file": "/workspace/cadir-newdata-20261026/acquisition/hub-correct-redirect.json",
+    "selected_response_headers": {
+      "date": "Mon, 26 Oct 2026 01:21:58 GMT",
+      "location": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/counts.rds",
+      "content-type": "text/html;charset=utf-8"
+    }
+  },
+  {
+    "url": "https://experimenthub.bioconductor.org/fetch/2694",
+    "method": "HEAD",
+    "status": 302,
+    "follow_redirects": false,
+    "record_file": "/workspace/cadir-newdata-20261026/acquisition/hub-redirect-probe.json",
+    "selected_response_headers": {
+      "date": "Mon, 26 Oct 2026 01:20:54 GMT",
+      "location": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/lun-spikein/2.0.0/rowdata-tropho.rds",
+      "content-type": "text/html;charset=utf-8"
+    },
+    "correction": "Initial wrong fetch ID; not a Nestorowa artifact. Correct IDs from rdatapaths are 2710/2711."
+  },
+  {
+    "url": "https://raw.githubusercontent.com/LTLA/scRNAseq/c47ea394f4bbfe35f58909a91cffa617c072b552/scripts/nestorowa-hsc-2016/2024-04-18.Rmd",
+    "started_utc": "2026-10-26T01:21:54.624811+00:00",
+    "status": 200,
+    "bytes": 2220,
+    "sha256": "dca99174854bdddccfabbb720bfcb1ccb62782d4224b442f9ad08761a2d16770",
+    "final_url": "https://raw.githubusercontent.com/LTLA/scRNAseq/c47ea394f4bbfe35f58909a91cffa617c072b552/scripts/nestorowa-hsc-2016/2024-04-18.Rmd",
+    "elapsed_seconds": 0.3091383489954751,
+    "record_file": "/workspace/cadir-newdata-20261026/acquisition/nestorowa-preparation-2024.Rmd.json",
+    "selected_response_headers": {
+      "content-type": "text/plain; charset=utf-8",
+      "etag": "\"769cd8976a5a6d14ce27ddd34d31d8371e93c67b1cb84bedd16789cb09df09ce\"",
+      "date": "Mon, 26 Oct 2026 01:21:54 GMT",
+      "content-length": "2220"
+    }
+  },
+  {
+    "url": "https://bioconductor.org/packages/3.19/data/experiment/src/contrib/scRNAseq_2.18.0.tar.gz",
+    "started_utc": "2026-10-26T01:18:50.054477+00:00",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden",
+    "elapsed_seconds": 0.577371696002956,
+    "response_body": "error code: 1010\n",
+    "record_file": "/workspace/cadir-newdata-20261026/acquisition/scRNAseq-source.tar.gz.json",
+    "selected_response_headers": {
+      "date": "Mon, 26 Oct 2026 01:18:50 GMT",
+      "content-type": "text/plain; charset=UTF-8",
+      "content-length": "17"
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/LTLA/scRNAseq/commits/master",
+    "started_utc": "2026-10-26T01:19:36.081385+00:00",
+    "status": 200,
+    "bytes": 9491,
+    "sha256": "21095b750ef114deda6098ea3e6baf112e2a0d93baaa6b296aff3bcaf22fb860",
+    "final_url": "https://api.github.com/repos/LTLA/scRNAseq/commits/master",
+    "elapsed_seconds": 0.6690378529965528,
+    "record_file": "/workspace/cadir-newdata-20261026/acquisition/scrnaseq-master-commit.json.json",
+    "selected_response_headers": {
+      "date": "Mon, 26 Oct 2026 01:19:36 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "9491",
+      "etag": "\"3de97d75a2257a267f40efe8e059d096f5dd4608062723deb94adfc21d6d6ec9\"",
+      "last-modified": "Fri, 10 Oct 2025 18:12:13 GMT"
+    }
+  },
+  {
+    "url": "https://api.github.com/repos/LTLA/scRNAseq/git/trees/c47ea394f4bbfe35f58909a91cffa617c072b552?recursive=1",
+    "started_utc": "2026-10-26T01:20:11.777913+00:00",
+    "status": 200,
+    "bytes": 78370,
+    "sha256": "9489c9fe66aaa40c9d1e14088fd5cce7c8731dd32c70d3258f33d47001bba33f",
+    "final_url": "https://api.github.com/repos/LTLA/scRNAseq/git/trees/c47ea394f4bbfe35f58909a91cffa617c072b552?recursive=1",
+    "elapsed_seconds": 0.6332430559996283,
+    "record_file": "/workspace/cadir-newdata-20261026/acquisition/scrnaseq-source-tree.json.json",
+    "selected_response_headers": {
+      "date": "Mon, 26 Oct 2026 01:20:12 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "78370",
+      "etag": "\"aae829247e7e929b33cfb6fd14e1185e8dff568a7bca174b18d575c1c64f59e3\"",
+      "last-modified": "Mon, 27 Apr 2026 17:38:52 GMT"
+    }
+  }
+]

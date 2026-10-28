@@ -1,0 +1,21 @@
+{
+  "status": "METADATA_AUDIT_COMPLETE_WITH_UNRESOLVED_SOURCE_SEMANTICS",
+  "formal_execution_permitted": false,
+  "reacquired_not_prior_originals": true,
+  "counts_values_parsed": false,
+  "counts_rds_deserialized": false,
+  "count_table_access": "header_only",
+  "CAdir_APL_or_simulation_or_smoke_test_run": false,
+  "review_or_PR_created": false,
+  "ids_1920_unique_same_order": true,
+  "report": "\u6838\u5bf9\u62a5\u544a.md",
+  "unresolved": [
+    "1656_vs_1920_author_ID_exclusions",
+    "Rep_relationship",
+    "author_gate_definitions_FACS_units_transform_antibodies",
+    "donor_sample_batch_condition_mapping",
+    "original_count_revision_QC_provenance",
+    "CAdir_S1_novelty_coverage",
+    "frozen_input_lock_and_future_independent_approval"
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "files": [
+    {
+      "path": "/workspace/nestorowa-metadata-preparation/reacquired-20261026/GSE81682_HTSeq_counts.txt.gz",
+      "bytes": 30236635,
+      "sha256": "e12745e4087823ae868c6fe82a38510c15730e82ee74e1983def85ed3b7df68a",
+      "role": "raw_or_common_preparation"
+    },
+    {
+      "path": "/workspace/nestorowa-metadata-preparation/reacquired-20261026/coldata.rds",
+      "bytes": 182319,
+      "sha256": "16d9e3ee62d27aac74591ccddd064eb2be9b86836591c8ec99d39e1af0bf35bc",
+      "role": "raw_or_common_preparation"
+    },
+    {
+      "path": "/workspace/nestorowa-metadata-preparation/reacquired-20261026/counts.rds",
+      "bytes": 90044893,
+      "sha256": "6bf8a84f4db185eb6021ceb53b7d6d33083410e02a6ee7a6df2191f0bbb90563",
+      "role": "raw_or_common_preparation"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/eligible-normalized-sce.rds",
+      "bytes": 172083640,
+      "sha256": "fcacff65379b8ca90e38fa91ddd9ddd434ca2b7ef664898e1845fd9d03c95604",
+      "role": "raw_or_common_preparation"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/gene-variance.rds",
+      "bytes": 10286093,
+      "sha256": "8ea8ce1932421b6b83ac19f95d7d78b59b804743104fb74a520b23b58f1fdd1c",
+      "role": "raw_or_common_preparation"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/rng.rds",
+      "bytes": 2778,
+      "sha256": "a19f28a4bd21dc7cf8ae6a42372496d9f6a1c4c4c5e780dde47561b31199ba96",
+      "role": "raw_or_common_preparation"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/shared-hvg-sce.rds",
+      "bytes": 37570598,
+      "sha256": "e6545f0d01da8db5120b194ad3bcea48519b1ece8c7158f943c84c66a4bae8ed",
+      "role": "raw_or_common_preparation"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/evidence/environment-probe-03/environment-signature.rds",
+      "bytes": 232042,
+      "sha256": "e2e6b0b03a1952068eaa8c4ccec469671d947bb4553926b326d4f1086b0b2fc5",
+      "role": "raw_or_common_preparation"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-101-attempt-01/ca.rds",
+      "bytes": 5556932,
+      "sha256": "ac1d84be866ac7d1feeea626bf8d665d1f7dc08c15cf4d98aafab840b8a6a276",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-101-attempt-01/cadir_unranked.rds",
+      "bytes": 98346,
+      "sha256": "59bb1391f7ad4236aac3e288319199e980695cfa832f2bb143709ad2fd7cf51f",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-101-attempt-01/cell-partition.rds",
+      "bytes": 5279,
+      "sha256": "eb03ff91664a5cf9b07e2b8914c5d7b61cfed7cd48e00ef64f967c45bfe48452",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-101-attempt-01/diagnostics/cadir_ranked.rds",
+      "bytes": 117963,
+      "sha256": "0a0bc93bbb3ad64e67c8e8c613c0217e603d619831690b7d7e5f90a33dac82cb",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-202-attempt-01/ca.rds",
+      "bytes": 5556992,
+      "sha256": "31477f2578a95078b360bd08c10367812b61ddf7e50778a5b82e5e68bc9890f6",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-202-attempt-01/cadir_unranked.rds",
+      "bytes": 111962,
+      "sha256": "de857610a3d8ce2ba6cb50d7b952861123a24aa1273dff87e39ed9f95fdf2d91",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-202-attempt-01/cell-partition.rds",
+      "bytes": 5353,
+      "sha256": "35ae59b8c10fdae650e25b76ebef0dc9c136170a51bc58188573cab67bd8803f",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-202-attempt-01/diagnostics/cadir_ranked.rds",
+      "bytes": 131739,
+      "sha256": "cfac2438b21ca60318f4b5e17352d833a20cf705c05956bd98f4c225683c2132",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-2358-attempt-01/ca.rds",
+      "bytes": 5556978,
+      "sha256": "4e985838178a200cd605a71d49ddf70e8302f70f278f9edeb6615c44060f40b3",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-2358-attempt-01/cadir_unranked.rds",
+      "bytes": 112172,
+      "sha256": "3291f2f189cf73db97bdea76c2ccafdf3b60b373211fb5faa39fbcc36b4e6367",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-2358-attempt-01/cell-partition.rds",
+      "bytes": 5376,
+      "sha256": "b5b5044d906ecea3f47f08de87991cd90d50c1a2bcb1a0d6257e199231a682af",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-2358-attempt-01/diagnostics/cadir_ranked.rds",
+      "bytes": 131802,
+      "sha256": "8db128080d08c960f9d8f5cee5630bb34c7280c734defc4f6cc15918ea7dbfed",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-303-attempt-01/ca.rds",
+      "bytes": 5556940,
+      "sha256": "338d60d3a3c8cfeb67ae646d11ab182b6ca052762c6d7e2c68a02c32323d718a",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-303-attempt-01/cadir_unranked.rds",
+      "bytes": 103842,
+      "sha256": "b91db0be2e90fa60c0a19881533ee471c04bc254e018959e228fdc009a4608bf",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-303-attempt-01/cell-partition.rds",
+      "bytes": 5349,
+      "sha256": "fea42917929cc70ea4a6a132f8da46ad8ea459e402572d92811c79eb49fc3f38",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-303-attempt-01/diagnostics/cadir_ranked.rds",
+      "bytes": 123738,
+      "sha256": "5e91549854f34b98a22480e85acea446776c4cdff050ae95ad15c1c5f2e73eda",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-404-attempt-01/ca.rds",
+      "bytes": 5556907,
+      "sha256": "28ba92da1f40f7aeb0fc2942c1a1025a89abeecd53e1c0315c6164f682c48819",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-404-attempt-01/cadir_unranked.rds",
+      "bytes": 96962,
+      "sha256": "fc142ba704465a34a4d9403f2184f549ee2eac540639d83c13f8455d57846f9a",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-404-attempt-01/cell-partition.rds",
+      "bytes": 5284,
+      "sha256": "0797afffb42000b86929081e51c61974bb7fa4bf9e5fb5b3c6ddd3d1243242af",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-404-attempt-01/diagnostics/cadir_ranked.rds",
+      "bytes": 116629,
+      "sha256": "d49d9c4746b9877ad492789787fe8a0ba3e3a4bfb26afccf62f321c84d9a76f7",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-101-attempt-01/cell-partition.rds",
+      "bytes": 5385,
+      "sha256": "0d6acf3455e129a51dbe6a3fd05d56e0efa2460fcf1702a7cc128dabe7a0ff1e",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-101-attempt-01/louvain.rds",
+      "bytes": 7229,
+      "sha256": "19c0b5c9b0d8d95969c90d3cb22886eb4253acfc360b9febe375a616a09076bf",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-101-attempt-01/pca.rds",
+      "bytes": 1792472,
+      "sha256": "f21ca41f13c0849676c563d3de5e0aa2bef3ef86e76cac39751e1e2be797ba81",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-101-attempt-01/snn-graph.rds",
+      "bytes": 630225,
+      "sha256": "a3866392bdbebf2a143330436489c8fc466fdb90323eb1a4b609fe123543491d",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-202-attempt-01/cell-partition.rds",
+      "bytes": 5389,
+      "sha256": "dfc02b819d42f176cae41488b0171bf4df30b0f614c523061b6186f27f4d6ace",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-202-attempt-01/louvain.rds",
+      "bytes": 7602,
+      "sha256": "b1e6100a4abd97a7afce23a812d7635dbb97b16faa484fde9b499e1b185fc8d4",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-202-attempt-01/pca.rds",
+      "bytes": 1792490,
+      "sha256": "ba1273cdacef9e450ac827b1e090121c53855c0ddb663ae9bcb5a0b3944f9d23",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-202-attempt-01/snn-graph.rds",
+      "bytes": 630029,
+      "sha256": "e19da11832885e9aac7792ba305c32fd1801c5cf5f21f0b4a6689335430d4c05",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-2358-attempt-01/cell-partition.rds",
+      "bytes": 5390,
+      "sha256": "9529a04495fa20eb402629e0ca7e6c643daab243af5f9ab2ce28c6b9dc0faa7d",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-2358-attempt-01/louvain.rds",
+      "bytes": 7276,
+      "sha256": "03bf07fa10c7c88cddd7de9763f138b4fb8e64baae01c9fe1e191d2424121d0d",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-2358-attempt-01/pca.rds",
+      "bytes": 1792497,
+      "sha256": "e97b42f8ea9e262f7b616f38876884b3f863d92146df99f91b76ccc0ee755b16",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-2358-attempt-01/snn-graph.rds",
+      "bytes": 629935,
+      "sha256": "fece35a262025c9b57e3243d6abc41d4652a5a20e2f794517914bc6c9c1157ef",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-303-attempt-01/cell-partition.rds",
+      "bytes": 5377,
+      "sha256": "2960ba05299385d52ce400251acb913e12a90fb940f9088d039bbb7a8bf79492",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-303-attempt-01/louvain.rds",
+      "bytes": 7284,
+      "sha256": "69b60fd95e8247c04f845d728e6fcfadb0c98fc000c9ca489cedb0633cf301f7",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-303-attempt-01/pca.rds",
+      "bytes": 1792406,
+      "sha256": "e0ad2157aa6f6f413e733569e65c3cd62945eac2828d0a1f7e78682a0e0334f7",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-303-attempt-01/snn-graph.rds",
+      "bytes": 630243,
+      "sha256": "a37a81b77c860cc14cc81412f80a9878e3482ae0368ad31e986aec1ff35ff088",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-404-attempt-01/cell-partition.rds",
+      "bytes": 5379,
+      "sha256": "ef505b0e988b3b653bf5ffc7034797391e2f0c0e042347a8c7dae272573d5034",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-404-attempt-01/louvain.rds",
+      "bytes": 7263,
+      "sha256": "02fae608726181a550ece6a70182e0ac55119c2515c418022c84ed6142a5ae79",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-404-attempt-01/pca.rds",
+      "bytes": 1792481,
+      "sha256": "4388e0130188f0d47467ac824b744d0f89791dbec88ea874cbf3feae648e5a5b",
+      "role": "serialized_external_object"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-404-attempt-01/snn-graph.rds",
+      "bytes": 630234,
+      "sha256": "2c852579e2681dbd5aa3175c1b9d8f86e163b31614545daf07c28ca19e443722",
+      "role": "serialized_external_object"
+    }
+  ],
+  "backup_status": "External execution workspace only. User-local download and independent hash verification not established.",
+  "not_in_git": [
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-101-attempt-01/ca.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-101-attempt-01/cadir_unranked.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-101-attempt-01/cell-partition.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-101-attempt-01/diagnostics/cadir_ranked.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-202-attempt-01/ca.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-202-attempt-01/cadir_unranked.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-202-attempt-01/cell-partition.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-202-attempt-01/diagnostics/cadir_ranked.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-2358-attempt-01/ca.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-2358-attempt-01/cadir_unranked.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-2358-attempt-01/cell-partition.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-2358-attempt-01/diagnostics/cadir_ranked.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-303-attempt-01/ca.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-303-attempt-01/cadir_unranked.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-303-attempt-01/cell-partition.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-303-attempt-01/diagnostics/cadir_ranked.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-404-attempt-01/ca.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-404-attempt-01/cadir_unranked.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-404-attempt-01/cell-partition.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-404-attempt-01/diagnostics/cadir_ranked.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-101-attempt-01/cell-partition.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-101-attempt-01/louvain.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-101-attempt-01/pca.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-101-attempt-01/snn-graph.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-202-attempt-01/cell-partition.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-202-attempt-01/louvain.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-202-attempt-01/pca.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-202-attempt-01/snn-graph.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-2358-attempt-01/cell-partition.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-2358-attempt-01/louvain.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-2358-attempt-01/pca.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-2358-attempt-01/snn-graph.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-303-attempt-01/cell-partition.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-303-attempt-01/louvain.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-303-attempt-01/pca.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-303-attempt-01/snn-graph.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-404-attempt-01/cell-partition.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-404-attempt-01/louvain.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-404-attempt-01/pca.rds",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-404-attempt-01/snn-graph.rds"
+  ]
+}

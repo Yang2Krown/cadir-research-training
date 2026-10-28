@@ -1,0 +1,460 @@
+{
+  "path_base": "repository root",
+  "excluded_self_indexes": [
+    "evidence_index.json",
+    "evidence_sha256.tsv"
+  ],
+  "formal_execution_permitted": false,
+  "artifacts": [
+    {
+      "path": "cases/nestorowa_hsc/README.md",
+      "bytes": 2763,
+      "sha256": "e16b172228d3bdc4f05629f5950e54fb0e53baf1d9af7cf3d40c765d438360d7"
+    },
+    {
+      "path": "cases/nestorowa_hsc/scripts/audit_inputs.R",
+      "bytes": 7686,
+      "sha256": "63d5c3d419b34645227178bc1daaf8da04a113f13ec11c04427f709c1fef9f92"
+    },
+    {
+      "path": "cases/nestorowa_hsc/scripts/inspect_legacy_rownames.R",
+      "bytes": 529,
+      "sha256": "9d99b92ad38d2962d2c7aeaff131091a7e2fa883713c8dba12adaec4251e6704"
+    },
+    {
+      "path": "cases/nestorowa_hsc/scripts/metadata_identity.R",
+      "bytes": 5918,
+      "sha256": "aada661c76bd5d9fd5084c53572b958055d48b8e1466b6610f2de3c35cee58f5"
+    },
+    {
+      "path": "cases/nestorowa_hsc/scripts/run_input_audit.py",
+      "bytes": 3334,
+      "sha256": "5c8e15aa5257acdf60dc1c5625af0aab99a29d16631f007e6930855846d53a3b"
+    },
+    {
+      "path": "cases/nestorowa_hsc/scripts/test_metadata_identity.R",
+      "bytes": 3531,
+      "sha256": "5ff1aca1e931dbbe3dbecc647cd71723d07fb6383fad20aaea1033bf670deb32"
+    },
+    {
+      "path": "cases/nestorowa_hsc/scripts/verify_a03_evidence.py",
+      "bytes": 5562,
+      "sha256": "863ff1e16d52e40fc35fb013890b917f629d4d6761a6bbdc0890819109dd488e"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/.gitattributes",
+      "bytes": 116,
+      "sha256": "ddc4e741a32bb554a2be95c812cd64101a8b0ca239fb4bbbaea7e0b2a8cc47ac"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/.gitignore",
+      "bytes": 62,
+      "sha256": "f1b2f70e03e4e806f836e02d31832e7332be64f8a03a83f909cc5c916e30237a"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/README.md",
+      "bytes": 8604,
+      "sha256": "a241aa34d8d2b8377e73eb174338175f130ef7d82d73aa2be14a75944655c74f"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/attempt_notes.json",
+      "bytes": 1390,
+      "sha256": "f4c1cbc4f01c83dcbba29417b0901350c218dd840d26ae0f00b6cef5bbac2d24"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/control-inputs/HSC扩展范围裁定-2026-10-26.md",
+      "bytes": 3532,
+      "sha256": "81062e7da29b1c3d79e9786525580b65a168f2323db923bd3c688b856000c3d9"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/control-inputs/独立审查报告.md",
+      "bytes": 10315,
+      "sha256": "a64199b6e0e47fe3cb21bebac28a96b71ce1677ec08c6a38eef78dd5d6d9d3a7"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/control_provenance.json",
+      "bytes": 835,
+      "sha256": "ef3592f142b7b04a8c1467e7626e5fd2bacd1b9ce92f836575e5d048256d6110"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/audit_status.json",
+      "bytes": 294,
+      "sha256": "c307b8e5bccf154b2655624aee171c5cd281fb620c16461dd73e35c36a33ff46"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/count_metadata_alignment.tsv",
+      "bytes": 34743,
+      "sha256": "594d9c586518b6886e58910c04afc6b89d13e6eac6264e07a260a2f6f27f4c22"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/counts_legality.json",
+      "bytes": 423,
+      "sha256": "80a588785fa0914c0611bd594cb856bc08f3ad92dcabc2734acdb40883927b85"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/file_integrity.json",
+      "bytes": 1285,
+      "sha256": "c886f282cd137bc4275e630124c40924093a40f0e3826e6a87f203681034b97a"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/gene_ids.tsv",
+      "bytes": 1142535,
+      "sha256": "b0c05dd656a1d46e1a99ab70512de89c3b573738a51802e13ad73132feb138a5"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/geo_correspondence.json",
+      "bytes": 401,
+      "sha256": "85b0c658c345fbf46fc9e47f93c120cb473ec61b7d4546f61f8c91e008dabaf9"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/metadata_alignment.tsv",
+      "bytes": 152133,
+      "sha256": "21e0cca117dee2657efa15a3f50d89e271e18017246c26c43aecd36ffc9371f6"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/metadata_candidate.tsv",
+      "bytes": 58853,
+      "sha256": "b9ec4cd60724a1599f1cce2be1b31bbddc64a337813467f4f5b81dc5a4fd3628"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/metadata_flags.tsv",
+      "bytes": 43790,
+      "sha256": "82ab1190813c760198fe6f659153e655ceb460b026ed81aa78da42094493d5b1"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/metadata_identity.json",
+      "bytes": 2303,
+      "sha256": "2e7f31a6b7f24029dc4403e684b2764bc339b45378c1cea9af4ac92e00d5a699"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/metadata_memberships.tsv",
+      "bytes": 278899,
+      "sha256": "1bcb091a083bb68715527f6e0270761944d7962c4f58ad052cc16e290c46c728"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01/runtime.json",
+      "bytes": 518,
+      "sha256": "3b23ddafa8110d97ac2fcf377b1abe8b05929a1f0963e812bcc6a297f91328a6"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01.console.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-01.execution.json",
+      "bytes": 1947,
+      "sha256": "c7b3009a63dfbe006c870d18161c15d9506ff7c4b1647fbb259667b75078b723"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-02/audit_status.json",
+      "bytes": 364,
+      "sha256": "0e18a9fdbe2b8870f2d76adbecc801ac7cbaa68063b1d912b58513d3216b871d"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-02/file_integrity.json",
+      "bytes": 420,
+      "sha256": "a3ac14186247d11dadec0698a3ff2138f0e6b5483937a0a71e77f1fafcfa6621"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-02/runtime.json",
+      "bytes": 518,
+      "sha256": "3b23ddafa8110d97ac2fcf377b1abe8b05929a1f0963e812bcc6a297f91328a6"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-02.console.log",
+      "bytes": 174,
+      "sha256": "d722024e6d6f7431b578fd8207b3bb4b121dd4df248bb5322cfbbdc1e651dc58"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-02.execution.json",
+      "bytes": 2251,
+      "sha256": "05a56a50babff54c41d5e68bd44ef27e2c66684726c77316b08d65470207fc52"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/audit_status.json",
+      "bytes": 294,
+      "sha256": "c307b8e5bccf154b2655624aee171c5cd281fb620c16461dd73e35c36a33ff46"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/count_metadata_alignment.tsv",
+      "bytes": 34743,
+      "sha256": "594d9c586518b6886e58910c04afc6b89d13e6eac6264e07a260a2f6f27f4c22"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/counts_legality.json",
+      "bytes": 423,
+      "sha256": "80a588785fa0914c0611bd594cb856bc08f3ad92dcabc2734acdb40883927b85"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/file_integrity.json",
+      "bytes": 1285,
+      "sha256": "c886f282cd137bc4275e630124c40924093a40f0e3826e6a87f203681034b97a"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/gene_ids.tsv",
+      "bytes": 1142535,
+      "sha256": "b0c05dd656a1d46e1a99ab70512de89c3b573738a51802e13ad73132feb138a5"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/geo_correspondence.json",
+      "bytes": 401,
+      "sha256": "85b0c658c345fbf46fc9e47f93c120cb473ec61b7d4546f61f8c91e008dabaf9"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/metadata_alignment.tsv",
+      "bytes": 152133,
+      "sha256": "21e0cca117dee2657efa15a3f50d89e271e18017246c26c43aecd36ffc9371f6"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/metadata_candidate.tsv",
+      "bytes": 58853,
+      "sha256": "b9ec4cd60724a1599f1cce2be1b31bbddc64a337813467f4f5b81dc5a4fd3628"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/metadata_flags.tsv",
+      "bytes": 43790,
+      "sha256": "82ab1190813c760198fe6f659153e655ceb460b026ed81aa78da42094493d5b1"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/metadata_identity.json",
+      "bytes": 2454,
+      "sha256": "db1b37251f9fc568b11e541340ee32f8ee4466cbac37ab1480ab6d4702d85134"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/metadata_memberships.tsv",
+      "bytes": 278899,
+      "sha256": "1bcb091a083bb68715527f6e0270761944d7962c4f58ad052cc16e290c46c728"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03/runtime.json",
+      "bytes": 518,
+      "sha256": "3b23ddafa8110d97ac2fcf377b1abe8b05929a1f0963e812bcc6a297f91328a6"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03.console.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/full-03.execution.json",
+      "bytes": 2251,
+      "sha256": "ad092c03839e46a99bdc8ae6583d4e30af88c562834eb44544bd38812b624c9c"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/implementation_readback.json",
+      "bytes": 1829,
+      "sha256": "8088e1c191ac7816b2628d4c2bb7608562b0c32d5c0777bbd666665be7777755"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/legacy_rownames_diagnostic.log",
+      "bytes": 271,
+      "sha256": "12284f0410fab11668ed3897d8abe43ca69e8a32a021d9fb49ec8fe432b47d7c"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-01/audit_status.json",
+      "bytes": 307,
+      "sha256": "04bcaafbd122524b05b61ce8661b7a7d7737de045fa95909276f85325995f0ea"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-01/file_integrity.json",
+      "bytes": 420,
+      "sha256": "a3ac14186247d11dadec0698a3ff2138f0e6b5483937a0a71e77f1fafcfa6621"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-01/metadata_alignment.tsv",
+      "bytes": 152133,
+      "sha256": "21e0cca117dee2657efa15a3f50d89e271e18017246c26c43aecd36ffc9371f6"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-01/metadata_candidate.tsv",
+      "bytes": 58853,
+      "sha256": "b9ec4cd60724a1599f1cce2be1b31bbddc64a337813467f4f5b81dc5a4fd3628"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-01/metadata_flags.tsv",
+      "bytes": 43790,
+      "sha256": "82ab1190813c760198fe6f659153e655ceb460b026ed81aa78da42094493d5b1"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-01/metadata_identity.json",
+      "bytes": 2303,
+      "sha256": "2e7f31a6b7f24029dc4403e684b2764bc339b45378c1cea9af4ac92e00d5a699"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-01/metadata_memberships.tsv",
+      "bytes": 278899,
+      "sha256": "1bcb091a083bb68715527f6e0270761944d7962c4f58ad052cc16e290c46c728"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-01/runtime.json",
+      "bytes": 518,
+      "sha256": "3b23ddafa8110d97ac2fcf377b1abe8b05929a1f0963e812bcc6a297f91328a6"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-01.console.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-01.execution.json",
+      "bytes": 1587,
+      "sha256": "42dccd1e20638358e621e652fbbb1130e03dc4181fc89011f9236c550a7565ac"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-02/audit_status.json",
+      "bytes": 373,
+      "sha256": "cea73b36d49b8f8f98685c07ede09d2c467ecebb9bd69390a2149bc81c487b31"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-02/file_integrity.json",
+      "bytes": 420,
+      "sha256": "a3ac14186247d11dadec0698a3ff2138f0e6b5483937a0a71e77f1fafcfa6621"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-02/runtime.json",
+      "bytes": 518,
+      "sha256": "3b23ddafa8110d97ac2fcf377b1abe8b05929a1f0963e812bcc6a297f91328a6"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-02.console.log",
+      "bytes": 174,
+      "sha256": "d722024e6d6f7431b578fd8207b3bb4b121dd4df248bb5322cfbbdc1e651dc58"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-02.execution.json",
+      "bytes": 1890,
+      "sha256": "51b6d41fc0b065623fa062f24e007e1f96ce4c04fbc5d2d0a103cc74b46027f3"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-03/audit_status.json",
+      "bytes": 307,
+      "sha256": "04bcaafbd122524b05b61ce8661b7a7d7737de045fa95909276f85325995f0ea"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-03/file_integrity.json",
+      "bytes": 420,
+      "sha256": "a3ac14186247d11dadec0698a3ff2138f0e6b5483937a0a71e77f1fafcfa6621"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-03/metadata_alignment.tsv",
+      "bytes": 152133,
+      "sha256": "21e0cca117dee2657efa15a3f50d89e271e18017246c26c43aecd36ffc9371f6"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-03/metadata_candidate.tsv",
+      "bytes": 58853,
+      "sha256": "b9ec4cd60724a1599f1cce2be1b31bbddc64a337813467f4f5b81dc5a4fd3628"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-03/metadata_flags.tsv",
+      "bytes": 43790,
+      "sha256": "82ab1190813c760198fe6f659153e655ceb460b026ed81aa78da42094493d5b1"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-03/metadata_identity.json",
+      "bytes": 2454,
+      "sha256": "db1b37251f9fc568b11e541340ee32f8ee4466cbac37ab1480ab6d4702d85134"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-03/metadata_memberships.tsv",
+      "bytes": 278899,
+      "sha256": "1bcb091a083bb68715527f6e0270761944d7962c4f58ad052cc16e290c46c728"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-03/runtime.json",
+      "bytes": 518,
+      "sha256": "3b23ddafa8110d97ac2fcf377b1abe8b05929a1f0963e812bcc6a297f91328a6"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-03.console.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata-only-03.execution.json",
+      "bytes": 1891,
+      "sha256": "af349764d0c4b393c96c57b4bfb455d45c0371904515fb1440c248478602009a"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata_identity_regression.console.log",
+      "bytes": 119,
+      "sha256": "796a55e62ecf814a12dbf4fc3d0ec321dc88a27c66250d044bbd057dc60851e5"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata_identity_regression.execution.json",
+      "bytes": 1571,
+      "sha256": "0e19866d080751753727371701f5b8c89e1b9eefcb8b5312c675e49a27933498"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata_identity_regression_02.console.log",
+      "bytes": 421,
+      "sha256": "2c86270b9bdddbea4b27226929c70b33d98e43875e26f5c3ffa2125502d1a512"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata_identity_regression_02.execution.json",
+      "bytes": 1722,
+      "sha256": "6041bab623df114ed02384ce11ccbc6429a3ce9af38a75e397f34ec26893ce24"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata_identity_regression_03.console.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata_identity_regression_03.execution.json",
+      "bytes": 1721,
+      "sha256": "c242603071027f7532ef91e94d734f5db0a514c6daae8da5f22b7da6256fb9d0"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/evidence/metadata_identity_regression_03.json",
+      "bytes": 77618,
+      "sha256": "5e5c0e173ed45c5dc9d43da199549e2fed851a307fe930b32249054c97bd2e5b"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/executed-sources/attempt-01/audit_inputs.R",
+      "bytes": 7686,
+      "sha256": "63d5c3d419b34645227178bc1daaf8da04a113f13ec11c04427f709c1fef9f92"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/executed-sources/attempt-01/metadata_identity.R",
+      "bytes": 5106,
+      "sha256": "d093ef958b69d5ced9b8c9a5d216a641b721629c9d0d1bb802add0b6e6eb54f8"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/executed-sources/attempt-01/run_input_audit.py",
+      "bytes": 3137,
+      "sha256": "58d053065ae13109a02ba577a6bcc1c4d258257e5d7df17f9bcc199fe0bc5105"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/executed-sources/attempt-01/test_metadata_identity.R",
+      "bytes": 3213,
+      "sha256": "0e86d37e4d8a15e5a79cd22fa82968e91ac174828656f52267bbbd1c5cbafcb6"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/executed-sources/attempt-02/audit_inputs.R",
+      "bytes": 7686,
+      "sha256": "63d5c3d419b34645227178bc1daaf8da04a113f13ec11c04427f709c1fef9f92"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/executed-sources/attempt-02/metadata_identity.R",
+      "bytes": 5370,
+      "sha256": "f0c25e1ae2e7100a0effbb664f5a23c0696bedad9a31fe0ac9541deca7a41f01"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/executed-sources/attempt-02/run_input_audit.py",
+      "bytes": 3334,
+      "sha256": "5c8e15aa5257acdf60dc1c5625af0aab99a29d16631f007e6930855846d53a3b"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/executed-sources/attempt-02/test_metadata_identity.R",
+      "bytes": 3533,
+      "sha256": "d25dfac155072c63343f89aea54ab5eb68be0304c4f29b7f7a426589bbe53746"
+    },
+    {
+      "path": "planning/new-dataset/2026-10-26/input-legality-a03/preparation_status.json",
+      "bytes": 1685,
+      "sha256": "2bb0f24fd2f4e53adbb7062cb159abdf7cf56e05b7d9bcdd1f7bb32a47f4333d"
+    }
+  ]
+}

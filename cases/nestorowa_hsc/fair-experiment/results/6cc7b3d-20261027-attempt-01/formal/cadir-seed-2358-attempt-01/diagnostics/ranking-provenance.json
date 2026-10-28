@@ -1,0 +1,16 @@
+{
+  "seed": 2358,
+  "CA_sha256": "4e985838178a200cd605a71d49ddf70e8302f70f278f9edeb6615c44060f40b3",
+  "unranked_sha256": "3291f2f189cf73db97bdea76c2ccafdf3b60b373211fb5faa39fbcc36b4e6367",
+  "alpha_genes": 1.16047797001422,
+  "complete_ranked_genes": 1200,
+  "input_genes": 6000,
+  "upstream_retained_genes": 1200,
+  "assigned_genes": 1200,
+  "unassigned_genes": 4800,
+  "independent_score_max_error": 6.21724893790088e-15,
+  "ranking_elapsed_seconds": 1.274,
+  "memory_scope": "diagnostic process VmHWM includes package and exact core-object load; separate from headline core",
+  "memory_status": ["VmHWM:\t 1217360 kB", "VmRSS:\t 1214392 kB"],
+  "basis_scope": "Only this exact stored CA basis. Seed alone is not a basis-invariance claim."
+}

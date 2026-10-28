@@ -1,0 +1,10 @@
+{
+  "status": "COMMON_PREPARATION_FINALIZED_NO_ALGORITHMS",
+  "stage": "verify_saved_normalization_and_HVG",
+  "forbidden_algorithms_called": false,
+  "elapsed_seconds": 42.881,
+  "memory_status": ["VmHWM:\t 2220576 kB", "VmRSS:\t 2176568 kB"],
+  "config_sha256": "b1e30c8d292b289095bcc1b5159f82b4568f16ca4b07207e039795e15219a969",
+  "environment_signature_sha256": "e2e6b0b03a1952068eaa8c4ccec469671d947bb4553926b326d4f1086b0b2fc5",
+  "prior_attempt_snapshot_sha256": "1bc8de4037bd78f378fcaeddc0e274dc0e62d11fed9ed34bf26e9a9acd1192cc"
+}

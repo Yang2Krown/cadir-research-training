@@ -1,0 +1,23 @@
+{
+  "url": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/counts.rds",
+  "started_utc": "2026-10-26T06:28:36.833443+00:00",
+  "status": 200,
+  "final_url": "https://mghp.osn.xsede.org/bir190004-bucket01/ExperimentHub/scRNAseq/nestorowa-hsc/2.0.0/counts.rds",
+  "bytes": 90044893,
+  "sha256": "6bf8a84f4db185eb6021ceb53b7d6d33083410e02a6ee7a6df2191f0bbb90563",
+  "headers": {
+    "content-length": "90044893",
+    "accept-ranges": "bytes",
+    "last-modified": "Thu, 29 May 2025 19:38:06 GMT",
+    "x-rgw-object-type": "Normal",
+    "etag": "\"30b80ba6cf13603460e08ddcc3003b04\"",
+    "x-amz-meta-mtime": "1637765634",
+    "x-amz-request-id": "tx000002be20fe4dd7b7781-006adef315-dc6347c-default",
+    "content-type": "binary/octet-stream",
+    "date": "Mon, 26 Oct 2026 06:28:37 GMT",
+    "x-envoy-upstream-service-time": "202",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "elapsed_seconds": 2.0816272720001052
+}

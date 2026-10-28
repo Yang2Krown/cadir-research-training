@@ -1,0 +1,29 @@
+list(formals = as.pairlist(alist(caobj = , method = "random", group = caobj@group, counts = NULL, quant = 0.99, apl_cutoff_reps = 100, axis = "cols")), 
+    body = {
+        if (method == "random") {
+            if (is.null(apl_cutoff_reps)) {
+                apl_cutoff_reps <- 100
+            }
+            else if (apl_cutoff_reps < 100) {
+                rlang::warn("Number of repetitions should be set >=100.")
+                apl_cutoff_reps <- 100
+            }
+            apl_cotan <- random_direction_cutoff(caobj = caobj, 
+                dims = caobj@dims, apl_cutoff_reps = apl_cutoff_reps, 
+                axis = axis)
+        }
+        else if (method == "permutation") {
+            if (is.null(apl_cutoff_reps)) {
+                apl_cutoff_reps <- 5
+            }
+            else if (apl_cutoff_reps > 10) {
+                rlang::inform("Large number of repetitions might take a long time.")
+            }
+            apl_cotan <- permutation_cutoff(caobj = caobj, counts = counts, 
+                group = group, dims = caobj@dims, apl_cutoff_reps = apl_cutoff_reps, 
+                python = TRUE, axis = axis)
+        }
+        cutoff_cotan <- stats::quantile(apl_cotan, quant)
+        alpha <- atan(1/cutoff_cotan)
+        return(alpha)
+    })

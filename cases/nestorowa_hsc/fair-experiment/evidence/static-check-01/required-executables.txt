@@ -1,0 +1,4 @@
+                     git                       sh                      awk 
+                      ""            "/usr/bin/sh"           "/usr/bin/awk" 
+                   sleep                  Rscript 
+        "/usr/bin/sleep" "/usr/local/bin/Rscript" 

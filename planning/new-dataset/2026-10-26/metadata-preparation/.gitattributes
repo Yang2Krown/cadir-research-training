@@ -1,0 +1,3 @@
+# Preserve the original receipts, tables and their recorded byte hashes.
+* -text
+metadata-audit/*.tsv whitespace=cr-at-eol

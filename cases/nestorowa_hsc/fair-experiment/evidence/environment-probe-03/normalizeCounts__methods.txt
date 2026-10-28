@@ -1,0 +1,70 @@
+Function: normalizeCounts (package scuttle)
+x="ANY"
+function (x, ...) 
+{
+    .local <- function (x, size.factors = NULL, log = NULL, transform = c("log", 
+        "none", "asinh"), pseudo.count = 1, center.size.factors = TRUE, 
+        subset.row = NULL, normalize.all = FALSE, downsample = FALSE, 
+        down.target = NULL, down.prop = 0.01, BPPARAM = SerialParam(), 
+        size_factors = NULL, pseudo_count = NULL, center_size_factors = NULL, 
+        subset_row = NULL, down_target = NULL, down_prop = NULL) 
+    {
+        subset.row <- .replace(subset.row, subset_row)
+        size.factors <- .replace(size.factors, size_factors)
+        center.size.factors <- .replace(center.size.factors, 
+            center_size_factors)
+        down.target <- .replace(down.target, down_target)
+        down.prop <- .replace(down.prop, down_prop)
+        pseudo.count <- .replace(pseudo.count, pseudo_count)
+        if (!is.null(subset.row) && !normalize.all) {
+            x <- x[subset.row, , drop = FALSE]
+            subset.row <- NULL
+        }
+        if (nrow(x) == 0L) {
+            return(x + 0)
+        }
+        size.factors <- .get_default_sizes(x, size.factors, center.size.factors, 
+            BPPARAM = BPPARAM, subset.row = subset.row)
+        if (length(size.factors) != ncol(x)) {
+            stop("number of size factors does not equal 'ncol(x)'")
+        }
+        if (!all(is.finite(size.factors) & size.factors > 0)) {
+            stop("size factors should be positive")
+        }
+        if (downsample) {
+            down.out <- .downsample_counts(x, size.factors, down.prop = down.prop, 
+                down.target = down.target)
+            x <- down.out$x
+            size.factors <- down.out$size.factors
+        }
+        transform <- .choose_transform(log, match.arg(transform))
+        .internal_transformer(x, size.factors, transform, pseudo.count)
+    }
+    .local(x, ...)
+}
+
+
+x="SingleCellExperiment"
+function (x, ...) 
+{
+    .local <- function (x, size.factors = sizeFactors(x), ...) 
+    {
+        callNextMethod(x = x, size.factors = size.factors, ...)
+    }
+    .local(x, ...)
+}
+
+
+x="SummarizedExperiment"
+function (x, ...) 
+{
+    .local <- function (x, ..., assay.type = "counts", exprs_values = NULL) 
+    {
+        assay.type <- .replace(assay.type, exprs_values)
+        normalizeCounts(assay(x, assay.type), ...)
+    }
+    .local(x, ...)
+}
+
+
+

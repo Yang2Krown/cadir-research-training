@@ -1,0 +1,45 @@
+Function: modelGeneVar (package scran)
+x="ANY"
+function (x, ...) 
+{
+    .local <- function (x, block = NULL, design = NULL, subset.row = NULL, 
+        subset.fit = NULL, ..., equiweight = TRUE, method = "fisher", 
+        BPPARAM = SerialParam()) 
+    {
+        FUN <- function(s) {
+            .compute_mean_var(x, block = block, design = design, 
+                subset.row = s, block.FUN = compute_blocked_stats_none, 
+                residual.FUN = compute_residual_stats_none, BPPARAM = BPPARAM)
+        }
+        x.stats <- FUN(subset.row)
+        if (is.null(subset.fit)) {
+            fit.stats <- x.stats
+        }
+        else {
+            fit.stats <- FUN(subset.fit)
+        }
+        collected <- .decompose_log_exprs(x.stats$means, x.stats$vars, 
+            fit.stats$means, fit.stats$vars, x.stats$ncells, 
+            ...)
+        output <- .combine_blocked_statistics(collected, method, 
+            equiweight, x.stats$ncells)
+        rownames(output) <- rownames(x)[.subset2index(subset.row, 
+            x)]
+        output
+    }
+    .local(x, ...)
+}
+
+
+x="SummarizedExperiment"
+function (x, ...) 
+{
+    .local <- function (x, ..., assay.type = "logcounts") 
+    {
+        .model_gene_var(x = assay(x, i = assay.type), ...)
+    }
+    .local(x, ...)
+}
+
+
+

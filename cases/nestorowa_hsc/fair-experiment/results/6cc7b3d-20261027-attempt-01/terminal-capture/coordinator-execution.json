@@ -1,0 +1,33 @@
+{
+  "command": [
+    "python3",
+    "/workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/scripts/run_experiment.py",
+    "--admission",
+    "/workspace/hsc-design-independent-review/reviews/hsc-design-20261026/admission.json",
+    "--output-root",
+    "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01"
+  ],
+  "capture_command": [
+    "script",
+    "--quiet",
+    "--return",
+    "--flush",
+    "--log-out",
+    "/workspace/hsc-fair-experiment-data-20261026/formal-capture/6cc7b3d-20261027-attempt-01/terminal.typescript",
+    "--log-timing",
+    "/workspace/hsc-fair-experiment-data-20261026/formal-capture/6cc7b3d-20261027-attempt-01/terminal.timing",
+    "--command",
+    "python3 /workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/scripts/run_experiment.py --admission /workspace/hsc-design-independent-review/reviews/hsc-design-20261026/admission.json --output-root /workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01"
+  ],
+  "source_commit": "6cc7b3da67c193da11a67c45a75167d6521438b0",
+  "review_commit": "2d2565c24b3958260d7232ff03f211c06bd2e845",
+  "admission_sha256": "5c0834c3150129980c1c372b9593be43e489a2ed42f9e9667abf131ebf4e1d0a",
+  "runner_sha256_before": "588583c10b79992951be241dffd6e1efc94f5d3523b02bab869d52abb4acbe28",
+  "executor": "root coordinator; unchanged admitted runner",
+  "started_utc": "2026-10-27T00:53:40.023453+00:00",
+  "exit_code": 0,
+  "elapsed_seconds": 527.9220988010056,
+  "completed_utc": "2026-10-27T01:02:27.945820+00:00",
+  "runner_sha256_after": "588583c10b79992951be241dffd6e1efc94f5d3523b02bab869d52abb4acbe28",
+  "admission_sha256_after": "5c0834c3150129980c1c372b9593be43e489a2ed42f9e9667abf131ebf4e1d0a"
+}

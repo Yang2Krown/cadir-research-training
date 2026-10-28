@@ -1,0 +1,261 @@
+{
+  "run_root": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01",
+  "fixed_example_seed": 2358,
+  "declared_seeds": [2358, 101, 202, 303, 404],
+  "source_commit": "6cc7b3da67c193da11a67c45a75167d6521438b0",
+  "inputs": [
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/admission-used.json",
+      "bytes": 4237,
+      "sha256": "7cb7e5339b6e210e6b833a30c93cfa3017b27aa0e9bdd85d40f32a0c386298cf"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/locks/data-input-lock.json",
+      "bytes": 11662,
+      "sha256": "ac46362a024950ebeda08795b5f64857d3487435328c273e1dc2b8107feee6c1"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/frozen-reference.tsv",
+      "bytes": 120608,
+      "sha256": "f2156454ee3f283cc69b241c8e8dc4c1bf8f9cb730a59602350dea31fe1ec928"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/final-cell-ids.txt",
+      "bytes": 15244,
+      "sha256": "3ffd272761ac0b68ae493c004427ac51c0c35e12a0dd38bb8067043159645278"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/evaluation-cell-ids.txt",
+      "bytes": 15107,
+      "sha256": "24fbab9cac6800f0e37c998b54aa13229b03a4200dca074988d5618fa6bcd655"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/hvg-gene-ids.txt",
+      "bytes": 114000,
+      "sha256": "cc75bf454cd3f5531a86ab8e01d18e93c6ad615a8a0e36b17ebadba59907baa6"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/cell-qc.tsv",
+      "bytes": 174904,
+      "sha256": "483cab65f32571a30553edff8ce9fe8677fd8f4de4e520d7e32749b744e6f157"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/qc-thresholds.json",
+      "bytes": 139,
+      "sha256": "abe8ac43041f9034d30a059497f60adce0d7e9ca460316dab09c2aecc89980fa"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01-finalization-01/preparation-summary.json",
+      "bytes": 2275,
+      "sha256": "dc5a51d1c891ebf723deed903545e285a12b0701608ede12bf132a02b411bc66"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/attempt-receipts.json",
+      "bytes": 3194,
+      "sha256": "4e56cac65d1f97b89efe61d3c3e4968eaa4ecd67f0b619295ba720f889c0dab2"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-2358-attempt-01/core-artifacts-sha256.json",
+      "bytes": 3523,
+      "sha256": "a0dbda8c529fdce3cae5f6f450c725e5ac6a16903c4b0082ad40b67ab494c0ec"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-2358-attempt-01/metrics.json",
+      "bytes": 387,
+      "sha256": "6e2a00e75edfb7c8df8ff5effe9846e4805b2a480ef3c10f4c0fccfb6a1ded42"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-2358-attempt-01/core-resources.json",
+      "bytes": 423,
+      "sha256": "5aea44f84d4eda4bfa27b9d9fed9448402d2b89b90425e43a8ceb7afbb117f45"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-2358-attempt-01/cell-partition.tsv",
+      "bytes": 38858,
+      "sha256": "d30f19fb7e85d60e32dfb613c6167321d72e92520e4780cf8f00f61fa910db90"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-2358-attempt-01/core-artifacts-sha256.json",
+      "bytes": 2557,
+      "sha256": "41ce92fb9d0d14105fac89af7f9416dac9a57a48b3d6a8d338713a568051af91"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-2358-attempt-01/metrics.json",
+      "bytes": 386,
+      "sha256": "bd9e1c58c5870b9044f8f8138430dfc1613f9ecb10704b4cab068fcea54e5a74"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-2358-attempt-01/core-resources.json",
+      "bytes": 417,
+      "sha256": "d859c7a074e4dac266fabdfc17945dbaeeb9327f17893fd04355b76b1098c7bc"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-2358-attempt-01/cell-partition.tsv",
+      "bytes": 25200,
+      "sha256": "f9dc03127cbeae720636baa7c1f4b660a5bd9953a8c938b90b38f9404f532ce3"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-101-attempt-01/core-artifacts-sha256.json",
+      "bytes": 3522,
+      "sha256": "cb3eed971de2fddca7dc5bb51df0ce3b33a4862dca1670e49f60211a5de9907f"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-101-attempt-01/metrics.json",
+      "bytes": 386,
+      "sha256": "90d82058356a430eab1394ed01e54b05e69f0029198cb465c2a30b13a0919cae"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-101-attempt-01/core-resources.json",
+      "bytes": 423,
+      "sha256": "94c028e12e5edf4146bdb69c17903e3cac25efa86b0fc28a5806f3de396deb66"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-101-attempt-01/cell-partition.tsv",
+      "bytes": 38448,
+      "sha256": "c1db24387ded94c750245197addf7771af502bf9ee671507dacf3575e3af106b"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-101-attempt-01/core-artifacts-sha256.json",
+      "bytes": 2557,
+      "sha256": "5402f78295444c1c0bf4a95b33c6761f642378ba33cbfebd1c2593016081f1cc"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-101-attempt-01/metrics.json",
+      "bytes": 385,
+      "sha256": "add4a7be8808d39ef3bc94c36e413f3ff44d3ee2aef97d5794bbf2637bf81deb"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-101-attempt-01/core-resources.json",
+      "bytes": 417,
+      "sha256": "50527841e0edaa5168e553c7c0557694304546269ab7f2c3b524b0d79f3560ba"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-101-attempt-01/cell-partition.tsv",
+      "bytes": 25200,
+      "sha256": "970c950d56a8317284118c97b000635abbf7b2ef0babc05c8c331020a5935a7b"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-202-attempt-01/core-artifacts-sha256.json",
+      "bytes": 3523,
+      "sha256": "150466cbf3712907e58b99d6c55657bf3c73cbd771b86539a88dc4286b09a698"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-202-attempt-01/metrics.json",
+      "bytes": 387,
+      "sha256": "397c644e639944d8ccd275900c228f06676c2c99f10ecd72ab532a664dbf4690"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-202-attempt-01/core-resources.json",
+      "bytes": 423,
+      "sha256": "0205e81b389a70f09401b89106ffa42c85a09415d4965f9afa9d8389ab028637"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-202-attempt-01/cell-partition.tsv",
+      "bytes": 38524,
+      "sha256": "7ed629df546e52beb9128f16fb4ebb48c3f1d9ee0dcb0b8e52c829db77b612c0"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-202-attempt-01/core-artifacts-sha256.json",
+      "bytes": 2557,
+      "sha256": "9fb1bd7c32c266a4944443addfca4b296b04d650995c2408c8dba5a19bbc49f9"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-202-attempt-01/metrics.json",
+      "bytes": 386,
+      "sha256": "2516aeb6da9c5bc6a545a77d9a4948b0632444f57d94de5889df389a55967894"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-202-attempt-01/core-resources.json",
+      "bytes": 417,
+      "sha256": "ae73a9dfca38b30b020724b24a50a5827c24c431cbc90f92a2673d615e0a6cd5"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-202-attempt-01/cell-partition.tsv",
+      "bytes": 25200,
+      "sha256": "db05af37a0e9e24ef5e9a252e53f7a3319f1d46732350fc51e71b2e83f14add3"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-303-attempt-01/core-artifacts-sha256.json",
+      "bytes": 3523,
+      "sha256": "f0205cc3052fbdfe8ab4f74b5e2430b0b350de2970c4e1f3de414959fcd1f846"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-303-attempt-01/metrics.json",
+      "bytes": 387,
+      "sha256": "98fa5a0f6e6ab0af410ce2145d1e8ef9a8df7031b1fb60ba440151cc851be241"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-303-attempt-01/core-resources.json",
+      "bytes": 423,
+      "sha256": "26cde9e0565bfc3e825983570507ac1db0f5bc362afbb8494a6078b3e5a5d46a"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-303-attempt-01/cell-partition.tsv",
+      "bytes": 38483,
+      "sha256": "7832e487d36394ffe3748ce91f6ce499830b4c75d307b6fcf082ec17d3ecefc0"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-303-attempt-01/core-artifacts-sha256.json",
+      "bytes": 2557,
+      "sha256": "9b8e2d3a5e1d0f20c312fb1076fe827af58c4afdb1bf6c9b8e49bd66f1413898"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-303-attempt-01/metrics.json",
+      "bytes": 385,
+      "sha256": "f63caf3651ea573af87f4e82e343d7490b324f83f9c3203fee6d9a981cee847b"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-303-attempt-01/core-resources.json",
+      "bytes": 416,
+      "sha256": "cb2161b22cb2faf9c814b8d4077ea4e49bd50ba213a5f6c4a65b920b211a1225"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-303-attempt-01/cell-partition.tsv",
+      "bytes": 25200,
+      "sha256": "f6dc8177e0a85500babef7720324c814033ed868f4d25b2d2850bce000a8d958"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-404-attempt-01/core-artifacts-sha256.json",
+      "bytes": 3522,
+      "sha256": "ee90a37f50e207250750dedd070fb70e611a5c3c3d8afe86b8cbed035c179a8d"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-404-attempt-01/metrics.json",
+      "bytes": 386,
+      "sha256": "5092d32fbbf2e8f3c699ee1e0d847f9ad1559e3894a8cd8115b51c7ac78aa63e"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-404-attempt-01/core-resources.json",
+      "bytes": 423,
+      "sha256": "216b6b7dbfd37c65606ac2d6ca88fe7c50ca7e8f82feb7ab03a7f9cc0d0171ff"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/cadir-seed-404-attempt-01/cell-partition.tsv",
+      "bytes": 38448,
+      "sha256": "64e63ef442cb86c0042d16a3da27302e188f7d60ced0cdb3e3a2f505b1545426"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-404-attempt-01/core-artifacts-sha256.json",
+      "bytes": 2557,
+      "sha256": "259376e589f95a79b5c87e76a50e77dad9be4a00feddbef41bcac8b6ebde247f"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-404-attempt-01/metrics.json",
+      "bytes": 385,
+      "sha256": "eafb2ad7e4c86c8fafb5706b496357292436ce941f2af2e7e69a88873c1d8e8b"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-404-attempt-01/core-resources.json",
+      "bytes": 417,
+      "sha256": "dcd0977e21eab677c28d4bd8d0186451e3b90f8dcf94e53f9da88c27639bb0d2"
+    },
+    {
+      "path": "/workspace/hsc-fair-experiment-data-20261026/formal/6cc7b3d-20261027-attempt-01/pca_snn_louvain-seed-404-attempt-01/cell-partition.tsv",
+      "bytes": 25200,
+      "sha256": "19873cbba3d633fe5bcde02cbf6738c3e79dbcd7afb2acc0d2487f5f766bdce4"
+    }
+  ],
+  "shared_input_RDS_read": false,
+  "new_reduction_or_clustering": false,
+  "ARI_NMI_recomputed": false
+}

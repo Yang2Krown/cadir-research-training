@@ -1,0 +1,53 @@
+{
+  "formal_execution_permitted": true,
+  "decision": "PASS_LIMITED_FORMAL_EXECUTION",
+  "signed_at_utc": "2026-10-27T00:49:18Z",
+  "reviewer_participated_in_implementation": false,
+  "reviewer_model": "gpt-6.1-sol",
+  "reviewer_reasoning_effort": "high",
+  "reviewer_agent_id": "/root/hsc_design_review",
+  "review_report": "/workspace/hsc-design-independent-review/reviews/hsc-design-20261026/独立阶段一科学审查报告.md",
+  "C04_decision": "ACCEPTED_LIMITED_NOVELTY_SCOPE",
+  "C04_scope": "Accepted as a course new-data extension relative to the directly checked PLOS main-text dataset list and prior fixed author repository source/QMD coverage. S1 full text, Table2 image rows and Zenodo file contents remain unverified; no claim that the authors never used GSE81682 or that all primary-source coverage is complete.",
+  "source_commit": "6cc7b3da67c193da11a67c45a75167d6521438b0",
+  "source_manifest_sha256": "8936ab92c624c9b8cc222caa4420c6d5f64c540fb740734d5fbca623bee97f6f",
+  "data_lock_sha256": "ac46362a024950ebeda08795b5f64857d3487435328c273e1dc2b8107feee6c1",
+  "scientific_config_sha256": "b1e30c8d292b289095bcc1b5159f82b4568f16ca4b07207e039795e15219a969",
+  "environment_signature_sha256": "e2e6b0b03a1952068eaa8c4ccec469671d947bb4553926b326d4f1086b0b2fc5",
+  "runtime_library_lock_sha256": "37bd6195b8605db9572addc842431a723b1980deb4a6cc96c8e23fee5aac5d52",
+  "docker_image_id": "sha256:baf71525f92cb9813846199dce68c6190c23d4774b025a7baec85e9688b642c7",
+  "authority_commit": "574c71e357f4b3bb714a3d4ddceb28593b0afd27",
+  "accepted_input_review": "da802216238bc66a60eff514b1ccebf213e77351",
+  "methods": ["CAdir", "PCA + rank-SNN + weighted Louvain"],
+  "seeds": [2358, 101, 202, 303, 404],
+  "shared_input": {
+    "cells": 1656,
+    "eligible_endogenous_genes": 40721,
+    "HVG": 6000,
+    "dimensions": 30,
+    "normalization": "Once log2(count / sf + 1); sf=all-endogenous library before low-expression filtering / retained-cell mean, center.size.factors=FALSE",
+    "input_path": "/workspace/hsc-fair-experiment-data-20261026/stage1/attempt-01/shared-hvg-sce.rds"
+  },
+  "evaluation": {
+    "cells": 1641,
+    "retained_unassigned_in_clustering": 15,
+    "reference": "Six frozen exclusive published broad immunophenotype memberships, no imputation",
+    "metrics": ["ARI", "MI/max(Hpred,Hreference), natural logarithms"],
+    "denominator_per_method": 5,
+    "same_evaluation_IDs_for_every_metric_method_seed": true
+  },
+  "closed_blocker": "fc5ce7b native-gene-subset/full-input mismatch repaired by original implementer in 6cc7b3d. Independent 39-check pure ID/export repair verification passed without changing upstream objects, qcutoff, scientific configuration, prepared inputs or runtime.",
+  "allowed_execution": "Only the frozen formal runner, both methods and all five declared seeds, saved-CA ranking and plots, and declared evaluation. Fresh output child under /workspace/hsc-fair-experiment-data-20261026/formal; 2CPU/8GiB, preserve failures and denominator, no label-informed tuning.",
+  "limitations": [
+    "Prospective design admission only; no result, superiority or final course acceptance claim.",
+    "Immunophenotype reference is not functional biological truth; donor/Rep unknown; descriptive single-study comparison; random seeds are not biological replicates.",
+    "Observed retained count1656 does not establish original-paper cohort identity or web-corrected provenance.",
+    "C04 novelty is accepted only within the explicitly checked source scope.",
+    "Exact stored CA basis only; same seed is not an arbitrary-basis ranking invariance claim.",
+    "RSS sampling can miss spikes and process HWM includes startup/input; report resource scopes and diagnostic failures.",
+    "Complete local raw/object backup and Mac-board synchronization remain unestablished.",
+    "Substantive changes require review; fixed formal results require a new independent result review before final acceptance."
+  ],
+  "stage1_forbidden_algorithms_executed_by_reviewer": false,
+  "execution_role_disclosure": "/workspace/hsc-design-independent-review/reviews/hsc-design-20261026/execution-role-disclosure.json"
+}

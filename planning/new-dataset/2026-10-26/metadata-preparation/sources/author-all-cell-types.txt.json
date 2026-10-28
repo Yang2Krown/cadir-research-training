@@ -1,0 +1,15 @@
+{
+  "url": "http://blood.stemcells.cam.ac.uk/data/all_cell_types.txt",
+  "started_utc": "2026-10-26T06:31:57.103181+00:00",
+  "status": 403,
+  "error": "HTTP Error 403: Forbidden",
+  "headers": {
+    "content-length": "16",
+    "content-type": "text/plain",
+    "date": "Mon, 26 Oct 2026 06:31:56 GMT",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "response_body": "Domain forbidden",
+  "elapsed_seconds": 0.018350671000007424
+}

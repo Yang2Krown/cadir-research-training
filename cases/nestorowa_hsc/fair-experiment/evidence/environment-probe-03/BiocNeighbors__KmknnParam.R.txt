@@ -1,0 +1,4 @@
+list(formals = as.pairlist(alist(... = , distance = "Euclidean")), 
+    body = {
+        new("KmknnParam", kmeans.args = list(...), distance = distance)
+    })

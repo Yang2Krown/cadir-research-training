@@ -1,0 +1,9 @@
+evidence_id	status	source_scope	url	locator	finding	limitation
+E01	READABLE_PRIMARY_SOURCE	PLOS论文正文：Experimental data、Table 2 caption、cluster-number recovery、支持信息目录	https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014418	HTML lines 438-449, 478-493	Methods列出Freytag Gold、Tabula Muris、Tirosh、PBMC10x、Dmel Spatial、Tabula Sapiens、Brain Organoids、Zeisel Brain、Darmanis、Baron Pancreas、Tabula Muris LM、PBMC3K；find Nestorowa/GSE81682无匹配；另列Tabula Muris cluster-number recovery	正文未列名不等于全篇未用；S1附件未读
+E02	S1_LISTED_BUT_PDF_NOT_RETRIEVED	PLOS官方S1标题、范围说明、DOI及链接尝试	https://doi.org/10.1371/journal.pcbi.1014418.s001	HTML lines 485-493; turn286240view1	官方说明S1含额外比较、分析与基准；点击后HTTP 500并重定向至当前工具不可访问的dx.plos.org	S1全文内容未知
+E03	INDEXED_SNIPPET_ONLY	PMC索引摘要（非文件）	https://pmc.ncbi.nlm.nih.gov/articles/PMC13349309/bin/pcbi.1014418.s001.pdf	turn427101search0	搜索摘要列出PDF文件名、标示140.6 KB和首个S1图说明	没有下载或打开PDF；摘要不覆盖全文
+E04	ACCESS_BLOCKED_RECAPTCHA	PMC官方镜像页面	https://pmc.ncbi.nlm.nih.gov/articles/PMC13349309/	turn768652view0	返回checking-your-browser/reCAPTCHA	未进入正文或附件
+E05	TABLE_CAPTION_READABLE_IMAGE_NOT_RETRIEVED	PLOS Table 2图像资产	https://doi.org/10.1371/journal.pcbi.1014418.t002	HTML lines 447-449; turn286240view0	正文表题可见，图像访问重定向至签名Google Storage URL后工具500	未核对表格行内容
+E06	PRIOR_PINNED_REPOSITORY_AUDIT_REUSED	固定作者结果仓库67个源码/QMD文件的先前来源核查	https://github.com/VingronLab/CAdir_results/tree/c15b49578bde38b42fd5db2c9830c10dd441ee4c	来源审计报告.md lines 40,69-71; sources.json	先前审计未发现Nestorowa/GSE81682调用/引用	代码搜索阴性不是绝未使用证明；本轮未重扫
+E07	IDENTIFIED_NOT_INSPECTED	PLOS Data Availability指向的Zenodo复现归档	https://zenodo.org/records/14900874	PLOS HTML line 136; turn244364view0	记录页打开在当前工具不可访问	未核对文件清单
+E08	ENDPOINT_NOT_ACCESSIBLE_VIA_WEB_TOOL	Europe PMC fullTextXML API元数据入口	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13349309/fullTextXML	turn751530view0	工具报告URL不可访问，未取得OA package FTP路径	未下载文件；没有新增附件证据

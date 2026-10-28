@@ -1,0 +1,34 @@
+{
+  "prepared_at": "2026-10-26T16:48:06.819274+08:00",
+  "base_commit": "d853986e2e3a1cabc9f3f728f616e402432257ec",
+  "control_commit": "1d99adbae456ad2b6df4898519a64ca826d878a5",
+  "branch": "fix/nestorowa-input-audit-a03-20261026",
+  "status": "A03_IMPLEMENTED_REAL_INPUT_LEGALITY_VERIFIED_PENDING_INDEPENDENT_RECHECK",
+  "authoritative_attempts": [
+    "metadata-only-03",
+    "full-03",
+    "metadata_identity_regression_03"
+  ],
+  "A03": "implemented; 9 real-metadata identity regression checks pass; independent recheck pending",
+  "A01": "file identity, matrix/gene/cell IDs, exact finite nonnegative integer values and whole GEO equivalence verified; QC/scientific lock not performed",
+  "scope_adoption": "fixed official legacy 1920 candidate object; published broad phenotype candidates; single-study descriptive extension; no original-1656 or web-correction equivalence claim",
+  "formal_execution_permitted": false,
+  "QC_filtering_performed": false,
+  "normalization_performed": false,
+  "clustering_or_metrics_run": false,
+  "simulation_or_smoke_run": false,
+  "scientific_input_lock_complete": false,
+  "label_status": "DRAFT_NOT_FROZEN",
+  "PR_created": false,
+  "independent_review_organized": false,
+  "implementation_readback_checks": 25,
+  "source_files_unchanged": true,
+  "remaining": [
+    "independent A01/A03 recheck",
+    "authorized common QC and final cohort/HVG/evaluation IDs",
+    "input/label/config/environment locks and formal design",
+    "C04 official S1 or explicit source-by-source novelty decision",
+    "C05 formal approval",
+    "disclose unknown web revision applicability, source-flow coverage, donor/Rep semantics under adopted scope"
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "case": "absent_admission",
+    "exit_code": 2,
+    "stdout": "",
+    "stderr": "BLOCKED: independent admission is absent\n",
+    "algorithms_called": false
+  },
+  {
+    "case": "unapproved_template",
+    "exit_code": 2,
+    "stdout": "",
+    "stderr": "BLOCKED: invalid independent admission field formal_execution_permitted\n",
+    "algorithms_called": false
+  }
+]

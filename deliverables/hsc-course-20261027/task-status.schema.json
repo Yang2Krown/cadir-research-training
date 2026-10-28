@@ -1,0 +1,278 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:hsc-task-status:1.0",
+  "title": "HSC course delivery task status snapshot",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "snapshot_date",
+    "snapshot_state",
+    "formal_execution_permitted",
+    "board_sync",
+    "tasks"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "snapshot_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "snapshot_state": {
+      "enum": [
+        "draft",
+        "current",
+        "superseded"
+      ]
+    },
+    "formal_execution_permitted": {
+      "type": "boolean"
+    },
+    "state_source": {
+      "type": "string"
+    },
+    "board_sync": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "target",
+        "note"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "not_synced",
+            "synced",
+            "partially_synced"
+          ]
+        },
+        "target": {
+          "type": "string"
+        },
+        "synced_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "tasks": {
+      "type": "array",
+      "minItems": 7,
+      "items": {
+        "$ref": "#/$defs/task"
+      },
+      "uniqueItems": true,
+      "maxItems": 7,
+      "allOf": [
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "task_id"
+            ],
+            "properties": {
+              "task_id": {
+                "const": "HSC-INPUT"
+              }
+            }
+          },
+          "minContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "task_id"
+            ],
+            "properties": {
+              "task_id": {
+                "const": "HSC-QC"
+              }
+            }
+          },
+          "minContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "task_id"
+            ],
+            "properties": {
+              "task_id": {
+                "const": "HSC-DESIGN"
+              }
+            }
+          },
+          "minContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "task_id"
+            ],
+            "properties": {
+              "task_id": {
+                "const": "HSC-RUNS"
+              }
+            }
+          },
+          "minContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "task_id"
+            ],
+            "properties": {
+              "task_id": {
+                "const": "HSC-RESULT-REVIEW"
+              }
+            }
+          },
+          "minContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "task_id"
+            ],
+            "properties": {
+              "task_id": {
+                "const": "HSC-EXPORT"
+              }
+            }
+          },
+          "minContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "required": [
+              "task_id"
+            ],
+            "properties": {
+              "task_id": {
+                "const": "HSC-LOCAL-BACKUP"
+              }
+            }
+          },
+          "minContains": 1
+        }
+      ]
+    }
+  },
+  "$defs": {
+    "task": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "task_id",
+        "title",
+        "status",
+        "summary",
+        "scope_limit",
+        "next_action",
+        "depends_on",
+        "evidence"
+      ],
+      "properties": {
+        "task_id": {
+          "enum": [
+            "HSC-INPUT",
+            "HSC-QC",
+            "HSC-DESIGN",
+            "HSC-RUNS",
+            "HSC-RESULT-REVIEW",
+            "HSC-EXPORT",
+            "HSC-LOCAL-BACKUP"
+          ]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "closed_limited_scope",
+            "completed_read_only",
+            "in_progress",
+            "pending_independent_review",
+            "blocked_by_formal_gate",
+            "not_started",
+            "template_ready",
+            "passed_limited_scope",
+            "completed_pending_review",
+            "completed_pending_independent_result_review"
+          ]
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope_limit": {
+          "type": "string"
+        },
+        "next_action": {
+          "type": "string"
+        },
+        "depends_on": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "description",
+              "status"
+            ],
+            "properties": {
+              "description": {
+                "type": "string"
+              },
+              "path": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "sha256": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "pattern": "^([a-fA-F0-9]{64})?$"
+              },
+              "status": {
+                "enum": [
+                  "available",
+                  "path_not_supplied",
+                  "pending",
+                  "not_applicable"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

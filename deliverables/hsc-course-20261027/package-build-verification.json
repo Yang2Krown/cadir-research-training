@@ -1,0 +1,43 @@
+{
+  "verified_at_utc": "2026-10-27T01:43:51.554486+00:00",
+  "delivery_branch": "delivery/hsc-course-20261027",
+  "source_commits": {
+    "implementation": "6cc7b3da67c193da11a67c45a75167d6521438b0",
+    "design_review": "2d2565c24b3958260d7232ff03f211c06bd2e845",
+    "result_archive": "091a8a4585cabc59a5504380398892bac49044f4",
+    "scientific_result_acceptance": "faa7cd80a9e9b5bee0bed9835146dbca0d18cede",
+    "final_result_review_and_text_review": "b48066cba0bf4cd308f2f75b1134c12f85c576ef"
+  },
+  "zip": {
+    "path": "/workspace/hsc-course-delivery-git/deliverables/hsc-course-20261027/HSC-course-results-091a8a4-20261027.zip",
+    "bytes": 23185119,
+    "sha256": "034f08ff08f57961cc12db09b0c3dd2e13b7893ea09f793f1cea00f79166023c",
+    "sha256_sidecar": "/workspace/hsc-course-delivery-git/deliverables/hsc-course-20261027/HSC-course-results-091a8a4-20261027.zip.sha256",
+    "internal_root": "HSC-course-results-091a8a4-20261027/"
+  },
+  "verification": {
+    "zip_crc": "PASS",
+    "every_member_sha256_against_expanded_tree": "PASS (assembler)",
+    "independent_zip_crc_recheck": "PASS",
+    "zip_member_count": 342,
+    "rds_members_in_zip": 0,
+    "result_tree_non_rds_files": 274,
+    "result_tree_non_rds_bytes": 34175354,
+    "archive_copy_manifest_non_rds_checks": 265,
+    "external_object_rows": 63,
+    "large_object_manifest_rows": 48,
+    "rng_rds_external_rows": 15,
+    "external_SHA256": "reused from committed large-object/archive-copy manifests; source existence and bytes checked; no RDS deserialized or rehashed"
+  },
+  "independent_review": {
+    "status": "PASS_LIMITED_RESULT_ACCEPTANCE",
+    "decision_sha256": "dc54cfe9ba4a6cd751e0ccd2ab356326c56290ff441d5047a37613a78672ad63",
+    "report_sha256": "9ad5bacad654f05773098b7f54e1c61e7efc1a2406e54aa0a34e625449403366",
+    "text_review_status": "PASS_LIMITED_SCIENTIFIC_TEXT_CONSISTENCY",
+    "text_review_sha256": "d24a53fb7f16c10f488c646600f49330a5b04930b9e2eb238d9dde898bb3ab1b"
+  },
+  "backup_state": {
+    "mac_board": "not_synced",
+    "user_local_complete_backup": "not_verified"
+  }
+}

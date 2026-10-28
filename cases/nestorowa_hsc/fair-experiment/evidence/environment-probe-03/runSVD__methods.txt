@@ -1,0 +1,55 @@
+Function: runSVD (package BiocSingular)
+BSPARAM="ExactParam"
+function (x, k, nu = k, nv = k, center = FALSE, scale = FALSE, 
+    BPPARAM = SerialParam(), ..., BSPARAM = ExactParam()) 
+{
+    do.call(FUN, c(list(x = x, k = k, nu = nu, nv = nv, center = center, 
+        scale = scale, BPPARAM = BPPARAM, ...), ARGS(BSPARAM)))
+}
+
+
+BSPARAM="FastAutoParam"
+function (x, k, nu = k, nv = k, center = FALSE, scale = FALSE, 
+    BPPARAM = SerialParam(), ..., BSPARAM = ExactParam()) 
+{
+    BSPARAMFUN <- IrlbaParam
+    if (is(x, "DelayedMatrix")) {
+        if (class(x)[1] == "DelayedMatrix" || !hasMethod("%*%", 
+            class(x))) {
+            BSPARAMFUN <- RandomParam
+        }
+    }
+    runSVD(x, k = k, nu = nu, nv = nv, center = center, scale = scale, 
+        BPPARAM = BPPARAM, ..., BSPARAM = BSPARAMFUN(deferred = bsdeferred(BSPARAM), 
+            fold = bsfold(BSPARAM)))
+}
+
+
+BSPARAM="IrlbaParam"
+function (x, k, nu = k, nv = k, center = FALSE, scale = FALSE, 
+    BPPARAM = SerialParam(), ..., BSPARAM = ExactParam()) 
+{
+    do.call(FUN, c(list(x = x, k = k, nu = nu, nv = nv, center = center, 
+        scale = scale, BPPARAM = BPPARAM, ...), ARGS(BSPARAM)))
+}
+
+
+BSPARAM="missing"
+function (x, k, nu = k, nv = k, center = FALSE, scale = FALSE, 
+    BPPARAM = SerialParam(), ..., BSPARAM = ExactParam()) 
+{
+    do.call(FUN, c(list(x = x, k = k, nu = nu, nv = nv, center = center, 
+        scale = scale, BPPARAM = BPPARAM, ...), ARGS(BSPARAM)))
+}
+
+
+BSPARAM="RandomParam"
+function (x, k, nu = k, nv = k, center = FALSE, scale = FALSE, 
+    BPPARAM = SerialParam(), ..., BSPARAM = ExactParam()) 
+{
+    do.call(FUN, c(list(x = x, k = k, nu = nu, nv = nv, center = center, 
+        scale = scale, BPPARAM = BPPARAM, ...), ARGS(BSPARAM)))
+}
+
+
+
