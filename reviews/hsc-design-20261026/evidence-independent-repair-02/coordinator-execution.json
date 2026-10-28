@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/scripts/container.sh",
+    "/workspace/hsc-fair-experiment-data-20261026/design-review/independent-repair-02",
+    "Rscript",
+    "/workspace/hsc-design-independent-review/reviews/hsc-design-20261026/verify_gene_subset_repair_v2.R",
+    "/workspace/hsc-fair-experiment",
+    "/workspace/hsc-fair-experiment-data-20261026/design-review/independent-repair-02"
+  ],
+  "executor": "root coordinator relay; unmodified independent-reviewer script",
+  "script_sha256_before": "116ffabdb9c9a11cf33bc5987f25880fe9b982dcec73048974a399d56f2c1fd1",
+  "script_sha256_after": "116ffabdb9c9a11cf33bc5987f25880fe9b982dcec73048974a399d56f2c1fd1",
+  "exit_code": 0,
+  "elapsed_seconds": 30.756639492989052,
+  "completed_utc": "2026-10-27T00:48:00.531884+00:00"
+}

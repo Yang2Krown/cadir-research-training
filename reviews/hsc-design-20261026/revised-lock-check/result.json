@@ -1,0 +1,9 @@
+{
+  "status": "PASS_REVISED_EXACT_SOURCE_AND_UNCHANGED_SCIENTIFIC_LOCKS",
+  "source_commit": "6cc7b3da67c193da11a67c45a75167d6521438b0",
+  "forbidden_algorithms_called": false,
+  "source_manifest_sha256": "8936ab92c624c9b8cc222caa4420c6d5f64c540fb740734d5fbca623bee97f6f",
+  "source_files": 59,
+  "protected_data_files": 42,
+  "runtime_files": 1855
+}

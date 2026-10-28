@@ -1,0 +1,255 @@
+{
+  "scope": "Independent review artifacts only; no original expression matrices or formal results",
+  "files": [
+    {
+      "path": "C04独立裁定.md",
+      "bytes": 2639,
+      "sha256": "535fd6af32d39ca0a7e46faa68d0156d51c8960c79521beeec399da4bd911eba"
+    },
+    {
+      "path": "admission-host-positive.json",
+      "bytes": 640,
+      "sha256": "b4e7a1340f6d53294cb1a5c5c97d0ebb83f0411ccb7b4ad2994d1aea70b49e00"
+    },
+    {
+      "path": "admission.json",
+      "bytes": 4150,
+      "sha256": "5c0834c3150129980c1c372b9593be43e489a2ed42f9e9667abf131ebf4e1d0a"
+    },
+    {
+      "path": "evidence-independent-01/coordinator-console.log",
+      "bytes": 970,
+      "sha256": "ba842680af4e5f508261e410be09bdcdf0aecac4ac712edd9916195d3c1f80ba"
+    },
+    {
+      "path": "evidence-independent-01/coordinator-execution.json",
+      "bytes": 1130,
+      "sha256": "6dee52355747c7ea59b0b590519d42b1d9d6c69b0ae593054805fec5bb319ba1"
+    },
+    {
+      "path": "evidence-independent-01/formal_run.R-false-template.log",
+      "bytes": 167,
+      "sha256": "533c285958f7f621b2b7f6d8ec1b5a6750910a19eda07f82553674d4aaa0e297"
+    },
+    {
+      "path": "evidence-independent-01/independent-checks.tsv",
+      "bytes": 5640,
+      "sha256": "f8992314873b306e5f5f730d71e01a1b15ebe6979921d7f8f91afbfb6b5a9180"
+    },
+    {
+      "path": "evidence-independent-01/independent-result.json",
+      "bytes": 810,
+      "sha256": "01ee903385631af7a1c7d7dbe0fc89e295f33137e0f4fea6452523e7157fb672"
+    },
+    {
+      "path": "evidence-independent-01/interface-assign_genes.txt",
+      "bytes": 845,
+      "sha256": "7fb2a5ca4afb9a40f133bef93f1fdac367d95c322446501d7e9ba686ed103e7d"
+    },
+    {
+      "path": "evidence-independent-01/interface-biocsingular_runPCA.txt",
+      "bytes": 410,
+      "sha256": "615c0d928057d63f1dc1cef3a85549904d491a5d851684d95c2eba95f4c27914"
+    },
+    {
+      "path": "evidence-independent-01/interface-get_mat.txt",
+      "bytes": 867,
+      "sha256": "b85380facfd4961786765696a15bf24c974cddc12e301c374164fff4056c2d3a"
+    },
+    {
+      "path": "evidence-independent-01/rank_diagnostics.R-false-template.log",
+      "bytes": 167,
+      "sha256": "533c285958f7f621b2b7f6d8ec1b5a6750910a19eda07f82553674d4aaa0e297"
+    },
+    {
+      "path": "evidence-independent-01/sessionInfo.txt",
+      "bytes": 5646,
+      "sha256": "ca29481f6cb8a3e468891880bfc59bf3f13c2269ef0028c553adc5ee97280d6b"
+    },
+    {
+      "path": "evidence-independent-repair-02/coordinator-console.log",
+      "bytes": 255,
+      "sha256": "19e739c1f8597c21761f7ce9ba049cdac827c957db815f397fd1824dbdae5e90"
+    },
+    {
+      "path": "evidence-independent-repair-02/coordinator-execution.json",
+      "bytes": 834,
+      "sha256": "219c661b9ba99cd66d56283b86dec842fc28ccc128f03ad592865421dbd8f838"
+    },
+    {
+      "path": "evidence-independent-repair-02/empty-subset/gene-assignment-summary.json",
+      "bytes": 368,
+      "sha256": "92d2f0df0118ea6328b94dd25c1dc9cd9fcd4fecf79f3d7f3c1356a669be092a"
+    },
+    {
+      "path": "evidence-independent-repair-02/empty-subset/gene-exclusions.tsv",
+      "bytes": 462066,
+      "sha256": "7ff6b0a27d0df33b79cec95445205d85b28e68dc797aea511fb09977287ba965"
+    },
+    {
+      "path": "evidence-independent-repair-02/empty-subset/gene-partition.tsv",
+      "bytes": 462066,
+      "sha256": "7ff6b0a27d0df33b79cec95445205d85b28e68dc797aea511fb09977287ba965"
+    },
+    {
+      "path": "evidence-independent-repair-02/empty-subset/unassigned-gene-ids.txt",
+      "bytes": 114000,
+      "sha256": "cc75bf454cd3f5531a86ab8e01d18e93c6ad615a8a0e36b17ebadba59907baa6"
+    },
+    {
+      "path": "evidence-independent-repair-02/formal_run.R-false-template.log",
+      "bytes": 167,
+      "sha256": "533c285958f7f621b2b7f6d8ec1b5a6750910a19eda07f82553674d4aaa0e297"
+    },
+    {
+      "path": "evidence-independent-repair-02/full-assignment/gene-assignment-summary.json",
+      "bytes": 353,
+      "sha256": "4d3b13f3d86e93d1a249a5d9fb26616ffee8c16cb9a62088a680b4f4700f339b"
+    },
+    {
+      "path": "evidence-independent-repair-02/full-assignment/gene-exclusions.tsv",
+      "bytes": 66,
+      "sha256": "0ae48942fee29434a29746f7d80c5d1b7e021fe45f4d7eb679c3f25de781e258"
+    },
+    {
+      "path": "evidence-independent-repair-02/full-assignment/gene-partition.tsv",
+      "bytes": 408066,
+      "sha256": "4279caecfe035c992d392626f4affe4cb81f143a3dc27e5209d95f8b25abaaa3"
+    },
+    {
+      "path": "evidence-independent-repair-02/full-assignment/unassigned-gene-ids.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "evidence-independent-repair-02/rank_diagnostics.R-false-template.log",
+      "bytes": 167,
+      "sha256": "533c285958f7f621b2b7f6d8ec1b5a6750910a19eda07f82553674d4aaa0e297"
+    },
+    {
+      "path": "evidence-independent-repair-02/repair-checks.tsv",
+      "bytes": 1485,
+      "sha256": "6d71d4ba0b12d9b76d3cff541791e46ee4a8ea3f733a3941a1fe2f065ad3b5ac"
+    },
+    {
+      "path": "evidence-independent-repair-02/repair-result.json",
+      "bytes": 258,
+      "sha256": "02f9bdc690b52a150274d2043a28c51bf6ab3b3215ac0daae3b1469bb491b089"
+    },
+    {
+      "path": "evidence-independent-repair-02/scrambled-subset/gene-assignment-summary.json",
+      "bytes": 445,
+      "sha256": "ed6e509c80101b18abe4f041ecc73501d66ef4c060e8ac49e72363fd95f15497"
+    },
+    {
+      "path": "evidence-independent-repair-02/scrambled-subset/gene-exclusions.tsv",
+      "bytes": 461831,
+      "sha256": "2cf4590ecb46cda06be8c776333c8bf35d6762cb4f0bb6424c611177b992aed6"
+    },
+    {
+      "path": "evidence-independent-repair-02/scrambled-subset/gene-partition.tsv",
+      "bytes": 462035,
+      "sha256": "f72e6b4cb671440e098acb74a7f8cf224765cedd6342daa0ed16e7b25c6fb754"
+    },
+    {
+      "path": "evidence-independent-repair-02/scrambled-subset/unassigned-gene-ids.txt",
+      "bytes": 113943,
+      "sha256": "32200bcb2107268bfc72bc4ebc5cc4d283660bf8bbb484354d8f448324b1bc49"
+    },
+    {
+      "path": "execution-role-disclosure.json",
+      "bytes": 2392,
+      "sha256": "992650d1138c6902a3679de62ddcc08c74434f7995d7960973ac681f73c2d3c0"
+    },
+    {
+      "path": "fc5ce7b-decision.json",
+      "bytes": 660,
+      "sha256": "2eb4b9b1da0ed2dee2ea681e9acc03a921430e8550e6dbcb576418f80b0c28ed"
+    },
+    {
+      "path": "fc5ce7b-阻断发现.md",
+      "bytes": 2029,
+      "sha256": "cbe70546941f3e20797c333d38a580bc97d910d70a264d9e93603e9c55a7d0c6"
+    },
+    {
+      "path": "host-gate-false-template.log",
+      "bytes": 72,
+      "sha256": "d3b2ff2c116b13739e60353dae7aa1220a9eef1770729054b3985ed1e10c5f3f"
+    },
+    {
+      "path": "host-gate-missing.log",
+      "bytes": 41,
+      "sha256": "2ae95c32a014382ca7ad5019eb7cec133fe92a590e840e6f8639ebb7fb6e83cb"
+    },
+    {
+      "path": "host-result.json",
+      "bytes": 277,
+      "sha256": "04a82ff736d088190f51382d7985a8690818918018cbc7d5845098ef80d6e2e1"
+    },
+    {
+      "path": "lock-differences.tsv",
+      "bytes": 107574,
+      "sha256": "18aa40f94db82eaaafd2b1645755d0ce91632fc55c5043fe2564591ace76bf30"
+    },
+    {
+      "path": "revised-lock-check/differences.tsv",
+      "bytes": 164901,
+      "sha256": "d0e32b0968f352623370f8350f64efc436e00772985782016b65246cdd19ff76"
+    },
+    {
+      "path": "revised-lock-check/gate-absent.log",
+      "bytes": 41,
+      "sha256": "2ae95c32a014382ca7ad5019eb7cec133fe92a590e840e6f8639ebb7fb6e83cb"
+    },
+    {
+      "path": "revised-lock-check/gate-false-template.log",
+      "bytes": 72,
+      "sha256": "d3b2ff2c116b13739e60353dae7aa1220a9eef1770729054b3985ed1e10c5f3f"
+    },
+    {
+      "path": "revised-lock-check/result.json",
+      "bytes": 351,
+      "sha256": "a822dbb3c351e6c9fda3fcda0b6d8fc750169874f5801e86defb0316436a5f48"
+    },
+    {
+      "path": "scientific-config-history.txt",
+      "bytes": 404,
+      "sha256": "094e7bb24c981a7bd8feee7a65ee4dffd98dc980e3923833ab999784e355a9ad"
+    },
+    {
+      "path": "static-science-review.tsv",
+      "bytes": 3802,
+      "sha256": "1e79b9cb8fcf8006f2d59c47a0475b83143ce7e4038c3d3fd68ac9013ac503ab"
+    },
+    {
+      "path": "verify_gene_subset_repair.R",
+      "bytes": 6274,
+      "sha256": "5ec2e47993858b89d9781b5e92127775a64036050b7dd91692b4e00a102be163"
+    },
+    {
+      "path": "verify_gene_subset_repair_v2.R",
+      "bytes": 6459,
+      "sha256": "116ffabdb9c9a11cf33bc5987f25880fe9b982dcec73048974a399d56f2c1fd1"
+    },
+    {
+      "path": "verify_locks.py",
+      "bytes": 4822,
+      "sha256": "a7ce8ebd4f4b82146b59e388d3e552b1a9e52f8a3b05c4638ead872ba49016e9"
+    },
+    {
+      "path": "verify_revised_locks.py",
+      "bytes": 3543,
+      "sha256": "dc722b2d3c51885242ee104ebffe2055485646caedcfcfe319d7004f6cfbdf29"
+    },
+    {
+      "path": "verify_stage1.R",
+      "bytes": 10014,
+      "sha256": "a5c106522edbf6b2239578c53cf52a2481b950f2e191181b25b8b1000a13eb9e"
+    },
+    {
+      "path": "独立阶段一科学审查报告.md",
+      "bytes": 9325,
+      "sha256": "9924101b8add80898f56a3aff4451327e7255e425fd6b1a5a4cd85a338957277"
+    }
+  ]
+}

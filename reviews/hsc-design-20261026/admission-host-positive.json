@@ -1,0 +1,14 @@
+{
+  "record_type": "Reviewer tool transcript receipt; recorded after actual execution",
+  "command": [
+    "python3",
+    "/workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/scripts/run_experiment.py",
+    "--check-only",
+    "--admission",
+    "/workspace/hsc-design-independent-review/reviews/hsc-design-20261026/admission.json"
+  ],
+  "exit_code": 0,
+  "stdout": "INDEPENDENT_ADMISSION_AND_EXACT_BINDINGS_VALID\n",
+  "source_commit": "6cc7b3da67c193da11a67c45a75167d6521438b0",
+  "scope": "Positive host admission and all exact source/data/config/environment/runtime-library bindings, no container or algorithm launch"
+}

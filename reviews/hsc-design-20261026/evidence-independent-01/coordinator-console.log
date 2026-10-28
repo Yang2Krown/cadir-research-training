@@ -1,0 +1,72 @@
+$status
+[1] "PASS_STAGE1_SCIENTIFIC_ORACLE_NO_ALGORITHMS"
+
+$forbidden_algorithms_called
+[1] FALSE
+
+$counts
+$counts$raw
+[1] 1920
+
+$counts$retained
+[1] 1656
+
+$counts$excluded
+[1] 264
+
+$counts$eligible
+[1] 40721
+
+$counts$HVG
+[1] 6000
+
+$counts$evaluated
+[1] 1641
+
+$counts$retained_unassigned
+[1] 15
+
+$counts$reference_class_counts
+$counts$reference_class_counts$LTHSC
+[1] 287
+
+$counts$reference_class_counts$LMPP
+[1] 246
+
+$counts$reference_class_counts$MPP
+[1] 326
+
+$counts$reference_class_counts$CMP
+[1] 310
+
+$counts$reference_class_counts$MEP
+[1] 354
+
+$counts$reference_class_counts$GMP
+[1] 118
+
+
+
+$thresholds
+$thresholds$log2_library_lower
+[1] 15.87351
+
+$thresholds$log2_detected_lower
+[1] 12.81154
+
+$thresholds$ERCC_percent_upper
+[1] 34.67633
+
+
+$normalization_max_abs_error
+[1] 3.552714e-15
+
+$last_stage
+[1] "final_file_protection"
+
+$reviewer_agent_id
+[1] "/root/hsc_design_review"
+
+$script_sha256
+[1] "a5c106522edbf6b2239578c53cf52a2481b950f2e191181b25b8b1000a13eb9e"
+

@@ -1,0 +1,21 @@
+{
+  "started_at": "2026-10-26T21:12:21.876791+08:00",
+  "command": [
+    "/workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/scripts/container.sh",
+    "/workspace/hsc-fair-experiment-data-20261026/design-review/independent-01",
+    "Rscript",
+    "/workspace/hsc-design-independent-review/reviews/hsc-design-20261026/verify_stage1.R",
+    "/workspace/hsc-fair-experiment",
+    "/workspace/hsc-fair-experiment-data-20261026/design-review/independent-01"
+  ],
+  "before_script_sha256": {
+    "/workspace/hsc-design-independent-review/reviews/hsc-design-20261026/verify_stage1.R": "a5c106522edbf6b2239578c53cf52a2481b950f2e191181b25b8b1000a13eb9e",
+    "/workspace/hsc-fair-experiment/cases/nestorowa_hsc/fair-experiment/scripts/container.sh": "e420a41203f62540d4cb85de3cc26d1224689a6f37e3da895e2da4023ed4548b"
+  },
+  "executor": "coordinator relay of independent reviewer script, unchanged",
+  "formal_execution_permitted": false,
+  "scope": "independent stage1 QC/preprocessing/design verification only; no algorithm",
+  "exit_code": 0,
+  "elapsed_seconds": 103.58770379500129,
+  "scripts_unchanged_after": true
+}

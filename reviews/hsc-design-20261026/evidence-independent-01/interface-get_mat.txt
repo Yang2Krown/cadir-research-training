@@ -1,0 +1,34 @@
+function (x, subset_row, ntop, scale, get.var = FALSE) 
+{
+    use.var <- is.null(subset_row) || scale || get.var
+    if (use.var) {
+        rv <- MatrixGenerics::rowVars(DelayedArray(x), useNames = TRUE)
+    }
+    if (is.null(subset_row)) {
+        o <- order(rv, decreasing = TRUE)
+        subset_row <- head(o, ntop)
+    }
+    else if (is.character(subset_row)) {
+        subset_row <- .subset2index(subset_row, x, byrow = TRUE)
+    }
+    x <- x[subset_row, , drop = FALSE]
+    if (is.null(rownames(x))) {
+        rownames(x) <- subset_row
+    }
+    if (use.var) {
+        rv <- rv[subset_row]
+    }
+    if (scale) {
+        keep <- rv >= 1e-08
+        x <- x[keep, , drop = FALSE]/sqrt(rv[keep])
+        rv <- rep(1, nrow(x))
+    }
+    x <- t(x)
+    x <- realizeFileBackedMatrix(x)
+    if (get.var) {
+        list(x = x, v = rv)
+    }
+    else {
+        x
+    }
+}
